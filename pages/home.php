@@ -1,8 +1,8 @@
-<?php include("header.html"); ?>
 <section class="hero">
   <div class="container">
     <h1>flexspace</h1>
-    <h2>Yet another scss framework, based on <a href="http://bulma.io" target="_blank">bulma</a>.</h2>
+    <h2>Yet another SCSS framework.</h2>
+    <h2>based on <a href="http://bulma.io" target="_blank">bulma</a>.</h2>
   </div>
 </section>
 <section class="section">
@@ -299,4 +299,4 @@
         <p class="notification is-warning has-text-centered">1</p>
       </div>
     </div>
-</section><?php include("footer.html"); ?>
+</section>
