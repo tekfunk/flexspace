@@ -1,7 +1,10 @@
 <?php include("header.html"); ?>
-  <div class="container">
-    <h1 class="title">Components</h1>
-  </div>
+<section class="hero">
+	<div class="container is-fluid">
+		<h1>companonents</h1>
+		<h2>nav, menus, panels, messages, modal</h2>
+	</div>
+</section>
 <section class="section">
   <div class="container">
     <h1 class="title">Card</h1>

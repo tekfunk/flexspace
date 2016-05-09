@@ -1,7 +1,8 @@
 <?php include("header.html"); ?>
-<section class="section">
-	<div class="container">
-    	<h1 class="title">Shapes</h1>
-		<h2 class="subtitle">Drawing with CSS</h2>
+<section class="hero">
+	<div class="container is-fluid">
+		<h1>shapes</h1>
+		<h2>my css drawings</h2>
 	</div>
-</section><?php include("footer.html"); ?>
+</section>
+<?php include("footer.html"); ?>

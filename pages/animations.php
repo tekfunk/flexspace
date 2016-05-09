@@ -1,16 +1,12 @@
 <?php include("header.html"); ?>
-  <div class="container">
-    <h1 class="title">Animations</h1>
-  </div>
-
+<section class="hero">
+	<div class="container is-fluid">
+		<h1>animations</h1>
+		<h2>fun with css animation</h2>
+	</div>
+</section>
 <section class="section">
   <div class="container">
-    <h1 class="title">Animations</h1>
-    <h2 class="subtitle">CSS Dynamics</h2>
-
-    <hr>
-
-    
   </div>
 </section>
 <?php include("footer.html"); ?>

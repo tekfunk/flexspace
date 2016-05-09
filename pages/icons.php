@@ -1,8 +1,10 @@
 <?php include("header.html"); ?>
-  <div class="container">
-    <h1 class="title">Icons</h1>
-  </div>
-
+<section class="hero">
+	<div class="container is-fluid">
+		<h1>icons</h1>
+		<h2>my custom icon font.  using <a href="https://icomoon.io/app">icomoon</a> to generate.  shapes have mostly been collected, but some were made.</h2>
+	</div>
+</section>
 <section class="section">
 	<div class="container">
     <h1 class="title">Icons</h1>

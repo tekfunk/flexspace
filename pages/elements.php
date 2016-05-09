@@ -1,8 +1,10 @@
 <?php include("header.html"); ?>
-  <div class="container">
-    <h1 class="title">Elements</h1>
-  </div>
-
+<section class="hero">
+	<div class="container is-fluid">
+		<h1>elements</h1>
+		<h2>ui elements</h2>
+	</div>
+</section>
 <section class="section">
   <div class="container">
     <h1 class="title">Box</h1>
