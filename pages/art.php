@@ -8,1483 +8,1005 @@
 
 <section class="section">
 	<div class="container">
-    <h1 class="title">icons</h1>
+    	<h1 class="title">icons</h1>
  		<h2>my custom icon font.  using <a href="https://icomoon.io/app">icomoon</a> to generate.  shapes have mostly been collected, but some were made.</h2>
-   <hr>
-  </div>
-</section>  
-<div class="tile is-ancestor">
-
-      <div class="tile is-parent">
-        <article class="tile is-child box">
+ 		<hr>
+ 		<div class="columns is-multiline">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-menu"></span>
-                <span class="mls"> icon-menu</span>
-        </article>
-      </div>
-      <div class="tile is-parent">
-        <article class="tile is-child box">
+                <span> icon-menu</span>
+            </div>
+            <h2>e600</h2>
+        </div>
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-list"></span>
-                <span class="mls"> icon-list</span>
-        </article>
-      </div>
-      <div class="tile is-parent">
-        <article class="tile is-child box">
+                <span> icon-list</span>
+            </div>
+            <h2>e601</h2>
+        </div>
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-justify"></span>
-                <span class="mls"> icon-justify</span>
-        </article>
-      </div>
-      <div class="tile is-parent">
-        <article class="tile is-child box">
+                <span> icon-justify</span>
+            </div>
+            <h2>e602</h2>
+        </div>
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-jleft"></span>
-                <span class="mls"> icon-jleft</span>
-        </article>
-      </div>
-       <div class="tile is-parent">
-        <article class="tile is-child box">
-                <span class="icon-menu"></span>
-                <span class="mls"> icon-menu</span>
-        </article>
-      </div>
-      <div class="tile is-parent">
-        <article class="tile is-child box">
-                <span class="icon-list"></span>
-                <span class="mls"> icon-list</span>
-        </article>
-      </div>
-      <div class="tile is-parent">
-        <article class="tile is-child box">
-                <span class="icon-justify"></span>
-                <span class="mls"> icon-justify</span>
-        </article>
-      </div>
-      <div class="tile is-parent">
-        <article class="tile is-child box">
-                <span class="icon-jleft"></span>
-                <span class="mls"> icon-jleft</span>
-        </article>
-      </div>
-
- 
-  </div>		
-		
-		
-<div class="tile is-ancestor">
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
-                <span class="icon-menu"></span>
-                <span class="mls"> icon-menu</span>
+                <span> icon-jleft</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e600" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe601;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e603 - e603</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
-                <span class="icon-list"></span>
-                <span class="mls"> icon-list</span>
-            </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e601" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe601;" class="unitRight size1of2 talign-right" />
-            </fieldset>
-        </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
-                <span class="icon-justify"></span>
-                <span class="mls"> icon-justify</span>
-            </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e602" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe602;" class="unitRight size1of2 talign-right" />
-            </fieldset>
-        </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
-                <span class="icon-jleft"></span>
-                <span class="mls"> icon-jleft</span>
-            </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e603" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe603;" class="unitRight size1of2 talign-right" />
-            </fieldset>
-        </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-jcenter"></span>
-                <span class="mls"> icon-jcenter</span>
+                <span> icon-jcenter</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e604" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe604;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e604 - e604</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-jright"></span>
-                <span class="mls"> icon-jright</span>
+                <span> icon-jright</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e605" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe605;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e605 - e605</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-tlist"></span>
-                <span class="mls"> icon-tlist</span>
+                <span> icon-tlist</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e606" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe606;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e606 - e606</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-table"></span>
-                <span class="mls"> icon-table</span>
+                <span> icon-table</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e607" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe607;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e607 - e607</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-tablelrg"></span>
-                <span class="mls"> icon-tablelrg</span>
+                <span> icon-tablelrg</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e608" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe608;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e608 - e608</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-fastback"></span>
-                <span class="mls"> icon-fastback</span>
+                <span> icon-fastback</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e609" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe609;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e609 - e609</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-stepback"></span>
-                <span class="mls"> icon-stepback</span>
+                <span> icon-stepback</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e60a" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe60a;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e60a - e60a</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-rewind"></span>
-                <span class="mls"> icon-rewind</span>
+                <span> icon-rewind</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e60b" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe60b;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e60b - e60b</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-play"></span>
-                <span class="mls"> icon-play</span>
+                <span> icon-play</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e60c" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe60c;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e60c - e60c</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-foward"></span>
-                <span class="mls"> icon-foward</span>
+                <span> icon-foward</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e60d" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe60d;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e60d - e60d</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-stepfoward"></span>
-                <span class="mls"> icon-stepfoward</span>
+                <span> icon-stepfoward</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e60e" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe60e;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e60e - e60e</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-fastfoward"></span>
-                <span class="mls"> icon-fastfoward</span>
+                <span> icon-fastfoward</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e60f" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe60f;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e60f - e60f</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-stop"></span>
-                <span class="mls"> icon-stop</span>
+                <span> icon-stop</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e610" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe610;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e610 - e610</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-eject"></span>
-                <span class="mls"> icon-eject</span>
+                <span> icon-eject</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e611" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe611;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e611 - e611</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-expand"></span>
-                <span class="mls"> icon-expand</span>
+                <span> icon-expand</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e612" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe612;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e612 - e612</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-move"></span>
-                <span class="mls"> icon-move</span>
+                <span> icon-move</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e613" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe613;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e613 - e613</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-chevup"></span>
-                <span class="mls"> icon-chevup</span>
+                <span> icon-chevup</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e614" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe614;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e614 - e614</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-chevright"></span>
-                <span class="mls"> icon-chevright</span>
+                <span> icon-chevright</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e615" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe615;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e615 - e615</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-chevdown"></span>
-                <span class="mls"> icon-chevdown</span>
+                <span> icon-chevdown</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e616" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe616;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e616 - e616</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-chevleft"></span>
-                <span class="mls"> icon-chevleft</span>
+                <span> icon-chevleft</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e617" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe617;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e617 - e617</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-cirlecup"></span>
-                <span class="mls"> icon-cirlecup</span>
+                <span> icon-cirlecup</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e618" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe618;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e618 - e618</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-circleright"></span>
-                <span class="mls"> icon-circleright</span>
+                <span> icon-circleright</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e619" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe619;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e619 - e619</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-circledown"></span>
-                <span class="mls"> icon-circledown</span>
+                <span> icon-circledown</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e61a" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe61a;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e61a - e61a</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-circleleft"></span>
-                <span class="mls"> icon-circleleft</span>
+                <span> icon-circleleft</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e61b" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe61b;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e61b - e61b</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-circlex"></span>
-                <span class="mls"> icon-circlex</span>
+                <span> icon-circlex</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e61c" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe61c;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e61c - e61c</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-circlecheck"></span>
-                <span class="mls"> icon-circlecheck</span>
+                <span> icon-circlecheck</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e61d" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe61d;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e61d - e61d</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-ban"></span>
-                <span class="mls"> icon-ban</span>
+                <span> icon-ban</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e61e" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe61e;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e61e - e61e</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-circledot"></span>
-                <span class="mls"> icon-circledot</span>
+                <span> icon-circledot</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e61f" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe61f;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e61f - e61f</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-circleplay"></span>
-                <span class="mls"> icon-circleplay</span>
+                <span> icon-circleplay</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e620" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe620;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e620 - e620</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-compass"></span>
-                <span class="mls"> icon-compass</span>
+                <span> icon-compass</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e621" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe621;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e621 - e621</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-zoomin"></span>
-                <span class="mls"> icon-zoomin</span>
+                <span> icon-zoomin</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e622" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe622;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e622 - e622</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-zoomout"></span>
-                <span class="mls"> icon-zoomout</span>
+                <span> icon-zoomout</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e623" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe623;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e623 - e623</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-ex"></span>
-                <span class="mls"> icon-ex</span>
+                <span> icon-ex</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e624" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe624;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e624 - e624</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-check"></span>
-                <span class="mls"> icon-check</span>
+                <span> icon-check</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e625" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe625;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e625 - e625</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-sync"></span>
-                <span class="mls"> icon-sync</span>
+                <span> icon-sync</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e626" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe626;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e626 - e626</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-reload"></span>
-                <span class="mls"> icon-reload</span>
+                <span> icon-reload</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e627" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe627;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e627 - e627</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-gears"></span>
-                <span class="mls"> icon-gears</span>
+                <span> icon-gears</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e628" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe628;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e628 - e628</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-wrench"></span>
-                <span class="mls"> icon-wrench</span>
+                <span> icon-wrench</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e629" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe629;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e629 - e629</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-info"></span>
-                <span class="mls"> icon-info</span>
+                <span> icon-info</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e62a" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe62a;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e62a - e62a</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-question"></span>
-                <span class="mls"> icon-question</span>
+                <span> icon-question</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e62b" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe62b;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e62b - e62b</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-external"></span>
-                <span class="mls"> icon-external</span>
+                <span> icon-external</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e62c" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe62c;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e62c - e62c</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-edit"></span>
-                <span class="mls"> icon-edit</span>
+                <span> icon-edit</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e62d" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe62d;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e62d - e62d</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-share"></span>
-                <span class="mls"> icon-share</span>
+                <span> icon-share</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e62e" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe62e;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e62e - e62e</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-checkbox"></span>
-                <span class="mls"> icon-checkbox</span>
+                <span> icon-checkbox</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e62f" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe62f;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e62f - e62f</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-exclaim"></span>
-                <span class="mls"> icon-exclaim</span>
+                <span> icon-exclaim</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e630" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe630;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e630 - e630</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-print"></span>
-                <span class="mls"> icon-print</span>
+                <span> icon-print</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e631" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe631;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e631 - e631</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-download"></span>
-                <span class="mls"> icon-download</span>
+                <span> icon-download</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e632" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe632;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e632 - e632</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-crosshairs"></span>
-                <span class="mls"> icon-crosshairs</span>
+                <span> icon-crosshairs</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e633" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe633;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e633 - e633</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-home"></span>
-                <span class="mls"> icon-home</span>
+                <span> icon-home</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e634" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe634;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e634 - e634</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-link"></span>
-                <span class="mls"> icon-link</span>
+                <span> icon-link</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e635" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe635;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e635 - e635</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-book"></span>
-                <span class="mls"> icon-book</span>
+                <span> icon-book</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e636" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe636;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e636 - e636</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-bookmark"></span>
-                <span class="mls"> icon-bookmark</span>
+                <span> icon-bookmark</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e637" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe637;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e637 - e637</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-tags"></span>
-                <span class="mls"> icon-tags</span>
+                <span> icon-tags</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e638" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe638;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e638 - e638</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-tag"></span>
-                <span class="mls"> icon-tag</span>
+                <span> icon-tag</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e639" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe639;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e639 - e639</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-tackright"></span>
-                <span class="mls"> icon-tackright</span>
+                <span> icon-tackright</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e63a" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe63a;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e63a - e63a</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-clock"></span>
-                <span class="mls"> icon-clock</span>
+                <span> icon-clock</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e63b" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe63b;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e63b - e63b</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-calgrid"></span>
-                <span class="mls"> icon-calgrid</span>
+                <span> icon-calgrid</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e63c" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe63c;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e63c - e63c</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-calblank"></span>
-                <span class="mls"> icon-calblank</span>
+                <span> icon-calblank</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e63d" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe63d;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e63d - e63d</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-keyboard"></span>
-                <span class="mls"> icon-keyboard</span>
+                <span> icon-keyboard</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e63e" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe63e;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e63e - e63e</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-contact"></span>
-                <span class="mls"> icon-contact</span>
+                <span> icon-contact</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e63f" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe63f;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e63f - e63f</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-envelope"></span>
-                <span class="mls"> icon-envelope</span>
+                <span> icon-envelope</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e640" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe640;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e640 - e640</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-comments"></span>
-                <span class="mls"> icon-comments</span>
+                <span> icon-comments</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e641" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe641;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e641 - e641</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-pencil"></span>
-                <span class="mls"> icon-pencil</span>
+                <span> icon-pencil</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e642" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe642;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e642 - e642</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-locked"></span>
-                <span class="mls"> icon-locked</span>
+                <span> icon-locked</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e643" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe643;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e643 - e643</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-unlocked"></span>
-                <span class="mls"> icon-unlocked</span>
+                <span> icon-unlocked</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e644" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe644;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e644 - e644</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-camera"></span>
-                <span class="mls"> icon-camera</span>
+                <span> icon-camera</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e645" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe645;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e645 - e645</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-picture"></span>
-                <span class="mls"> icon-picture</span>
+                <span> icon-picture</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e646" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe646;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e646 - e646</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-gallery"></span>
-                <span class="mls"> icon-gallery</span>
+                <span> icon-gallery</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e647" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe647;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e647 - e647</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-video"></span>
-                <span class="mls"> icon-video</span>
+                <span> icon-video</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e648" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe648;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e648 - e648</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-headphones"></span>
-                <span class="mls"> icon-headphones</span>
+                <span> icon-headphones</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e649" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe649;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e649 - e649</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-highway"></span>
-                <span class="mls"> icon-highway</span>
+                <span> icon-highway</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e64a" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe64a;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e64a - e64a</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-airplane"></span>
-                <span class="mls"> icon-airplane</span>
+                <span> icon-airplane</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e64b" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe64b;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e64b - e64b</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-beaker"></span>
-                <span class="mls"> icon-beaker</span>
+                <span> icon-beaker</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e64c" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe64c;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e64c - e64c</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-brush"></span>
-                <span class="mls"> icon-brush</span>
+                <span> icon-brush</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e64d" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe64d;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e64d - e64d</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-lightbulb"></span>
-                <span class="mls"> icon-lightbulb</span>
+                <span> icon-lightbulb</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e64e" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe64e;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e64e - e64e</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-extinguish"></span>
-                <span class="mls"> icon-extinguish</span>
+                <span> icon-extinguish</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e64f" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe64f;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e64f - e64f</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-globe"></span>
-                <span class="mls"> icon-globe</span>
+                <span> icon-globe</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e650" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe650;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e650 - e650</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-sun"></span>
-                <span class="mls"> icon-sun</span>
+                <span> icon-sun</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e651" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe651;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e651 - e651</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-location"></span>
-                <span class="mls"> icon-location</span>
+                <span> icon-location</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e652" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe652;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e652 - e652</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-lifevest"></span>
-                <span class="mls"> icon-lifevest</span>
+                <span> icon-lifevest</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e653" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe653;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e653 - e653</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-rocket"></span>
-                <span class="mls"> icon-rocket</span>
+                <span> icon-rocket</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e654" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe654;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e654 - e654</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-sticker"></span>
-                <span class="mls"> icon-sticker</span>
+                <span> icon-sticker</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e655" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe655;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e655 - e655</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-bomb"></span>
-                <span class="mls"> icon-bomb</span>
+                <span> icon-bomb</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e656" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe656;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e656 - e656</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-Jack"></span>
-                <span class="mls"> icon-Jack</span>
+                <span> icon-Jack</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e657" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe657;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e657 - e657</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-Speaker"></span>
-                <span class="mls"> icon-Speaker</span>
+                <span> icon-Speaker</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e658" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe658;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e658 - e658</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-monitor"></span>
-                <span class="mls"> icon-monitor</span>
+                <span> icon-monitor</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e659" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe659;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e659 - e659</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-vcard tile"></span>
-                <span class="mls"> icon-vcard</span>
+                <span> icon-vcard</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e65a" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe65a;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e65a - e65a</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-sliders"></span>
-                <span class="mls"> icon-sliders</span>
+                <span> icon-sliders</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e65b" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe65b;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e65b - e65b</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-Levels"></span>
-                <span class="mls"> icon-Levels</span>
+                <span> icon-Levels</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e65c" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe65c;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e65c - e65c</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-Levels_4"></span>
-                <span class="mls"> icon-Levels_4</span>
+                <span> icon-Levels_4</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e65d" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe65d;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e65d - e65d</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-Vinyl"></span>
-                <span class="mls"> icon-Vinyl</span>
+                <span> icon-Vinyl</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e65e" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe65e;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e65e - e65e</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-turntable"></span>
-                <span class="mls"> icon-turntable</span>
+                <span> icon-turntable</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e65f" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe65f;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e65f - e65f</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-webpage"></span>
-                <span class="mls"> icon-webpage</span>
+                <span> icon-webpage</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e660" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe660;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e660 - e660</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-chevupl"></span>
-                <span class="mls"> icon-chevupl</span>
+                <span> icon-chevupl</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e661" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe661;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e661 - e661</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-chevrightl"></span>
-                <span class="mls"> icon-chevrightl</span>
+                <span> icon-chevrightl</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e662" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe662;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e662 - e662</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-chevdownl"></span>
-                <span class="mls"> icon-chevdownl</span>
+                <span> icon-chevdownl</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e663" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe663;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e663 - e663</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-chevleftl"></span>
-                <span class="mls"> icon-chevleftl</span>
+                <span> icon-chevleftl</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e664" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe664;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e664 - e664</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-dashboard"></span>
-                <span class="mls"> icon-dashboard</span>
+                <span> icon-dashboard</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e665" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe665;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e665 - e665</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-briefcase"></span>
-                <span class="mls"> icon-briefcase</span>
+                <span> icon-briefcase</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e666" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe666;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e666 - e666</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-tackleft"></span>
-                <span class="mls"> icon-tackleft</span>
+                <span> icon-tackleft</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e667" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe667;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e667 - e667</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-caldot"></span>
-                <span class="mls"> icon-caldot</span>
+                <span> icon-caldot</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e668" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe668;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e668 - e668</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-paperplane"></span>
-                <span class="mls"> icon-paperplane</span>
+                <span> icon-paperplane</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e669" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe669;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e669 - e669</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-users"></span>
-                <span class="mls"> icon-users</span>
+                <span> icon-users</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e66a" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe66a;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e66a - e66a</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-login"></span>
-                <span class="mls"> icon-login</span>
+                <span> icon-login</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e66b" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe66b;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e66b - e66b</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-logout"></span>
-                <span class="mls"> icon-logout</span>
+                <span> icon-logout</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e66c" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe66c;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e66c - e66c</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-key"></span>
-                <span class="mls"> icon-key</span>
+                <span> icon-key</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e66d" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe66d;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e66d - e66d</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-tape"></span>
-                <span class="mls"> icon-tape</span>
+                <span> icon-tape</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e66e" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe66e;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e66e - e66e</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-piano"></span>
-                <span class="mls"> icon-piano</span>
+                <span> icon-piano</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e66f" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe66f;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e66f - e66f</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-waves"></span>
-                <span class="mls"> icon-waves</span>
+                <span> icon-waves</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e670" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe670;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e670 - e670</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-stereo"></span>
-                <span class="mls"> icon-stereo</span>
+                <span> icon-stereo</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e671" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe671;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e671 - e671</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-signpost"></span>
-                <span class="mls"> icon-signpost</span>
+                <span> icon-signpost</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e672" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe672;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e672 - e672</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-gift"></span>
-                <span class="mls"> icon-gift</span>
+                <span> icon-gift</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e674" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe674;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e674 - e674</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-tumblr-o"></span>
-                <span class="mls"> icon-tumblr-o</span>
+                <span> icon-tumblr-o</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e675" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe675;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e675 - e675</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-rss-o"></span>
-                <span class="mls"> icon-rss-o</span>
+                <span> icon-rss-o</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e676" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe676;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e676 - e676</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-mixcloud-o"></span>
-                <span class="mls"> icon-mixcloud-o</span>
+                <span> icon-mixcloud-o</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e677" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe677;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e677 - e677</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-soundcloud-o"></span>
-                <span class="mls"> icon-soundcloud-o</span>
+                <span> icon-soundcloud-o</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e678" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe678;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e678 - e678</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-email-o"></span>
-                <span class="mls"> icon-email-o</span>
+                <span> icon-email-o</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e679" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe679;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e679 - e679</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-soundcloud"></span>
-                <span class="mls"> icon-soundcloud</span>
+                <span> icon-soundcloud</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e67a" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe67a;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e67a - e67a</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-news"></span>
-                <span class="mls"> icon-news</span>
+                <span> icon-news</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e67b" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe67b;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e67b - e67b</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-aperture"></span>
-                <span class="mls"> icon-aperture</span>
+                <span> icon-aperture</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e67c" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe67c;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e67c - e67c</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-iso"></span>
-                <span class="mls"> icon-iso</span>
+                <span> icon-iso</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e67d" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe67d;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e67d - e67d</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-ballpen"></span>
-                <span class="mls"> icon-ballpen</span>
+                <span> icon-ballpen</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e67e" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe67e;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e67e - e67e</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-wineglass"></span>
-                <span class="mls"> icon-wineglass</span>
+                <span> icon-wineglass</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e67f" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe67f;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e67f - e67f</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-ticketz"></span>
-                <span class="mls"> icon-ticketz</span>
+                <span> icon-ticketz</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e680" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe680;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e680 - e680</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-macbook"></span>
-                <span class="mls"> icon-macbook</span>
+                <span> icon-macbook</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e681" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe681;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e681 - e681</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-ipad"></span>
-                <span class="mls"> icon-ipad</span>
+                <span> icon-ipad</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e682" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe682;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e682 - e682</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-iphone"></span>
-                <span class="mls"> icon-iphone</span>
+                <span> icon-iphone</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e683" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe683;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e683 - e683</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-infinity"></span>
-                <span class="mls"> icon-infinity</span>
+                <span> icon-infinity</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e684" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe684;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e684 - e684</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-rollthe"></span>
-                <span class="mls"> icon-rollthe</span>
+                <span> icon-rollthe</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e685" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe685;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e685 - e685</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-aceshi"></span>
-                <span class="mls"> icon-aceshi</span>
+                <span> icon-aceshi</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e68e" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe68e;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e68e - e68e</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-spades"></span>
-                <span class="mls"> icon-spades</span>
+                <span> icon-spades</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e68f" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe68f;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e68f - e68f</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-diamonds"></span>
-                <span class="mls"> icon-diamonds</span>
+                <span> icon-diamonds</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e690" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe690;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e690 - e690</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-clubs"></span>
-                <span class="mls"> icon-clubs</span>
+                <span> icon-clubs</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e691" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe691;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e691 - e691</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-hearts"></span>
-                <span class="mls"> icon-hearts</span>
+                <span> icon-hearts</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e692" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe692;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e692 - e692</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-roulette"></span>
-                <span class="mls"> icon-roulette</span>
+                <span> icon-roulette</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e693" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe693;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e693 - e693</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-crown"></span>
-                <span class="mls"> icon-crown</span>
+                <span> icon-crown</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e694" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe694;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e694 - e694</h2>
         </div>
-        <div class="glyph card tile">
-            <div class="clearfix bshadow0 pbs">
+        <div class="column is-1 card">
+            <div class="box">
                 <span class="icon-pdf-doc"></span>
-                <span class="mls"> icon-pdf-doc</span>
+                <span> icon-pdf-doc</span>
             </div>
-            <fieldset class="fs0 size1of1 clearfix hidden-false">
-                <input type="text" readonly value="e900" class="unit size1of2" />
-                <input type="text" maxlength="1" readonly value="&#xe900;" class="unitRight size1of2 talign-right" />
-            </fieldset>
+            <h2>e900 - e900</h2>
         </div>
 </div>
-</div></div>
-</section>
-	<div class="container">
-    <h1 class="title">shapes</h1>
- 		<h2>css based shapes</h2>
-   <hr>
   </div>
+</section>  
+<section class="section">
+	<div class="container">
+    	<h1 class="title">shapes</h1>
+ 		<h2>css based shapes</h2>
+ 		<hr>
+ 	</div>
+</section>  
 <?php include("footer.html"); ?>
