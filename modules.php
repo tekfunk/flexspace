@@ -1436,59 +1436,6 @@
 </nav>
 </div>
 
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">"nav"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"nav-left"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/images/bulma.png"</span> <span class="na">alt=</span><span class="s">"Bulma logo}"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;/a&gt;</span>
-  <span class="nt">&lt;/div&gt;</span>
-
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"nav-center"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon"</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-github"</span><span class="nt">&gt;&lt;/i&gt;</span>
-      <span class="nt">&lt;/span&gt;</span>
-    <span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon"</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-twitter"</span><span class="nt">&gt;&lt;/i&gt;</span>
-      <span class="nt">&lt;/span&gt;</span>
-    <span class="nt">&lt;/a&gt;</span>
-  <span class="nt">&lt;/div&gt;</span>
-
-  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"nav-toggle"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;span&gt;&lt;/span&gt;</span>
-    <span class="nt">&lt;span&gt;&lt;/span&gt;</span>
-    <span class="nt">&lt;span&gt;&lt;/span&gt;</span>
-  <span class="nt">&lt;/span&gt;</span>
-
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"nav-right nav-menu"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-      Home
-    <span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-      Documentation
-    <span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-      Blog
-    <span class="nt">&lt;/a&gt;</span>
-
-    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"nav-item"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button"</span> <span class="nt">&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon"</span><span class="nt">&gt;</span>
-          <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-twitter"</span><span class="nt">&gt;&lt;/i&gt;</span>
-        <span class="nt">&lt;/span&gt;</span>
-        <span class="nt">&lt;span&gt;</span>Tweet<span class="nt">&lt;/span&gt;</span>
-      <span class="nt">&lt;/a&gt;</span>
-      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-primary"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon"</span><span class="nt">&gt;</span>
-          <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-download"</span><span class="nt">&gt;&lt;/i&gt;</span>
-        <span class="nt">&lt;/span&gt;</span>
-        <span class="nt">&lt;span&gt;</span>Download<span class="nt">&lt;/span&gt;</span>
-      <span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/span&gt;</span>
-  <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/nav&gt;</span></code></pre><button class="copy">Copy</button><button class="expand">Expand</button></figure>
 
     <hr>
 
