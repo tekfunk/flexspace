@@ -1,9 +1,10 @@
 .footer {
-  background: $background;
+  background: $grey-darker;
+   color: $grey-lighter;
   padding: 40px 20px 80px;
 
   a {
-    color: $text;
+    color: $grey-lighter;
 
     &:hover {
       color: $text-strong;

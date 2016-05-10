@@ -2,20 +2,21 @@
 // 1. Initial variables
 
 // Colors
+.color { display: inline-block; float: left; height: 18px; margin-right: 5px; width: 18px; }
 
-$black: #111 !default;
-$grey-darker: #222324 !default;
-$grey-dark: #69707a !default;
+$black: #1a1a1a !default;
+$grey-darker: #2a2a2a !default;
+$grey-dark: #3a3a3a !default;
 $grey: #aeb1b5 !default;
 $grey-light: #d3d6db !default;
 $grey-lighter: #f5f7fa !default;
 $white: #fff !default;
 $blue: #42afe3 !default;
-$green: #97cd76 !default;
+$green: #94b282 !default;
 $orange: #f68b39 !default;
 $purple: #847bb9 !default;
-$red: #ed6c63 !default;
-$turquoise: #1fc8db !default;
+$red: #c5443b !default;
+$turquoise: #14b1c4 !default;
 $yellow: #fce473 !default;
 // Typography
 
