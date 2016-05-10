@@ -7,11 +7,7 @@
 </section>
 <section class="section">
   <div class="container">
-    <h1 class="title">Box</h1>
-    <h2 class="subtitle">
-      A white <strong>box</strong> to contain other elements
-    </h2>
-
+    <h1 class="title">.box</h1>
     <hr>
 
     <div class="columns">

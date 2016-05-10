@@ -7,16 +7,11 @@
 </section>
 <section class="section">
   <div class="container">
-    <h1 class="title">Columns</h1>
-    <h2 class="subtitle">A simple way to build <strong>responsive columns</strong></h2>
+    <h1 class="title">.columns</h1>
     <hr>
     <div class="content">
-      <p>To build a <strong>grid</strong>, just:</p>
-      <ol>
-        <li>Add a <code>columns</code> container</li>
-        <li>Add as many <code>column</code> elements as you want</li>
-      </ol>
-    </div>
+      <p><strong>.columns</strong> -> <strong>.column</strong> </p>
+     </div>
 
     <div class="columns">
       <div class="column">

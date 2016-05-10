@@ -8,7 +8,7 @@
 
 <section class="section">
 	<div class="container">
-    	<h1 class="title">icons</h1>
+    	<h1 class="title">.icon</h1>
  		<h2>my custom icon font.  using <a href="https://icomoon.io/app">icomoon</a> to generate.  shapes have mostly been collected, but some were made.</h2>
  		<hr>
  		<div class="columns is-multiline">
