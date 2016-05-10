@@ -133,14 +133,14 @@ input[type=button] {
   width: auto;
   overflow: visible; }
 
-/* Burma 0.0.26 */
+/* Bulma 0.0.26 */
 @keyframes spin-around {
   from {
     transform: rotate(0deg); }
   to {
     transform: rotate(359deg); } }
 
-/* Burma 0.0.26 */
+/* Bulma 0.0.26 */
 .color {
   display: inline-block;
   float: left;
@@ -282,7 +282,7 @@ table {
   text-align: center;
   vertical-align: top; }
 
-/* Burma 0.0.26 */
+/* Bulma 0.0.26 */
 .is-block {
   display: block; }
 
@@ -2154,7 +2154,7 @@ a.box:active {
     .table.is-striped tbody tr:nth-child(2n):hover {
       background: #e4e9f2; }
 
-/* Burma 0.0.26 */
+/* Bulma 0.0.26 */
 .title,
 .subtitle {
   font-weight: 300;

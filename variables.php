@@ -1,4 +1,5 @@
-<?php include("header.html"); ?>
+<?php include('inc/head.php'); ?>
+<?php include('inc/header.php'); ?>
 <section class="hero">
 	<div class="container is-fluid">
 		<h1>variables</h1>
@@ -309,4 +310,5 @@
 </tbody></table>
 
   </div>
-</section><?php include("footer.html"); ?>
+</section>
+<?php include("inc/footer.php"); ?>

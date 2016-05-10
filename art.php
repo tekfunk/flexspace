@@ -1,12 +1,13 @@
-<?php include("header.html"); ?>
+<?php include('inc/head.php'); ?>
+<?php include('inc/header.php'); ?>
 <section class="hero">
 	<div class="container is-fluid">
 		<h1>art</h1>
-		<h2>vectors - icons, shapes, 
+            <h2><a href="#icons">icons</a> | <a href="#shapes">shapes</a></h2>
 	</div>
 </section>
 
-<section class="section">
+<section class="section" id="icons">
 	<div class="container">
     	<h1 class="title">.icon</h1>
  		<h2>my custom icon font.  using <a href="https://icomoon.io/app">icomoon</a> to generate.  shapes have mostly been collected, but some were made.</h2>
@@ -1002,11 +1003,11 @@
 </div>
   </div>
 </section>  
-<section class="section">
+<section class="section" id="shapes">
 	<div class="container">
     	<h1 class="title">shapes</h1>
  		<h2>css based shapes</h2>
  		<hr>
  	</div>
 </section>  
-<?php include("footer.html"); ?>
+<?php include("inc/footer.php"); ?>

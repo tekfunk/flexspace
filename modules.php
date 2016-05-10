@@ -1,11 +1,12 @@
-<?php include("header.html"); ?>
+<?php include('inc/head.php'); ?>
+<?php include('inc/header.php'); ?>
 <section class="hero">
 	<div class="container is-fluid">
 		<h1>modules</h1>
-		<h2>boxes, nav, menus, panels, messages, modal</h2>
+           <h2><a href="#box">box</a> | <a href="#card">card</a> | <a href="#level">level</a> | <a href="#images">images</a> | <a href="#media">media</a> | <a href="#menu">menu</a> | <a href="#messages">messages</a> | <a href="#menu">menu</a> | <a href="#modal">modal</a> | <a href="#nav">nav</a> | <a href="#messages">messages</a> | <a href="#panel">panel</a> | <a href="#tabs">tabs</a></h2>
 	</div>
 </section>
-<section class="section">
+<section class="section" id="box">
   <div class="container">
     <h1 class="title">.box</h1>
     <hr>
@@ -91,7 +92,7 @@
   </div>
 </section>
 
-<section class="section">
+<section class="section" id="card">
   <div class="container">
     <h1 class="title">Card</h1>
     <h2 class="subtitle">An all-around flexible and composable component</h2>
@@ -213,7 +214,7 @@
     </div>
   </div>
 </section>
-<section class="section">
+<section class="section" id="level">
   <div class="container">
     <h1 class="title">Level</h1>
     <h2 class="subtitle">A multi-purpose <strong>horizontal level</strong>, which can contain almost any other element</h2>
@@ -459,7 +460,136 @@
     </div>
   </div>
 </section>
-<section class="section">
+
+<section class="section" id="images">
+<div class="container">
+    <h1 class="title">.images</h1>
+    <hr>
+
+    <div class="content">
+      <p>Because images can take a few seconds to load (or not at all), use the <code>.image</code> container to specify a <strong>precisely sized</strong> container so that your layout isn't broken because of image loading or image errors.</p>
+    </div>
+
+    <div class="example">
+      <figure class="image is-128x128">
+        <img src="http://placehold.it/128x128">
+      </figure>
+    </div>
+
+
+    <hr>
+
+    <h3 class="title">Fixed square images</h3>
+    <div class="content">
+      <p>There are <strong>7</strong> dimensions to choose from, useful for <strong>avatars</strong>:</p>
+    </div>
+
+    <table class="table is-bordered">
+      <tbody>
+        <tr>
+          <td><code>image is-16x16</code></td>
+          <td><figure class="image is-16x16"><img src="http://placehold.it/16x16"></figure></td>
+          <td>16x16px</td>
+        </tr>
+        <tr>
+          <td><code>image is-24x24</code></td>
+          <td><figure class="image is-24x24"><img src="http://placehold.it/24x24"></figure></td>
+          <td>24x24px</td>
+        </tr>
+        <tr>
+          <td><code>image is-32x32</code></td>
+          <td><figure class="image is-32x32"><img src="http://placehold.it/32x32"></figure></td>
+          <td>32x32px</td>
+        </tr>
+        <tr>
+          <td><code>image is-48x48</code></td>
+          <td><figure class="image is-48x48"><img src="http://placehold.it/48x48"></figure></td>
+          <td>48x48px</td>
+        </tr>
+        <tr>
+          <td><code>image is-64x64</code></td>
+          <td><figure class="image is-64x64"><img src="http://placehold.it/64x64"></figure></td>
+          <td>64x64px</td>
+        </tr>
+        <tr>
+          <td><code>image is-96x96</code></td>
+          <td><figure class="image is-96x96"><img src="http://placehold.it/96x96"></figure></td>
+          <td>96x96px</td>
+        </tr>
+        <tr>
+          <td><code>image is-128x128</code></td>
+          <td><figure class="image is-128x128"><img src="http://placehold.it/128x128"></figure></td>
+          <td>128x128px</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h4 class="title is-4">Retina images</h4>
+
+    <div class="content">
+      <p>Because the image is fixed in size, you can use an image that is <strong>twice as big</strong>. So for example, in a <code>128x128</code> container, you can use a <code>256x256</code> image, but resized to <strong>128x128</strong> pixels.</p>
+    </div>
+
+    <div class="example">
+      <figure class="image is-128x128">
+        <img src="http://placehold.it/256x256">
+      </figure>
+    </div>
+
+
+    <hr>
+
+    <h3 class="title">Responsive images with ratios</h3>
+
+    <div class="content">
+      <p>If you don't know the exact dimensions but know the <strong>ratio</strong> instead, you can use one of the <strong>5 ratio modifers</strong>:</p>
+    </div>
+
+    <table id="images" class="table is-bordered">
+      <tbody>
+        <tr>
+          <td><code>image is-square</code></td>
+          <td><figure class="image is-square"><img src="http://placehold.it/480x480"></figure></td>
+          <td>Square (or 1by1)</td>
+        </tr>
+        <tr>
+          <td><code>image is-1by1</code></td>
+          <td><figure class="image is-1by1"><img src="http://placehold.it/480x480"></figure></td>
+          <td>1 by 1</td>
+        </tr>
+        <tr>
+          <td><code>image is-4by3</code></td>
+          <td><figure class="image is-4by3"><img src="http://placehold.it/640x480"></figure></td>
+          <td>4 by 3</td>
+        </tr>
+        <tr>
+          <td><code>image is-3by2</code></td>
+          <td><figure class="image is-3by2"><img src="http://placehold.it/480x320"></figure></td>
+          <td>3 by 2</td>
+        </tr>
+        <tr>
+          <td><code>image is-16by9</code></td>
+          <td><figure class="image is-16by9"><img src="http://placehold.it/640x360"></figure></td>
+          <td>16 by 9</td>
+        </tr>
+        <tr>
+          <td><code>image is-2by1</code></td>
+          <td><figure class="image is-2by1"><img src="http://placehold.it/640x320"></figure></td>
+          <td>2 by 1</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="content">
+      <p>The <code>.image</code> container will take up the <strong>whole width</strong> while maintaining the perfect ratio.</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="section" id="media">
   <div class="container">
     <h1 class="title">Media Object</h1>
     <h2 class="subtitle">The famous <strong>media object</strong> prevalent in social media interfaces, but useful in any context</h2>
@@ -803,7 +933,7 @@
 
   </div>
 </section>
-<section class="section">
+<section class="section" id="menu">
   <div class="container">
     <h1 class="title">Menu</h1>
     <h2 class="subtitle">A simple <strong>menu</strong>, for any type of vertical navigation</h2>
@@ -884,7 +1014,7 @@
     </div>
   </div>
 </section>
-<section class="section">
+<section class="section" id="messages">
   <div class="container">
     <h1 class="title">Messages</h1>
     <h2 class="subtitle">
@@ -1119,7 +1249,7 @@
     </div>
   </div>
 </section>
-<section class="section">
+<section class="section" id="modal">
   <div class="container">
     <h1 class="title">Modal</h1>
     <h2 class="subtitle">A classic <strong>modal</strong> overlay, in which you can include <em>any</em> content you want</h2>
@@ -1223,7 +1353,7 @@
 
   </div>
 </section>
-<section class="section">
+<section class="section" id="nav">
   <div class="container">
     <h1 class="title">Nav</h1>
     <h2 class="subtitle">
@@ -1410,7 +1540,7 @@
 <span class="nt">&lt;/nav&gt;</span></code></pre><button class="copy">Copy</button></figure>
 
 </section>
-<section class="section">
+<section class="section" id="pagination">
   <div class="container">
     <h1 class="title">Pagination</h1>
     <h2 class="subtitle">A responsive, usable, and flexible <strong>pagination</strong></h2>
@@ -1475,7 +1605,7 @@
 <span class="nt">&lt;/nav&gt;</span></code></pre><button class="copy">Copy</button></figure>
   </div>
 </section>
-<section class="section">
+<section class="section" id="panel">
   <div class="container">
     <h1 class="title">Panel</h1>
     <h2 class="subtitle">A composable <strong>panel</strong>, for compact controls</h2>
@@ -1581,7 +1711,7 @@
     </div>
   </div>
 </section>
-<section class="section">
+<section class="section" id="tabs">
   <div class="container">
     <h1 class="title">Tabs</h1>
     <h2 class="subtitle">Simple responsive horizontal navigation <strong>tabs</strong>, with different styles</h2>
@@ -2273,4 +2403,4 @@
 
   </div>
 </section>
-<?php include("footer.html"); ?>
+<?php include("inc/footer.php"); ?>

@@ -1,20 +1,13 @@
-<?php include("header.html"); ?>
-
-<html>
-<head>
-    <title></title>
-</head>
-
-<body>
+<?php include('inc/head.php'); ?>
+<?php include('inc/header.php'); ?>
     <section class="hero">
         <div class="container is-fluid">
             <h1>animations</h1>
-
-            <h2>css animation</h2>
+            <h2><a href="#animate">animate.css</a></h2>
         </div>
     </section>
 
-    <section class="section">
+    <section class="section" id="animate">
 	    <div class="container">
 		  	<h1 class="title"><a href="http://daneden.github.io/animate.css/" target="_blank">animate.css</a></h1>
 		  	<h2><strong>.animated</strong> auto animates <strong>.hoover</strong> animates on hover <strong>.infinite</strong> loops the animation</h2>
@@ -322,6 +315,6 @@
             </div>
         </div>
         </div>
-    </section><?php include("footer.html"); ?>
+    </section><?php include("inc/footer.php"); ?>
 </body>
 </html>

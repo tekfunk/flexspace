@@ -1,4 +1,4 @@
-/* Burma 0.0.26 */
+/* Bulma 0.0.26 */
 
 @mixin arrow($color) {
   border: 1px solid $color;
@@ -29,7 +29,7 @@
   top: 50%;
 }
 
-@mixin fa($size, $dimensions) {
+@mixin glyph($size, $dimensions) {
   display: inline-block;
   font-size: $size;
   height: $dimensions;

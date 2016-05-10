@@ -5,4 +5,4 @@
 		<h2>my css drawings</h2>
 	</div>
 </section>
-<?php include("footer.html"); ?>
+<?php include("inc/footer.php"); ?>
