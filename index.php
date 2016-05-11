@@ -3,8 +3,8 @@
     <section class="hero">
         <div class="container">
             <h1>flexspace</h1>
-            <h2>Yet another SCSS framework.</h2>
-            <h2>based on <a href="http://bulma.io" target="_blank">bulma</a>.</h2>
+            <h2>Yet another website framework.</h2>
+            <p>This is a custom scss framework, originally based on <a href="http://bulma.io" target="_blank">bulma</a>, but changed to suit my needs. Incorporates animate.css, hover.css.  Uses a custom icon font I put together.</p>
         </div>
     </section>
     <section class="section">

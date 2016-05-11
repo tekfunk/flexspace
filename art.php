@@ -15,7 +15,7 @@
  		<div class="columns is-multiline">
         <div class="column is-1 card">
             <div class="box">
-                <span class="icon-menu"></span>
+                <i class="ics icon-menu"></i>
                 <span> icon-menu</span>
             </div>
             <h2>e600</h2>

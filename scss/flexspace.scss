@@ -1,44 +1,47 @@
 @charset "utf-8";
 
-@import "utilities/reset";
-@import "utilities/functions";
-@import "utilities/mixins";
-@import "utilities/animations";
-@import "utilities/controls";
-@import "utilities/variables";
+@import "bulma/utilities/reset";
 
-@import "base/generic";
-@import "base/classes";
-@import "base/helpers";
-@import "base/fonts";
-@import "base/icons";
+@import "flex/etc/fonts";
+@import "flex/etc/icons";
 
-@import "elements/box";
-@import "elements/button";
-@import "elements/content";
-@import "elements/form";
-@import "elements/image";
-@import "elements/notification";
-@import "elements/progress";
-@import "elements/table";
-@import "elements/title";
-@import "elements/other";
+@import "bulma/utilities/functions";
+@import "bulma/utilities/mixins";
+@import "bulma/utilities/controls";
 
-@import "components/card";
-@import "components/grid";
-@import "components/highlight";
-@import "components/level";
-@import "components/media";
-@import "components/menu";
-@import "components/message";
-@import "components/modal";
-@import "components/nav";
-@import "components/pagination";
-@import "components/panel";
-@import "components/tabs";
+@import "flex/etc/variables";
 
-@import "layout/hero";
-@import "layout/section";
-@import "layout/footer";
+@import "bulma/base/generic";
+@import "bulma/elements/content";
+@import "bulma/base/classes";
+@import "bulma/base/helpers";
+@import "bulma/layout/header";
+@import "bulma/layout/section";
+@import "bulma/layout/hero";
+@import "bulma/layout/footer";
+@import "bulma/elements/box";
+@import "bulma/elements/content";
+@import "bulma/elements/button";
+@import "bulma/elements/form";
+@import "bulma/elements/image";
+@import "bulma/elements/notification";
+@import "bulma/elements/progress";
+@import "bulma/elements/table";
+@import "bulma/elements/title";
+@import "bulma/elements/other";
+@import "bulma/components/card";
+@import "bulma/components/grid";
+@import "bulma/components/highlight";
+@import "bulma/components/level";
+@import "bulma/components/media";
+@import "bulma/components/menu";
+@import "bulma/components/message";
+@import "bulma/components/modal";
+@import "bulma/components/nav";
+@import "bulma/components/pagination";
+@import "bulma/components/panel";
+@import "bulma/components/tabs";
+
+@import "bulma/utilities/animations";
 
 @import "animate/animate";

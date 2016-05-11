@@ -1,32 +1,18 @@
 <header>
-	<nav class="nav-center">
-			<a href="/index.php">flexspace</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-			<a href="/page.php">page</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-			<a href="/grid.php">grid</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-			<a href="/modules.php">modules</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-			<a href="/ui.php">ui</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-			<a href="/art.php">art</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-			<a href="/animations.php">animations</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-			<a href="/variables.php">variables</a>
-  	</nav>
-  	
-  	
   	<nav class="nav">
   <div class="nav-left">
-    <a class="nav-item" href="#">
-      <img src="/images/bulma.png" alt="flexspace">
-    </a>
+    <a class="nav-item" href="#"><h1>flexspace</h1></a>
   </div>
 
   <div class="nav-center">
     <a class="nav-item" href="#">
       <span class="icon">
-        <i class="fa fa-github"></i>
+        <i class="ics icon-brush"></i>
       </span>
     </a>
     <a class="nav-item" href="#">
       <span class="icon">
-        <i class="fa fa-twitter"></i>
+        <i class="ics icon-tackleft"></i>
       </span>
     </a>
   </div>
@@ -38,28 +24,19 @@
   </span>
 
   <div class="nav-right nav-menu">
-    <a class="nav-item" href="#">
-      Home
-    </a>
-    <a class="nav-item" href="#">
-      Documentation
-    </a>
-    <a class="nav-item" href="#">
-      Blog
-    </a>
-
-    <span class="nav-item">
-      <a class="button" >
-        <span class="icon">
-          <i class="fa fa-twitter"></i>
-        </span>
-        <span>Tweet</span>
-      </a>
+  	<span class="nav-item"><a href="/index.php">flexspace</a></span>
+	<span class="nav-item"><a href="/page.php">page</a></span>
+	<span class="nav-item"><a href="/grid.php">grid</a></span>
+	<span class="nav-item"><a href="/modules.php">modules</a></span>
+	<span class="nav-item"><a href="/ui.php">ui</a></span>
+	<span class="nav-item"><a href="/art.php">art</a></span>
+	<span class="nav-item"><a href="/animations.php">animations</a></span>
+	<span class="nav-item"><a href="/variables.php">variables</a></span>
+    <span class="nav-item"><a class="button" ><span class="icon"> <i class="ics icon-waves"></i></span></a>
       <a class="button is-primary" href="#">
         <span class="icon">
-          <i class="fa fa-download"></i>
+          <i class="ics icon-infinity"></i>
         </span>
-        <span>Download</span>
       </a>
     </span>
   </div>

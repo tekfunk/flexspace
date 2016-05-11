@@ -9,7 +9,7 @@
 
 <section class="section" id="layout">
   <div class="container">
-    <h1>top level layout</h1>
+    <h1>layout</h1>
     <h2>&lt;header&gt;, &lt;section&gt;, &lt;figure&gt;, &lt;footer&gt; | .header, .hero, .section, .footer </h2>
     <hr>
   </div>

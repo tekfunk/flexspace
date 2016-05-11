@@ -1,8 +1,6 @@
 /* Bulma 0.0.26 */
 // 1. Initial variables
 
-// Colors
-.color { display: inline-block; float: left; height: 18px; margin-right: 5px; width: 18px; }
 
 $black: #1a1a1a !default;
 $grey-darker: #2a2a2a !default;
@@ -18,6 +16,7 @@ $purple: #847bb9 !default;
 $red: #c5443b !default;
 $turquoise: #14b1c4 !default;
 $yellow: #fce473 !default;
+
 // Typography
 
 $family-sans-serif: "DINPro", sans-serif !default;
@@ -33,20 +32,24 @@ $weight-normal: 400 !default;
 $weight-bold: 700 !default;
 $weight-title-normal: 300 !default;
 $weight-title-bold: 500 !default;
+
 // Breakpoints
 
 $tablet: 769px !default;
 $desktop: 980px !default;
 $widescreen: 1180px !default;
+
 // Dimensions
 
 $column-gap: 20px !default;
 $nav-height: 50px !default;
+
 // Miscellaneous
 
 $easing: ease-out !default;
 $radius: 3px !default;
 $speed: 86ms !default;
+
 // 2. Primary colors
 
 $primary: $turquoise !default;
@@ -57,6 +60,7 @@ $danger: $red !default;
 $light: $grey-lighter !default;
 $dark: $grey-dark !default;
 $text: $grey-dark !default;
+
 // 3. Generated variables
 
 // Invert colors

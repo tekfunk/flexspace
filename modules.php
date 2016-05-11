@@ -41,13 +41,13 @@
               <nav class="level">
                 <div class="level-left">
                   <a class="level-item">
-                    <span class="icon is-small"><i class="fa fa-reply"></i></span>
+                    <span class="icon is-small"><i class="ics icon-reply"></i></span>
                   </a>
                   <a class="level-item">
-                    <span class="icon is-small"><i class="fa fa-retweet"></i></span>
+                    <span class="icon is-small"><i class="ics icon-retweet"></i></span>
                   </a>
                   <a class="level-item">
-                    <span class="icon is-small"><i class="fa fa-heart"></i></span>
+                    <span class="icon is-small"><i class="ics icon-heart"></i></span>
                   </a>
                 </div>
               </nav>
@@ -75,13 +75,13 @@
       <span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">"level"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"level-left"</span><span class="nt">&gt;</span>
           <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"level-item"</span><span class="nt">&gt;</span>
-            <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-reply"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
+            <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-reply"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
           <span class="nt">&lt;/a&gt;</span>
           <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"level-item"</span><span class="nt">&gt;</span>
-            <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-retweet"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
+            <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-retweet"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
           <span class="nt">&lt;/a&gt;</span>
           <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"level-item"</span><span class="nt">&gt;</span>
-            <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-heart"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
+            <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-heart"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
           <span class="nt">&lt;/a&gt;</span>
         <span class="nt">&lt;/div&gt;</span>
       <span class="nt">&lt;/nav&gt;</span>
@@ -170,7 +170,7 @@
               Component
             </p>
             <a class="card-header-icon">
-              <i class="fa fa-angle-down"></i>
+              <i class="ics icon-angle-down"></i>
             </a>
           </header>
           <div class="card-content">
@@ -194,7 +194,7 @@
       Component
     <span class="nt">&lt;/p&gt;</span>
     <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"card-header-icon"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-angle-down"</span><span class="nt">&gt;&lt;/i&gt;</span>
+      <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-angle-down"</span><span class="nt">&gt;&lt;/i&gt;</span>
     <span class="nt">&lt;/a&gt;</span>
   <span class="nt">&lt;/header&gt;</span>
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"card-content"</span><span class="nt">&gt;</span>
@@ -618,13 +618,13 @@
           <nav class="level">
             <div class="level-left">
               <a class="level-item">
-                <span class="icon is-small"><i class="fa fa-reply"></i></span>
+                <span class="icon is-small"><i class="ics icon-reply"></i></span>
               </a>
               <a class="level-item">
-                <span class="icon is-small"><i class="fa fa-retweet"></i></span>
+                <span class="icon is-small"><i class="ics icon-retweet"></i></span>
               </a>
               <a class="level-item">
-                <span class="icon is-small"><i class="fa fa-heart"></i></span>
+                <span class="icon is-small"><i class="ics icon-heart"></i></span>
               </a>
             </div>
           </nav>
@@ -654,13 +654,13 @@
           <nav class="level">
             <div class="level-left">
               <a class="level-item">
-                <span class="icon is-small"><i class="fa fa-reply"></i></span>
+                <span class="icon is-small"><i class="ics icon-reply"></i></span>
               </a>
               <a class="level-item">
-                <span class="icon is-small"><i class="fa fa-retweet"></i></span>
+                <span class="icon is-small"><i class="ics icon-retweet"></i></span>
               </a>
               <a class="level-item">
-                <span class="icon is-small"><i class="fa fa-heart"></i></span>
+                <span class="icon is-small"><i class="ics icon-heart"></i></span>
               </a>
             </div>
           </nav>
@@ -688,13 +688,13 @@
     <span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">"level"</span><span class="nt">&gt;</span>
       <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"level-left"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"level-item"</span><span class="nt">&gt;</span>
-          <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-reply"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
+          <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-reply"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
         <span class="nt">&lt;/a&gt;</span>
         <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"level-item"</span><span class="nt">&gt;</span>
-          <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-retweet"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
+          <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-retweet"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
         <span class="nt">&lt;/a&gt;</span>
         <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"level-item"</span><span class="nt">&gt;</span>
-          <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-heart"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
+          <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-heart"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
         <span class="nt">&lt;/a&gt;</span>
       <span class="nt">&lt;/div&gt;</span>
     <span class="nt">&lt;/nav&gt;</span>
@@ -1391,12 +1391,12 @@
   <div class="nav-center">
     <a class="nav-item" href="#">
       <span class="icon">
-        <i class="fa fa-github"></i>
+        <i class="ics icon-github"></i>
       </span>
     </a>
     <a class="nav-item" href="#">
       <span class="icon">
-        <i class="fa fa-twitter"></i>
+        <i class="ics icon-twitter"></i>
       </span>
     </a>
   </div>
@@ -1421,13 +1421,13 @@
     <span class="nav-item">
       <a class="button">
         <span class="icon">
-          <i class="fa fa-twitter"></i>
+          <i class="ics icon-twitter"></i>
         </span>
         <span>Tweet</span>
       </a>
       <a class="button is-primary" href="#">
         <span class="icon">
-          <i class="fa fa-download"></i>
+          <i class="ics icon-download"></i>
         </span>
         <span>Download</span>
       </a>
@@ -1572,13 +1572,13 @@
             <a href="#">Sources</a>
             <a href="#">Forks</a>
           </p>
-          <a class="panel-block is-active" href="#"><span class="panel-icon"><i class="fa fa-book"></i></span>bulma-website</a>
-          <a class="panel-block" href="#"><span class="panel-icon"><i class="fa fa-book"></i></span>bulma</a>
-          <a class="panel-block" href="#"><span class="panel-icon"><i class="fa fa-book"></i></span>marksheet</a>
-          <a class="panel-block" href="#"><span class="panel-icon"><i class="fa fa-code-fork"></i></span>daniellowtw/infBoard</a>
-          <a class="panel-block" href="#"><span class="panel-icon"><i class="fa fa-book"></i></span>jgthms.github.io</a>
-          <a class="panel-block" href="#"><span class="panel-icon"><i class="fa fa-code-fork"></i></span>mojs</a>
-          <a class="panel-block" href="#"><span class="panel-icon"><i class="fa fa-book"></i></span>grumpy-cat</a>
+          <a class="panel-block is-active" href="#"><span class="panel-icon"><i class="ics icon-book"></i></span>bulma-website</a>
+          <a class="panel-block" href="#"><span class="panel-icon"><i class="ics icon-book"></i></span>bulma</a>
+          <a class="panel-block" href="#"><span class="panel-icon"><i class="ics icon-book"></i></span>marksheet</a>
+          <a class="panel-block" href="#"><span class="panel-icon"><i class="ics icon-code-fork"></i></span>daniellowtw/infBoard</a>
+          <a class="panel-block" href="#"><span class="panel-icon"><i class="ics icon-book"></i></span>jgthms.github.io</a>
+          <a class="panel-block" href="#"><span class="panel-icon"><i class="ics icon-code-fork"></i></span>mojs</a>
+          <a class="panel-block" href="#"><span class="panel-icon"><i class="ics icon-book"></i></span>grumpy-cat</a>
           <label class="panel-block">
             <input type="checkbox">
             Remember me
@@ -1604,43 +1604,43 @@
   <span class="nt">&lt;/p&gt;</span>
   <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"panel-block is-active"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"panel-icon"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-book"</span><span class="nt">&gt;&lt;/i&gt;</span>
+      <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-book"</span><span class="nt">&gt;&lt;/i&gt;</span>
     <span class="nt">&lt;/span&gt;</span>
     bulma-website
   <span class="nt">&lt;/a&gt;</span>
   <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"panel-block"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"panel-icon"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-book"</span><span class="nt">&gt;&lt;/i&gt;</span>
+      <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-book"</span><span class="nt">&gt;&lt;/i&gt;</span>
     <span class="nt">&lt;/span&gt;</span>
     bulma
   <span class="nt">&lt;/a&gt;</span>
   <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"panel-block"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"panel-icon"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-book"</span><span class="nt">&gt;&lt;/i&gt;</span>
+      <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-book"</span><span class="nt">&gt;&lt;/i&gt;</span>
     <span class="nt">&lt;/span&gt;</span>
     marksheet
   <span class="nt">&lt;/a&gt;</span>
   <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"panel-block"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"panel-icon"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-code-fork"</span><span class="nt">&gt;&lt;/i&gt;</span>
+      <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-code-fork"</span><span class="nt">&gt;&lt;/i&gt;</span>
     <span class="nt">&lt;/span&gt;</span>
     daniellowtw/infBoard
   <span class="nt">&lt;/a&gt;</span>
   <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"panel-block"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"panel-icon"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-book"</span><span class="nt">&gt;&lt;/i&gt;</span>
+      <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-book"</span><span class="nt">&gt;&lt;/i&gt;</span>
     <span class="nt">&lt;/span&gt;</span>
     jgthms.github.io
   <span class="nt">&lt;/a&gt;</span>
   <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"panel-block"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"panel-icon"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-code-fork"</span><span class="nt">&gt;&lt;/i&gt;</span>
+      <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-code-fork"</span><span class="nt">&gt;&lt;/i&gt;</span>
     <span class="nt">&lt;/span&gt;</span>
     mojs
   <span class="nt">&lt;/a&gt;</span>
   <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"panel-block"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"panel-icon"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-book"</span><span class="nt">&gt;&lt;/i&gt;</span>
+      <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-book"</span><span class="nt">&gt;&lt;/i&gt;</span>
     <span class="nt">&lt;/span&gt;</span>
     grumpy-cat
   <span class="nt">&lt;/a&gt;</span>
@@ -1790,7 +1790,7 @@
     <h3 class="title">Icons</h3>
 
     <div class="content">
-      <p>You can use any of the <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a> <strong>icons</strong>.</p>
+      <p>&lt;span class="ics is-small"&gt;&lt;i class="icon-picture"&gt;&lt;/i&gt;&lt;/span&gt;</p>
     </div>
 
 <div class="example">
@@ -1798,25 +1798,25 @@
     <ul>
       <li class="is-active">
         <a>
-          <span class="icon is-small"><i class="fa fa-image"></i></span>
+          <span class="ics is-small"><i class="icon-picture"></i></span>
           <span>Pictures</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon is-small"><i class="fa fa-music"></i></span>
+          <span class="ics is-small"><i class="icon-headphones"></i></span>
           <span>Music</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon is-small"><i class="fa fa-film"></i></span>
+          <span class="ics is-small"><i class="icon-video"></i></span>
           <span>Videos</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon is-small"><i class="fa fa-file-text-o"></i></span>
+          <span class="ics is-small"><i class="icon-book"></i></span>
           <span>Documents</span>
         </a>
       </li>
@@ -1824,34 +1824,7 @@
   </div>
 </div>
 
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"tabs is-centered"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;ul&gt;</span>
-    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"is-active"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-image"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
-        <span class="nt">&lt;span&gt;</span>Pictures<span class="nt">&lt;/span&gt;</span>
-      <span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>
-      <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-music"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
-        <span class="nt">&lt;span&gt;</span>Music<span class="nt">&lt;/span&gt;</span>
-      <span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>
-      <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-film"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
-        <span class="nt">&lt;span&gt;</span>Videos<span class="nt">&lt;/span&gt;</span>
-      <span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>
-      <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-file-text-o"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
-        <span class="nt">&lt;span&gt;</span>Documents<span class="nt">&lt;/span&gt;</span>
-      <span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-  <span class="nt">&lt;/ul&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre><button class="copy">Copy</button></figure>
+
 
     <hr>
 
@@ -1932,25 +1905,25 @@
     <ul>
       <li class="is-active">
         <a>
-          <span class="icon is-small"><i class="fa fa-image"></i></span>
+          <span class="icon is-small"><i class="ics icon-image"></i></span>
           <span>Pictures</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon is-small"><i class="fa fa-music"></i></span>
+          <span class="icon is-small"><i class="ics icon-music"></i></span>
           <span>Music</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon is-small"><i class="fa fa-film"></i></span>
+          <span class="icon is-small"><i class="ics icon-film"></i></span>
           <span>Videos</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon is-small"><i class="fa fa-file-text-o"></i></span>
+          <span class="icon is-small"><i class="ics icon-file-text-o"></i></span>
           <span>Documents</span>
         </a>
       </li>
@@ -1962,25 +1935,25 @@
   <span class="nt">&lt;ul&gt;</span>
     <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"is-active"</span><span class="nt">&gt;</span>
       <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-image"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-image"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
         <span class="nt">&lt;span&gt;</span>Pictures<span class="nt">&lt;/span&gt;</span>
       <span class="nt">&lt;/a&gt;</span>
     <span class="nt">&lt;/li&gt;</span>
     <span class="nt">&lt;li&gt;</span>
       <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-music"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-music"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
         <span class="nt">&lt;span&gt;</span>Music<span class="nt">&lt;/span&gt;</span>
       <span class="nt">&lt;/a&gt;</span>
     <span class="nt">&lt;/li&gt;</span>
     <span class="nt">&lt;li&gt;</span>
       <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-film"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-film"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
         <span class="nt">&lt;span&gt;</span>Videos<span class="nt">&lt;/span&gt;</span>
       <span class="nt">&lt;/a&gt;</span>
     <span class="nt">&lt;/li&gt;</span>
     <span class="nt">&lt;li&gt;</span>
       <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-file-text-o"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-file-text-o"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
         <span class="nt">&lt;span&gt;</span>Documents<span class="nt">&lt;/span&gt;</span>
       <span class="nt">&lt;/a&gt;</span>
     <span class="nt">&lt;/li&gt;</span>
@@ -1996,25 +1969,25 @@
     <ul>
       <li class="is-active">
         <a>
-          <span class="icon is-small"><i class="fa fa-image"></i></span>
+          <span class="icon is-small"><i class="ics icon-image"></i></span>
           <span>Pictures</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon is-small"><i class="fa fa-music"></i></span>
+          <span class="icon is-small"><i class="ics icon-music"></i></span>
           <span>Music</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon is-small"><i class="fa fa-film"></i></span>
+          <span class="icon is-small"><i class="ics icon-film"></i></span>
           <span>Videos</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon is-small"><i class="fa fa-file-text-o"></i></span>
+          <span class="icon is-small"><i class="ics icon-file-text-o"></i></span>
           <span>Documents</span>
         </a>
       </li>
@@ -2026,25 +1999,25 @@
   <span class="nt">&lt;ul&gt;</span>
     <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"is-active"</span><span class="nt">&gt;</span>
       <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-image"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-image"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
         <span class="nt">&lt;span&gt;</span>Pictures<span class="nt">&lt;/span&gt;</span>
       <span class="nt">&lt;/a&gt;</span>
     <span class="nt">&lt;/li&gt;</span>
     <span class="nt">&lt;li&gt;</span>
       <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-music"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-music"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
         Music
       <span class="nt">&lt;/a&gt;</span>
     <span class="nt">&lt;/li&gt;</span>
     <span class="nt">&lt;li&gt;</span>
       <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-film"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-film"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
         Videos
       <span class="nt">&lt;/a&gt;</span>
     <span class="nt">&lt;/li&gt;</span>
     <span class="nt">&lt;li&gt;</span>
       <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-file-text-o"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-file-text-o"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
         Documents
       <span class="nt">&lt;/a&gt;</span>
     <span class="nt">&lt;/li&gt;</span>
@@ -2059,20 +2032,20 @@
         <ul>
           <li>
             <a>
-              <span class="icon"><i class="fa fa-angle-left"></i></span>
+              <span class="icon"><i class="ics icon-angle-left"></i></span>
               <span>Left</span>
             </a>
           </li>
           <li>
             <a>
-              <span class="icon"><i class="fa fa-angle-up"></i></span>
+              <span class="icon"><i class="ics icon-angle-up"></i></span>
               <span>Up</span>
             </a>
           </li>
           <li>
             <a>
               <span>Right</span>
-              <span class="icon"><i class="fa fa-angle-right"></i></span>
+              <span class="icon"><i class="ics icon-angle-right"></i></span>
             </a>
           </li>
         </ul>
@@ -2082,20 +2055,20 @@
   <span class="nt">&lt;ul&gt;</span>
     <span class="nt">&lt;li&gt;</span>
       <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-angle-left"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-angle-left"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
         <span class="nt">&lt;span&gt;</span>Left<span class="nt">&lt;/span&gt;</span>
       <span class="nt">&lt;/a&gt;</span>
     <span class="nt">&lt;/li&gt;</span>
     <span class="nt">&lt;li&gt;</span>
       <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-angle-up"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-angle-up"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
         <span class="nt">&lt;span&gt;</span>Up<span class="nt">&lt;/span&gt;</span>
       <span class="nt">&lt;/a&gt;</span>
     <span class="nt">&lt;/li&gt;</span>
     <span class="nt">&lt;li&gt;</span>
       <span class="nt">&lt;a&gt;</span>
         <span class="nt">&lt;span&gt;</span>Right<span class="nt">&lt;/span&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-angle-right"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-angle-right"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
       <span class="nt">&lt;/a&gt;</span>
     <span class="nt">&lt;/li&gt;</span>
   <span class="nt">&lt;/ul&gt;</span>
@@ -2113,25 +2086,25 @@
     <ul>
       <li class="is-active">
         <a>
-          <span class="icon is-small"><i class="fa fa-image"></i></span>
+          <span class="icon is-small"><i class="ics icon-image"></i></span>
           <span>Pictures</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon is-small"><i class="fa fa-music"></i></span>
+          <span class="icon is-small"><i class="ics icon-music"></i></span>
           <span>Music</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon is-small"><i class="fa fa-film"></i></span>
+          <span class="icon is-small"><i class="ics icon-film"></i></span>
           <span>Videos</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon is-small"><i class="fa fa-file-text-o"></i></span>
+          <span class="icon is-small"><i class="ics icon-file-text-o"></i></span>
           <span>Documents</span>
         </a>
       </li>
@@ -2143,25 +2116,25 @@
   <span class="nt">&lt;ul&gt;</span>
     <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"is-active"</span><span class="nt">&gt;</span>
       <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-image"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-image"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
         <span class="nt">&lt;span&gt;</span>Pictures<span class="nt">&lt;/span&gt;</span>
       <span class="nt">&lt;/a&gt;</span>
     <span class="nt">&lt;/li&gt;</span>
     <span class="nt">&lt;li&gt;</span>
       <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-music"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-music"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
         <span class="nt">&lt;span&gt;</span>Music<span class="nt">&lt;/span&gt;</span>
       <span class="nt">&lt;/a&gt;</span>
     <span class="nt">&lt;/li&gt;</span>
     <span class="nt">&lt;li&gt;</span>
       <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-film"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-film"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
         <span class="nt">&lt;span&gt;</span>Videos<span class="nt">&lt;/span&gt;</span>
       <span class="nt">&lt;/a&gt;</span>
     <span class="nt">&lt;/li&gt;</span>
     <span class="nt">&lt;li&gt;</span>
       <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-file-text-o"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-file-text-o"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
         <span class="nt">&lt;span&gt;</span>Documents<span class="nt">&lt;/span&gt;</span>
       <span class="nt">&lt;/a&gt;</span>
     <span class="nt">&lt;/li&gt;</span>
@@ -2173,25 +2146,25 @@
     <ul>
       <li class="is-active">
         <a>
-          <span class="icon is-small"><i class="fa fa-image"></i></span>
+          <span class="icon is-small"><i class="ics icon-image"></i></span>
           <span>Pictures</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon is-small"><i class="fa fa-music"></i></span>
+          <span class="icon is-small"><i class="ics icon-music"></i></span>
           <span>Music</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon is-small"><i class="fa fa-film"></i></span>
+          <span class="icon is-small"><i class="ics icon-film"></i></span>
           <span>Videos</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon is-small"><i class="fa fa-file-text-o"></i></span>
+          <span class="icon is-small"><i class="ics icon-file-text-o"></i></span>
           <span>Documents</span>
         </a>
       </li>
@@ -2203,25 +2176,25 @@
   <span class="nt">&lt;ul&gt;</span>
     <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"is-active"</span><span class="nt">&gt;</span>
       <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-image"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-image"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
         <span class="nt">&lt;span&gt;</span>Pictures<span class="nt">&lt;/span&gt;</span>
       <span class="nt">&lt;/a&gt;</span>
     <span class="nt">&lt;/li&gt;</span>
     <span class="nt">&lt;li&gt;</span>
       <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-music"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-music"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
         <span class="nt">&lt;span&gt;</span>Music<span class="nt">&lt;/span&gt;</span>
       <span class="nt">&lt;/a&gt;</span>
     <span class="nt">&lt;/li&gt;</span>
     <span class="nt">&lt;li&gt;</span>
       <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-film"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-film"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
         <span class="nt">&lt;span&gt;</span>Videos<span class="nt">&lt;/span&gt;</span>
       <span class="nt">&lt;/a&gt;</span>
     <span class="nt">&lt;/li&gt;</span>
     <span class="nt">&lt;li&gt;</span>
       <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-file-text-o"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-file-text-o"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
         <span class="nt">&lt;span&gt;</span>Documents<span class="nt">&lt;/span&gt;</span>
       <span class="nt">&lt;/a&gt;</span>
     <span class="nt">&lt;/li&gt;</span>
@@ -2233,25 +2206,25 @@
     <ul>
       <li class="is-active">
         <a>
-          <span class="icon is-small"><i class="fa fa-image"></i></span>
+          <span class="icon is-small"><i class="ics icon-image"></i></span>
           <span>Pictures</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon is-small"><i class="fa fa-music"></i></span>
+          <span class="icon is-small"><i class="ics icon-music"></i></span>
           <span>Music</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon is-small"><i class="fa fa-film"></i></span>
+          <span class="icon is-small"><i class="ics icon-film"></i></span>
           <span>Videos</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon is-small"><i class="fa fa-file-text-o"></i></span>
+          <span class="icon is-small"><i class="ics icon-file-text-o"></i></span>
           <span>Documents</span>
         </a>
       </li>
@@ -2263,25 +2236,25 @@
   <span class="nt">&lt;ul&gt;</span>
     <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"is-active"</span><span class="nt">&gt;</span>
       <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-image"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-image"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
         <span class="nt">&lt;span&gt;</span>Pictures<span class="nt">&lt;/span&gt;</span>
       <span class="nt">&lt;/a&gt;</span>
     <span class="nt">&lt;/li&gt;</span>
     <span class="nt">&lt;li&gt;</span>
       <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-music"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-music"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
         <span class="nt">&lt;span&gt;</span>Music<span class="nt">&lt;/span&gt;</span>
       <span class="nt">&lt;/a&gt;</span>
     <span class="nt">&lt;/li&gt;</span>
     <span class="nt">&lt;li&gt;</span>
       <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-film"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-film"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
         <span class="nt">&lt;span&gt;</span>Videos<span class="nt">&lt;/span&gt;</span>
       <span class="nt">&lt;/a&gt;</span>
     <span class="nt">&lt;/li&gt;</span>
     <span class="nt">&lt;li&gt;</span>
       <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-file-text-o"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-file-text-o"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
         <span class="nt">&lt;span&gt;</span>Documents<span class="nt">&lt;/span&gt;</span>
       <span class="nt">&lt;/a&gt;</span>
     <span class="nt">&lt;/li&gt;</span>
@@ -2293,25 +2266,25 @@
     <ul>
       <li class="is-active">
         <a>
-          <span class="icon"><i class="fa fa-image"></i></span>
+          <span class="icon"><i class="ics icon-image"></i></span>
           <span>Pictures</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon"><i class="fa fa-music"></i></span>
+          <span class="icon"><i class="ics icon-music"></i></span>
           <span>Music</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon"><i class="fa fa-film"></i></span>
+          <span class="icon"><i class="ics icon-film"></i></span>
           <span>Videos</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon"><i class="fa fa-file-text-o"></i></span>
+          <span class="icon"><i class="ics icon-file-text-o"></i></span>
           <span>Documents</span>
         </a>
       </li>
@@ -2323,25 +2296,25 @@
   <span class="nt">&lt;ul&gt;</span>
     <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"is-active"</span><span class="nt">&gt;</span>
       <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-image"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-image"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
         <span class="nt">&lt;span&gt;</span>Pictures<span class="nt">&lt;/span&gt;</span>
       <span class="nt">&lt;/a&gt;</span>
     <span class="nt">&lt;/li&gt;</span>
     <span class="nt">&lt;li&gt;</span>
       <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-music"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-music"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
         <span class="nt">&lt;span&gt;</span>Music<span class="nt">&lt;/span&gt;</span>
       <span class="nt">&lt;/a&gt;</span>
     <span class="nt">&lt;/li&gt;</span>
     <span class="nt">&lt;li&gt;</span>
       <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-film"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-film"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
         <span class="nt">&lt;span&gt;</span>Videos<span class="nt">&lt;/span&gt;</span>
       <span class="nt">&lt;/a&gt;</span>
     <span class="nt">&lt;/li&gt;</span>
     <span class="nt">&lt;li&gt;</span>
       <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-file-text-o"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-file-text-o"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
         <span class="nt">&lt;span&gt;</span>Documents<span class="nt">&lt;/span&gt;</span>
       <span class="nt">&lt;/a&gt;</span>
     <span class="nt">&lt;/li&gt;</span>

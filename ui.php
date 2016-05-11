@@ -59,11 +59,12 @@
                     <h4 class="subtitle">.is-small, .is-medium, .is-large</h4><a class="button is-small">Small</a> <a class="button">Normal</a> <a class="button is-medium">Medium</a> <a class="button is-large">Large</a>
                     </div>
 
-            <h4 class="subtitle">With Icons</h4>
+            <h4 class="subtitle">&lt;i class="ics icon-xxx"&gt;</h4>
 
             <div class="columns">
                 <div class="column">
-                    <p class="control"><a class="button"><span>GitHub</span></a> <a class="button is-primary"> <span>Twitter</span></a> <a class="button is-success"> <span>Save</span></a> <a class="button is-danger is-outlined"><span>Delete</span> </a></p>
+                    <p class="control"><a class="button"><span class="ics"><i class="icon-rollthe"></i></span>
+<span>GitHub</span></a> <a class="button is-primary"><span class="ics"><i class="icon-rollthe"></i></span><span>Twitter</span></a> <a class="button is-success"><span class="ics"><i class="icon-circlecheck"></i></span><span>Save</span></a> <a class="button is-danger is-outlined"><span class="ics"><i class="icon-bomb"></i></span><span>Delete</span> </a></p>
                 </div>
 
                 <div class="column">
@@ -327,13 +328,13 @@
 <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"label"</span><span class="nt">&gt;</span>Username<span class="nt">&lt;/label&gt;</span>
 <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control has-icon has-icon-right"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"input is-success"</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">placeholder=</span><span class="s">"Text input"</span> <span class="na">value=</span><span class="s">"bulma"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-check"</span><span class="nt">&gt;&lt;/i&gt;</span>
+  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-check"</span><span class="nt">&gt;&lt;/i&gt;</span>
   <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"help is-success"</span><span class="nt">&gt;</span>This username is available<span class="nt">&lt;/span&gt;</span>
 <span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"label"</span><span class="nt">&gt;</span>Email<span class="nt">&lt;/label&gt;</span>
 <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control has-icon has-icon-right"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"input is-danger"</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">placeholder=</span><span class="s">"Email input"</span> <span class="na">value=</span><span class="s">"hello@"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-warning"</span><span class="nt">&gt;&lt;/i&gt;</span>
+  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-warning"</span><span class="nt">&gt;&lt;/i&gt;</span>
   <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"help is-danger"</span><span class="nt">&gt;</span>This email is invalid<span class="nt">&lt;/span&gt;</span>
 <span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"label"</span><span class="nt">&gt;</span>Subject<span class="nt">&lt;/label&gt;</span>
@@ -542,11 +543,11 @@
                         <pre>
 <code class="language-html" data-lang="html"><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control has-icon"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"input"</span> <span class="na">type=</span><span class="s">"email"</span> <span class="na">placeholder=</span><span class="s">"Email"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-envelope"</span><span class="nt">&gt;&lt;/i&gt;</span>
+  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-envelope"</span><span class="nt">&gt;&lt;/i&gt;</span>
 <span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control has-icon"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"input"</span> <span class="na">type=</span><span class="s">"password"</span> <span class="na">placeholder=</span><span class="s">"Password"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-lock"</span><span class="nt">&gt;&lt;/i&gt;</span>
+  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-lock"</span><span class="nt">&gt;&lt;/i&gt;</span>
 <span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button is-success"</span><span class="nt">&gt;</span>
@@ -582,35 +583,35 @@
                         <pre>
 <code class="language-html" data-lang="html"><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control has-icon"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"input is-small"</span> <span class="na">type=</span><span class="s">"email"</span> <span class="na">placeholder=</span><span class="s">"Email"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-envelope"</span><span class="nt">&gt;&lt;/i&gt;</span>
+  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-envelope"</span><span class="nt">&gt;&lt;/i&gt;</span>
 <span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control has-icon"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"input"</span> <span class="na">type=</span><span class="s">"email"</span> <span class="na">placeholder=</span><span class="s">"Email"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-envelope"</span><span class="nt">&gt;&lt;/i&gt;</span>
+  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-envelope"</span><span class="nt">&gt;&lt;/i&gt;</span>
 <span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control has-icon"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"input is-medium"</span> <span class="na">type=</span><span class="s">"email"</span> <span class="na">placeholder=</span><span class="s">"Email"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-envelope"</span><span class="nt">&gt;&lt;/i&gt;</span>
+  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-envelope"</span><span class="nt">&gt;&lt;/i&gt;</span>
 <span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control has-icon"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"input is-large"</span> <span class="na">type=</span><span class="s">"email"</span> <span class="na">placeholder=</span><span class="s">"Email"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-envelope"</span><span class="nt">&gt;&lt;/i&gt;</span>
+  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-envelope"</span><span class="nt">&gt;&lt;/i&gt;</span>
 <span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control has-icon has-icon-right"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"input is-small"</span> <span class="na">type=</span><span class="s">"email"</span> <span class="na">placeholder=</span><span class="s">"Email"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-check"</span><span class="nt">&gt;&lt;/i&gt;</span>
+  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-check"</span><span class="nt">&gt;&lt;/i&gt;</span>
 <span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control has-icon has-icon-right"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"input"</span> <span class="na">type=</span><span class="s">"email"</span> <span class="na">placeholder=</span><span class="s">"Email"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-check"</span><span class="nt">&gt;&lt;/i&gt;</span>
+  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-check"</span><span class="nt">&gt;&lt;/i&gt;</span>
 <span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control has-icon has-icon-right"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"input is-medium"</span> <span class="na">type=</span><span class="s">"email"</span> <span class="na">placeholder=</span><span class="s">"Email"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-check"</span><span class="nt">&gt;&lt;/i&gt;</span>
+  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-check"</span><span class="nt">&gt;&lt;/i&gt;</span>
 <span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control has-icon has-icon-right"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"input is-large"</span> <span class="na">type=</span><span class="s">"email"</span> <span class="na">placeholder=</span><span class="s">"Email"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-check"</span><span class="nt">&gt;&lt;/i&gt;</span>
+  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-check"</span><span class="nt">&gt;&lt;/i&gt;</span>
 <span class="nt">&lt;/p&gt;</span></code>
 </pre><button class="copy">Copy</button>
                     </figure>
@@ -1030,12 +1031,12 @@
       <span class="nt">&lt;td&gt;</span>Bass Guitar<span class="nt">&lt;/td&gt;</span>
       <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">"is-icon"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-          <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-twitter"</span><span class="nt">&gt;&lt;/i&gt;</span>
+          <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-twitter"</span><span class="nt">&gt;&lt;/i&gt;</span>
         <span class="nt">&lt;/a&gt;</span>
       <span class="nt">&lt;/td&gt;</span>
       <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">"is-icon"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-          <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-instagram"</span><span class="nt">&gt;&lt;/i&gt;</span>
+          <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-instagram"</span><span class="nt">&gt;&lt;/i&gt;</span>
         <span class="nt">&lt;/a&gt;</span>
       <span class="nt">&lt;/td&gt;</span>
     <span class="nt">&lt;/tr&gt;</span>
@@ -1044,12 +1045,12 @@
       <span class="nt">&lt;td&gt;</span>Rhythm Guitar<span class="nt">&lt;/td&gt;</span>
       <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">"is-icon"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-          <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-twitter"</span><span class="nt">&gt;&lt;/i&gt;</span>
+          <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-twitter"</span><span class="nt">&gt;&lt;/i&gt;</span>
         <span class="nt">&lt;/a&gt;</span>
       <span class="nt">&lt;/td&gt;</span>
       <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">"is-icon"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-          <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-instagram"</span><span class="nt">&gt;&lt;/i&gt;</span>
+          <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-instagram"</span><span class="nt">&gt;&lt;/i&gt;</span>
         <span class="nt">&lt;/a&gt;</span>
       <span class="nt">&lt;/td&gt;</span>
     <span class="nt">&lt;/tr&gt;</span>
@@ -1058,12 +1059,12 @@
       <span class="nt">&lt;td&gt;</span>Lead Guitar<span class="nt">&lt;/td&gt;</span>
       <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">"is-icon"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-          <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-twitter"</span><span class="nt">&gt;&lt;/i&gt;</span>
+          <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-twitter"</span><span class="nt">&gt;&lt;/i&gt;</span>
         <span class="nt">&lt;/a&gt;</span>
       <span class="nt">&lt;/td&gt;</span>
       <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">"is-icon"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-          <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-instagram"</span><span class="nt">&gt;&lt;/i&gt;</span>
+          <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-instagram"</span><span class="nt">&gt;&lt;/i&gt;</span>
         <span class="nt">&lt;/a&gt;</span>
       <span class="nt">&lt;/td&gt;</span>
     <span class="nt">&lt;/tr&gt;</span>
@@ -1072,12 +1073,12 @@
       <span class="nt">&lt;td&gt;</span>Drums<span class="nt">&lt;/td&gt;</span>
       <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">"is-icon"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-          <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-twitter"</span><span class="nt">&gt;&lt;/i&gt;</span>
+          <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-twitter"</span><span class="nt">&gt;&lt;/i&gt;</span>
         <span class="nt">&lt;/a&gt;</span>
       <span class="nt">&lt;/td&gt;</span>
       <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">"is-icon"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-          <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-instagram"</span><span class="nt">&gt;&lt;/i&gt;</span>
+          <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-instagram"</span><span class="nt">&gt;&lt;/i&gt;</span>
         <span class="nt">&lt;/a&gt;</span>
       <span class="nt">&lt;/td&gt;</span>
     <span class="nt">&lt;/tr&gt;</span>
