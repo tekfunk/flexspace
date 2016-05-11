@@ -3,7 +3,7 @@
 <section class="hero">
 	<div class="container">
 		<h1>modules</h1>
-           <h3><a href="#box">box</a> | <a href="#card">card</a> | <a href="#level">level</a> | <a href="#images">images</a> | <a href="#media">media</a> | <a href="#menu">menu</a> | <a href="#messages">messages</a> | <a href="#menu">menu</a> | <a href="#modal">modal</a> | <a href="#nav">nav</a> | <a href="#messages">messages</a> | <a href="#panel">panel</a> | <a href="#tabs">tabs</a></h3>
+           <h3><a href="#box">box</a> | <a href="#card">card</a>  | <a href="#images">images</a> | <a href="#media">media</a> | <a href="#messages">messages</a> |  <a href="#notifications">notifications</a> | <a href="#modal">modal</a> | <a href="#tags">tags</a></h3>
 	</div>
 </section>
 <section class="section" id="box">
@@ -214,252 +214,7 @@
     </div>
   </div>
 </section>
-<section class="section" id="level">
-  <div class="container">
-    <h1>Level</h1>
-    <h2>A multi-purpose <strong>horizontal level</strong>, which can contain almost any other element</h2>
 
-    <hr>
-
-    <div class="content">
-      <p>The <strong>structure</strong> of a level is the following:</p>
-      <ul>
-        <li>
-          <code>level</code>: main container
-          <ul>
-            <li><code>level-left</code> for the left side</li>
-            <li>
-              <code>level-right</code> for the right side
-              <ul>
-                <li><code>level-item</code> for each individual element</li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-      </ul>
-      <p>In a <code>level-item</code>, you can then insert almost <em>anything</em> you want: a title, a button, a text input, or just simple text. No matter what elements you put inside a Bulma <code>level</code>, they will always be <strong>vertically centered</strong>.</p>
-    </div>
-
-    <div class="structure">
-      <nav class="level structure-item is-structure-container" title="level">
-        <div class="level-left structure-item" title="level-left">
-          <div class="level-item">
-            <p class="subtitle is-5">
-              <strong>123</strong> posts
-            </p>
-          </div>
-          <div class="level-item">
-            <p class="control has-addons">
-              <input class="input" type="text" placeholder="Find a post">
-              <button class="button">
-                Search
-              </button>
-            </p>
-          </div>
-        </div>
-        <div class="level-right structure-item" title="level-right">
-          <p class="level-item">
-            <strong>All</strong>
-          </p>
-          <p class="level-item">
-            <a>Published</a>
-          </p>
-          <p class="level-item">
-            <a>Drafts</a>
-          </p>
-          <p class="level-item">
-            <a>Deleted</a>
-          </p>
-          <p class="level-item">
-            <a class="button is-success">
-              New
-            </a>
-          </p>
-        </div>
-      </nav>
-    </div>
-
-    <div class="example">
-      <nav class="level">
-        <div class="level-left">
-          <div class="level-item">
-            <p class="subtitle is-5">
-              <strong>123</strong> posts
-            </p>
-          </div>
-          <div class="level-item">
-            <p class="control has-addons">
-              <input class="input" type="text" placeholder="Find a post">
-              <button class="button">
-                Search
-              </button>
-            </p>
-          </div>
-        </div>
-        <div class="level-right">
-          <p class="level-item">
-            <strong>All</strong>
-          </p>
-          <p class="level-item">
-            <a>Published</a>
-          </p>
-          <p class="level-item">
-            <a>Drafts</a>
-          </p>
-          <p class="level-item">
-            <a>Deleted</a>
-          </p>
-          <p class="level-item">
-            <a class="button is-success">
-              New
-            </a>
-          </p>
-        </div>
-      </nav>
-    </div>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="c">&lt;!-- Main container --&gt;</span>
-<span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">"level"</span><span class="nt">&gt;</span>
-  <span class="c">&lt;!-- Left side --&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"level-left"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"level-item"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"subtitle is-5"</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;strong&gt;</span>123<span class="nt">&lt;/strong&gt;</span> posts
-      <span class="nt">&lt;/p&gt;</span>
-    <span class="nt">&lt;/div&gt;</span>
-    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"level-item"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control has-addons"</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"input"</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">placeholder=</span><span class="s">"Find a post"</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button"</span><span class="nt">&gt;</span>
-          Search
-        <span class="nt">&lt;/button&gt;</span>
-      <span class="nt">&lt;/p&gt;</span>
-    <span class="nt">&lt;/div&gt;</span>
-  <span class="nt">&lt;/div&gt;</span>
-
-  <span class="c">&lt;!-- Right side --&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"level-right"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"level-item"</span><span class="nt">&gt;&lt;strong&gt;</span>All<span class="nt">&lt;/strong&gt;&lt;/p&gt;</span>
-    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"level-item"</span><span class="nt">&gt;&lt;a&gt;</span>Published<span class="nt">&lt;/a&gt;&lt;/p&gt;</span>
-    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"level-item"</span><span class="nt">&gt;&lt;a&gt;</span>Drafts<span class="nt">&lt;/a&gt;&lt;/p&gt;</span>
-    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"level-item"</span><span class="nt">&gt;&lt;a&gt;</span>Deleted<span class="nt">&lt;/a&gt;&lt;/p&gt;</span>
-    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"level-item"</span><span class="nt">&gt;&lt;a</span> <span class="na">class=</span><span class="s">"button is-success"</span><span class="nt">&gt;</span>New<span class="nt">&lt;/a&gt;&lt;/p&gt;</span>
-  <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/nav&gt;</span></code></pre><button class="copy">Copy</button></figure>
-
-    <hr>
-    <h3>Centered level</h3>
-
-    <div class="content">
-      If you want a <strong>centered level</strong>, you can use as many <code>level-item</code> as you want, as long as they are <strong>direct</strong> children of the <code>level</code> container.
-    </div>
-
-    <div class="example">
-      <nav class="level">
-        <div class="level-item has-text-centered">
-          <p class="heading">Tweets</p>
-          <p>3,456</p>
-        </div>
-        <div class="level-item has-text-centered">
-          <p class="heading">Following</p>
-          <p>123</p>
-        </div>
-        <div class="level-item has-text-centered">
-          <p class="heading">Followers</p>
-          <p>456K</p>
-        </div>
-        <div class="level-item has-text-centered">
-          <p class="heading">Likes</p>
-          <p>789</p>
-        </div>
-      </nav>
-    </div>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">"level"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"level-item has-text-centered"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"heading"</span><span class="nt">&gt;</span>Tweets<span class="nt">&lt;/p&gt;</span>
-    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"title"</span><span class="nt">&gt;</span>3,456<span class="nt">&lt;/p&gt;</span>
-  <span class="nt">&lt;/div&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"level-item has-text-centered"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"heading"</span><span class="nt">&gt;</span>Following<span class="nt">&lt;/p&gt;</span>
-    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"title"</span><span class="nt">&gt;</span>123<span class="nt">&lt;/p&gt;</span>
-  <span class="nt">&lt;/div&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"level-item has-text-centered"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"heading"</span><span class="nt">&gt;</span>Followers<span class="nt">&lt;/p&gt;</span>
-    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"title"</span><span class="nt">&gt;</span>456K<span class="nt">&lt;/p&gt;</span>
-  <span class="nt">&lt;/div&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"level-item has-text-centered"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"heading"</span><span class="nt">&gt;</span>Likes<span class="nt">&lt;/p&gt;</span>
-    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"title"</span><span class="nt">&gt;</span>789<span class="nt">&lt;/p&gt;</span>
-  <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/nav&gt;</span></code></pre><button class="copy">Copy</button></figure>
-
-    <div class="example">
-      <nav class="level">
-        <p class="level-item has-text-centered">
-          <a class="link is-info">Home</a>
-        </p>
-        <p class="level-item has-text-centered">
-          <a class="link is-info">Menu</a>
-        </p>
-        <p class="level-item has-text-centered">
-          <img src="/images/bulma.png" alt="" style="height: 33px;">
-        </p>
-        <p class="level-item has-text-centered">
-          <a class="link is-info">Reservations</a>
-        </p>
-        <p class="level-item has-text-centered">
-          <a class="link is-info">Contact</a>
-        </p>
-      </nav>
-    </div>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">"level"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"level-item has-text-centered"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"link is-info"</span><span class="nt">&gt;</span>Home<span class="nt">&lt;/a&gt;</span>
-  <span class="nt">&lt;/p&gt;</span>
-  <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"level-item has-text-centered"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"link is-info"</span><span class="nt">&gt;</span>Menu<span class="nt">&lt;/a&gt;</span>
-  <span class="nt">&lt;/p&gt;</span>
-  <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"level-item has-text-centered"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/images/bulma.png"</span> <span class="na">alt=</span><span class="s">""</span> <span class="na">style=</span><span class="s">"height: 33px;"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;/p&gt;</span>
-  <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"level-item has-text-centered"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"link is-info"</span><span class="nt">&gt;</span>Reservations<span class="nt">&lt;/a&gt;</span>
-  <span class="nt">&lt;/p&gt;</span>
-  <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"level-item has-text-centered"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"link is-info"</span><span class="nt">&gt;</span>Contact<span class="nt">&lt;/a&gt;</span>
-  <span class="nt">&lt;/p&gt;</span>
-<span class="nt">&lt;/nav&gt;</span></code></pre><button class="copy">Copy</button></figure>
-
-    <hr>
-    <h3>Mobile level</h3>
-    <div class="content">
-      By default, for space concerns, the level is vertical on mobile. If you want the level to be horizontal on mobile as well, add the <code>is-mobile</code> modifier on the <code>level</code> container.
-    </div>
-
-    <div class="example">
-      <nav class="level is-mobile">
-        <div class="level-item has-text-centered">
-          <p class="heading">Tweets</p>
-          <p>3,456</p>
-        </div>
-        <div class="level-item has-text-centered">
-          <p class="heading">Following</p>
-          <p>123</p>
-        </div>
-        <div class="level-item has-text-centered">
-          <p class="heading">Followers</p>
-          <p>456K</p>
-        </div>
-        <div class="level-item has-text-centered">
-          <p class="heading">Likes</p>
-          <p>789</p>
-        </div>
-      </nav>
-    </div>
-  </div>
-</section>
 
 <section class="section" id="images">
 <div class="container">
@@ -933,87 +688,7 @@
 
   </div>
 </section>
-<section class="section" id="menu">
-  <div class="container">
-    <h1>Menu</h1>
-    <h2>A simple <strong>menu</strong>, for any type of vertical navigation</h2>
 
-    <hr>
-
-    <div class="columns">
-      <div class="column is-3">
-        <aside class="menu">
-          <p class="menu-label">
-            General
-          </p>
-          <ul class="menu-list">
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#">Customers</a></li>
-          </ul>
-          <p class="menu-label">
-            Administration
-          </p>
-          <ul class="menu-list">
-            <li><a href="#">Team Settings</a></li>
-            <li>
-              <a class="is-active" href="#">Manage Your Team</a>
-              <ul>
-                <li><a href="#">Members</a></li>
-                <li><a href="#">Plugins</a></li>
-                <li><a href="#">Add a member</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Invitations</a></li>
-            <li><a href="#">Authentication</a></li>
-          </ul>
-          <p class="menu-label">
-            Transactions
-          </p>
-          <ul class="menu-list">
-            <li><a href="#">Payments</a></li>
-            <li><a href="#">Transfers</a></li>
-            <li><a href="#">Balance</a></li>
-          </ul>
-        </aside>
-      </div>
-      <div class="column">
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;aside</span> <span class="na">class=</span><span class="s">"menu"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"menu-label"</span><span class="nt">&gt;</span>
-    General
-  <span class="nt">&lt;/p&gt;</span>
-  <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"menu-list"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Dashboard<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Customers<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;/ul&gt;</span>
-  <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"menu-label"</span><span class="nt">&gt;</span>
-    Administration
-  <span class="nt">&lt;/p&gt;</span>
-  <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"menu-list"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Team Settings<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>
-      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"is-active"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Manage Your Team<span class="nt">&lt;/a&gt;</span>
-      <span class="nt">&lt;ul&gt;</span>
-        <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Members<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-        <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Plugins<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-        <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Add a member<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-      <span class="nt">&lt;/ul&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Invitations<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Authentication<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;/ul&gt;</span>
-  <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"menu-label"</span><span class="nt">&gt;</span>
-    Transactions
-  <span class="nt">&lt;/p&gt;</span>
-  <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"menu-list"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Payments<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Transfers<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Balance<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;/ul&gt;</span>
-<span class="nt">&lt;/aside&gt;</span></code></pre><button class="copy">Copy</button></figure>
-      </div>
-    </div>
-  </div>
-</section>
 <section class="section" id="messages">
   <div class="container">
     <h1>Messages</h1>
@@ -1249,6 +924,90 @@
     </div>
   </div>
 </section>
+<section class="section" id="notifications">
+        <div class="container">
+            <h1>Notifications</h1>
+
+            <h2>Bold <strong>notification</strong> blocks, to alert your users of something</h2>
+            <hr>
+
+            <div class="columns">
+                <div class="column">
+                    <div class="notification">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    </div>
+
+                    <div class="notification is-primary">
+                        Info lorem ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    </div>
+
+                    <div class="notification is-info">
+                        Info lorem ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    </div>
+
+                    <div class="notification is-success">
+                        Success lorem ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    </div>
+
+                    <div class="notification is-warning">
+                        Warning lorem ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    </div>
+
+                    <div class="notification is-danger">
+                        Danger lorem ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    </div>
+                </div>
+
+                <div class="column">
+                    <figure class="highlight">
+                        <pre>
+<code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"notification"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"delete"</span><span class="nt">&gt;&lt;/button&gt;</span>
+  Lorem ipsum dolor sit amet, consectetur
+  adipiscing elit lorem ipsum dolor sit amet,
+  consectetur adipiscing elit
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"notification is-primary"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"delete"</span><span class="nt">&gt;&lt;/button&gt;</span>
+  Primar lorem ipsum dolor sit amet, consectetur
+  adipiscing elit lorem ipsum dolor sit amet,
+  consectetur adipiscing elit
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"notification is-info"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"delete"</span><span class="nt">&gt;&lt;/button&gt;</span>
+  Info lorem ipsum dolor sit amet, consectetur
+  adipiscing elit lorem ipsum dolor sit amet,
+  consectetur adipiscing elit
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"notification is-success"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"delete"</span><span class="nt">&gt;&lt;/button&gt;</span>
+  Success lorem ipsum dolor sit amet, consectetur
+  adipiscing elit lorem ipsum dolor sit amet,
+  consectetur adipiscing elit
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"notification is-warning"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"delete"</span><span class="nt">&gt;&lt;/button&gt;</span>
+  Warning lorem ipsum dolor sit amet, consectetur
+  adipiscing elit lorem ipsum dolor sit amet,
+  consectetur adipiscing elit
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"notification is-danger"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"delete"</span><span class="nt">&gt;&lt;/button&gt;</span>
+  Danger lorem ipsum dolor sit amet, consectetur
+  adipiscing elit lorem ipsum dolor sit amet,
+  consectetur adipiscing elit
+<span class="nt">&lt;/div&gt;</span></code>
+</pre><button class="copy">Copy</button><button class="expand">Expand</button>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
 <section class="section" id="modal">
   <div class="container">
     <h1>Modal</h1>
@@ -1353,974 +1112,121 @@
 
   </div>
 </section>
-<section class="section" id="nav">
-  <div class="container">
-    <h1>Nav</h1>
-    <h2>
-      A responsive horizontal <strong>nav bar</strong> that can contain links, tabs, buttons, icons, and a logo
-    </h2>
+ <section class="section" id="tags">
+        <div class="container">
+            <h1>Tags</h1>
 
-    <hr>
+            <h2>Small <strong>tag labels</strong> to insert anywhere</h2>
+            <hr>
 
-    <div class="content">
-      <p>
-        The <code>nav</code> container can have <strong>3 parts</strong>:
-      </p>
-      <ul>
-        <li><code>nav-left</code></li>
-        <li><code>nav-center</code></li>
-        <li><code>nav-right</code></li>
-      </ul>
-      <p>
-        For responsiveness, <strong>2 additional</strong> classes are available:
-      </p>
-      <ul>
-        <li><code>nav-toggle</code> for the hamburger menu on mobile</li>
-        <li><code>nav-menu</code> for menu that is collapsable on mobile (you can combine it with <code>nav-right</code>)</li>
-      </ul>
-    </div>
+            <div class="columns">
+                <div class="column is-4">
+                    By default, a <strong>tag</strong> is a 24px high label.
+                </div>
 
-<div class="example">
-<nav class="nav">
-  <div class="nav-left">
-    <a class="nav-item" href="#">
-      <img src="/images/bulma.png" alt="Bulma logo}">
-    </a>
-  </div>
+                <div class="column is-2">
+                    <span class="tag">Tag label</span>
+                </div>
 
-  <div class="nav-center">
-    <a class="nav-item" href="#">
-      <span class="icon">
-        <i class="ics icon-github"></i>
-      </span>
-    </a>
-    <a class="nav-item" href="#">
-      <span class="icon">
-        <i class="ics icon-twitter"></i>
-      </span>
-    </a>
-  </div>
+                <div class="column is-6">
+                    <figure class="highlight">
+                        <pre>
+<code class="language-html" data-lang="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"tag"</span><span class="nt">&gt;</span>
+  Tag label
+<span class="nt">&lt;/span&gt;</span></code>
+</pre><button class="copy">Copy</button>
+                    </figure>
+                </div>
+            </div>
 
-  <span class="nav-toggle">
-    <span></span>
-    <span></span>
-    <span></span>
-  </span>
+            <div class="columns">
+                <div class="column is-4">
+                    There are <strong>6 different colors</strong> available.
+                </div>
 
-  <div class="nav-right nav-menu">
-    <a class="nav-item" href="#">
-      Home
-    </a>
-    <a class="nav-item" href="#">
-      Documentation
-    </a>
-    <a class="nav-item" href="#">
-      Blog
-    </a>
+                <div class="column is-2">
+                    <p class="control"><span class="tag is-dark">Dark</span></p>
 
-    <span class="nav-item">
-      <a class="button">
-        <span class="icon">
-          <i class="ics icon-twitter"></i>
-        </span>
-        <span>Tweet</span>
-      </a>
-      <a class="button is-primary" href="#">
-        <span class="icon">
-          <i class="ics icon-download"></i>
-        </span>
-        <span>Download</span>
-      </a>
-    </span>
-  </div>
-</nav>
-</div>
+                    <p class="control"><span class="tag is-primary">Primary</span></p>
 
+                    <p class="control"><span class="tag is-info">Info</span></p>
 
-    <hr>
+                    <p class="control"><span class="tag is-success">Success</span></p>
 
-    <h3>Modifiers</h3>
+                    <p class="control"><span class="tag is-warning">Warning</span></p><span class="tag is-danger">Danger</span>
+                </div>
 
-    <div class="content">
-      <ul>
-        <li>the <code>nav</code> container can have a <strong>shadow</strong> by adding the <code>has-shadow</code> modifier</li>
-        <li>the <code>nav-item</code> can become <strong>active</strong> by adding the <code>is-active</code> modifier</li>
-        <li>the <code>nav-item</code> can become a <strong>tab</strong> by adding the <code>is-tab</code> modifier</li>
-      </ul>
-    </div>
-  </div>
+                <div class="column is-6">
+                    <figure class="highlight">
+                        <pre>
+<code class="language-html" data-lang="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"tag is-dark"</span><span class="nt">&gt;</span>Dark<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"tag is-primary"</span><span class="nt">&gt;</span>Primary<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"tag is-info"</span><span class="nt">&gt;</span>Info<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"tag is-success"</span><span class="nt">&gt;</span>Success<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"tag is-warning"</span><span class="nt">&gt;</span>Warning<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"tag is-danger"</span><span class="nt">&gt;</span>Danger<span class="nt">&lt;/span&gt;</span></code>
+</pre><button class="copy">Copy</button>
+                    </figure>
+                </div>
+            </div>
 
-<div class="example">
-<nav class="nav has-shadow">
-  <div class="container">
-    <div class="nav-left">
-      <a class="nav-item is-tab is-active">Card</a>
-      <a class="nav-item is-tab">Level</a>
-      <a class="nav-item is-tab">Media object</a>
-      <a class="nav-item is-tab">Menu</a>
-      <a class="nav-item is-tab">Message</a>
-      <a class="nav-item is-tab">Modal</a>
-      <a class="nav-item is-tab">Nav</a>
-      <a class="nav-item is-tab">Pagination</a>
-      <a class="nav-item is-tab">Panel</a>
-      <a class="nav-item is-tab">Tabs</a>
-    </div>
-  </div>
-</nav>
-</div>
+            <div class="columns">
+                <div class="column is-4">
+                    And <strong>3 additional</strong> sizes.
+                </div>
 
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">"nav has-shadow"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"nav-left"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-item is-tab is-active"</span><span class="nt">&gt;</span>Card<span class="nt">&lt;/a&gt;</span>
-      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-item is-tab"</span><span class="nt">&gt;</span>Level<span class="nt">&lt;/a&gt;</span>
-      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-item is-tab"</span><span class="nt">&gt;</span>Media object<span class="nt">&lt;/a&gt;</span>
-      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-item is-tab"</span><span class="nt">&gt;</span>Menu<span class="nt">&lt;/a&gt;</span>
-      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-item is-tab"</span><span class="nt">&gt;</span>Message<span class="nt">&lt;/a&gt;</span>
-      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-item is-tab"</span><span class="nt">&gt;</span>Modal<span class="nt">&lt;/a&gt;</span>
-      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-item is-tab"</span><span class="nt">&gt;</span>Nav<span class="nt">&lt;/a&gt;</span>
-      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-item is-tab"</span><span class="nt">&gt;</span>Pagination<span class="nt">&lt;/a&gt;</span>
-      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-item is-tab"</span><span class="nt">&gt;</span>Panel<span class="nt">&lt;/a&gt;</span>
-      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-item is-tab"</span><span class="nt">&gt;</span>Tabs<span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/div&gt;</span>
-  <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/nav&gt;</span></code></pre><button class="copy">Copy</button></figure>
+                <div class="column is-2">
+                    <p class="control"><span class="tag is-dark is-small">Small</span></p>
 
-</section>
-<section class="section" id="pagination">
-  <div class="container">
-    <h1>Pagination</h1>
-    <h2>A responsive, usable, and flexible <strong>pagination</strong></h2>
+                    <p class="control"><span class="tag is-primary is-medium">Medium</span></p>
 
-    <hr>
+                    <p class="control"><span class="tag is-info is-large">Large</span></p>
+                </div>
 
-    <div class="example">
-      <nav class="pagination">
-        <a>Previous</a>
-        <a>Next page</a>
-        <ul>
-          <li>
-            <a>1</a>
-          </li>
-          <li>
-            <span>...</span>
-          </li>
-          <li>
-            <a>45</a>
-          </li>
-          <li>
-            <a class="is-active">46</a>
-          </li>
-          <li>
-            <a>47</a>
-          </li>
-          <li>
-            <span>...</span>
-          </li>
-          <li>
-            <a>86</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">"pagination"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;a&gt;</span>Previous<span class="nt">&lt;/a&gt;</span>
-  <span class="nt">&lt;a&gt;</span>Next page<span class="nt">&lt;/a&gt;</span>
-  <span class="nt">&lt;ul&gt;</span>
-    <span class="nt">&lt;li&gt;</span>
-      <span class="nt">&lt;a&gt;</span>1<span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>
-      <span class="nt">&lt;span&gt;</span>...<span class="nt">&lt;/span&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>
-      <span class="nt">&lt;a&gt;</span>45<span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>
-      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"is-active"</span><span class="nt">&gt;</span>46<span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>
-      <span class="nt">&lt;a&gt;</span>47<span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>
-      <span class="nt">&lt;span&gt;</span>...<span class="nt">&lt;/span&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>
-      <span class="nt">&lt;a&gt;</span>86<span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-  <span class="nt">&lt;/ul&gt;</span>
-<span class="nt">&lt;/nav&gt;</span></code></pre><button class="copy">Copy</button></figure>
-  </div>
-</section>
-<section class="section" id="panel">
-  <div class="container">
-    <h1>Panel</h1>
-    <h2>A composable <strong>panel</strong>, for compact controls</h2>
+                <div class="column is-6">
+                    <figure class="highlight">
+                        <pre>
+<code class="language-html" data-lang="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"tag is-primary is-medium"</span><span class="nt">&gt;</span>Medium<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"tag is-info is-large"</span><span class="nt">&gt;</span>Large<span class="nt">&lt;/span&gt;</span></code>
+</pre><button class="copy">Copy</button>
+                    </figure>
+                </div>
+            </div>
 
-    <hr>
+            <div class="columns">
+                <div class="column is-4">
+                    You can also append a <strong>delete button</strong>.
+                </div>
 
-    <div class="columns">
-      <div class="column is-4">
-        <nav class="panel">
-          <p class="panel-heading">
-            Repositories
-          </p>
-          <p class="panel-tabs">
-            <a class="is-active" href="#">All</a>
-            <a href="#">Public</a>
-            <a href="#">Private</a>
-            <a href="#">Sources</a>
-            <a href="#">Forks</a>
-          </p>
-          <a class="panel-block is-active" href="#"><span class="panel-icon"><i class="ics icon-book"></i></span>bulma-website</a>
-          <a class="panel-block" href="#"><span class="panel-icon"><i class="ics icon-book"></i></span>bulma</a>
-          <a class="panel-block" href="#"><span class="panel-icon"><i class="ics icon-book"></i></span>marksheet</a>
-          <a class="panel-block" href="#"><span class="panel-icon"><i class="ics icon-code-fork"></i></span>daniellowtw/infBoard</a>
-          <a class="panel-block" href="#"><span class="panel-icon"><i class="ics icon-book"></i></span>jgthms.github.io</a>
-          <a class="panel-block" href="#"><span class="panel-icon"><i class="ics icon-code-fork"></i></span>mojs</a>
-          <a class="panel-block" href="#"><span class="panel-icon"><i class="ics icon-book"></i></span>grumpy-cat</a>
-          <label class="panel-block">
-            <input type="checkbox">
-            Remember me
-          </label>
-          <div class="panel-block">
-            <button class="button is-primary is-outlined is-fullwidth">
-              Reset all filters
-            </button>
-          </div>
-        </nav>
-      </div>
-      <div class="column">
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">"panel"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"panel-heading"</span><span class="nt">&gt;</span>
-    Repositories
-  <span class="nt">&lt;/p&gt;</span>
-  <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"panel-tabs"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"is-active"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>All<span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Public<span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Private<span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Sources<span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Forks<span class="nt">&lt;/a&gt;</span>
-  <span class="nt">&lt;/p&gt;</span>
-  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"panel-block is-active"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"panel-icon"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-book"</span><span class="nt">&gt;&lt;/i&gt;</span>
-    <span class="nt">&lt;/span&gt;</span>
-    bulma-website
-  <span class="nt">&lt;/a&gt;</span>
-  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"panel-block"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"panel-icon"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-book"</span><span class="nt">&gt;&lt;/i&gt;</span>
-    <span class="nt">&lt;/span&gt;</span>
-    bulma
-  <span class="nt">&lt;/a&gt;</span>
-  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"panel-block"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"panel-icon"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-book"</span><span class="nt">&gt;&lt;/i&gt;</span>
-    <span class="nt">&lt;/span&gt;</span>
-    marksheet
-  <span class="nt">&lt;/a&gt;</span>
-  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"panel-block"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"panel-icon"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-code-fork"</span><span class="nt">&gt;&lt;/i&gt;</span>
-    <span class="nt">&lt;/span&gt;</span>
-    daniellowtw/infBoard
-  <span class="nt">&lt;/a&gt;</span>
-  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"panel-block"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"panel-icon"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-book"</span><span class="nt">&gt;&lt;/i&gt;</span>
-    <span class="nt">&lt;/span&gt;</span>
-    jgthms.github.io
-  <span class="nt">&lt;/a&gt;</span>
-  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"panel-block"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"panel-icon"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-code-fork"</span><span class="nt">&gt;&lt;/i&gt;</span>
-    <span class="nt">&lt;/span&gt;</span>
-    mojs
-  <span class="nt">&lt;/a&gt;</span>
-  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"panel-block"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"panel-icon"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-book"</span><span class="nt">&gt;&lt;/i&gt;</span>
-    <span class="nt">&lt;/span&gt;</span>
-    grumpy-cat
-  <span class="nt">&lt;/a&gt;</span>
-  <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"panel-checkbox"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"checkbox"</span><span class="nt">&gt;</span>
-    Remember me
-  <span class="nt">&lt;/label&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-block"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button is-primary is-outlined is-fullwidth"</span><span class="nt">&gt;</span>
-      Reset all filters
-    <span class="nt">&lt;/button&gt;</span>
-  <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/nav&gt;</span></code></pre><button class="copy">Copy</button><button class="expand">Expand</button></figure>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="section" id="tabs">
-  <div class="container">
-    <h1>Tabs</h1>
-    <h2>Simple responsive horizontal navigation <strong>tabs</strong>, with different styles</h2>
+                <div class="column is-2">
+                    <p class="control"><span class="tag is-info is-small">Foo </span></p>
 
-    <hr>
+                    <p class="control"><span class="tag is-success">Bar </span></p>
 
-    <div class="content">
-      <p><strong>Tabs</strong> only require a <code>tabs</code> container and a <code>&lt;ul&gt;</code> list.<br>
-        The <strong>default</strong> tabs style has a single border at the bottom.</p>
-    </div>
+                    <p class="control"><span class="tag is-warning is-medium">Hello </span></p>
 
-<div class="example">
-  <div class="tabs">
-    <ul>
-      <li class="is-active"><a>Pictures</a></li>
-      <li><a>Music</a></li>
-      <li><a>Videos</a></li>
-      <li><a>Documents</a></li>
-    </ul>
-  </div>
-</div>
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"tabs"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;ul&gt;</span>
-    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"is-active"</span><span class="nt">&gt;&lt;a&gt;</span>Pictures<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;a&gt;</span>Music<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;a&gt;</span>Videos<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;a&gt;</span>Documents<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;/ul&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre><button class="copy">Copy</button></figure>
+                    <p class="control"><span class="tag is-danger is-large">World </span></p>
+                </div>
 
-    <hr>
-
-    <h3>Alignment</h3>
-
-    <div class="content">
-      <p>
-        To align the tabs list, use the <code>is-centered</code> or <code>is-right</code> modifier on the <code>.tabs</code> container:
-      </p>
-    </div>
-
-<div class="example">
-  <div class="tabs is-centered">
-    <ul>
-      <li class="is-active"><a>Pictures</a></li>
-      <li><a>Music</a></li>
-      <li><a>Videos</a></li>
-      <li><a>Documents</a></li>
-    </ul>
-  </div>
-</div>
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"tabs is-centered"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;ul&gt;</span>
-    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"is-active"</span><span class="nt">&gt;&lt;a&gt;</span>Pictures<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;a&gt;</span>Music<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;a&gt;</span>Videos<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;a&gt;</span>Documents<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;/ul&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre><button class="copy">Copy</button></figure>
-
-<div class="example">
-  <div class="tabs is-right">
-    <ul>
-      <li class="is-active"><a>Pictures</a></li>
-      <li><a>Music</a></li>
-      <li><a>Videos</a></li>
-      <li><a>Documents</a></li>
-    </ul>
-  </div>
-</div>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"tabs is-right"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;ul&gt;</span>
-    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"is-active"</span><span class="nt">&gt;&lt;a&gt;</span>Pictures<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;a&gt;</span>Music<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;a&gt;</span>Videos<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;a&gt;</span>Documents<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;/ul&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre><button class="copy">Copy</button></figure>
-
-    <div class="content">
-      <p>
-        To have several lists aligned differently, use one of <strong>3 modifiers</strong> on the <code>ul</code>:
-      </p>
-      <ul>
-        <li><code>is-left</code></li>
-        <li><code>is-center</code></li>
-        <li><code>is-right</code></li>
-      </ul>
-    </div>
-
-<div class="example">
-  <div class="tabs">
-    <ul class="is-left">
-      <li class="is-active"><a>Pictures</a></li>
-      <li><a>Music</a></li>
-      <li><a>Videos</a></li>
-      <li><a>Documents</a></li>
-    </ul>
-    <ul class="is-center">
-      <li><a>Previous</a></li>
-      <li><a>Up</a></li>
-      <li><a>Next</a></li>
-    </ul>
-    <ul class="is-right">
-      <li><a>Search</a></li>
-    </ul>
-  </div>
-</div>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"tabs"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"is-left"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"is-active"</span><span class="nt">&gt;&lt;a&gt;</span>Pictures<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;a&gt;</span>Music<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;a&gt;</span>Videos<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;a&gt;</span>Documents<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;/ul&gt;</span>
-  <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"is-center"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;a&gt;</span>Previous<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;a&gt;</span>Up<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;a&gt;</span>Next<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;/ul&gt;</span>
-  <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"is-right"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;a&gt;</span>Search<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;/ul&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre><button class="copy">Copy</button></figure>
-
-    <hr>
-
-    <h3>Icons</h3>
-
-    <div class="content">
-      <p>&lt;span class="ics is-small"&gt;&lt;i class="icon-picture"&gt;&lt;/i&gt;&lt;/span&gt;</p>
-    </div>
-
-<div class="example">
-  <div class="tabs is-centered">
-    <ul>
-      <li class="is-active">
-        <a>
-          <span class="ics is-small"><i class="icon-picture"></i></span>
-          <span>Pictures</span>
-        </a>
-      </li>
-      <li>
-        <a>
-          <span class="ics is-small"><i class="icon-headphones"></i></span>
-          <span>Music</span>
-        </a>
-      </li>
-      <li>
-        <a>
-          <span class="ics is-small"><i class="icon-video"></i></span>
-          <span>Videos</span>
-        </a>
-      </li>
-      <li>
-        <a>
-          <span class="ics is-small"><i class="icon-book"></i></span>
-          <span>Documents</span>
-        </a>
-      </li>
-    </ul>
-  </div>
-</div>
-
-
-
-    <hr>
-
-    <h3>Sizes</h3>
-    <div class="content">
-      <p>You can choose between <strong>3 additional sizes</strong>: <code>is-small</code> <code>is-medium</code> and <code>is-large</code>.</p>
-    </div>
-
-<div class="example">
-  <div class="tabs is-small">
-    <ul>
-      <li class="is-active"><a>Pictures</a></li>
-      <li><a>Music</a></li>
-      <li><a>Videos</a></li>
-      <li><a>Documents</a></li>
-    </ul>
-  </div>
-</div>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"tabs is-small"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;ul&gt;</span>
-    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"is-active"</span><span class="nt">&gt;&lt;a&gt;</span>Pictures<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;a&gt;</span>Music<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;a&gt;</span>Videos<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;a&gt;</span>Documents<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;/ul&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre><button class="copy">Copy</button></figure>
-
-<div class="example">
-  <div class="tabs is-medium">
-    <ul>
-      <li class="is-active"><a>Pictures</a></li>
-      <li><a>Music</a></li>
-      <li><a>Videos</a></li>
-      <li><a>Documents</a></li>
-    </ul>
-  </div>
-</div>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"tabs is-medium"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;ul&gt;</span>
-    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"is-active"</span><span class="nt">&gt;&lt;a&gt;</span>Pictures<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;a&gt;</span>Music<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;a&gt;</span>Videos<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;a&gt;</span>Documents<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;/ul&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre><button class="copy">Copy</button></figure>
-
-<div class="example">
-  <div class="tabs is-large">
-    <ul>
-      <li class="is-active"><a>Pictures</a></li>
-      <li><a>Music</a></li>
-      <li><a>Videos</a></li>
-      <li><a>Documents</a></li>
-    </ul>
-  </div>
-</div>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"tabs is-large"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;ul&gt;</span>
-    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"is-active"</span><span class="nt">&gt;&lt;a&gt;</span>Pictures<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;a&gt;</span>Music<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;a&gt;</span>Videos<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;a&gt;</span>Documents<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;/ul&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre><button class="copy">Copy</button></figure>
-
-    <hr>
-
-    <h3>Styles</h3>
-    <div class="content">
-      If you want a more classic style with <strong>borders</strong>, just append the <code>is-boxed</code> modifier.
-    </div>
-
-<div class="example">
-  <div class="tabs is-boxed">
-    <ul>
-      <li class="is-active">
-        <a>
-          <span class="icon is-small"><i class="ics icon-image"></i></span>
-          <span>Pictures</span>
-        </a>
-      </li>
-      <li>
-        <a>
-          <span class="icon is-small"><i class="ics icon-music"></i></span>
-          <span>Music</span>
-        </a>
-      </li>
-      <li>
-        <a>
-          <span class="icon is-small"><i class="ics icon-film"></i></span>
-          <span>Videos</span>
-        </a>
-      </li>
-      <li>
-        <a>
-          <span class="icon is-small"><i class="ics icon-file-text-o"></i></span>
-          <span>Documents</span>
-        </a>
-      </li>
-    </ul>
-  </div>
-</div>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"tabs is-boxed"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;ul&gt;</span>
-    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"is-active"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-image"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
-        <span class="nt">&lt;span&gt;</span>Pictures<span class="nt">&lt;/span&gt;</span>
-      <span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>
-      <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-music"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
-        <span class="nt">&lt;span&gt;</span>Music<span class="nt">&lt;/span&gt;</span>
-      <span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>
-      <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-film"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
-        <span class="nt">&lt;span&gt;</span>Videos<span class="nt">&lt;/span&gt;</span>
-      <span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>
-      <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-file-text-o"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
-        <span class="nt">&lt;span&gt;</span>Documents<span class="nt">&lt;/span&gt;</span>
-      <span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-  <span class="nt">&lt;/ul&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre><button class="copy">Copy</button></figure>
-
-    <p class="content">
-      If you want <strong>mutually exclusive</strong> tabs (like radio buttons where clicking one deselects all other ones), use the <code>is-toggle</code> modifier.
-    </p>
-
-<div class="example">
-  <div class="tabs is-toggle">
-    <ul>
-      <li class="is-active">
-        <a>
-          <span class="icon is-small"><i class="ics icon-image"></i></span>
-          <span>Pictures</span>
-        </a>
-      </li>
-      <li>
-        <a>
-          <span class="icon is-small"><i class="ics icon-music"></i></span>
-          <span>Music</span>
-        </a>
-      </li>
-      <li>
-        <a>
-          <span class="icon is-small"><i class="ics icon-film"></i></span>
-          <span>Videos</span>
-        </a>
-      </li>
-      <li>
-        <a>
-          <span class="icon is-small"><i class="ics icon-file-text-o"></i></span>
-          <span>Documents</span>
-        </a>
-      </li>
-    </ul>
-  </div>
-</div>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"tabs is-toggle"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;ul&gt;</span>
-    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"is-active"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-image"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
-        <span class="nt">&lt;span&gt;</span>Pictures<span class="nt">&lt;/span&gt;</span>
-      <span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>
-      <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-music"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
-        Music
-      <span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>
-      <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-film"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
-        Videos
-      <span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>
-      <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-file-text-o"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
-        Documents
-      <span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-  <span class="nt">&lt;/ul&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre><button class="copy">Copy</button></figure>
-
-    <p class="content">
-      If you want the tabs to take up the <strong>whole width</strong> available, use <code>is-fullwidth</code>.
-    </p>
-    <div class="example">
-      <div class="tabs is-fullwidth">
-        <ul>
-          <li>
-            <a>
-              <span class="icon"><i class="ics icon-angle-left"></i></span>
-              <span>Left</span>
-            </a>
-          </li>
-          <li>
-            <a>
-              <span class="icon"><i class="ics icon-angle-up"></i></span>
-              <span>Up</span>
-            </a>
-          </li>
-          <li>
-            <a>
-              <span>Right</span>
-              <span class="icon"><i class="ics icon-angle-right"></i></span>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"tabs is-fullwidth"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;ul&gt;</span>
-    <span class="nt">&lt;li&gt;</span>
-      <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-angle-left"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
-        <span class="nt">&lt;span&gt;</span>Left<span class="nt">&lt;/span&gt;</span>
-      <span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>
-      <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-angle-up"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
-        <span class="nt">&lt;span&gt;</span>Up<span class="nt">&lt;/span&gt;</span>
-      <span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>
-      <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span&gt;</span>Right<span class="nt">&lt;/span&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-angle-right"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
-      <span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-  <span class="nt">&lt;/ul&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre><button class="copy">Copy</button></figure>
-
-    <hr>
-
-    <h3>Combining</h3>
-    <div class="content">
-      <p>You can <strong>combine</strong> different modifiers. For example, you can have <strong>centered boxed</strong> tabs, or <strong>fullwidth toggle</strong> ones.</p>
-    </div>
-
-<div class="example">
-  <div class="tabs is-centered is-boxed">
-    <ul>
-      <li class="is-active">
-        <a>
-          <span class="icon is-small"><i class="ics icon-image"></i></span>
-          <span>Pictures</span>
-        </a>
-      </li>
-      <li>
-        <a>
-          <span class="icon is-small"><i class="ics icon-music"></i></span>
-          <span>Music</span>
-        </a>
-      </li>
-      <li>
-        <a>
-          <span class="icon is-small"><i class="ics icon-film"></i></span>
-          <span>Videos</span>
-        </a>
-      </li>
-      <li>
-        <a>
-          <span class="icon is-small"><i class="ics icon-file-text-o"></i></span>
-          <span>Documents</span>
-        </a>
-      </li>
-    </ul>
-  </div>
-</div>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"tabs is-centered is-boxed"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;ul&gt;</span>
-    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"is-active"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-image"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
-        <span class="nt">&lt;span&gt;</span>Pictures<span class="nt">&lt;/span&gt;</span>
-      <span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>
-      <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-music"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
-        <span class="nt">&lt;span&gt;</span>Music<span class="nt">&lt;/span&gt;</span>
-      <span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>
-      <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-film"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
-        <span class="nt">&lt;span&gt;</span>Videos<span class="nt">&lt;/span&gt;</span>
-      <span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>
-      <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-file-text-o"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
-        <span class="nt">&lt;span&gt;</span>Documents<span class="nt">&lt;/span&gt;</span>
-      <span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-  <span class="nt">&lt;/ul&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre><button class="copy">Copy</button></figure>
-
-<div class="example">
-  <div class="tabs is-toggle is-fullwidth">
-    <ul>
-      <li class="is-active">
-        <a>
-          <span class="icon is-small"><i class="ics icon-image"></i></span>
-          <span>Pictures</span>
-        </a>
-      </li>
-      <li>
-        <a>
-          <span class="icon is-small"><i class="ics icon-music"></i></span>
-          <span>Music</span>
-        </a>
-      </li>
-      <li>
-        <a>
-          <span class="icon is-small"><i class="ics icon-film"></i></span>
-          <span>Videos</span>
-        </a>
-      </li>
-      <li>
-        <a>
-          <span class="icon is-small"><i class="ics icon-file-text-o"></i></span>
-          <span>Documents</span>
-        </a>
-      </li>
-    </ul>
-  </div>
-</div>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"tabs is-toggle is-fullwidth"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;ul&gt;</span>
-    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"is-active"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-image"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
-        <span class="nt">&lt;span&gt;</span>Pictures<span class="nt">&lt;/span&gt;</span>
-      <span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>
-      <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-music"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
-        <span class="nt">&lt;span&gt;</span>Music<span class="nt">&lt;/span&gt;</span>
-      <span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>
-      <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-film"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
-        <span class="nt">&lt;span&gt;</span>Videos<span class="nt">&lt;/span&gt;</span>
-      <span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>
-      <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-file-text-o"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
-        <span class="nt">&lt;span&gt;</span>Documents<span class="nt">&lt;/span&gt;</span>
-      <span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-  <span class="nt">&lt;/ul&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre><button class="copy">Copy</button></figure>
-
-<div class="example">
-  <div class="tabs is-centered is-boxed is-medium">
-    <ul>
-      <li class="is-active">
-        <a>
-          <span class="icon is-small"><i class="ics icon-image"></i></span>
-          <span>Pictures</span>
-        </a>
-      </li>
-      <li>
-        <a>
-          <span class="icon is-small"><i class="ics icon-music"></i></span>
-          <span>Music</span>
-        </a>
-      </li>
-      <li>
-        <a>
-          <span class="icon is-small"><i class="ics icon-film"></i></span>
-          <span>Videos</span>
-        </a>
-      </li>
-      <li>
-        <a>
-          <span class="icon is-small"><i class="ics icon-file-text-o"></i></span>
-          <span>Documents</span>
-        </a>
-      </li>
-    </ul>
-  </div>
-</div>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"tabs is-centered is-boxed is-medium"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;ul&gt;</span>
-    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"is-active"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-image"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
-        <span class="nt">&lt;span&gt;</span>Pictures<span class="nt">&lt;/span&gt;</span>
-      <span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>
-      <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-music"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
-        <span class="nt">&lt;span&gt;</span>Music<span class="nt">&lt;/span&gt;</span>
-      <span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>
-      <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-film"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
-        <span class="nt">&lt;span&gt;</span>Videos<span class="nt">&lt;/span&gt;</span>
-      <span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>
-      <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon is-small"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-file-text-o"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
-        <span class="nt">&lt;span&gt;</span>Documents<span class="nt">&lt;/span&gt;</span>
-      <span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-  <span class="nt">&lt;/ul&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre><button class="copy">Copy</button></figure>
-
-<div class="example">
-  <div class="tabs is-toggle is-fullwidth is-large">
-    <ul>
-      <li class="is-active">
-        <a>
-          <span class="icon"><i class="ics icon-image"></i></span>
-          <span>Pictures</span>
-        </a>
-      </li>
-      <li>
-        <a>
-          <span class="icon"><i class="ics icon-music"></i></span>
-          <span>Music</span>
-        </a>
-      </li>
-      <li>
-        <a>
-          <span class="icon"><i class="ics icon-film"></i></span>
-          <span>Videos</span>
-        </a>
-      </li>
-      <li>
-        <a>
-          <span class="icon"><i class="ics icon-file-text-o"></i></span>
-          <span>Documents</span>
-        </a>
-      </li>
-    </ul>
-  </div>
-</div>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"tabs is-toggle is-fullwidth is-large"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;ul&gt;</span>
-    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"is-active"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-image"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
-        <span class="nt">&lt;span&gt;</span>Pictures<span class="nt">&lt;/span&gt;</span>
-      <span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>
-      <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-music"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
-        <span class="nt">&lt;span&gt;</span>Music<span class="nt">&lt;/span&gt;</span>
-      <span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>
-      <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-film"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
-        <span class="nt">&lt;span&gt;</span>Videos<span class="nt">&lt;/span&gt;</span>
-      <span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>
-      <span class="nt">&lt;a&gt;</span>
-        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-file-text-o"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
-        <span class="nt">&lt;span&gt;</span>Documents<span class="nt">&lt;/span&gt;</span>
-      <span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-  <span class="nt">&lt;/ul&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre><button class="copy">Copy</button></figure>
-
-  </div>
-</section>
+                <div class="column is-6">
+                    <figure class="highlight">
+                        <pre>
+<code class="language-html" data-lang="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"tag is-success"</span><span class="nt">&gt;</span>
+  Foo
+  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"delete"</span><span class="nt">&gt;&lt;/button&gt;</span>
+<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"tag is-warning is-medium"</span><span class="nt">&gt;</span>
+  Bar
+  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"delete"</span><span class="nt">&gt;&lt;/button&gt;</span>
+<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"tag is-danger is-large"</span><span class="nt">&gt;</span>
+  Foo bar
+  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"delete"</span><span class="nt">&gt;&lt;/button&gt;</span>
+<span class="nt">&lt;/span&gt;</span></code>
+</pre><button class="copy">Copy</button>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
 <?php include("inc/footer.php"); ?>

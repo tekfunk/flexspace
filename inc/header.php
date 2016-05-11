@@ -1,7 +1,7 @@
 <header>
   	<nav class="nav">
   <div class="nav-left">
-    <a class="nav-item" href="#"><h1>flexspace</h1></a>
+    <span class="nav-item"><a href="/index.php"><h1>flexspace</h1></a></span>
   </div>
 
 
@@ -12,7 +12,6 @@
   </span>
 
   <div class="nav-right nav-menu">
-  	<span class="nav-item"><a href="/index.php">flexspace</a></span>
 	<span class="nav-item"><a href="/page.php">page</a></span>
 	<span class="nav-item"><a href="/grid.php">grid</a></span>
 	<span class="nav-item"><a href="/modules.php">modules</a></span>
