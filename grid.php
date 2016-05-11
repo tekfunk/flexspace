@@ -1,14 +1,14 @@
 <?php include('inc/head.php'); ?>
 <?php include('inc/header.php'); ?>
     <section class="hero">
-        <div class="container is-fluid">
+        <div class="container">
             <h1>grid</h1>
-            <h2><a href="#columns">columns</a> | <a href="#tiles">tiles</a></h2>
+            <h3><a href="#columns">columns</a> | <a href="#tiles">tiles</a></h3>
         </div>
     </section>
     <section class="section" id="columns">
         <div class="container">
-            <h1 class="title">.columns</h1>
+            <h1>.columns</h1>
             <hr>
             <div class="content">
                 <p><strong>.columns</strong> -&gt; <strong>.column</strong></p>
@@ -28,7 +28,7 @@
                 </div>
             </div>
             <hr>
-            <h3 class="title">Sizes</h3>
+            <h3>Sizes</h3>
             <div class="content">
                 <p>If you want to change the <strong>size</strong> of a single column, you can use one the following classes:</p>
                 <ul>
@@ -328,7 +328,7 @@
                 </div>
             </div>
             <hr>
-            <h3 class="title">Offset</h3>
+            <h3>Offset</h3>
             <div class="content">
                 <p>While you can use <em>empty columns</em> (like <code>&lt;div class="column"&gt;&lt;/div&gt;</code>) to create horizontal space around <code>.column</code> elements, you can also use <strong>offset</strong> modifiers like <code>.is-offset-x</code>:</p>
             </div>
@@ -351,7 +351,7 @@
                 </div>
             </div>
             <hr>
-            <h3 class="title">Responsiveness</h3>
+            <h3>Responsiveness</h3>
             <div class="content">
                 <p>By default, columns are only activated from <strong>tablet</strong> onwards. This means columns are stacked on top of each other on <strong>mobile</strong>.</p>
                 <p>If you want columns to work on <strong>mobile too</strong>, just add the <code>is-mobile</code> modifier on the <code>columns</code> container:</p>
@@ -429,7 +429,7 @@
                 <p class="message-body">If you want to see these classes in action, resize your browser window and see how the same column varies in width at each breakpoint.</p>
             </div>
             <hr>
-            <h3 class="title">Multiline</h3>
+            <h3>Multiline</h3>
             <div class="content">
                 <p>Whenever you want to start a new line, you can close a <code>columns</code> container and start a new one. But you can also add the <code>is-multiline</code> modifier and add <strong>more</strong> column elements that would fit in a single row.</p>
             </div>
@@ -463,7 +463,7 @@
                 </div>
             </div>
             <hr>
-            <h3 class="title">Gapless</h3>
+            <h3>Gapless</h3>
             <div class="content">
                 <p>If you want to remove the <strong>space</strong> between the columns, add the <code>is-gapless</code> modifier on the <code>columns</code> container:</p>
             </div>
@@ -514,7 +514,7 @@
                 </div>
             </div>
             <hr>
-            <h3 class="title">Narrow column</h3>
+            <h3>Narrow column</h3>
             <div class="content">
                 <p>If you want a column to only take the <strong>space it needs</strong>, use the <code>is-narrow</code> modifier. The other column(s) will fill up the remaining space.</p>
             </div>
@@ -522,13 +522,13 @@
                 <div class="column is-narrow">
                     <div class="box" style="width: 200px;">
                         <p class="title is-5">Narrow column</p>
-                        <p class="subtitle">This column is only 200px wide.</p>
+                        <p>This column is only 200px wide.</p>
                     </div>
                 </div>
                 <div class="column">
                     <div class="box">
                         <p class="title is-5">Flexible column</p>
-                        <p class="subtitle">This column will take up the remaining space available.</p>
+                        <p>This column will take up the remaining space available.</p>
                     </div>
                 </div>
             </div>
@@ -544,39 +544,39 @@
     </section>
     <section class="section" id="tiles">
         <div class="container">
-            <h1 class="title">Tiles</h1>
-            <h2 class="subtitle">A <strong>single tile</strong> element to build 2-dimensional Metro-like, Pinterest-like, or whatever-you-like grids</h2>
+            <h1>Tiles</h1>
+            <h2>A <strong>single tile</strong> element to build 2-dimensional Metro-like, Pinterest-like, or whatever-you-like grids</h2>
             <hr>
             <div class="content">
                 <p>To build intricate 2-dimensional, you only need a <strong>single element</strong>: the <code>tile</code>:</p>
             </div>
             <hr>
-            <h3 class="title">Example</h3>
+            <h3>Example</h3>
             <div class="tile is-ancestor">
                 <div class="tile is-vertical is-8">
                     <div class="tile">
                         <div class="tile is-parent is-vertical">
                             <article class="tile is-child notification is-primary">
-                                <p class="title">Vertical...</p>
-                                <p class="subtitle">Top tile</p>
+                                <p>Vertical...</p>
+                                <p>Top tile</p>
                             </article>
                             <article class="tile is-child notification is-warning">
-                                <p class="title">...tiles</p>
-                                <p class="subtitle">Bottom tile</p>
+                                <p>...tiles</p>
+                                <p>Bottom tile</p>
                             </article>
                         </div>
                         <div class="tile is-parent">
                             <article class="tile is-child notification is-info">
-                                <p class="title">Middle tile</p>
-                                <p class="subtitle">With an image</p>
+                                <p>Middle tile</p>
+                                <p>With an image</p>
                                 <figure class="image is-4by3"><img src="http://placehold.it/640x480"></figure>
                             </article>
                         </div>
                     </div>
                     <div class="tile is-parent">
                         <article class="tile is-child notification is-danger">
-                            <p class="title">Wide tile</p>
-                            <p class="subtitle">Aligned with the right tile</p>
+                            <p>Wide tile</p>
+                            <p>Aligned with the right tile</p>
                             <div class="content">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
                             </div>
@@ -586,8 +586,8 @@
                 <div class="tile is-parent">
                     <article class="tile is-child notification is-success">
                         <div class="content">
-                            <p class="title">Tall tile</p>
-                            <p class="subtitle">With even more content</p>
+                            <p>Tall tile</p>
+                            <p>With even more content</p>
                             <div class="content">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
                                 <p>Suspendisse varius ligula in molestie lacinia. Maecenas varius eget ligula a sagittis. Pellentesque interdum, nisl nec interdum maximus, augue diam porttitor lorem, et sollicitudin felis neque sit amet erat. Maecenas imperdiet felis nisi, fringilla luctus felis hendrerit sit amet. Aenean vitae gravida diam, finibus dignissim turpis. Sed eget varius ligula, at volutpat tortor.</p>
@@ -598,7 +598,7 @@
                 </div>
             </div>
             <hr>
-            <h3 class="title">Modifiers</h3>
+            <h3>Modifiers</h3>
             <div class="content">
                 <p>The <code>tile</code> element has <strong>16 modifiers</strong>:</p>
                 <ul>
@@ -626,7 +626,7 @@
                 </ul>
             </div>
             <hr>
-            <h3 class="title">How it works: Nesting</h3>
+            <h3>How it works: Nesting</h3>
             <div class="content">
                 <p>Everything is a tile! To create a grid of tiles, you only need to <strong>nest</strong> <code>tile</code> elements.</p>
             </div>
@@ -684,17 +684,17 @@
             <div class="tile is-ancestor">
                 <div class="tile is-4 is-vertical is-parent">
                     <div class="tile is-child box">
-                        <p class="title">One</p>
+                        <p>One</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
                     </div>
                     <div class="tile is-child box">
-                        <p class="title">Two</p>
+                        <p>Two</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
                     </div>
                 </div>
                 <div class="tile is-parent">
                     <div class="tile is-child box">
-                        <p class="title">Three</p>
+                        <p>Three</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
                         <p>Suspendisse varius ligula in molestie lacinia. Maecenas varius eget ligula a sagittis. Pellentesque interdum, nisl nec interdum maximus, augue diam porttitor lorem, et sollicitudin felis neque sit amet erat. Maecenas imperdiet felis nisi, fringilla luctus felis hendrerit sit amet. Aenean vitae gravida diam, finibus dignissim turpis. Sed eget varius ligula, at volutpat tortor.</p>
                         <p>Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae congue lectus dolor consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a metus. Cras ullamcorper a nunc ac porta. Aliquam ut aliquet lacus, quis faucibus libero. Quisque non semper leo.</p>
@@ -702,7 +702,7 @@
                 </div>
             </div>
             <hr>
-            <h3 class="title">Nesting requirements</h3>
+            <h3>Nesting requirements</h3>
             <article class="message is-danger">
                 <div class="message-header">
                     3 levels deep at least...
@@ -728,26 +728,26 @@
                     <div class="tile">
                         <div class="tile is-parent is-vertical">
                             <article class="tile is-child box">
-                                <p class="title">Vertical tiles</p>
-                                <p class="subtitle">Top box</p>
+                                <p>Vertical tiles</p>
+                                <p>Top box</p>
                             </article>
                             <article class="tile is-child box">
-                                <p class="title">Vertical tiles</p>
-                                <p class="subtitle">Bottom box</p>
+                                <p>Vertical tiles</p>
+                                <p>Bottom box</p>
                             </article>
                         </div>
                         <div class="tile is-parent">
                             <article class="tile is-child box">
-                                <p class="title">Middle box</p>
-                                <p class="subtitle">With an image</p>
+                                <p>Middle box</p>
+                                <p>With an image</p>
                                 <figure class="image is-4by3"><img src="http://placehold.it/640x480"></figure>
                             </article>
                         </div>
                     </div>
                     <div class="tile is-parent">
                         <article class="tile is-child box">
-                            <p class="title">Wide column</p>
-                            <p class="subtitle">Aligned with the right column</p>
+                            <p>Wide column</p>
+                            <p>Aligned with the right column</p>
                             <div class="content">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
                             </div>
@@ -757,8 +757,8 @@
                 <div class="tile is-parent">
                     <article class="tile is-child box">
                         <div class="content">
-                            <p class="title">Tall column</p>
-                            <p class="subtitle">With even more content</p>
+                            <p>Tall column</p>
+                            <p>With even more content</p>
                             <div class="content">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
                                 <p>Suspendisse varius ligula in molestie lacinia. Maecenas varius eget ligula a sagittis. Pellentesque interdum, nisl nec interdum maximus, augue diam porttitor lorem, et sollicitudin felis neque sit amet erat. Maecenas imperdiet felis nisi, fringilla luctus felis hendrerit sit amet. Aenean vitae gravida diam, finibus dignissim turpis. Sed eget varius ligula, at volutpat tortor.</p>
@@ -769,24 +769,24 @@
                 </div>
             </div>
             <hr>
-            <h3 class="title">3 columns</h3>
+            <h3>3 columns</h3>
             <div class="tile is-ancestor">
                 <div class="tile is-parent">
                     <article class="tile is-child box">
-                        <p class="title">Hello World</p>
-                        <p class="subtitle">What is up?</p>
+                        <p>Hello World</p>
+                        <p>What is up?</p>
                     </article>
                 </div>
                 <div class="tile is-parent">
                     <article class="tile is-child box">
-                        <p class="title">Foo</p>
-                        <p class="subtitle">Bar</p>
+                        <p>Foo</p>
+                        <p>Bar</p>
                     </article>
                 </div>
                 <div class="tile is-parent">
                     <article class="tile is-child box">
-                        <p class="title">Third column</p>
-                        <p class="subtitle">With some content</p>
+                        <p>Third column</p>
+                        <p>With some content</p>
                         <div class="content">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
                         </div>
@@ -798,26 +798,26 @@
                     <div class="tile">
                         <div class="tile is-parent is-vertical">
                             <article class="tile is-child box">
-                                <p class="title">Vertical tiles</p>
-                                <p class="subtitle">Top box</p>
+                                <p>Vertical tiles</p>
+                                <p>Top box</p>
                             </article>
                             <article class="tile is-child box">
-                                <p class="title">Vertical tiles</p>
-                                <p class="subtitle">Bottom box</p>
+                                <p>Vertical tiles</p>
+                                <p>Bottom box</p>
                             </article>
                         </div>
                         <div class="tile is-parent">
                             <article class="tile is-child box">
-                                <p class="title">Middle box</p>
-                                <p class="subtitle">With an image</p>
+                                <p>Middle box</p>
+                                <p>With an image</p>
                                 <figure class="image is-4by3"><img src="http://placehold.it/640x480"></figure>
                             </article>
                         </div>
                     </div>
                     <div class="tile is-parent">
                         <article class="tile is-child box">
-                            <p class="title">Wide column</p>
-                            <p class="subtitle">Aligned with the right column</p>
+                            <p>Wide column</p>
+                            <p>Aligned with the right column</p>
                             <div class="content">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
                             </div>
@@ -827,8 +827,8 @@
                 <div class="tile is-parent">
                     <article class="tile is-child box">
                         <div class="content">
-                            <p class="title">Tall column</p>
-                            <p class="subtitle">With even more content</p>
+                            <p>Tall column</p>
+                            <p>With even more content</p>
                             <div class="content">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
                                 <p>Suspendisse varius ligula in molestie lacinia. Maecenas varius eget ligula a sagittis. Pellentesque interdum, nisl nec interdum maximus, augue diam porttitor lorem, et sollicitudin felis neque sit amet erat. Maecenas imperdiet felis nisi, fringilla luctus felis hendrerit sit amet. Aenean vitae gravida diam, finibus dignissim turpis. Sed eget varius ligula, at volutpat tortor.</p>
@@ -841,8 +841,8 @@
             <div class="tile is-ancestor">
                 <div class="tile is-parent">
                     <article class="tile is-child box">
-                        <p class="title">Side column</p>
-                        <p class="subtitle">With some content</p>
+                        <p>Side column</p>
+                        <p>With some content</p>
                         <div class="content">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
                         </div>
@@ -850,8 +850,8 @@
                 </div>
                 <div class="tile is-parent is-8">
                     <article class="tile is-child box">
-                        <p class="title">Main column</p>
-                        <p class="subtitle">With some content</p>
+                        <p>Main column</p>
+                        <p>With some content</p>
                         <div class="content">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
                         </div>
@@ -859,30 +859,30 @@
                 </div>
             </div>
             <hr>
-            <h3 class="title">4 columns</h3>
+            <h3>4 columns</h3>
             <div class="tile is-ancestor">
                 <div class="tile is-parent">
                     <article class="tile is-child box">
-                        <p class="title">One</p>
-                        <p class="subtitle">Subtitle</p>
+                        <p>One</p>
+                        <p>Subtitle</p>
                     </article>
                 </div>
                 <div class="tile is-parent">
                     <article class="tile is-child box">
-                        <p class="title">Two</p>
-                        <p class="subtitle">Subtitle</p>
+                        <p>Two</p>
+                        <p>Subtitle</p>
                     </article>
                 </div>
                 <div class="tile is-parent">
                     <article class="tile is-child box">
-                        <p class="title">Three</p>
-                        <p class="subtitle">Subtitle</p>
+                        <p>Three</p>
+                        <p>Subtitle</p>
                     </article>
                 </div>
                 <div class="tile is-parent">
                     <article class="tile is-child box">
-                        <p class="title">Four</p>
-                        <p class="subtitle">Subtitle</p>
+                        <p>Four</p>
+                        <p>Subtitle</p>
                     </article>
                 </div>
             </div>
@@ -891,8 +891,8 @@
                     <div class="tile">
                         <div class="tile is-parent">
                             <article class="tile is-child box">
-                                <p class="title">Five</p>
-                                <p class="subtitle">Subtitle</p>
+                                <p>Five</p>
+                                <p>Subtitle</p>
                                 <div class="content">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
                                 </div>
@@ -902,21 +902,21 @@
                             <div class="tile">
                                 <div class="tile is-parent">
                                     <article class="tile is-child box">
-                                        <p class="title">Six</p>
-                                        <p class="subtitle">Subtitle</p>
+                                        <p>Six</p>
+                                        <p>Subtitle</p>
                                     </article>
                                 </div>
                                 <div class="tile is-parent">
                                     <article class="tile is-child box">
-                                        <p class="title">Seven</p>
-                                        <p class="subtitle">Subtitle</p>
+                                        <p>Seven</p>
+                                        <p>Subtitle</p>
                                     </article>
                                 </div>
                             </div>
                             <div class="tile is-parent">
                                 <article class="tile is-child box">
-                                    <p class="title">Eight</p>
-                                    <p class="subtitle">Subtitle</p>
+                                    <p>Eight</p>
+                                    <p>Subtitle</p>
                                 </article>
                             </div>
                         </div>
@@ -924,8 +924,8 @@
                     <div class="tile">
                         <div class="tile is-8 is-parent">
                             <article class="tile is-child box">
-                                <p class="title">Nine</p>
-                                <p class="subtitle">Subtitle</p>
+                                <p>Nine</p>
+                                <p>Subtitle</p>
                                 <div class="content">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
                                 </div>
@@ -933,8 +933,8 @@
                         </div>
                         <div class="tile is-parent">
                             <article class="tile is-child box">
-                                <p class="title">Ten</p>
-                                <p class="subtitle">Subtitle</p>
+                                <p>Ten</p>
+                                <p>Subtitle</p>
                                 <div class="content">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
                                 </div>
@@ -945,8 +945,8 @@
                 <div class="tile is-parent">
                     <article class="tile is-child box">
                         <div class="content">
-                            <p class="title">Eleven</p>
-                            <p class="subtitle">Subtitle</p>
+                            <p>Eleven</p>
+                            <p>Subtitle</p>
                             <div class="content">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
                                 <p>Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae congue lectus dolor consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a metus. Cras ullamcorper a nunc ac porta. Aliquam ut aliquet lacus, quis faucibus libero. Quisque non semper leo.</p>
@@ -958,8 +958,8 @@
             <div class="tile is-ancestor">
                 <div class="tile is-parent">
                     <article class="tile is-child box">
-                        <p class="title">Twelve</p>
-                        <p class="subtitle">Subtitle</p>
+                        <p>Twelve</p>
+                        <p>Subtitle</p>
                         <div class="content">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.</p>
                         </div>
@@ -967,8 +967,8 @@
                 </div>
                 <div class="tile is-parent is-6">
                     <article class="tile is-child box">
-                        <p class="title">Thirteen</p>
-                        <p class="subtitle">Subtitle</p>
+                        <p>Thirteen</p>
+                        <p>Subtitle</p>
                         <div class="content">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
                         </div>
@@ -976,8 +976,8 @@
                 </div>
                 <div class="tile is-parent">
                     <article class="tile is-child box">
-                        <p class="title">Fourteen</p>
-                        <p class="subtitle">Subtitle</p>
+                        <p>Fourteen</p>
+                        <p>Subtitle</p>
                         <div class="content">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.</p>
                         </div>

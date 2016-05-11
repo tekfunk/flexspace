@@ -682,7 +682,7 @@ body {
   color: #3a3a3a;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.428571428571429; }
+  line-height: 1.42857; }
 
 a {
   color: #14b1c4;
@@ -741,6 +741,43 @@ table {
     vertical-align: top; }
   table th {
     color: #2a2a2a; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #2a2a2a;
+  font-weight: 300;
+  line-height: 1.125;
+  margin-bottom: 20px; }
+
+h1:not(:first-child),
+h2:not(:first-child),
+h3:not(:first-child) {
+  margin-top: 20px; }
+
+h1 {
+  font-family: "SimianText-Orangutan";
+  font-size: 2.2em;
+  font-weight: 500; }
+
+h2 {
+  font-size: 1.75em;
+  font-weight: 600; }
+
+h3 {
+  font-size: 1.5em; }
+
+h4 {
+  font-size: 1.25em; }
+
+h5 {
+  font-size: 1.125em; }
+
+h6 {
+  font-size: 1em; }
 
 .content a {
   border-bottom: 1px solid #d3d6db; }
@@ -824,7 +861,7 @@ table {
   .content.is-large code {
     font-size: 18px; }
 
-.block:not(:last-child), .content:not(:last-child), .box:not(:last-child), .notification:not(:last-child), .progress:not(:last-child), .highlight:not(:last-child), .level:not(:last-child), .message:not(:last-child), .tabs:not(:last-child) {
+.block:not(:last-child), .content:not(:last-child), .box:not(:last-child), .notification:not(:last-child), .progress:not(:last-child), .highlight:not(:last-child), .level:not(:last-child), .message:not(:last-child), .navbar:not(:last-child), .tabs:not(:last-child) {
   margin-bottom: 20px; }
 
 .container {
@@ -1276,7 +1313,7 @@ a.header-item {
       padding-right: 0; } }
 
 .hero {
-  align-items: stretch;
+  align-items: center;
   background: #fff;
   display: flex;
   flex-direction: column;
@@ -1289,15 +1326,15 @@ a.header-item {
   .hero.is-white {
     background: #fff;
     color: #1a1a1a; }
-    .hero.is-white .title {
+    .hero.is-white h1 {
       color: #1a1a1a; }
-      .hero.is-white .title a,
-      .hero.is-white .title strong {
+      .hero.is-white h1 a,
+      .hero.is-white h1 strong {
         color: inherit; }
-    .hero.is-white .subtitle {
+    .hero.is-white h3 {
       color: rgba(26, 26, 26, 0.7); }
-      .hero.is-white .subtitle a,
-      .hero.is-white .subtitle strong {
+      .hero.is-white h3 a,
+      .hero.is-white h3 strong {
         color: #1a1a1a; }
     .hero.is-white .nav {
       box-shadow: 0 1px 0 rgba(26, 26, 26, 0.2); }
@@ -1346,15 +1383,15 @@ a.header-item {
   .hero.is-black {
     background: #1a1a1a;
     color: #fff; }
-    .hero.is-black .title {
+    .hero.is-black h1 {
       color: #fff; }
-      .hero.is-black .title a,
-      .hero.is-black .title strong {
+      .hero.is-black h1 a,
+      .hero.is-black h1 strong {
         color: inherit; }
-    .hero.is-black .subtitle {
+    .hero.is-black h3 {
       color: rgba(255, 255, 255, 0.7); }
-      .hero.is-black .subtitle a,
-      .hero.is-black .subtitle strong {
+      .hero.is-black h3 a,
+      .hero.is-black h3 strong {
         color: #fff; }
     .hero.is-black .nav {
       box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2); }
@@ -1403,15 +1440,15 @@ a.header-item {
   .hero.is-light {
     background: #f5f7fa;
     color: #3a3a3a; }
-    .hero.is-light .title {
+    .hero.is-light h1 {
       color: #3a3a3a; }
-      .hero.is-light .title a,
-      .hero.is-light .title strong {
+      .hero.is-light h1 a,
+      .hero.is-light h1 strong {
         color: inherit; }
-    .hero.is-light .subtitle {
+    .hero.is-light h3 {
       color: rgba(58, 58, 58, 0.7); }
-      .hero.is-light .subtitle a,
-      .hero.is-light .subtitle strong {
+      .hero.is-light h3 a,
+      .hero.is-light h3 strong {
         color: #3a3a3a; }
     .hero.is-light .nav {
       box-shadow: 0 1px 0 rgba(58, 58, 58, 0.2); }
@@ -1460,15 +1497,15 @@ a.header-item {
   .hero.is-dark {
     background: #3a3a3a;
     color: #f5f7fa; }
-    .hero.is-dark .title {
+    .hero.is-dark h1 {
       color: #f5f7fa; }
-      .hero.is-dark .title a,
-      .hero.is-dark .title strong {
+      .hero.is-dark h1 a,
+      .hero.is-dark h1 strong {
         color: inherit; }
-    .hero.is-dark .subtitle {
+    .hero.is-dark h3 {
       color: rgba(245, 247, 250, 0.7); }
-      .hero.is-dark .subtitle a,
-      .hero.is-dark .subtitle strong {
+      .hero.is-dark h3 a,
+      .hero.is-dark h3 strong {
         color: #f5f7fa; }
     .hero.is-dark .nav {
       box-shadow: 0 1px 0 rgba(245, 247, 250, 0.2); }
@@ -1517,15 +1554,15 @@ a.header-item {
   .hero.is-primary {
     background: #14b1c4;
     color: white; }
-    .hero.is-primary .title {
+    .hero.is-primary h1 {
       color: white; }
-      .hero.is-primary .title a,
-      .hero.is-primary .title strong {
+      .hero.is-primary h1 a,
+      .hero.is-primary h1 strong {
         color: inherit; }
-    .hero.is-primary .subtitle {
+    .hero.is-primary h3 {
       color: rgba(255, 255, 255, 0.7); }
-      .hero.is-primary .subtitle a,
-      .hero.is-primary .subtitle strong {
+      .hero.is-primary h3 a,
+      .hero.is-primary h3 strong {
         color: white; }
     .hero.is-primary .nav {
       box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2); }
@@ -1574,15 +1611,15 @@ a.header-item {
   .hero.is-info {
     background: #42afe3;
     color: white; }
-    .hero.is-info .title {
+    .hero.is-info h1 {
       color: white; }
-      .hero.is-info .title a,
-      .hero.is-info .title strong {
+      .hero.is-info h1 a,
+      .hero.is-info h1 strong {
         color: inherit; }
-    .hero.is-info .subtitle {
+    .hero.is-info h3 {
       color: rgba(255, 255, 255, 0.7); }
-      .hero.is-info .subtitle a,
-      .hero.is-info .subtitle strong {
+      .hero.is-info h3 a,
+      .hero.is-info h3 strong {
         color: white; }
     .hero.is-info .nav {
       box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2); }
@@ -1631,15 +1668,15 @@ a.header-item {
   .hero.is-success {
     background: #94b282;
     color: white; }
-    .hero.is-success .title {
+    .hero.is-success h1 {
       color: white; }
-      .hero.is-success .title a,
-      .hero.is-success .title strong {
+      .hero.is-success h1 a,
+      .hero.is-success h1 strong {
         color: inherit; }
-    .hero.is-success .subtitle {
+    .hero.is-success h3 {
       color: rgba(255, 255, 255, 0.7); }
-      .hero.is-success .subtitle a,
-      .hero.is-success .subtitle strong {
+      .hero.is-success h3 a,
+      .hero.is-success h3 strong {
         color: white; }
     .hero.is-success .nav {
       box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2); }
@@ -1688,15 +1725,15 @@ a.header-item {
   .hero.is-warning {
     background: #fce473;
     color: rgba(26, 26, 26, 0.5); }
-    .hero.is-warning .title {
+    .hero.is-warning h1 {
       color: rgba(26, 26, 26, 0.5); }
-      .hero.is-warning .title a,
-      .hero.is-warning .title strong {
+      .hero.is-warning h1 a,
+      .hero.is-warning h1 strong {
         color: inherit; }
-    .hero.is-warning .subtitle {
+    .hero.is-warning h3 {
       color: rgba(26, 26, 26, 0.7); }
-      .hero.is-warning .subtitle a,
-      .hero.is-warning .subtitle strong {
+      .hero.is-warning h3 a,
+      .hero.is-warning h3 strong {
         color: rgba(26, 26, 26, 0.5); }
     .hero.is-warning .nav {
       box-shadow: 0 1px 0 rgba(26, 26, 26, 0.2); }
@@ -1745,15 +1782,15 @@ a.header-item {
   .hero.is-danger {
     background: #c5443b;
     color: white; }
-    .hero.is-danger .title {
+    .hero.is-danger h1 {
       color: white; }
-      .hero.is-danger .title a,
-      .hero.is-danger .title strong {
+      .hero.is-danger h1 a,
+      .hero.is-danger h1 strong {
         color: inherit; }
-    .hero.is-danger .subtitle {
+    .hero.is-danger h3 {
       color: rgba(255, 255, 255, 0.7); }
-      .hero.is-danger .subtitle a,
-      .hero.is-danger .subtitle strong {
+      .hero.is-danger h3 a,
+      .hero.is-danger h3 strong {
         color: white; }
     .hero.is-danger .nav {
       box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2); }
@@ -2783,8 +2820,8 @@ a.box:active {
     border-radius: 0 3px;
     float: right;
     margin: -16px -20px 0 20px; }
-  .notification .subtitle,
-  .notification .title {
+  .notification .h3,
+  .notification .h1 {
     color: inherit; }
   .notification.is-white {
     background: #fff;
@@ -3217,7 +3254,7 @@ a.box:active {
 
 .card-content {
   padding: 20px; }
-  .card-content .title + .subtitle {
+  .card-content .h1 + .h3 {
     margin-top: -20px; }
 
 .card-footer {
@@ -3878,8 +3915,8 @@ a.box:active {
   .highlight .il {
     color: #2aa198; }
 
-.level-item .title,
-.level-item .subtitle {
+.level-item .h1,
+.level-item .h3 {
   margin-bottom: 0; }
 
 @media screen and (max-width: 768px) {
@@ -4311,6 +4348,57 @@ a.nav-item {
     padding-right: 0; }
   .nav.has-shadow {
     box-shadow: 0 2px 3px rgba(26, 26, 26, 0.1); }
+
+.navbar-item .h1,
+.navbar-item .h3 {
+  margin-bottom: 0; }
+
+@media screen and (max-width: 768px) {
+  .navbar-item:not(:last-child) {
+    margin-bottom: 10px; } }
+
+.navbar-left .navbar-item:not(:last-child),
+.navbar-right .navbar-item:not(:last-child) {
+  margin-right: 10px; }
+
+.navbar-left .navbar-item.is-flexible,
+.navbar-right .navbar-item.is-flexible {
+  flex: 1; }
+
+@media screen and (max-width: 768px) {
+  .navbar-left + .navbar-right {
+    margin-top: 20px; } }
+
+@media screen and (min-width: 769px) {
+  .navbar-left {
+    align-items: center;
+    display: flex; } }
+
+@media screen and (min-width: 769px) {
+  .navbar-right {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end; } }
+
+.navbar {
+  align-items: center;
+  justify-content: space-between; }
+  .navbar code {
+    border-radius: 3px; }
+  .navbar img {
+    display: inline-block;
+    vertical-align: top; }
+  .navbar.is-mobile {
+    display: flex; }
+    .navbar.is-mobile > .navbar-item:not(:last-child) {
+      margin-bottom: 0; }
+    .navbar.is-mobile > .navbar-item:not(.is-narrow) {
+      flex: 1; }
+  @media screen and (min-width: 769px) {
+    .navbar {
+      display: flex; }
+      .navbar > .navbar-item:not(.is-narrow) {
+        flex: 1; } }
 
 .pagination {
   align-items: center;

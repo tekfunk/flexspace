@@ -1,5 +1,5 @@
   <div class="container">
-    <h1 class="title">.images</h1>
+    <h1>.images</h1>
     <hr>
 
     <div class="content">
@@ -15,7 +15,7 @@
 
     <hr>
 
-    <h3 class="title">Fixed square images</h3>
+    <h3>Fixed square images</h3>
     <div class="content">
       <p>There are <strong>7</strong> dimensions to choose from, useful for <strong>avatars</strong>:</p>
     </div>
@@ -75,7 +75,7 @@
 
     <hr>
 
-    <h3 class="title">Responsive images with ratios</h3>
+    <h3>Responsive images with ratios</h3>
 
     <div class="content">
       <p>If you don't know the exact dimensions but know the <strong>ratio</strong> instead, you can use one of the <strong>5 ratio modifers</strong>:</p>

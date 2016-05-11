@@ -4,18 +4,6 @@
     <a class="nav-item" href="#"><h1>flexspace</h1></a>
   </div>
 
-  <div class="nav-center">
-    <a class="nav-item" href="#">
-      <span class="icon">
-        <i class="ics icon-brush"></i>
-      </span>
-    </a>
-    <a class="nav-item" href="#">
-      <span class="icon">
-        <i class="ics icon-tackleft"></i>
-      </span>
-    </a>
-  </div>
 
   <span class="nav-toggle">
     <span></span>

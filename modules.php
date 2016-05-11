@@ -1,14 +1,14 @@
 <?php include('inc/head.php'); ?>
 <?php include('inc/header.php'); ?>
 <section class="hero">
-	<div class="container is-fluid">
+	<div class="container">
 		<h1>modules</h1>
-           <h2><a href="#box">box</a> | <a href="#card">card</a> | <a href="#level">level</a> | <a href="#images">images</a> | <a href="#media">media</a> | <a href="#menu">menu</a> | <a href="#messages">messages</a> | <a href="#menu">menu</a> | <a href="#modal">modal</a> | <a href="#nav">nav</a> | <a href="#messages">messages</a> | <a href="#panel">panel</a> | <a href="#tabs">tabs</a></h2>
+           <h3><a href="#box">box</a> | <a href="#card">card</a> | <a href="#level">level</a> | <a href="#images">images</a> | <a href="#media">media</a> | <a href="#menu">menu</a> | <a href="#messages">messages</a> | <a href="#menu">menu</a> | <a href="#modal">modal</a> | <a href="#nav">nav</a> | <a href="#messages">messages</a> | <a href="#panel">panel</a> | <a href="#tabs">tabs</a></h3>
 	</div>
 </section>
 <section class="section" id="box">
   <div class="container">
-    <h1 class="title">.box</h1>
+    <h1>.box</h1>
     <hr>
 
     <div class="columns">
@@ -94,8 +94,8 @@
 
 <section class="section" id="card">
   <div class="container">
-    <h1 class="title">Card</h1>
-    <h2 class="subtitle">An all-around flexible and composable component</h2>
+    <h1>Card</h1>
+    <h2>An all-around flexible and composable component</h2>
 
     <hr>
 
@@ -216,8 +216,8 @@
 </section>
 <section class="section" id="level">
   <div class="container">
-    <h1 class="title">Level</h1>
-    <h2 class="subtitle">A multi-purpose <strong>horizontal level</strong>, which can contain almost any other element</h2>
+    <h1>Level</h1>
+    <h2>A multi-purpose <strong>horizontal level</strong>, which can contain almost any other element</h2>
 
     <hr>
 
@@ -348,7 +348,7 @@
 <span class="nt">&lt;/nav&gt;</span></code></pre><button class="copy">Copy</button></figure>
 
     <hr>
-    <h3 class="title">Centered level</h3>
+    <h3>Centered level</h3>
 
     <div class="content">
       If you want a <strong>centered level</strong>, you can use as many <code>level-item</code> as you want, as long as they are <strong>direct</strong> children of the <code>level</code> container.
@@ -358,19 +358,19 @@
       <nav class="level">
         <div class="level-item has-text-centered">
           <p class="heading">Tweets</p>
-          <p class="title">3,456</p>
+          <p>3,456</p>
         </div>
         <div class="level-item has-text-centered">
           <p class="heading">Following</p>
-          <p class="title">123</p>
+          <p>123</p>
         </div>
         <div class="level-item has-text-centered">
           <p class="heading">Followers</p>
-          <p class="title">456K</p>
+          <p>456K</p>
         </div>
         <div class="level-item has-text-centered">
           <p class="heading">Likes</p>
-          <p class="title">789</p>
+          <p>789</p>
         </div>
       </nav>
     </div>
@@ -433,7 +433,7 @@
 <span class="nt">&lt;/nav&gt;</span></code></pre><button class="copy">Copy</button></figure>
 
     <hr>
-    <h3 class="title">Mobile level</h3>
+    <h3>Mobile level</h3>
     <div class="content">
       By default, for space concerns, the level is vertical on mobile. If you want the level to be horizontal on mobile as well, add the <code>is-mobile</code> modifier on the <code>level</code> container.
     </div>
@@ -442,19 +442,19 @@
       <nav class="level is-mobile">
         <div class="level-item has-text-centered">
           <p class="heading">Tweets</p>
-          <p class="title">3,456</p>
+          <p>3,456</p>
         </div>
         <div class="level-item has-text-centered">
           <p class="heading">Following</p>
-          <p class="title">123</p>
+          <p>123</p>
         </div>
         <div class="level-item has-text-centered">
           <p class="heading">Followers</p>
-          <p class="title">456K</p>
+          <p>456K</p>
         </div>
         <div class="level-item has-text-centered">
           <p class="heading">Likes</p>
-          <p class="title">789</p>
+          <p>789</p>
         </div>
       </nav>
     </div>
@@ -463,7 +463,7 @@
 
 <section class="section" id="images">
 <div class="container">
-    <h1 class="title">.images</h1>
+    <h1>.images</h1>
     <hr>
 
     <div class="content">
@@ -479,7 +479,7 @@
 
     <hr>
 
-    <h3 class="title">Fixed square images</h3>
+    <h3>Fixed square images</h3>
     <div class="content">
       <p>There are <strong>7</strong> dimensions to choose from, useful for <strong>avatars</strong>:</p>
     </div>
@@ -539,7 +539,7 @@
 
     <hr>
 
-    <h3 class="title">Responsive images with ratios</h3>
+    <h3>Responsive images with ratios</h3>
 
     <div class="content">
       <p>If you don't know the exact dimensions but know the <strong>ratio</strong> instead, you can use one of the <strong>5 ratio modifers</strong>:</p>
@@ -591,8 +591,8 @@
 
 <section class="section" id="media">
   <div class="container">
-    <h1 class="title">Media Object</h1>
-    <h2 class="subtitle">The famous <strong>media object</strong> prevalent in social media interfaces, but useful in any context</h2>
+    <h1>Media Object</h1>
+    <h2>The famous <strong>media object</strong> prevalent in social media interfaces, but useful in any context</h2>
 
     <hr>
 
@@ -766,7 +766,7 @@
 
     <hr>
 
-    <h3 class="title">Nesting</h3>
+    <h3>Nesting</h3>
     <div class="content">
       <p>You can nest media objects up to <strong>3 levels</strong> deep.</p>
     </div>
@@ -935,8 +935,8 @@
 </section>
 <section class="section" id="menu">
   <div class="container">
-    <h1 class="title">Menu</h1>
-    <h2 class="subtitle">A simple <strong>menu</strong>, for any type of vertical navigation</h2>
+    <h1>Menu</h1>
+    <h2>A simple <strong>menu</strong>, for any type of vertical navigation</h2>
 
     <hr>
 
@@ -1016,8 +1016,8 @@
 </section>
 <section class="section" id="messages">
   <div class="container">
-    <h1 class="title">Messages</h1>
-    <h2 class="subtitle">
+    <h1>Messages</h1>
+    <h2>
       Colored <strong>message</strong> blocks, to emphasize part of your page
     </h2>
 
@@ -1175,7 +1175,7 @@
 
     <hr>
 
-    <h3 class="subtitle">Message body only</h3>
+    <h3>Message body only</h3>
 
     <div class="content">
       <p>You can <strong>omit</strong> the message header:</p>
@@ -1251,8 +1251,8 @@
 </section>
 <section class="section" id="modal">
   <div class="container">
-    <h1 class="title">Modal</h1>
-    <h2 class="subtitle">A classic <strong>modal</strong> overlay, in which you can include <em>any</em> content you want</h2>
+    <h1>Modal</h1>
+    <h2>A classic <strong>modal</strong> overlay, in which you can include <em>any</em> content you want</h2>
 
     <hr>
 
@@ -1304,7 +1304,7 @@
 
     <hr>
 
-    <h3 class="title">Image modal</h3>
+    <h3>Image modal</h3>
 
     <div class="content">
       <p>Because a modal can contain <strong>anything you want</strong>, you can very simply use it to build an image gallery for example:</p>
@@ -1325,7 +1325,7 @@
 
     <hr>
 
-    <h3 class="title">Modal card</h3>
+    <h3>Modal card</h3>
 
     <div class="content">
       <p>If you want a more classic modal, with a <strong>head</strong>, a <strong>body</strong> and a <strong>foot</strong>, use the <code>modal-card</code>.</p>
@@ -1355,8 +1355,8 @@
 </section>
 <section class="section" id="nav">
   <div class="container">
-    <h1 class="title">Nav</h1>
-    <h2 class="subtitle">
+    <h1>Nav</h1>
+    <h2>
       A responsive horizontal <strong>nav bar</strong> that can contain links, tabs, buttons, icons, and a logo
     </h2>
 
@@ -1439,7 +1439,7 @@
 
     <hr>
 
-    <h3 class="title">Modifiers</h3>
+    <h3>Modifiers</h3>
 
     <div class="content">
       <ul>
@@ -1489,8 +1489,8 @@
 </section>
 <section class="section" id="pagination">
   <div class="container">
-    <h1 class="title">Pagination</h1>
-    <h2 class="subtitle">A responsive, usable, and flexible <strong>pagination</strong></h2>
+    <h1>Pagination</h1>
+    <h2>A responsive, usable, and flexible <strong>pagination</strong></h2>
 
     <hr>
 
@@ -1554,8 +1554,8 @@
 </section>
 <section class="section" id="panel">
   <div class="container">
-    <h1 class="title">Panel</h1>
-    <h2 class="subtitle">A composable <strong>panel</strong>, for compact controls</h2>
+    <h1>Panel</h1>
+    <h2>A composable <strong>panel</strong>, for compact controls</h2>
 
     <hr>
 
@@ -1660,8 +1660,8 @@
 </section>
 <section class="section" id="tabs">
   <div class="container">
-    <h1 class="title">Tabs</h1>
-    <h2 class="subtitle">Simple responsive horizontal navigation <strong>tabs</strong>, with different styles</h2>
+    <h1>Tabs</h1>
+    <h2>Simple responsive horizontal navigation <strong>tabs</strong>, with different styles</h2>
 
     <hr>
 
@@ -1691,7 +1691,7 @@
 
     <hr>
 
-    <h3 class="title">Alignment</h3>
+    <h3>Alignment</h3>
 
     <div class="content">
       <p>
@@ -1787,7 +1787,7 @@
 
     <hr>
 
-    <h3 class="title">Icons</h3>
+    <h3>Icons</h3>
 
     <div class="content">
       <p>&lt;span class="ics is-small"&gt;&lt;i class="icon-picture"&gt;&lt;/i&gt;&lt;/span&gt;</p>
@@ -1828,7 +1828,7 @@
 
     <hr>
 
-    <h3 class="title">Sizes</h3>
+    <h3>Sizes</h3>
     <div class="content">
       <p>You can choose between <strong>3 additional sizes</strong>: <code>is-small</code> <code>is-medium</code> and <code>is-large</code>.</p>
     </div>
@@ -1895,7 +1895,7 @@
 
     <hr>
 
-    <h3 class="title">Styles</h3>
+    <h3>Styles</h3>
     <div class="content">
       If you want a more classic style with <strong>borders</strong>, just append the <code>is-boxed</code> modifier.
     </div>
@@ -2076,7 +2076,7 @@
 
     <hr>
 
-    <h3 class="title">Combining</h3>
+    <h3>Combining</h3>
     <div class="content">
       <p>You can <strong>combine</strong> different modifiers. For example, you can have <strong>centered boxed</strong> tabs, or <strong>fullwidth toggle</strong> ones.</p>
     </div>

@@ -1,28 +1,28 @@
 <?php include('inc/head.php'); ?>
 <?php include('inc/header.php'); ?>
  <section class="hero">
-        <div class="container is-fluid">
+        <div class="container">
             <h1>ui</h1>
-           <h2><a href="#button">button</a> | <a href="#form">form</a> | <a href="#notifications">notifications</a> | <a href="#progress">progress</a> | <a href="#tables">tables</a> | <a href="#tags">tags</a></h2>
+           <h3><a href="#button">button</a> | <a href="#form">form</a> | <a href="#notifications">notifications</a> | <a href="#progress">progress</a> | <a href="#tables">tables</a> | <a href="#tags">tags</a></h3>
         </div>
     </section>
 
     <section class="section" id="button">
         <div class="container">
-            <h1 class="title">.button</h1>
+            <h1>.button</h1>
             <hr>
 
             <div class="columns">
                 <div class="column">
                     <div class="block">
-                        <h4 class="subtitle">.is-white, .is-light, .is-dark, .is-black, .is-link</h4><button class="button">Button</button> <button class="button is-white">White</button> <button class="button is-light">Light</button> <button class="button is-dark">Dark</button> <button class="button is-black">Black</button> <button class="button is-link">Link</button>
+                        <h4>.is-white, .is-light, .is-dark, .is-black, .is-link</h4><button class="button">Button</button> <button class="button is-white">White</button> <button class="button is-light">Light</button> <button class="button is-dark">Dark</button> <button class="button is-black">Black</button> <button class="button is-link">Link</button>
                     </div>
 
                 </div>
 
                 <div class="column">
 	                <div class="block">
-		                <h4 class="subtitle">.is-primary, .is-info, .is-success, .is-warning, .is-danger</h4>
+		                <h4>.is-primary, .is-info, .is-success, .is-warning, .is-danger</h4>
                         <button class="button is-primary">Primary</button> <button class="button is-info">Info</button> <button class="button is-success">Success</button> <button class="button is-warning">Warning</button> <button class="button is-danger">Danger</button>
                     </div>
 
@@ -32,11 +32,11 @@
 
             <div class="columns">
                 <div class="column">
-                    <h4 class="subtitle">.is-outlined</h4><a class="button is-outlined">Outlined</a> <a class="button is-primary is-outlined">Outlined</a> <a class="button is-info is-outlined">Outlined</a> <a class="button is-success is-outlined">Outlined</a> <a class="button is-danger is-outlined">Outlined</a>
+                    <h4>.is-outlined</h4><a class="button is-outlined">Outlined</a> <a class="button is-primary is-outlined">Outlined</a> <a class="button is-info is-outlined">Outlined</a> <a class="button is-success is-outlined">Outlined</a> <a class="button is-danger is-outlined">Outlined</a>
                 </div>
 
                 <div class="column">
-                    <h4 class="subtitle">.is-inverted</h4>
+                    <h4>.is-inverted</h4>
 
                     <div class="notification is-primary">
                         <a class="button is-primary is-inverted">Inverted</a> <a class="button is-info is-inverted">Inverted</a> <a class="button is-success is-inverted">Inverted</a> <a class="button is-danger is-inverted">Inverted</a>
@@ -47,19 +47,19 @@
 
             <div class="columns">
                 <div class="column">
-                    <h4 class="subtitle">.is-loading</h4><a class="button is-loading">Loading</a> <a class="button is-primary is-loading">Loading</a> <a class="button is-info is-loading">Loading</a> <a class="button is-success is-loading">Loading</a> <a class="button is-warning is-loading">Loading</a> <a class="button is-danger is-loading">Loading</a>
+                    <h4>.is-loading</h4><a class="button is-loading">Loading</a> <a class="button is-primary is-loading">Loading</a> <a class="button is-info is-loading">Loading</a> <a class="button is-success is-loading">Loading</a> <a class="button is-warning is-loading">Loading</a> <a class="button is-danger is-loading">Loading</a>
                 </div>
 
                 <div class="column">
-                    <h4 class="subtitle">.is-disabled</h4><a class="button is-disabled" disabled>Disabled</a> <a class="button is-primary is-disabled" disabled>Disabled</a> <a class="button is-info is-disabled" disabled>Disabled</a> <a class="button is-success is-disabled" disabled>Disabled</a> <a class="button is-warning is-disabled" disabled>Disabled</a> <a class="button is-danger is-disabled" disabled>Disabled</a>
+                    <h4>.is-disabled</h4><a class="button is-disabled" disabled>Disabled</a> <a class="button is-primary is-disabled" disabled>Disabled</a> <a class="button is-info is-disabled" disabled>Disabled</a> <a class="button is-success is-disabled" disabled>Disabled</a> <a class="button is-warning is-disabled" disabled>Disabled</a> <a class="button is-danger is-disabled" disabled>Disabled</a>
                 </div>
             </div>
             <hr>
                     <div class="block">
-                    <h4 class="subtitle">.is-small, .is-medium, .is-large</h4><a class="button is-small">Small</a> <a class="button">Normal</a> <a class="button is-medium">Medium</a> <a class="button is-large">Large</a>
+                    <h4>.is-small, .is-medium, .is-large</h4><a class="button is-small">Small</a> <a class="button">Normal</a> <a class="button is-medium">Medium</a> <a class="button is-large">Large</a>
                     </div>
 
-            <h4 class="subtitle">&lt;i class="ics icon-xxx"&gt;</h4>
+            <h4>&lt;i class="ics icon-xxx"&gt;</h4>
 
             <div class="columns">
                 <div class="column">
@@ -73,7 +73,7 @@
             </div>
             <hr>
 
-            <h3 class="title">Button group</h3>
+            <h3>Button group</h3>
 
             <div class="content">
                 <p>If you want to <strong>group</strong> buttons together, use the <code>is-grouped</code> modifier on the <code>control</code> container:</p>
@@ -84,7 +84,7 @@
             </div>
             <hr>
 
-            <h3 class="title">Button addons</h3>
+            <h3>Button addons</h3>
 
             <div class="content">
                 <p>If you want to use buttons as <strong>addons</strong>, use the <code>has-addons</code> modifier on the <code>control</code> container:</p>
@@ -97,8 +97,8 @@
     </section>
 <section class="section">
   <div class="container">
-    <h1 class="title">Modifiers syntax</h1>
-    <h2 class="subtitle">Most Bulma elements have <strong>alternative</strong> styles. To apply them, you only need to append one of the <strong>modifier classes</strong>.
+    <h1>Modifiers syntax</h1>
+    <h2>Most Bulma elements have <strong>alternative</strong> styles. To apply them, you only need to append one of the <strong>modifier classes</strong>.
     <br>
     They all start with <code>is-</code> or <code>has-</code>.</h2>
     <hr>
@@ -258,9 +258,9 @@
 </section>
     <section class="section" id="form">
         <div class="container">
-            <h1 class="title">Form controls</h1>
+            <h1>Form controls</h1>
 
-            <h2 class="subtitle">All generic <strong>form controls</strong>, designed for consistency</h2>
+            <h2>All generic <strong>form controls</strong>, designed for consistency</h2>
             <hr>
 
             <div class="content">
@@ -376,7 +376,7 @@
             </div>
             <hr>
 
-            <h3 class="title">Colors</h3>
+            <h3>Colors</h3>
 
             <div class="columns">
                 <div class="column is-half">
@@ -415,7 +415,7 @@
             </div>
             <hr>
 
-            <h3 class="title">Sizes</h3>
+            <h3>Sizes</h3>
 
             <div class="columns">
                 <div class="column is-half">
@@ -449,9 +449,9 @@
             </div>
             <hr>
 
-            <h3 class="title">States</h3>
+            <h3>States</h3>
 
-            <h4 class="subtitle">Loading</h4>
+            <h4>Loading</h4>
 
             <div class="columns">
                 <div class="column is-half">
@@ -476,7 +476,7 @@
                 </div>
             </div>
 
-            <h4 class="subtitle">Disabled</h4>
+            <h4>Disabled</h4>
 
             <div class="columns">
                 <div class="column is-half">
@@ -527,7 +527,7 @@
                 </div>
             </div>
 
-            <h4 class="subtitle">With Font Awesome icons</h4>
+            <h4>With Font Awesome icons</h4>
 
             <div class="columns">
                 <div class="column is-half">
@@ -619,7 +619,7 @@
             </div>
             <hr>
 
-            <h3 class="title">Form addons</h3>
+            <h3>Form addons</h3>
 
             <div class="content">
                 <p>If you want to <strong>attach</strong> controls together, use the <code>has-addons</code> modifier on the <code>control</code> container:</p>
@@ -679,7 +679,7 @@
             </figure>
             <hr>
 
-            <h3 class="title">Form group</h3>
+            <h3>Form group</h3>
 
             <div class="content">
                 <p>If you want to <strong>group</strong> controls together, use the <code>is-grouped</code> modifier on the <code>control</code> container:</p>
@@ -701,7 +701,7 @@
             </figure>
             <hr>
 
-            <h3 class="title">Horizontal form</h3>
+            <h3>Horizontal form</h3>
 
             <div class="content">
                 <p>If you want a <strong>horizontal</strong> form control, use the <code>is-horizontal</code> modifier on the <code>control</code> container, in which you include:</p>
@@ -790,9 +790,9 @@
 
     <section class="section" id="notifications">
         <div class="container">
-            <h1 class="title">Notifications</h1>
+            <h1>Notifications</h1>
 
-            <h2 class="subtitle">Bold <strong>notification</strong> blocks, to alert your users of something</h2>
+            <h2>Bold <strong>notification</strong> blocks, to alert your users of something</h2>
             <hr>
 
             <div class="columns">
@@ -875,9 +875,9 @@
 
     <section class="section" id="progress">
         <div class="container">
-            <h1 class="title">Progress bars</h1>
+            <h1>Progress bars</h1>
 
-            <h2 class="subtitle">Native HTML <strong>progress</strong> bars</h2>
+            <h2>Native HTML <strong>progress</strong> bars</h2>
             <hr>
 
             <div class="example">
@@ -896,7 +896,7 @@
             </figure>
             <hr>
 
-            <h3 class="title">Sizes</h3>
+            <h3>Sizes</h3>
 
             <div class="example">
                 <progress class="progress is-small" value="15" max="100">15%</progress> <progress class="progress" value="30" max="100">30%</progress> <progress class="progress is-medium" value="45" max="100">45%</progress> <progress class="progress is-large" value="60" max="100">60%</progress>
@@ -915,9 +915,9 @@
 
     <section class="section" id="tables">
         <div class="container">
-            <h1 class="title">Tables</h1>
+            <h1>Tables</h1>
 
-            <h2 class="subtitle">The inevitable HTML <strong>table</strong>, with special case cells</h2>
+            <h2>The inevitable HTML <strong>table</strong>, with special case cells</h2>
             <hr>
 
             <div class="example">
@@ -1088,7 +1088,7 @@
             </figure>
             <hr>
 
-            <h3 class="title">Modifiers</h3>
+            <h3>Modifiers</h3>
 
             <div class="columns">
                 <div class="column">
@@ -1250,9 +1250,9 @@
 
     <section class="section" id="tags">
         <div class="container">
-            <h1 class="title">Tags</h1>
+            <h1>Tags</h1>
 
-            <h2 class="subtitle">Small <strong>tag labels</strong> to insert anywhere</h2>
+            <h2>Small <strong>tag labels</strong> to insert anywhere</h2>
             <hr>
 
             <div class="columns">

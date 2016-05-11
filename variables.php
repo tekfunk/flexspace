@@ -1,19 +1,14 @@
 <?php include('inc/head.php'); ?>
 <?php include('inc/header.php'); ?>
 <section class="hero">
-	<div class="container is-fluid">
+	<div class="container">
 		<h1>variables</h1>
 	</div>
 </section>
 <section class="section">
   <div class="container">
-    <h1 class="title">Variables</h1>
-    <h2 class="subtitle">Easily <strong>customize</strong> Bulma to match your design</h2>
-
     <hr>
-
     <div class="content">
-      <p>Bulma has 1 variable file divided into <strong>4</strong> sections:</p>
       <ul>
         <li>
           <strong>Initial variables</strong>: where you define variables by <strong>direct value</strong>, like:
