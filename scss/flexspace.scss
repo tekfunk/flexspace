@@ -4,48 +4,38 @@
 @import "flex/etc/fonts";
 @import "flex/etc/icons";
 @import "bulma/utilities/functions";
-@import "bulma/utilities/mixins";
+@import "flex/etc/mixins";
 @import "bulma/utilities/controls";
 @import "flex/etc/variables";
-//@import "bulma/base/generic";
 @import "flex/page/base";
 @import "bulma/elements/content";
-@import "bulma/base/classes";
+@import "flex/page/classes";
 @import "bulma/base/helpers";
-@import "bulma/layout/header";
+@import "flex/page/header";
 @import "bulma/layout/section";
-//@import "bulma/layout/hero";
 @import "flex/page/hero";
 @import "bulma/layout/footer";
 @import "bulma/elements/box";
 @import "bulma/elements/content";
 @import "bulma/elements/button";
-@import "bulma/elements/form";
+@import "flex/ui/form";
 @import "bulma/elements/image";
-//@import "bulma/elements/notification";
 @import "flex/mods/notification";
 @import "bulma/elements/progress";
-@import "bulma/elements/table";
-//@import "bulma/elements/title";
-@import "bulma/elements/other";
-//@import "bulma/components/card";
+@import "flex/mods/table";
+@import "flex/ui/other";
 @import "flex/mods/card";
 @import "bulma/components/grid";
 @import "bulma/components/highlight";
-//@import "bulma/components/level";
 @import "flex/mods/level";
 @import "bulma/components/media";
 @import "bulma/components/menu";
 @import "bulma/components/message";
 @import "bulma/components/modal";
 @import "bulma/components/nav";
-
 @import "flex/mods/navbar";
-
 @import "bulma/components/pagination";
-@import "bulma/components/panel";
+@import "flex/mods/panel";
 @import "bulma/components/tabs";
-
 @import "bulma/utilities/animations";
-
 @import "animate/animate";

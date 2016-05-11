@@ -877,7 +877,7 @@ h6 {
     .container {
       max-width: 1200px; } }
 
-.fa {
+.ics {
   font-size: 21px;
   text-align: center;
   vertical-align: top; }
@@ -1148,7 +1148,7 @@ h6 {
     max-height: 24px; }
   .header-item .button + .button, .header-item .pagination a + .button, .pagination .header-item a + .button, .header-item .pagination .button + a, .pagination .header-item .button + a, .header-item .pagination a + a, .pagination .header-item a + a {
     margin-left: 10px; }
-  .header-item .fa {
+  .header-item .ics {
     font-size: 21px;
     line-height: 24px; }
   .header-item .tag:first-child {
@@ -2675,7 +2675,7 @@ a.box:active {
       justify-content: center; }
     .control.has-addons.has-addons-right {
       justify-content: flex-end; }
-  .control.has-icon > .fa {
+  .control.has-icon > .ics {
     display: inline-block;
     font-size: 14px;
     height: 24px;
@@ -2688,48 +2688,48 @@ a.box:active {
     position: absolute;
     top: 4px;
     z-index: 4; }
-  .control.has-icon .input:focus + .fa, .control.has-icon .textarea:focus + .fa {
+  .control.has-icon .input:focus + .ics, .control.has-icon .textarea:focus + .ics {
     color: #2a2a2a; }
-  .control.has-icon .input.is-small + .fa, .control.has-icon .is-small.textarea + .fa {
+  .control.has-icon .input.is-small + .ics, .control.has-icon .is-small.textarea + .ics {
     font-size: 10.5px;
     top: 0; }
-  .control.has-icon .input.is-medium + .fa, .control.has-icon .is-medium.textarea + .fa {
+  .control.has-icon .input.is-medium + .ics, .control.has-icon .is-medium.textarea + .ics {
     font-size: 21px;
     top: 8px; }
-  .control.has-icon .input.is-large + .fa, .control.has-icon .is-large.textarea + .fa {
+  .control.has-icon .input.is-large + .ics, .control.has-icon .is-large.textarea + .ics {
     font-size: 21px;
     top: 12px; }
-  .control.has-icon:not(.has-icon-right) > .fa {
+  .control.has-icon:not(.has-icon-right) > .ics {
     left: 4px; }
   .control.has-icon:not(.has-icon-right) .input, .control.has-icon:not(.has-icon-right) .textarea {
     padding-left: 32px; }
     .control.has-icon:not(.has-icon-right) .input.is-small, .control.has-icon:not(.has-icon-right) .is-small.textarea {
       padding-left: 24px; }
-      .control.has-icon:not(.has-icon-right) .input.is-small + .fa, .control.has-icon:not(.has-icon-right) .is-small.textarea + .fa {
+      .control.has-icon:not(.has-icon-right) .input.is-small + .ics, .control.has-icon:not(.has-icon-right) .is-small.textarea + .ics {
         left: 0; }
     .control.has-icon:not(.has-icon-right) .input.is-medium, .control.has-icon:not(.has-icon-right) .is-medium.textarea {
       padding-left: 40px; }
-      .control.has-icon:not(.has-icon-right) .input.is-medium + .fa, .control.has-icon:not(.has-icon-right) .is-medium.textarea + .fa {
+      .control.has-icon:not(.has-icon-right) .input.is-medium + .ics, .control.has-icon:not(.has-icon-right) .is-medium.textarea + .ics {
         left: 8px; }
     .control.has-icon:not(.has-icon-right) .input.is-large, .control.has-icon:not(.has-icon-right) .is-large.textarea {
       padding-left: 48px; }
-      .control.has-icon:not(.has-icon-right) .input.is-large + .fa, .control.has-icon:not(.has-icon-right) .is-large.textarea + .fa {
+      .control.has-icon:not(.has-icon-right) .input.is-large + .ics, .control.has-icon:not(.has-icon-right) .is-large.textarea + .ics {
         left: 12px; }
-  .control.has-icon.has-icon-right > .fa {
+  .control.has-icon.has-icon-right > .ics {
     right: 4px; }
   .control.has-icon.has-icon-right .input, .control.has-icon.has-icon-right .textarea {
     padding-right: 32px; }
     .control.has-icon.has-icon-right .input.is-small, .control.has-icon.has-icon-right .is-small.textarea {
       padding-right: 24px; }
-      .control.has-icon.has-icon-right .input.is-small + .fa, .control.has-icon.has-icon-right .is-small.textarea + .fa {
+      .control.has-icon.has-icon-right .input.is-small + .ics, .control.has-icon.has-icon-right .is-small.textarea + .ics {
         right: 0; }
     .control.has-icon.has-icon-right .input.is-medium, .control.has-icon.has-icon-right .is-medium.textarea {
       padding-right: 40px; }
-      .control.has-icon.has-icon-right .input.is-medium + .fa, .control.has-icon.has-icon-right .is-medium.textarea + .fa {
+      .control.has-icon.has-icon-right .input.is-medium + .ics, .control.has-icon.has-icon-right .is-medium.textarea + .ics {
         right: 8px; }
     .control.has-icon.has-icon-right .input.is-large, .control.has-icon.has-icon-right .is-large.textarea {
       padding-right: 48px; }
-      .control.has-icon.has-icon-right .input.is-large + .fa, .control.has-icon.has-icon-right .is-large.textarea + .fa {
+      .control.has-icon.has-icon-right .input.is-large + .ics, .control.has-icon.has-icon-right .is-large.textarea + .ics {
         right: 12px; }
   .control.is-grouped {
     display: flex;
@@ -2927,8 +2927,8 @@ a.box:active {
       text-align: center;
       white-space: nowrap;
       width: 1%; }
-      .table td.is-icon .fa,
-      .table th.is-icon .fa {
+      .table td.is-icon .ics,
+      .table th.is-icon .ics {
         display: inline-block;
         font-size: 21px;
         height: 24px;
@@ -3054,7 +3054,7 @@ a.box:active {
   text-align: center;
   vertical-align: top;
   width: 24px; }
-  .icon .fa {
+  .icon .ics {
     font-size: inherit;
     line-height: inherit; }
   .icon.is-small {
@@ -4450,7 +4450,7 @@ a.nav-item {
   color: #aeb1b5;
   float: left;
   margin: 0 4px 0 -2px; }
-  .panel-icon .fa {
+  .panel-icon .ics {
     font-size: inherit;
     line-height: inherit; }
 
