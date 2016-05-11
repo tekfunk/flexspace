@@ -10,7 +10,7 @@
     <section class="section" id="animate">
 	    <div class="container">
 		  	<h1><a href="http://daneden.github.io/animate.css/" target="_blank">animate.css</a></h1>
-		  	<h2><strong>.animated</strong> auto animates <strong>.hoover</strong> animates on hover <strong>.infinite</strong> loops the animation</h2>
+		  	<h4><strong>.animated</strong> auto animates <strong>.hoover</strong> animates on hover <strong>.infinite</strong> loops the animation</h4>
 		  	<hr>
   		<div class="columns is-multiline">
 

@@ -1,309 +1,610 @@
 <?php include('inc/head.php'); ?>
 <?php include('inc/header.php'); ?>
 <section class="hero">
-	<div class="container">
-		<h1>variables</h1>
-	</div>
-</section>
-<section class="section">
   <div class="container">
+    <h1>variables</h1>
+    <h3><a href="#editable">editable</a> | <a href="#generated">generated</a></h3>
+
+  </div>
+</section>
+<section class="section" id="editable">
+  <div class="container">
+    <h1>editable variables</h1>
+    <h4>variables that can be edited before generating your CSS file.</h4>
     <hr>
-    <div class="content">
-      <ul>
-        <li>
-          <strong>Initial variables</strong>: where you define variables by <strong>direct value</strong>, like:
-          <ul>
-            <li><strong>colors</strong>: <code>$blue: #42afe3</code></li>
-            <li><strong>font families</strong>: <code>$family-sans-serif: "Helvetica Neue", "Helvetica", "Arial", sans-serif</code></li>
-            <li><strong>font sizes</strong>: <code>$size-1: 48px</code></li>
-            <li><strong>other values</strong>: <code>$nav-height: 50px</code> or <code>$easing: ease-out</code></li>
-          </ul>
-        </li>
-        <li>
-          <strong>Primary colors</strong> derived from the initial variables:
-          <ul>
-            <li><code>$primary: $turquoise</code></li>
-            <li><code>$info: $blue</code></li>
-            <li><code>$success: $green</code></li>
-            <li><code>$warning: $yellow</code></li>
-            <li><code>$danger: $red</code></li>
-            <li><code>$dark: $grey-darker</code></li>
-            <li><code>$text: $grey-dark</code></li>
-          </ul>
-        </li>
-        <li>
-          <strong>Generated variables</strong> where variables are <strong>calculated</strong> from the values set in the previous file. For example, you can have:
-          <ul>
-            <li><code>$body-background: $grey-lighter</code>: the page's main background is the lighter grey</li>
-            <li><code>$link: $primary</code>: the links use the primary color</li>
-            <li><code>$family-primary: $family-sans-serif</code>: the primary font family is the sans-serif one</li>
-          </ul>
-        </li>
-        <li>
-          <strong>Lists and maps</strong> which are collections so already defined variables:
-          <ul>
-            <li><code>$colors: (dark: ($dark, $dark-invert), primary: ($primary, $primary-invert), info: ($info, $info-invert), success: ($success, $success-invert), warning: ($warning, $warning-invert), danger: ($danger, $danger-invert))</code></li>
-            <li><code>$sizes: $size-1 $size-2 $size-3 $size-4 $size-5 $size-6</code></li>
-          </ul>
-        </li>
-      </ul>
-      <p>
-        To <strong>override</strong> any of these variables, just set them <em>before</em> importing Bulma.
-      </p>
+    <div class="columns">
+      <div class="column">
+        <h2>Pallete</h2>
+        <table class="table is-bordered is-striped is-narrow">
+          <tbody>
+            <tr>
+              <td></td>
+              <td>$black</td>
+              <td><strong style="color:#1a1a1a;">#1a1a1a</strong></td>
+              <td style="background-color:#1a1a1a;"></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$grey-darker -&gt;$dark</td>
+              <td><strong style="color:#2a2a2a;">#2a2a2a</strong></td>
+              <td style="background-color:#2a2a2a;"></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$grey-dark -&gt;$text</td>
+              <td><strong style="color:#3a3a3a;">#3a3a3a</strong></td>
+              <td style="background-color:#3a3a3a;"></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$grey</td>
+              <td><strong style="color:#aeb1b5;">#aeb1b5</strong></td>
+              <td style="background-color:#aeb1b5;"></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$grey-light</td>
+              <td><strong style="color:#d3d6db;">#d3d6db</strong></td>
+              <td style="background-color:#d3d6db;"></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$grey-lighter</td>
+              <td><strong style="color:#f5f7fa;">#f5f7fa</strong></td>
+              <td style="background-color:#f5f7fa;"></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$white</td>
+              <td><strong style="color:#ffffff;">#ffffff</strong></td>
+              <td style="background-color:#ffffff;"></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$blue - $info</td>
+              <td><strong style="color:#42afe3;">#42afe3</strong></td>
+              <td style="background-color:#42afe3;"></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$green - $success</td>
+              <td><strong style="color:#94b282;">#94b282</strong></td>
+              <td style="background-color:#94b282;"></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$orange</td>
+              <td><strong style="color:#f68b39;">#f68b39</strong></td>
+              <td style="background-color:#f68b39;"></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$purple</td>
+              <td><strong style="color:#847bb9;">#847bb9</strong></td>
+              <td style="background-color:#847bb9;"></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$red</td>
+              <td><strong style="color:#c5443b;">#c5443b</strong></td>
+              <td style="background-color:#c5443b;"></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$turquoise - $primary</td>
+              <td><strong style="color:#14b1c4;">#14b1c4</strong></td>
+              <td style="background-color:#14b1c4;"></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$yellow - $warning</td>
+              <td><strong style="color:#fce473;">#fce473</strong></td>
+              <td style="background-color:#fce473;"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="column">
+        <h2>Type</h2>
+        <table class="table is-bordered is-striped is-narrow">
+          <tbody>
+            <tr>
+              <td></td>
+              <td>$font-headline</td>
+              <td>&quot;SimianText-Orangutan&quot;, sans-serif !default;</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$family-sans-serif</td>
+              <td>&quot;DINPro&quot;, sans-serif !default;</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$family-monospace</td>
+              <td>"Source Code Pro", "Monaco", "Inconsolata", monospace</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$size-1</td>
+              <td>48px</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$size-2</td>
+              <td>40px</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$size-3</td>
+              <td>28px</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$size-4</td>
+              <td>24px</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$size-5</td>
+              <td>18px</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$size-6</td>
+              <td>14px</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$size-7</td>
+              <td>11px</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$weight-normal</td>
+              <td>400</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$weight-bold</td>
+              <td>700</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$weight-title-normal</td>
+              <td>300</td>
+              <td ></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$weight-title-bold</td>
+              <td>500</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-
+    <div class="columns">
+      <div class="column">
+        <h2>Layout</h2>
+        <table class="table is-bordered is-striped is-narrow">
+          <tbody>
+            <tr>
+              <td></td>
+              <td>$phone</td>
+              <td>481px</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$tablet</td>
+              <td>769px</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$desktop</td>
+              <td>980px</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$widescreen</td>
+              <td>1180px</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$column-gap</td>
+              <td>20px</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$nav-height</td>
+              <td>50px</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="column">
+        <h2>Animate</h2>
+        <table class="table is-bordered is-striped is-narrow">
+          <tbody>
+            <tr>
+              <td></td>
+              <td>$easing</td>
+              <td>ease-out</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$radius</td>
+              <td>3px</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$speed</td>
+              <td>86ms</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <h1 id="generated">generated variables</h1>
+    <h4>variables that are generated from the editable variables .</h4>
     <hr>
-
-<table class="table is-bordered is-striped">
-<tbody><tr><th colspan="2">1. Initial variables</th></tr>
-
-<tr><th colspan="2">Colors</th></tr>
-
-<tr>
-  <td><code>$black</code></td>
-  <td>
-  <span class="color" style="background-color: #111;"></span>
-  #111
-  </td>
-</tr>
-<tr>
-  <td><code>$grey-darker</code></td>
-  <td>
-  <span class="color" style="background-color: #222324;"></span>
-  #222324
-  </td>
-</tr>
-<tr>
-  <td><code>$grey-dark</code></td>
-  <td>
-  <span class="color" style="background-color: #69707a;"></span>
-  #69707a
-  </td>
-</tr>
-<tr>
-  <td><code>$grey</code></td>
-  <td>
-  <span class="color" style="background-color: #aeb1b5;"></span>
-  #aeb1b5
-  </td>
-</tr>
-<tr>
-  <td><code>$grey-light</code></td>
-  <td>
-  <span class="color" style="background-color: #d3d6db;"></span>
-  #d3d6db
-  </td>
-</tr>
-<tr>
-  <td><code>$grey-lighter</code></td>
-  <td>
-  <span class="color" style="background-color: #f5f7fa;"></span>
-  #f5f7fa
-  </td>
-</tr>
-<tr>
-  <td><code>$white</code></td>
-  <td>
-  <span class="color" style="background-color: #fff;"></span>
-  #fff
-  </td>
-</tr>
-<tr>
-  <td><code>$blue</code></td>
-  <td>
-  <span class="color" style="background-color: #42afe3;"></span>
-  #42afe3
-  </td>
-</tr>
-<tr>
-  <td><code>$green</code></td>
-  <td>
-  <span class="color" style="background-color: #97cd76;"></span>
-  #97cd76
-  </td>
-</tr>
-<tr>
-  <td><code>$orange</code></td>
-  <td>
-  <span class="color" style="background-color: #f68b39;"></span>
-  #f68b39
-  </td>
-</tr>
-<tr>
-  <td><code>$purple</code></td>
-  <td>
-  <span class="color" style="background-color: #847bb9;"></span>
-  #847bb9
-  </td>
-</tr>
-<tr>
-  <td><code>$red</code></td>
-  <td>
-  <span class="color" style="background-color: #ed6c63;"></span>
-  #ed6c63
-  </td>
-</tr>
-<tr>
-  <td><code>$turquoise</code></td>
-  <td>
-  <span class="color" style="background-color: #1fc8db;"></span>
-  #1fc8db
-  </td>
-</tr>
-<tr>
-  <td><code>$yellow</code></td>
-  <td>
-  <span class="color" style="background-color: #fce473;"></span>
-  #fce473
-  </td>
-</tr>
-
-<tr><th colspan="2">Typography</th></tr>
-
-<tr><td><code>$family-sans-serif</code></td><td>"Helvetica Neue", "Helvetica", "Arial", sans-serif</td></tr>
-<tr><td><code>$family-monospace</code></td><td>"Source Code Pro", "Monaco", "Inconsolata", monospace</td></tr>
-
-<tr><td><code>$size-1</code></td><td>48px</td></tr>
-<tr><td><code>$size-2</code></td><td>40px</td></tr>
-<tr><td><code>$size-3</code></td><td>28px</td></tr>
-<tr><td><code>$size-4</code></td><td>24px</td></tr>
-<tr><td><code>$size-5</code></td><td>18px</td></tr>
-<tr><td><code>$size-6</code></td><td>14px</td></tr>
-
-<tr><td><code>$size-7</code></td><td>11px</td></tr>
-
-<tr><td><code>$weight-normal</code></td><td>400</td></tr>
-<tr><td><code>$weight-bold</code></td><td>700</td></tr>
-<tr><td><code>$weight-title-normal</code></td><td>300</td></tr>
-<tr><td><code>$weight-title-bold</code></td><td>500</td></tr>
-
-<tr><th colspan="2">Breakpoints</th></tr>
-
-<tr><td><code>$tablet</code></td><td>769px</td></tr>
-<tr><td><code>$desktop</code></td><td>980px</td></tr>
-<tr><td><code>$widescreen</code></td><td>1180px</td></tr>
-
-<tr><th colspan="2">Dimensions</th></tr>
-
-<tr><td><code>$column-gap</code></td><td>20px</td></tr>
-
-<tr><td><code>$nav-height</code></td><td>50px</td></tr>
-
-<tr><th colspan="2">Miscellaneous</th></tr>
-
-<tr><td><code>$easing</code></td><td>ease-out</td></tr>
-<tr><td><code>$radius</code></td><td>3px</td></tr>
-<tr><td><code>$speed</code></td><td>86ms</td></tr>
-
-<tr><th colspan="2">2. Primary colors</th></tr>
-
-<tr><td><code>$primary</code></td><td>$turquoise</td></tr>
-
-<tr><td><code>$info</code></td><td>$blue</td></tr>
-<tr><td><code>$success</code></td><td>$green</td></tr>
-<tr><td><code>$warning</code></td><td>$yellow</td></tr>
-<tr><td><code>$danger</code></td><td>$red</td></tr>
-
-<tr><td><code>$light</code></td><td>$grey-lighter</td></tr>
-<tr><td><code>$dark</code></td><td>$grey-dark</td></tr>
-
-<tr><td><code>$text</code></td><td>$grey-dark</td></tr>
-
-<tr><th colspan="2">3. Generated variables</th></tr>
-
-<tr><th colspan="2">Invert colors</th></tr>
-
-<tr><td><code>$primary-invert</code></td><td>findColorInvert($primary)</td></tr>
-
-<tr><td><code>$info-invert</code></td><td>findColorInvert($info)</td></tr>
-<tr><td><code>$success-invert</code></td><td>findColorInvert($success)</td></tr>
-<tr><td><code>$warning-invert</code></td><td>findColorInvert($warning)</td></tr>
-<tr><td><code>$danger-invert</code></td><td>findColorInvert($danger)</td></tr>
-
-<tr><td><code>$light-invert</code></td><td>$dark</td></tr>
-<tr><td><code>$dark-invert</code></td><td>$light</td></tr>
-
-<tr><th colspan="2">General colors</th></tr>
-
-<tr><td><code>$body-background</code></td><td>$grey-lighter</td></tr>
-
-<tr><td><code>$background</code></td><td>$grey-lighter</td></tr>
-
-<tr><td><code>$border</code></td><td>$grey-light</td></tr>
-<tr><td><code>$border-hover</code></td><td>$grey</td></tr>
-
-<tr><th colspan="2">Text colors</th></tr>
-
-<tr><td><code>$text-invert</code></td><td>findColorInvert($text)</td></tr>
-<tr><td><code>$text-light</code></td><td>$grey</td></tr>
-<tr><td><code>$text-strong</code></td><td>$grey-darker</td></tr>
-
-<tr><th colspan="2">Code colors</th></tr>
-
-<tr><td><code>$code</code></td><td>$red</td></tr>
-<tr><td><code>$code-background</code></td><td>$background</td></tr>
-
-<tr><td><code>$pre</code></td><td>$text</td></tr>
-<tr><td><code>$pre-background</code></td><td>$background</td></tr>
-
-<tr><th colspan="2">Link colors</th></tr>
-
-<tr><td><code>$link</code></td><td>$primary</td></tr>
-<tr><td><code>$link-invert</code></td><td>$primary-invert</td></tr>
-<tr><td><code>$link-visited</code></td><td>$purple</td></tr>
-
-<tr><td><code>$link-hover</code></td><td>$grey-darker</td></tr>
-<tr><td><code>$link-hover-background</code></td><td>$grey-lighter</td></tr>
-<tr><td><code>$link-hover-border</code></td><td>$grey-darker</td></tr>
-
-<tr><td><code>$link-active</code></td><td>$grey-darker</td></tr>
-<tr><td><code>$link-active-border</code></td><td>$grey-darker</td></tr>
-
-<tr><th colspan="2">Control colors</th></tr>
-
-<tr><td><code>$control</code></td><td>$text-strong</td></tr>
-<tr><td><code>$control-background</code></td><td>$text-invert</td></tr>
-<tr><td><code>$control-border</code></td><td>$border</td></tr>
-
-<tr><td><code>$control-hover</code></td><td>$link-hover</td></tr>
-<tr><td><code>$control-hover-border</code></td><td>$border-hover</td></tr>
-
-<tr><td><code>$control-active</code></td><td>$link</td></tr>
-<tr><td><code>$control-active-background</code></td><td>$link</td></tr>
-<tr><td><code>$control-active-background-invert</code></td><td>$link-invert</td></tr>
-<tr><td><code>$control-active-border</code></td><td>$link</td></tr>
-
-<tr><th colspan="2">Typography</th></tr>
-
-<tr><td><code>$family-primary</code></td><td>$family-sans-serif</td></tr>
-<tr><td><code>$family-code</code></td><td>$family-monospace</td></tr>
-
-<tr><td><code>$size-small</code></td><td>$size-7</td></tr>
-<tr><td><code>$size-normal</code></td><td>$size-6</td></tr>
-<tr><td><code>$size-medium</code></td><td>$size-5</td></tr>
-<tr><td><code>$size-large</code></td><td>$size-3</td></tr>
-<tr><td><code>$size-huge</code></td><td>$size-1</td></tr>
-
-<tr><th colspan="2">4. Lists and maps</th></tr>
-
-<tr>
-  <td><code>$colors</code>
-  </td><td>
-  (white: ($white, $black),<br>
-  black: ($black, $white),<br>
-  light: ($light, $light-invert),<br>
-  dark: ($dark, $dark-invert),<br>
-  primary: ($primary, $primary-invert),<br>
-  info: ($info, $info-invert),<br>
-  success: ($success, $success-invert),<br>
-  warning: ($warning, $warning-invert),<br>
-  danger: ($danger, $danger-invert))
-  </td>
-</tr>
-
-<tr><td><code>$sizes</code></td><td>$size-1 $size-2 $size-3 $size-4 $size-5 $size-6</td></tr>
-</tbody></table>
-
+    <div class="columns">
+      <div class="column">
+        <h2>Inverted Colors</h2>
+        <table class="table is-bordered is-striped is-narrow">
+          <tbody>
+            <tr>
+              <td></td>
+              <td>$primary-invert</td>
+              <td>findColorInvert($primary)</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$info-invert</td>
+              <td>findColorInvert($info)</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$success-invert</td>
+              <td>findColorInvert($success)</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$warning-invert</td>
+              <td>findColorInvert($warning)</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$danger-invert</td>
+              <td>findColorInvert($danger)</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$light-invert</td>
+              <td>$dark</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$dark-invert</td>
+              <td>$light</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="column">
+        <h2>Default Colors</h2>
+        <table class="table is-bordered is-striped is-narrow">
+          <tbody>
+            <tr>
+              <td></td>
+              <td>$body-background</td>
+              <td>$grey-lighter</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$background</td>
+              <td>$grey-lighter</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$border</td>
+              <td>$grey-light</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$border-hover</td>
+              <td>$grey</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column">
+        <h2>Text Colors</h2>
+        <table class="table is-bordered is-striped is-narrow">
+          <tbody>
+            <tr>
+              <td></td>
+              <td>$text-invert</td>
+              <td>findColorInvert($text)</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$text-light</td>
+              <td>$grey</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$text-strong</td>
+              <td>$grey-darker</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="column">
+        <h2>Code</h2>
+        <table class="table is-bordered is-striped is-narrow">
+          <tbody>
+            <tr>
+              <td></td>
+              <td>$code</td>
+              <td>$red</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$code-background</td>
+              <td>$background</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$pre</td>
+              <td>$text</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$pre-background</td>
+              <td>$background</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column">
+        <h2>Link Colors</h2>
+        <table class="table is-bordered is-striped is-narrow">
+          <tbody>
+            <tr>
+              <td></td>
+              <td>$link</td>
+              <td>$primary</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$link-invert</td>
+              <td>$primary-invert</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$link-visited</td>
+              <td>$purple</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$link-hover</td>
+              <td>$grey-darker</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$link-hover-background</td>
+              <td>$grey-lighter</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$link-hover-border</td>
+              <td>$grey-darker</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$link-active</td>
+              <td>$grey-darker</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$link-active-border</td>
+              <td>$grey-darker</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="column">
+        <h2>Control Colors</h2>
+        <table class="table is-bordered is-striped is-narrow">
+          <tbody>
+            <tr>
+              <td></td>
+              <td>$control</td>
+              <td>$text-strong</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$control-background</td>
+              <td>$text-invert</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$control-border</td>
+              <td>$border</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$control-hover</td>
+              <td>$link-hover</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$control-hover-border</td>
+              <td>$border-hover</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$control-active</td>
+              <td>$link</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$control-active-background</td>
+              <td>$link</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$control-active-background-invert</td>
+              <td>$link-invert</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$control-active-border</td>
+              <td>$link</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column">
+        <h2>Text Colors</h2>
+        <table class="table is-bordered is-striped is-narrow">
+          <tbody>
+            <tr>
+              <td></td>
+              <td>$family-primary</td>
+              <td>$family-sans-serif</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$family-code</td>
+              <td>$family-monospace</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$size-small</td>
+              <td>$size-7</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$size-normal</td>
+              <td>$size-6</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$size-medium</td>
+              <td>$size-5</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$size-large</td>
+              <td>$size-3</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$size-huge</td>
+              <td>$size-1</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="column">
+        <h2>Maps</h2>
+        <table class="table is-bordered is-striped is-narrow">
+          <tbody>
+            <tr>
+              <td></td>
+              <td>$colors</td>
+              <td> (white: ($white, $black),<br />
+                black: ($black, $white),<br />
+                light: ($light, $light-invert),<br />
+                dark: ($dark, $dark-invert),<br />
+                primary: ($primary, $primary-invert),<br />
+                info: ($info, $info-invert),<br />
+                success: ($success, $success-invert),<br />
+                warning: ($warning, $warning-invert),<br />
+                danger: ($danger, $danger-invert)) </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$sizes</td>
+              <td>$size-1 $size-2 $size-3 $size-4 $size-5 $size-6</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
   </div>
 </section>
 <?php include("inc/footer.php"); ?>

@@ -759,7 +759,7 @@ h3:not(:first-child) {
   margin-top: 20px; }
 
 h1 {
-  font-family: "SimianText-Orangutan";
+  font-family: "SimianText-Orangutan", sans-serif;
   font-size: 2.2em;
   font-weight: 500; }
 
@@ -774,7 +774,8 @@ h4 {
   font-size: 1.25em; }
 
 h5 {
-  font-size: 1.125em; }
+  font-size: 1.125em;
+  font-weight: 400; }
 
 h6 {
   font-size: 1em; }
@@ -2913,8 +2914,7 @@ a.box:active {
 .table {
   background: #fff;
   color: #2a2a2a;
-  margin-bottom: 20px;
-  width: 100%; }
+  margin-bottom: 20px; }
   .table td,
   .table th {
     border: 1px solid #d3d6db;
@@ -2927,8 +2927,8 @@ a.box:active {
       text-align: center;
       white-space: nowrap;
       width: 1%; }
-      .table td.is-icon .ics,
-      .table th.is-icon .ics {
+      .table td.is-icon .fa,
+      .table th.is-icon .fa {
         display: inline-block;
         font-size: 21px;
         height: 24px;

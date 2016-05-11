@@ -1,7 +1,6 @@
-/* Bulma 0.0.26 */
-// 1. Initial variables
+// Editable Variables
 
-
+//Palette
 $black: #1a1a1a !default;
 $grey-darker: #2a2a2a !default;
 $grey-dark: #3a3a3a !default;
@@ -17,8 +16,8 @@ $red: #c5443b !default;
 $turquoise: #14b1c4 !default;
 $yellow: #fce473 !default;
 
-// Typography
-$font-headline: 'SimianText-Orangutan';
+//Type
+$font-headline: "SimianText-Orangutan", sans-serif !default;
 $family-sans-serif: "DINPro", sans-serif !default;
 $family-monospace: "Source Code Pro", "Monaco", "Inconsolata", monospace !default;
 $size-1: 48px !default;
@@ -33,14 +32,11 @@ $weight-bold: 700 !default;
 $weight-title-normal: 300 !default;
 $weight-title-bold: 500 !default;
 
-// Breakpoints
-
+//Layout
+$phone: 481px !default;
 $tablet: 769px !default;
 $desktop: 980px !default;
 $widescreen: 1180px !default;
-
-// Dimensions
-
 $column-gap: 20px !default;
 $nav-height: 50px !default;
 

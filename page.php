@@ -10,7 +10,7 @@
 <section class="section" id="layout">
   <div class="container">
     <h1>layout</h1>
-    <h2>&lt;header&gt;, &lt;section&gt;, &lt;figure&gt;, &lt;footer&gt; | .header, .hero, .section, .footer </h2>
+    <h4>&lt;header&gt;, &lt;section&gt;, &lt;figure&gt;, &lt;footer&gt; | .header, .hero, .section, .footer </h4>
     <hr>
   </div>
 </section>

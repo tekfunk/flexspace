@@ -10,7 +10,7 @@
 <section class="section" id="icons">
 	<div class="container">
     	<h1>.icon</h1>
- 		<h2>my custom icon font.  using <a href="https://icomoon.io/app">icomoon</a> to generate.  shapes have mostly been collected, but some were made.</h2>
+ 		<h4>my custom icon font.  using <a href="https://icomoon.io/app">icomoon</a> to generate.  shapes have mostly been collected, but some were made.</h4>
  		<hr>
  		<div class="columns is-multiline">
         <div class="column is-1 card">
