@@ -2,11 +2,15 @@
 <?php include('inc/header.php'); ?>
 <section class="fixed bottom right"><h3><a href="#box">box</a> | <a href="#fixed">fixed</a> | <a href="#card">card</a>  | <a href="#images">images</a> | <a href="#media">media</a> | <a href="#messages">messages</a> |  <a href="#notifications">notifications</a> | <a href="#modal">modal</a> | <a href="#tags">tags</a></h3>
 </section>
-<section class="hero">
+<section class="hero is-success">
+	
+		<div class="hero-body">  
+
 	<div class="container">
 		<h1>modules</h1>
            <h3><a href="#box">box</a> | <a href="#fixed">fixed</a> | <a href="#card">card</a>  | <a href="#images">images</a> | <a href="#media">media</a> | <a href="#messages">messages</a> |  <a href="#notifications">notifications</a> | <a href="#modal">modal</a> | <a href="#tags">tags</a></h3>
 	</div>
+		</div>
 </section>
 <section class="section" id="box">
   <div class="container">

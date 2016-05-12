@@ -1313,7 +1313,6 @@ a.header-item {
       padding-right: 0; } }
 
 .hero {
-  align-items: center;
   background: #fff;
   display: flex;
   flex-direction: column;
@@ -2002,7 +2001,7 @@ a.fixed:active {
   align-items: center;
   background: white;
   border: 1px solid #d3d6db;
-  border-radius: 3px;
+  border-radius: 0px;
   color: #2a2a2a;
   display: inline-flex;
   font-size: 14px;
@@ -2341,7 +2340,7 @@ a.fixed:active {
       background: #d3d6db;
       color: #2a2a2a; }
   .button.is-small, .pagination a.is-small {
-    border-radius: 2px;
+    border-radius: 0px;
     font-size: 11px;
     height: 24px;
     line-height: 16px;
@@ -2381,7 +2380,7 @@ a.fixed:active {
   align-items: center;
   background: white;
   border: 1px solid #d3d6db;
-  border-radius: 3px;
+  border-radius: 0px;
   color: #2a2a2a;
   display: inline-flex;
   font-size: 14px;
@@ -2520,7 +2519,7 @@ a.fixed:active {
     align-items: center;
     background: white;
     border: 1px solid #d3d6db;
-    border-radius: 3px;
+    border-radius: 0px;
     color: #2a2a2a;
     display: inline-flex;
     font-size: 14px;
@@ -2680,25 +2679,25 @@ a.fixed:active {
       .pagination .control.has-addons a:first-child, .control.has-addons .input:first-child,
       .control.has-addons .textarea:first-child,
       .control.has-addons .select:first-child {
-        border-radius: 3px 0 0 3px; }
+        border-radius: 0px 0 0 0px; }
         .control.has-addons .button:first-child select,
         .control.has-addons .pagination a:first-child select,
         .pagination .control.has-addons a:first-child select, .control.has-addons .input:first-child select,
         .control.has-addons .textarea:first-child select,
         .control.has-addons .select:first-child select {
-          border-radius: 3px 0 0 3px; }
+          border-radius: 0px 0 0 0px; }
       .control.has-addons .button:last-child,
       .control.has-addons .pagination a:last-child,
       .pagination .control.has-addons a:last-child, .control.has-addons .input:last-child,
       .control.has-addons .textarea:last-child,
       .control.has-addons .select:last-child {
-        border-radius: 0 3px 3px 0; }
+        border-radius: 0 0px 0px 0; }
         .control.has-addons .button:last-child select,
         .control.has-addons .pagination a:last-child select,
         .pagination .control.has-addons a:last-child select, .control.has-addons .input:last-child select,
         .control.has-addons .textarea:last-child select,
         .control.has-addons .select:last-child select {
-          border-radius: 0 3px 3px 0; }
+          border-radius: 0 0px 0px 0; }
     .control.has-addons.has-addons-centered {
       justify-content: center; }
     .control.has-addons.has-addons-right {
@@ -2837,7 +2836,7 @@ a.fixed:active {
 
 .notification {
   background: #f5f7fa;
-  border-radius: 3px;
+  border-radius: 0px;
   padding: 16px 20px;
   position: relative; }
   .notification:after {
@@ -2845,7 +2844,7 @@ a.fixed:active {
     content: " ";
     display: table; }
   .notification .delete, .notification .modal-close {
-    border-radius: 0 3px;
+    border-radius: 0 0px;
     float: right;
     margin: -16px -20px 0 20px; }
   .notification .h3,
@@ -3253,6 +3252,10 @@ a.fixed:active {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none; }
+
+.has-border {
+  border: 1px solid #aeb1b5;
+  padding: 5px; }
 
 .card-header {
   align-items: stretch;
@@ -3977,7 +3980,7 @@ a.fixed:active {
   align-items: center;
   justify-content: space-between; }
   .level code {
-    border-radius: 3px; }
+    border-radius: 0px; }
   .level img {
     display: inline-block;
     vertical-align: top; }
@@ -4039,7 +4042,7 @@ a.fixed:active {
       padding-left: 6px;
       padding-right: 6px; }
     .media .media .button, .media .media .pagination a, .pagination .media .media a {
-      border-radius: 2px;
+      border-radius: 0px;
       font-size: 11px;
       height: 24px;
       line-height: 16px;
@@ -4096,25 +4099,25 @@ a.fixed:active {
 
 .message-body {
   border: 1px solid #d3d6db;
-  border-radius: 3px;
+  border-radius: 0px;
   padding: 12px 15px; }
   .message-body strong {
     color: inherit; }
 
 .message-header {
   background: #3a3a3a;
-  border-radius: 3px 3px 0 0;
+  border-radius: 0px 0px 0 0;
   color: white;
   padding: 7px 10px; }
   .message-header strong {
     color: inherit; }
   .message-header + .message-body {
-    border-radius: 0 0 3px 3px;
+    border-radius: 0 0 0px 0px;
     border-top: none; }
 
 .message {
   background: #f5f7fa;
-  border-radius: 3px; }
+  border-radius: 0px; }
   .message.is-white {
     background: white; }
     .message.is-white .message-header {
@@ -4411,7 +4414,7 @@ a.nav-item {
   align-items: center;
   justify-content: space-between; }
   .navbar code {
-    border-radius: 3px; }
+    border-radius: 0px; }
   .navbar img {
     display: inline-block;
     vertical-align: top; }
@@ -4578,7 +4581,7 @@ a.panel-block:hover {
     justify-content: flex-end; }
   .tabs.is-boxed a {
     border: 1px solid transparent;
-    border-radius: 3px 3px 0 0;
+    border-radius: 0px 0px 0 0;
     padding-bottom: 5px;
     padding-top: 5px; }
     .tabs.is-boxed a:hover {
@@ -4603,9 +4606,9 @@ a.panel-block:hover {
   .tabs.is-toggle li + li {
     margin-left: -1px; }
   .tabs.is-toggle li:first-child a {
-    border-radius: 3px 0 0 3px; }
+    border-radius: 0px 0 0 0px; }
   .tabs.is-toggle li:last-child a {
-    border-radius: 0 3px 3px 0; }
+    border-radius: 0 0px 0px 0; }
   .tabs.is-toggle li.is-active a {
     background: #14b1c4;
     border-color: #14b1c4;
@@ -4643,6 +4646,11 @@ a.panel-block:hover {
     transform: rotate(0deg); }
   to {
     transform: rotate(359deg); } }
+
+.hero-bkd {
+  background: url("../art/circles.svg");
+  background-size: cover;
+  background-position: center; }
 
 /*!
 Animate.css - http://daneden.me/animate

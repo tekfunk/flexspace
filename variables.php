@@ -1,11 +1,12 @@
 <?php include('inc/head.php'); ?>
 <?php include('inc/header.php'); ?>
-<section class="hero">
-  <div class="container">
-    <h1>variables</h1>
-    <h3><a href="#editable">editable</a> | <a href="#generated">generated</a></h3>
-
-  </div>
+<section class="hero is-success">
+	<div class="hero-body">  
+		<div class="container">
+			<h1>variables</h1>
+			<h3><a href="#editable">editable</a> | <a href="#generated">generated</a></h3>
+  		</div>
+  	</div>
 </section>
 <section class="section" id="editable">
   <div class="container">
@@ -60,13 +61,13 @@
               <td style="background-color:#ffffff;"></td>
             </tr>
             <tr>
-              <td></td>
+              <td>.is-info</td>
               <td>$blue - $info</td>
               <td><strong style="color:#42afe3;">#42afe3</strong></td>
               <td style="background-color:#42afe3;"></td>
             </tr>
             <tr>
-              <td></td>
+              <td>.is-success</td>
               <td>$green - $success</td>
               <td><strong style="color:#94b282;">#94b282</strong></td>
               <td style="background-color:#94b282;"></td>
@@ -90,16 +91,22 @@
               <td style="background-color:#c5443b;"></td>
             </tr>
             <tr>
-              <td></td>
+              <td>.is-primary</td>
               <td>$turquoise - $primary</td>
               <td><strong style="color:#14b1c4;">#14b1c4</strong></td>
               <td style="background-color:#14b1c4;"></td>
             </tr>
             <tr>
-              <td></td>
+              <td>.is-warning</td>
               <td>$yellow - $warning</td>
               <td><strong style="color:#fce473;">#fce473</strong></td>
               <td style="background-color:#fce473;"></td>
+            </tr>
+            <tr>
+              <td>.hero-bkd</td>
+              <td>$hero-bkd</td>
+              <td><strong>url('../art/circles.svg');</strong></td>
+              <td style="background:url('../art/circles.svg');"></td>
             </tr>
           </tbody>
         </table>

@@ -3,11 +3,13 @@
 <section class="fixed bottom right">
 	<h3><a href="#columns">columns</a> | <a href="#tiles">tiles</a> | <a href="#tables">tables</a> | <a href="#level">level</a></h3>
 </section>
-<section class="hero">
+<section class="hero is-danger">
+		<div class="hero-body">  
+
         <div class="container">
             <h1>grid</h1>
             <h3><a href="#columns">columns</a> | <a href="#tiles">tiles</a> | <a href="#tables">tables</a> | <a href="#level">level</a></h3>
-        </div>
+        </div></div>
     </section>
     <section class="section" id="columns">
         <div class="container">

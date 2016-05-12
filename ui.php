@@ -3,11 +3,13 @@
 <section class="fixed bottom right">
 	<h3><a href="#button">button</a> | <a href="#nav">nav</a> | <a href="#panel">panel</a> | <a href="#menu">menu</a> | <a href="#form">form</a> | <a href="#tabs">tabs</a> | <a href="#pagination">pagination</a> | <a href="#progress">progress</a>  </h3>
 </section>
-<section class="hero">
-  <div class="container">
-    <h1>ui</h1>
-    <h3><a href="#button">button</a> | <a href="#nav">nav</a> | <a href="#panel">panel</a> | <a href="#menu">menu</a> | <a href="#form">form</a> | <a href="#tabs">tabs</a> | <a href="#pagination">pagination</a> | <a href="#progress">progress</a>  </h3>
-  </div>
+<section class="hero hero-bkd">
+	<div class="hero-body">  
+		<div class="container">
+			<h1>ui</h1>
+			<h3><a href="#button">button</a> | <a href="#nav">nav</a> | <a href="#panel">panel</a> | <a href="#menu">menu</a> | <a href="#form">form</a> | <a href="#tabs">tabs</a> | <a href="#pagination">pagination</a> | <a href="#progress">progress</a>  </h3>
+  		</div>
+	</div>
 </section>
 <section class="section" id="button">
   <div class="container">

@@ -1,5 +1,5 @@
 @mixin button-small {
-  border-radius: 2px;
+  border-radius: $btn-radius;
   font-size: 11px;
   height: 24px;
   line-height: 16px;

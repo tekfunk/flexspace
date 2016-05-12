@@ -3,11 +3,13 @@
 <section class="fixed bottom right">
             <h3><a href="#icons">icons</a> | <a href="#shapes">shapes</a></h3>
 </section>
-<section class="hero">
-	<div class="container ">
+<section class="hero is-black">
+	
+		<div class="hero-body">  
+	<div class="container">
 		<h1>art</h1>
             <h3><a href="#icons">icons</a> | <a href="#shapes">shapes</a></h3>
-	</div>
+	</div></div>
 </section>
 
 <section class="section" id="icons">

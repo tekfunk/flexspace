@@ -4,11 +4,14 @@
             <h3><a href="#animate">animate.css</a></h3>
 </section>
 
-    <section class="hero">
+   <section class="hero is-primary">
+	
+		<div class="hero-body">  
+
         <div class="container">
             <h1>animations</h1>
             <h3><a href="#animate">animate.css</a></h3>
-        </div>
+        </div></div>
     </section>
 
     <section class="section" id="animate">

@@ -1,6 +1,9 @@
 // Editable Variables
 
 //Palette
+
+
+$hero-bkd: url('../art/circles.svg');
 $black: #1a1a1a !default;
 $grey-darker: #2a2a2a !default;
 $grey-dark: #3a3a3a !default;
@@ -18,6 +21,7 @@ $yellow: #fce473 !default;
 
 //Type
 $font-headline: "SimianText-Orangutan", sans-serif !default;
+$font-button: "DINPro", sans-serif !default;
 $family-sans-serif: "DINPro", sans-serif !default;
 $family-monospace: "Source Code Pro", "Monaco", "Inconsolata", monospace !default;
 $size-1: 48px !default;
@@ -43,8 +47,10 @@ $nav-height: 50px !default;
 // Miscellaneous
 
 $easing: ease-out !default;
-$radius: 3px !default;
+$radius: 0px !default;
 $speed: 86ms !default;
+$btn-radius: 0px !default;
+
 
 // 2. Primary colors
 
