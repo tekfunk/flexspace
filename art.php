@@ -1,5 +1,8 @@
 <?php include('inc/head.php'); ?>
 <?php include('inc/header.php'); ?>
+<section class="fixed bottom right">
+            <h3><a href="#icons">icons</a> | <a href="#shapes">shapes</a></h3>
+</section>
 <section class="hero">
 	<div class="container ">
 		<h1>art</h1>

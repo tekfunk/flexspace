@@ -1,6 +1,9 @@
 <?php include('inc/head.php'); ?>
 <?php include('inc/header.php'); ?>
-    <section class="hero">
+<section class="fixed bottom right">
+	<h3><a href="#columns">columns</a> | <a href="#tiles">tiles</a> | <a href="#tables">tables</a> | <a href="#level">level</a></h3>
+</section>
+<section class="hero">
         <div class="container">
             <h1>grid</h1>
             <h3><a href="#columns">columns</a> | <a href="#tiles">tiles</a> | <a href="#tables">tables</a> | <a href="#level">level</a></h3>

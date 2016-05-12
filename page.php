@@ -1,6 +1,8 @@
 <?php include('inc/head.php'); ?>
 <?php include('inc/header.php'); ?>
-<section class="hero">
+<section class="fixed bottom right">
+    <h3><a href="#layout">layout</a> | <a href="#containers">containers & helpers</a> | <a href="#text">text</a></h3>
+</section>
 
 
 <section class="hero">

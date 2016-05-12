@@ -1,9 +1,11 @@
 <?php include('inc/head.php'); ?>
 <?php include('inc/header.php'); ?>
+<section class="fixed bottom right"><h3><a href="#box">box</a> | <a href="#fixed">fixed</a> | <a href="#card">card</a>  | <a href="#images">images</a> | <a href="#media">media</a> | <a href="#messages">messages</a> |  <a href="#notifications">notifications</a> | <a href="#modal">modal</a> | <a href="#tags">tags</a></h3>
+</section>
 <section class="hero">
 	<div class="container">
 		<h1>modules</h1>
-           <h3><a href="#box">box</a> | <a href="#card">card</a>  | <a href="#images">images</a> | <a href="#media">media</a> | <a href="#messages">messages</a> |  <a href="#notifications">notifications</a> | <a href="#modal">modal</a> | <a href="#tags">tags</a></h3>
+           <h3><a href="#box">box</a> | <a href="#fixed">fixed</a> | <a href="#card">card</a>  | <a href="#images">images</a> | <a href="#media">media</a> | <a href="#messages">messages</a> |  <a href="#notifications">notifications</a> | <a href="#modal">modal</a> | <a href="#tags">tags</a></h3>
 	</div>
 </section>
 <section class="section" id="box">
@@ -89,6 +91,14 @@
   <span class="nt">&lt;/article&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre><button class="copy">Copy</button></figure>
 
+  </div>
+</section>
+<section class="section" id="fixed">
+  <div class="container">
+    <h1>.fixed</h1>
+    <hr>
+    <div class="content"><p>Stick a box in place.  .bottom .top .left .right</p>
+    </div>
   </div>
 </section>
 
