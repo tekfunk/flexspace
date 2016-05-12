@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php include('inc/head.php'); ?>
 <?php include('inc/header.php'); ?>
     <section class="hero">
@@ -293,3 +294,8 @@
         </div>
     </section>
 <?php include('inc/footer.php'); ?>
+=======
+<?php include("html/header.html"); ?>
+<?php include("html/home.html"); ?>
+<?php include("html/footer.html"); ?>
+>>>>>>> parent of 3d05e12... Framework for my Framework

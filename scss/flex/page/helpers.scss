@@ -1,46 +1,15 @@
 // Display
 
-$displays: "block" "flex" "inline" "inline-block" "inline-flex";
+.is-block {
+  display: block;
+}
 
-@each $display in $displays {
-  .is-#{$display} {
-    display: #{$display};
-  }
-  .is-#{$display}-mobile {
-    @include mobile {
-      display: #{$display} !important;
-    }
-  }
-  .is-#{$display}-tablet {
-    @include tablet {
-      display: #{$display} !important;
-    }
-  }
-  .is-#{$display}-tablet-only {
-    @include tablet-only {
-      display: #{$display} !important;
-    }
-  }
-  .is-#{$display}-touch {
-    @include touch {
-      display: #{$display} !important;
-    }
-  }
-  .is-#{$display}-desktop {
-    @include desktop {
-      display: #{$display} !important;
-    }
-  }
-  .is-#{$display}-desktop-only {
-    @include desktop-only {
-      display: #{$display} !important;
-    }
-  }
-  .is-#{$display}-widescreen {
-    @include widescreen {
-      display: #{$display} !important;
-    }
-  }
+.is-inline {
+  display: inline;
+}
+
+.is-flex {
+  display: flex;
 }
 
 // Float
@@ -57,37 +26,33 @@ $displays: "block" "flex" "inline" "inline-block" "inline-flex";
   float: right;
 }
 
-// Overflow
-
-.is-clipped {
-  overflow: hidden !important;
-}
-
 // Overlay
 
 .is-overlay {
   @include overlay;
 }
 
+// Size
+
+.is-fullwidth {
+  width: 100%;
+}
+
 // Text
 
-.has-text-centered {
+.is-text-centered {
   text-align: center;
 }
 
-.has-text-left {
+.is-text-left {
   text-align: left;
 }
 
-.has-text-right {
+.is-text-right {
   text-align: right;
 }
 
 // Visibility
-
-.is-hidden {
-  display: none !important;
-}
 
 .is-hidden-mobile {
   @include mobile {
@@ -97,12 +62,6 @@ $displays: "block" "flex" "inline" "inline-block" "inline-flex";
 
 .is-hidden-tablet {
   @include tablet {
-    display: none !important;
-  }
-}
-
-.is-hidden-tablet-only {
-  @include tablet-only {
     display: none !important;
   }
 }
@@ -119,18 +78,6 @@ $displays: "block" "flex" "inline" "inline-block" "inline-flex";
   }
 }
 
-.is-hidden-desktop-only {
-  @include desktop-only {
-    display: none !important;
-  }
-}
-
-.is-hidden-widescreen {
-  @include widescreen {
-    display: none !important;
-  }
-}
-
 // Other
 
 .is-disabled {
@@ -142,6 +89,5 @@ $displays: "block" "flex" "inline" "inline-block" "inline-flex";
 }
 
 .is-unselectable {
-  @extend .unselectable;
+  @include unselectable;
 }
-
