@@ -1,15 +1,15 @@
 <?php include('inc/head.php'); ?>
 <?php include('inc/header.php'); ?>
 <section class="fixed bottom right">
-	<h3><a href="#button">button</a> | <a href="#nav">nav</a> | <a href="#panel">panel</a> | <a href="#menu">menu</a> | <a href="#form">form</a> | <a href="#tabs">tabs</a> | <a href="#pagination">pagination</a> | <a href="#progress">progress</a>  </h3>
+  <h3><a href="#button">button</a> | <a href="#nav">nav</a> | <a href="#panel">panel</a> | <a href="#menu">menu</a> | <a href="#form">form</a> | <a href="#tabs">tabs</a> | <a href="#pagination">pagination</a> | <a href="#progress">progress</a> </h3>
 </section>
 <section class="hero hero-bkd">
-	<div class="hero-body">  
-		<div class="container">
-			<h1>ui</h1>
-			<h3><a href="#button">button</a> | <a href="#nav">nav</a> | <a href="#panel">panel</a> | <a href="#menu">menu</a> | <a href="#form">form</a> | <a href="#tabs">tabs</a> | <a href="#pagination">pagination</a> | <a href="#progress">progress</a>  </h3>
-  		</div>
-	</div>
+  <div class="hero-body">
+    <div class="container">
+      <h1>ui</h1>
+      <h3><a href="#button">button</a> | <a href="#nav">nav</a> | <a href="#panel">panel</a> | <a href="#menu">menu</a> | <a href="#form">form</a> | <a href="#tabs">tabs</a> | <a href="#pagination">pagination</a> | <a href="#progress">progress</a> </h3>
+    </div>
+  </div>
 </section>
 <section class="section" id="button">
   <div class="container">
@@ -87,156 +87,10 @@
       <p class="control has-addons"><a class="button"><span>Left</span></a> <a class="button"> <span>Center</span></a> <a class="button"> <span>Right</span></a></p>
     </div>
   </div>
-  <div class="container">
-    <h1>Modifiers syntax</h1>
-    <h2>Most Bulma elements have <strong>alternative</strong> styles. To apply them, you only need to append one of the <strong>modifier classes</strong>. <br>
-      They all start with <code>is-</code> or <code>has-</code>.</h2>
-    <hr>
-    <div class="columns">
-      <div class="column">
-        <p>Let's start with a simple <strong>button</strong> that uses the <code>"button"</code> CSS class:</p>
-      </div>
-      <div class="column">
-        <p> <a class="button">Button</a> </p>
-      </div>
-      <div class="column is-half">
-        <figure class="highlight">
-          <pre><code class="language-html" data-lang="html"><span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button"</span><span class="nt">&gt;</span>
-  Button
-<span class="nt">&lt;/a&gt;</span></code></pre>
-          <button class="copy">Copy</button>
-        </figure>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column">
-        <p>By <strong>adding</strong> the <code>"is-primary"</code> CSS class, you can modify the <strong>color</strong>:</p>
-      </div>
-      <div class="column">
-        <p> <a class="button is-primary">Button</a> </p>
-      </div>
-      <div class="column is-half">
-        <figure class="highlight">
-          <pre><code class="language-html" data-lang="html"><span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-primary"</span><span class="nt">&gt;</span>
-  Button
-<span class="nt">&lt;/a&gt;</span></code></pre>
-          <button class="copy">Copy</button>
-        </figure>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column">
-        <div class="content">
-          <p>You can use one of the <strong>5 main colors</strong>:</p>
-          <ul>
-            <li><code>is-primary</code></li>
-            <li><code>is-info</code></li>
-            <li><code>is-success</code></li>
-            <li><code>is-warning</code></li>
-            <li><code>is-danger</code></li>
-          </ul>
-        </div>
-      </div>
-      <div class="column">
-        <p class="control"> <a class="button is-primary">Button</a> </p>
-        <p class="control"> <a class="button is-info">Button</a> </p>
-        <p class="control"> <a class="button is-success">Button</a> </p>
-        <p class="control"> <a class="button is-warning">Button</a> </p>
-        <p class="control"> <a class="button is-danger">Button</a> </p>
-      </div>
-      <div class="column is-half">
-        <figure class="highlight">
-          <pre><code class="language-html" data-lang="html"><span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-primary"</span><span class="nt">&gt;</span>
-  Button
-<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-info"</span><span class="nt">&gt;</span>
-  Button
-<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-success"</span><span class="nt">&gt;</span>
-  Button
-<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-warning"</span><span class="nt">&gt;</span>
-  Button
-<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-danger"</span><span class="nt">&gt;</span>
-  Button
-<span class="nt">&lt;/a&gt;</span></code></pre>
-          <button class="copy">Copy</button>
-        </figure>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column">
-        <div class="content">
-          <p>You can also alter the <strong>size</strong>:</p>
-          <ul>
-            <li><code>is-small</code></li>
-            <li><code>is-medium</code></li>
-            <li><code>is-large</code></li>
-          </ul>
-        </div>
-      </div>
-      <div class="column">
-        <p class="control"> <a class="button is-small">Button</a> </p>
-        <p class="control"> <a class="button">Button</a> </p>
-        <p class="control"> <a class="button is-medium">Button</a> </p>
-        <p class="control"> <a class="button is-large">Button</a> </p>
-      </div>
-      <div class="column is-half">
-        <figure class="highlight">
-          <pre><code class="language-html" data-lang="html"><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-small"</span><span class="nt">&gt;</span>Button<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;/p&gt;</span>
-<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button"</span><span class="nt">&gt;</span>Button<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;/p&gt;</span>
-<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-medium"</span><span class="nt">&gt;</span>Button<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;/p&gt;</span>
-<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-large"</span><span class="nt">&gt;</span>Button<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;/p&gt;</span></code></pre>
-          <button class="copy">Copy</button>
-        </figure>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column">
-        <div class="content">
-          <p>Or the <strong>style</strong> or <strong>state</strong>:</p>
-          <ul>
-            <li><code>is-outlined</code></li>
-            <li><code>is-loading</code></li>
-            <li><code>is-disabled</code></li>
-          </ul>
-        </div>
-      </div>
-      <div class="column">
-        <p class="control"> <a class="button is-primary is-outlined">Button</a> </p>
-        <p class="control"> <a class="button is-primary is-loading">Button</a> </p>
-        <p class="control"> <a class="button is-primary is-disabled">Button</a> </p>
-      </div>
-      <div class="column is-half">
-        <figure class="highlight">
-          <pre><code class="language-html" data-lang="html"><span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-primary is-outlined"</span><span class="nt">&gt;</span>
-  Button
-<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-primary is-loading"</span><span class="nt">&gt;</span>
-  Button
-<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-primary is-disabled"</span><span class="nt">&gt;</span>
-  Button
-<span class="nt">&lt;/a&gt;</span></code></pre>
-          <button class="copy">Copy</button>
-        </figure>
-      </div>
-    </div>
-  </div>
 </section>
 <section class="section" id="nav">
   <div class="container">
-    <h1>Nav</h1>
-    <h2> A responsive horizontal <strong>nav bar</strong> that can contain links, tabs, buttons, icons, and a logo </h2>
+    <h1>nav</h1>
     <hr>
     <div class="content">
       <p> The <code>nav</code> container can have <strong>3 parts</strong>: </p>
@@ -253,7 +107,7 @@
     </div>
     <div class="example">
       <nav class="nav">
-        <div class="nav-left"> <a class="nav-item" href="#"> <img src="/images/bulma.png" alt="Bulma logo}"> </a> </div>
+        <div class="nav-left"> <a class="nav-item" href="#"> <img src="art/flexspace-logo.svg" alt="flexspace" width="120px"> </a> </div>
         <div class="nav-center"> <a class="nav-item" href="#"> <span class="icon"> <i class="ics icon-github"></i> </span> </a> <a class="nav-item" href="#"> <span class="icon"> <i class="ics icon-twitter"></i> </span> </a> </div>
         <span class="nav-toggle"> <span></span> <span></span> <span></span> </span>
         <div class="nav-right nav-menu"> <a class="nav-item" href="#"> Home </a> <a class="nav-item" href="#"> Documentation </a> <a class="nav-item" href="#"> Blog </a> <span class="nav-item"> <a class="button"> <span class="icon"> <i class="ics icon-twitter"></i> </span> <span>Tweet</span> </a> <a class="button is-primary" href="#"> <span class="icon"> <i class="ics icon-download"></i> </span> <span>Download</span> </a> </span> </div>
@@ -276,30 +130,10 @@
       </div>
     </nav>
   </div>
-  <figure class="highlight">
-    <pre><code class="language-html" data-lang="html"><span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">"nav has-shadow"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"nav-left"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-item is-tab is-active"</span><span class="nt">&gt;</span>Card<span class="nt">&lt;/a&gt;</span>
-      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-item is-tab"</span><span class="nt">&gt;</span>Level<span class="nt">&lt;/a&gt;</span>
-      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-item is-tab"</span><span class="nt">&gt;</span>Media object<span class="nt">&lt;/a&gt;</span>
-      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-item is-tab"</span><span class="nt">&gt;</span>Menu<span class="nt">&lt;/a&gt;</span>
-      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-item is-tab"</span><span class="nt">&gt;</span>Message<span class="nt">&lt;/a&gt;</span>
-      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-item is-tab"</span><span class="nt">&gt;</span>Modal<span class="nt">&lt;/a&gt;</span>
-      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-item is-tab"</span><span class="nt">&gt;</span>Nav<span class="nt">&lt;/a&gt;</span>
-      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-item is-tab"</span><span class="nt">&gt;</span>Pagination<span class="nt">&lt;/a&gt;</span>
-      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-item is-tab"</span><span class="nt">&gt;</span>Panel<span class="nt">&lt;/a&gt;</span>
-      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-item is-tab"</span><span class="nt">&gt;</span>Tabs<span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/div&gt;</span>
-  <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/nav&gt;</span></code></pre>
-    <button class="copy">Copy</button>
-  </figure>
 </section>
 <section class="section" id="panel">
   <div class="container">
-    <h1>Panel</h1>
-    <h2>A composable <strong>panel</strong>, for compact controls</h2>
+    <h1>panel</h1>
     <hr>
     <div class="columns">
       <div class="column is-4">
@@ -391,26 +225,19 @@
   <div class="container">
     <h1>Menu</h1>
     <h2>A simple <strong>menu</strong>, for any type of vertical navigation</h2>
-
     <hr>
-
     <div class="columns">
       <div class="column is-3">
         <aside class="menu">
-          <p class="menu-label">
-            General
-          </p>
+          <p class="menu-label"> General </p>
           <ul class="menu-list">
             <li><a href="#">Dashboard</a></li>
             <li><a href="#">Customers</a></li>
           </ul>
-          <p class="menu-label">
-            Administration
-          </p>
+          <p class="menu-label"> Administration </p>
           <ul class="menu-list">
             <li><a href="#">Team Settings</a></li>
-            <li>
-              <a class="is-active" href="#">Manage Your Team</a>
+            <li> <a class="is-active" href="#">Manage Your Team</a>
               <ul>
                 <li><a href="#">Members</a></li>
                 <li><a href="#">Plugins</a></li>
@@ -420,9 +247,7 @@
             <li><a href="#">Invitations</a></li>
             <li><a href="#">Authentication</a></li>
           </ul>
-          <p class="menu-label">
-            Transactions
-          </p>
+          <p class="menu-label"> Transactions </p>
           <ul class="menu-list">
             <li><a href="#">Payments</a></li>
             <li><a href="#">Transfers</a></li>
@@ -431,7 +256,8 @@
         </aside>
       </div>
       <div class="column">
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;aside</span> <span class="na">class=</span><span class="s">"menu"</span><span class="nt">&gt;</span>
+        <figure class="highlight">
+          <pre><code class="language-html" data-lang="html"><span class="nt">&lt;aside</span> <span class="na">class=</span><span class="s">"menu"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"menu-label"</span><span class="nt">&gt;</span>
     General
   <span class="nt">&lt;/p&gt;</span>
@@ -463,7 +289,9 @@
     <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Transfers<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
     <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Balance<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
   <span class="nt">&lt;/ul&gt;</span>
-<span class="nt">&lt;/aside&gt;</span></code></pre><button class="copy">Copy</button></figure>
+<span class="nt">&lt;/aside&gt;</span></code></pre>
+          <button class="copy">Copy</button>
+        </figure>
       </div>
     </div>
   </div>

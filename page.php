@@ -1,15 +1,15 @@
 <?php include('inc/head.php'); ?>
 <?php include('inc/header.php'); ?>
 <section class="fixed bottom right">
-  <h3><a href="#layout">layout</a> | <a href="#container">container</a> | <a href="#text">text</a></h3>
+  <h3><a href="#layout">layout</a> | <a href="#container">container</a> | <a href="#hero">hero</a> | <a href="#content">content</a> | <a href="#helpers">helpers</a> | <a href="#display">display</a></h3>
 </section>
 <section class="hero is-warning">
-	<div class="hero-body">  
-  <div class="container">
-    <h1>page</h1>
-    <h3><a href="#layout">layout</a> | <a href="#container">container</a> | <a href="#hero">hero</a> | <a href="#content">content</a> | <a href="#helpers">helpers</a></h3>
+  <div class="hero-body">
+    <div class="container">
+      <h1>page</h1>
+      <h3><a href="#layout">layout</a> | <a href="#container">container</a> | <a href="#hero">hero</a> | <a href="#content">content</a> | <a href="#helpers">helpers</a> | <a href="#display">display</a></h3>
+    </div>
   </div>
-	</div>
 </section>
 <section class="section" id="layout">
   <div class="container">
@@ -105,7 +105,6 @@
     <p>&lt;div class="hero-footer"&gt;&lt;/div&gt;</p>
   </div>
 </section>
-
 <section class="section" id="content">
 <div class="container">
 <h1>content</h1>
@@ -115,7 +114,7 @@
   <p>&lt;div class="content"&gt;&lt;/div&gt;</p>
   <h1>&lt;h1&gt;Hello World&lt;/h1&gt;</h1>
   <p>&lt;p&gt;Lorem ipsum dolor sit amet, <em>em -consectetur adipiscing elit</em>. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.&lt;/p&gt;</p>
-  <h2>&lt;h2&gt;Second level&lt;/h2&gt;</h2>
+  <h2 class="has-text-centered">&lt;h2 class="has-text-centered"&gt;Second level&lt;/h2&gt;</h2>
   <p class="has-text-centered">&lt;p class="has-text-centered"&gt;Curabitur accumsan turpis pharetra <strong>strong - augue tincidunt</strong> blandit. Quisque condimentum maximus mi, sit amet commodo arcu rutrum id. Proin pretium urna vel cursus venenatis. Suspendisse potenti. Etiam mattis sem rhoncus lacus dapibus facilisis. Donec at dignissim dui. Ut et neque nisl.&lt;/p&gt;</p>
   <ul>
     &lt;ul&gt;
@@ -154,66 +153,42 @@
 </section>
 <section class="section" id="helpers">
   <div class="container">
-   <h1>helpers</h1>
+    <h1>helpers</h1>
     <hr>
-    <table class="table is-bordered">
-      <tbody>
-        <tr>
-          <th rowspan="3">Float</th>
-          <td><code>is-clearfix</code></td>
-          <td>Fixes an element's floating children</td>
-        </tr>
-        <tr>
-          <td><code>is-pulled-left</code></td>
-          <td>Moves an element to the left</td>
-        </tr>
-        <tr>
-          <td><code>is-pulled-right</code></td>
-          <td>Moves an element to the right</td>
-        </tr>
-        <tr>
-          <th>Overlay</th>
-          <td><code>is-overlay</code></td>
-          <td>Completely covers the first positioned parent</td>
-        </tr>
-        <tr>
-          <th>Size</th>
-          <td><code>is-fullwidth</code></td>
-          <td>Takes up the whole width (100%)</td>
-        </tr>
-        <tr>
-          <th rowspan="3">Text</th>
-          <td><code>has-text-centered</code></td>
-          <td>Centers the text</td>
-        </tr>
-        <tr>
-          <td><code>has-text-left</code></td>
-          <td>Text is left-aligned</td>
-        </tr>
-        <tr>
-          <td><code>has-text-right</code></td>
-          <td>Text is right-aligned</td>
-        </tr>
-        <tr>
-          <th rowspan="4">Other</th>
-          <td><code>is-disabled</code></td>
-          <td>Removes any <strong>click</strong> event</td>
-        </tr>
-        <tr>
-          <td><code>is-marginless</code></td>
-          <td>Removes any <strong>margin</strong></td>
-        </tr>
-        <tr>
-          <td><code>is-unselectable</code></td>
-          <td>Prevents the text from being <strong>selectable</strong></td>
-        </tr>
-      </tbody>
-    </table>
+  </div>
+  <div class="container has-border is-clearfix">
+    <p>&lt;div class="is-clearfix"&gt;&lt;/div&gt;</p>
+    <div class="content has-border is-pulled-left">&lt;div class="is-pulled-left"&gt;&lt;/div&gt;</div>
+    <div class="content has-border is-pulled-right">&lt;div class="is-pulled-right"&gt;&lt;/div&gt;</div>
+  </div>
+  <div class="container has-border is-clearfix" style="height:100px; background-color:#5542C3">
+    <div class="container is-overlay">
+      <p>&lt;div class="is-overlay""&gt;&lt;/div&gt;</p>
+    </div>
+  </div>
+  <div class="container has-border is-disabled">
+    <p>&lt;div class="is-disabled"&gt;&lt;/div&gt;</p>
+    <p> <a class="button is-outlined is-disabled">Try to click</a> </p>
+  </div>
+  <div class="container has-border is-marginless">
+    <p>&lt;div class="is-marginless"&gt;&lt;/div&gt;</p>
+  </div>
+  <div class="container has-border">
+    <p>&lt;div class="is-unselectable"&gt;&lt;/div&gt; </p>
+    <p class="is-unselectable">Just try and select this text </p>
+  </div>
+ <div class="container has-border">
+    <p>&lt;div class="has-border"&gt;&lt;/div&gt; </p>
+  </div>
   </div>
 </section>
-<section class="section">
+<section class="section" id="display">
   <div class="container">
-     <h3>Show</h3>
+    <h1>display</h1>
+    <hr>
+  </div>
+  <div class="container">
+    <h3>Show</h3>
     <div class="content">
       <p> You can use one of the following <code>display</code> classes: </p>
       <ul>

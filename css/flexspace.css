@@ -1056,7 +1056,8 @@ h6 {
   left: 0;
   position: absolute;
   right: 0;
-  top: 0; }
+  top: 0;
+  z-index: 100; }
 
 .has-text-centered {
   text-align: center; }
@@ -1272,6 +1273,7 @@ a.header-item {
   position: absolute;
   right: 0;
   top: 0;
+  z-index: 100;
   overflow: hidden; }
   .hero-video video {
     left: 50%;
@@ -2799,6 +2801,7 @@ a.fixed:active {
     position: absolute;
     right: 0;
     top: 0;
+    z-index: 100;
     height: 100%;
     width: 100%; }
   .image.is-square,
@@ -4197,6 +4200,7 @@ a.fixed:active {
   position: absolute;
   right: 0;
   top: 0;
+  z-index: 100;
   background: rgba(26, 26, 26, 0.86); }
 
 .modal-content, .modal-card {
@@ -4262,6 +4266,7 @@ a.fixed:active {
   position: absolute;
   right: 0;
   top: 0;
+  z-index: 100;
   align-items: center;
   display: none;
   justify-content: center;
@@ -4651,6 +4656,9 @@ a.panel-block:hover {
   background: url("../art/circles.svg");
   background-size: cover;
   background-position: center; }
+
+#helpers .container {
+  margin-bottom: 20px; }
 
 /*!
 Animate.css - http://daneden.me/animate

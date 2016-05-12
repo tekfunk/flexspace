@@ -43,6 +43,7 @@
   position: absolute;
   right: $offset;
   top: $offset;
+  z-index: 100;
 }
 
 @mixin placeholder {
