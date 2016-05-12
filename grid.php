@@ -31,18 +31,6 @@
                 </div>
             </div>
             <hr>
-            <h3>Sizes</h3>
-            <div class="content">
-                <p>If you want to change the <strong>size</strong> of a single column, you can use one the following classes:</p>
-                <ul>
-                    <li><code>is-three-quarters</code></li>
-                    <li><code>is-two-thirds</code></li>
-                    <li><code>is-half</code></li>
-                    <li><code>is-one-third</code></li>
-                    <li><code>is-one-quarter</code></li>
-                </ul>
-                <p>The <em>other</em> columns will fill up the <strong>remaining</strong> space automatically.</p>
-            </div>
             <div class="columns">
                 <div class="column is-three-quarters">
                     <p class="notification is-info"><code class="html">is-three-quarters</code></p>
@@ -94,26 +82,6 @@
                 <div class="column">
                     <p class="notification is-success">Auto</p>
                 </div>
-            </div>
-            <h4 class="title is-4">12 columns</h4>
-            <div class="content">
-                <p>As the grid can be divided into <strong>12</strong> columns, there are size classes for each division:</p>
-                <ul>
-                    <li><code>is-2</code></li>
-                    <li><code>is-3</code></li>
-                    <li><code>is-4</code></li>
-                    <li><code>is-5</code></li>
-                    <li><code>is-6</code></li>
-                    <li><code>is-7</code></li>
-                    <li><code>is-8</code></li>
-                    <li><code>is-9</code></li>
-                    <li><code>is-10</code></li>
-                    <li><code>is-11</code></li>
-                </ul>
-            </div>
-            <div class="message is-danger">
-                <p class="message-header">Naming</p>
-                <p class="message-body">Each modifier class is named after <strong>how many columns you want out of 12</strong>. So if you want 7 columns out of 12, use <code>is-7</code>.</p>
             </div>
             <div class="columns">
                 <div class="column is-2">
@@ -331,10 +299,6 @@
                 </div>
             </div>
             <hr>
-            <h3>Offset</h3>
-            <div class="content">
-                <p>While you can use <em>empty columns</em> (like <code>&lt;div class="column"&gt;&lt;/div&gt;</code>) to create horizontal space around <code>.column</code> elements, you can also use <strong>offset</strong> modifiers like <code>.is-offset-x</code>:</p>
-            </div>
             <div class="columns is-mobile">
                 <div class="column is-half is-offset-one-quarter">
                     <p class="notification is-info"><code class="html">is-half</code><br>
