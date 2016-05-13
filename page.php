@@ -1,13 +1,13 @@
 <?php include('inc/head.php'); ?>
 <?php include('inc/header.php'); ?>
 <section class="fixed bottom right">
-  <h3><a href="#layout">layout</a> | <a href="#container">container</a> | <a href="#hero">hero</a> | <a href="#content">content</a> | <a href="#helpers">helpers</a> | <a href="#display">display</a></h3>
+  <h3><a href="#layout">layout</a> | <a href="#container">container</a> | <a href="#hero">hero</a> | <a href="#content">content</a> | <a href="#images">images</a> | <a href="#helpers">helpers</a> | <a href="#display">display</a></h3>
 </section>
 <section class="hero is-warning">
   <div class="hero-body">
     <div class="container">
       <h1>page</h1>
-      <h3><a href="#layout">layout</a> | <a href="#container">container</a> | <a href="#hero">hero</a> | <a href="#content">content</a> | <a href="#helpers">helpers</a> | <a href="#display">display</a></h3>
+      <h3><a href="#layout">layout</a> | <a href="#container">container</a> | <a href="#hero">hero</a> | <a href="#content">content</a> | <a href="#images">images</a> | <a href="#helpers">helpers</a> | <a href="#display">display</a></h3>
     </div>
   </div>
 </section>
@@ -20,7 +20,9 @@
 </section>
 <header class="header has-border" style="margin-bottom: 5px;">
   <div class="container">
-    <p>&lt;header class="header"&gt;&lt;/header&gt;</p>
+  <figure class="highlight">
+              <pre><code class="language-html" data-lang="html"><span class="nt">&lt;header</span> <span class="na">class=</span><span class="s">"header"</span><span class="nt">&gt;</span><span class="nt">&lt;/header&gt;</span></code></pre>
+    </figure>
   </div>
 </header>
 <section class="section has-border" style="margin-bottom: 5px;">
@@ -63,14 +65,14 @@
     </div>
   </div>
 </section>
-<section class="hero is-medium has-border hero-bkd" style="margin-bottom: 5px;">
-  <p>&lt;section class="hero is-medium hero-bkd"&gt;&lt;/section&gt;</p>
+<section class="hero is-medium has-border has-bkd-pattern-3" style="margin-bottom: 5px;">
+  <p>&lt;section class="hero is-medium has-bkd-pattern-3"&gt;&lt;/section&gt;</p>
   <div class="hero-head">
     <p>&lt;div class="hero-head"&gt;&lt;/div&gt;</p>
   </div>
   <div class="hero-body has-text-centered">
     <div class="container">
-      <p>&lt;div class="hero-body has-text-centered"&gt;&lt;/div&gt;</p>
+      <h1>&lt;h1 class="hero-body has-text-centered"&gt;&lt;/h1&gt;</h1>
     </div>
   </div>
   <div class="hero-footer">
@@ -78,7 +80,7 @@
   </div>
 </section>
 <section class="hero is-large has-border is-success" style="margin-bottom: 5px;">
-  <p>&lt;section class="hero is-large"&gt;&lt;/section&gt;</p>
+  <p>&lt;section class="hero is-large is-success"&gt;&lt;/section&gt;</p>
   <div class="hero-head  has-text-centered">
     <p>&lt;div class="hero-head  has-text-centered"&gt;&lt;/div&gt;</p>
   </div>
@@ -91,8 +93,8 @@
     <p>&lt;div class="hero-footer"&gt;&lt;/div&gt;</p>
   </div>
 </section>
-<section class="hero has-border is-fullheight is-primary" style="margin-bottom: 5px;">
-  <p>&lt;section class="hero is-fullheight "&gt;&lt;/section&gt;</p>
+<section class="hero has-border is-fullheight has-bkd-image-1" style="margin-bottom: 5px;">
+  <p>&lt;section class="hero is-fullheight has-bkd-image-1"&gt;&lt;/section&gt;</p>
   <div class="hero-head">
     <p>&lt;div class="hero-head"&gt;&lt;/div&gt;</p>
   </div>
@@ -106,14 +108,14 @@
   </div>
 </section>
 <section class="section" id="content">
-<div class="container">
-<h1>content</h1>
-<hr>
-<p>Inside &lt;div class="container"&gt;&lt;/div&gt;</p>
-<div class="content has-border">
-  <p>&lt;div class="content"&gt;&lt;/div&gt;</p>
-  <h1>&lt;h1&gt;Hello World&lt;/h1&gt;</h1>
-  <p>&lt;p&gt;Lorem ipsum dolor sit amet, <em>em -consectetur adipiscing elit</em>. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.&lt;/p&gt;</p>
+	<div class="container">
+	<h1>content</h1>
+	<hr>
+	<p>Inside &lt;div class="container"&gt;&lt;/div&gt;</p>
+	<div class="content has-border">
+	<p>&lt;div class="content"&gt;&lt;/div&gt;</p>
+	<h1>&lt;h1&gt;Hello World&lt;/h1&gt;</h1>
+	<p>&lt;p&gt;Lorem ipsum dolor sit amet, <em>em -consectetur adipiscing elit</em>. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.&lt;/p&gt;</p>
   <h2 class="has-text-centered">&lt;h2 class="has-text-centered"&gt;Second level&lt;/h2&gt;</h2>
   <p class="has-text-centered">&lt;p class="has-text-centered"&gt;Curabitur accumsan turpis pharetra <strong>strong - augue tincidunt</strong> blandit. Quisque condimentum maximus mi, sit amet commodo arcu rutrum id. Proin pretium urna vel cursus venenatis. Suspendisse potenti. Etiam mattis sem rhoncus lacus dapibus facilisis. Donec at dignissim dui. Ut et neque nisl.&lt;/p&gt;</p>
   <ul>
@@ -150,6 +152,88 @@
   <p>Cras in nibh lacinia, venenatis nisi et, auctor urna. Donec pulvinar lacus sed diam dignissim, ut eleifend eros accumsan. Phasellus non tortor eros. Ut sed rutrum lacus. Etiam purus nunc, scelerisque quis enim vitae, malesuada ultrices turpis. Nunc vitae maximus purus, nec consectetur dui. Suspendisse euismod, elit vel rutrum commodo, ipsum tortor maximus dui, sed varius sapien odio vitae est. Etiam at cursus metus.</p>
 </div>
 <hr>
+</div>
+</section>
+<section class="section" id="images">
+  <div class="container">
+    <h1>images</h1>
+    <hr>
+  <div class="columns">
+  	<div class="column">
+    <h3>squares</h3><table class="table is-bordered">
+      <tbody>
+        <tr>
+          <td><code>&lt;figure class=&quot;image is-16x16&quot;&gt;&lt;img src=&quot;art/dragotar.svg&quot;&gt;&lt;/figure&gt;</code></td>
+          <td><figure class="image is-16x16"><img src="art/dragotar.svg"></figure></td>
+          </tr>
+        <tr>
+          <td><code>image is-24x24</code></td>
+          <td><figure class="image is-24x24"><img src="art/dragotar.svg"></figure></td>
+          </tr>
+        <tr>
+          <td><code>image is-32x32</code></td>
+          <td><figure class="image is-32x32"><img src="art/dragotar.svg"></figure></td>
+          </tr>
+        <tr>
+          <td><code>image is-48x48</code></td>
+          <td><figure class="image is-48x48"><img src="art/dragotar.svg"></figure></td>
+          </tr>
+        <tr>
+          <td><code>image is-64x64</code></td>
+          <td><figure class="image is-64x64"><img src="art/dragotar.svg"></figure></td>
+          </tr>
+        <tr>
+          <td><code>image is-96x96</code></td>
+          <td><figure class="image is-96x96"><img src="art/dragotar.svg"></figure></td>
+          </tr>
+        <tr>
+          <td><code>image is-128x128</code></td>
+          <td><figure class="image is-128x128"><img src="art/dragotar.svg"></figure></td>
+          </tr>
+      </tbody>
+    </table>
+    </div>
+    <div class="column">
+    <h3>ratios</h3>
+    <div class="content"></div>
+    <table id="images" class="table is-bordered">
+      <tbody>
+        <tr>
+          <td><code>image is-square</code></td>
+          <td><figure class="image is-square"><img src="http://placehold.it/480x480"></figure></td>
+          <td>Square (or 1by1)</td>
+        </tr>
+        <tr>
+          <td><code>image is-1by1</code></td>
+          <td><figure class="image is-1by1"><img src="http://placehold.it/480x480"></figure></td>
+          <td>1 by 1</td>
+        </tr>
+        <tr>
+          <td><code>image is-4by3</code></td>
+          <td><figure class="image is-4by3"><img src="http://placehold.it/640x480"></figure></td>
+          <td>4 by 3</td>
+        </tr>
+        <tr>
+          <td><code>image is-3by2</code></td>
+          <td><figure class="image is-3by2"><img src="http://placehold.it/480x320"></figure></td>
+          <td>3 by 2</td>
+        </tr>
+        <tr>
+          <td><code>image is-16by9</code></td>
+          <td><figure class="image is-16by9"><img src="http://placehold.it/640x360"></figure></td>
+          <td>16 by 9</td>
+        </tr>
+        <tr>
+          <td><code>image is-2by1</code></td>
+          <td><figure class="image is-2by1"><img src="http://placehold.it/640x320"></figure></td>
+          <td>2 by 1</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+    </div>
+    <div class="content"></div>
+  </div>
 </section>
 <section class="section" id="helpers">
   <div class="container">
@@ -166,18 +250,24 @@
       <p>&lt;div class="is-overlay""&gt;&lt;/div&gt;</p>
     </div>
   </div>
+  <div class="container"> <div class="columns">
+	  <div class="column is-6">
   <div class="container has-border is-disabled">
     <p>&lt;div class="is-disabled"&gt;&lt;/div&gt;</p>
     <p> <a class="button is-outlined is-disabled">Try to click</a> </p>
   </div>
-  <div class="container has-border is-marginless">
-    <p>&lt;div class="is-marginless"&gt;&lt;/div&gt;</p>
-  </div>
+	  </div>
+	  	  <div class="column is-6">
   <div class="container has-border">
     <p>&lt;div class="is-unselectable"&gt;&lt;/div&gt; </p>
     <p class="is-unselectable">Just try and select this text </p>
   </div>
- <div class="container has-border">
+
+	  	  </div></div>
+  <div class="container has-border is-marginless">
+    <p>&lt;div class="is-marginless"&gt;&lt;/div&gt;</p>
+  </div>
+  <div class="container has-border">
     <p>&lt;div class="has-border"&gt;&lt;/div&gt; </p>
   </div>
   </div>

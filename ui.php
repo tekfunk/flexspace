@@ -3,7 +3,7 @@
 <section class="fixed bottom right">
   <h3><a href="#button">button</a> | <a href="#nav">nav</a> | <a href="#panel">panel</a> | <a href="#menu">menu</a> | <a href="#form">form</a> | <a href="#tabs">tabs</a> | <a href="#pagination">pagination</a> | <a href="#progress">progress</a> </h3>
 </section>
-<section class="hero hero-bkd">
+<section class="hero has-bkd-pattern-2">
   <div class="hero-body">
     <div class="container">
       <h1>ui</h1>

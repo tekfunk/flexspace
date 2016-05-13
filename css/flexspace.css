@@ -4652,8 +4652,28 @@ a.panel-block:hover {
   to {
     transform: rotate(359deg); } }
 
-.hero-bkd {
-  background: url("../art/circles.svg");
+.has-bkd-hero-1 {
+  background: url("../art/panadot.svg");
+  background-size: cover;
+  background-position: center; }
+
+.has-bkd-image-1 {
+  background: url("../images/img-4998.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.has-bkd-pattern-1 {
+  background: url("../art/dot-space-1.svg");
+  background-size: cover;
+  background-position: center; }
+
+.has-bkd-pattern-2 {
+  background: url("../art/dot-space-2.svg");
+  background-size: cover;
+  background-position: center; }
+
+.has-bkd-pattern-3 {
+  background: url("../art/dot-space-3.svg");
   background-size: cover;
   background-position: center; }
 

@@ -205,6 +205,94 @@
     </div>
     <div class="columns">
       <div class="column">
+        <h2>Backgrounds</h2>
+        <table width="400" class="table is-bordered is-striped is-narrow">
+          <tbody>
+            <tr>
+              <td></td>
+              <td>$bkd-image-1</td>
+              <td>url('../images/img-4998.jpg');</td>
+              <td style="background:url('../images/img-4998.jpg');"></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$bkd-image-2</td>
+              <td>url('../images/img-4998.jpg');</td>
+              <td style="background:url('../images/img-4998.jpg');"></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$bkd-image-3</td>
+              <td>url('../images/img-4998.jpg');</td>
+              <td style="background:url('../images/img-4998.jpg');"></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$bkd-hero-1</td>
+              <td>url('../art/panadot.svg');</td>
+              <td style="background:url('../images/img-4998.jpg');"></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$bkd-hero-2</td>
+              <td>url('../art/panadot.svg');</td>
+              <td style="background:url('../images/img-4998.jpg');"></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$bkd-hero-3</td>
+              <td>url('../art/panadot.svg');</td>
+              <td style="background:url('../images/img-4998.jpg');"></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$bkd-pattern-1</td>
+              <td>url('../art/panadot.svg');</td>
+              <td style="background:url('../images/img-4998.jpg');"></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$bkd-pattern-2</td>
+              <td>url('../art/panadot.svg');</td>
+              <td style="background:url('../images/img-4998.jpg');"></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$bkd-pattern-3</td>
+              <td>url('../art/panadot.svg');</td>
+              <td style="background:url('../art/panadot.svg');"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="column">
+        <h2>Animate</h2>
+        <table class="table is-bordered is-striped is-narrow">
+          <tbody>
+            <tr>
+              <td></td>
+              <td>$easing</td>
+              <td>ease-out</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$radius</td>
+              <td>3px</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$speed</td>
+              <td>86ms</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column">
         <h2>Layout</h2>
         <table class="table is-bordered is-striped is-narrow">
           <tbody>
