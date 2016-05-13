@@ -1,2 +1,4 @@
 # flexspace.scss
-A css layout framework I am building to suit the way I like to work.  Will use flexbox, scss and percentages.
+Yet another website framework.
+
+This is a custom scss framework, originally based on bulma, but changed to suit my needs. Incorporates animate.css, hover.css. Uses a custom icon font I put together.
