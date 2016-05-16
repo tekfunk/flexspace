@@ -730,7 +730,7 @@ pre {
     color: #3a3a3a;
     display: block;
     overflow-x: auto;
-    padding: 16px 20px; }
+    padding: 4px 5px; }
 
 table {
   width: 100%; }
@@ -4679,6 +4679,12 @@ a.panel-block:hover {
 
 #helpers .container {
   margin-bottom: 20px; }
+
+.header .continer {
+  min-height: 0; }
+
+.highlight {
+  background-color: transparent; }
 
 /*!
 Animate.css - http://daneden.me/animate

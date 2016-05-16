@@ -151,87 +151,92 @@
   <h6>h6 - Sixth level</h6>
   <p>Cras in nibh lacinia, venenatis nisi et, auctor urna. Donec pulvinar lacus sed diam dignissim, ut eleifend eros accumsan. Phasellus non tortor eros. Ut sed rutrum lacus. Etiam purus nunc, scelerisque quis enim vitae, malesuada ultrices turpis. Nunc vitae maximus purus, nec consectetur dui. Suspendisse euismod, elit vel rutrum commodo, ipsum tortor maximus dui, sed varius sapien odio vitae est. Etiam at cursus metus.</p>
 </div>
-<hr>
 </div>
 </section>
 <section class="section" id="images">
   <div class="container">
     <h1>images</h1>
     <hr>
+        <h3>squares</h3>
+
   <div class="columns">
   	<div class="column">
-    <h3>squares</h3><table class="table is-bordered">
-      <tbody>
-        <tr>
-          <td><code>&lt;figure class=&quot;image is-16x16&quot;&gt;&lt;img src=&quot;art/dragotar.svg&quot;&gt;&lt;/figure&gt;</code></td>
-          <td><figure class="image is-16x16"><img src="art/dragotar.svg"></figure></td>
-          </tr>
-        <tr>
-          <td><code>image is-24x24</code></td>
-          <td><figure class="image is-24x24"><img src="art/dragotar.svg"></figure></td>
-          </tr>
-        <tr>
-          <td><code>image is-32x32</code></td>
-          <td><figure class="image is-32x32"><img src="art/dragotar.svg"></figure></td>
-          </tr>
-        <tr>
-          <td><code>image is-48x48</code></td>
-          <td><figure class="image is-48x48"><img src="art/dragotar.svg"></figure></td>
-          </tr>
-        <tr>
-          <td><code>image is-64x64</code></td>
-          <td><figure class="image is-64x64"><img src="art/dragotar.svg"></figure></td>
-          </tr>
-        <tr>
-          <td><code>image is-96x96</code></td>
-          <td><figure class="image is-96x96"><img src="art/dragotar.svg"></figure></td>
-          </tr>
-        <tr>
-          <td><code>image is-128x128</code></td>
-          <td><figure class="image is-128x128"><img src="art/dragotar.svg"></figure></td>
-          </tr>
-      </tbody>
-    </table>
-    </div>
-    <div class="column">
-    <h3>ratios</h3>
-    <div class="content"></div>
-    <table id="images" class="table is-bordered">
-      <tbody>
-        <tr>
-          <td><code>image is-square</code></td>
-          <td><figure class="image is-square"><img src="http://placehold.it/480x480"></figure></td>
-          <td>Square (or 1by1)</td>
-        </tr>
-        <tr>
-          <td><code>image is-1by1</code></td>
-          <td><figure class="image is-1by1"><img src="http://placehold.it/480x480"></figure></td>
-          <td>1 by 1</td>
-        </tr>
-        <tr>
-          <td><code>image is-4by3</code></td>
-          <td><figure class="image is-4by3"><img src="http://placehold.it/640x480"></figure></td>
-          <td>4 by 3</td>
-        </tr>
-        <tr>
-          <td><code>image is-3by2</code></td>
-          <td><figure class="image is-3by2"><img src="http://placehold.it/480x320"></figure></td>
-          <td>3 by 2</td>
-        </tr>
-        <tr>
-          <td><code>image is-16by9</code></td>
-          <td><figure class="image is-16by9"><img src="http://placehold.it/640x360"></figure></td>
-          <td>16 by 9</td>
-        </tr>
-        <tr>
-          <td><code>image is-2by1</code></td>
-          <td><figure class="image is-2by1"><img src="http://placehold.it/640x320"></figure></td>
-          <td>2 by 1</td>
-        </tr>
-      </tbody>
-    </table>
-    </div>
-    </div>
+	  	<div class="card">
+	  		<div class="card-image"><figure class="image is-16x16 is-center"><img src="art/dragotar.svg"></figure></div>
+	  		<div class="card-content"><figure><code>&lt;figure class=&quot;image is-16x16&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure></div>
+		</div>
+  	</div>
+  	<div class="column">
+	  	<div class="card">
+	  		<div class="card-image"><figure class="image is-24x24"><img src="art/dragotar.svg"></figure></div>
+	  		<div class="card-content"><figure><code>&lt;figure class=&quot;image is-16x16&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure></div>
+		</div>
+  	</div>
+  	<div class="column">
+	  	<div class="card">
+	  		<div class="card-image"><figure class="image is-32x32"><img src="art/dragotar.svg"></figure></div>
+	  		<div class="card-content"><figure><code>&lt;figure class=&quot;image is-32x32&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure></div>
+		</div>
+  	</div>
+  	<div class="column">
+	  	<div class="card">
+	  		<div class="card-image"><figure class="image is-48x48"><img src="art/dragotar.svg"></figure></div>
+	  		<div class="card-content"><figure><code>&lt;figure class=&quot;image is-48x48&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure></div>
+		</div>
+  	</div>
+  	<div class="column">
+	  	<div class="card">
+	  		<div class="card-image"><figure class="image is-64x64"><img src="art/dragotar.svg"></figure></div>
+	  		<div class="card-content"><figure><code>&lt;figure class=&quot;image is-64x64&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure></div>
+		</div>
+  	</div>
+  	<div class="column">
+	  	<div class="card is-fullwidth">
+	  		<div class="card-image"><figure class="image is-128x128"><img src="art/dragotar.svg"></figure></div>
+	  		<div class="card-content"><figure><code>&lt;figure class=&quot;image is-128x128&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure></div>
+		</div>
+  	</div>
+  </div>
+      <h3>ratios</h3>
+
+  <div class="columns">
+  	<div class="column">
+	  	<div class="card">
+	  		<div class="card-image"><figure class="image is-square"><img src="images/DSCN0703_1x1.jpg"></figure></div>
+	  		<div class="card-content"><figure><code>image is-square</code></figure></div>
+		</div>
+  	</div>
+  	<div class="column">
+	  	<div class="card">
+	  		<div class="card-image"><figure class="image is-1by1"><img src="images/DSCN0703_1x1.jpg"></figure></div>
+	  		<div class="card-content"><figure><code>&lt;figure class=&quot;image is-1by1&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure></div>
+		</div>
+  	</div>
+  	<div class="column">
+	  	<div class="card">
+	  		<div class="card-image"><figure class="image is-4by3"><img src="images/DSCN0703_4x3.jpg"></figure></div>
+	  		<div class="card-content"><figure><code>&lt;figure class=&quot;image is-4by3&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure></div>
+		</div>
+  	</div>
+  	<div class="column">
+	  	<div class="card">
+	  		<div class="card-image"><figure class="image is-3by2"><img src="images/DSCN0703_3x2.jpg"></figure></div>
+	  		<div class="card-content"><figure><code>&lt;figure class=&quot;image is-3by2&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure></div>
+		</div>
+  	</div>
+  	<div class="column">
+	  	<div class="card">
+	  		<div class="card-image"><figure class="image is-16by9"><img src="images/DSCN0703_16x9.jpg"></figure></div>
+	  		<div class="card-content"><figure><code>&lt;figure class=&quot;image is-6by9&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure></div>
+		</div>
+  	</div>
+  	<div class="column is-2">
+	  	<div class="card is-fullwidth">
+	  		<div class="card-image"><figure class="image is-2by1"><img src="images/DSCN0703_2x1.jpg"></figure></div>
+	  		<div class="card-content"><figure><code>&lt;figure class=&quot;image is-2by1&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure></div>
+		</div>
+  	</div>
+  </div>
     <div class="content"></div>
   </div>
 </section>
@@ -278,7 +283,7 @@
     <hr>
   </div>
   <div class="container">
-    <h3>Show</h3>
+    <h3>Show / Hide</h3>
     <div class="content">
       <p> You can use one of the following <code>display</code> classes: </p>
       <ul>
@@ -288,153 +293,50 @@
         <li><code>inline-block</code></li>
         <li><code>inline-flex</code></li>
       </ul>
-      <p>For example, here's what the <code>is-flex</code> helper works:</p>
+            <p>For the other display options, just replace <code>is-flex</code> with <code>is-block</code> <code>is-inline</code> <code>is-inline-block</code> or <code>is-inline-flex</code> </p>
     </div>
-    <table class="table">
-      <thead>
-        <tr>
-          <th> Class </th>
-          <th> Mobile<br>
-            Up to <code>768px</code> </th>
-          <th> Tablet<br>
-            Between <code>769px</code> and <code>979px</code> </th>
-          <th> Desktop<br>
-            Between <code>980px</code> and <code>1179px</code> </th>
-          <th> Widescreen<br>
-            Above <code>1180px</code> </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td class="is-narrow"><code>is-flex-mobile</code></td>
-          <td class="is-narrow"><p class="notification is-success">flex</p></td>
-          <td class="is-narrow"><p class="notification">unchanged</p></td>
-          <td class="is-narrow"><p class="notification">unchanged</p></td>
-          <td class="is-narrow"><p class="notification">unchanged</p></td>
-        </tr>
-        <tr>
-          <td class="is-narrow"><code>is-flex-tablet-only</code></td>
-          <td class="is-narrow"><p class="notification">unchanged</p></td>
-          <td class="is-narrow"><p class="notification is-success">flex</p></td>
-          <td class="is-narrow"><p class="notification">unchanged</p></td>
-          <td class="is-narrow"><p class="notification">unchanged</p></td>
-        </tr>
-        <tr>
-          <td class="is-narrow"><code>is-flex-desktop-only</code></td>
-          <td class="is-narrow"><p class="notification">unchanged</p></td>
-          <td class="is-narrow"><p class="notification">unchanged</p></td>
-          <td class="is-narrow"><p class="notification is-success">flex</p></td>
-          <td class="is-narrow"><p class="notification">unchanged</p></td>
-        </tr>
-        <tr>
-          <td class="is-narrow"><code>is-flex-widescreen</code></td>
-          <td class="is-narrow"><p class="notification">unchanged</p></td>
-          <td class="is-narrow"><p class="notification">unchanged</p></td>
-          <td class="is-narrow"><p class="notification">unchanged</p></td>
-          <td class="is-narrow"><p class="notification is-success">flex</p></td>
-        </tr>
-        <tr>
-          <th colspan="4"> <p>Classes to display <strong>up to</strong> or <strong>from</strong> a specific breakpoint</p>
-          </th>
-        </tr>
-        <tr>
-          <td class="is-narrow"><code>is-flex-touch</code></td>
-          <td class="is-narrow"><p class="notification is-success">flex</p></td>
-          <td class="is-narrow"><p class="notification is-success">flex</p></td>
-          <td class="is-narrow"><p class="notification">unchanged</p></td>
-          <td class="is-narrow"><p class="notification">unchanged</p></td>
-        </tr>
-        <tr>
-          <td class="is-narrow"><code>is-flex-tablet</code></td>
-          <td class="is-narrow"><p class="notification">unchanged</p></td>
-          <td class="is-narrow"><p class="notification is-success">flex</p></td>
-          <td class="is-narrow"><p class="notification is-success">flex</p></td>
-          <td class="is-narrow"><p class="notification is-success">flex</p></td>
-        </tr>
-        <tr>
-          <td class="is-narrow"><code>is-flex-desktop</code></td>
-          <td class="is-narrow"><p class="notification">unchanged</p></td>
-          <td class="is-narrow"><p class="notification">unchanged</p></td>
-          <td class="is-narrow"><p class="notification is-success">flex</p></td>
-          <td class="is-narrow"><p class="notification is-success">flex</p></td>
-        </tr>
-      </tbody>
-    </table>
-    <div class="content">
-      <p>For the other display options, just replace <code>is-flex</code> with <code>is-block</code> <code>is-inline</code> <code>is-inline-block</code> or <code>is-inline-flex</code> </p>
-      <hr>
-      <h3>Hide</h3>
-      <table class="table">
-        <thead>
-          <tr>
-            <th> Class </th>
-            <th> Mobile<br>
-              Up to <code>768px</code> </th>
-            <th> Tablet<br>
-              Between <code>769px</code> and <code>979px</code> </th>
-            <th> Desktop<br>
-              Between <code>980px</code> and <code>1179px</code> </th>
-            <th> Widescreen<br>
-              Above <code>1180px</code> </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="is-narrow"><code>is-hidden-mobile</code></td>
-            <td class="is-narrow"><p class="notification">hidden</p></td>
-            <td class="is-narrow"><p class="notification is-success">visible</p></td>
-            <td class="is-narrow"><p class="notification is-success">visible</p></td>
-            <td class="is-narrow"><p class="notification is-success">visible</p></td>
-          </tr>
-          <tr>
-            <td class="is-narrow"><code>is-hidden-tablet-only</code></td>
-            <td class="is-narrow"><p class="notification is-success">visible</p></td>
-            <td class="is-narrow"><p class="notification">hidden</p></td>
-            <td class="is-narrow"><p class="notification is-success">visible</p></td>
-            <td class="is-narrow"><p class="notification is-success">visible</p></td>
-          </tr>
-          <tr>
-            <td class="is-narrow"><code>is-hidden-desktop-only</code></td>
-            <td class="is-narrow"><p class="notification is-success">visible</p></td>
-            <td class="is-narrow"><p class="notification is-success">visible</p></td>
-            <td class="is-narrow"><p class="notification">hidden</p></td>
-            <td class="is-narrow"><p class="notification is-success">visible</p></td>
-          </tr>
-          <tr>
-            <td class="is-narrow"><code>is-hidden-widescreen</code></td>
-            <td class="is-narrow"><p class="notification is-success">visible</p></td>
-            <td class="is-narrow"><p class="notification is-success">visible</p></td>
-            <td class="is-narrow"><p class="notification is-success">visible</p></td>
-            <td class="is-narrow"><p class="notification">hidden</p></td>
-          </tr>
-          <tr>
-            <th colspan="4"> <p>Classes to hide <strong>up to</strong> or <strong>from</strong> a specific breakpoint</p>
-            </th>
-          </tr>
-          <tr>
-            <td class="is-narrow"><code>is-hidden-touch</code></td>
-            <td class="is-narrow"><p class="notification">hidden</p></td>
-            <td class="is-narrow"><p class="notification">hidden</p></td>
-            <td class="is-narrow"><p class="notification is-success">visible</p></td>
-            <td class="is-narrow"><p class="notification is-success">visible</p></td>
-          </tr>
-          <tr>
-            <td class="is-narrow"><code>is-hidden-tablet</code></td>
-            <td class="is-narrow"><p class="notification is-success">visible</p></td>
-            <td class="is-narrow"><p class="notification">hidden</p></td>
-            <td class="is-narrow"><p class="notification">hidden</p></td>
-            <td class="is-narrow"><p class="notification">hidden</p></td>
-          </tr>
-          <tr>
-            <td class="is-narrow"><code>is-hidden-desktop</code></td>
-            <td class="is-narrow"><p class="notification is-success">visible</p></td>
-            <td class="is-narrow"><p class="notification is-success">visible</p></td>
-            <td class="is-narrow"><p class="notification">hidden</p></td>
-            <td class="is-narrow"><p class="notification">hidden</p></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+ 	 <div class="columns is-multiline">       
+		<div class="column is-one-quarter">  
+			<div class="card">
+				<div class="card-content"><h2>Mobile</h2><p>Up to 768px</p><hr><p>.is-flex-mobile</p><p>.is-hidden-mobile</p></div>
+			</div>  
+	  	</div>
+		<div class="column is-one-quarter">  
+			<div class="card">
+				<div class="card-content"><h2>Tablet</h2><p>Between <strong>769px</strong> and <strong>979px</strong></p><hr><p>.is-flex-tablet-only</p><p>.is-hidden-tablet-only</p></div>
+			</div>  
+	  	</div>
+		<div class="column is-one-quarter">  
+			<div class="card">
+				<div class="card-content"><h2>Desktop</h2><p>Between <strong>980px</strong> and <strong>1179px</strong></p><hr><p>.is-flex-desktop-only</p><p>.is-hidden-desktop-only</p></div>
+			</div>  
+	  	</div>
+		<div class="column is-one-quarter">  
+			<div class="card">
+				<div class="card-content"><h2>Widescreen</h2><p>Above <strong>1180px</strong></p><hr><p>.is-flex-widescreen</p><p>.is-hidden-widescreen</p></div>
+			</div>  
+	  	</div>
+		<div class="column is-one-quarter">  
+			<div class="card">
+				<div class="card-content"><h2>Touch</h2><p>Up to  <strong>979px</strong></p><hr><p>.is-flex-touch</p><p>.is-hidden-touch</p></div>
+			</div>  
+	  	</div>
+		<div class="column is-one-quarter">  
+			<div class="card">
+				<div class="card-content"><h2>Tablet</h2><p>Above <strong>768px</strong></p><hr><p>.is-flex-tablet</p><p>.is-hidden-tablet</p></div>
+			</div>  
+	  	</div>
+		<div class="column is-one-quarter">  
+			<div class="card">
+				<div class="card-content"><h2>Desktop</h2><p>Between <strong>980px</strong> and <strong>1179px</strong></p><hr><p>.is-flex-desktop</p><p>.is-hidden-desktop</p></div>
+			</div>  
+	  	</div>
+	 </div>
+   
+    
+    
+    
+    
   </div>
 </section>
 <?php include("inc/footer.php"); ?>
