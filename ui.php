@@ -1,19 +1,19 @@
 <?php include('inc/head.php'); ?>
 <?php include('inc/header.php'); ?>
 <section class="fixed bottom right">
-  <h3><a href="#button">button</a> | <a href="#nav">nav</a> | <a href="#panel">panel</a> | <a href="#menu">menu</a> | <a href="#form">form</a> | <a href="#tabs">tabs</a> | <a href="#pagination">pagination</a> | <a href="#progress">progress</a> </h3>
+  <h3><a href="#button">button</a> | <a href="#tooltip">tooltip</a> | <a href="#nav">nav</a> | <a href="#panel">panel</a> | <a href="#menu">menu</a> | <a href="#form">form</a> | <a href="#tabs">tabs</a> | <a href="#pagination">pagination</a> | <a href="#progress">progress</a> </h3>
 </section>
 <section class="hero has-bkd-pattern-2">
   <div class="hero-body">
     <div class="container">
       <h1>ui</h1>
-      <h3><a href="#button">button</a> | <a href="#nav">nav</a> | <a href="#panel">panel</a> | <a href="#menu">menu</a> | <a href="#form">form</a> | <a href="#tabs">tabs</a> | <a href="#pagination">pagination</a> | <a href="#progress">progress</a> </h3>
+      <h3><a href="#button">button</a> | <a href="#tooltip">tooltip</a> | <a href="#nav">nav</a> | <a href="#panel">panel</a> | <a href="#menu">menu</a> | <a href="#form">form</a> | <a href="#tabs">tabs</a> | <a href="#pagination">pagination</a> | <a href="#progress">progress</a> </h3>
     </div>
   </div>
 </section>
 <section class="section" id="button">
   <div class="container">
-    <h1>.button</h1>
+    <h1>button</h1>
     <hr>
     <div class="columns">
       <div class="column">
@@ -88,6 +88,13 @@
     </div>
   </div>
 </section>
+<section class="section" id="tooltip">
+  <div class="container">
+    <h1>tooltip</h1>
+    <hr>
+	<div class="content">Coming Soon.</div>
+  </div>
+</section>	
 <section class="section" id="nav">
   <div class="container">
     <h1>nav</h1>

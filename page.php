@@ -6,7 +6,7 @@
 <section class="hero is-warning">
   <div class="hero-body">
     <div class="container">
-      <h1>page</h1>
+      <h1>page - basic page layout</h1>
       <h3><a href="#layout">layout</a> | <a href="#container">container</a> | <a href="#hero">hero</a> | <a href="#content">content</a> | <a href="#images">images</a> | <a href="#helpers">helpers</a> | <a href="#display">display</a></h3>
     </div>
   </div>
