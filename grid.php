@@ -51,56 +51,73 @@
 	<div class="column is-full"> <pre><code class="html">.is-full</code></pre></div>
 </div>
 <div class="columns">
-	<div class="column is-1-2"> <pre><code class="html">.is-1-2</code></pre></div>
+	<div class="column is-1-12"> <pre><code class="html">.is-1-12</code></pre></div>
+	<div class="column is-11-12"> <pre><code class="html">.is-11-12</code></pre></div>
+</div>
+<div class="columns">
+	<div class="column is-1-10"> <pre><code class="html">.is-1-10</code></pre></div>
+	<div class="column is-9-10"> <pre><code class="html">.is-9-10</code></pre></div>
+</div>
+<div class="columns">
+	<div class="column is-1-8"> <pre><code class="html">.is-1-8</code></pre></div>
+	<div class="column is-7-8"> <pre><code class="html">.is-7-8</code></pre></div>
+</div>
+<div class="columns">
+	<div class="column is-1-6"> <pre><code class="html">.is-1-6</code></pre></div>
+	<div class="column is-5-6"> <pre><code class="html">.is-5-6</code></pre></div>
+</div>
+<div class="columns">
+	<div class="column is-1-5"> <pre><code class="html">.is-1-5</code></pre></div>
+	<div class="column is-4-5"> <pre><code class="html">.is-4-5</code></pre></div>
+</div>
+<div class="columns">
+	<div class="column is-1-4"> <pre><code class="html">.is-1-4</code></pre></div>
+	<div class="column is-3-4"> <pre><code class="html">.is-3-5</code></pre></div>
 </div>
 <div class="columns">
 	<div class="column is-1-3"> <pre><code class="html">.is-1-3</code></pre></div>
 	<div class="column is-2-3"> <pre><code class="html">.is-2-3</code></pre></div>
-</div>
-<div class="columns">
-	<div class="column is-1-4"> <pre><code class="html">.is-1-4</code></pre></div>
-	<div class="column is-3-4"> <pre><code class="html">.is-3-4</code></pre></div>
-</div>
-<div class="columns">
-	<div class="column is-1-5"> <pre><code class="html">.is-1-5</code></pre></div>
-	<div class="column is-4-5"> <pre><code class="html">.is-1-5</code></pre></div>
-</div>
-<div class="columns">
-	<div class="column is-2-5"> <pre><code class="html">.is-2-5</code></pre></div>
-	<div class="column is-3-5"> <pre><code class="html">.is-3-5</code></pre></div>
 
 </div>
 <div class="columns">
-	<div class="column is-1-6"> <pre><code class="html">.is-1-6</code></pre></div>
-	<div class="column is-4-6"> <pre><code class="html">.is-4-6</code></pre></div>
-</div>
-<div class="columns">
-	<div class="column is-1-8"> <pre><code class="html">.is-1-8</code></pre></div>
-	<div class="column is-5-8"> <pre><code class="html">.is-5-8</code></pre></div>
-</div>
-<div class="columns">
-	<div class="column is-3-8"> <pre><code class="html">.is-3-8</code></pre></div>
-	<div class="column is-7-8"> <pre><code class="html">.is-7-8</code></pre></div>
-</div>
-<div class="columns">
-	<div class="column is-1-10"> <pre><code class="html">.is-1-10</code></pre></div>
-	<div class="column is-3-10"> <pre><code class="html">.is-3-10</code></pre></div>
-</div>
-<div class="columns">
-	<div class="column is-7-10"> <pre><code class="html">.is-7-10</code></pre></div>
-</div>
-<div class="columns">
-	<div class="column is-9-10"> <pre><code class="html">.is-9-10</code></pre></div>
-</div>
-<div class="columns">
-	<div class="column is-1-12"> <pre><code class="html">.is-1-12</code></pre></div>
-	<div class="column is-5-12"> <pre><code class="html">.is-5-12</code></pre></div>
+	<div class="column is-1-2"> <pre><code class="html">.is-1-2</code></pre></div>
+	<div class="column"> <pre><code class="html">.</code></pre></div>
 </div>
 <div class="columns">
 	<div class="column is-7-12"> <pre><code class="html">.is-7-12</code></pre></div>
+	<div class="column is-5-12"> <pre><code class="html">.is-5-12</code></pre></div>
+</div>
+<div class="columns">
+	<div class="column is-5-8"> <pre><code class="html">.is-5-8</code></pre></div>
+	<div class="column is-3-8"> <pre><code class="html">.is-3-8</code></pre></div>
+</div>
+<div class="columns">
+	<div class="column is-7-10"> <pre><code class="html">.is-7-10</code></pre></div>
+	<div class="column is-3-10"> <pre><code class="html">.is-3-10</code></pre></div>
+</div>
+<div class="columns">
+	<div class="column is-3-4"> <pre><code class="html">.is-3-4</code></pre></div>
+	<div class="column"> <pre><code class="html">.</code></pre></div>
+</div>
+<div class="columns">
+	<div class="column is-4-5"> <pre><code class="html">.is-4-5</code></pre></div>
+	<div class="column"> <pre><code class="html">.</code></pre></div>
+</div>
+<div class="columns">
+	<div class="column is-5-6"> <pre><code class="html">.is-5-6</code></pre></div>
+	<div class="column"> <pre><code class="html">.</code></pre></div>
+</div>
+<div class="columns">
+	<div class="column is-7-8"> <pre><code class="html">.is-7-8</code></pre></div>
+	<div class="column"> <pre><code class="html">.</code></pre></div>
+</div>
+<div class="columns">
+	<div class="column is-9-10"> <pre><code class="html">.is-9-10</code></pre></div>
+	<div class="column"> <pre><code class="html">.</code></pre></div>
 </div>
 <div class="columns">
 	<div class="column is-11-12"> <pre><code class="html">.is-11-12</code></pre></div>
+	<div class="column"> <pre><code class="html">.</code></pre></div>
 </div>
 <div class="columns is-mobile">
       <div class="column is-1-2 is-offset-1-4">
