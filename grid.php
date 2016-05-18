@@ -23,7 +23,7 @@
         <p class="notification is-success"></p>
       </div>
     </div>
-    <div class="columns is-multiline">
+    <div class="columns is-stacked">
       <div class="column  is-1-4">
         <p class="notification is-warning"></p>
       </div>
@@ -44,15 +44,15 @@
  </div>
   <div class="container">
     <div class="columns">
-      <div class="column">
-        <div class="content">
-          <p>Wrap up to as many columns as you want in <code class="mini">class="columns"</code> If you dont want them to stay on the same row add <code class="mini">is-multiline</code>.</p>
+      <div class="column mod">
+        <div class="mod-content">
+          <p>Wrap up to as many columns as you want in <code class="mini">class="columns"</code> If you dont want them to stay on the same row add <code class="mini">is-stacked</code>.</p>
         </div>
       </div>
       <div class="column">
         <div class="box">
           <pre><code id="col-sizes" class="html hljs xml">&lt;div class=&quot;columns&quot;&gt;<br />      &lt;div class=&quot;column&quot;&gt;&lt;/div&gt;<br />      &lt;div class=&quot;column&quot;&gt;&lt;/div&gt;<br />&lt;/div&gt;
-&lt;div class=&quot;columns is-multiline&quot;&gt;<br />      &lt;div class=&quot;column  is-1-4&quot;&gt;&lt;/div&gt;<br />      &lt;div class=&quot;column  is-1-2&quot;&gt;&lt;/div&gt;<br />      &lt;div class=&quot;column&quot;&gt;&lt;/div&gt;<br />      &lt;div class=&quot;column is-2-3&quot;&gt;&lt;/div&gt;<br />      &lt;div class=&quot;column&quot;&gt;&lt;/div&gt;<br />&lt;/div&gt;</code>
+&lt;div class=&quot;columns is-stacked&quot;&gt;<br />      &lt;div class=&quot;column  is-1-4&quot;&gt;&lt;/div&gt;<br />      &lt;div class=&quot;column  is-1-2&quot;&gt;&lt;/div&gt;<br />      &lt;div class=&quot;column&quot;&gt;&lt;/div&gt;<br />      &lt;div class=&quot;column is-2-3&quot;&gt;&lt;/div&gt;<br />      &lt;div class=&quot;column&quot;&gt;&lt;/div&gt;<br />&lt;/div&gt;</code>
 </pre>
           <a class="button icon-edit" data-clipboard-target="#col-sizes"></a> </div>
       </div>
@@ -67,20 +67,16 @@
       <p>To size the columns, add the .is-X-X class.  Columns work on desktop and tablet.</p>
     </div>
     <div class="container" id="da-grid">
-      <div class="columns">
+      <div class="columns is-stacked">
         <div class="column is-full">
           <p class="mini">.is-full</p>
         </div>
-      </div>
-      <div class="columns">
         <div class="column is-1-12">
           <p class="mini">.is-1-12</p>
         </div>
         <div class="column is-11-12">
           <p class="mini">.is-11-12</p>
         </div>
-      </div>
-      <div class="columns">
         <div class="column is-1-10">
           <p class="mini">.is-1-10</p>
         </div>
@@ -98,30 +94,25 @@
         </div>
         <div class="column is-1-2">
           <div class="box">
-            <pre><code id="col-sizes" class="html hljs xml">&lt;div class=&quot;columns&quot;&gt;<br />      &lt;div class=&quot;column is-full&quot;&gt;<br />        &lt;p class=&quot;mini&quot;&gt;.is-full&lt;/p&gt;<br />      &lt;/div&gt;<br />    &lt;/div&gt;
-&lt;div class=&quot;columns&quot;&gt;<br />      &lt;div class=&quot;column is-1-12&quot;&gt;<br />        &lt;p class=&quot;mini&quot;&gt;.is-1-12&lt;/p&gt;<br />      &lt;/div&gt;<br />      &lt;div class=&quot;column is-11-12&quot;&gt;<br />        &lt;p class=&quot;mini&quot;&gt;.is-11-12&lt;/p&gt;<br />      &lt;/div&gt;<br />    &lt;/div&gt;
-&lt;div class=&quot;columns&quot;&gt;<br />      &lt;div class=&quot;column is-1-10&quot;&gt;<br />        &lt;p class=&quot;mini&quot;&gt;.is-1-10&lt;/p&gt;<br />      &lt;/div&gt;<br />      &lt;div class=&quot;column is-9-10&quot;&gt;<br />        &lt;p class=&quot;mini&quot;&gt;.is-9-10&lt;/p&gt;<br />      &lt;/div&gt;<br />    &lt;/div&gt;</code>
+            <pre><code id="col-sizes" class="html hljs xml">&lt;div class=&quot;columns is-stacked&quot;&gt;<br />      &lt;div class=&quot;column is-full&quot;&gt;&lt;/div&gt;<br />      &lt;div class=&quot;column is-1-12&quot;&gt;&lt;/div&gt;<br />      &lt;div class=&quot;column is-11-12&quot;&gt;&lt;/div&gt;
+      &lt;div class=&quot;column is-1-10&quot;&gt;&lt;/div&gt;<br />      &lt;div class=&quot;column is-9-10&quot;&gt;&lt;/div&gt;<br />&lt;/div&gt;</code>
 </pre>
             <a class="button icon-edit" data-clipboard-target="#ccol-sizes"></a> </div>
         </div>
       </div>
-      <div class="columns">
+      <div class="columns is-stacked">
         <div class="column is-1-8">
           <p class="mini">.is-1-8</p>
         </div>
         <div class="column is-7-8">
           <p class="mini">.is-7-8</p>
         </div>
-      </div>
-      <div class="columns">
         <div class="column is-1-6">
           <p class="mini">.is-1-6</p>
         </div>
         <div class="column is-5-6">
           <p class="mini">.is-5-6</p>
         </div>
-      </div>
-      <div class="columns">
         <div class="column is-1-5">
           <p class="mini">.is-1-5</p>
         </div>
@@ -132,7 +123,7 @@
       <div class="columns">
         <div class="column is-1-2">
           <div class="box">
-            <pre><code id="col-sizes" class="html hljs xml"></code>
+            <pre><code id="col-sizes" class="html hljs xml">&lt;div class=&quot;columns&quot;&gt;<br />	&lt;div class=&quot;column is-1-8&quot;&gt;&lt;/div&gt;<br />	&lt;div class=&quot;column is-7-8&quot;&gt;&lt;/div&gt;<br />	&lt;div class=&quot;column is-1-6&quot;&gt;&lt;/div&gt;<br />	&lt;div class=&quot;column is-5-6&quot;&gt;&lt;/div&gt;<br />	&lt;div class=&quot;column is-1-5&quot;&gt;&lt;/div&gt;<br />	&lt;div class=&quot;column is-4-5&quot;&gt;&lt;/div&gt;<br />&lt;/div&gt;</code>
 </pre>
             <a class="button icon-edit" data-clipboard-target="#ccol-sizes"></a> </div>
         </div>
@@ -178,28 +169,26 @@
         </div>
         <div class="column is-1-2">
           <div class="box">
-            <pre><code id="col-sizes" class="html hljs xml"></code>
+            <pre><code id="col-sizes" class="html hljs xml">&lt;div class=&quot;columns&quot;&gt;<br />        &lt;div class=&quot;column is-1-4&quot;&gt;<br />          &lt;p class=&quot;mini&quot;&gt;.is-1-4&lt;/p&gt;<br />        &lt;/div&gt;<br />        &lt;div class=&quot;column is-3-4&quot;&gt;<br />          &lt;p class=&quot;mini&quot;&gt;.is-3-4&lt;/p&gt;<br />        &lt;/div&gt;<br />      &lt;/div&gt;
+&lt;div class=&quot;columns&quot;&gt;<br />        &lt;div class=&quot;column is-1-3&quot;&gt;<br />          &lt;p class=&quot;mini&quot;&gt;.is-1-3&lt;/p&gt;<br />        &lt;/div&gt;<br />        &lt;div class=&quot;column is-2-3&quot;&gt;<br />          &lt;p class=&quot;mini&quot;&gt;.is-2-3&lt;/p&gt;<br />        &lt;/div&gt;<br />      &lt;/div&gt;
+&lt;div class=&quot;columns&quot;&gt;<br />        &lt;div class=&quot;column is-1-2&quot;&gt;<br />          &lt;p class=&quot;mini&quot;&gt;.is-1-2&lt;/p&gt;<br />        &lt;/div&gt;<br />        &lt;div class=&quot;column is-1-4 is-offset-1-8&quot;&gt;<br />          &lt;p class=&quot;mini&quot;&gt;.is-1-4 .is-offset-1-8&lt;/p&gt;<br />        &lt;/div&gt;<br />      &lt;/div&gt;</code>
 </pre>
             <a class="button icon-edit" data-clipboard-target="#ccol-sizes"></a> </div>
         </div>
       </div>
-      <div class="columns">
+      <div class="columns is-stacked">
         <div class="column is-7-12">
           <p class="mini">.is-7-12</p>
         </div>
         <div class="column is-5-12">
           <p class="mini">.is-5-12</p>
         </div>
-      </div>
-      <div class="columns">
         <div class="column is-5-8">
           <p class="mini">.is-5-8</p>
         </div>
         <div class="column is-3-8">
           <p class="mini">.is-3-8</p>
         </div>
-      </div>
-      <div class="columns">
         <div class="column is-7-10">
           <p class="mini">.is-7-10</p>
         </div>
