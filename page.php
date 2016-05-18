@@ -6,35 +6,87 @@
 <section class="hero is-warning">
   <div class="hero-body">
     <div class="container">
-      <h1>page</h1>
+      <h1>page - basic page elements</h1>
       <h3><a href="#layout">layout</a> | <a href="#container">container</a> | <a href="#hero">hero</a> | <a href="#content">content</a> | <a href="#images">images</a> | <a href="#helpers">helpers</a> | <a href="#display">display</a></h3>
     </div>
   </div>
 </section>
 <section class="section" id="layout">
-  <div class="container">
+  <div class="container content">
     <h1>layout</h1>
     <hr>
-    <p>Inside &lt;body&gt;&lt;/body&gt;.</p>
+    <p>Basic page structure.</p>
+    <div class="columns">
+      <div class="column">
+        <div class="card is-fullwidth">
+          <pre><code id="basic-layout" class="html">&lt;body&gt;
+	&lt;header class=&quot;header&quot;&gt;&lt;/header&gt;
+	&lt;section class=&quot;hero&quot;&gt;&lt;/section&gt;
+	&lt;section class=&quot;section&quot;&gt;&lt;/section&gt;
+	&lt;footer class=&quot;footer&quot;&gt;&lt;/footer&gt;
+&lt;/body&gt;</code>
+</pre>
+   <a class="button icon-edit" data-clipboard-target="#basic-layout"> </a>  
+    </div>
+      </div>
+    </div>
   </div>
 </section>
-<header class="header has-border" style="margin-bottom: 5px;">
-  <div class="container">
-  <figure class="highlight">
-              <pre><code class="language-html" data-lang="html"><span class="nt">&lt;header</span> <span class="na">class=</span><span class="s">"header"</span><span class="nt">&gt;</span><span class="nt">&lt;/header&gt;</span></code></pre>
-    </figure>
-  </div>
-</header>
-<section class="section has-border" style="margin-bottom: 5px;">
-  <div class="container">
-    <p>&lt;section class="section"&gt;&lt;/section&gt;</p>
+<section class="section">
+  <div class="container" id="hero" style="margin-bottom: 10px;">
+    <h1>hero</h1>
+    <hr>
+    <p>Fullwidth featured content section.</p>
   </div>
 </section>
-<footer class="footer has-border" style="margin-bottom: 5px;">
-  <div class="container">
-    <p>&lt;footer class="footer"&gt;&lt;/footer&gt;</p>
+<section class="hero is-medium has-border has-bkd-pattern-3" style="margin-bottom: 5px;">
+  <div class="hero-head"></div>
+  <div class="hero-body has-text-centered">
+    <div class="container">
+      <h1>Medium Hero with Background Pattern</h1>
+      <h2>.hero .is-medium .has-bkd-pattern-3</h2>
+    </div>
   </div>
-</footer>
+  <div class="hero-footer">
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+      <div class="column">
+        <div class="card is-fullwidth">
+          <pre><code id="hero-med" class="html">&lt;section class=&quot;hero is-medium has-bkd-pattern-3&quot;&gt;<br />  &lt;div class=&quot;hero-head&quot;&gt;&lt;/div&gt;<br />   &lt;div class=&quot;hero-body has-text-centered&quot;&gt;
+    &lt;h1&gt;&lt;/h1&gt;
+    &lt;h2&gt;&lt;/h2&gt;
+   &lt;/div&gt;<br />  &lt;div class=&quot;hero-footer&quot;&gt;&lt;/div&gt;<br />&lt;/section&gt;</code></pre>
+          <a class="button icon-edit" data-clipboard-target="#hero-med"></a> </div>
+      </div>
+  </div>
+</section>
+<section class="hero has-border is-fullheight has-bkd-image-1" style="margin-bottom: 5px;">
+  <div class="hero-head">
+  </div>
+  <div class="hero-body">
+    <div class="container">
+		<h1 class="hero-title">Fullscreen Image Hero</h1>
+    </div>
+  </div>
+  <div class="hero-footer">
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <div class="card is-fullwidth">
+          <pre><code id="hero-full" class="html">&lt;section class=&quot;hero is-medium has-bkd-pattern-3&quot;&gt;<br />  &lt;div class=&quot;hero-head&quot;&gt;&lt;/div&gt;<br />   &lt;div class=&quot;hero-body has-text-centered&quot;&gt;
+    &lt;h1&gt;&lt;/h1&gt;
+    &lt;h2&gt;&lt;/h2&gt;
+   &lt;/div&gt;<br />  &lt;div class=&quot;hero-footer&quot;&gt;&lt;/div&gt;<br />&lt;/section&gt;</code></pre>
+          <a class="button icon-edit" data-clipboard-target="#hero-full"></a> </div>
+      </div>
+    </div>
+  </div>
+</section>
 <section class="section" id="container">
   <div class="container">
     <h1>container</h1>
@@ -50,187 +102,181 @@
     <div class="notification has-border">&lt;div class="container is-fluid"&gt;&lt;/div&gt;</div>
   </div>
 </section>
-<section class="section">
-  <div class="container" id="hero" style="margin-bottom: 10px;">
-    <h1>hero</h1>
-    <hr>
-    <p>&lt;section class="hero"&gt;&lt;/section&gt;</p>
-  </div>
-</section>
-<section class="hero has-border is-info" style="margin-bottom: 5px;">
-  <p>&lt;section class="hero is-info"&gt;&lt;/section&gt;</p>
-  <div class="hero-body">
-    <div class="container">
-      <p>&lt;div class="hero-body"&gt;&lt;/div&gt;</p>
-    </div>
-  </div>
-</section>
-<section class="hero is-medium has-border has-bkd-pattern-3" style="margin-bottom: 5px;">
-  <p>&lt;section class="hero is-medium has-bkd-pattern-3"&gt;&lt;/section&gt;</p>
-  <div class="hero-head">
-    <p>&lt;div class="hero-head"&gt;&lt;/div&gt;</p>
-  </div>
-  <div class="hero-body has-text-centered">
-    <div class="container">
-      <h1>&lt;h1 class="hero-body has-text-centered"&gt;&lt;/h1&gt;</h1>
-    </div>
-  </div>
-  <div class="hero-footer">
-    <p>&lt;div class="hero-footer"&gt;&lt;/div&gt;</p>
-  </div>
-</section>
-<section class="hero is-large has-border is-success" style="margin-bottom: 5px;">
-  <p>&lt;section class="hero is-large is-success"&gt;&lt;/section&gt;</p>
-  <div class="hero-head  has-text-centered">
-    <p>&lt;div class="hero-head  has-text-centered"&gt;&lt;/div&gt;</p>
-  </div>
-  <div class="hero-body">
-    <div class="container">
-      <p>&lt;div class="hero-body"&gt;&lt;/div&gt;</p>
-    </div>
-  </div>
-  <div class="hero-footer">
-    <p>&lt;div class="hero-footer"&gt;&lt;/div&gt;</p>
-  </div>
-</section>
-<section class="hero has-border is-fullheight has-bkd-image-1" style="margin-bottom: 5px;">
-  <p>&lt;section class="hero is-fullheight has-bkd-image-1"&gt;&lt;/section&gt;</p>
-  <div class="hero-head">
-    <p>&lt;div class="hero-head"&gt;&lt;/div&gt;</p>
-  </div>
-  <div class="hero-body">
-    <div class="container">
-      <p>&lt;div class="hero-body"&gt;&lt;/div&gt;</p>
-    </div>
-  </div>
-  <div class="hero-footer">
-    <p>&lt;div class="hero-footer"&gt;&lt;/div&gt;</p>
-  </div>
-</section>
 <section class="section" id="content">
-	<div class="container">
-	<h1>content</h1>
-	<hr>
-	<p>Inside &lt;div class="container"&gt;&lt;/div&gt;</p>
-	<div class="content has-border">
-	<p>&lt;div class="content"&gt;&lt;/div&gt;</p>
-	<h1>&lt;h1&gt;Hello World&lt;/h1&gt;</h1>
-	<p>&lt;p&gt;Lorem ipsum dolor sit amet, <em>em -consectetur adipiscing elit</em>. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.&lt;/p&gt;</p>
-  <h2 class="has-text-centered">&lt;h2 class="has-text-centered"&gt;Second level&lt;/h2&gt;</h2>
-  <p class="has-text-centered">&lt;p class="has-text-centered"&gt;Curabitur accumsan turpis pharetra <strong>strong - augue tincidunt</strong> blandit. Quisque condimentum maximus mi, sit amet commodo arcu rutrum id. Proin pretium urna vel cursus venenatis. Suspendisse potenti. Etiam mattis sem rhoncus lacus dapibus facilisis. Donec at dignissim dui. Ut et neque nisl.&lt;/p&gt;</p>
-  <ul>
-    &lt;ul&gt;
-    <li>&lt;li&gt;In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>
-    <li>&lt;li&gt;Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>
-    <li>&lt;li&gt;Aliquam nec felis in sapien venenatis viverra fermentum nec lectus.</li>
-    <li>&lt;li&gt;Ut non enim metus.</li>
-    &lt;/ul&gt;
-  </ul>
-  <h3>h3 - Third level</h3>
-  <p class="has-text-right">&lt;p class="has-text-right"&gt;Quisque ante lacus, malesuada ac auctor vitae, congue <a href="#">a - non ante</a>. Phasellus lacus ex, semper ac tortor nec, fringilla condimentum orci. Fusce eu rutrum tellus. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque. Maecenas eleifend sollicitudin dui, faucibus sollicitudin augue cursus non. Ut finibus eleifend arcu ut vehicula. Mauris eu est maximus est porta condimentum in eu justo. Nulla id iaculis sapien.&lt;/p&gt;</p>
-  <ol>
-    ol
-    <li>li - Donec blandit a lorem id convallis.</li>
-    <li>Cras gravida arcu at diam gravida gravida.</li>
-    <li>Integer in volutpat libero.</li>
-    <li>Donec a diam tellus.</li>
-    <li>Aenean nec tortor orci.</li>
-    <li>Quisque aliquam cursus urna, non bibendum massa viverra eget.</li>
-    <li>Vivamus maximus ultricies pulvinar.</li>
-  </ol>
-  <blockquote>blockquote - Ut venenatis, nisl scelerisque sollicitudin fermentum, quam libero hendrerit ipsum, ut blandit est tellus sit amet turpis.</blockquote>
-  <p>Quisque at semper enim, eu hendrerit odio. Etiam auctor nisl et <em>justo sodales</em> elementum. Maecenas ultrices lacus quis neque consectetur, et lobortis nisi molestie.</p>
-  <p>Sed sagittis enim ac tortor maximus rutrum. Nulla facilisi. Donec mattis vulputate risus in luctus. Maecenas vestibulum interdum commodo.</p>
-  <p>Suspendisse egestas sapien non felis placerat elementum. Morbi tortor nisl, suscipit sed mi sit amet, mollis malesuada nulla. Nulla facilisi. Nullam ac erat ante.</p>
-  <h4>h4 - Fourth level</h4>
-  <p>Nulla efficitur eleifend nisi, sit amet bibendum sapien fringilla ac. Mauris euismod metus a tellus laoreet, at elementum ex efficitur.</p>
-  <p>Maecenas eleifend sollicitudin dui, faucibus sollicitudin augue cursus non. Ut finibus eleifend arcu ut vehicula. Mauris eu est maximus est porta condimentum in eu justo. Nulla id iaculis sapien.</p>
-  <p>Phasellus porttitor enim id metus volutpat ultricies. Ut nisi nunc, blandit sed dapibus at, vestibulum in felis. Etiam iaculis lorem ac nibh bibendum rhoncus. Nam interdum efficitur ligula sit amet ullamcorper. Etiam tristique, leo vitae porta faucibus, mi lacus laoreet metus, at cursus leo est vel tellus. Sed ac posuere est. Nunc ultricies nunc neque, vitae ultricies ex sodales quis. Aliquam eu nibh in libero accumsan pulvinar. Nullam nec nisl placerat, pretium metus vel, euismod ipsum. Proin tempor cursus nisl vel condimentum. Nam pharetra varius metus non pellentesque.</p>
-  <h5>h5 - Fifth level</h5>
-  <p>Aliquam sagittis rhoncus vulputate. Cras non luctus sem, sed tincidunt ligula. Vestibulum at nunc elit. Praesent aliquet ligula mi, in luctus elit volutpat porta. Phasellus molestie diam vel nisi sodales, a eleifend augue laoreet. Sed nec eleifend justo. Nam et sollicitudin odio.</p>
-  <h6>h6 - Sixth level</h6>
-  <p>Cras in nibh lacinia, venenatis nisi et, auctor urna. Donec pulvinar lacus sed diam dignissim, ut eleifend eros accumsan. Phasellus non tortor eros. Ut sed rutrum lacus. Etiam purus nunc, scelerisque quis enim vitae, malesuada ultrices turpis. Nunc vitae maximus purus, nec consectetur dui. Suspendisse euismod, elit vel rutrum commodo, ipsum tortor maximus dui, sed varius sapien odio vitae est. Etiam at cursus metus.</p>
-</div>
-<hr>
-</div>
+  <div class="container">
+    <h1>content</h1>
+    <hr>
+    <p>Inside &lt;div class="container"&gt;&lt;/div&gt;</p>
+    <div class="content has-border">
+      <p>&lt;div class="content"&gt;&lt;/div&gt;</p>
+      <h1>&lt;h1&gt;Hello World&lt;/h1&gt;</h1>
+      <p>&lt;p&gt;Lorem ipsum dolor sit amet, <em>em -consectetur adipiscing elit</em>. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.&lt;/p&gt;</p>
+      <h2 class="has-text-centered">&lt;h2 class="has-text-centered"&gt;Second level&lt;/h2&gt;</h2>
+      <p class="has-text-centered">&lt;p class="has-text-centered"&gt;Curabitur accumsan turpis pharetra <strong>strong - augue tincidunt</strong> blandit. Quisque condimentum maximus mi, sit amet commodo arcu rutrum id. Proin pretium urna vel cursus venenatis. Suspendisse potenti. Etiam mattis sem rhoncus lacus dapibus facilisis. Donec at dignissim dui. Ut et neque nisl.&lt;/p&gt;</p>
+      <ul>
+        &lt;ul&gt;
+        <li>&lt;li&gt;In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>
+        <li>&lt;li&gt;Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>
+        <li>&lt;li&gt;Aliquam nec felis in sapien venenatis viverra fermentum nec lectus.</li>
+        <li>&lt;li&gt;Ut non enim metus.</li>
+        &lt;/ul&gt;
+      </ul>
+      <h3>h3 - Third level</h3>
+      <p class="has-text-right">&lt;p class="has-text-right"&gt;Quisque ante lacus, malesuada ac auctor vitae, congue <a href="#">a - non ante</a>. Phasellus lacus ex, semper ac tortor nec, fringilla condimentum orci. Fusce eu rutrum tellus. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque. Maecenas eleifend sollicitudin dui, faucibus sollicitudin augue cursus non. Ut finibus eleifend arcu ut vehicula. Mauris eu est maximus est porta condimentum in eu justo. Nulla id iaculis sapien.&lt;/p&gt;</p>
+      <ol>
+        ol
+        <li>li - Donec blandit a lorem id convallis.</li>
+        <li>Cras gravida arcu at diam gravida gravida.</li>
+        <li>Integer in volutpat libero.</li>
+        <li>Donec a diam tellus.</li>
+        <li>Aenean nec tortor orci.</li>
+        <li>Quisque aliquam cursus urna, non bibendum massa viverra eget.</li>
+        <li>Vivamus maximus ultricies pulvinar.</li>
+      </ol>
+      <blockquote>blockquote - Ut venenatis, nisl scelerisque sollicitudin fermentum, quam libero hendrerit ipsum, ut blandit est tellus sit amet turpis.</blockquote>
+      <p>Quisque at semper enim, eu hendrerit odio. Etiam auctor nisl et <em>justo sodales</em> elementum. Maecenas ultrices lacus quis neque consectetur, et lobortis nisi molestie.</p>
+      <p>Sed sagittis enim ac tortor maximus rutrum. Nulla facilisi. Donec mattis vulputate risus in luctus. Maecenas vestibulum interdum commodo.</p>
+      <p>Suspendisse egestas sapien non felis placerat elementum. Morbi tortor nisl, suscipit sed mi sit amet, mollis malesuada nulla. Nulla facilisi. Nullam ac erat ante.</p>
+      <h4>h4 - Fourth level</h4>
+      <p>Nulla efficitur eleifend nisi, sit amet bibendum sapien fringilla ac. Mauris euismod metus a tellus laoreet, at elementum ex efficitur.</p>
+      <p>Maecenas eleifend sollicitudin dui, faucibus sollicitudin augue cursus non. Ut finibus eleifend arcu ut vehicula. Mauris eu est maximus est porta condimentum in eu justo. Nulla id iaculis sapien.</p>
+      <p>Phasellus porttitor enim id metus volutpat ultricies. Ut nisi nunc, blandit sed dapibus at, vestibulum in felis. Etiam iaculis lorem ac nibh bibendum rhoncus. Nam interdum efficitur ligula sit amet ullamcorper. Etiam tristique, leo vitae porta faucibus, mi lacus laoreet metus, at cursus leo est vel tellus. Sed ac posuere est. Nunc ultricies nunc neque, vitae ultricies ex sodales quis. Aliquam eu nibh in libero accumsan pulvinar. Nullam nec nisl placerat, pretium metus vel, euismod ipsum. Proin tempor cursus nisl vel condimentum. Nam pharetra varius metus non pellentesque.</p>
+      <h5>h5 - Fifth level</h5>
+      <p>Aliquam sagittis rhoncus vulputate. Cras non luctus sem, sed tincidunt ligula. Vestibulum at nunc elit. Praesent aliquet ligula mi, in luctus elit volutpat porta. Phasellus molestie diam vel nisi sodales, a eleifend augue laoreet. Sed nec eleifend justo. Nam et sollicitudin odio.</p>
+      <h6>h6 - Sixth level</h6>
+      <p>Cras in nibh lacinia, venenatis nisi et, auctor urna. Donec pulvinar lacus sed diam dignissim, ut eleifend eros accumsan. Phasellus non tortor eros. Ut sed rutrum lacus. Etiam purus nunc, scelerisque quis enim vitae, malesuada ultrices turpis. Nunc vitae maximus purus, nec consectetur dui. Suspendisse euismod, elit vel rutrum commodo, ipsum tortor maximus dui, sed varius sapien odio vitae est. Etiam at cursus metus.</p>
+    </div>
+  </div>
 </section>
 <section class="section" id="images">
   <div class="container">
     <h1>images</h1>
     <hr>
-  <div class="columns">
-  	<div class="column">
-    <h3>squares</h3><table class="table is-bordered">
-      <tbody>
-        <tr>
-          <td><code>&lt;figure class=&quot;image is-16x16&quot;&gt;&lt;img src=&quot;art/dragotar.svg&quot;&gt;&lt;/figure&gt;</code></td>
-          <td><figure class="image is-16x16"><img src="art/dragotar.svg"></figure></td>
-          </tr>
-        <tr>
-          <td><code>image is-24x24</code></td>
-          <td><figure class="image is-24x24"><img src="art/dragotar.svg"></figure></td>
-          </tr>
-        <tr>
-          <td><code>image is-32x32</code></td>
-          <td><figure class="image is-32x32"><img src="art/dragotar.svg"></figure></td>
-          </tr>
-        <tr>
-          <td><code>image is-48x48</code></td>
-          <td><figure class="image is-48x48"><img src="art/dragotar.svg"></figure></td>
-          </tr>
-        <tr>
-          <td><code>image is-64x64</code></td>
-          <td><figure class="image is-64x64"><img src="art/dragotar.svg"></figure></td>
-          </tr>
-        <tr>
-          <td><code>image is-96x96</code></td>
-          <td><figure class="image is-96x96"><img src="art/dragotar.svg"></figure></td>
-          </tr>
-        <tr>
-          <td><code>image is-128x128</code></td>
-          <td><figure class="image is-128x128"><img src="art/dragotar.svg"></figure></td>
-          </tr>
-      </tbody>
-    </table>
+    <h3>squares</h3>
+    <div class="columns">
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-16x16 is-center"><img src="art/dragotar.svg"></figure>
+          </div>
+          <div class="card-content">
+            <figure><code>&lt;figure class=&quot;image is-16x16&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-24x24"><img src="art/dragotar.svg"></figure>
+          </div>
+          <div class="card-content">
+            <figure><code>&lt;figure class=&quot;image is-16x16&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-32x32"><img src="art/dragotar.svg"></figure>
+          </div>
+          <div class="card-content">
+            <figure><code>&lt;figure class=&quot;image is-32x32&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-48x48"><img src="art/dragotar.svg"></figure>
+          </div>
+          <div class="card-content">
+            <figure><code>&lt;figure class=&quot;image is-48x48&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-64x64"><img src="art/dragotar.svg"></figure>
+          </div>
+          <div class="card-content">
+            <figure><code>&lt;figure class=&quot;image is-64x64&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card is-fullwidth">
+          <div class="card-image">
+            <figure class="image is-128x128"><img src="art/dragotar.svg"></figure>
+          </div>
+          <div class="card-content">
+            <figure><code>&lt;figure class=&quot;image is-128x128&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="column">
     <h3>ratios</h3>
-    <div class="content"></div>
-    <table id="images" class="table is-bordered">
-      <tbody>
-        <tr>
-          <td><code>image is-square</code></td>
-          <td><figure class="image is-square"><img src="http://placehold.it/480x480"></figure></td>
-          <td>Square (or 1by1)</td>
-        </tr>
-        <tr>
-          <td><code>image is-1by1</code></td>
-          <td><figure class="image is-1by1"><img src="http://placehold.it/480x480"></figure></td>
-          <td>1 by 1</td>
-        </tr>
-        <tr>
-          <td><code>image is-4by3</code></td>
-          <td><figure class="image is-4by3"><img src="http://placehold.it/640x480"></figure></td>
-          <td>4 by 3</td>
-        </tr>
-        <tr>
-          <td><code>image is-3by2</code></td>
-          <td><figure class="image is-3by2"><img src="http://placehold.it/480x320"></figure></td>
-          <td>3 by 2</td>
-        </tr>
-        <tr>
-          <td><code>image is-16by9</code></td>
-          <td><figure class="image is-16by9"><img src="http://placehold.it/640x360"></figure></td>
-          <td>16 by 9</td>
-        </tr>
-        <tr>
-          <td><code>image is-2by1</code></td>
-          <td><figure class="image is-2by1"><img src="http://placehold.it/640x320"></figure></td>
-          <td>2 by 1</td>
-        </tr>
-      </tbody>
-    </table>
-    </div>
+    <div class="columns">
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-square"><img src="images/DSCN0703_1x1.jpg"></figure>
+          </div>
+          <div class="card-content">
+            <figure><code>image is-square</code></figure>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-1by1"><img src="images/DSCN0703_1x1.jpg"></figure>
+          </div>
+          <div class="card-content">
+            <figure><code>&lt;figure class=&quot;image is-1by1&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3"><img src="images/DSCN0703_4x3.jpg"></figure>
+          </div>
+          <div class="card-content">
+            <figure><code>&lt;figure class=&quot;image is-4by3&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-3by2"><img src="images/DSCN0703_3x2.jpg"></figure>
+          </div>
+          <div class="card-content">
+            <figure><code>&lt;figure class=&quot;image is-3by2&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-16by9"><img src="images/DSCN0703_16x9.jpg"></figure>
+          </div>
+          <div class="card-content">
+            <figure><code>&lt;figure class=&quot;image is-6by9&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure>
+          </div>
+        </div>
+      </div>
+      <div class="column is-2">
+        <div class="card is-fullwidth">
+          <div class="card-image">
+            <figure class="image is-2by1"><img src="images/DSCN0703_2x1.jpg"></figure>
+          </div>
+          <div class="card-content">
+            <figure><code>&lt;figure class=&quot;image is-2by1&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="content"></div>
   </div>
@@ -250,26 +296,27 @@
       <p>&lt;div class="is-overlay""&gt;&lt;/div&gt;</p>
     </div>
   </div>
-  <div class="container"> <div class="columns">
-	  <div class="column is-6">
-  <div class="container has-border is-disabled">
-    <p>&lt;div class="is-disabled"&gt;&lt;/div&gt;</p>
-    <p> <a class="button is-outlined is-disabled">Try to click</a> </p>
-  </div>
-	  </div>
-	  	  <div class="column is-6">
-  <div class="container has-border">
-    <p>&lt;div class="is-unselectable"&gt;&lt;/div&gt; </p>
-    <p class="is-unselectable">Just try and select this text </p>
-  </div>
-
-	  	  </div></div>
-  <div class="container has-border is-marginless">
-    <p>&lt;div class="is-marginless"&gt;&lt;/div&gt;</p>
-  </div>
-  <div class="container has-border">
-    <p>&lt;div class="has-border"&gt;&lt;/div&gt; </p>
-  </div>
+  <div class="container">
+    <div class="columns">
+      <div class="column is-6">
+        <div class="container has-border is-disabled">
+          <p>&lt;div class="is-disabled"&gt;&lt;/div&gt;</p>
+          <p> <a class="button is-outlined is-disabled">Try to click</a> </p>
+        </div>
+      </div>
+      <div class="column is-6">
+        <div class="container has-border">
+          <p>&lt;div class="is-unselectable"&gt;&lt;/div&gt; </p>
+          <p class="is-unselectable">Just try and select this text </p>
+        </div>
+      </div>
+    </div>
+    <div class="container has-border is-marginless">
+      <p>&lt;div class="is-marginless"&gt;&lt;/div&gt;</p>
+    </div>
+    <div class="container has-border">
+      <p>&lt;div class="has-border"&gt;&lt;/div&gt; </p>
+    </div>
   </div>
 </section>
 <section class="section" id="display">
@@ -278,7 +325,7 @@
     <hr>
   </div>
   <div class="container">
-    <h3>Show</h3>
+    <h3>Show / Hide</h3>
     <div class="content">
       <p> You can use one of the following <code>display</code> classes: </p>
       <ul>
@@ -288,152 +335,86 @@
         <li><code>inline-block</code></li>
         <li><code>inline-flex</code></li>
       </ul>
-      <p>For example, here's what the <code>is-flex</code> helper works:</p>
-    </div>
-    <table class="table">
-      <thead>
-        <tr>
-          <th> Class </th>
-          <th> Mobile<br>
-            Up to <code>768px</code> </th>
-          <th> Tablet<br>
-            Between <code>769px</code> and <code>979px</code> </th>
-          <th> Desktop<br>
-            Between <code>980px</code> and <code>1179px</code> </th>
-          <th> Widescreen<br>
-            Above <code>1180px</code> </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td class="is-narrow"><code>is-flex-mobile</code></td>
-          <td class="is-narrow"><p class="notification is-success">flex</p></td>
-          <td class="is-narrow"><p class="notification">unchanged</p></td>
-          <td class="is-narrow"><p class="notification">unchanged</p></td>
-          <td class="is-narrow"><p class="notification">unchanged</p></td>
-        </tr>
-        <tr>
-          <td class="is-narrow"><code>is-flex-tablet-only</code></td>
-          <td class="is-narrow"><p class="notification">unchanged</p></td>
-          <td class="is-narrow"><p class="notification is-success">flex</p></td>
-          <td class="is-narrow"><p class="notification">unchanged</p></td>
-          <td class="is-narrow"><p class="notification">unchanged</p></td>
-        </tr>
-        <tr>
-          <td class="is-narrow"><code>is-flex-desktop-only</code></td>
-          <td class="is-narrow"><p class="notification">unchanged</p></td>
-          <td class="is-narrow"><p class="notification">unchanged</p></td>
-          <td class="is-narrow"><p class="notification is-success">flex</p></td>
-          <td class="is-narrow"><p class="notification">unchanged</p></td>
-        </tr>
-        <tr>
-          <td class="is-narrow"><code>is-flex-widescreen</code></td>
-          <td class="is-narrow"><p class="notification">unchanged</p></td>
-          <td class="is-narrow"><p class="notification">unchanged</p></td>
-          <td class="is-narrow"><p class="notification">unchanged</p></td>
-          <td class="is-narrow"><p class="notification is-success">flex</p></td>
-        </tr>
-        <tr>
-          <th colspan="4"> <p>Classes to display <strong>up to</strong> or <strong>from</strong> a specific breakpoint</p>
-          </th>
-        </tr>
-        <tr>
-          <td class="is-narrow"><code>is-flex-touch</code></td>
-          <td class="is-narrow"><p class="notification is-success">flex</p></td>
-          <td class="is-narrow"><p class="notification is-success">flex</p></td>
-          <td class="is-narrow"><p class="notification">unchanged</p></td>
-          <td class="is-narrow"><p class="notification">unchanged</p></td>
-        </tr>
-        <tr>
-          <td class="is-narrow"><code>is-flex-tablet</code></td>
-          <td class="is-narrow"><p class="notification">unchanged</p></td>
-          <td class="is-narrow"><p class="notification is-success">flex</p></td>
-          <td class="is-narrow"><p class="notification is-success">flex</p></td>
-          <td class="is-narrow"><p class="notification is-success">flex</p></td>
-        </tr>
-        <tr>
-          <td class="is-narrow"><code>is-flex-desktop</code></td>
-          <td class="is-narrow"><p class="notification">unchanged</p></td>
-          <td class="is-narrow"><p class="notification">unchanged</p></td>
-          <td class="is-narrow"><p class="notification is-success">flex</p></td>
-          <td class="is-narrow"><p class="notification is-success">flex</p></td>
-        </tr>
-      </tbody>
-    </table>
-    <div class="content">
       <p>For the other display options, just replace <code>is-flex</code> with <code>is-block</code> <code>is-inline</code> <code>is-inline-block</code> or <code>is-inline-flex</code> </p>
-      <hr>
-      <h3>Hide</h3>
-      <table class="table">
-        <thead>
-          <tr>
-            <th> Class </th>
-            <th> Mobile<br>
-              Up to <code>768px</code> </th>
-            <th> Tablet<br>
-              Between <code>769px</code> and <code>979px</code> </th>
-            <th> Desktop<br>
-              Between <code>980px</code> and <code>1179px</code> </th>
-            <th> Widescreen<br>
-              Above <code>1180px</code> </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="is-narrow"><code>is-hidden-mobile</code></td>
-            <td class="is-narrow"><p class="notification">hidden</p></td>
-            <td class="is-narrow"><p class="notification is-success">visible</p></td>
-            <td class="is-narrow"><p class="notification is-success">visible</p></td>
-            <td class="is-narrow"><p class="notification is-success">visible</p></td>
-          </tr>
-          <tr>
-            <td class="is-narrow"><code>is-hidden-tablet-only</code></td>
-            <td class="is-narrow"><p class="notification is-success">visible</p></td>
-            <td class="is-narrow"><p class="notification">hidden</p></td>
-            <td class="is-narrow"><p class="notification is-success">visible</p></td>
-            <td class="is-narrow"><p class="notification is-success">visible</p></td>
-          </tr>
-          <tr>
-            <td class="is-narrow"><code>is-hidden-desktop-only</code></td>
-            <td class="is-narrow"><p class="notification is-success">visible</p></td>
-            <td class="is-narrow"><p class="notification is-success">visible</p></td>
-            <td class="is-narrow"><p class="notification">hidden</p></td>
-            <td class="is-narrow"><p class="notification is-success">visible</p></td>
-          </tr>
-          <tr>
-            <td class="is-narrow"><code>is-hidden-widescreen</code></td>
-            <td class="is-narrow"><p class="notification is-success">visible</p></td>
-            <td class="is-narrow"><p class="notification is-success">visible</p></td>
-            <td class="is-narrow"><p class="notification is-success">visible</p></td>
-            <td class="is-narrow"><p class="notification">hidden</p></td>
-          </tr>
-          <tr>
-            <th colspan="4"> <p>Classes to hide <strong>up to</strong> or <strong>from</strong> a specific breakpoint</p>
-            </th>
-          </tr>
-          <tr>
-            <td class="is-narrow"><code>is-hidden-touch</code></td>
-            <td class="is-narrow"><p class="notification">hidden</p></td>
-            <td class="is-narrow"><p class="notification">hidden</p></td>
-            <td class="is-narrow"><p class="notification is-success">visible</p></td>
-            <td class="is-narrow"><p class="notification is-success">visible</p></td>
-          </tr>
-          <tr>
-            <td class="is-narrow"><code>is-hidden-tablet</code></td>
-            <td class="is-narrow"><p class="notification is-success">visible</p></td>
-            <td class="is-narrow"><p class="notification">hidden</p></td>
-            <td class="is-narrow"><p class="notification">hidden</p></td>
-            <td class="is-narrow"><p class="notification">hidden</p></td>
-          </tr>
-          <tr>
-            <td class="is-narrow"><code>is-hidden-desktop</code></td>
-            <td class="is-narrow"><p class="notification is-success">visible</p></td>
-            <td class="is-narrow"><p class="notification is-success">visible</p></td>
-            <td class="is-narrow"><p class="notification">hidden</p></td>
-            <td class="is-narrow"><p class="notification">hidden</p></td>
-          </tr>
-        </tbody>
-      </table>
+    </div>
+    <div class="columns is-multiline">
+      <div class="column is-one-quarter">
+        <div class="card">
+          <div class="card-content">
+            <h2>Mobile</h2>
+            <p>Up to 768px</p>
+            <hr>
+            <p>.is-flex-mobile</p>
+            <p>.is-hidden-mobile</p>
+          </div>
+        </div>
+      </div>
+      <div class="column is-one-quarter">
+        <div class="card">
+          <div class="card-content">
+            <h2>Tablet</h2>
+            <p>Between <strong>769px</strong> and <strong>979px</strong></p>
+            <hr>
+            <p>.is-flex-tablet-only</p>
+            <p>.is-hidden-tablet-only</p>
+          </div>
+        </div>
+      </div>
+      <div class="column is-one-quarter">
+        <div class="card">
+          <div class="card-content">
+            <h2>Desktop</h2>
+            <p>Between <strong>980px</strong> and <strong>1179px</strong></p>
+            <hr>
+            <p>.is-flex-desktop-only</p>
+            <p>.is-hidden-desktop-only</p>
+          </div>
+        </div>
+      </div>
+      <div class="column is-one-quarter">
+        <div class="card">
+          <div class="card-content">
+            <h2>Widescreen</h2>
+            <p>Above <strong>1180px</strong></p>
+            <hr>
+            <p>.is-flex-widescreen</p>
+            <p>.is-hidden-widescreen</p>
+          </div>
+        </div>
+      </div>
+      <div class="column is-one-quarter">
+        <div class="card">
+          <div class="card-content">
+            <h2>Touch</h2>
+            <p>Up to <strong>979px</strong></p>
+            <hr>
+            <p>.is-flex-touch</p>
+            <p>.is-hidden-touch</p>
+          </div>
+        </div>
+      </div>
+      <div class="column is-one-quarter">
+        <div class="card">
+          <div class="card-content">
+            <h2>Tablet</h2>
+            <p>Above <strong>768px</strong></p>
+            <hr>
+            <p>.is-flex-tablet</p>
+            <p>.is-hidden-tablet</p>
+          </div>
+        </div>
+      </div>
+      <div class="column is-one-quarter">
+        <div class="card">
+          <div class="card-content">
+            <h2>Desktop</h2>
+            <p>Between <strong>980px</strong> and <strong>1179px</strong></p>
+            <hr>
+            <p>.is-flex-desktop</p>
+            <p>.is-hidden-desktop</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>

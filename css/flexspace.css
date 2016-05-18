@@ -692,8 +692,6 @@ a {
     color: #2a2a2a; }
 
 code {
-  background: #f5f7fa;
-  color: #c5443b;
   font-size: 12px;
   font-weight: normal;
   padding: 1px 2px 2px; }
@@ -721,16 +719,12 @@ strong {
   font-weight: 700; }
 
 pre {
-  background: #f5f7fa;
-  color: #3a3a3a;
   white-space: pre;
   word-wrap: normal; }
   pre code {
-    background: #f5f7fa;
-    color: #3a3a3a;
     display: block;
     overflow-x: auto;
-    padding: 16px 20px; }
+    padding: 4px 5px; }
 
 table {
   width: 100%; }
@@ -861,7 +855,7 @@ h6 {
   .content.is-large code {
     font-size: 18px; }
 
-.block:not(:last-child), .content:not(:last-child), .box:not(:last-child), .fixed:not(:last-child), .notification:not(:last-child), .progress:not(:last-child), .highlight:not(:last-child), .level:not(:last-child), .message:not(:last-child), .navbar:not(:last-child), .tabs:not(:last-child) {
+.block:not(:last-child), .content:not(:last-child), .box:not(:last-child), .fixed:not(:last-child), .notification:not(:last-child), .progress:not(:last-child), .level:not(:last-child), .message:not(:last-child), .navbar:not(:last-child), .tabs:not(:last-child) {
   margin-bottom: 20px; }
 
 .container {
@@ -3156,16 +3150,6 @@ a.fixed:active {
   margin-bottom: 5px;
   text-transform: uppercase; }
 
-.highlight {
-  font-size: 12px;
-  font-weight: normal;
-  max-width: 100%;
-  overflow: hidden;
-  padding: 0; }
-  .highlight pre {
-    overflow: auto;
-    max-width: 100%; }
-
 .loader, .button.is-loading:after, .pagination a.is-loading:after, .control.is-loading:after {
   animation: spin-around 500ms infinite linear;
   border: 2px solid #d3d6db;
@@ -3823,130 +3807,6 @@ a.fixed:active {
     .tile.is-12 {
       flex: none;
       width: 100%; } }
-
-.highlight {
-  background-color: #fdf6e3;
-  color: #586e75; }
-  .highlight .c {
-    color: #93a1a1; }
-  .highlight .err,
-  .highlight .g {
-    color: #586e75; }
-  .highlight .k {
-    color: #859900; }
-  .highlight .l,
-  .highlight .n {
-    color: #586e75; }
-  .highlight .o {
-    color: #859900; }
-  .highlight .x {
-    color: #cb4b16; }
-  .highlight .p {
-    color: #586e75; }
-  .highlight .cm {
-    color: #93a1a1; }
-  .highlight .cp {
-    color: #859900; }
-  .highlight .c1 {
-    color: #93a1a1; }
-  .highlight .cs {
-    color: #859900; }
-  .highlight .gd {
-    color: #2aa198; }
-  .highlight .ge {
-    color: #586e75;
-    font-style: italic; }
-  .highlight .gr {
-    color: #dc322f; }
-  .highlight .gh {
-    color: #cb4b16; }
-  .highlight .gi {
-    color: #859900; }
-  .highlight .go,
-  .highlight .gp {
-    color: #586e75; }
-  .highlight .gs {
-    color: #586e75;
-    font-weight: bold; }
-  .highlight .gu {
-    color: #cb4b16; }
-  .highlight .gt {
-    color: #586e75; }
-  .highlight .kc {
-    color: #cb4b16; }
-  .highlight .kd {
-    color: #268bd2; }
-  .highlight .kn,
-  .highlight .kp {
-    color: #859900; }
-  .highlight .kr {
-    color: #268bd2; }
-  .highlight .kt {
-    color: #dc322f; }
-  .highlight .ld {
-    color: #586e75; }
-  .highlight .m,
-  .highlight .s {
-    color: #2aa198; }
-  .highlight .na {
-    color: #B58900; }
-  .highlight .nb {
-    color: #586e75; }
-  .highlight .nc {
-    color: #268bd2; }
-  .highlight .no {
-    color: #cb4b16; }
-  .highlight .nd {
-    color: #268bd2; }
-  .highlight .ni,
-  .highlight .ne {
-    color: #cb4b16; }
-  .highlight .nf {
-    color: #268bd2; }
-  .highlight .nl,
-  .highlight .nn,
-  .highlight .nx,
-  .highlight .py {
-    color: #586e75; }
-  .highlight .nt,
-  .highlight .nv {
-    color: #268bd2; }
-  .highlight .ow {
-    color: #859900; }
-  .highlight .w {
-    color: #586e75; }
-  .highlight .mf,
-  .highlight .mh,
-  .highlight .mi,
-  .highlight .mo {
-    color: #2aa198; }
-  .highlight .sb {
-    color: #93a1a1; }
-  .highlight .sc {
-    color: #2aa198; }
-  .highlight .sd {
-    color: #586e75; }
-  .highlight .s2 {
-    color: #2aa198; }
-  .highlight .se {
-    color: #cb4b16; }
-  .highlight .sh {
-    color: #586e75; }
-  .highlight .si,
-  .highlight .sx {
-    color: #2aa198; }
-  .highlight .sr {
-    color: #dc322f; }
-  .highlight .s1,
-  .highlight .ss {
-    color: #2aa198; }
-  .highlight .bp,
-  .highlight .vc,
-  .highlight .vg,
-  .highlight .vi {
-    color: #268bd2; }
-  .highlight .il {
-    color: #2aa198; }
 
 .level-item .h1,
 .level-item .h3 {
@@ -4679,6 +4539,77 @@ a.panel-block:hover {
 
 #helpers .container {
   margin-bottom: 20px; }
+
+.header .continer {
+  min-height: 0; }
+
+.highlight {
+  background-color: transparent; }
+
+/*
+    Name:     Kimbie (dark)
+    Author:   Jan T. Sott
+    License:  Creative Commons Attribution-ShareAlike 4.0 Unported License
+    URL:      https://github.com/idleberg/Kimbie-highlight.js
+*/
+/* Kimbie Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #d6baad; }
+
+/* Kimbie Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-meta {
+  color: #dc3958; }
+
+/* Kimbie Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-deletion,
+.hljs-link {
+  color: #f79a32; }
+
+/* Kimbie Yellow */
+.hljs-title,
+.hljs-section,
+.hljs-attr {
+  color: #f06431; }
+
+/* Kimbie Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+  color: #889b4a; }
+
+/* Kimbie Purple */
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-function {
+  color: #98676a; }
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #221a0f;
+  color: #d3af86;
+  padding: 1.5em; }
+
+.hljs-emphasis {
+  font-style: italic; }
+
+.hljs-strong {
+  font-weight: bold; }
 
 /*!
 Animate.css - http://daneden.me/animate
