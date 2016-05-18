@@ -4568,8 +4568,44 @@ a.panel-block:hover {
 .highlight {
   background-color: transparent; }
 
-.mini {
+.code-blu {
+  background-color: #152335;
+  color: #f0f0f0;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  padding: .5em; }
+
+.code-blk {
   background-color: #2a2a2a;
+  color: #f0f0f0;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  padding: .5em; }
+
+.code-prp {
+  background-color: #321536;
+  color: #f0f0f0;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  padding: .5em; }
+
+.code-org {
+  background-color: #74361f;
+  color: #f0f0f0;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  padding: .5em; }
+
+.code-red {
+  background-color: #36151a;
   color: #f0f0f0;
   width: 100%;
   text-align: center;
@@ -4582,6 +4618,15 @@ a.panel-block:hover {
 
 .items-centered {
   justify-content: space-around; }
+
+.purple {
+  background-color: #321536; }
+
+.red {
+  background-color: #36151a; }
+
+.orange {
+  background-color: #74361f; }
 
 /*
     Name:     Kimbie (dark)
