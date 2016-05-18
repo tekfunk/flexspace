@@ -1475,7 +1475,7 @@
           <a class="link is-info">Menu</a>
         </p>
         <p class="level-item has-text-centered">
-          <img src="/images/bulma.png" alt="" style="height: 33px;">
+          <img src="../art/dragotar.svg" alt="" style="height: 33px;">
         </p>
         <p class="level-item has-text-centered">
           <a class="link is-info">Reservations</a>
@@ -1494,7 +1494,7 @@
     <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"link is-info"</span><span class="nt">&gt;</span>Menu<span class="nt">&lt;/a&gt;</span>
   <span class="nt">&lt;/p&gt;</span>
   <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"level-item has-text-centered"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/images/bulma.png"</span> <span class="na">alt=</span><span class="s">""</span> <span class="na">style=</span><span class="s">"height: 33px;"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"../art/dragotar.svg"</span> <span class="na">alt=</span><span class="s">""</span> <span class="na">style=</span><span class="s">"height: 33px;"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;/p&gt;</span>
   <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"level-item has-text-centered"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"link is-info"</span><span class="nt">&gt;</span>Reservations<span class="nt">&lt;/a&gt;</span>
