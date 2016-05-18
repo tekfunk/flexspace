@@ -55,8 +55,6 @@ a {
 }
 
 code {
-  background: $code-background;
-  color: $code;
   font-size: 12px;
   font-weight: normal;
   padding: 1px 2px 2px;
@@ -93,16 +91,11 @@ strong {
 // Block
 
 pre {
-  background: $pre-background;
-  color: $pre;
   white-space: pre;
   word-wrap: normal;
   code {
-    background: $pre-background;
-    color: $pre;
     display: block;
     overflow-x: auto;
-//    padding: 16px 20px;
     padding: 4px 5px;
 
   }

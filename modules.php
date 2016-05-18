@@ -1,13 +1,13 @@
 <?php include('inc/head.php'); ?>
 <?php include('inc/header.php'); ?>
 <section class="fixed bottom right">
-  <h3><a href="#box">box</a> | <a href="#fixed">fixed</a> | <a href="#card">card</a> | <a href="#media">media</a> | <a href="#messages">messages</a> | <a href="#notifications">notifications</a> | <a href="#tags">tags</a>| <a href="#modal">modal</a> </h3>
+  <h3><a href="#box">box</a> | <a href="#fixed">fixed</a> | <a href="#card">card</a> | <a href="#code">code</a> | <a href="#media">media</a> | <a href="#messages">messages</a> | <a href="#notifications">notifications</a> | <a href="#tags">tags</a>| <a href="#modal">modal</a> </h3>
 </section>
 <section class="hero is-success">
   <div class="hero-body">
     <div class="container">
       <h1>modules - content containers</h1>
-      <h3><a href="#box">box</a> | <a href="#fixed">fixed</a> | <a href="#card">card</a> | <a href="#media">media</a> | <a href="#messages">messages</a> | <a href="#notifications">notifications</a> | <a href="#tags">tags</a>| <a href="#modal">modal</a> </h3>
+      <h3><a href="#box">box</a> | <a href="#fixed">fixed</a> | <a href="#card">card</a> | <a href="#code">code</a> | <a href="#media">media</a> | <a href="#messages">messages</a> | <a href="#notifications">notifications</a> | <a href="#tags">tags</a>| <a href="#modal">modal</a> </h3>
     </div>
   </div>
 </section>
@@ -98,6 +98,32 @@
 </div>
 	</div>
 </section>
+<section class="section" id="code">
+	<div class="container">
+		<h1>code</h1>
+		<hr>
+		<div class="columns">
+			<div class="column is-one-half">
+<!-- Target -->
+<div class="card is-fullwidth">
+<div class="card-content">
+<pre><code id="clip-test" class="html">&lt;pre&gt;
+&lt;code id=&quot;xxx&quot; class=&quot;html&quot;&gt;&lt;/code&gt;
+&lt;/pre&gt;
+&lt;a data-clipboard-target=&quot;#xxx&quot;&gt;&lt;/a&gt;</code></pre></div>
+<div class="card-footer"><a class="button icon-edit" data-clipboard-target="#clip-test"></a></div>
+</div>		
+</div>
+
+
+  <div class="column">
+    
+  </div>
+  
+</div>
+	</div>
+</section>
+
 <section class="section" id="media">
   <div class="container">
     <h1>media</h1>
