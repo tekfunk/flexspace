@@ -7,7 +7,7 @@
   <div class="hero-body">
     <div class="container">
       <h1>grid</h1>
-  <h3><a href="#columns">columns</a> | <a href="#sizing">sizing</a> | <a href="#tiles">tiles</a> | <a href="#tables">tables</a> | <a href="#level">level</a></h3>
+      <h3><a href="#columns">columns</a> | <a href="#sizing">sizing</a> | <a href="#tiles">tiles</a> | <a href="#tables">tables</a> | <a href="#level">level</a></h3>
     </div>
   </div>
 </section>
@@ -17,30 +17,44 @@
     <hr>
     <div class="columns">
       <div class="column">
-        <p class="notification is-info">.column</p>
+        <p class="notification is-info"></p>
       </div>
       <div class="column">
-        <p class="notification is-success">.column</p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning">.column</p>
-      </div>
-      <div class="column">
-        <p class="notification is-danger">.column</p>
+        <p class="notification is-success"></p>
       </div>
     </div>
-  </div>
+    <div class="columns is-multiline">
+      <div class="column  is-1-4">
+        <p class="notification is-warning"></p>
+      </div>
+      <div class="column  is-1-2">
+        <p class="notification is-danger"></p>
+      </div>
+      <div class="column">
+        <p class="notification is-danger"></p>
+      </div>
+      <div class="column is-2-3">
+        <p class="notification is-danger"></p>
+      </div>
+      <div class="column">
+        <p class="notification is-warning"></p>
+      </div>
+    </div>
+   <hr />
+ </div>
   <div class="container">
     <div class="columns">
       <div class="column">
-        <div class="card is-fullwidth">
-          <pre><code id="col-4" class="html hljs xml">&lt;div class=&quot;columns&quot;&gt;
-	&lt;div class=&quot;column&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;column&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;column&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;column&quot;&gt;&lt;/div&gt;
-&lt;/div&gt;</code></pre>
-          <a class="button icon-edit" data-clipboard-target="#col-4"></a> </div>
+        <div class="content">
+          <p>Wrap up to as many columns as you want in <code class="mini">class="columns"</code> If you dont want them to stay on the same row add <code class="mini">is-multiline</code>.</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="box">
+          <pre><code id="col-sizes" class="html hljs xml">&lt;div class=&quot;columns&quot;&gt;<br />      &lt;div class=&quot;column&quot;&gt;&lt;/div&gt;<br />      &lt;div class=&quot;column&quot;&gt;&lt;/div&gt;<br />&lt;/div&gt;
+&lt;div class=&quot;columns is-multiline&quot;&gt;<br />      &lt;div class=&quot;column  is-1-4&quot;&gt;&lt;/div&gt;<br />      &lt;div class=&quot;column  is-1-2&quot;&gt;&lt;/div&gt;<br />      &lt;div class=&quot;column&quot;&gt;&lt;/div&gt;<br />      &lt;div class=&quot;column is-2-3&quot;&gt;&lt;/div&gt;<br />      &lt;div class=&quot;column&quot;&gt;&lt;/div&gt;<br />&lt;/div&gt;</code>
+</pre>
+          <a class="button icon-edit" data-clipboard-target="#col-sizes"></a> </div>
       </div>
     </div>
   </div>
@@ -49,154 +63,166 @@
   <div class="container">
     <h1>sizing</h1>
     <hr>
-    <p>To size the columns, add the is- class</p>
-    <div class="columns">
-      <div class="column is-full">
-        <p class="mini">.is-full</p>
+    <div class="content">
+      <p>To size the columns, add the .is-X-X class.  Columns work on desktop and tablet.</p>
+    </div>
+    <div class="container" id="da-grid">
+      <div class="columns">
+        <div class="column is-full">
+          <p class="mini">.is-full</p>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-1-12">
+          <p class="mini">.is-1-12</p>
+        </div>
+        <div class="column is-11-12">
+          <p class="mini">.is-11-12</p>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-1-10">
+          <p class="mini">.is-1-10</p>
+        </div>
+        <div class="column is-9-10">
+          <p class="mini">.is-9-10</p>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-1-2">
+          <div class="content">
+            <p>To place the columns, add the .is-offset-X-X class. To keep the columns on mobile, add the .is-mobile class
+              If you only want columns on desktop, just use the .is-desktop 
+              To get rid of the spacing, add the is-gapless class</p>
+          </div>
+        </div>
+        <div class="column is-1-2">
+          <div class="box">
+            <pre><code id="col-sizes" class="html hljs xml">&lt;div class=&quot;columns&quot;&gt;<br />      &lt;div class=&quot;column is-full&quot;&gt;<br />        &lt;p class=&quot;mini&quot;&gt;.is-full&lt;/p&gt;<br />      &lt;/div&gt;<br />    &lt;/div&gt;
+&lt;div class=&quot;columns&quot;&gt;<br />      &lt;div class=&quot;column is-1-12&quot;&gt;<br />        &lt;p class=&quot;mini&quot;&gt;.is-1-12&lt;/p&gt;<br />      &lt;/div&gt;<br />      &lt;div class=&quot;column is-11-12&quot;&gt;<br />        &lt;p class=&quot;mini&quot;&gt;.is-11-12&lt;/p&gt;<br />      &lt;/div&gt;<br />    &lt;/div&gt;
+&lt;div class=&quot;columns&quot;&gt;<br />      &lt;div class=&quot;column is-1-10&quot;&gt;<br />        &lt;p class=&quot;mini&quot;&gt;.is-1-10&lt;/p&gt;<br />      &lt;/div&gt;<br />      &lt;div class=&quot;column is-9-10&quot;&gt;<br />        &lt;p class=&quot;mini&quot;&gt;.is-9-10&lt;/p&gt;<br />      &lt;/div&gt;<br />    &lt;/div&gt;</code>
+</pre>
+            <a class="button icon-edit" data-clipboard-target="#ccol-sizes"></a> </div>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-1-8">
+          <p class="mini">.is-1-8</p>
+        </div>
+        <div class="column is-7-8">
+          <p class="mini">.is-7-8</p>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-1-6">
+          <p class="mini">.is-1-6</p>
+        </div>
+        <div class="column is-5-6">
+          <p class="mini">.is-5-6</p>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-1-5">
+          <p class="mini">.is-1-5</p>
+        </div>
+        <div class="column is-4-5">
+          <p class="mini">.is-4-5</p>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-1-2">
+          <div class="box">
+            <pre><code id="col-sizes" class="html hljs xml"></code>
+</pre>
+            <a class="button icon-edit" data-clipboard-target="#ccol-sizes"></a> </div>
+        </div>
+        <div class="column is-1-2">
+          <div class="content">
+            <p>To place the columns, add the .is-offset-X-X class. To keep the columns on mobile, add the .is-mobile class
+              If you only want columns on desktop, just use the .is-desktop 
+              To get rid of the spacing, add the is-gapless class</p>
+          </div>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-1-4">
+          <p class="mini">.is-1-4</p>
+        </div>
+        <div class="column is-3-4">
+          <p class="mini">.is-3-4</p>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-1-3">
+          <p class="mini">.is-1-3</p>
+        </div>
+        <div class="column is-2-3">
+          <p class="mini">.is-2-3</p>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-1-2">
+          <p class="mini">.is-1-2</p>
+        </div>
+        <div class="column is-1-4 is-offset-1-8">
+          <p class="mini">.is-1-4 .is-offset-1-8</p>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-1-2">
+          <div class="content">
+            <p>To place the columns, add the .is-offset-X-X class. To keep the columns on mobile, add the .is-mobile class
+              If you only want columns on desktop, just use the .is-desktop 
+              To get rid of the spacing, add the is-gapless class</p>
+          </div>
+        </div>
+        <div class="column is-1-2">
+          <div class="box">
+            <pre><code id="col-sizes" class="html hljs xml"></code>
+</pre>
+            <a class="button icon-edit" data-clipboard-target="#ccol-sizes"></a> </div>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-7-12">
+          <p class="mini">.is-7-12</p>
+        </div>
+        <div class="column is-5-12">
+          <p class="mini">.is-5-12</p>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-5-8">
+          <p class="mini">.is-5-8</p>
+        </div>
+        <div class="column is-3-8">
+          <p class="mini">.is-3-8</p>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-7-10">
+          <p class="mini">.is-7-10</p>
+        </div>
+        <div class="column is-3-10">
+          <p class="mini">.is-3-10</p>
+        </div>
       </div>
     </div>
-    <div class="columns">
-      <div class="column is-1-12">
-        <p class="mini">.is-1-12</p>
-      </div>
-      <div class="column is-11-12">
-        <p class="mini">.is-11-12</p>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column is-1-10">
-        <p class="mini">.is-1-10</p>
-      </div>
-      <div class="column is-9-10">
-        <p class="mini">.is-9-10</p>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column is-1-8">
-        <p class="mini">.is-1-8</p>
-      </div>
-      <div class="column is-7-8">
-        <p class="mini">.is-7-8</p>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column is-1-6">
-        <p class="mini">.is-1-6</p>
-      </div>
-      <div class="column is-5-6">
-        <p class="mini">.is-5-6</p>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column is-1-5">
-        <p class="mini">.is-1-5</p>
-      </div>
-      <div class="column is-4-5">
-        <p class="mini">.is-4-5</p>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column is-1-4">
-        <p class="mini">.is-1-4</p>
-      </div>
-      <div class="column is-3-4">
-        <p class="mini">.is-3-4</p>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column is-1-3">
-        <p class="mini">.is-1-3</p>
-      </div>
-      <div class="column is-2-3">
-        <p class="mini">.is-2-3</p>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column is-1-2">
-        <p class="mini">.is-1-2</p>
-      </div>
-      <div class="column is-1-4 is-offset-1-8">
-        <p class="mini">.is-1-4 .is-offset-1-8</p>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column is-7-12">
-        <p class="mini">.is-7-12</p>
-      </div>
-      <div class="column is-5-12">
-        <p class="mini">.is-5-12</p>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column is-5-8">
-        <p class="mini">.is-5-8</p>
-      </div>
-      <div class="column is-3-8">
-        <p class="mini">.is-3-8</p>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column is-7-10">
-        <p class="mini">.is-7-10</p>
-      </div>
-      <div class="column is-3-10">
-        <p class="mini">.is-3-10</p>
-      </div>
-    </div>
+    <div class="content">
+      <p>To place the columns, add the .is-offset-X-X class</p>
+      <p>To keep the columns on mobile, add the .is-mobile class</p>
+      If you only want columns on desktop, just use the .is-desktop 
+      To get rid of the spacing, add the is-gapless class </div>
+    <div class="box">
+      <pre>
+<code id="col-sizes" class="html"></code>
+</pre>
+      <a class="button icon-edit" data-clipboard-target="#ccol-sizes"></a> </div>
   </div>
 </section>
 <section class="section" id="responsive">
   <div class="container">
     <h3>Responsive</h3>
-    <div class="content">
-      <p>By default, columns are only activated from <strong>tablet</strong> onwards. This means columns are stacked on top of each other on <strong>mobile</strong>.</p>
-      <p>If you want columns to work on <strong>mobile too</strong>, just add the <code>is-mobile</code> modifier on the <code>columns</code> container:</p>
-    </div>
-    <div class="columns is-mobile">
-      <div class="column">
-        <p class="notification is-info">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-success">2</p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning">3</p>
-      </div>
-      <div class="column">
-        <p class="notification is-danger">4</p>
-      </div>
-    </div>
-    <figure class="highlight">
-      <pre>
-<code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"columns is-mobile"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>1<span class="nt">&lt;/div&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>2<span class="nt">&lt;/div&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>3<span class="nt">&lt;/div&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>4<span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code>
-</pre>
-    </figure>
-    <div class="message is-info">
-      <p class="message-header">Resize</p>
-      <p class="message-body">If you want to see the difference, resize your browser and see <em>when</em> the columns are stacked and when they are horizontally distributed.</p>
-    </div>
-    <div class="content">
-      <p>If you <em>only</em> want columns on <strong>desktop</strong>, just use the <code>is-desktop</code> modifier on the <code>columns</code> container:</p>
-    </div>
-    <div class="columns is-desktop">
-      <div class="column">
-        <p class="notification is-info">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-success">2</p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning">3</p>
-      </div>
-      <div class="column">
-        <p class="notification is-danger">4</p>
-      </div>
-    </div>
     <h4 class="title is-4">Different sizes per breakpoint</h4>
     <div class="content">
       <p>You can define a <strong>column size</strong> for <em>each</em> viewport size: mobile, tablet, and desktop.</p>
@@ -218,95 +244,6 @@
       </div>
       <div class="column">
         <p class="notification is-warning">1</p>
-      </div>
-    </div>
-    <div class="message is-info">
-      <p class="message-header">Resize</p>
-      <p class="message-body">If you want to see these classes in action, resize your browser window and see how the same column varies in width at each breakpoint.</p>
-    </div>
-    <hr>
-    <h3>Multiline</h3>
-    <div class="content">
-      <p>Whenever you want to start a new line, you can close a <code>columns</code> container and start a new one. But you can also add the <code>is-multiline</code> modifier and add <strong>more</strong> column elements that would fit in a single row.</p>
-    </div>
-    <div class="columns is-multiline is-mobile">
-      <div class="column is-1-4">
-        <p class="notification is-info"><code>is-1-4</code></p>
-      </div>
-      <div class="column is-1-4">
-        <p class="notification is-success"><code>is-1-4</code></p>
-      </div>
-      <div class="column is-1-4">
-        <p class="notification is-warning"><code>is-1-4</code></p>
-      </div>
-      <div class="column is-1-4">
-        <p class="notification is-danger"><code>is-1-4</code></p>
-      </div>
-      <div class="column is-1-2">
-        <p class="notification is-info"><code>is-1-2</code></p>
-      </div>
-      <div class="column is-1-4">
-        <p class="notification is-success"><code>is-1-4</code></p>
-      </div>
-      <div class="column is-1-4">
-        <p class="notification is-warning"><code>is-1-4</code></p>
-      </div>
-      <div class="column is-1-4">
-        <p class="notification is-danger"><code>is-1-4</code></p>
-      </div>
-      <div class="column">
-        <p class="notification is-info">Auto</p>
-      </div>
-    </div>
-    <hr>
-    <h3>Gapless</h3>
-    <div class="content">
-      <p>If you want to remove the <strong>space</strong> between the columns, add the <code>is-gapless</code> modifier on the <code>columns</code> container:</p>
-    </div>
-    <div class="columns is-gapless">
-      <div class="column">
-        <p class="notification is-info">First column</p>
-      </div>
-      <div class="column">
-        <p class="notification is-success">Second column</p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning">Third column</p>
-      </div>
-      <div class="column">
-        <p class="notification is-danger">Fourth column</p>
-      </div>
-    </div>
-    <div class="content">
-      <p>You can combine it with the <code>is-multiline</code> modifier:</p>
-    </div>
-    <div class="columns is-multiline is-mobile is-gapless">
-      <div class="column is-1-4">
-        <p class="notification is-info"><code>is-1-4</code></p>
-      </div>
-      <div class="column is-1-4">
-        <p class="notification is-success"><code>is-1-4</code></p>
-      </div>
-      <div class="column is-1-4">
-        <p class="notification is-warning"><code>is-1-4</code></p>
-      </div>
-      <div class="column is-1-4">
-        <p class="notification is-danger"><code>is-1-4</code></p>
-      </div>
-      <div class="column is-1-2">
-        <p class="notification is-info"><code>is-1-2</code></p>
-      </div>
-      <div class="column is-1-4">
-        <p class="notification is-success"><code>is-1-4</code></p>
-      </div>
-      <div class="column is-1-4">
-        <p class="notification is-warning"><code>is-1-4</code></p>
-      </div>
-      <div class="column is-1-4">
-        <p class="notification is-danger"><code>is-1-4</code></p>
-      </div>
-      <div class="column">
-        <p class="notification is-info">Auto</p>
       </div>
     </div>
     <hr>
