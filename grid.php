@@ -45,279 +45,68 @@
     </div>
   </div>
   <div class="container">
-    <div class="columns">
-      <div class="column is-3-4">
-        <p class="notification is-info"><code class="html">is-3-4</code></p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning">Auto</p>
-      </div>
-      <div class="column">
-        <p class="notification is-danger">Auto</p>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column is-2-3">
-        <p class="notification is-info"><code class="html">is-2-3</code></p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning">Auto</p>
-      </div>
-      <div class="column">
-        <p class="notification is-danger">Auto</p>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column is-1-2">
-        <p class="notification is-info"><code class="html">is-1-2</code></p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning">Auto</p>
-      </div>
-      <div class="column">
-        <p class="notification is-danger">Auto</p>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column is-1-3">
-        <p class="notification is-info"><code class="html">is-1-3</code></p>
-      </div>
-      <div class="column">
-        <p class="notification is-success">Auto</p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning">Auto</p>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column is-1-4">
-        <p class="notification is-info"><code class="html">is-1-4</code></p>
-      </div>
-      <div class="column">
-        <p class="notification is-success">Auto</p>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column is-2">
-        <p class="notification is-info"><code>is-2</code></p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-success has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-success has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-success has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-success has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-success has-text-centered">1</p>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column is-3">
-        <p class="notification is-info"><code>is-3</code></p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-success has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-success has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-success has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-success has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning has-text-centered">1</p>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column is-4">
-        <p class="notification is-info"><code>is-4</code></p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-success has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-success has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-success has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-success has-text-centered">1</p>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column is-5">
-        <p class="notification is-info"><code>is-5</code></p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-success has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-success has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-success has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning has-text-centered">1</p>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column is-6">
-        <p class="notification is-info"><code>is-6</code></p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-success has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-success has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-success has-text-centered">1</p>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column is-7">
-        <p class="notification is-info"><code>is-7</code></p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-success has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-success has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning has-text-centered">1</p>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column is-8">
-        <p class="notification is-info"><code>is-8</code></p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-success has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-success has-text-centered">1</p>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column is-9">
-        <p class="notification is-info"><code>is-9</code></p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-success has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning has-text-centered">1</p>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column is-10">
-        <p class="notification is-info"><code>is-10</code></p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning has-text-centered">1</p>
-      </div>
-      <div class="column">
-        <p class="notification is-success has-text-centered">1</p>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column is-11">
-        <p class="notification is-info"><code>is-11</code></p>
-      </div>
-      <div class="column">
-        <p class="notification is-warning has-text-centered">1</p>
-      </div>
-    </div>
+	      <h1>sized</h1>
     <hr>
-    <div class="columns is-mobile">
+<div class="columns">
+	<div class="column is-full"> <pre><code class="html">.is-full</code></pre></div>
+</div>
+<div class="columns">
+	<div class="column is-1-2"> <pre><code class="html">.is-1-2</code></pre></div>
+</div>
+<div class="columns">
+	<div class="column is-1-3"> <pre><code class="html">.is-1-3</code></pre></div>
+	<div class="column is-2-3"> <pre><code class="html">.is-2-3</code></pre></div>
+</div>
+<div class="columns">
+	<div class="column is-1-4"> <pre><code class="html">.is-1-4</code></pre></div>
+	<div class="column is-3-4"> <pre><code class="html">.is-3-4</code></pre></div>
+</div>
+<div class="columns">
+	<div class="column is-1-5"> <pre><code class="html">.is-1-5</code></pre></div>
+	<div class="column is-4-5"> <pre><code class="html">.is-1-5</code></pre></div>
+</div>
+<div class="columns">
+	<div class="column is-2-5"> <pre><code class="html">.is-2-5</code></pre></div>
+	<div class="column is-3-5"> <pre><code class="html">.is-3-5</code></pre></div>
+
+</div>
+<div class="columns">
+	<div class="column is-1-6"> <pre><code class="html">.is-1-6</code></pre></div>
+	<div class="column is-4-6"> <pre><code class="html">.is-4-6</code></pre></div>
+</div>
+<div class="columns">
+	<div class="column is-1-8"> <pre><code class="html">.is-1-8</code></pre></div>
+	<div class="column is-5-8"> <pre><code class="html">.is-5-8</code></pre></div>
+</div>
+<div class="columns">
+	<div class="column is-3-8"> <pre><code class="html">.is-3-8</code></pre></div>
+	<div class="column is-7-8"> <pre><code class="html">.is-7-8</code></pre></div>
+</div>
+<div class="columns">
+	<div class="column is-1-10"> <pre><code class="html">.is-1-10</code></pre></div>
+	<div class="column is-3-10"> <pre><code class="html">.is-3-10</code></pre></div>
+</div>
+<div class="columns">
+	<div class="column is-7-10"> <pre><code class="html">.is-7-10</code></pre></div>
+</div>
+<div class="columns">
+	<div class="column is-9-10"> <pre><code class="html">.is-9-10</code></pre></div>
+</div>
+<div class="columns">
+	<div class="column is-1-12"> <pre><code class="html">.is-1-12</code></pre></div>
+	<div class="column is-5-12"> <pre><code class="html">.is-5-12</code></pre></div>
+</div>
+<div class="columns">
+	<div class="column is-7-12"> <pre><code class="html">.is-7-12</code></pre></div>
+</div>
+<div class="columns">
+	<div class="column is-11-12"> <pre><code class="html">.is-11-12</code></pre></div>
+</div>
+<div class="columns is-mobile">
       <div class="column is-1-2 is-offset-1-4">
         <p class="notification is-info"><code class="html">is-1-2</code><br>
           <code class="html">is-offset-1-4</code></p>
-      </div>
+		  </div>
     </div>
     <div class="columns is-mobile">
       <div class="column is-4 is-offset-8">
