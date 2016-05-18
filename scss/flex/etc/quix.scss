@@ -6,6 +6,18 @@
 .has-bkd-pattern-3 { background: $bkd-pattern-3; background-size: cover; background-position: center;}
 
 
+
+
 #helpers .container {margin-bottom: 20px;}
 .header .continer { min-height: 0; }
 .highlight { background-color: transparent; }
+.mini { background-color: #2a2a2a;
+color: #f0f0f0;
+width: 100%;
+text-align: center;
+font-size: 12px;
+font-weight: bold;
+padding: .5em;}
+
+.to-edges { justify-content: space-between; }
+.items-centered { justify-content: space-around; }
