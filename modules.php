@@ -70,7 +70,7 @@
 		<h1>card</h1>
 		<hr>
 		<div class="columns">
-			<div class="column is-one-half">
+			<div class="column is-1-2">
 				<div class="card is-fullwidth">
 					<header class="card-header"><p class="card-header-title"> MIXES </p><a class="card-header-icon"> <i class="ics icon-chevdown"></i> </a> </header>
 					<div class="card-image"><div class="image is-3by2"> <img src="art/dot-space-4.svg" alt=""> </div></div>
@@ -103,7 +103,7 @@
 		<h1>code</h1>
 		<hr>
 		<div class="columns">
-			<div class="column is-one-half">
+			<div class="column is-1-2">
 <!-- Target -->
 <div class="card is-fullwidth">
 <div class="card-content">
@@ -196,7 +196,7 @@
     <h1>messages</h1>
     <hr>
     <div class="columns">
-      <div class="column is-half">
+      <div class="column is-1-2">
         <article class="message">
           <div class="message-header"> Hello World </div>
           <div class="message-body"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque risus mi, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum felis venenatis efficitur. Aenean ac eleifend lacus, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem. </div>
@@ -212,7 +212,7 @@
           <div class="message-body"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque risus mi, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum felis venenatis efficitur. Aenean ac eleifend lacus, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem. </div>
         </article>
       </div>
-      <div class="column is-half">
+      <div class="column is-1-2">
         <figure class="highlight">
           <pre><code class="language-html" data-lang="html"><span class="nt">&lt;article</span> <span class="na">class=</span><span class="s">"message"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"message-header"</span><span class="nt">&gt;</span><span class="nt">&lt;/div&gt;</span>

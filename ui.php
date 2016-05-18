@@ -323,7 +323,7 @@
       <p>When combining several controls in a <strong>form</strong>, use the <code>.control</code> class as a <strong>container</strong>, to keep the spacing consistent.</p>
     </div>
     <div class="columns">
-      <div class="column is-half">
+      <div class="column is-1-2">
         <label class="label">Name</label>
         <p class="control">
           <input class="input" type="text" placeholder="Text input">
@@ -366,7 +366,7 @@
           <button class="button is-link">Cancel</button>
         </p>
       </div>
-      <div class="column is-half">
+      <div class="column is-1-2">
         <figure class="highlight">
           <pre>
 <code class="language-html" data-lang="html"><span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"label"</span><span class="nt">&gt;</span>Name<span class="nt">&lt;/label&gt;</span>
@@ -427,7 +427,7 @@
     <hr>
     <h3>Colors</h3>
     <div class="columns">
-      <div class="column is-half">
+      <div class="column is-1-2">
         <p class="control">
           <input class="input is-primary" type="text" placeholder="Primary input">
         </p>
@@ -444,7 +444,7 @@
           <input class="input is-danger" type="text" placeholder="Danger input">
         </p>
       </div>
-      <div class="column is-half">
+      <div class="column is-1-2">
         <figure class="highlight">
           <pre>
 <code class="language-html" data-lang="html"><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control"</span><span class="nt">&gt;</span>
@@ -470,7 +470,7 @@
     <hr>
     <h3>Sizes</h3>
     <div class="columns">
-      <div class="column is-half">
+      <div class="column is-1-2">
         <p class="control">
           <input class="input is-small" type="text" placeholder="Small input">
         </p>
@@ -484,7 +484,7 @@
           <input class="input is-large" type="text" placeholder="Large input">
         </p>
       </div>
-      <div class="column is-half">
+      <div class="column is-1-2">
         <figure class="highlight">
           <pre>
 <code class="language-html" data-lang="html"><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control"</span><span class="nt">&gt;</span>
@@ -508,7 +508,7 @@
     <h3>States</h3>
     <h4>Loading</h4>
     <div class="columns">
-      <div class="column is-half">
+      <div class="column is-1-2">
         <p class="control is-loading">
           <input class="input" type="text" placeholder="Loading input">
         </p>
@@ -517,7 +517,7 @@
 </textarea>
         </p>
       </div>
-      <div class="column is-half">
+      <div class="column is-1-2">
         <figure class="highlight">
           <pre>
 <code class="language-html" data-lang="html"><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control is-loading"</span><span class="nt">&gt;</span>
@@ -533,7 +533,7 @@
     </div>
     <h4>Disabled</h4>
     <div class="columns">
-      <div class="column is-half">
+      <div class="column is-1-2">
         <p class="control">
           <input class="input" type="text" placeholder="Disabled input" disabled>
         </p>
@@ -559,7 +559,7 @@
           <button class="button" disabled>Cancel</button>
         </p>
       </div>
-      <div class="column is-half">
+      <div class="column is-1-2">
         <figure class="highlight">
           <pre>
 <code class="language-html" data-lang="html"><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control"</span><span class="nt">&gt;</span>
@@ -595,7 +595,7 @@
     </div>
     <h4>With Font Awesome icons</h4>
     <div class="columns">
-      <div class="column is-half">
+      <div class="column is-1-2">
         <p class="control has-icon">
           <input class="input" type="email" placeholder="Email">
         </p>
@@ -606,7 +606,7 @@
           <button class="button is-success">Login</button>
         </p>
       </div>
-      <div class="column is-half">
+      <div class="column is-1-2">
         <figure class="highlight">
           <pre>
 <code class="language-html" data-lang="html"><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control has-icon"</span><span class="nt">&gt;</span>
@@ -628,7 +628,7 @@
       </div>
     </div>
     <div class="columns">
-      <div class="column is-half">
+      <div class="column is-1-2">
         <p class="control has-icon">
           <input class="input is-small" type="email" placeholder="Email">
         </p>
@@ -654,7 +654,7 @@
           <input class="input is-large" type="email" placeholder="Email">
         </p>
       </div>
-      <div class="column is-half">
+      <div class="column is-1-2">
         <figure class="highlight">
           <pre>
 <code class="language-html" data-lang="html"><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control has-icon"</span><span class="nt">&gt;</span>

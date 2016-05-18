@@ -10,13 +10,13 @@
     </div>
     <div class="container has-text-centered">
       <div class="columns">
-        <div class="column is-one-third ">
+        <div class="column is-1-3 ">
           <h3 class="subtitle">flexable</h3>
         </div>
-        <div class="column is-one-third">
+        <div class="column is-1-3">
           <h3 class="subtitle">modular</h3>
         </div>
-        <div class="column is-one-third">
+        <div class="column is-1-3">
           <h3 class="subtitle">extendable</h3>
         </div>
       </div>
