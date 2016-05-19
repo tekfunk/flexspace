@@ -1,11 +1,11 @@
-.card-header {
+.mod-header {
   align-items: stretch;
   box-shadow: 0 1px 2px rgba($black, 0.1);
   display: flex;
   min-height: 40px;
 }
 
-.card-header-title {
+.mod-header-title {
   align-items: flex-start;
   color: $text-strong;
   display: flex;
@@ -14,7 +14,7 @@
   padding: 10px;
 }
 
-.card-header-icon {
+.mod-header-icon {
   align-items: center;
   cursor: pointer;
   display: flex;
@@ -22,25 +22,25 @@
   width: 40px;
 }
 
-.card-image {
+.mod-image {
   display: block;
   position: relative;
 }
 
-.card-content {
+.mod-content {
   padding: 20px;
   .h1 + .h3 {
     margin-top: -20px;
   }
 }
 
-.card-footer {
+.mod-footer {
   border-top: 1px solid $border;
   align-items: stretch;
   display: flex;
 }
 
-.card-footer-item {
+.mod-footer-item {
   align-items: center;
   display: flex;
   flex: 1;
@@ -51,20 +51,19 @@
   }
 }
 
-.card {
+.mod {
   background: $white;
   box-shadow: 0 2px 3px rgba($black, 0.1), 0 0 0 1px rgba($black, 0.1);
   color: $text;
   max-width: 100%;
   position: relative;
-  width: 300px;
   .media:not(:last-child) {
     margin-bottom: 10px;
   }
   // Modifiers
-  &.is-fullwidth {
-    width: 100%;
-  }
+  //&.is-fullwidth {
+    //width: 100%;
+  //}
   &.is-rounded {
     border-radius: 5px;
   }

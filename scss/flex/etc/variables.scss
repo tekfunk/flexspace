@@ -1,17 +1,9 @@
 // Editable Variables
 
 //Palette
-
-
-$bkd-image-1: url('../images/img-4998.jpg');
-$bkd-image-2: url('../images/img-4998.jpg');
-$bkd-image-3: url('../images/img-4998.jpg');
-$bkd-hero-1: url('../art/panadot.svg');
-$bkd-hero-2: url('../art/panadot.svg');
-$bkd-hero-3: url('../art/panadot.svg');
-$bkd-pattern-1: url('../art/dot-space-1.svg');
-$bkd-pattern-2: url('../art/dot-space-2.svg');
-$bkd-pattern-3: url('../art/dot-space-3.svg');
+$primary: #2957a6 !default;
+$secondary: #fbb041 !default;
+$accent: #49425a !default;
 
 $black: #1a1a1a !default;
 $grey-darker: #2a2a2a !default;
@@ -27,6 +19,16 @@ $purple: #847bb9 !default;
 $red: #c5443b !default;
 $turquoise: #14b1c4 !default;
 $yellow: #fce473 !default;
+
+// 2. Primary colors
+
+$success: $green !default;
+$alert: $yellow !default;
+$light: $grey-lighter !default;
+$dark: $grey-dark !default;
+$text: $grey-dark !default;
+
+
 
 //Type
 $font-headline: "SimianText-Orangutan", sans-serif !default;
@@ -60,27 +62,28 @@ $radius: 0px !default;
 $speed: 86ms !default;
 $btn-radius: 0px !default;
 
+// Images
+$bkd-image-1: url('../images/img-4998.jpg');
+$bkd-image-2: url('../images/img-4998.jpg');
+$bkd-image-3: url('../images/img-4998.jpg');
+$bkd-hero-1: url('../art/panadot.svg');
+$bkd-hero-2: url('../art/panadot.svg');
+$bkd-hero-3: url('../art/panadot.svg');
+$bkd-pattern-1: url('../art/dot-space-1.svg');
+$bkd-pattern-2: url('../art/dot-space-2.svg');
+$bkd-pattern-3: url('../art/dot-space-3.svg');
+$bkd-pattern-4: url('../art/dot-space-4.svg');
 
-// 2. Primary colors
-
-$primary: $turquoise !default;
-$info: $blue !default;
-$success: $green !default;
-$warning: $yellow !default;
-$danger: $red !default;
-$light: $grey-lighter !default;
-$dark: $grey-dark !default;
-$text: $grey-dark !default;
 
 // 3. Generated variables
 
 // Invert colors
 
 $primary-invert: findColorInvert($primary) !default;
-$info-invert: findColorInvert($info) !default;
+$accent-invert: findColorInvert($accent) !default;
 $success-invert: findColorInvert($success) !default;
-$warning-invert: findColorInvert($warning) !default;
-$danger-invert: findColorInvert($danger) !default;
+$alert-invert: findColorInvert($alert) !default;
+$secondary-invert: findColorInvert($secondary) !default;
 $light-invert: $dark !default;
 $dark-invert: $light !default;
 // General colors
@@ -126,5 +129,5 @@ $size-large: $size-3 !default;
 $size-huge: $size-1 !default;
 // 4. Lists and maps
 
-$colors: (white: ($white, $black), black: ($black, $white), light: ($light, $light-invert), dark: ($dark, $dark-invert), primary: ($primary, $primary-invert), info: ($info, $info-invert), success: ($success, $success-invert), warning: ($warning, $warning-invert), danger: ($danger, $danger-invert)) !default;
+$colors: (white: ($white, $black), black: ($black, $white), light: ($light, $light-invert), dark: ($dark, $dark-invert), primary: ($primary, $primary-invert), accent: ($accent, $accent-invert), success: ($success, $success-invert), alert: ($alert, $alert-invert), secondary: ($secondary, $secondary-invert)) !default;
 $sizes: $size-1 $size-2 $size-3 $size-4 $size-5 $size-6 !default;

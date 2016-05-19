@@ -30,7 +30,7 @@
     <div class="content">
       <p>To <strong>activate</strong> the modal, just add the <code>is-active</code> modifier on the <code>.modal</code> container</p>
     </div>
-    <div class="message is-danger">
+    <div class="message is-secondary">
       <div class="message-header"> No JavaScript </div>
       <div class="message-body"> Bulma does <strong>not</strong> include any JavaScript interaction. You will have to implement the class toggle yourself </div>
     </div>

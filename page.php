@@ -1,13 +1,17 @@
 <?php include('inc/head.php'); ?>
 <?php include('inc/header.php'); ?>
-<section class="fixed bottom right">
+<section id="page-nav">
   <h3><a href="#layout">layout</a> | <a href="#container">container</a> | <a href="#hero">hero</a> | <a href="#content">content</a> | <a href="#images">images</a> | <a href="#helpers">helpers</a> | <a href="#display">display</a></h3>
 </section>
-<section class="hero is-warning">
-  <div class="hero-body">
-    <div class="container">
+<section class="hero blue">
+  <div class="is-flx-hero-4">
+    <div class="hero-header">
+      <div class="mod trans-white">
+        <div class="mod-content has-text-centered">
       <h1>page - basic page elements</h1>
       <h3><a href="#layout">layout</a> | <a href="#container">container</a> | <a href="#hero">hero</a> | <a href="#content">content</a> | <a href="#images">images</a> | <a href="#helpers">helpers</a> | <a href="#display">display</a></h3>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -18,7 +22,7 @@
     <p>Basic page structure.</p>
     <div class="columns">
       <div class="column">
-        <div class="card is-fullwidth">
+        <div class="box">
           <pre><code id="basic-layout" class="html">&lt;body&gt;
 	&lt;header class=&quot;header&quot;&gt;&lt;/header&gt;
 	&lt;section class=&quot;hero&quot;&gt;&lt;/section&gt;
@@ -53,11 +57,11 @@
 <section class="section">
   <div class="container">
       <div class="column">
-        <div class="card is-fullwidth">
+        <div class="box">
           <pre><code id="hero-med" class="html">&lt;section class=&quot;hero is-medium has-bkd-pattern-3&quot;&gt;<br />  &lt;div class=&quot;hero-head&quot;&gt;&lt;/div&gt;<br />   &lt;div class=&quot;hero-body has-text-centered&quot;&gt;
     &lt;h1&gt;&lt;/h1&gt;
     &lt;h2&gt;&lt;/h2&gt;
-   &lt;/div&gt;<br />  &lt;div class=&quot;hero-footer&quot;&gt;&lt;/div&gt;<br />&lt;/section&gt;</code></pre>
+   &lt;/div&gt;<br />  &lt;div class=&quot;hero-footer&quot;&gt;&lt;/div&gt;<br />&lt;/section&gt;</code></pre><br>
           <a class="button icon-edit" data-clipboard-target="#hero-med"></a> </div>
       </div>
   </div>
@@ -77,11 +81,11 @@
   <div class="container">
     <div class="columns">
       <div class="column">
-        <div class="card is-fullwidth">
+        <div class="box">
           <pre><code id="hero-full" class="html">&lt;section class=&quot;hero is-medium has-bkd-pattern-3&quot;&gt;<br />  &lt;div class=&quot;hero-head&quot;&gt;&lt;/div&gt;<br />   &lt;div class=&quot;hero-body has-text-centered&quot;&gt;
     &lt;h1&gt;&lt;/h1&gt;
     &lt;h2&gt;&lt;/h2&gt;
-   &lt;/div&gt;<br />  &lt;div class=&quot;hero-footer&quot;&gt;&lt;/div&gt;<br />&lt;/section&gt;</code></pre>
+   &lt;/div&gt;<br />  &lt;div class=&quot;hero-footer&quot;&gt;&lt;/div&gt;<br />&lt;/section&gt;</code></pre><br>
           <a class="button icon-edit" data-clipboard-target="#hero-full"></a> </div>
       </div>
     </div>
@@ -155,61 +159,61 @@
     <h3>squares</h3>
     <div class="columns">
       <div class="column">
-        <div class="card">
-          <div class="card-image">
+        <div class="mod">
+          <div class="mod-image">
             <figure class="image is-16x16 is-center"><img src="art/dragotar.svg"></figure>
           </div>
-          <div class="card-content">
+          <div class="mod-content">
             <figure><code>&lt;figure class=&quot;image is-16x16&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure>
           </div>
         </div>
       </div>
       <div class="column">
-        <div class="card">
-          <div class="card-image">
+        <div class="mod">
+          <div class="mod-image">
             <figure class="image is-24x24"><img src="art/dragotar.svg"></figure>
           </div>
-          <div class="card-content">
+          <div class="mod-content">
             <figure><code>&lt;figure class=&quot;image is-16x16&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure>
           </div>
         </div>
       </div>
       <div class="column">
-        <div class="card">
-          <div class="card-image">
+        <div class="mod">
+          <div class="mod-image">
             <figure class="image is-32x32"><img src="art/dragotar.svg"></figure>
           </div>
-          <div class="card-content">
+          <div class="mod-content">
             <figure><code>&lt;figure class=&quot;image is-32x32&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure>
           </div>
         </div>
       </div>
       <div class="column">
-        <div class="card">
-          <div class="card-image">
+        <div class="mod">
+          <div class="mod-image">
             <figure class="image is-48x48"><img src="art/dragotar.svg"></figure>
           </div>
-          <div class="card-content">
+          <div class="mod-content">
             <figure><code>&lt;figure class=&quot;image is-48x48&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure>
           </div>
         </div>
       </div>
       <div class="column">
-        <div class="card">
-          <div class="card-image">
+        <div class="mod">
+          <div class="mod-image">
             <figure class="image is-64x64"><img src="art/dragotar.svg"></figure>
           </div>
-          <div class="card-content">
+          <div class="mod-content">
             <figure><code>&lt;figure class=&quot;image is-64x64&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure>
           </div>
         </div>
       </div>
       <div class="column">
-        <div class="card is-fullwidth">
-          <div class="card-image">
+        <div class="mod">
+          <div class="mod-image">
             <figure class="image is-128x128"><img src="art/dragotar.svg"></figure>
           </div>
-          <div class="card-content">
+          <div class="mod-content">
             <figure><code>&lt;figure class=&quot;image is-128x128&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure>
           </div>
         </div>
@@ -218,61 +222,61 @@
     <h3>ratios</h3>
     <div class="columns">
       <div class="column">
-        <div class="card">
-          <div class="card-image">
+        <div class="mod">
+          <div class="mod-image">
             <figure class="image is-square"><img src="images/DSCN0703_1x1.jpg"></figure>
           </div>
-          <div class="card-content">
+          <div class="mod-content">
             <figure><code>image is-square</code></figure>
           </div>
         </div>
       </div>
       <div class="column">
-        <div class="card">
-          <div class="card-image">
+        <div class="mod">
+          <div class="mod-image">
             <figure class="image is-1by1"><img src="images/DSCN0703_1x1.jpg"></figure>
           </div>
-          <div class="card-content">
+          <div class="mod-content">
             <figure><code>&lt;figure class=&quot;image is-1by1&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure>
           </div>
         </div>
       </div>
       <div class="column">
-        <div class="card">
-          <div class="card-image">
+        <div class="mod">
+          <div class="mod-image">
             <figure class="image is-4by3"><img src="images/DSCN0703_4x3.jpg"></figure>
           </div>
-          <div class="card-content">
+          <div class="mod-content">
             <figure><code>&lt;figure class=&quot;image is-4by3&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure>
           </div>
         </div>
       </div>
       <div class="column">
-        <div class="card">
-          <div class="card-image">
+        <div class="mod">
+          <div class="mod-image">
             <figure class="image is-3by2"><img src="images/DSCN0703_3x2.jpg"></figure>
           </div>
-          <div class="card-content">
+          <div class="mod-content">
             <figure><code>&lt;figure class=&quot;image is-3by2&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure>
           </div>
         </div>
       </div>
       <div class="column">
-        <div class="card">
-          <div class="card-image">
+        <div class="mod">
+          <div class="mod-image">
             <figure class="image is-16by9"><img src="images/DSCN0703_16x9.jpg"></figure>
           </div>
-          <div class="card-content">
+          <div class="mod-content">
             <figure><code>&lt;figure class=&quot;image is-6by9&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure>
           </div>
         </div>
       </div>
       <div class="column is-2">
-        <div class="card is-fullwidth">
-          <div class="card-image">
+        <div class="mod">
+          <div class="mod-image">
             <figure class="image is-2by1"><img src="images/DSCN0703_2x1.jpg"></figure>
           </div>
-          <div class="card-content">
+          <div class="mod-content">
             <figure><code>&lt;figure class=&quot;image is-2by1&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure>
           </div>
         </div>
@@ -337,10 +341,10 @@
       </ul>
       <p>For the other display options, just replace <code>is-flex</code> with <code>is-block</code> <code>is-inline</code> <code>is-inline-block</code> or <code>is-inline-flex</code> </p>
     </div>
-    <div class="columns is-multiline">
+    <div class="columns is-stacked">
       <div class="column is-one-quarter">
-        <div class="card">
-          <div class="card-content">
+        <div class="mod">
+          <div class="mod-content">
             <h2>Mobile</h2>
             <p>Up to 768px</p>
             <hr>
@@ -350,8 +354,8 @@
         </div>
       </div>
       <div class="column is-one-quarter">
-        <div class="card">
-          <div class="card-content">
+        <div class="mod">
+          <div class="mod-content">
             <h2>Tablet</h2>
             <p>Between <strong>769px</strong> and <strong>979px</strong></p>
             <hr>
@@ -361,8 +365,8 @@
         </div>
       </div>
       <div class="column is-one-quarter">
-        <div class="card">
-          <div class="card-content">
+        <div class="mod">
+          <div class="mod-content">
             <h2>Desktop</h2>
             <p>Between <strong>980px</strong> and <strong>1179px</strong></p>
             <hr>
@@ -372,8 +376,8 @@
         </div>
       </div>
       <div class="column is-one-quarter">
-        <div class="card">
-          <div class="card-content">
+        <div class="mod">
+          <div class="mod-content">
             <h2>Widescreen</h2>
             <p>Above <strong>1180px</strong></p>
             <hr>
@@ -383,8 +387,8 @@
         </div>
       </div>
       <div class="column is-one-quarter">
-        <div class="card">
-          <div class="card-content">
+        <div class="mod">
+          <div class="mod-content">
             <h2>Touch</h2>
             <p>Up to <strong>979px</strong></p>
             <hr>
@@ -394,8 +398,8 @@
         </div>
       </div>
       <div class="column is-one-quarter">
-        <div class="card">
-          <div class="card-content">
+        <div class="mod">
+          <div class="mod-content">
             <h2>Tablet</h2>
             <p>Above <strong>768px</strong></p>
             <hr>
@@ -405,8 +409,8 @@
         </div>
       </div>
       <div class="column is-one-quarter">
-        <div class="card">
-          <div class="card-content">
+        <div class="mod">
+          <div class="mod-content">
             <h2>Desktop</h2>
             <p>Between <strong>980px</strong> and <strong>1179px</strong></p>
             <hr>
