@@ -21,76 +21,122 @@
     <hr>
     <div class="columns">
       <div class="column">
-        <div class="block">
-          <h4>.is-white, .is-light, .is-dark, .is-black, .is-link</h4>
-          <button class="button">Button</button>
-          <button class="button is-white">White</button>
-          <button class="button is-light">Light</button>
-          <button class="button is-dark">Dark</button>
-          <button class="button is-black">Black</button>
-          <button class="button is-link">Link</button>
+        <div class="media block to-edges"> <a class="button">Button</a> <a class="button is-white">White</a> <a class="button is-light">Light</a> <a class="button is-dark">Dark</a> <a class="button is-black">Black</a> <a class="button is-link">Link</a> </div>
+        <div class="media block to-edges"> <a class="button is-primary">Primary</a> <a class="button is-secondary">Secondary</a> <a class="button is-accent">Accent</a> <a class="button is-success">Success</a> <a class="button is-alert">Alert</a> </div>
+        <div class="content">
+          <div class="notification">
+            <p>To create a button, add <strong>.button</strong>.</p>
+            <p>Colors can be assigned with <strong>.is-$color</strong> from the choices in the code box. </p>
+          </div>
         </div>
       </div>
       <div class="column">
-        <div class="block">
-          <h4>.is-primary, .is-accent, .is-success, .is-alert, .is-secondary</h4>
-          <button class="button is-primary">Primary</button>
-          <button class="button is-accent">accent</button>
-          <button class="button is-success">Success</button>
-          <button class="button is-alert">alert</button>
-          <button class="button is-secondary">secondary</button>
+        <div class="box">
+          <pre>
+<code id="ui-1" class="html">&lt;a class=&quot;a&quot;&gt;Button&lt;/a&gt;
+&lt;a class=&quot;button is-white&quot;&gt;White&lt;/a&gt;
+&lt;a class=&quot;button is-light&quot;&gt;Light&lt;/a&gt;
+&lt;a class=&quot;button is-dark&quot;&gt;Dark&lt;/a&gt;
+&lt;a class=&quot;button is-black&quot;&gt;Black&lt;/a&gt;
+&lt;a class=&quot;button is-link&quot;&gt;Link&lt;/a&gt;
+&lt;a class=&quot;button is-primary&quot;&gt;Primary&lt;/a&gt;
+&lt;a class=&quot;button is-secondary&quot;&gt;Secondary&lt;/a&gt;
+&lt;a class=&quot;button is-accent&quot;&gt;Accent&lt;/a&gt;
+&lt;a class=&quot;button is-success&quot;&gt;Success&lt;/a&gt;
+&lt;a class=&quot;button is-alert&quot;&gt;Alert&lt;/a&gt;
+</code>
+</pre>
+          <a class="button icon-clipboard" data-clipboard-target="#ui-1"></a> </div>
+      </div>
+    </div>
+    <hr>
+    <div class="columns">
+      <div class="column">
+        <div class="media block to-edges">
+	        <a class="button"><i class="ics icon-rollthe"></i>Throw Dice</a> 
+	        <a class="button is-primary"><i class="ics icon-headphones"></i>Listen</a> 
+			<a class="button is-secondary is-outlined"><i class="ics icon-lightbulb"></i>Get Ideas</a> 
+	        <a class="button is-success"><i class="ics icon-circlecheck"></i>OK</a> 
+	    </div>
+        <div class="media block to-edges"> <a class="button is-small">Small</a> <a class="button">Normal</a> <a class="button is-medium">Medium</a> <a class="button is-large">Large</a> </div>
+        <div class="content">
+          <div class="notification">
+            <p><a href="art.php">Available icons</a> can be added with <strong>&lt;i class=&quot;ics icon-$name&quot;&gt;&lt;/i&gt;</strong></p>
+            <p>Other Sizes can be assigned with <strong>.is-small</strong>, .<strong>is-medium</strong>, .<strong>is-large</strong>.</p>
+          </div>
         </div>
       </div>
-    </div>
-    <hr>
-    <div class="columns">
       <div class="column">
-        <h4>.is-outlined</h4>
-        <a class="button is-outlined">Outlined</a> <a class="button is-primary is-outlined">Outlined</a> <a class="button is-accent is-outlined">Outlined</a> <a class="button is-success is-outlined">Outlined</a> <a class="button is-secondary is-outlined">Outlined</a> </div>
-      <div class="column">
-        <h4>.is-inverted</h4>
-        <div class="notification is-primary"> <a class="button is-primary is-inverted">Inverted</a> <a class="button is-accent is-inverted">Inverted</a> <a class="button is-success is-inverted">Inverted</a> <a class="button is-secondary is-inverted">Inverted</a> </div>
+        <div class="box">
+          <pre>
+<code id="ui-1" class="html">&lt;a class=&quot;button&quot;&gt;
+  &lt;i class=&quot;ics icon-rollthe&quot;&gt;&lt;/i&gt;
+  Throw Dice
+&lt;/a&gt; <br />&lt;a class=&quot;button is-primary&quot;&gt;&lt;i class=&quot;ics icon-headphones&quot;&gt;&lt;/i&gt;Listen&lt;/a&gt; <br />&lt;a class=&quot;button is-secondary is-outlined&quot;&gt;&lt;i class=&quot;ics icon-lightbulb&quot;&gt;&lt;/i&gt;Get Ideas&lt;/a&gt; <br />&lt;a class=&quot;button is-success&quot;&gt;&lt;i class=&quot;ics icon-circlecheck&quot;&gt;&lt;/i&gt;OK&lt;/a&gt; 
+&lt;a class=&quot;button is-small&quot;&gt;Small&lt;/a&gt;
+&lt;a class=&quot;button is-medium&quot;&gt;Medium&lt;/a&gt;
+&lt;a class=&quot;button is-large&quot;&gt;Large&lt;/a&gt;
+</code>
+</pre>
+          <a class="button icon-clipboard" data-clipboard-target="#ui-1"></a> </div>
       </div>
     </div>
     <hr>
     <div class="columns">
       <div class="column">
-        <h4>.is-loading</h4>
-        <a class="button is-loading">Loading</a> <a class="button is-primary is-loading">Loading</a> <a class="button is-accent is-loading">Loading</a> <a class="button is-success is-loading">Loading</a> <a class="button is-alert is-loading">Loading</a> <a class="button is-secondary is-loading">Loading</a> </div>
+        <div class="block">
+          <div class="notification is-primary"> <a class="button is-inverted">Inverted</a> <a class="button is-primary is-inverted">Inverted</a> <a class="button is-accent is-inverted">Inverted</a> <a class="button is-success is-inverted">Inverted</a> <a class="button is-secondary is-inverted">Inverted</a> </div>
+        </div>
+        <div class="block"> <a class="button is-outlined">Outlined</a> <a class="button is-primary is-outlined">Outlined</a> <a class="button is-accent is-outlined">Outlined</a> <a class="button is-success is-outlined">Outlined</a> <a class="button is-secondary is-outlined">Outlined</a> </div>
+        <div class="block"> <a class="button is-loading">Loading</a> <a class="button is-primary is-loading">Loading</a> <a class="button is-accent is-loading">Loading</a> <a class="button is-success is-loading">Loading</a> <a class="button is-alert is-loading">Loading</a> <a class="button is-secondary is-loading">Loading</a> </div>
+        <div class="block"> <a class="button is-disabled">Disabled</a> <a class="button is-primary is-disabled">Disabled</a> <a class="button is-accent is-disabled">Disabled</a> <a class="button is-success is-disabled">Disabled</a> <a class="button is-alert is-disabled">Disabled</a> <a class="button is-secondary is-disabled">Disabled</a> </div>
+        <div class="content">
+          <div class="notification">
+            <p>These variations are avaiable for buttons:</p>
+            <p><strong>.is-inverted</strong> <strong>.is-outlined</strong> <strong>.is-loading</strong> <strong>.is-disabled</strong></p>
+          </div>
+        </div>
+      </div>
       <div class="column">
-        <h4>.is-disabled</h4>
-        <a class="button is-disabled" disabled>Disabled</a> <a class="button is-primary is-disabled" disabled>Disabled</a> <a class="button is-accent is-disabled" disabled>Disabled</a> <a class="button is-success is-disabled" disabled>Disabled</a> <a class="button is-alert is-disabled" disabled>Disabled</a> <a class="button is-secondary is-disabled" disabled>Disabled</a> </div>
+        <div class="box">
+          <pre>
+    <code id="ui-2" class="html">&lt;a class=&quot;button is-inverted&quot;&gt;Inverted&lt;/a&gt;
+&lt;a class=&quot;button is-outlined&quot;&gt;Outlined&lt;/a&gt;
+&lt;a class=&quot;button is-loading&quot;&gt;Loading&lt;/a&gt;
+&lt;a class=&quot;button is-disabled&quot;&gt;Disabled&lt;/a&gt;</code>
+  </pre>
+          <a class="button icon-clipboard" data-clipboard-target="#ui-2"></a> </div>
+      </div>
     </div>
     <hr>
-    <div class="block">
-      <h4>.is-small, .is-medium, .is-large</h4>
-      <a class="button is-small">Small</a> <a class="button">Normal</a> <a class="button is-medium">Medium</a> <a class="button is-large">Large</a> </div>
-    <h4>&lt;i class="ics icon-xxx"&gt;</h4>
     <div class="columns">
       <div class="column">
-        <p class="control"><a class="button"><span class="ics"><i class="icon-rollthe"></i></span> <span>GitHub</span></a> <a class="button is-primary"><span class="ics"><i class="icon-rollthe"></i></span><span>Twitter</span></a> <a class="button is-success"><span class="ics"><i class="icon-circlecheck"></i></span><span>Save</span></a> <a class="button is-secondary is-outlined"><span class="ics"><i class="icon-bomb"></i></span><span>Delete</span> </a></p>
-      </div>
-      <div class="column">
-        <p class="control"><a class="button is-small"><span>GitHub</span></a> <a class="button"> <span>GitHub</span></a> <a class="button is-medium"> <span>GitHub</span></a> <a class="button is-large"> <span>GitHub</span></a></p>
-      </div>
-    </div>
-    <hr>
-    <h3>Button group</h3>
-    <div class="content">
+        <div class="block">
+                <p class="control is-grouped"><a class="button is-primary">Save changes</a> <a class="button">Cancel</a> <a class="button is-secondary">Delete post</a></p>
+
+        </div>
+        <div class="block">            <p class="control has-addons"><a class="button"><span>Left</span></a> <a class="button"> <span>Center</span></a> <a class="button"> <span>Right</span></a></p>
+
+</div>
+         <div class="content">
+          <div class="notification">
       <p>If you want to <strong>group</strong> buttons together, use the <code>is-grouped</code> modifier on the <code>control</code> container:</p>
-    </div>
-    <div class="example">
-      <p class="control is-grouped"><a class="button is-primary">Save changes</a> <a class="button">Cancel</a> <a class="button is-secondary">Delete post</a></p>
-    </div>
-    <hr>
-    <h3>Button addons</h3>
-    <div class="content">
       <p>If you want to use buttons as <strong>addons</strong>, use the <code>has-addons</code> modifier on the <code>control</code> container:</p>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="box">
+          <pre>
+    <code id="ui-2" class="html">&lt;a class=&quot;button is-inverted&quot;&gt;Inverted&lt;/a&gt;
+&lt;a class=&quot;button is-outlined&quot;&gt;Outlined&lt;/a&gt;
+&lt;a class=&quot;button is-loading&quot;&gt;Loading&lt;/a&gt;
+&lt;a class=&quot;button is-disabled&quot;&gt;Disabled&lt;/a&gt;</code>
+  </pre>
+          <a class="button icon-clipboard" data-clipboard-target="#ui-2"></a> </div>
+      </div>
     </div>
-    <div class="example">
-      <p class="control has-addons"><a class="button"><span>Left</span></a> <a class="button"> <span>Center</span></a> <a class="button"> <span>Right</span></a></p>
     </div>
-  </div>
 </section>
 <section class="section" id="tooltip">
   <div class="container">
@@ -155,9 +201,7 @@
           <label class="panel-block">
             <input type="checkbox">
             Remember me </label>
-          <div class="panel-block">
-            <button class="button is-primary is-outlined is-fullwidth"> Reset all filters </button>
-          </div>
+          <div class="panel-block"> <a class="button is-primary is-outlined is-fullwidth"> Reset all filters </a> </div>
         </nav>
       </div>
       <div class="column">
@@ -220,14 +264,12 @@
     Remember me
   <span class="nt">&lt;/label&gt;</span>
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-block"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button is-primary is-outlined is-fullwidth"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-primary is-outlined is-fullwidth"</span><span class="nt">&gt;</span>
       Reset all filters
-    <span class="nt">&lt;/button&gt;</span>
+    <span class="nt">&lt;/a&gt;</span>
   <span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/nav&gt;</span></code></pre>
-          <button class="copy">Copy</button>
-          <button class="expand">Expand</button>
-        </figure>
+          <a class="copy">Copy</a> <a class="expand">Expand</a> </figure>
       </div>
     </div>
   </div>
@@ -301,8 +343,7 @@
     <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Balance<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
   <span class="nt">&lt;/ul&gt;</span>
 <span class="nt">&lt;/aside&gt;</span></code></pre>
-          <button class="copy">Copy</button>
-        </figure>
+          <a class="copy">Copy</a> </figure>
       </div>
     </div>
   </div>
@@ -365,10 +406,7 @@
             <input type="radio" name="question">
             No</label>
         </p>
-        <p class="control">
-          <button class="button is-primary">Submit</button>
-          <button class="button is-link">Cancel</button>
-        </p>
+        <p class="control"> <a class="button is-primary">Submit</a> <a class="button is-link">Cancel</a> </p>
       </div>
       <div class="column is-1-2">
         <figure class="highlight">
@@ -419,13 +457,11 @@
   <span class="nt">&lt;/label&gt;</span>
 <span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button is-primary"</span><span class="nt">&gt;</span>Submit<span class="nt">&lt;/button&gt;</span>
-  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button is-link"</span><span class="nt">&gt;</span>Cancel<span class="nt">&lt;/button&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-primary"</span><span class="nt">&gt;</span>Submit<span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-link"</span><span class="nt">&gt;</span>Cancel<span class="nt">&lt;/a&gt;</span>
 <span class="nt">&lt;/p&gt;</span></code>
 </pre>
-          <button class="copy">Copy</button>
-          <button class="expand">Expand</button>
-        </figure>
+          <a class="copy">Copy</a> <a class="expand">Expand</a> </figure>
       </div>
     </div>
     <hr>
@@ -467,8 +503,7 @@
   <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"input is-secondary"</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">placeholder=</span><span class="s">"secondary input"</span><span class="nt">&gt;</span>
 <span class="nt">&lt;/p&gt;</span></code>
 </pre>
-          <button class="copy">Copy</button>
-        </figure>
+          <a class="copy">Copy</a> </figure>
       </div>
     </div>
     <hr>
@@ -504,8 +539,7 @@
   <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"input is-large"</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">placeholder=</span><span class="s">"Large input"</span><span class="nt">&gt;</span>
 <span class="nt">&lt;/p&gt;</span></code>
 </pre>
-          <button class="copy">Copy</button>
-        </figure>
+          <a class="copy">Copy</a> </figure>
       </div>
     </div>
     <hr>
@@ -531,8 +565,7 @@
   <span class="nt">&lt;textarea</span> <span class="na">class=</span><span class="s">"textarea"</span> <span class="na">placeholder=</span><span class="s">"Loading textarea"</span><span class="nt">&gt;&lt;/textarea&gt;</span>
 <span class="nt">&lt;/p&gt;</span></code>
 </pre>
-          <button class="copy">Copy</button>
-        </figure>
+          <a class="copy">Copy</a> </figure>
       </div>
     </div>
     <h4>Disabled</h4>
@@ -558,10 +591,7 @@
             <input type="radio" name="question" disabled>
             No</label>
         </p>
-        <p class="control">
-          <button class="button is-primary" disabled>Submit</button>
-          <button class="button" disabled>Cancel</button>
-        </p>
+        <p class="control"> <a class="button is-primary" disabled>Submit</a> <a class="button" disabled>Cancel</a> </p>
       </div>
       <div class="column is-1-2">
         <figure class="highlight">
@@ -589,12 +619,11 @@
   <span class="nt">&lt;/label&gt;</span>
 <span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button is-primary"</span> <span class="na">disabled</span><span class="nt">&gt;</span>Submit<span class="nt">&lt;/button&gt;</span>
-  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button"</span> <span class="na">disabled</span><span class="nt">&gt;</span>Cancel<span class="nt">&lt;/button&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-primary"</span> <span class="na">disabled</span><span class="nt">&gt;</span>Submit<span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button"</span> <span class="na">disabled</span><span class="nt">&gt;</span>Cancel<span class="nt">&lt;/a&gt;</span>
 <span class="nt">&lt;/p&gt;</span></code>
 </pre>
-          <button class="copy">Copy</button>
-        </figure>
+          <a class="copy">Copy</a> </figure>
       </div>
     </div>
     <h4>With Font Awesome icons</h4>
@@ -606,9 +635,7 @@
         <p class="control has-icon">
           <input class="input" type="password" placeholder="Password">
         </p>
-        <p class="control">
-          <button class="button is-success">Login</button>
-        </p>
+        <p class="control"> <a class="button is-success">Login</a> </p>
       </div>
       <div class="column is-1-2">
         <figure class="highlight">
@@ -622,13 +649,12 @@
   <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-lock"</span><span class="nt">&gt;&lt;/i&gt;</span>
 <span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button is-success"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-success"</span><span class="nt">&gt;</span>
     Login
-  <span class="nt">&lt;/button&gt;</span>
+  <span class="nt">&lt;/a&gt;</span>
 <span class="nt">&lt;/p&gt;</span></code>
 </pre>
-          <button class="copy">Copy</button>
-        </figure>
+          <a class="copy">Copy</a> </figure>
       </div>
     </div>
     <div class="columns">
@@ -694,8 +720,7 @@
   <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-check"</span><span class="nt">&gt;&lt;/i&gt;</span>
 <span class="nt">&lt;/p&gt;</span></code>
 </pre>
-          <button class="copy">Copy</button>
-        </figure>
+          <a class="copy">Copy</a> </figure>
       </div>
     </div>
     <hr>
@@ -717,8 +742,7 @@
   <span class="nt">&lt;/a&gt;</span>
 <span class="nt">&lt;/p&gt;</span></code>
 </pre>
-      <button class="copy">Copy</button>
-    </figure>
+      <a class="copy">Copy</a> </figure>
     <div class="content">
       <p>You can attach inputs, buttons, and dropdowns.</p>
     </div>
@@ -749,8 +773,7 @@
   <span class="nt">&lt;/a&gt;</span>
 <span class="nt">&lt;/p&gt;</span></code>
 </pre>
-      <button class="copy">Copy</button>
-    </figure>
+      <a class="copy">Copy</a> </figure>
     <hr>
     <h3>Form group</h3>
     <div class="content">
@@ -770,8 +793,7 @@
   <span class="nt">&lt;/a&gt;</span>
 <span class="nt">&lt;/p&gt;</span></code>
 </pre>
-      <button class="copy">Copy</button>
-    </figure>
+      <a class="copy">Copy</a> </figure>
     <hr>
     <h3>Horizontal form</h3>
     <div class="content">
@@ -844,8 +866,7 @@
   <span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code>
 </pre>
-      <button class="copy">Copy</button>
-    </figure>
+      <a class="copy">Copy</a> </figure>
   </div>
 </section>
 <section class="section" id="tabs">
@@ -876,8 +897,7 @@
     <span class="nt">&lt;li&gt;&lt;a&gt;</span>Documents<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
   <span class="nt">&lt;/ul&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre>
-      <button class="copy">Copy</button>
-    </figure>
+      <a class="copy">Copy</a> </figure>
     <hr>
     <h3>Alignment</h3>
     <div class="content">
@@ -902,8 +922,7 @@
     <span class="nt">&lt;li&gt;&lt;a&gt;</span>Documents<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
   <span class="nt">&lt;/ul&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre>
-      <button class="copy">Copy</button>
-    </figure>
+      <a class="copy">Copy</a> </figure>
     <div class="example">
       <div class="tabs is-right">
         <ul>
@@ -923,8 +942,7 @@
     <span class="nt">&lt;li&gt;&lt;a&gt;</span>Documents<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
   <span class="nt">&lt;/ul&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre>
-      <button class="copy">Copy</button>
-    </figure>
+      <a class="copy">Copy</a> </figure>
     <div class="content">
       <p> To have several lists aligned differently, use one of <strong>3 modifiers</strong> on the <code>ul</code>: </p>
       <ul>
@@ -968,8 +986,7 @@
     <span class="nt">&lt;li&gt;&lt;a&gt;</span>Search<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
   <span class="nt">&lt;/ul&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre>
-      <button class="copy">Copy</button>
-    </figure>
+      <a class="copy">Copy</a> </figure>
     <hr>
     <h3>Icons</h3>
     <div class="content">
@@ -1009,8 +1026,7 @@
     <span class="nt">&lt;li&gt;&lt;a&gt;</span>Documents<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
   <span class="nt">&lt;/ul&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre>
-      <button class="copy">Copy</button>
-    </figure>
+      <a class="copy">Copy</a> </figure>
     <div class="example">
       <div class="tabs is-medium">
         <ul>
@@ -1030,8 +1046,7 @@
     <span class="nt">&lt;li&gt;&lt;a&gt;</span>Documents<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
   <span class="nt">&lt;/ul&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre>
-      <button class="copy">Copy</button>
-    </figure>
+      <a class="copy">Copy</a> </figure>
     <div class="example">
       <div class="tabs is-large">
         <ul>
@@ -1051,8 +1066,7 @@
     <span class="nt">&lt;li&gt;&lt;a&gt;</span>Documents<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
   <span class="nt">&lt;/ul&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre>
-      <button class="copy">Copy</button>
-    </figure>
+      <a class="copy">Copy</a> </figure>
     <hr>
     <h3>Styles</h3>
     <div class="content"> If you want a more classic style with <strong>borders</strong>, just append the <code>is-boxed</code> modifier. </div>
@@ -1095,8 +1109,7 @@
     <span class="nt">&lt;/li&gt;</span>
   <span class="nt">&lt;/ul&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre>
-      <button class="copy">Copy</button>
-    </figure>
+      <a class="copy">Copy</a> </figure>
     <p class="content"> If you want <strong>mutually exclusive</strong> tabs (like radio buttons where clicking one deselects all other ones), use the <code>is-toggle</code> modifier. </p>
     <div class="example">
       <div class="tabs is-toggle">
@@ -1137,8 +1150,7 @@
     <span class="nt">&lt;/li&gt;</span>
   <span class="nt">&lt;/ul&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre>
-      <button class="copy">Copy</button>
-    </figure>
+      <a class="copy">Copy</a> </figure>
     <p class="content"> If you want the tabs to take up the <strong>whole width</strong> available, use <code>is-fullwidth</code>. </p>
     <div class="example">
       <div class="tabs is-fullwidth">
@@ -1172,8 +1184,7 @@
     <span class="nt">&lt;/li&gt;</span>
   <span class="nt">&lt;/ul&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre>
-      <button class="copy">Copy</button>
-    </figure>
+      <a class="copy">Copy</a> </figure>
     <hr>
     <h3>Combining</h3>
     <div class="content">
@@ -1218,8 +1229,7 @@
     <span class="nt">&lt;/li&gt;</span>
   <span class="nt">&lt;/ul&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre>
-      <button class="copy">Copy</button>
-    </figure>
+      <a class="copy">Copy</a> </figure>
     <div class="example">
       <div class="tabs is-toggle is-fullwidth">
         <ul>
@@ -1259,8 +1269,7 @@
     <span class="nt">&lt;/li&gt;</span>
   <span class="nt">&lt;/ul&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre>
-      <button class="copy">Copy</button>
-    </figure>
+      <a class="copy">Copy</a> </figure>
     <div class="example">
       <div class="tabs is-centered is-boxed is-medium">
         <ul>
@@ -1300,8 +1309,7 @@
     <span class="nt">&lt;/li&gt;</span>
   <span class="nt">&lt;/ul&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre>
-      <button class="copy">Copy</button>
-    </figure>
+      <a class="copy">Copy</a> </figure>
     <div class="example">
       <div class="tabs is-toggle is-fullwidth is-large">
         <ul>
@@ -1341,8 +1349,7 @@
     <span class="nt">&lt;/li&gt;</span>
   <span class="nt">&lt;/ul&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre>
-      <button class="copy">Copy</button>
-    </figure>
+      <a class="copy">Copy</a> </figure>
   </div>
 </section>
 <section class="section" id="pagination">
@@ -1391,8 +1398,7 @@
     <span class="nt">&lt;/li&gt;</span>
   <span class="nt">&lt;/ul&gt;</span>
 <span class="nt">&lt;/nav&gt;</span></code></pre>
-      <button class="copy">Copy</button>
-    </figure>
+      <a class="copy">Copy</a> </figure>
   </div>
 </section>
 <section class="section" id="progress">
@@ -1417,8 +1423,7 @@
 <span class="nt">&lt;progress</span> <span class="na">class=</span><span class="s">"progress is-alert"</span> <span class="na">value=</span><span class="s">"75"</span> <span class="na">max=</span><span class="s">"100"</span><span class="nt">&gt;</span>75%<span class="nt">&lt;/progress&gt;</span>
 <span class="nt">&lt;progress</span> <span class="na">class=</span><span class="s">"progress is-secondary"</span> <span class="na">value=</span><span class="s">"90"</span> <span class="na">max=</span><span class="s">"100"</span><span class="nt">&gt;</span>90%<span class="nt">&lt;/progress&gt;</span></code>
 </pre>
-      <button class="copy">Copy</button>
-    </figure>
+      <a class="copy">Copy</a> </figure>
     <hr>
     <h3>Sizes</h3>
     <div class="example">
@@ -1434,8 +1439,7 @@
 <span class="nt">&lt;progress</span> <span class="na">class=</span><span class="s">"progress is-medium"</span> <span class="na">value=</span><span class="s">"45"</span> <span class="na">max=</span><span class="s">"100"</span><span class="nt">&gt;</span>45%<span class="nt">&lt;/progress&gt;</span>
 <span class="nt">&lt;progress</span> <span class="na">class=</span><span class="s">"progress is-large"</span> <span class="na">value=</span><span class="s">"60"</span> <span class="na">max=</span><span class="s">"100"</span><span class="nt">&gt;</span>60%<span class="nt">&lt;/progress&gt;</span></code>
 </pre>
-      <button class="copy">Copy</button>
-    </figure>
+      <a class="copy">Copy</a> </figure>
   </div>
 </section>
 <?php include("inc/footer.php"); ?>

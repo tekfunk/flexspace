@@ -48,7 +48,7 @@
   <span class="nt">&lt;/article&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre>
           <br>
-          <a class="button icon-edit" data-clipboard-target="#col-sizes"></a> </div>
+          <a class="button icon-clipboard" data-clipboard-target="#col-sizes"></a> </div>
       </div>
     </div>
   </div>
@@ -100,7 +100,7 @@
 	<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;mod-footer&quot;</span><span class="nt">&gt;</span><span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre>
           <br>
-          <a class="button icon-edit" data-clipboard-target="#mod-box"></a> 
+          <a class="button icon-clipboard" data-clipboard-target="#mod-box"></a> 
         </div>
       </div>
     </div>
@@ -114,12 +114,14 @@
     <div class="columns">
       <div class="column is-1-2"> 
         <div class="box">
-          <pre><code id="code-box" class="html">&lt;pre&gt;
-&lt;code id=&quot;xxx&quot; class=&quot;html&quot;&gt;&lt;/code&gt;
-&lt;/pre&gt;
-&lt;a data-clipboard-target=&quot;#xxx&quot;&gt;&lt;/a&gt;</code></pre>
+          <pre><code id="code-box" class="html">&lt;div class=&quot;box&quot;&gt;
+  &lt;pre&gt;
+    &lt;code id=&quot;xxx&quot; class=&quot;html&quot;&gt;&lt;/code&gt;
+  &lt;/pre&gt;
+  &lt;a class=&quot;button icon-clipboard&quot; data-clipboard-target=&quot;#xxx&quot;&gt;&lt;/a&gt;
+&lt;/div&gt;</code></pre>
           <br>
-          <a class="button icon-edit" data-clipboard-target="#code-box"></a> 
+          <a class="button icon-clipboard" data-clipboard-target="#code-box"></a> 
         </div>
 
       </div>
@@ -262,16 +264,16 @@
     <h1>tags</h1>
     <hr>
     <div class="columns">
-      <div class="column is-6"> <span class="tag is-dark">Dark</span> <span class="tag is-primary">Primary</span> <span class="tag is-accent">accent</span> <span class="tag is-success">Success</span> <span class="tag is-alert">alert</span> <span class="tag is-secondary">secondary</span> </div>
+      <div class="column is-6"> <span class="tag is-dark">Dark</span> <span class="tag is-primary">Primary</span> <span class="tag is-accent">Accent</span> <span class="tag is-success">Success</span> <span class="tag is-alert">Alert</span> <span class="tag is-secondary">Secondary</span> </div>
       <div class="column is-6">
         <div class="box">
           <pre>
 <code class="language-html" data-lang="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"tag is-dark"</span><span class="nt">&gt;</span>Dark<span class="nt">&lt;/span&gt;</span>
 <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"tag is-primary"</span><span class="nt">&gt;</span>Primary<span class="nt">&lt;/span&gt;</span>
-<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"tag is-accent"</span><span class="nt">&gt;</span>accent<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"tag is-accent"</span><span class="nt">&gt;</span>Accent<span class="nt">&lt;/span&gt;</span>
 <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"tag is-success"</span><span class="nt">&gt;</span>Success<span class="nt">&lt;/span&gt;</span>
-<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"tag is-alert"</span><span class="nt">&gt;</span>alert<span class="nt">&lt;/span&gt;</span>
-<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"tag is-secondary"</span><span class="nt">&gt;</span>secondary<span class="nt">&lt;/span&gt;</span></code>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"tag is-alert"</span><span class="nt">&gt;</span>Alert<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"tag is-secondary"</span><span class="nt">&gt;</span>Secondary<span class="nt">&lt;/span&gt;</span></code>
 </pre>
         </div>
       </div>

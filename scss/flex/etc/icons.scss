@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'CasaIcons';
-    src:    url('../fonts/CasaIcons.eot?q8kiwk');
-    src:    url('../fonts/CasaIcons.eot?q8kiwk#iefix') format('embedded-opentype'),
-        url('../fonts/CasaIcons.ttf?q8kiwk') format('truetype'),
-        url('../fonts/CasaIcons.woff?q8kiwk') format('woff'),
-        url('../fonts/CasaIcons.svg?q8kiwk#CasaIcons') format('svg');
+    src:    url('../fonts/CasaIcons.eot?p3fl45');
+    src:    url('../fonts/CasaIcons.eot?p3fl45#iefix') format('embedded-opentype'),
+        url('../fonts/CasaIcons.ttf?p3fl45') format('truetype'),
+        url('../fonts/CasaIcons.woff?p3fl45') format('woff'),
+        url('../fonts/CasaIcons.svg?p3fl45#CasaIcons') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -12,8 +12,7 @@
 [class^="icon-"], [class*=" icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'CasaIcons' !important;
-	font-size: 1.4em;
-	speak: none;
+    speak: none;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -447,5 +446,8 @@
 }
 .icon-pdf-doc:before {
     content: "\e900";
+}
+.icon-clipboard:before {
+    content: "\e902";
 }
 

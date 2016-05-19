@@ -30,7 +30,7 @@
 	&lt;footer class=&quot;footer&quot;&gt;&lt;/footer&gt;
 &lt;/body&gt;</code>
 </pre>
-   <a class="button icon-edit" data-clipboard-target="#basic-layout"> </a>  
+   <a class="button icon-clipboard" data-clipboard-target="#basic-layout"> </a>  
     </div>
       </div>
     </div>
@@ -62,7 +62,7 @@
     &lt;h1&gt;&lt;/h1&gt;
     &lt;h2&gt;&lt;/h2&gt;
    &lt;/div&gt;<br />  &lt;div class=&quot;hero-footer&quot;&gt;&lt;/div&gt;<br />&lt;/section&gt;</code></pre><br>
-          <a class="button icon-edit" data-clipboard-target="#hero-med"></a> </div>
+          <a class="button icon-clipboard" data-clipboard-target="#hero-med"></a> </div>
       </div>
   </div>
 </section>
@@ -86,7 +86,7 @@
     &lt;h1&gt;&lt;/h1&gt;
     &lt;h2&gt;&lt;/h2&gt;
    &lt;/div&gt;<br />  &lt;div class=&quot;hero-footer&quot;&gt;&lt;/div&gt;<br />&lt;/section&gt;</code></pre><br>
-          <a class="button icon-edit" data-clipboard-target="#hero-full"></a> </div>
+          <a class="button icon-clipboard" data-clipboard-target="#hero-full"></a> </div>
       </div>
     </div>
   </div>

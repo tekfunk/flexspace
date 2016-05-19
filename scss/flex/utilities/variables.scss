@@ -1,0 +1,133 @@
+// Editable Variables
+
+//Palette
+$primary: #2957a6 !default;
+$secondary: #fbb041 !default;
+$accent: #49425a !default;
+
+$black: #1a1a1a !default;
+$grey-darker: #2a2a2a !default;
+$grey-dark: #3a3a3a !default;
+$grey: #aeb1b5 !default;
+$grey-light: #d3d6db !default;
+$grey-lighter: #f5f7fa !default;
+$white: #fff !default;
+$blue: #42afe3 !default;
+$green: #94b282 !default;
+$orange: #f68b39 !default;
+$purple: #847bb9 !default;
+$red: #c5443b !default;
+$turquoise: #14b1c4 !default;
+$yellow: #fce473 !default;
+
+// 2. Primary colors
+
+$success: $green !default;
+$alert: $yellow !default;
+$light: $grey-lighter !default;
+$dark: $grey-dark !default;
+$text: $grey-dark !default;
+
+
+
+//Type
+$font-headline: "SimianText-Orangutan", sans-serif !default;
+$font-button: "DINPro", sans-serif !default;
+$family-sans-serif: "DINPro", sans-serif !default;
+$family-monospace: "Source Code Pro", "Monaco", "Inconsolata", monospace !default;
+$size-1: 48px !default;
+$size-2: 40px !default;
+$size-3: 28px !default;
+$size-4: 24px !default;
+$size-5: 18px !default;
+$size-6: 14px !default;
+$size-7: 11px !default;
+$weight-normal: 400 !default;
+$weight-bold: 700 !default;
+$weight-title-normal: 300 !default;
+$weight-title-bold: 500 !default;
+
+//Layout
+$phone: 481px !default;
+$tablet: 769px !default;
+$desktop: 980px !default;
+$widescreen: 1180px !default;
+$column-gap: 20px !default;
+$nav-height: 50px !default;
+
+// Miscellaneous
+
+$easing: ease-out !default;
+$radius: 0px !default;
+$speed: 86ms !default;
+$btn-radius: 0px !default;
+
+// Images
+$bkd-image-1: url('../images/img-4998.jpg');
+$bkd-image-2: url('../images/img-4998.jpg');
+$bkd-image-3: url('../images/img-4998.jpg');
+$bkd-hero-1: url('../art/panadot.svg');
+$bkd-hero-2: url('../art/panadot.svg');
+$bkd-hero-3: url('../art/panadot.svg');
+$bkd-pattern-1: url('../art/dot-space-1.svg');
+$bkd-pattern-2: url('../art/dot-space-2.svg');
+$bkd-pattern-3: url('../art/dot-space-3.svg');
+$bkd-pattern-4: url('../art/dot-space-4.svg');
+
+
+// 3. Generated variables
+
+// Invert colors
+
+$primary-invert: findColorInvert($primary) !default;
+$secondary-invert: findColorInvert($secondary) !default;
+$accent-invert: findColorInvert($accent) !default;
+$success-invert: findColorInvert($success) !default;
+$alert-invert: findColorInvert($alert) !default;
+$light-invert: $dark !default;
+$dark-invert: $light !default;
+// General colors
+
+$body-background: $grey-lighter !default;
+$background: $grey-lighter !default;
+$border: $grey-light !default;
+$border-hover: $grey !default;
+// Text colors
+
+$text-invert: findColorInvert($text) !default;
+$text-light: $grey !default;
+$text-strong: $grey-darker !default;
+// Link colors
+
+$link: $primary !default;
+$link-invert: $primary-invert !default;
+$link-visited: $purple !default;
+$link-hover: $grey-darker !default;
+$link-hover-background: $grey-lighter !default;
+$link-hover-border: $grey-darker !default;
+$link-active: $grey-darker !default;
+$link-active-border: $grey-darker !default;
+// Control colors
+
+$control: $text-strong !default;
+$control-background: $text-invert !default;
+$control-border: $border !default;
+$control-hover: #1a1a1a !default;
+$control-hover-border: $border-hover !default;
+$control-active: $link !default;
+$control-active-background: $link !default;
+$control-active-background-invert: $link-invert !default;
+$control-active-border: $link !default;
+// Typography
+
+$family-primary: $family-sans-serif !default;
+$family-code: $family-monospace !default;
+$size-small: $size-7 !default;
+$size-normal: $size-6 !default;
+$size-medium: $size-5 !default;
+$size-large: $size-3 !default;
+$size-huge: $size-1 !default;
+// 4. Lists and maps
+
+$colors: (white: ($white, $black), black: ($black, $white), light: ($light, $light-invert), dark: ($dark, $dark-invert), primary: ($primary, $primary-invert), accent: ($accent, $accent-invert), success: ($success, $success-invert), alert: ($alert, $alert-invert), secondary: ($secondary, $secondary-invert)) !default;
+$sizes: $size-1 $size-2 $size-3 $size-4 $size-5 $size-6 !default;
