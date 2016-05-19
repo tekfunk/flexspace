@@ -1,13 +1,17 @@
 <?php include('inc/head.php'); ?>
 <?php include('inc/header.php'); ?>
-<section class="fixed bottom right">
+<section id="page-nav">
   <h3><a href="#icons">icons</a> | <a href="#shapes">shapes</a></h3>
 </section>
-<section class="hero is-black">
-  <div class="hero-body">
-    <div class="container">
+<section class="hero blue">
+  <div class="is-flx-hero-3">
+    <div class="hero-header">
+      <div class="mod trans-white">
+        <div class="mod-content has-text-centered">
       <h1>art</h1>
       <h3><a href="#icons">icons</a> | <a href="#shapes">shapes</a></h3>
+        </div>
+      </div>
     </div>
   </div>
 </section>

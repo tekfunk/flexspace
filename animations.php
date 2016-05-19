@@ -1,19 +1,20 @@
 <?php include('inc/head.php'); ?>
 <?php include('inc/header.php'); ?>
-<section class="fixed bottom right">
+<section id="page-nav">
             <h3><a href="#animate">animate.css</a></h3>
 </section>
-
-   <section class="hero is-primary">
-	
-		<div class="hero-body">  
-
-        <div class="container">
+<section class="hero blue">
+  <div class="is-flx-hero-2">
+    <div class="hero-header">
+      <div class="mod trans-white">
+        <div class="mod-content has-text-centered">
             <h1>animations</h1>
             <h3><a href="#animate">animate.css</a></h3>
-        </div></div>
-    </section>
-
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
     <section class="section" id="animate">
 	    <div class="container">
 		  	<h1><a href="http://daneden.github.io/animate.css/" target="_blank">animate.css</a></h1>

@@ -1,5 +1,5 @@
 <footer class="footer">
-	<h1><a href="/index.php">flexspace</a></h1>
+	<h1><a href="/index.php"><img src="../art/flexspace-logo-lrg-white.svg" width="120"></a></h1>
 </footer>
 <script src="../js/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>

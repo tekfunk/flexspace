@@ -1,13 +1,17 @@
 <?php include('inc/head.php'); ?>
 <?php include('inc/header.php'); ?>
-<section class="fixed bottom right">
+<section id="page-nav">
   <h3><a href="#box">box</a> | <a href="#fixed">fixed</a> | <a href="#mod">mod</a> | <a href="#code">code</a> | <a href="#media">media</a> | <a href="#messages">messages</a> | <a href="#notifications">notifications</a> | <a href="#tags">tags</a>| <a href="#modal">modal</a> </h3>
 </section>
-<section class="hero is-success">
-  <div class="hero-body">
-    <div class="container">
+<section class="hero blue">
+  <div class="is-flx-hero-2">
+    <div class="hero-header">
+      <div class="mod trans-white">
+        <div class="mod-content has-text-centered">
       <h1>modules - content containers</h1>
       <h3><a href="#box">box</a> | <a href="#fixed">fixed</a> | <a href="#mod">mod</a> | <a href="#code">code</a> | <a href="#media">media</a> | <a href="#messages">messages</a> | <a href="#notifications">notifications</a> | <a href="#tags">tags</a>| <a href="#modal">modal</a> </h3>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -218,9 +222,9 @@
     <hr>
     <div class="columns">
       <div class="column">
-        <div class="notification is-primary"> Info lorem ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit </div>
+        <div class="notification is-primary"> accent lorem ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit </div>
         <div class="notification is-success"> Success lorem ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit </div>
-        <div class="notification is-danger"> Danger lorem ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit </div>
+        <div class="notification is-secondary"> secondary lorem ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit </div>
       </div>
       <div class="column">
         <div class="box">
@@ -239,9 +243,9 @@
   consectetur adipiscing elit
 <span class="nt">&lt;/div&gt;</span>
 
-<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"notification is-info"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"notification is-accent"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"delete"</span><span class="nt">&gt;&lt;/button&gt;</span>
-  Info lorem ipsum dolor sit amet, consectetur
+  accent lorem ipsum dolor sit amet, consectetur
   adipiscing elit lorem ipsum dolor sit amet,
   consectetur adipiscing elit
 <span class="nt">&lt;/div&gt;</span>
@@ -258,27 +262,27 @@
     <h1>tags</h1>
     <hr>
     <div class="columns">
-      <div class="column is-6"> <span class="tag is-dark">Dark</span> <span class="tag is-primary">Primary</span> <span class="tag is-info">Info</span> <span class="tag is-success">Success</span> <span class="tag is-warning">Warning</span> <span class="tag is-danger">Danger</span> </div>
+      <div class="column is-6"> <span class="tag is-dark">Dark</span> <span class="tag is-primary">Primary</span> <span class="tag is-accent">accent</span> <span class="tag is-success">Success</span> <span class="tag is-alert">alert</span> <span class="tag is-secondary">secondary</span> </div>
       <div class="column is-6">
         <div class="box">
           <pre>
 <code class="language-html" data-lang="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"tag is-dark"</span><span class="nt">&gt;</span>Dark<span class="nt">&lt;/span&gt;</span>
 <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"tag is-primary"</span><span class="nt">&gt;</span>Primary<span class="nt">&lt;/span&gt;</span>
-<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"tag is-info"</span><span class="nt">&gt;</span>Info<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"tag is-accent"</span><span class="nt">&gt;</span>accent<span class="nt">&lt;/span&gt;</span>
 <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"tag is-success"</span><span class="nt">&gt;</span>Success<span class="nt">&lt;/span&gt;</span>
-<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"tag is-warning"</span><span class="nt">&gt;</span>Warning<span class="nt">&lt;/span&gt;</span>
-<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"tag is-danger"</span><span class="nt">&gt;</span>Danger<span class="nt">&lt;/span&gt;</span></code>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"tag is-alert"</span><span class="nt">&gt;</span>alert<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"tag is-secondary"</span><span class="nt">&gt;</span>secondary<span class="nt">&lt;/span&gt;</span></code>
 </pre>
         </div>
       </div>
     </div>
     <div class="columns">
-      <div class="column is-6"> <span class="tag is-dark is-small">Small</span> <span class="tag is-primary is-medium">Medium</span> <span class="tag is-info is-large">Large</span> </div>
+      <div class="column is-6"> <span class="tag is-dark is-small">Small</span> <span class="tag is-primary is-medium">Medium</span> <span class="tag is-accent is-large">Large</span> </div>
       <div class="column is-6">
         <figure class="highlight">
           <pre>
 <code class="language-html" data-lang="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"tag is-primary is-medium"</span><span class="nt">&gt;</span>Medium<span class="nt">&lt;/span&gt;</span>
-<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"tag is-info is-large"</span><span class="nt">&gt;</span>Large<span class="nt">&lt;/span&gt;</span></code>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"tag is-accent is-large"</span><span class="nt">&gt;</span>Large<span class="nt">&lt;/span&gt;</span></code>
 </pre>
         </figure>
       </div>

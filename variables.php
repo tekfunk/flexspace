@@ -1,12 +1,16 @@
 <?php include('inc/head.php'); ?>
 <?php include('inc/header.php'); ?>
-<section class="hero is-success">
-	<div class="hero-body">  
-		<div class="container">
+<section class="hero blue">
+  <div class="is-flx-hero-3">
+    <div class="hero-header">
+      <div class="mod trans-white">
+        <div class="mod-content has-text-centered">
 			<h1>variables</h1>
 			<h3><a href="#editable">editable</a> | <a href="#generated">generated</a></h3>
-  		</div>
-  	</div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 <section class="section" id="editable">
   <div class="container">
@@ -61,8 +65,8 @@
               <td style="background-color:#ffffff;"></td>
             </tr>
             <tr>
-              <td>.is-info</td>
-              <td>$blue - $info</td>
+              <td>.is-accent</td>
+              <td>$blue - $accent</td>
               <td><strong style="color:#42afe3;">#42afe3</strong></td>
               <td style="background-color:#42afe3;"></td>
             </tr>
@@ -97,8 +101,8 @@
               <td style="background-color:#14b1c4;"></td>
             </tr>
             <tr>
-              <td>.is-warning</td>
-              <td>$yellow - $warning</td>
+              <td>.is-alert</td>
+              <td>$yellow - $alert</td>
               <td><strong style="color:#fce473;">#fce473</strong></td>
               <td style="background-color:#fce473;"></td>
             </tr>
@@ -377,8 +381,8 @@
             </tr>
             <tr>
               <td></td>
-              <td>$info-invert</td>
-              <td>findColorInvert($info)</td>
+              <td>$accent-invert</td>
+              <td>findColorInvert($accent)</td>
               <td></td>
             </tr>
             <tr>
@@ -389,14 +393,14 @@
             </tr>
             <tr>
               <td></td>
-              <td>$warning-invert</td>
-              <td>findColorInvert($warning)</td>
+              <td>$alert-invert</td>
+              <td>findColorInvert($alert)</td>
               <td></td>
             </tr>
             <tr>
               <td></td>
-              <td>$danger-invert</td>
-              <td>findColorInvert($danger)</td>
+              <td>$secondary-invert</td>
+              <td>findColorInvert($secondary)</td>
               <td></td>
             </tr>
             <tr>
@@ -684,10 +688,10 @@
                 light: ($light, $light-invert),<br />
                 dark: ($dark, $dark-invert),<br />
                 primary: ($primary, $primary-invert),<br />
-                info: ($info, $info-invert),<br />
+                accent: ($accent, $accent-invert),<br />
                 success: ($success, $success-invert),<br />
-                warning: ($warning, $warning-invert),<br />
-                danger: ($danger, $danger-invert)) </td>
+                alert: ($alert, $alert-invert),<br />
+                secondary: ($secondary, $secondary-invert)) </td>
               <td></td>
             </tr>
             <tr>

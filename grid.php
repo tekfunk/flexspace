@@ -1,13 +1,17 @@
 <?php include('inc/head.php'); ?>
 <?php include('inc/header.php'); ?>
-<section class="fixed bottom right">
+<section id="page-nav">
   <h3><a href="#columns">columns</a> | <a href="#sizing">sizing</a> | <a href="#tables">tables</a></h3>
 </section>
-<section class="hero is-danger">
-  <div class="hero-body">
-    <div class="container">
+<section class="hero blue">
+  <div class="is-flx-hero-2">
+    <div class="hero-header">
+      <div class="mod trans-white">
+        <div class="mod-content has-text-centered">
       <h1>grid</h1>
       <h3><a href="#columns">columns</a> | <a href="#sizing">sizing</a> | <a href="#tables">tables</a></h3>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -20,7 +24,7 @@
         <p class="notification purple"></p>
       </div>
       <div class="column">
-        <p class="notification is-info"></p>
+        <p class="notification is-accent"></p>
       </div>
       <div class="column">
         <p class="notification is-success"></p>
@@ -29,7 +33,7 @@
       <code class="code-blk">class="columns is-stacked"</code>
     <div class="columns is-stacked">
       <div class="column  is-1-4">
-        <p class="notification is-warning"></p>
+        <p class="notification is-alert"></p>
       </div>
       <div class="column  is-1-2">
         <p class="notification red"></p>
@@ -38,10 +42,10 @@
         <p class="notification orange"></p>
       </div>
       <div class="column is-2-3">
-        <p class="notification is-danger"></p>
+        <p class="notification is-secondary"></p>
       </div>
       <div class="column">
-        <p class="notification is-warning"></p>
+        <p class="notification is-alert"></p>
       </div>
     </div>
     <hr />

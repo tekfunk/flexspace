@@ -16,13 +16,13 @@
               <p>Vertical...</p>
               <p>Top tile</p>
             </article>
-            <article class="tile is-child notification is-warning">
+            <article class="tile is-child notification is-alert">
               <p>...tiles</p>
               <p>Bottom tile</p>
             </article>
           </div>
           <div class="tile is-parent">
-            <article class="tile is-child notification is-info">
+            <article class="tile is-child notification is-accent">
               <p>Middle tile</p>
               <p>With an image</p>
               <figure class="image is-4by3"><img src="http://placehold.it/640x480"></figure>
@@ -30,7 +30,7 @@
           </div>
         </div>
         <div class="tile is-parent">
-          <article class="tile is-child notification is-danger">
+          <article class="tile is-child notification is-secondary">
             <p>Wide tile</p>
             <p>Aligned with the right tile</p>
             <div class="content">
@@ -157,7 +157,7 @@
     </div>
     <hr>
     <h3>Nesting requirements</h3>
-    <article class="message is-danger">
+    <article class="message is-secondary">
       <div class="message-header"> 3 levels deep at least... </div>
       <div class="message-body">
         <div class="content">
@@ -578,29 +578,29 @@
     </figure>
     <div class="example">
       <nav class="level">
-        <p class="level-item has-text-centered"> <a class="link is-info">Home</a> </p>
-        <p class="level-item has-text-centered"> <a class="link is-info">Menu</a> </p>
+        <p class="level-item has-text-centered"> <a class="link is-accent">Home</a> </p>
+        <p class="level-item has-text-centered"> <a class="link is-accent">Menu</a> </p>
         <p class="level-item has-text-centered"> <img src="../art/dragotar.svg" alt="" style="height: 33px;"> </p>
-        <p class="level-item has-text-centered"> <a class="link is-info">Reservations</a> </p>
-        <p class="level-item has-text-centered"> <a class="link is-info">Contact</a> </p>
+        <p class="level-item has-text-centered"> <a class="link is-accent">Reservations</a> </p>
+        <p class="level-item has-text-centered"> <a class="link is-accent">Contact</a> </p>
       </nav>
     </div>
     <figure class="highlight">
       <pre><code class="language-html" data-lang="html"><span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">"level"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"level-item has-text-centered"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"link is-info"</span><span class="nt">&gt;</span>Home<span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"link is-accent"</span><span class="nt">&gt;</span>Home<span class="nt">&lt;/a&gt;</span>
   <span class="nt">&lt;/p&gt;</span>
   <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"level-item has-text-centered"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"link is-info"</span><span class="nt">&gt;</span>Menu<span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"link is-accent"</span><span class="nt">&gt;</span>Menu<span class="nt">&lt;/a&gt;</span>
   <span class="nt">&lt;/p&gt;</span>
   <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"level-item has-text-centered"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"../art/dragotar.svg"</span> <span class="na">alt=</span><span class="s">""</span> <span class="na">style=</span><span class="s">"height: 33px;"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;/p&gt;</span>
   <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"level-item has-text-centered"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"link is-info"</span><span class="nt">&gt;</span>Reservations<span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"link is-accent"</span><span class="nt">&gt;</span>Reservations<span class="nt">&lt;/a&gt;</span>
   <span class="nt">&lt;/p&gt;</span>
   <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"level-item has-text-centered"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"link is-info"</span><span class="nt">&gt;</span>Contact<span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"link is-accent"</span><span class="nt">&gt;</span>Contact<span class="nt">&lt;/a&gt;</span>
   <span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;/nav&gt;</span></code></pre>
       <button class="copy">Copy</button>

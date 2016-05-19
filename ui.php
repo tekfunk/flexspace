@@ -1,13 +1,17 @@
 <?php include('inc/head.php'); ?>
 <?php include('inc/header.php'); ?>
-<section class="fixed bottom right">
+<section id="page-nav">
   <h3><a href="#button">button</a> | <a href="#tooltip">tooltip</a> | <a href="#nav">nav</a> | <a href="#panel">panel</a> | <a href="#menu">menu</a> | <a href="#form">form</a> | <a href="#tabs">tabs</a> | <a href="#pagination">pagination</a> | <a href="#progress">progress</a> </h3>
 </section>
-<section class="hero has-bkd-pattern-2">
-  <div class="hero-body">
-    <div class="container">
-      <h1>ui - point & hover & click</h1>
-      <h3><a href="#button">button</a> | <a href="#tooltip">tooltip</a> | <a href="#nav">nav</a> | <a href="#panel">panel</a> | <a href="#menu">menu</a> | <a href="#form">form</a> | <a href="#tabs">tabs</a> | <a href="#pagination">pagination</a> | <a href="#progress">progress</a> </h3>
+<section class="hero blue">
+  <div class="is-flx-hero-4">
+    <div class="hero-header">
+      <div class="mod trans-white">
+        <div class="mod-content has-text-centered">
+          <h1>ui - point & hover & click</h1>
+          <h3><a href="#button">button</a> | <a href="#tooltip">tooltip</a> | <a href="#nav">nav</a> | <a href="#panel">panel</a> | <a href="#menu">menu</a> | <a href="#form">form</a> | <a href="#tabs">tabs</a> | <a href="#pagination">pagination</a> | <a href="#progress">progress</a> </h3>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -29,12 +33,12 @@
       </div>
       <div class="column">
         <div class="block">
-          <h4>.is-primary, .is-info, .is-success, .is-warning, .is-danger</h4>
+          <h4>.is-primary, .is-accent, .is-success, .is-alert, .is-secondary</h4>
           <button class="button is-primary">Primary</button>
-          <button class="button is-info">Info</button>
+          <button class="button is-accent">accent</button>
           <button class="button is-success">Success</button>
-          <button class="button is-warning">Warning</button>
-          <button class="button is-danger">Danger</button>
+          <button class="button is-alert">alert</button>
+          <button class="button is-secondary">secondary</button>
         </div>
       </div>
     </div>
@@ -42,20 +46,20 @@
     <div class="columns">
       <div class="column">
         <h4>.is-outlined</h4>
-        <a class="button is-outlined">Outlined</a> <a class="button is-primary is-outlined">Outlined</a> <a class="button is-info is-outlined">Outlined</a> <a class="button is-success is-outlined">Outlined</a> <a class="button is-danger is-outlined">Outlined</a> </div>
+        <a class="button is-outlined">Outlined</a> <a class="button is-primary is-outlined">Outlined</a> <a class="button is-accent is-outlined">Outlined</a> <a class="button is-success is-outlined">Outlined</a> <a class="button is-secondary is-outlined">Outlined</a> </div>
       <div class="column">
         <h4>.is-inverted</h4>
-        <div class="notification is-primary"> <a class="button is-primary is-inverted">Inverted</a> <a class="button is-info is-inverted">Inverted</a> <a class="button is-success is-inverted">Inverted</a> <a class="button is-danger is-inverted">Inverted</a> </div>
+        <div class="notification is-primary"> <a class="button is-primary is-inverted">Inverted</a> <a class="button is-accent is-inverted">Inverted</a> <a class="button is-success is-inverted">Inverted</a> <a class="button is-secondary is-inverted">Inverted</a> </div>
       </div>
     </div>
     <hr>
     <div class="columns">
       <div class="column">
         <h4>.is-loading</h4>
-        <a class="button is-loading">Loading</a> <a class="button is-primary is-loading">Loading</a> <a class="button is-info is-loading">Loading</a> <a class="button is-success is-loading">Loading</a> <a class="button is-warning is-loading">Loading</a> <a class="button is-danger is-loading">Loading</a> </div>
+        <a class="button is-loading">Loading</a> <a class="button is-primary is-loading">Loading</a> <a class="button is-accent is-loading">Loading</a> <a class="button is-success is-loading">Loading</a> <a class="button is-alert is-loading">Loading</a> <a class="button is-secondary is-loading">Loading</a> </div>
       <div class="column">
         <h4>.is-disabled</h4>
-        <a class="button is-disabled" disabled>Disabled</a> <a class="button is-primary is-disabled" disabled>Disabled</a> <a class="button is-info is-disabled" disabled>Disabled</a> <a class="button is-success is-disabled" disabled>Disabled</a> <a class="button is-warning is-disabled" disabled>Disabled</a> <a class="button is-danger is-disabled" disabled>Disabled</a> </div>
+        <a class="button is-disabled" disabled>Disabled</a> <a class="button is-primary is-disabled" disabled>Disabled</a> <a class="button is-accent is-disabled" disabled>Disabled</a> <a class="button is-success is-disabled" disabled>Disabled</a> <a class="button is-alert is-disabled" disabled>Disabled</a> <a class="button is-secondary is-disabled" disabled>Disabled</a> </div>
     </div>
     <hr>
     <div class="block">
@@ -64,7 +68,7 @@
     <h4>&lt;i class="ics icon-xxx"&gt;</h4>
     <div class="columns">
       <div class="column">
-        <p class="control"><a class="button"><span class="ics"><i class="icon-rollthe"></i></span> <span>GitHub</span></a> <a class="button is-primary"><span class="ics"><i class="icon-rollthe"></i></span><span>Twitter</span></a> <a class="button is-success"><span class="ics"><i class="icon-circlecheck"></i></span><span>Save</span></a> <a class="button is-danger is-outlined"><span class="ics"><i class="icon-bomb"></i></span><span>Delete</span> </a></p>
+        <p class="control"><a class="button"><span class="ics"><i class="icon-rollthe"></i></span> <span>GitHub</span></a> <a class="button is-primary"><span class="ics"><i class="icon-rollthe"></i></span><span>Twitter</span></a> <a class="button is-success"><span class="ics"><i class="icon-circlecheck"></i></span><span>Save</span></a> <a class="button is-secondary is-outlined"><span class="ics"><i class="icon-bomb"></i></span><span>Delete</span> </a></p>
       </div>
       <div class="column">
         <p class="control"><a class="button is-small"><span>GitHub</span></a> <a class="button"> <span>GitHub</span></a> <a class="button is-medium"> <span>GitHub</span></a> <a class="button is-large"> <span>GitHub</span></a></p>
@@ -76,7 +80,7 @@
       <p>If you want to <strong>group</strong> buttons together, use the <code>is-grouped</code> modifier on the <code>control</code> container:</p>
     </div>
     <div class="example">
-      <p class="control is-grouped"><a class="button is-primary">Save changes</a> <a class="button">Cancel</a> <a class="button is-danger">Delete post</a></p>
+      <p class="control is-grouped"><a class="button is-primary">Save changes</a> <a class="button">Cancel</a> <a class="button is-secondary">Delete post</a></p>
     </div>
     <hr>
     <h3>Button addons</h3>
@@ -92,9 +96,9 @@
   <div class="container">
     <h1>tooltip</h1>
     <hr>
-	<div class="content">Coming Soon.</div>
+    <div class="content">Coming Soon.</div>
   </div>
-</section>	
+</section>
 <section class="section" id="nav">
   <div class="container">
     <h1>nav</h1>
@@ -334,8 +338,8 @@
           <span class="help is-success">This username is available</span></p>
         <label class="label">Email</label>
         <p class="control has-icon has-icon-right">
-          <input class="input is-danger" type="text" placeholder="Email input" value="hello@">
-          <span class="help is-danger">This email is invalid</span></p>
+          <input class="input is-secondary" type="text" placeholder="Email input" value="hello@">
+          <span class="help is-secondary">This email is invalid</span></p>
         <label class="label">Subject</label>
         <p class="control"><span class="select">
           <select>
@@ -381,9 +385,9 @@
 <span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"label"</span><span class="nt">&gt;</span>Email<span class="nt">&lt;/label&gt;</span>
 <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control has-icon has-icon-right"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"input is-danger"</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">placeholder=</span><span class="s">"Email input"</span> <span class="na">value=</span><span class="s">"hello@"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-warning"</span><span class="nt">&gt;&lt;/i&gt;</span>
-  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"help is-danger"</span><span class="nt">&gt;</span>This email is invalid<span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"input is-secondary"</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">placeholder=</span><span class="s">"Email input"</span> <span class="na">value=</span><span class="s">"hello@"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ics icon-alert"</span><span class="nt">&gt;&lt;/i&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"help is-secondary"</span><span class="nt">&gt;</span>This email is invalid<span class="nt">&lt;/span&gt;</span>
 <span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"label"</span><span class="nt">&gt;</span>Subject<span class="nt">&lt;/label&gt;</span>
 <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control"</span><span class="nt">&gt;</span>
@@ -432,16 +436,16 @@
           <input class="input is-primary" type="text" placeholder="Primary input">
         </p>
         <p class="control">
-          <input class="input is-info" type="text" placeholder="Info input">
+          <input class="input is-accent" type="text" placeholder="accent input">
         </p>
         <p class="control">
           <input class="input is-success" type="text" placeholder="Success input">
         </p>
         <p class="control">
-          <input class="input is-warning" type="text" placeholder="Warning input">
+          <input class="input is-alert" type="text" placeholder="alert input">
         </p>
         <p class="control">
-          <input class="input is-danger" type="text" placeholder="Danger input">
+          <input class="input is-secondary" type="text" placeholder="secondary input">
         </p>
       </div>
       <div class="column is-1-2">
@@ -451,16 +455,16 @@
   <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"input is-primary"</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">placeholder=</span><span class="s">"Primary input"</span><span class="nt">&gt;</span>
 <span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"input is-info"</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">placeholder=</span><span class="s">"Info input"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"input is-accent"</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">placeholder=</span><span class="s">"accent input"</span><span class="nt">&gt;</span>
 <span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"input is-success"</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">placeholder=</span><span class="s">"Success input"</span><span class="nt">&gt;</span>
 <span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"input is-warning"</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">placeholder=</span><span class="s">"Warning input"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"input is-alert"</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">placeholder=</span><span class="s">"alert input"</span><span class="nt">&gt;</span>
 <span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"input is-danger"</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">placeholder=</span><span class="s">"Danger input"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"input is-secondary"</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">placeholder=</span><span class="s">"secondary input"</span><span class="nt">&gt;</span>
 <span class="nt">&lt;/p&gt;</span></code>
 </pre>
           <button class="copy">Copy</button>
@@ -702,13 +706,13 @@
     <div class="example">
       <p class="control has-addons">
         <input class="input" type="text" placeholder="Find a repository">
-        <a class="button is-info">Search</a></p>
+        <a class="button is-accent">Search</a></p>
     </div>
     <figure class="highlight">
       <pre>
 <code class="language-html" data-lang="html"><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control has-addons"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"input"</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">placeholder=</span><span class="s">"Find a repository"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-info"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-accent"</span><span class="nt">&gt;</span>
     Search
   <span class="nt">&lt;/a&gt;</span>
 <span class="nt">&lt;/p&gt;</span></code>
@@ -755,13 +759,13 @@
     <div class="example">
       <p class="control is-grouped">
         <input class="input" type="text" placeholder="Find a repository">
-        <a class="button is-info">Search</a></p>
+        <a class="button is-accent">Search</a></p>
     </div>
     <figure class="highlight">
       <pre>
 <code class="language-html" data-lang="html"><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control is-grouped"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"input"</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">placeholder=</span><span class="s">"Find a repository"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-info"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-accent"</span><span class="nt">&gt;</span>
     Search
   <span class="nt">&lt;/a&gt;</span>
 <span class="nt">&lt;/p&gt;</span></code>
@@ -1399,19 +1403,19 @@
     <div class="example">
       <progress class="progress" value="15" max="100">15%</progress>
       <progress class="progress is-primary" value="30" max="100">30%</progress>
-      <progress class="progress is-info" value="45" max="100">45%</progress>
+      <progress class="progress is-accent" value="45" max="100">45%</progress>
       <progress class="progress is-success" value="60" max="100">60%</progress>
-      <progress class="progress is-warning" value="75" max="100">75%</progress>
-      <progress class="progress is-danger" value="90" max="100">90%</progress>
+      <progress class="progress is-alert" value="75" max="100">75%</progress>
+      <progress class="progress is-secondary" value="90" max="100">90%</progress>
     </div>
     <figure class="highlight">
       <pre>
 <code class="language-html" data-lang="html"><span class="nt">&lt;progress</span> <span class="na">class=</span><span class="s">"progress"</span> <span class="na">value=</span><span class="s">"15"</span> <span class="na">max=</span><span class="s">"100"</span><span class="nt">&gt;</span>15%<span class="nt">&lt;/progress&gt;</span>
 <span class="nt">&lt;progress</span> <span class="na">class=</span><span class="s">"progress is-primary"</span> <span class="na">value=</span><span class="s">"30"</span> <span class="na">max=</span><span class="s">"100"</span><span class="nt">&gt;</span>30%<span class="nt">&lt;/progress&gt;</span>
-<span class="nt">&lt;progress</span> <span class="na">class=</span><span class="s">"progress is-info"</span> <span class="na">value=</span><span class="s">"45"</span> <span class="na">max=</span><span class="s">"100"</span><span class="nt">&gt;</span>45%<span class="nt">&lt;/progress&gt;</span>
+<span class="nt">&lt;progress</span> <span class="na">class=</span><span class="s">"progress is-accent"</span> <span class="na">value=</span><span class="s">"45"</span> <span class="na">max=</span><span class="s">"100"</span><span class="nt">&gt;</span>45%<span class="nt">&lt;/progress&gt;</span>
 <span class="nt">&lt;progress</span> <span class="na">class=</span><span class="s">"progress is-success"</span> <span class="na">value=</span><span class="s">"60"</span> <span class="na">max=</span><span class="s">"100"</span><span class="nt">&gt;</span>60%<span class="nt">&lt;/progress&gt;</span>
-<span class="nt">&lt;progress</span> <span class="na">class=</span><span class="s">"progress is-warning"</span> <span class="na">value=</span><span class="s">"75"</span> <span class="na">max=</span><span class="s">"100"</span><span class="nt">&gt;</span>75%<span class="nt">&lt;/progress&gt;</span>
-<span class="nt">&lt;progress</span> <span class="na">class=</span><span class="s">"progress is-danger"</span> <span class="na">value=</span><span class="s">"90"</span> <span class="na">max=</span><span class="s">"100"</span><span class="nt">&gt;</span>90%<span class="nt">&lt;/progress&gt;</span></code>
+<span class="nt">&lt;progress</span> <span class="na">class=</span><span class="s">"progress is-alert"</span> <span class="na">value=</span><span class="s">"75"</span> <span class="na">max=</span><span class="s">"100"</span><span class="nt">&gt;</span>75%<span class="nt">&lt;/progress&gt;</span>
+<span class="nt">&lt;progress</span> <span class="na">class=</span><span class="s">"progress is-secondary"</span> <span class="na">value=</span><span class="s">"90"</span> <span class="na">max=</span><span class="s">"100"</span><span class="nt">&gt;</span>90%<span class="nt">&lt;/progress&gt;</span></code>
 </pre>
       <button class="copy">Copy</button>
     </figure>
