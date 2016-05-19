@@ -109,22 +109,34 @@
       </div>
     </div>
     <hr>
-    <h3>Button group</h3>
-    <div class="content">
+    <div class="columns">
+      <div class="column">
+        <div class="block">
+                <p class="control is-grouped"><a class="button is-primary">Save changes</a> <a class="button">Cancel</a> <a class="button is-secondary">Delete post</a></p>
+
+        </div>
+        <div class="block">            <p class="control has-addons"><a class="button"><span>Left</span></a> <a class="button"> <span>Center</span></a> <a class="button"> <span>Right</span></a></p>
+
+</div>
+         <div class="content">
+          <div class="notification">
       <p>If you want to <strong>group</strong> buttons together, use the <code>is-grouped</code> modifier on the <code>control</code> container:</p>
-    </div>
-    <div class="example">
-      <p class="control is-grouped"><a class="button is-primary">Save changes</a> <a class="button">Cancel</a> <a class="button is-secondary">Delete post</a></p>
-    </div>
-    <hr>
-    <h3>Button addons</h3>
-    <div class="content">
       <p>If you want to use buttons as <strong>addons</strong>, use the <code>has-addons</code> modifier on the <code>control</code> container:</p>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="box">
+          <pre>
+    <code id="ui-2" class="html">&lt;a class=&quot;button is-inverted&quot;&gt;Inverted&lt;/a&gt;
+&lt;a class=&quot;button is-outlined&quot;&gt;Outlined&lt;/a&gt;
+&lt;a class=&quot;button is-loading&quot;&gt;Loading&lt;/a&gt;
+&lt;a class=&quot;button is-disabled&quot;&gt;Disabled&lt;/a&gt;</code>
+  </pre>
+          <a class="button icon-clipboard" data-clipboard-target="#ui-2"></a> </div>
+      </div>
     </div>
-    <div class="example">
-      <p class="control has-addons"><a class="button"><span>Left</span></a> <a class="button"> <span>Center</span></a> <a class="button"> <span>Right</span></a></p>
     </div>
-  </div>
 </section>
 <section class="section" id="tooltip">
   <div class="container">
