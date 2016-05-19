@@ -21,8 +21,8 @@
     <hr>
     <div class="columns">
       <div class="column">
-        <div class="block"> <a class="button">Button</a> <a class="button is-white">White</a> <a class="button is-light">Light</a> <a class="button is-dark">Dark</a> <a class="button is-black">Black</a> <a class="button is-link">Link</a> </div>
-        <div class="block"> <a class="button is-primary">Primary</a> <a class="button is-secondary">Secondary</a> <a class="button is-accent">Accent</a> <a class="button is-success">Success</a> <a class="button is-alert">Alert</a> </div>
+        <div class="media block to-edges"> <a class="button">Button</a> <a class="button is-white">White</a> <a class="button is-light">Light</a> <a class="button is-dark">Dark</a> <a class="button is-black">Black</a> <a class="button is-link">Link</a> </div>
+        <div class="media block to-edges"> <a class="button is-primary">Primary</a> <a class="button is-secondary">Secondary</a> <a class="button is-accent">Accent</a> <a class="button is-success">Success</a> <a class="button is-alert">Alert</a> </div>
         <div class="content">
           <div class="notification">
             <p>To create a button, add <strong>.button</strong>.</p>
@@ -52,13 +52,13 @@
     <hr>
     <div class="columns">
       <div class="column">
-        <div class="block">
+        <div class="media block to-edges">
 	        <a class="button"><i class="ics icon-rollthe"></i>Throw Dice</a> 
 	        <a class="button is-primary"><i class="ics icon-headphones"></i>Listen</a> 
 			<a class="button is-secondary is-outlined"><i class="ics icon-lightbulb"></i>Get Ideas</a> 
 	        <a class="button is-success"><i class="ics icon-circlecheck"></i>OK</a> 
 	    </div>
-        <div class="block"> <a class="button is-small">Small</a> <a class="button">Normal</a> <a class="button is-medium">Medium</a> <a class="button is-large">Large</a> </div>
+        <div class="media block to-edges"> <a class="button is-small">Small</a> <a class="button">Normal</a> <a class="button is-medium">Medium</a> <a class="button is-large">Large</a> </div>
         <div class="content">
           <div class="notification">
             <p><a href="art.php">Available icons</a> can be added with <strong>&lt;i class=&quot;ics icon-$name&quot;&gt;&lt;/i&gt;</strong></p>
