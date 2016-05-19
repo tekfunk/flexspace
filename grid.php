@@ -64,7 +64,7 @@
           <pre><code id="g1" class="html hljs xml">&lt;div class=&quot;columns&quot;&gt;<br />      &lt;div class=&quot;column&quot;&gt;&lt;/div&gt;<br />      &lt;div class=&quot;column&quot;&gt;&lt;/div&gt;<br />&lt;/div&gt;
 &lt;div class=&quot;columns is-stacked&quot;&gt;<br />      &lt;div class=&quot;column  is-1-4&quot;&gt;&lt;/div&gt;<br />      &lt;div class=&quot;column  is-1-2&quot;&gt;&lt;/div&gt;<br />      &lt;div class=&quot;column&quot;&gt;&lt;/div&gt;<br />      &lt;div class=&quot;column is-2-3&quot;&gt;&lt;/div&gt;<br />      &lt;div class=&quot;column&quot;&gt;&lt;/div&gt;<br />&lt;/div&gt;</code>
 </pre>
-          <a class="button icon-edit" data-clipboard-target="#g1"></a> 
+          <a class="button icon-clipboard" data-clipboard-target="#g1"></a> 
         </div>
       </div>
     </div>
@@ -116,7 +116,7 @@
             <pre><code id="g2" class="html hljs xml">&lt;div class=&quot;columns&quot;&gt;<br />	&lt;div class=&quot;column is-full&quot;&gt;&lt;/div&gt;<br />&lt;/div&gt;<br />&lt;div class=&quot;columns&quot;&gt;<br />	&lt;div class=&quot;column is-1-2&quot;&gt;&lt;/div&gt;<br />	&lt;div class=&quot;column is-1-4 is-offset-1-8&quot;&gt;&lt;/div&gt;<br />&lt;/div&gt;<br />&lt;div class=&quot;columns&quot;&gt;<br />	&lt;div class=&quot;column is-1-10&quot;&gt;&lt;/div&gt;<br />	&lt;div class=&quot;column is-9-10&quot;&gt;&lt;/div&gt;<br />&lt;/div&gt;	  
 &lt;div class=&quot;columns&quot;&gt;<br />    &lt;div class=&quot;column is-7-12&quot;&gt;&lt;/div&gt;<br />     &lt;div class=&quot;column is-5-12&quot;&gt;&lt;/div&gt;<br />&lt;/div&gt;</code>
 </pre>
-            <a class="button icon-edit" data-clipboard-target="#g2"></a> </div>
+            <a class="button icon-clipboard" data-clipboard-target="#g2"></a> </div>
         </div>
       </div>
       <div class="columns">
@@ -167,7 +167,7 @@
           <div class="box">
             <pre><code id="g3" class="html hljs xml">&lt;div class=&quot;columns&quot;&gt;<br />  &lt;div class=&quot;column is-11-12&quot;&gt;&lt;/div&gt;<br />  &lt;div class=&quot;column is-1-12&quot;&gt;&lt;/div&gt;<br />&lt;/div&gt;<br />&lt;div class=&quot;columns&quot;&gt;<br />  &lt;div class=&quot;column is-narrow&quot;&gt;&lt;/div&gt;<br />  &lt;div class=&quot;column&quot;&gt;&lt;/div&gt;<br />&lt;/div&gt;<br />&lt;div class=&quot;columns&quot;&gt;<br />  &lt;div class=&quot;column is-narrow-desktop&quot;&gt;&lt;/div&gt;<br />  &lt;div class=&quot;column&quot;&gt;&lt;/div&gt;<br />&lt;/div&gt;<br />&lt;div class=&quot;columns is-gapless is-stacked&quot;&gt;<br />  &lt;div class=&quot;column is-1-8&quot;&gt;&lt;/div&gt;<br />  &lt;div class=&quot;column is-7-8&quot;&gt;&lt;/div&gt;<br />  &lt;div class=&quot;column is-5-6&quot;&gt;&lt;/div&gt;<br />  &lt;div class=&quot;column is-1-6&quot;&gt;&lt;/div&gt;<br />  &lt;div class=&quot;column is-1-5&quot;&gt;&lt;/div&gt;<br />  &lt;div class=&quot;column is-4-5&quot;&gt;&lt;/div&gt;<br />&lt;/div&gt;</code>
 </pre>
-            <a class="button icon-edit" data-clipboard-target="#g3"></a> </div>
+            <a class="button icon-clipboard" data-clipboard-target="#g3"></a> </div>
         </div>
       </div>
       <code class="code-blk">class="columns is-mobile"</code>
@@ -208,7 +208,7 @@
           <div class="box">
             <pre><code id="g4" class="html hljs xml">&lt;div class=&quot;columns is-mobile&quot;&gt;<br />        &lt;div class=&quot;column is-1-3&quot;&gt;&lt;/div&gt;<br />        &lt;div class=&quot;column is-2-3&quot;&gt;&lt;/div&gt;<br />&lt;/div&gt;<br />&lt;div class=&quot;columns&quot;&gt;<br />   &lt;div class=&quot;column is-11-12&quot;&gt;&lt;/div&gt;<br />   &lt;div class=&quot;column is-1-12&quot;&gt;&lt;/div&gt;<br />&lt;/div&gt;<br />&lt;div class=&quot;columns is-desktop&quot;&gt;<br />        &lt;div class=&quot;column is-1-4&quot;&gt;&lt;/div&gt;<br />        &lt;div class=&quot;column is-3-4&quot;&gt;&lt;/div&gt;<br />&lt;/div&gt;</code>
 </pre>
-            <a class="button icon-edit" data-clipboard-target="#g4"></a> </div>
+            <a class="button icon-clipboard" data-clipboard-target="#g4"></a> </div>
         </div>
       </div>
       <div class="columns">
@@ -254,7 +254,7 @@
 	&lt;div class=&quot;column is-3-10&quot;&gt;&lt;/div&gt;
 &lt;/div&gt;</code>
 </pre>
-          <a class="button icon-edit" data-clipboard-target="#g5"></a> </div>
+          <a class="button icon-clipboard" data-clipboard-target="#g5"></a> </div>
       </div>
     </div>
   </div>
