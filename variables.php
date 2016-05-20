@@ -5,8 +5,11 @@
     <div class="hero-header">
       <div class="mod trans-white">
         <div class="mod-content has-text-centered">
-			<h1>variables</h1>
-			<h3><a href="#editable">editable</a> | <a href="#generated">generated</a></h3>
+			<h1>Variables</h1>
+            <div class="block">
+	            <a class="button is-primary is-outlined" href="#editable">editable</a>
+	            <a class="button is-primary is-outlined" href="#generated">generated</a>
+            </div>
         </div>
       </div>
     </div>
@@ -14,8 +17,8 @@
 </section>
 <section class="section" id="editable">
   <div class="container">
-    <h1>editable variables</h1>
-    <h4>variables that can be edited before generating your CSS file.</h4>
+    <h1>Editable Variables</h1>
+    <h4>Variables that can be edited before generating your CSS file.</h4>
     <hr>
     <div class="columns">
       <div class="column">

@@ -1,15 +1,25 @@
 <?php include('inc/head.php'); ?>
 <?php include('inc/header.php'); ?>
 <section id="page-nav">
-  <h3><a href="#box">box</a> | <a href="#fixed">fixed</a> | <a href="#mod">mod</a> | <a href="#code">code</a> | <a href="#media">media</a> | <a href="#messages">messages</a> | <a href="#notifications">notifications</a> | <a href="#tags">tags</a>| <a href="#modal">modal</a> </h3>
+  <h3><a href="#box">box</a> | <a href="#mod">mod</a> | <a href="#code">code</a> | <a href="#media">media</a> | <a href="#messages">messages</a> | <a href="#notifications">notifications</a> | <a href="#tags">tags</a>| <a href="#modal">modal</a> </h3>
 </section>
 <section class="hero blue">
   <div class="is-flx-hero-2">
     <div class="hero-header">
       <div class="mod trans-white">
         <div class="mod-content has-text-centered">
-      <h1>modules - content containers</h1>
-      <h3><a href="#box">box</a> | <a href="#fixed">fixed</a> | <a href="#mod">mod</a> | <a href="#code">code</a> | <a href="#media">media</a> | <a href="#messages">messages</a> | <a href="#notifications">notifications</a> | <a href="#tags">tags</a>| <a href="#modal">modal</a> </h3>
+      <h1>Modules - Content Containers</h1>
+            <div class="block">
+	            <a class="button is-primary is-outlined" href="#box">box</a>
+	            <a class="button is-primary is-outlined" href="#mod">mod</a>
+				<a class="button is-primary is-outlined" href="#code">code</a>
+				<a class="button is-primary is-outlined" href="#media">media</a>
+				<a class="button is-primary is-outlined" href="#messages">messages</a>
+	            <a class="button is-primary is-outlined" href="#notifications">notifications</a>
+	            <a class="button is-primary is-outlined" href="#tags">tags</a>
+	            <a class="button is-primary is-outlined is-disabled" href="#modal">modal</a>
+            </div>
+
         </div>
       </div>
     </div>
@@ -17,18 +27,18 @@
 </section>
 <section class="section" id="box">
   <div class="container">
-    <h1>box</h1>
+    <h1>Box</h1>
     <hr>
     <div class="columns">
       <div class="column is-6">
         <div class="box">
           <article class="media">
             <div class="media-left">
-              <figure class="image is-64x64"> <img src="../art/dragotar.svg" alt="Dragotar"> </figure>
+              <figure class="image is-64x64"> <img src="../images/twenty-fifteen.jpg" alt="Dragotar"> </figure>
             </div>
             <div class="media-content">
               <div class="content">
-                <p> <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small> <br>
+                <p> <strong>Twenty Fifteen</strong> <small>by Slee</small><br>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis. </p>
               </div>
               <nav class="level">
@@ -53,36 +63,26 @@
     </div>
   </div>
 </section>
-<section class="section" id="fixed">
-  <div class="container">
-    <h1>fixed</h1>
-    <hr>
-    <div class="content">
-      <p>Stick a box in place.  .bottom .top .left .right</p>
-    </div>
-  </div>
-</section>
 <section class="section" id="mod">
   <div class="container">
-    <h1>mod</h1>
+    <h1>Mod</h1>
     <hr>
     <div class="columns">
       <div class="column is-1-2">
         <div class="mod">
           <header class="mod-header">
-            <p class="mod-header-title"> MIXES </p>
+            <p class="mod-header-title"> THE POST CATEGORY </p>
             <a class="mod-header-icon"> <i class="ics icon-chevdown"></i> </a> </header>
           <div class="mod-image">
-            <div class="image is-3by2"> <img src="art/dot-space-4.svg" alt=""> </div>
+            <div class="image is-3by2"> <img src="art/dot-space-1.svg" alt=""> </div>
           </div>
           <div class="mod-content">
             <div class="media">
               <div class="media-left">
-                <figure class="image is-32x32"> <img src="art/dot-space-2.svg" alt="Image"> </figure>
+                <figure class="image is-32x32"> <img src="../images/twenty-fifteen.jpg" alt="Image"> </figure>
               </div>
               <div class="media-content">
-                <p class="title is-5">John Smith</p>
-                <p class="subtitle is-6">@johnsmith</p>
+                <h1>The Post Title</h1>
               </div>
             </div>
             <div class="content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. <a href="#">@bulmaio</a>. <a href="#">#css</a> <a href="#">#responsive</a> <br>
@@ -109,7 +109,7 @@
 </section>
 <section class="section" id="code">
   <div class="container">
-    <h1>code</h1>
+    <h1>Code</h1>
     <hr>
     <div class="columns">
       <div class="column is-1-2"> 
@@ -131,7 +131,7 @@
 </section>
 <section class="section" id="media">
   <div class="container">
-    <h1>media</h1>
+    <h1>Media</h1>
     <hr>
     <div class="structure">
       <article class="media">
@@ -191,7 +191,7 @@
 </section>
 <section class="section" id="messages">
   <div class="container">
-    <h1>messages</h1>
+    <h1>Messages</h1>
     <hr>
     <div class="columns">
       <div class="column is-1-2">
@@ -220,7 +220,7 @@
 </section>
 <section class="section" id="notifications">
   <div class="container">
-    <h1>notifications</h1>
+    <h1>Notifications</h1>
     <hr>
     <div class="columns">
       <div class="column">
@@ -261,7 +261,7 @@
 </section>
 <section class="section" id="tags">
   <div class="container">
-    <h1>tags</h1>
+    <h1>Tags</h1>
     <hr>
     <div class="columns">
       <div class="column is-6"> <span class="tag is-dark">Dark</span> <span class="tag is-primary">Primary</span> <span class="tag is-accent">Accent</span> <span class="tag is-success">Success</span> <span class="tag is-alert">Alert</span> <span class="tag is-secondary">Secondary</span> </div>
@@ -293,7 +293,7 @@
 </section>
 <section class="section" id="modal">
   <div class="container">
-    <h1>modal</h1>
+    <h1>Modal</h1>
     <hr>
     <div class="content">Coming Soon</div>
   </div>

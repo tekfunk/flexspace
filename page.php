@@ -8,16 +8,25 @@
     <div class="hero-header">
       <div class="mod trans-white">
         <div class="mod-content has-text-centered">
-      <h1>page - basic page elements</h1>
-      <h3><a href="#layout">layout</a> | <a href="#container">container</a> | <a href="#hero">hero</a> | <a href="#content">content</a> | <a href="#images">images</a> | <a href="#helpers">helpers</a> | <a href="#display">display</a></h3>
-        </div>
+      <h1>Page - Basic Page Elements</h1>
+            <div class="block">
+	            <a class="button is-primary is-outlined" href="#layout">layout</a>
+	            <a class="button is-primary is-outlined" href="#container">container</a>
+	            <a class="button is-primary is-outlined" href="#hero">hero</a>
+				<a class="button is-primary is-outlined" href="#content">content</a>
+				<a class="button is-primary is-outlined" href="#images">images</a>
+				<a class="button is-primary is-outlined" href="#helpers">helpers</a>
+	            <a class="button is-primary is-outlined" href="#display">display</a>
+            </div>
+
+         </div>
       </div>
     </div>
   </div>
 </section>
 <section class="section" id="layout">
-  <div class="container content">
-    <h1>layout</h1>
+  <div class="container">
+    <h1>Layout</h1>
     <hr>
     <p>Basic page structure.</p>
     <div class="columns">
@@ -38,7 +47,7 @@
 </section>
 <section class="section">
   <div class="container" id="hero" style="margin-bottom: 10px;">
-    <h1>hero</h1>
+    <h1>Hero</h1>
     <hr>
     <p>Fullwidth featured content section.</p>
   </div>
@@ -93,7 +102,7 @@
 </section>
 <section class="section" id="container">
   <div class="container">
-    <h1>container</h1>
+    <h1>Container</h1>
     <hr>
     <p>Inside &lt;header&gt;&lt;/header&gt;, &lt;section&gt;&lt;/section&gt;, &lt;footer&gt;&lt;/footer&gt;.</p>
   </div>
@@ -108,7 +117,7 @@
 </section>
 <section class="section" id="content">
   <div class="container">
-    <h1>content</h1>
+    <h1>Content</h1>
     <hr>
     <p>Inside &lt;div class="container"&gt;&lt;/div&gt;</p>
     <div class="content has-border">
@@ -154,9 +163,9 @@
 </section>
 <section class="section" id="images">
   <div class="container">
-    <h1>images</h1>
+    <h1>Images</h1>
     <hr>
-    <h3>squares</h3>
+    <h3>Squares</h3>
     <div class="columns">
       <div class="column">
         <div class="mod">
@@ -287,7 +296,7 @@
 </section>
 <section class="section" id="helpers">
   <div class="container">
-    <h1>helpers</h1>
+    <h1>Helpers</h1>
     <hr>
   </div>
   <div class="container has-border is-clearfix">
@@ -325,101 +334,9 @@
 </section>
 <section class="section" id="display">
   <div class="container">
-    <h1>display</h1>
+    <h1>Display</h1>
     <hr>
   </div>
-  <div class="container">
-    <h3>Show / Hide</h3>
-    <div class="content">
-      <p> You can use one of the following <code>display</code> classes: </p>
-      <ul>
-        <li><code>block</code></li>
-        <li><code>flex</code></li>
-        <li><code>inline</code></li>
-        <li><code>inline-block</code></li>
-        <li><code>inline-flex</code></li>
-      </ul>
-      <p>For the other display options, just replace <code>is-flex</code> with <code>is-block</code> <code>is-inline</code> <code>is-inline-block</code> or <code>is-inline-flex</code> </p>
-    </div>
-    <div class="columns is-stacked">
-      <div class="column is-one-quarter">
-        <div class="mod">
-          <div class="mod-content">
-            <h2>Mobile</h2>
-            <p>Up to 768px</p>
-            <hr>
-            <p>.is-flex-mobile</p>
-            <p>.is-hidden-mobile</p>
-          </div>
-        </div>
-      </div>
-      <div class="column is-one-quarter">
-        <div class="mod">
-          <div class="mod-content">
-            <h2>Tablet</h2>
-            <p>Between <strong>769px</strong> and <strong>979px</strong></p>
-            <hr>
-            <p>.is-flex-tablet-only</p>
-            <p>.is-hidden-tablet-only</p>
-          </div>
-        </div>
-      </div>
-      <div class="column is-one-quarter">
-        <div class="mod">
-          <div class="mod-content">
-            <h2>Desktop</h2>
-            <p>Between <strong>980px</strong> and <strong>1179px</strong></p>
-            <hr>
-            <p>.is-flex-desktop-only</p>
-            <p>.is-hidden-desktop-only</p>
-          </div>
-        </div>
-      </div>
-      <div class="column is-one-quarter">
-        <div class="mod">
-          <div class="mod-content">
-            <h2>Widescreen</h2>
-            <p>Above <strong>1180px</strong></p>
-            <hr>
-            <p>.is-flex-widescreen</p>
-            <p>.is-hidden-widescreen</p>
-          </div>
-        </div>
-      </div>
-      <div class="column is-one-quarter">
-        <div class="mod">
-          <div class="mod-content">
-            <h2>Touch</h2>
-            <p>Up to <strong>979px</strong></p>
-            <hr>
-            <p>.is-flex-touch</p>
-            <p>.is-hidden-touch</p>
-          </div>
-        </div>
-      </div>
-      <div class="column is-one-quarter">
-        <div class="mod">
-          <div class="mod-content">
-            <h2>Tablet</h2>
-            <p>Above <strong>768px</strong></p>
-            <hr>
-            <p>.is-flex-tablet</p>
-            <p>.is-hidden-tablet</p>
-          </div>
-        </div>
-      </div>
-      <div class="column is-one-quarter">
-        <div class="mod">
-          <div class="mod-content">
-            <h2>Desktop</h2>
-            <p>Between <strong>980px</strong> and <strong>1179px</strong></p>
-            <hr>
-            <p>.is-flex-desktop</p>
-            <p>.is-hidden-desktop</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+   
 </section>
 <?php include("inc/footer.php"); ?>
