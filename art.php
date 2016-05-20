@@ -8,8 +8,8 @@
     <div class="hero-header">
       <div class="mod trans-white">
         <div class="mod-content has-text-centered">
-      <h1>art</h1>
-      <h3><a href="#icons">icons</a> | <a href="#shapes">shapes</a></h3>
+          <h1>Art</h1>
+          <div class="block"> <a class="button is-primary is-outlined" href="#icons">icons</a> <a class="button is-primary is-outlined is-disabled" href="#shapes">shapes</a> <a class="button is-primary is-outlined" href="#backgrounds">backgrounds</a> </div>
         </div>
       </div>
     </div>
@@ -17,585 +17,732 @@
 </section>
 <section class="section" id="icons">
   <div class="container">
-    <h1>icons</h1>
-    <h4>my custom icon font.  using <a href="https://icomoon.io/app">icomoon</a> to generate.  shapes have mostly been collected, but some were made.</h4>
+    <h1>Icons</h1>
+    <p>my custom icon font.  using <a href="https://icomoon.io/app">icomoon</a> to generate.  shapes have mostly been collected, but some were made.</p>
     <hr>
- <div class="columns is-stacked">
-      <div class="column is-1-12 mod">
-        <div class="box"> <i class="ics icon-menu"></i> <span> icon-menu</span> </div>
-        <h4>e600</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-list"></span> <span> icon-list</span> </div>
-        <h4>e601</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-justify"></span> <span> icon-justify</span> </div>
-        <h4>e602</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-jleft"></span> <span> icon-jleft</span> </div>
-        <h4>e603</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-jcenter"></span> <span> icon-jcenter</span> </div>
-        <h4>e604</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-jright"></span> <span> icon-jright</span> </div>
-        <h4>e605</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-tlist"></span> <span> icon-tlist</span> </div>
-        <h4>e606</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-table"></span> <span> icon-table</span> </div>
-        <h4>e607</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-tablelrg"></span> <span> icon-tablelrg</span> </div>
-        <h4>e608</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-fastback"></span> <span> icon-fastback</span> </div>
-        <h4>e609</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-stepback"></span> <span> icon-stepback</span> </div>
-        <h4>e60a</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-rewind"></span> <span> icon-rewind</span> </div>
-        <h4>e60b</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-play"></span> <span> icon-play</span> </div>
-        <h4>e60c</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-foward"></span> <span> icon-foward</span> </div>
-        <h4>e60d</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-stepfoward"></span> <span> icon-stepfoward</span> </div>
-        <h4>e60e</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-fastfoward"></span> <span> icon-fastfoward</span> </div>
-        <h4>e60f</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-stop"></span> <span> icon-stop</span> </div>
-        <h4>e610</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-eject"></span> <span> icon-eject</span> </div>
-        <h4>e611</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-expand"></span> <span> icon-expand</span> </div>
-        <h4>e612</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-move"></span> <span> icon-move</span> </div>
-        <h4>e613</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-chevup"></span> <span> icon-chevup</span> </div>
-        <h4>e614</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-chevright"></span> <span> icon-chevright</span> </div>
-        <h4>e615</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-chevdown"></span> <span> icon-chevdown</span> </div>
-        <h4>e616</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-chevleft"></span> <span> icon-chevleft</span> </div>
-        <h4>e617</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-cirlecup"></span> <span> icon-cirlecup</span> </div>
-        <h4>e618 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-circleright"></span> <span> icon-circleright</span> </div>
-        <h4>e619 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-circledown"></span> <span> icon-circledown</span> </div>
-        <h4>e61a </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-circleleft"></span> <span> icon-circleleft</span> </div>
-        <h4>e61b </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-circlex"></span> <span> icon-circlex</span> </div>
-        <h4>e61c </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-circlecheck"></span> <span> icon-circlecheck</span> </div>
-        <h4>e61d </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-ban"></span> <span> icon-ban</span> </div>
-        <h4>e61e </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-circledot"></span> <span> icon-circledot</span> </div>
-        <h4>e61f </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-circleplay"></span> <span> icon-circleplay</span> </div>
-        <h4>e620 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-compass"></span> <span> icon-compass</span> </div>
-        <h4>e621 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-zoomin"></span> <span> icon-zoomin</span> </div>
-        <h4>e622 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-zoomout"></span> <span> icon-zoomout</span> </div>
-        <h4>e623 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-ex"></span> <span> icon-ex</span> </div>
-        <h4>e624 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-check"></span> <span> icon-check</span> </div>
-        <h4>e625 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-sync"></span> <span> icon-sync</span> </div>
-        <h4>e626 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-reload"></span> <span> icon-reload</span> </div>
-        <h4>e627 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-gears"></span> <span> icon-gears</span> </div>
-        <h4>e628 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-wrench"></span> <span> icon-wrench</span> </div>
-        <h4>e629 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-info"></span> <span> icon-info</span> </div>
-        <h4>e62a </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-question"></span> <span> icon-question</span> </div>
-        <h4>e62b </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-external"></span> <span> icon-external</span> </div>
-        <h4>e62c </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-edit"></span> <span> icon-edit</span> </div>
-        <h4>e62d </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-share"></span> <span> icon-share</span> </div>
-        <h4>e62e </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-checkbox"></span> <span> icon-checkbox</span> </div>
-        <h4>e62f </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-exclaim"></span> <span> icon-exclaim</span> </div>
-        <h4>e630 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-print"></span> <span> icon-print</span> </div>
-        <h4>e631 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-download"></span> <span> icon-download</span> </div>
-        <h4>e632 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-crosshairs"></span> <span> icon-crosshairs</span> </div>
-        <h4>e633 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-home"></span> <span> icon-home</span> </div>
-        <h4>e634 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-link"></span> <span> icon-link</span> </div>
-        <h4>e635 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-book"></span> <span> icon-book</span> </div>
-        <h4>e636 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-bookmark"></span> <span> icon-bookmark</span> </div>
-        <h4>e637 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-tags"></span> <span> icon-tags</span> </div>
-        <h4>e638 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-tag"></span> <span> icon-tag</span> </div>
-        <h4>e639 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-tackright"></span> <span> icon-tackright</span> </div>
-        <h4>e63a </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-clock"></span> <span> icon-clock</span> </div>
-        <h4>e63b </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-calgrid"></span> <span> icon-calgrid</span> </div>
-        <h4>e63c </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-calblank"></span> <span> icon-calblank</span> </div>
-        <h4>e63d </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-keyboard"></span> <span> icon-keyboard</span> </div>
-        <h4>e63e </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-contact"></span> <span> icon-contact</span> </div>
-        <h4>e63f </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-envelope"></span> <span> icon-envelope</span> </div>
-        <h4>e640 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-comments"></span> <span> icon-comments</span> </div>
-        <h4>e641 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-pencil"></span> <span> icon-pencil</span> </div>
-        <h4>e642 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-locked"></span> <span> icon-locked</span> </div>
-        <h4>e643 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-unlocked"></span> <span> icon-unlocked</span> </div>
-        <h4>e644 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-camera"></span> <span> icon-camera</span> </div>
-        <h4>e645 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-picture"></span> <span> icon-picture</span> </div>
-        <h4>e646 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-gallery"></span> <span> icon-gallery</span> </div>
-        <h4>e647 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-video"></span> <span> icon-video</span> </div>
-        <h4>e648 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-headphones"></span> <span> icon-headphones</span> </div>
-        <h4>e649 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-highway"></span> <span> icon-highway</span> </div>
-        <h4>e64a </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-airplane"></span> <span> icon-airplane</span> </div>
-        <h4>e64b </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-beaker"></span> <span> icon-beaker</span> </div>
-        <h4>e64c </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-brush"></span> <span> icon-brush</span> </div>
-        <h4>e64d </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-lightbulb"></span> <span> icon-lightbulb</span> </div>
-        <h4>e64e </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-extinguish"></span> <span> icon-extinguish</span> </div>
-        <h4>e64f </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-globe"></span> <span> icon-globe</span> </div>
-        <h4>e650 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-sun"></span> <span> icon-sun</span> </div>
-        <h4>e651 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-location"></span> <span> icon-location</span> </div>
-        <h4>e652 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-lifevest"></span> <span> icon-lifevest</span> </div>
-        <h4>e653 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-rocket"></span> <span> icon-rocket</span> </div>
-        <h4>e654 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-sticker"></span> <span> icon-sticker</span> </div>
-        <h4>e655 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-bomb"></span> <span> icon-bomb</span> </div>
-        <h4>e656 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-Jack"></span> <span> icon-Jack</span> </div>
-        <h4>e657 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-Speaker"></span> <span> icon-Speaker</span> </div>
-        <h4>e658 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-monitor"></span> <span> icon-monitor</span> </div>
-        <h4>e659 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-vcard tile"></span> <span> icon-vcard</span> </div>
-        <h4>e65a </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-sliders"></span> <span> icon-sliders</span> </div>
-        <h4>e65b </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-Levels"></span> <span> icon-Levels</span> </div>
-        <h4>e65c </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-Levels_4"></span> <span> icon-Levels_4</span> </div>
-        <h4>e65d </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-Vinyl"></span> <span> icon-Vinyl</span> </div>
-        <h4>e65e </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-turntable"></span> <span> icon-turntable</span> </div>
-        <h4>e65f </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-webpage"></span> <span> icon-webpage</span> </div>
-        <h4>e660 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-chevupl"></span> <span> icon-chevupl</span> </div>
-        <h4>e661 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-chevrightl"></span> <span> icon-chevrightl</span> </div>
-        <h4>e662 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-chevdownl"></span> <span> icon-chevdownl</span> </div>
-        <h4>e663 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-chevleftl"></span> <span> icon-chevleftl</span> </div>
-        <h4>e664 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-dashboard"></span> <span> icon-dashboard</span> </div>
-        <h4>e665 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-briefcase"></span> <span> icon-briefcase</span> </div>
-        <h4>e666 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-tackleft"></span> <span> icon-tackleft</span> </div>
-        <h4>e667 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-caldot"></span> <span> icon-caldot</span> </div>
-        <h4>e668 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-paperplane"></span> <span> icon-paperplane</span> </div>
-        <h4>e669 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-users"></span> <span> icon-users</span> </div>
-        <h4>e66a </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-login"></span> <span> icon-login</span> </div>
-        <h4>e66b </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-logout"></span> <span> icon-logout</span> </div>
-        <h4>e66c </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-key"></span> <span> icon-key</span> </div>
-        <h4>e66d </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-tape"></span> <span> icon-tape</span> </div>
-        <h4>e66e </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-piano"></span> <span> icon-piano</span> </div>
-        <h4>e66f </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-waves"></span> <span> icon-waves</span> </div>
-        <h4>e670 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-stereo"></span> <span> icon-stereo</span> </div>
-        <h4>e671 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-signpost"></span> <span> icon-signpost</span> </div>
-        <h4>e672 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-gift"></span> <span> icon-gift</span> </div>
-        <h4>e674 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-tumblr-o"></span> <span> icon-tumblr-o</span> </div>
-        <h4>e675</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-rss-o"></span> <span> icon-rss-o</span> </div>
-        <h4>e676</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-mixcloud-o"></span> <span> icon-mixcloud-o</span> </div>
-        <h4>e677</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-soundcloud-o"></span> <span> icon-soundcloud-o</span> </div>
-        <h4>e678</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-email-o"></span> <span> icon-email-o</span> </div>
-        <h4>e679</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-soundcloud"></span> <span> icon-soundcloud</span> </div>
-        <h4>e67a</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-news"></span> <span> icon-news</span> </div>
-        <h4>e67b</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-aperture"></span> <span> icon-aperture</span> </div>
-        <h4>e67c</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-iso"></span> <span> icon-iso</span> </div>
-        <h4>e67d</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-ballpen"></span> <span> icon-ballpen</span> </div>
-        <h4>e67e</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-wineglass"></span> <span> icon-wineglass</span> </div>
-        <h4>e67f</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-ticketz"></span> <span> icon-ticketz</span> </div>
-        <h4>e680</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-macbook"></span> <span> icon-macbook</span> </div>
-        <h4>e681</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-ipad"></span> <span> icon-ipad</span> </div>
-        <h4>e682</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-iphone"></span> <span> icon-iphone</span> </div>
-        <h4>e683</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-infinity"></span> <span> icon-infinity</span> </div>
-        <h4>e684</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-rollthe"></span> <span> icon-rollthe</span> </div>
-        <h4>e685</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-aceshi"></span> <span> icon-aceshi</span> </div>
-        <h4>e68e</h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-spades"></span> <span> icon-spades</span> </div>
-        <h4>e68f </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-diamonds"></span> <span> icon-diamonds</span> </div>
-        <h4>e690 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-clubs"></span> <span> icon-clubs</span> </div>
-        <h4>e691 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-hearts"></span> <span> icon-hearts</span> </div>
-        <h4>e692 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-roulette"></span> <span> icon-roulette</span> </div>
-        <h4>e693 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-crown"></span> <span> icon-crown</span> </div>
-        <h4>e694 </h4>
-      </div>
-      <div class="column is-1-12 mod">
-        <div class="box"> <span class="icon-pdf-doc"></span> <span> icon-pdf-doc</span> </div>
-        <h4>e900 </h4>
-      </div>
-    </div>  </div>
+    <div class="columns is-stacked">
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-menu"></i>
+          <p>icon-menu</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-list"></i>
+          <p> icon-list</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-justify"></i>
+          <p> icon-justify</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-jleft"></i>
+          <p> icon-jleft</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-jcenter"></i>
+          <p> icon-jcenter</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-jright"></i>
+          <p> icon-jright</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-tlist"></i>
+          <p> icon-tlist</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-table"></i>
+          <p> icon-table</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-tablelrg"></i>
+          <p> icon-tablelrg</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-fastback"></i>
+          <p> icon-fastback</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-stepback"></i>
+          <p> icon-stepback</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-rewind"></i>
+          <p> icon-rewind</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-play"></i>
+          <p> icon-play</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-foward"></i>
+          <p> icon-foward</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-stepfoward"></i>
+          <p> icon-stepfoward</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-fastfoward"></i>
+          <p> icon-fastfoward</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-stop"></i>
+          <p> icon-stop</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-eject"></i>
+          <p> icon-eject</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-expand"></i>
+          <p> icon-expand</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-move"></i>
+          <p> icon-move</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-chevup"></i>
+          <p> icon-chevup</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-chevright"></i>
+          <p> icon-chevright</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-chevdown"></i>
+          <p> icon-chevdown</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-chevleft"></i>
+          <p> icon-chevleft</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-cirlecup"></i>
+          <p> icon-cirlecup</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-circleright"></i>
+          <p> icon-circleright</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-circledown"></i>
+          <p> icon-circledown</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-circleleft"></i>
+          <p> icon-circleleft</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-circlex"></i>
+          <p> icon-circlex</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-circlecheck"></i>
+          <p> icon-circlecheck</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-ban"></i>
+          <p> icon-ban</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-circledot"></i>
+          <p> icon-circledot</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-circleplay"></i>
+          <p> icon-circleplay</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-compass"></i>
+          <p> icon-compass</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-zoomin"></i>
+          <p> icon-zoomin</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-zoomout"></i>
+          <p> icon-zoomout</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-ex"></i>
+          <p> icon-ex</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-check"></i>
+          <p> icon-check</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-sync"></i>
+          <p> icon-sync</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-reload"></i>
+          <p> icon-reload</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-gears"></i>
+          <p> icon-gears</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-wrench"></i>
+          <p> icon-wrench</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-info"></i>
+          <p> icon-info</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-question"></i>
+          <p> icon-question</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-external"></i>
+          <p> icon-external</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-edit"></i>
+          <p> icon-edit</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-share"></i>
+          <p> icon-share</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-checkbox"></i>
+          <p> icon-checkbox</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-exclaim"></i>
+          <p> icon-exclaim</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-print"></i>
+          <p> icon-print</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-download"></i>
+          <p> icon-download</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-crosshairs"></i>
+          <p> icon-crosshairs</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-home"></i>
+          <p> icon-home</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-link"></i>
+          <p> icon-link</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-book"></i>
+          <p> icon-book</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-bookmark"></i>
+          <p> icon-bookmark</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-tags"></i>
+          <p> icon-tags</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-tag"></i>
+          <p>icon-tag
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-tackright"></i>
+          <p> icon-tackright</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-clock"></i>
+          <p> icon-clock</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-calgrid"></i>
+          <p> icon-calgrid</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-calblank"></i>
+          <p> icon-calblank</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-keyboard"></i>
+          <p> icon-keyboard</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-contact"></i>
+          <p> icon-contact</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-envelope"></i>
+          <p> icon-envelope</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-comments"></i>
+          <p> icon-comments</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-pencil"></i>
+          <p> icon-pencil</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-locked"></i>
+          <p> icon-locked</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-unlocked"></i>
+          <p> icon-unlocked</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-camera"></i>
+          <p> icon-camera</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-picture"></i>
+          <p> icon-picture</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-gallery"></i>
+          <p> icon-gallery</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-video"></i>
+          <p> icon-video</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-headphones"></i>
+          <p> icon-headphones</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-highway"></i>
+          <p> icon-highway</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-airplane"></i>
+          <p> icon-airplane</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-beaker"></i>
+          <p> icon-beaker</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-brush"></i>
+          <p> icon-brush</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-lightbulb"></i>
+          <p> icon-lightbulb</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-extinguish"></i>
+          <p> icon-extinguish</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-globe"></i>
+          <p> icon-globe</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-sun"></i>
+          <p> icon-sun</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-location"></i>
+          <p> icon-location</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-lifevest"></i>
+          <p> icon-lifevest</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-rocket"></i>
+          <p> icon-rocket</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-sticker"></i>
+          <p> icon-sticker</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-bomb"></i>
+          <p> icon-bomb</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-Jack"></i>
+          <p> icon-Jack</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-Speaker"></i>
+          <p> icon-Speaker</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-monitor"></i>
+          <p> icon-monitor</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-vcard tile"></i>
+          <p> icon-vcard</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-sliders"></i>
+          <p> icon-sliders</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-Levels"></i>
+          <p> icon-Levels</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-Levels_4"></i>
+          <p> icon-Levels_4</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-Vinyl"></i>
+          <p> icon-Vinyl</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-turntable"></i>
+          <p> icon-turntable</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-webpage"></i>
+          <p> icon-webpage</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-chevupl"></i>
+          <p> icon-chevupl</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-chevrightl"></i>
+          <p> icon-chevrightl</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-chevdownl"></i>
+          <p> icon-chevdownl</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-chevleftl"></i>
+          <p> icon-chevleftl</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-dashboard"></i>
+          <p> icon-dashboard</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-briefcase"></i>
+          <p> icon-briefcase</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-tackleft"></i>
+          <p> icon-tackleft</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-caldot"></i>
+          <p> icon-caldot</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-paperplane"></i>
+          <p> icon-paperplane</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-users"></i>
+          <p> icon-users</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-login"></i>
+          <p> icon-login</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-logout"></i>
+          <p> icon-logout</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-key"></i>
+          <p> icon-key</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-tape"></i>
+          <p> icon-tape</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-piano"></i>
+          <p> icon-piano</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-waves"></i>
+          <p> icon-waves</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-stereo"></i>
+          <p> icon-stereo</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-signpost"></i>
+          <p> icon-signpost</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-gift"></i>
+          <p> icon-gift</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-tumblr-o"></i>
+          <p> icon-tumblr-o</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-rss-o"></i>
+          <p> icon-rss-o</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-mixcloud-o"></i>
+          <p> icon-mixcloud-o</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-soundcloud-o"></i>
+          <p> icon-soundcloud-o</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-email-o"></i>
+          <p> icon-email-o</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-soundcloud"></i>
+          <p> icon-soundcloud</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-news"></i>
+          <p> icon-news</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-aperture"></i>
+          <p> icon-aperture</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-iso"></i>
+          <p> icon-iso</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-ballpen"></i>
+          <p> icon-ballpen</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-wineglass"></i>
+          <p> icon-wineglass</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-ticketz"></i>
+          <p> icon-ticketz</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-macbook"></i>
+          <p> icon-macbook</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-ipad"></i>
+          <p> icon-ipad</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-iphone"></i>
+          <p> icon-iphone</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-infinity"></i>
+          <p> icon-infinity</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-rollthe"></i>
+          <p> icon-rollthe</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-aceshi"></i>
+          <p> icon-aceshi</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-spades"></i>
+          <p> icon-spades</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-diamonds"></i>
+          <p> icon-diamonds</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-clubs"></i>
+          <p> icon-clubs</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-hearts"></i>
+          <p> icon-hearts</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-roulette"></i>
+          <p> icon-roulette</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-crown"></i>
+          <p> icon-crown</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-pdf-doc"></i>
+          <p> icon-pdf-doc</p>
+        </div>
+      </div>
+      <div class="column is-1-3-mobile is-1-10 mod">
+        <div class="box"> <i class="ics icon-clipboard"></i>
+          <p> icon-clipboard</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 <section class="section" id="shapes">
   <div class="container">
-    <h1>shapes</h1>
+    <h1>Shapes</h1>
     <hr>
   </div>
 </section>
 <section class="section" id="backgrounds">
 <div class="container">
-<h1>backgrounds</h1>
+<h1>Backgrounds</h1>
 <hr>
 <div class="columns is-stacked to-edges">
   <div class="column is-1-3">

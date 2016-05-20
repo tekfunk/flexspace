@@ -8,8 +8,11 @@
     <div class="hero-header">
       <div class="mod trans-white">
         <div class="mod-content has-text-centered">
-            <h1>animations</h1>
-            <h3><a href="#animate">animate.css</a></h3>
+            <h1>Animations</h1>
+            <div class="block">
+	            <a class="button is-primary is-outlined" href="#animate">animate.css</a>
+	            <a class="button is-primary is-outlined is-disabled" href="#hover">hover.css</a>
+            </div>
         </div>
       </div>
     </div>
