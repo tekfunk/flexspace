@@ -1,24 +1,28 @@
 <?php include('inc/head.php'); ?>
 <?php include('inc/header.php'); ?>
-<section id="page-nav">
-  <h3><a href="#columns">columns</a> | <a href="#sizing">sizing</a> | <a href="#tables">tables</a></h3>
-</section>
-<section class="hero blue">
-  <div class="is-flx-hero-2">
-    <div class="hero-header">
-      <div class="mod trans-white">
-        <div class="mod-content has-text-centered">
-			<h1>Grid</h1>
-			<div class="block"> 
-				<a class="button is-primary is-outlined" href="#columns">columns</a> 
-				<a class="button is-primary is-outlined" href="#sizing">sizing</a> 
-				<a class="button is-primary is-outlined" href="#tables">tables</a> 
-			</div>
-        </div>
+<section class="hero is-primary">
+  <div class="has-flxs-head-2">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title"> Grid </h1>
+        <div class="subtitle"> When you need a little help from Descartes.</div>
+      </div>
+    </div>
+    <div class="hero-foot">
+      <div class="container">
+        <div class="block has-text-centered"> 				
+	        <a class="button is-primary is-active" href="#columns">columns</a> 
+				<a class="button is-primary" href="#sizing">sizing</a> 
+				<a class="button is-primary is-disabled" href="#mozaic">mozaic</a> 
+				<a class="button is-primary" href="#tables">tables</a> 
+ </div>
       </div>
     </div>
   </div>
 </section>
+
+
+
 <section class="section" id="columns">
   <div class="container">
     <h1>Columns</h1>
@@ -263,7 +267,13 @@
     </div>
   </div>
 </section>
-<section class="section" id="tables">
+<section class="section" id="mozaic">
+  <div class="container">
+    <h1>Mozaic</h1>
+    <hr>
+<p>Coming Soon.</p>
+  </div>
+</section><section class="section" id="tables">
   <div class="container">
     <h1>Tables</h1>
     <hr>

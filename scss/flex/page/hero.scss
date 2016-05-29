@@ -51,11 +51,19 @@
 }
 
 // Containers
+  @each $name, $pair in $colors {
+    $color: nth($pair, 1);
+    $color-invert: nth($pair, 2);
 
-.hero-head,
-.hero-foot {
-  flex-shrink: 0;
+    .hero-head.is-#{$name}, .hero-body.is-#{$name}, .hero-foot.is-#{$name} {
+      background: $color;
+      color: $color-invert;
+	  flex-shrink: 0;
 }
+
+}
+
+
 
 .hero-body {
   flex: 1;
@@ -95,7 +103,9 @@
     &.is-#{$name} {
       background: $color;
       color: $color-invert;
-
+	  
+	  
+	  
       h1 {
         color: $color-invert;
 

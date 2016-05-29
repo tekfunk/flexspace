@@ -36,10 +36,15 @@ pre {
 }
 
 body {
+  background-color: $paper;
   color: $text;
   font-size: 1rem;
   font-weight: $weight-normal;
   line-height: 1.42857;
+}
+
+p {
+  font-size: $size-6;
 }
 
 // Inline

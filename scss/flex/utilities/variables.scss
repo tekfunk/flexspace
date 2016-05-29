@@ -1,40 +1,49 @@
 // Editable Variables
 
+// Colors
 //Palette
 $primary: #2957a6 !default;
 $secondary: #fbb041 !default;
 $accent: #49425a !default;
+$pastel: #f9f9ef !default;
+$paper: #fcfcfc !default;
 
+//Greyscale
 $black: #1a1a1a !default;
 $grey-darker: #2a2a2a !default;
 $grey-dark: #3a3a3a !default;
 $grey: #aeb1b5 !default;
 $grey-light: #d3d6db !default;
-$grey-lighter: #f5f7fa !default;
-$white: #fff !default;
-$blue: #42afe3 !default;
-$green: #94b282 !default;
-$orange: #f68b39 !default;
-$purple: #847bb9 !default;
-$red: #c5443b !default;
-$turquoise: #14b1c4 !default;
+$grey-lighter: #fafbfa !default;
+$white: #ffffff !default;
+
+//Crayon
+$red: #ed0a3f !default;
+$brick: #C62D42 !default;
+$orange: #FF8833 !default;
+$maize: #F2C649 !default;
 $yellow: #fce473 !default;
+$olive: #14b1c4 !default;
+$green: #3AA655 !default;
+$teal: #008080 default;
+$blue: #0066FF !default;
+$cobalt: #8C90C8 !default;
+$violet: #8359a3 !default;
+$sepia: #9E5B40 !default;
+$umber: #665233 default;
 
-// 2. Primary colors
-
+//UI
 $success: $green !default;
 $alert: $yellow !default;
 $light: $grey-lighter !default;
 $dark: $grey-dark !default;
 $text: $grey-dark !default;
 
-
-
 //Type
 $font-headline: "DINPro", sans-serif !default;
 $font-button: "DINPro", sans-serif !default;
 $family-sans-serif: "DINPro", sans-serif !default;
-$family-monospace: "Source Code Pro", "Monaco", "Inconsolata", monospace !default;
+$family-monospace: "Mononoki", "Source Code Pro", "Monaco", monospace !default;
 $size-1: 48px !default;
 $size-2: 40px !default;
 $size-3: 28px !default;
@@ -74,7 +83,6 @@ $bkd-pattern-2: url('../art/dot-space-2.svg');
 $bkd-pattern-3: url('../art/dot-space-3.svg');
 $bkd-pattern-4: url('../art/dot-space-4.svg');
 
-
 // 3. Generated variables
 
 // Invert colors
@@ -101,7 +109,7 @@ $text-strong: $grey-darker !default;
 
 $link: $primary !default;
 $link-invert: $primary-invert !default;
-$link-visited: $purple !default;
+$link-visited: $violet !default;
 $link-hover: $grey-darker !default;
 $link-hover-background: $grey-lighter !default;
 $link-hover-border: $grey-darker !default;

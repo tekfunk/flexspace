@@ -1,0 +1,50 @@
+.has-flxs-head-1 { background: url('../art/dot-space-delic-1.svg') ; background-size: cover; background-position: center;}
+.has-flxs-head-2 { background: url('../art/dot-space-delic-2.svg') ; background-size: cover; background-position: center;}
+.has-flxs-head-3 { background: url('../art/dot-space-delic-3.svg') ; background-size: cover; background-position: center;}
+.has-flxs-head-4 { background: url('../art/dot-space-delic-4.svg') ; background-size: cover; background-position: center;}
+
+.has-bkd-pattern-1 { background: $bkd-pattern-1; background-size: cover; background-position: center; background-color: #ffffff;}
+.has-bkd-pattern-2 { background: $bkd-pattern-2; background-size: cover; background-position: center; }
+.has-bkd-pattern-3 { background: $bkd-pattern-3; background-size: cover; background-position: center; }
+.has-bkd-pattern-4 { background: $bkd-pattern-4; background-size: cover; background-position: center; }
+
+.has-bkd-image-1 { background: $bkd-image-1; background-size: cover; background-position: center; }
+.has-bkd-image-2 { background: $bkd-image-1; background-size: cover; background-position: center; }
+.has-bkd-image-3 { background: $bkd-image-1; background-size: cover; background-position: center; }
+.has-bkd-image-4 { background: $bkd-image-1; background-size: cover; background-position: center; }
+
+.trans-white { background-color: rgba(255,255,255,.95);}
+
+
+.has-bkd-pattern-5 {    background-color: $primary; clip-path: $bkd-pattern-1;
+    mask-image: $bkd-pattern-1; mask-image-size: cover;}
+    
+.white-trans-vert { background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.blue-trans-vert {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2957a6+0,ffffff+100&1+0,0+100 */
+background: -moz-linear-gradient(top,  rgba(41,87,166,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(41,87,166,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(41,87,166,1) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2957a6', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.blue-white-vert {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2957a6+0,ffffff+100 */
+background: rgb(41,87,166); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(41,87,166,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(41,87,166,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(41,87,166,1) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2957a6', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.white-blue-vert {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,2957a6+100 */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(41,87,166,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(41,87,166,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(41,87,166,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#2957a6',GradientType=0 ); /* IE6-9 */
+}

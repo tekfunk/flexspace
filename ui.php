@@ -1,16 +1,16 @@
 <?php include('inc/head.php'); ?>
 <?php include('inc/header.php'); ?>
-<section id="page-nav">
-  <h3><a href="#button">button</a> | <a href="#tooltip">tooltip</a> | <a href="#nav">nav</a> | <a href="#panel">panel</a> | <a href="#menu">menu</a> | <a href="#form">form</a> | <a href="#tabs">tabs</a> | <a href="#pagination">pagination</a> | <a href="#progress">progress</a> </h3>
-</section>
-<section class="hero blue">
-  <div class="is-flx-hero-4">
-    <div class="hero-header">
-      <div class="mod trans-white">
-        <div class="mod-content has-text-centered">
-          <h1>UI - Point & Hover & Click</h1>
-          <div class="block"> <a class="button is-primary is-outlined" href="#button">button</a> <a class="button is-primary is-outlined" href="#nav">nav</a> <a class="button is-primary is-outlined is-disabled" href="#tabs">tabs</a> <a class="button is-primary is-outlined is-disabled" href="#panel">panel</a> <a class="button is-primary is-outlined is-disabled" href="#menu">menu</a> <a  class="button is-primary is-outlined is-disabled" href="#form">form</a> <a class="button is-primary is-outlined is-disabled" href="#pagination">pagination</a> <a class="button is-primary is-outlined is-disabled" href="#progress">progress</a> <a class="button is-primary is-outlined is-disabled" href="#tooltip">tooltip</a></div>
-        </div>
+<section class="hero is-primary">
+  <div class="has-flxs-head-4">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title"> UI </h1>
+        <div class="subtitle"> Point & Hover & Click </div>
+      </div>
+    </div>
+    <div class="hero-foot">
+      <div class="container">
+        <div class="block has-text-centered"> <a class="button is-primary" href="#button">button</a> <a class="button is-primary" href="#nav">nav</a> <a class="button is-primary is-disabled" href="#tabs">tabs</a> <a class="button is-primary is-disabled" href="#panel">panel</a> <a class="button is-primary is-disabled" href="#menu">menu</a> <a  class="button is-primary is-disabled" href="#form">form</a> <a class="button is-primary is-disabled" href="#pagination">pagination</a> <a class="button is-primary is-disabled" href="#progress">progress</a> <a class="button is-primary is-disabled" href="#tooltip">tooltip</a></div>
       </div>
     </div>
   </div>
@@ -64,7 +64,7 @@
       <div class="column">
         <div class="box">
           <pre>
-<code id="ui-1" class="html">&lt;a class=&quot;button&quot;&gt;
+<code id="ui-2" class="html">&lt;a class=&quot;button&quot;&gt;
   &lt;i class=&quot;ics icon-rollthe&quot;&gt;&lt;/i&gt;
   Throw Dice
 &lt;/a&gt; <br />&lt;a class=&quot;button is-primary&quot;&gt;&lt;i class=&quot;ics icon-headphones&quot;&gt;&lt;/i&gt;Listen&lt;/a&gt; <br />&lt;a class=&quot;button is-secondary is-outlined&quot;&gt;&lt;i class=&quot;ics icon-lightbulb&quot;&gt;&lt;/i&gt;Get Ideas&lt;/a&gt; <br />&lt;a class=&quot;button is-success&quot;&gt;&lt;i class=&quot;ics icon-circlecheck&quot;&gt;&lt;/i&gt;OK&lt;/a&gt; 
@@ -73,7 +73,7 @@
 &lt;a class=&quot;button is-large&quot;&gt;Large&lt;/a&gt;
 </code>
 </pre>
-          <a class="button icon-clipboard" data-clipboard-target="#ui-1"></a> </div>
+          <a class="button icon-clipboard" data-clipboard-target="#ui-2"></a> </div>
       </div>
     </div>
     <hr>
@@ -95,92 +95,112 @@
       <div class="column">
         <div class="box">
           <pre>
-    <code id="ui-2" class="html">&lt;a class=&quot;button is-inverted&quot;&gt;Inverted&lt;/a&gt;
+    <code id="ui-3" class="html">&lt;a class=&quot;button is-inverted&quot;&gt;Inverted&lt;/a&gt;
 &lt;a class=&quot;button is-outlined&quot;&gt;Outlined&lt;/a&gt;
 &lt;a class=&quot;button is-loading&quot;&gt;Loading&lt;/a&gt;
 &lt;a class=&quot;button is-disabled&quot;&gt;Disabled&lt;/a&gt;</code>
   </pre>
-          <a class="button icon-clipboard" data-clipboard-target="#ui-2"></a> </div>
+          <a class="button icon-clipboard" data-clipboard-target="#ui-3"></a> </div>
       </div>
     </div>
     <hr>
     <div class="columns">
       <div class="column">
         <div class="block">
-          <p class="control is-grouped"><a class="button is-primary">Save changes</a> <a class="button">Cancel</a> <a class="button is-secondary">Delete post</a></p>
+          <p class="control is-grouped"><a class="button is-primary">Primary</a> <a class="button">Generic</a> <a class="button is-secondary">Secondary</a></p>
         </div>
         <div class="block">
           <p class="control has-addons"><a class="button"><span>Left</span></a> <a class="button"> <span>Center</span></a> <a class="button"> <span>Right</span></a></p>
         </div>
         <div class="content">
           <div class="notification">
-            <p>If you want to <strong>group</strong> buttons together, use the <code>is-grouped</code> modifier on the <code>control</code> container:</p>
-            <p>If you want to use buttons as <strong>addons</strong>, use the <code>has-addons</code> modifier on the <code>control</code> container:</p>
+            <p>If you want to group buttons, use <strong>.is-grouped</strong> on <strong>.control</strong>.</p>
+            <p>If you want to use buttons as addons, use <strong>.has-addons</strong> on <strong>.control</strong>.</p>
           </div>
         </div>
       </div>
       <div class="column">
         <div class="box">
           <pre>
-    <code id="ui-2" class="html">&lt;a class=&quot;button is-inverted&quot;&gt;Inverted&lt;/a&gt;
-&lt;a class=&quot;button is-outlined&quot;&gt;Outlined&lt;/a&gt;
-&lt;a class=&quot;button is-loading&quot;&gt;Loading&lt;/a&gt;
-&lt;a class=&quot;button is-disabled&quot;&gt;Disabled&lt;/a&gt;</code>
+    <code id="ui-4" class="html">&lt;p class=&quot;control is-grouped&quot;&gt;
+  &lt;a class=&quot;button is-primary&quot;&gt;Primary&lt;/a&gt; 
+  &lt;a class=&quot;button&quot;&gt;Generic&lt;/a&gt; 
+  &lt;a class=&quot;button is-secondary&quot;&gt;Secondary&lt;/a&gt;
+&lt;/p&gt;
+&lt;p class=&quot;control has-addons&quot;&gt;
+  &lt;a class=&quot;button&quot;&gt;&lt;span&gt;Left&lt;/span&gt;&lt;/a&gt; 
+  &lt;a class=&quot;button&quot;&gt; &lt;span&gt;Center&lt;/span&gt;&lt;/a&gt; 
+  &lt;a class=&quot;button&quot;&gt; &lt;span&gt;Right&lt;/span&gt;&lt;/a&gt;
+&lt;/p&gt;</code>
   </pre>
-          <a class="button icon-clipboard" data-clipboard-target="#ui-2"></a> </div>
+          <a class="button icon-clipboard" data-clipboard-target="#ui-4"></a> </div>
       </div>
     </div>
   </div>
 </section>
 <section class="section" id="nav">
+<div class="container">
+  <h1>Nav</h1>
+  <hr>
+</div>
+<nav class="nav has-shadow">
   <div class="container">
-    <h1>Nav</h1>
-    <hr>
-    <div class="content">
-      <p> The <code>nav</code> container can have <strong>3 parts</strong>: </p>
-      <ul>
-        <li><code>nav-left</code></li>
-        <li><code>nav-center</code></li>
-        <li><code>nav-right</code></li>
-      </ul>
-      <p> For responsiveness, <strong>2 additional</strong> classes are available: </p>
-      <ul>
-        <li><code>nav-toggle</code> for the hamburger menu on mobile</li>
-        <li><code>nav-menu</code> for menu that is collapsable on mobile (you can combine it with <code>nav-right</code>)</li>
-      </ul>
+    <div class="nav-left">
+      <div class="logo"><a href="/index.php"><img src="../art/flexspace-logo-sm.svg" width="80"></a></div>
     </div>
-    <div class="example">
-      <nav class="nav">
-        <div class="nav-left"> <a class="nav-item" href="#"> <img src="art/flexspace-logo.svg" alt="flexspace" width="120px"> </a> </div>
-        <div class="nav-center"> <a class="nav-item" href="#"> <span class="icon"> <i class="ics icon-github"></i> </span> </a> <a class="nav-item" href="#"> <span class="icon"> <i class="ics icon-twitter"></i> </span> </a> </div>
-        <span class="nav-toggle"> <span></span> <span></span> <span></span> </span>
-        <div class="nav-right nav-menu"> <a class="nav-item" href="#"> Home </a> <a class="nav-item" href="#"> Documentation </a> <a class="nav-item" href="#"> Blog </a> <span class="nav-item"> <a class="button"> <span class="icon"> <i class="ics icon-twitter"></i> </span> <span>Tweet</span> </a> <a class="button is-primary" href="#"> <span class="icon"> <i class="ics icon-download"></i> </span> <span>Download</span> </a> </span> </div>
-      </nav>
+    <div class="nav-center">
+	    <a><i class="ics icon-beaker"></i></a>
+	</div>
+    <span class="nav-toggle"> <span></span> <span></span> <span></span> </span>
+    <div class="nav-right nav-menu"> 
+	    	<a class="nav-item is-tab is-active">page</a> 
+	    	<a class="nav-item is-tab">grid</a> 
+	    	<a class="nav-item is-tab">modules</a>
+	    	<a class="nav-item is-tab">ui</a>
+	    	<span class="nav-item is-tab"><a class="button is-primary" href="/index.php#about"><span class="icon"><i class="ics icon-question"></i></span></a></span> 
+	 </div>
+  </div>
+</nav>
+<div class="container">
+ <hr>
+<div class="columns">
+  <div class="column is-1-2">
+     <div class="notification content">
+      <p> Nav can have 3 parts, <strong>.nav-left, .nav-center, & .nav-right</strong></p>
+      <p>Use <strong>.nav-toggle</strong> for the hamburger menu on mobile</p>
+      <p>Use <strong>.nav-menu</strong> for menu that is collapsable on mobile (you can combine it with <strong>.nav-right</strong>)</p>
+      <p>For a <strong>shadow</strong> use <strong>.has-shadow</strong>.</p>
+      <p><strong>.nav-item</strong> can be <strong>active</strong> by using <strong>.is-active</strong>.</p>
+      <p><strong>.nav-item</strong> can be a <strong>tab</strong> by using <strong>.is-tab</strong>.</p>
+      
     </div>
-    <hr>
-    <h3>Modifiers</h3>
-    <div class="content">
-      <ul>
-        <li>the <code>nav</code> container can have a <strong>shadow</strong> by adding the <code>has-shadow</code> modifier</li>
-        <li>the <code>nav-item</code> can become <strong>active</strong> by adding the <code>is-active</code> modifier</li>
-        <li>the <code>nav-item</code> can become a <strong>tab</strong> by adding the <code>is-tab</code> modifier</li>
-      </ul>
+    </div>
+    <div class="column is-1-2">
+      <div class="box">
+        <pre>
+    <code id="ui-5" class="html">&lt;nav class=&quot;nav has-shadow&quot;&gt;<br />  &lt;div class=&quot;container&quot;&gt;<br />    &lt;div class=&quot;nav-left&quot;&gt;<br />    	&lt;div class=&quot;logo&quot;&gt;&lt;a href=&quot;&quot;&gt;&lt;img src=&quot;&quot; width=&quot;80&quot;&gt;&lt;/a&gt;&lt;/div&gt;<br />    &lt;/div&gt;<br />    &lt;div class=&quot;nav-center&quot;&gt;
+		&lt;a&gt;&lt;i class=&quot;ics icon-beaker&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+	&lt;/div&gt;<br />    &lt;span class=&quot;nav-toggle&quot;&gt; &lt;span&gt;&lt;/span&gt; &lt;span&gt;&lt;/span&gt; &lt;span&gt;&lt;/span&gt; &lt;/span&gt;<br />    &lt;div class=&quot;nav-right nav-menu&quot;&gt; 
+		&lt;a class=&quot;nav-item is-tab is-active&quot;&gt;Card&lt;/a&gt; 
+		&lt;a class=&quot;nav-item&quot; href=&quot;/page.php&quot;&gt;page&lt;/a&gt;
+		&lt;a class=&quot;nav-item&quot; href=&quot;/grid.php&quot;&gt;grid&lt;/a&gt;
+		&lt;a class=&quot;nav-item&quot; href=&quot;/modules.php&quot;&gt;modules&lt;/a&gt;
+		&lt;a class=&quot;nav-item&quot; href=&quot;/ui.php&quot;&gt;ui&lt;/a&gt;
+		&lt;a class=&quot;nav-item button is-primary&quot; href=&quot;/index.php#about&quot;&gt; 
+&lt;span class=&quot;icon&quot;&gt; &lt;i class=&quot;ics icon-question&quot;&gt;&lt;/i&gt; &lt;/span&gt; &lt;/a&gt;
+	&lt;/div&gt;<br />  &lt;/div&gt;<br />&lt;/nav&gt;</code>
+  </pre>
+        <a class="button icon-clipboard" data-clipboard-target="#ui-5"></a> </div>
     </div>
   </div>
-  <div class="example">
-    <nav class="nav has-shadow">
-      <div class="container">
-        <div class="nav-left"> <a class="nav-item is-tab is-active">Card</a> <a class="nav-item is-tab">Level</a> <a class="nav-item is-tab">Media object</a> <a class="nav-item is-tab">Menu</a> <a class="nav-item is-tab">Message</a> <a class="nav-item is-tab">Modal</a> <a class="nav-item is-tab">Nav</a> <a class="nav-item is-tab">Pagination</a> <a class="nav-item is-tab">Panel</a> <a class="nav-item is-tab">Tabs</a> </div>
-      </div>
-    </nav>
-  </div>
+</div>
 </section>
 <section class="section" id="panel">
   <div class="container">
     <h1>Panel</h1>
     <hr>
-     <div class="content">Coming Soon.</div>
- </div>
+    <div class="content">Coming Soon.</div>
+  </div>
 </section>
 <section class="section" id="menu">
   <div class="container">
@@ -201,7 +221,7 @@
     <h1>Tabs</h1>
     <hr>
     <div class="content">Coming Soon.</div>
-   </div>
+  </div>
 </section>
 <section class="section" id="pagination">
   <div class="container">
