@@ -4,13 +4,13 @@
 
   a {
     &,
-    &:visited {
-      color: $text;
+    &:hover {
+      color: $text-strong;
 
-      &:hover {
-        color: $text-strong;
-      }
 
+ /**     &:visited {
+	      color: $text;
+      } **/
       &:not(.icon) {
         border-bottom: 1px solid $border;
 

@@ -27,7 +27,7 @@
     margin-left: 10px;
   }
 
-  .tag {
+  .badge {
     &:first-child {
       margin-right: 5px;
     }
@@ -110,7 +110,7 @@ a.nav-item {
 }
 
 .nav-center {
-  align-items: stretch;
+  align-items: center;
   display: flex;
   justify-content: center;
 }
