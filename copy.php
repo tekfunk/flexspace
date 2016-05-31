@@ -257,6 +257,7 @@
     &lt;code id=&quot;xxx&quot; class=&quot;html&quot;&gt;&lt;/code&gt;
   &lt;/pre&gt;
 </code></pre>
+<div class="notification content"><p>For displaying color coded text. Uses <a href="https://highlightjs.org" target="_blank">highlight.js</a> to figure out the syntax, <a href="https://clipboardjs.com" target="_blank">clipboard.js</a> for copying the text without Flash, and the <a href="http://madmalik.github.io/mononoki/" target="_blank">Mononoki font.</a></p></div>
       </div>
       <div class="column">
         <div class="box">

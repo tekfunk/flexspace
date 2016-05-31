@@ -20,8 +20,9 @@
   <div class="hero-body">
     <div class="container has-text-centered">
       <div class="content">
-        <p>After trying a number of different frameworks, I decided to create my own.</p>
-        <p> This framework uses scss to provide quick layout of common webpage elements on a flexible grid.  It will incorporate different css and js libraries for additional effects and functionality that can be included as needed. </p>
+
+	         	         <h1>Info Coming Soon</h1>
+
       </div>
     </div>
   </div>

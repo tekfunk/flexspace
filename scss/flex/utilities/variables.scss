@@ -82,6 +82,10 @@ $bkd-pattern-1: url('../art/dot-space-1.svg');
 $bkd-pattern-2: url('../art/dot-space-2.svg');
 $bkd-pattern-3: url('../art/dot-space-3.svg');
 $bkd-pattern-4: url('../art/dot-space-4.svg');
+$bkd-pattern-5: url('../art/ab-geo-01.gif');
+$bkd-pattern-6: url('../art/dot-space-2.svg');
+$bkd-pattern-7: url('../art/dot-space-3.svg');
+$bkd-pattern-8: url('../art/dot-space-4.svg');
 
 // 3. Generated variables
 
@@ -109,7 +113,7 @@ $text-strong: $grey-darker !default;
 
 $link: $primary !default;
 $link-invert: $primary-invert !default;
-$link-visited: $violet !default;
+$link-visited: $accent !default;
 $link-hover: $grey-darker !default;
 $link-hover-background: $grey-lighter !default;
 $link-hover-border: $grey-darker !default;
