@@ -3087,7 +3087,6 @@ a.fixed:active {
   color: #2a2a2a;
   display: flex;
   flex: 1;
-  font-weight: bold;
   padding: 10px; }
 
 .mod-header-icon {
@@ -4787,14 +4786,26 @@ h2 {
   background-size: cover;
   background-position: center; }
 
+.has-bkd-pattern-5 {
+  background: url("../art/ab-geo-01.gif"); }
+
+.has-bkd-pattern-6 {
+  background: url("../art/dot-space-2.svg");
+  background-size: cover;
+  background-position: center; }
+
+.has-bkd-pattern-7 {
+  background: url("../art/dot-space-3.svg");
+  background-size: cover;
+  background-position: center; }
+
+.has-bkd-pattern-8 {
+  background: url("../art/dot-space-4.svg");
+  background-size: cover;
+  background-position: center; }
+
 .trans-white {
   background-color: rgba(255, 255, 255, 0.95); }
-
-.has-bkd-pattern-5 {
-  background-color: #2957a6;
-  clip-path: url("../art/dot-space-1.svg");
-  mask-image: url("../art/dot-space-1.svg");
-  mask-image-size: cover; }
 
 .white-trans-vert {
   background: -moz-linear-gradient(top, white 0%, rgba(255, 255, 255, 0) 100%);

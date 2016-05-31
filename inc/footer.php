@@ -44,7 +44,15 @@
     
     <div class="column is-1-8">
       <div class="block"> <a class="button is-fullwidth is-primary is-inverted" href="/variables.php">variables</a>
-      <a class="button is-primary" href="/variables.php#editable">editable</a><a class="button is-primary" href="/variables.php#generated">generated</a> </div>
+       
+   
+    <a class="button is-primary" href="/variables.php#Palette">palette</a> 
+	        <a class="button is-primary" href="/variables.php#Type">type</a> 
+	        <a class="button is-primary" href="/variables.php#Layout">layout</a> 
+	        <a class="button is-primary" href="/variables.php#Groups">groups</a>   
+      
+      
+      </div>
   </div>
 </footer>
 <script src="../js/highlight.pack.js"></script> 

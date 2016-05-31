@@ -209,7 +209,7 @@
           <div class="content">
          <div class="notification">   <p>By default columns display on tablet and desktop sizes.</p>
             <p> To have columns display on a mobile device as well, use <strong>.columns .is-mobile</strong></p>
-            <p>If you only want columns on desktop, use <strong>.columns .is-desktop</strong> </p></div>s
+            <p>If you only want columns on desktop, use <strong>.columns .is-desktop</strong> </p></div>
           </div>
         </div>
         <div class="column is-1-2">
@@ -245,7 +245,7 @@
     <div class="columns">
       <div class="column">
         <div class="content">
-      <div class="notification">    <p>To choose a column size for a specific device, use <strong>.column .is-1-2-desktop"</strong> </p></div>
+      <div class="notification">    <p>To choose a column size for a specific device, use <strong>.column .is-1-2-desktop</strong> </p></div>
         </div>
       </div>
       <div class="column">
