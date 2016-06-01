@@ -661,7 +661,6 @@
             <tr>
               <td>$weight-title-normal</td>
               <td>300</td>
-              <td ></td>
             </tr>
             <tr>
               <td>$weight-title-bold</td>

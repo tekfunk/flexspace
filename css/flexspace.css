@@ -4740,6 +4740,31 @@ h2 {
   background-size: cover;
   background-position: center; }
 
+.has-flxs-hero-4 {
+  background: url("../art/blue-hero-03.svg");
+  background-size: cover;
+  background-position: center; }
+
+.has-bkd-image-1 {
+  background: url("../images/img-4998.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.has-bkd-image-2 {
+  background: url("../images/IMG_7001.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.has-bkd-image-3 {
+  background: url("../images/IMG_2051.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.has-bkd-image-4 {
+  background: url("../images/IMG_8952.jpg");
+  background-size: cover;
+  background-position: center; }
+
 .has-flxs-head-1 {
   background: url("../art/blue-dot-01.svg");
   background-size: cover;
@@ -4761,63 +4786,16 @@ h2 {
   background-position: center; }
 
 .has-bkd-pattern-1 {
-  background: url("../art/dot-space-1.svg");
-  background-size: cover;
-  background-position: center;
-  background-color: #ffffff; }
+  background: url("../art/dot-space-1.svg"); }
 
 .has-bkd-pattern-2 {
-  background: url("../art/dot-space-2.svg");
-  background-size: cover;
-  background-position: center; }
+  background: url("../art/dot-space-2.svg"); }
 
 .has-bkd-pattern-3 {
-  background: url("../art/dot-space-3.svg");
-  background-size: cover;
-  background-position: center; }
+  background: url("../art/dot-space-3.svg"); }
 
 .has-bkd-pattern-4 {
-  background: url("../art/dot-space-4.svg");
-  background-size: cover;
-  background-position: center; }
-
-.has-bkd-image-1 {
-  background: url("../images/img-4998.jpg");
-  background-size: cover;
-  background-position: center; }
-
-.has-bkd-image-2 {
-  background: url("../images/img-4998.jpg");
-  background-size: cover;
-  background-position: center; }
-
-.has-bkd-image-3 {
-  background: url("../images/img-4998.jpg");
-  background-size: cover;
-  background-position: center; }
-
-.has-bkd-image-4 {
-  background: url("../images/img-4998.jpg");
-  background-size: cover;
-  background-position: center; }
-
-.has-bkd-pattern-5 {
-  background: url("../art/ab-geo-01.gif"); }
-
-.has-bkd-pattern-6 {
-  background: url("../art/dot-space-2.svg");
-  background-size: cover;
-  background-position: center; }
-
-.has-bkd-pattern-7 {
-  background: url("../art/dot-space-3.svg");
-  background-size: cover;
-  background-position: center; }
-
-.has-bkd-pattern-8 {
-  background: url("../art/dot-space-4.svg");
-  background-size: cover;
-  background-position: center; }
+  background: url("../art/dot-space-4.svg"); }
 
 .trans-white {
   background-color: rgba(255, 255, 255, 0.95); }

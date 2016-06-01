@@ -27,12 +27,12 @@
       </div>
       <div class="column is-1-2">
         <div class="box">
-          <pre><code id="basic-layout" class="html">&lt;body&gt;
+          <pre><code id="basic-layout" class="html">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;<br />&lt;html&gt;<br />&lt;head&gt;<br />&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;<br />&lt;title&gt;flexspace&lt;/title&gt;<br />&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/flexspace.css&quot; type=&quot;text/css&quot; &gt;<br />&lt;/head&gt;<br />&lt;body&gt;
 	&lt;header class=&quot;header&quot;&gt;&lt;/header&gt;
 	&lt;section class=&quot;hero&quot;&gt;&lt;/section&gt;
 	&lt;section class=&quot;section&quot;&gt;&lt;/section&gt;
 	&lt;footer class=&quot;footer&quot;&gt;&lt;/footer&gt;
-&lt;/body&gt;</code>
+&lt;/body&gt;<br />&lt;/html&gt;</code>
 </pre>
           <a class="button icon-clipboard" data-clipboard-target="#basic-layout"> </a> </div>
       </div>

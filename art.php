@@ -19,9 +19,10 @@
   <div class="container">
     <h1>Icons</h1>
     <hr>
-    <p>Icons are font based. Use <strong>&lt;i class=&quot;ics icon-$name&quot;&gt;&lt;/i&gt;</strong></p>
-    <p>Currently it's a custom set I put together for casadereyes.net, but I will be updating soon with more (like more standard social icons). Built using <a href="https://icomoon.io/app">icomoon.</a> </p>
-    <hr>
+    <div class="notification content">
+      <p>Icons are font based and built using <a href="https://icomoon.io/app">icomoon. </a>Use <strong>&lt;i class=&quot;ics icon-$name&quot;&gt;&lt;/i&gt;</strong></p>
+      <p>Currently it's a custom set I put together for casadereyes.net, but I will be updating soon with more (like more standard social icons). </p>
+    </div>
     <div class="columns is-stacked">
       <div class="column is-1-3-mobile is-1-10">
         <div class="box"> <i class="ics is-violet icon-menu"></i>
@@ -740,83 +741,146 @@
   <div class="container">
     <h1>Backgrounds</h1>
     <hr>
-     <h3>Vectors</h3>
-   
+    <div class="notification content">
+      <p>In variables.scss you can assign background images and patterns to use. SVG, JPG, PNG, & GIF all work.  With the exception of has-bkd-pattern, they are all centered and set to cover the div.</p>
+    </div>
+    <h3>Hero</h3>
     <div class="columns is-stacked to-edges">
       <div class="column is-1-2">
-        <div class="mod has-flxs-head-1">
-        	<div class="mod-header" style="background-color: rgba( 255,255,255,.6)"><p class="mod-header-title"><strong>.has-flxs-head-1</strong></p></div>
-			<div class="mod-content" style="height: 220px;"> </div>
+        <div class="mod has-flxs-hero-1">
+          <div class="mod-header" style="background-color: rgba( 255,255,255,.6)">
+            <p class="mod-header-title"><strong>.has-flxs-hero-1</strong></p>
+          </div>
+          <div class="mod-content" style="height: 220px;"> </div>
         </div>
       </div>
       <div class="column is-1-2">
-        <div class="mod has-flxs-head-2">
-        	<div class="mod-header" style="background-color: rgba( 255,255,255,.6)"><p class="mod-header-title"><strong>.has-flxs-head-2</strong></p></div>
-			<div class="mod-content" style="height: 220px;"> </div>
+        <div class="mod has-flxs-hero-2">
+          <div class="mod-header" style="background-color: rgba( 255,255,255,.6)">
+            <p class="mod-header-title"><strong>.has-flxs-hero-2</strong></p>
+          </div>
+          <div class="mod-content" style="height: 220px;"> </div>
         </div>
       </div>
       <div class="column is-1-2">
-        <div class="mod has-flxs-head-3">
-        	<div class="mod-header" style="background-color: rgba( 255,255,255,.6)"><p class="mod-header-title"><strong>.has-flxs-head-3</strong></p></div>
-			<div class="mod-content" style="height: 220px;"> </div>
+        <div class="mod has-flxs-hero-3">
+          <div class="mod-header" style="background-color: rgba( 255,255,255,.6)">
+            <p class="mod-header-title"><strong>.has-flxs-hero-3</strong></p>
+          </div>
+          <div class="mod-content" style="height: 220px;"> </div>
         </div>
       </div>
       <div class="column is-1-2">
-        <div class="mod has-flxs-head-4">
-        	<div class="mod-header" style="background-color: rgba( 255,255,255,.6)"><p class="mod-header-title"><strong>.has-flxs-head-4</strong></p></div>
-			<div class="mod-content" style="height: 220px;"> </div>
-        </div>
-      </div>
-      <div class="column is-1-2">
-        <div class="mod has-bkd-pattern-1">
-        	<div class="mod-header" style="background-color: rgba( 255,255,255,.6)"><p class="mod-header-title"><strong>.has-bkd-pattern-1</strong></p></div>
-			<div class="mod-content" style="height: 220px;"> </div>
-        </div>
-      </div>
-      <div class="column is-1-2">
-        <div class="mod has-bkd-pattern-2">
-        	<div class="mod-header" style="background-color: rgba( 255,255,255,.6)"><p class="mod-header-title"><strong>.has-bkd-pattern-2</strong></p></div>
-			<div class="mod-content" style="height: 220px;"> </div>
-        </div>
-      </div>
-      <div class="column is-1-2">
-        <div class="mod has-bkd-pattern-3">
-        	<div class="mod-header" style="background-color: rgba( 255,255,255,.6)"><p class="mod-header-title"><strong>.has-bkd-pattern-3</strong></p></div>
-			<div class="mod-content" style="height: 220px;"> </div>
-        </div>
-      </div>
-      <div class="column is-1-2">
-        <div class="mod has-bkd-pattern-4">
-        	<div class="mod-header" style="background-color: rgba( 255,255,255,.6)"><p class="mod-header-title"><strong>.has-bkd-pattern-4</strong></p></div>
-			<div class="mod-content" style="height: 220px;"> </div>
+        <div class="mod has-flxs-hero-4">
+          <div class="mod-header" style="background-color: rgba( 255,255,255,.6)">
+            <p class="mod-header-title"><strong>.has-flxs-hero-4</strong></p>
+          </div>
+          <div class="mod-content" style="height: 220px;"> </div>
         </div>
       </div>
     </div>
-	         <h3>Images</h3>
+    <h3>Images</h3>
     <div class="columns is-stacked">
-
       <div class="column is-1-2">
         <div class="mod has-bkd-image-1">
-        	<div class="mod-header" style="background-color: rgba( 255,255,255,.6)"><p class="mod-header-title"><strong>.has-bkd-image-1</strong></p></div>
-			<div class="mod-content" style="height: 220px;"> </div>
+          <div class="mod-header" style="background-color: rgba( 255,255,255,.6)">
+            <p class="mod-header-title"><strong>.has-bkd-image-1</strong></p>
+          </div>
+          <div class="mod-content" style="height: 220px;"> </div>
         </div>
       </div>
       <div class="column is-1-2">
         <div class="mod has-bkd-image-2">
-        	<div class="mod-header" style="background-color: rgba( 255,255,255,.6)"><p class="mod-header-title"><strong>.has-bkd-image-2</strong></p></div>
-			<div class="mod-content" style="height: 220px;"> </div>
+          <div class="mod-header" style="background-color: rgba( 255,255,255,.6)">
+            <p class="mod-header-title"><strong>.has-bkd-image-2</strong></p>
+          </div>
+          <div class="mod-content" style="height: 220px;"> </div>
         </div>
       </div>
       <div class="column is-1-2">
         <div class="mod has-bkd-image-3">
-        	<div class="mod-header" style="background-color: rgba( 255,255,255,.6)"><p class="mod-header-title"><strong>.has-bkd-image-3</strong></p></div>
-			<div class="mod-content" style="height: 220px;"> </div>
+          <div class="mod-header" style="background-color: rgba( 255,255,255,.6)">
+            <p class="mod-header-title"><strong>.has-bkd-image-3</strong></p>
+          </div>
+          <div class="mod-content" style="height: 220px;"> </div>
         </div>
       </div>
       <div class="column is-1-2">
         <div class="mod has-bkd-image-4">
-        	<div class="mod-header" style="background-color: rgba( 255,255,255,.6)"><p class="mod-header-title"><strong>.has-bkd-image-4</strong></p></div>
-			<div class="mod-content" style="height: 220px;"> </div>
+          <div class="mod-header" style="background-color: rgba( 255,255,255,.6)">
+            <p class="mod-header-title"><strong>.has-bkd-image-4</strong></p>
+          </div>
+          <div class="mod-content" style="height: 220px;"> </div>
+        </div>
+      </div>
+    </div>
+    <h3>Headers</h3>
+    <div class="columns is-stacked">
+      <div class="column is-1-2">
+        <div class="mod has-flxs-head-1">
+          <div class="mod-header" style="background-color: rgba( 255,255,255,.6)">
+            <p class="mod-header-title"><strong>.has-flxs-head-1</strong></p>
+          </div>
+          <div class="mod-content" style="height: 160px;"> </div>
+        </div>
+      </div>
+      <div class="column is-1-2">
+        <div class="mod has-flxs-head-2">
+          <div class="mod-header" style="background-color: rgba( 255,255,255,.6)">
+            <p class="mod-header-title"><strong>.has-flxs-head-2</strong></p>
+          </div>
+          <div class="mod-content" style="height: 160px;"> </div>
+        </div>
+      </div>
+      <div class="column is-1-2">
+        <div class="mod has-flxs-head-3">
+          <div class="mod-header" style="background-color: rgba( 255,255,255,.6)">
+            <p class="mod-header-title"><strong>.has-flxs-head-3</strong></p>
+          </div>
+          <div class="mod-content" style="height: 160px;"> </div>
+        </div>
+      </div>
+      <div class="column is-1-2">
+        <div class="mod has-flxs-head-4">
+          <div class="mod-header" style="background-color: rgba( 255,255,255,.6)">
+            <p class="mod-header-title"><strong>.has-flxs-head-4</strong></p>
+          </div>
+          <div class="mod-content" style="height: 160px;"> </div>
+        </div>
+      </div>
+    </div>
+    <h3>Patterns</h3>
+    <div class="columns is-stacked">
+      <div class="column is-1-4">
+        <div class="mod has-bkd-pattern-1">
+          <div class="mod-header" style="background-color: rgba( 255,255,255,.6)">
+            <p class="mod-header-title"><strong>.has-bkd-pattern-1</strong></p>
+          </div>
+          <div class="mod-content" style="height: 220px;"> </div>
+        </div>
+      </div>
+      <div class="column is-1-4">
+        <div class="mod has-bkd-pattern-2">
+          <div class="mod-header" style="background-color: rgba( 255,255,255,.6)">
+            <p class="mod-header-title"><strong>.has-bkd-pattern-2</strong></p>
+          </div>
+          <div class="mod-content" style="height: 220px;"> </div>
+        </div>
+      </div>
+      <div class="column is-1-4">
+        <div class="mod has-bkd-pattern-3">
+          <div class="mod-header" style="background-color: rgba( 255,255,255,.6)">
+            <p class="mod-header-title"><strong>.has-bkd-pattern-3</strong></p>
+          </div>
+          <div class="mod-content" style="height: 220px;"> </div>
+        </div>
+      </div>
+      <div class="column is-1-4">
+        <div class="mod has-bkd-pattern-4">
+          <div class="mod-header" style="background-color: rgba( 255,255,255,.6)">
+            <p class="mod-header-title"><strong>.has-bkd-pattern-4</strong></p>
+          </div>
+          <div class="mod-content" style="height: 220px;"> </div>
         </div>
       </div>
     </div>
