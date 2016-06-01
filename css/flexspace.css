@@ -810,7 +810,7 @@ h6 {
 .content a {
   border-bottom: 1px solid #d3d6db; }
   .content a:visited {
-    color: #8359a3; }
+    color: #49425a; }
   .content a:hover {
     border-bottom-color: #2957a6; }
 
@@ -4725,23 +4725,38 @@ h2 {
   padding-top: 1.2em;
   line-height: 1em; }
 
+.has-flxs-hero-1 {
+  background: url("../art/blue-hero-01.svg");
+  background-size: cover;
+  background-position: center; }
+
+.has-flxs-hero-2 {
+  background: url("../art/blue-hero-02.svg");
+  background-size: cover;
+  background-position: center; }
+
+.has-flxs-hero-3 {
+  background: url("../art/blue-hero-03.svg");
+  background-size: cover;
+  background-position: center; }
+
 .has-flxs-head-1 {
-  background: url("../art/dot-space-delic-1.svg");
+  background: url("../art/blue-dot-01.svg");
   background-size: cover;
   background-position: center; }
 
 .has-flxs-head-2 {
-  background: url("../art/dot-space-delic-2.svg");
+  background: url("../art/blue-dot-02.svg");
   background-size: cover;
   background-position: center; }
 
 .has-flxs-head-3 {
-  background: url("../art/dot-space-delic-3.svg");
+  background: url("../art/blue-dot-03.svg");
   background-size: cover;
   background-position: center; }
 
 .has-flxs-head-4 {
-  background: url("../art/dot-space-delic-4.svg");
+  background: url("../art/blue-dot-04.svg");
   background-size: cover;
   background-position: center; }
 

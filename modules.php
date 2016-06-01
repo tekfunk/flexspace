@@ -22,13 +22,13 @@
     <div class="columns">
       <div class="column is-6">
         <div class="box">
-          <h1>A simple box with rounded corners and a dropshadow.</h1>
+          <p>Rounded corners and a dropshadow.</p>
         </div>
       </div>
       <div class="column is-6">
         <div class="box">
           <pre><code id="mod-box" class="html hljs xml"><span class="hljs-tag">&lt;div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box"</span><span class="hljs-tag">&gt;</span>
-  <span class="nt">&lt;h1</span><span class="s"></span><span class="nt">&gt;</span>&lt;/h1&gt;
+  <span class="nt">&lt;p</span><span class="s"></span><span class="nt">&gt;</span>&lt;/p&gt;
 <span class="nt">&lt;/div&gt;</span></code></pre>
           <br>
           <a class="button icon-clipboard" data-clipboard-target="#mod-box"></a> </div>
