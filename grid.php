@@ -15,7 +15,7 @@
 				<a class="button is-primary" href="#sizing">sizing</a> 
 				<a class="button is-primary is-disabled" href="#mozaic">mozaic</a> 
 				<a class="button is-primary" href="#tables">tables</a> 
- </div>
+ 		</div>
       </div>
     </div>
   </div>
@@ -62,7 +62,7 @@
     <div class="columns">
       <div class="column">
 	            <div class="content">
-<div class="notification">
+<div class="box">
         <p>Wrap up to as many <strong>.column</strong> as you want in <strong>.columns</strong>. </p>
         <p>They will size themselves evenly unless you<a href="#sizing"> give them a size.</a></p>
         <p>If you dont want them to stay on the same row add <strong>is-stacked</strong>.</p>

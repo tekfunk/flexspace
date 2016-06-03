@@ -25,7 +25,7 @@
     </div>
     <div class="columns is-stacked">
       <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics is-violet icon-menu"></i>
+        <div class="box"> <i class="ics icon-menu"></i>
           <p>icon-menu</p>
         </div>
       </div>

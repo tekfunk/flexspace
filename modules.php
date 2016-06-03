@@ -22,7 +22,10 @@
     <div class="columns">
       <div class="column is-6">
         <div class="box">
-          <p>Rounded corners and a dropshadow.</p>
+          <p>Padding and colors. Corners can be adjusted with <strong>$box-radius</strong> variable.</p>
+        </div>
+        <div class="box is-accent">
+          <p>Padding and colors.</p>
         </div>
       </div>
       <div class="column is-6">
@@ -42,7 +45,7 @@
     <hr>
     <div class="columns">
       <div class="column is-1-2">
-        <article class="media">
+        <article class="media box">
           <figure class="media-left structure-item" title="media-left">
             <p class="image is-64x64"> <img src="../images/twenty-fourteen.jpg"> </p>
           </figure>

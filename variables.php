@@ -27,12 +27,12 @@
     <div class="notification content">
       <p>The palette is broken up into 3 parts.  The first part is your main palette where you can choose primary, secondary, accent, pastel to match the site's branding.  The next 2 are greyscale and a rainbow that you can also customize.</p>
     </div>
-    <h4>Main Palette</h4>
+    <h4>Site</h4>
     <div class="columns is-gapless">
       <div class="column is-2-5">
         <div class="mod">
           <div class="mod-header" style="text-align: center;">
-            <p class="mod-header-title">$primary</p>
+            <p class="mod-header-title"><strong>$primary</strong></p>
           </div>
           <div class="mod-content" style="background-color: #2957a6"></div>
           <div class="mod-header" style="text-align: center;">
@@ -43,7 +43,7 @@
       <div class="column is-1-5">
         <div class="mod">
           <div class="mod-header" style="text-align: center;">
-            <p class="mod-header-title">$secondary</p>
+            <p class="mod-header-title"><strong>$secondary</strong></p>
           </div>
           <div class="mod-content" style="background-color: #fbb041"></div>
           <div class="mod-header" style="text-align: center;">
@@ -54,7 +54,7 @@
       <div class="column is-1-5">
         <div class="mod">
           <div class="mod-header" style="text-align: center;">
-            <p class="mod-header-title">$accent</p>
+            <p class="mod-header-title"><strong>$accent</strong></p>
           </div>
           <div class="mod-content" style="background-color: #49425a"></div>
           <div class="mod-header" style="text-align: center;">
@@ -65,7 +65,7 @@
       <div class="column is-1-5">
         <div class="mod">
           <div class="mod-header" style="text-align: center;">
-            <p class="mod-header-title">$pastel</p>
+            <p class="mod-header-title"><strong>$pastel</strong></p>
           </div>
           <div class="mod-content" style="background-color: #f9f9ef"></div>
           <div class="mod-header" style="text-align: center;">
@@ -79,7 +79,7 @@
       <div class="column is-1-8">
         <div class="mod">
           <div class="mod-header" style="text-align: center;">
-            <p class="mod-header-title">$black</p>
+            <p class="mod-header-title"><strong>$black</strong></p>
           </div>
           <div class="mod-content" style="background-color: #2a2a2a"></div>
           <div class="mod-header" style="text-align: center;">
@@ -90,7 +90,7 @@
       <div class="column is-1-8">
         <div class="mod">
           <div class="mod-header" style="text-align: center;">
-            <p class="mod-header-title">$grey-darker</p>
+            <p class="mod-header-title"><strong>$grey-darker</strong></p>
           </div>
           <div class="mod-content" style="background-color: #2a2a2a"></div>
           <div class="mod-header" style="text-align: center;">
@@ -101,7 +101,7 @@
       <div class="column is-1-8">
         <div class="mod">
           <div class="mod-header" style="text-align: center;">
-            <p class="mod-header-title">$grey-dark</p>
+            <p class="mod-header-title"><strong>$grey-dark</strong></p>
           </div>
           <div class="mod-content" style="background-color: #3a3a3a"></div>
           <div class="mod-header" style="text-align: center;">
@@ -112,7 +112,7 @@
       <div class="column is-2-8">
         <div class="mod">
           <div class="mod-header" style="text-align: center;">
-            <p class="mod-header-title">$grey</p>
+            <p class="mod-header-title"><strong>$grey</strong></p>
           </div>
           <div class="mod-content" style="background-color: #aeb1b5"></div>
           <div class="mod-header" style="text-align: center;">
@@ -123,7 +123,7 @@
       <div class="column is-1-8">
         <div class="mod">
           <div class="mod-header" style="text-align: center;">
-            <p class="mod-header-title">$grey-light</p>
+            <p class="mod-header-title"><strong>$grey-light</strong></p>
           </div>
           <div class="mod-content" style="background-color: #d3d6db"></div>
           <div class="mod-header" style="text-align: center;">
@@ -134,7 +134,7 @@
       <div class="column is-1-8">
         <div class="mod">
           <div class="mod-header" style="text-align: center;">
-            <p class="mod-header-title">$grey-lighter</p>
+            <p class="mod-header-title"><strong>$grey-lighter</strong></p>
           </div>
           <div class="mod-content" style="background-color: #f5f7fa"></div>
           <div class="mod-header" style="text-align: center;">
@@ -145,7 +145,7 @@
       <div class="column is-1-8">
         <div class="mod">
           <div class="mod-header" style="text-align: center;">
-            <p class="mod-header-title">$white</p>
+            <p class="mod-header-title"><strong>$white</strong></p>
           </div>
           <div class="mod-content" style="background-color: #ffffff"></div>
           <div class="mod-header" style="text-align: center;">
@@ -159,7 +159,7 @@
       <div class="column is-1-12">
         <div class="mod">
           <div class="mod-header">
-            <p class="mod-header-title">$red</p>
+            <p class="mod-header-title"><strong>$red</strong></p>
           </div>
           <div class="mod-content" style="background-color: #ed0a3f"></div>
           <div class="mod-header" style="text-align: center;">
@@ -170,7 +170,7 @@
       <div class="column is-1-12">
         <div class="mod">
           <div class="mod-header">
-            <p class="mod-header-title">$brick</p>
+            <p class="mod-header-title"><strong>$brick</strong></p>
           </div>
           <div class="mod-content" style="background-color: #C62D42"></div>
           <div class="mod-header" style="text-align: center;">
@@ -181,7 +181,7 @@
       <div class="column is-1-12">
         <div class="mod">
           <div class="mod-header">
-            <p class="mod-header-title">$orange</p>
+            <p class="mod-header-title"><strong>$orange</strong></p>
           </div>
           <div class="mod-content" style="background-color: #FF8833"></div>
           <div class="mod-header" style="text-align: center;">
@@ -192,7 +192,7 @@
       <div class="column is-1-12">
         <div class="mod">
           <div class="mod-header">
-            <p class="mod-header-title">$maize</p>
+            <p class="mod-header-title"><strong>$maize</strong></p>
           </div>
           <div class="mod-content" style="background-color: #F2C649"></div>
           <div class="mod-header" style="text-align: center;">
@@ -203,7 +203,7 @@
       <div class="column is-1-12">
         <div class="mod">
           <div class="mod-header">
-            <p class="mod-header-title">$yellow</p>
+            <p class="mod-header-title"><strong>$yellow</strong></p>
           </div>
           <div class="mod-content" style="background-color: #fce473"></div>
           <div class="mod-header" style="text-align: center;">
@@ -214,7 +214,7 @@
       <div class="column is-1-12">
         <div class="mod">
           <div class="mod-header">
-            <p class="mod-header-title">$olive</p>
+            <p class="mod-header-title"><strong>$olive</strong></p>
           </div>
           <div class="mod-content" style="background-color: #B5B35C"></div>
           <div class="mod-header" style="text-align: center;">
@@ -225,7 +225,7 @@
       <div class="column is-1-12">
         <div class="mod">
           <div class="mod-header">
-            <p class="mod-header-title">$green</p>
+            <p class="mod-header-title"><strong>$green</strong></p>
           </div>
           <div class="mod-content" style="background-color: #3AA655"></div>
           <div class="mod-header" style="text-align: center;">
@@ -236,7 +236,7 @@
       <div class="column is-1-12">
         <div class="mod">
           <div class="mod-header">
-            <p class="mod-header-title">$teal</p>
+            <p class="mod-header-title"><strong>$teal</strong></p>
           </div>
           <div class="mod-content" style="background-color: #008080"></div>
           <div class="mod-header" style="text-align: center;">
@@ -247,7 +247,7 @@
       <div class="column is-1-12">
         <div class="mod">
           <div class="mod-header">
-            <p class="mod-header-title">$blue</p>
+            <p class="mod-header-title"><strong>$blue</strong></p>
           </div>
           <div class="mod-content" style="background-color: #0066FF"></div>
           <div class="mod-header" style="text-align: center;">
@@ -258,7 +258,7 @@
       <div class="column is-1-12">
         <div class="mod">
           <div class="mod-header">
-            <p class="mod-header-title">$cobalt</p>
+            <p class="mod-header-title"><strong>$cobalt</strong></p>
           </div>
           <div class="mod-content" style="background-color: #8C90C8"></div>
           <div class="mod-header" style="text-align: center;">
@@ -269,7 +269,7 @@
       <div class="column is-1-12">
         <div class="mod">
           <div class="mod-header">
-            <p class="mod-header-title">$violet</p>
+            <p class="mod-header-title"><strong>$violet</strong></p>
           </div>
           <div class="mod-content" style="background-color: #8359a3"></div>
           <div class="mod-header" style="text-align: center;">
@@ -280,7 +280,7 @@
       <div class="column is-1-12">
         <div class="mod">
           <div class="mod-header">
-            <p class="mod-header-title">$sepia</p>
+            <p class="mod-header-title"><strong>$sepia</strong></p>
           </div>
           <div class="mod-content" style="background-color: #9E5B40"></div>
           <div class="mod-header" style="text-align: center;">
@@ -297,15 +297,19 @@
       <div class="column is-1-6">
         <div class="mod">
           <div class="mod-header">
-            <p class="mod-header-title">$green -> <strong>$success</strong></p>
+            <p class="mod-header-title"><strong>$success</strong></p>
           </div>
           <div class="mod-content" style="background-color: #3AA655"></div>
+                    <div class="mod-header" style="text-align: center;">
+            <p class="mod-header-title">$green</p>
+          </div>
+
         </div>
       </div>
       <div class="column is-1-6">
         <div class="mod">
           <div class="mod-header">
-            <p class="mod-header-title">$yellow $alert</p>
+            <p class="mod-header-title"><strong>$alert</strong></p>
           </div>
           <div class="mod-content" style="background-color: #fce473"></div>
           <div class="mod-header" style="text-align: center;">
@@ -318,7 +322,7 @@
       <div class="column is-1-6">
         <div class="mod">
           <div class="mod-header">
-            <p class="mod-header-title">$primary $link</p>
+            <p class="mod-header-title"><strong>$link</strong></p>
           </div>
           <div class="mod-content" style="background-color: #2957a6"></div>
           <div class="mod-header" style="text-align: center;">
@@ -329,7 +333,7 @@
       <div class="column is-1-6">
         <div class="mod">
           <div class="mod-header">
-            <p class="mod-header-title">$primary-invert $link-invert</p>
+            <p class="mod-header-title"><strong>$link-invert</strong></p>
           </div>
           <div class="mod-content" style="background-color: #fce473"></div>
           <div class="mod-header" style="text-align: center;">
@@ -340,7 +344,7 @@
       <div class="column is-1-8">
         <div class="mod">
           <div class="mod-header">
-            <p class="mod-header-title">$link-visited</p>
+            <p class="mod-header-title"><strong>$link-visited</strong></p>
           </div>
           <div class="mod-content" style="background-color: #49425a"></div>
           <div class="mod-header" style="text-align: center;">
@@ -351,7 +355,7 @@
       <div class="column is-1-8">
         <div class="mod">
           <div class="mod-header">
-            <p class="mod-header-title">$link-hover</p>
+            <p class="mod-header-title"><strong>$link-hover</strong></p>
           </div>
           <div class="mod-content" style="background-color: #2a2a2a"></div>
           <div class="mod-header" style="text-align: center;">
@@ -362,7 +366,7 @@
       <div class="column is-1-8">
         <div class="mod">
           <div class="mod-header">
-            <p class="mod-header-title">$link-hover-background</p>
+            <p class="mod-header-title"><strong>$link-hover-background</strong></p>
           </div>
           <div class="mod-content" style="background-color: #f5f7fa"></div>
           <div class="mod-header" style="text-align: center;">
@@ -373,7 +377,7 @@
       <div class="column is-1-8">
         <div class="mod">
           <div class="mod-header">
-            <p class="mod-header-title">$link-hover-border</p>
+            <p class="mod-header-title"><strong>$link-hover-border</strong></p>
           </div>
           <div class="mod-content" style="background-color: #2a2a2a"></div>
           <div class="mod-header" style="text-align: center;">
@@ -384,7 +388,7 @@
       <div class="column is-1-8">
         <div class="mod">
           <div class="mod-header">
-            <p class="mod-header-title">$link-active</p>
+            <p class="mod-header-title"><strong>$link-active</strong></p>
           </div>
           <div class="mod-content" style="background-color: #2a2a2a"></div>
           <div class="mod-header" style="text-align: center;">
@@ -395,7 +399,7 @@
       <div class="column is-1-6">
         <div class="mod">
           <div class="mod-header">
-            <p class="mod-header-title">$link-active-border</p>
+            <p class="mod-header-title"><strong>$link-active-border</strong></p>
           </div>
           <div class="mod-content" style="background-color: #2a2a2a"></div>
           <div class="mod-header" style="text-align: center;">
@@ -408,7 +412,7 @@
       <div class="column is-1-6">
         <div class="mod">
           <div class="mod-header">
-            <p class="mod-header-title">$text</p>
+            <p class="mod-header-title"><strong>$text</strong></p>
           </div>
           <div class="mod-content" style="background-color: #3a3a3a"></div>
           <div class="mod-header" style="text-align: center;">
@@ -419,7 +423,7 @@
       <div class="column is-1-6">
         <div class="mod">
           <div class="mod-header">
-            <p class="mod-header-title">$text-invert</p>
+            <p class="mod-header-title"><strong>$text-invert</strong></p>
           </div>
           <div class="mod-content" style="background-color: #cacaca"></div>
           <div class="mod-header" style="text-align: center;">
@@ -430,7 +434,7 @@
       <div class="column is-1-6">
         <div class="mod">
           <div class="mod-header">
-            <p class="mod-header-title">$text-light</p>
+            <p class="mod-header-title"><strong>$text-light</strong></p>
           </div>
           <div class="mod-content" style="background-color: #aeb1b5"></div>
           <div class="mod-header" style="text-align: center;">
@@ -441,7 +445,7 @@
       <div class="column is-1-6">
         <div class="mod">
           <div class="mod-header">
-            <p class="mod-header-title">$text-strong</p>
+            <p class="mod-header-title"><strong>$text-strong</strong></p>
           </div>
           <div class="mod-content" style="background-color: #2a2a2a"></div>
           <div class="mod-header" style="text-align: center;">
@@ -455,7 +459,7 @@
       <div class="column is-1-6">
         <div class="mod">
           <div class="mod-header">
-            <p class="mod-header-title">$light</p>
+            <p class="mod-header-title"><strong>$light</strong></p>
           </div>
           <div class="mod-content" style="background-color: #f5f7fa"></div>
           <div class="mod-header" style="text-align: center;">
@@ -466,7 +470,7 @@
       <div class="column is-1-6">
         <div class="mod">
           <div class="mod-header">
-            <p class="mod-header-title">$dark</p>
+            <p class="mod-header-title"><strong>$dark</strong></p>
           </div>
           <div class="mod-content" style="background-color: #3a3a3a"></div>
           <div class="mod-header" style="text-align: center;">
@@ -477,7 +481,7 @@
       <div class="column is-1-6">
         <div class="mod">
           <div class="mod-header">
-            <p class="mod-header-title">$body-background</p>
+            <p class="mod-header-title"><strong>$body-background</strong></p>
           </div>
           <div class="mod-content" style="background-color: #f5f7fa"></div>
           <div class="mod-header" style="text-align: center;">
@@ -488,7 +492,7 @@
       <div class="column is-1-6">
         <div class="mod">
           <div class="mod-header">
-            <p class="mod-header-title">$background</p>
+            <p class="mod-header-title"><strong>$background</strong></p>
           </div>
           <div class="mod-content" style="background-color: #f5f7fa"></div>
           <div class="mod-header" style="text-align: center;">
@@ -499,7 +503,7 @@
       <div class="column is-1-6">
         <div class="mod">
           <div class="mod-header">
-            <p class="mod-header-title">$border</p>
+            <p class="mod-header-title"><strong>$border</strong></p>
           </div>
           <div class="mod-content" style="background-color: #d3d6db"></div>
           <div class="mod-header" style="text-align: center;">
@@ -510,7 +514,7 @@
       <div class="column is-1-6">
         <div class="mod">
           <div class="mod-header">
-            <p class="mod-header-title">$border-hover</p>
+            <p class="mod-header-title"><strong>$border-hover</strong></p>
           </div>
           <div class="mod-content" style="background-color: #aeb1b5"></div>
           <div class="mod-header" style="text-align: center;">

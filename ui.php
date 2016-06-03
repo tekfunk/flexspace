@@ -26,7 +26,8 @@
         <div class="content">
           <div class="notification">
             <p>To create a button, add <strong>.button</strong>.</p>
-            <p>Colors can be assigned with <strong>.is-$color</strong> from the choices in the code box. </p>
+            <p>Colors can be assigned with <strong>.is-white</strong>(etc) from the choices in the code box. </p>
+            <p>Corners can be adjusted with <strong>$box-radius</strong> variable.</p>
           </div>
         </div>
       </div>

@@ -20,8 +20,8 @@
     <div class="container">
       <div class="column is-2-3 is-offset-1-6">
         <div class="content">
-	                   <h1 style="font-weight: 500; color: #2957a6;">About  <img src="../art/flexspace-logo-lrg.svg" width="200" style="margin-bottom: -10px;"></h1> 
-   <p>After trying a number of different frameworks and never finding exactly what I wanted, I decided to create my own.</p>
+	       <h1 style="font-weight: 500; color: #2957a6;">About  <img src="../art/flexspace-logo-lrg.svg" width="200" style="margin-bottom: -10px;"></h1> 
+		   <p>After trying a number of different frameworks and never finding exactly what I wanted, I decided to create my own.</p>
           <p> This is the very beginning and at this point is still just for preview, but after a little more refining and additions I will post it on github. The core will be SCSS and built in a way so that parts (even whole libraries) can get easily added or removed. You will be able to develop with as many animation and effect libraries as you want, but when the site is done get a final css file that will only include the code you need. For the jobs that CSS can't handle, there will be JavaScript functions available.</p>
           <p>This modular approach will allow Flexspace to be...</p>
           <div class="columns">

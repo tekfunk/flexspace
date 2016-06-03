@@ -735,7 +735,8 @@ hr {
   margin: 20px 0; }
 
 img {
-  max-width: 100%; }
+  max-width: 100%;
+  height: auto; }
 
 input[type="checkbox"],
 input[type="radio"] {
@@ -1941,19 +1942,53 @@ a.header-item {
       .footer a:hover:not(.icon):hover {
         border-bottom-color: #2957a6; }
 
-.box {
-  background: #ffffff;
-  border-radius: 5px;
-  box-shadow: 0 2px 3px rgba(26, 26, 26, 0.1), 0 0 0 1px rgba(26, 26, 26, 0.1);
-  display: block;
-  padding: 20px; }
-
 a.box:hover,
 a.box:focus {
   box-shadow: 0 2px 3px rgba(26, 26, 26, 0.1), 0 0 0 1px #2957a6; }
 
 a.box:active {
   box-shadow: inset 0 1px 2px rgba(26, 26, 26, 0.2), 0 0 0 1px #2957a6; }
+
+.box {
+  background: #ffffff;
+  border-radius: 0px;
+  padding: 16px 20px;
+  position: relative;
+  box-shadow: 0 1px 2px rgba(26, 26, 26, 0.1), 0 0 0 1px rgba(26, 26, 26, 0.1); }
+  .box:after {
+    clear: both;
+    content: " ";
+    display: table; }
+  .box .h3,
+  .box .h1 {
+    color: inherit; }
+  .box.is-white {
+    background: #ffffff;
+    color: #1a1a1a; }
+  .box.is-black {
+    background: #1a1a1a;
+    color: #ffffff; }
+  .box.is-light {
+    background: #fafbfa;
+    color: #3a3a3a; }
+  .box.is-dark {
+    background: #3a3a3a;
+    color: #fafbfa; }
+  .box.is-primary {
+    background: #2957a6;
+    color: white; }
+  .box.is-accent {
+    background: #49425a;
+    color: white; }
+  .box.is-success {
+    background: #3AA655;
+    color: white; }
+  .box.is-alert {
+    background: #fce473;
+    color: rgba(26, 26, 26, 0.5); }
+  .box.is-secondary {
+    background: #fbb041;
+    color: white; }
 
 .fixed {
   position: fixed;
@@ -1989,7 +2024,7 @@ a.fixed:active {
   align-items: center;
   background: white;
   border: 1px solid #d3d6db;
-  border-radius: 0px;
+  border-radius: 2px;
   color: #2a2a2a;
   display: inline-flex;
   font-size: 14px;
@@ -2368,7 +2403,7 @@ a.fixed:active {
   align-items: center;
   background: white;
   border: 1px solid #d3d6db;
-  border-radius: 0px;
+  border-radius: 2px;
   color: #2a2a2a;
   display: inline-flex;
   font-size: 14px;
@@ -2507,7 +2542,7 @@ a.fixed:active {
     align-items: center;
     background: white;
     border: 1px solid #d3d6db;
-    border-radius: 0px;
+    border-radius: 2px;
     color: #2a2a2a;
     display: inline-flex;
     font-size: 14px;
@@ -2667,25 +2702,25 @@ a.fixed:active {
       .pagination .control.has-addons a:first-child, .control.has-addons .input:first-child,
       .control.has-addons .textarea:first-child,
       .control.has-addons .select:first-child {
-        border-radius: 0px 0 0 0px; }
+        border-radius: 2px 0 0 2px; }
         .control.has-addons .button:first-child select,
         .control.has-addons .pagination a:first-child select,
         .pagination .control.has-addons a:first-child select, .control.has-addons .input:first-child select,
         .control.has-addons .textarea:first-child select,
         .control.has-addons .select:first-child select {
-          border-radius: 0px 0 0 0px; }
+          border-radius: 2px 0 0 2px; }
       .control.has-addons .button:last-child,
       .control.has-addons .pagination a:last-child,
       .pagination .control.has-addons a:last-child, .control.has-addons .input:last-child,
       .control.has-addons .textarea:last-child,
       .control.has-addons .select:last-child {
-        border-radius: 0 0px 0px 0; }
+        border-radius: 0 2px 2px 0; }
         .control.has-addons .button:last-child select,
         .control.has-addons .pagination a:last-child select,
         .pagination .control.has-addons a:last-child select, .control.has-addons .input:last-child select,
         .control.has-addons .textarea:last-child select,
         .control.has-addons .select:last-child select {
-          border-radius: 0 0px 0px 0; }
+          border-radius: 0 2px 2px 0; }
     .control.has-addons.has-addons-centered {
       justify-content: center; }
     .control.has-addons.has-addons-right {
@@ -2824,7 +2859,7 @@ a.fixed:active {
 
 .notification {
   background: #ffffff;
-  border-radius: 0px;
+  border-radius: 2px;
   padding: 16px 20px;
   position: relative; }
   .notification:after {
@@ -2832,7 +2867,7 @@ a.fixed:active {
     content: " ";
     display: table; }
   .notification .delete {
-    border-radius: 0 0px;
+    border-radius: 0 2px;
     float: right;
     margin: -16px -20px 0 20px; }
   .notification .h3,
@@ -3790,7 +3825,7 @@ a.fixed:active {
   align-items: center;
   justify-content: space-between; }
   .level code {
-    border-radius: 0px; }
+    border-radius: 2px; }
   .level img {
     display: inline-block;
     vertical-align: top; }
@@ -3909,25 +3944,25 @@ a.fixed:active {
 
 .message-body {
   border: 1px solid #d3d6db;
-  border-radius: 0px;
+  border-radius: 2px;
   padding: 12px 15px; }
   .message-body strong {
     color: inherit; }
 
 .message-header {
   background: #3a3a3a;
-  border-radius: 0px 0px 0 0;
+  border-radius: 2px 2px 0 0;
   color: white;
   padding: 7px 10px; }
   .message-header strong {
     color: inherit; }
   .message-header + .message-body {
-    border-radius: 0 0 0px 0px;
+    border-radius: 0 0 2px 2px;
     border-top: none; }
 
 .message {
   background: #fafbfa;
-  border-radius: 0px; }
+  border-radius: 2px; }
   .message.is-white {
     background: white; }
     .message.is-white .message-header {
@@ -4144,7 +4179,7 @@ a.nav-item {
   align-items: center;
   justify-content: space-between; }
   .navbar code {
-    border-radius: 0px; }
+    border-radius: 2px; }
   .navbar img {
     display: inline-block;
     vertical-align: top; }
@@ -4311,7 +4346,7 @@ a.panel-block:hover {
     justify-content: flex-end; }
   .tabs.is-boxed a {
     border: 1px solid transparent;
-    border-radius: 0px 0px 0 0;
+    border-radius: 2px 2px 0 0;
     padding-bottom: 5px;
     padding-top: 5px; }
     .tabs.is-boxed a:hover {
@@ -4336,9 +4371,9 @@ a.panel-block:hover {
   .tabs.is-toggle li + li {
     margin-left: -1px; }
   .tabs.is-toggle li:first-child a {
-    border-radius: 0px 0 0 0px; }
+    border-radius: 2px 0 0 2px; }
   .tabs.is-toggle li:last-child a {
-    border-radius: 0 0px 0px 0; }
+    border-radius: 0 2px 2px 0; }
   .tabs.is-toggle li.is-active a {
     background: #2957a6;
     border-color: #2957a6;
