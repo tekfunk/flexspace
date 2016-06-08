@@ -90,7 +90,9 @@
         color: $color;
 
         &:hover {
-          background: darken($color-invert, 5%);
+          background: $color;
+		  border-color: $color-invert;
+          color: $color-invert;
         }
       }
 

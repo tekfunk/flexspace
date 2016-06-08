@@ -749,7 +749,7 @@
       <div class="column is-1-2">
         <div class="mod has-flxs-hero-1">
           <div class="mod-header" style="background-color: rgba( 255,255,255,.6)">
-            <p class="mod-header-title"><strong>.has-flxs-hero-1</strong></p>
+            <p class="mod-header-title"><strong>.has-flxs-hero-1</strong> $flxs-hero-1: url('../art/blue-hero-03.svg') ;</p>
           </div>
           <div class="mod-content" style="height: 220px;"> </div>
         </div>
@@ -757,7 +757,7 @@
       <div class="column is-1-2">
         <div class="mod has-flxs-hero-2">
           <div class="mod-header" style="background-color: rgba( 255,255,255,.6)">
-            <p class="mod-header-title"><strong>.has-flxs-hero-2</strong></p>
+            <p class="mod-header-title"><strong>.has-flxs-hero-2</strong>$flxs-hero-2: url('../art/blue-hero-02.svg') ;</p>
           </div>
           <div class="mod-content" style="height: 220px;"> </div>
         </div>
@@ -765,7 +765,7 @@
       <div class="column is-1-2">
         <div class="mod has-flxs-hero-3">
           <div class="mod-header" style="background-color: rgba( 255,255,255,.6)">
-            <p class="mod-header-title"><strong>.has-flxs-hero-3</strong></p>
+            <p class="mod-header-title"><strong>.has-flxs-hero-3</strong>$flxs-hero-3: url('../art/gear-lined.svg') ;</p>
           </div>
           <div class="mod-content" style="height: 220px;"> </div>
         </div>
@@ -773,7 +773,7 @@
       <div class="column is-1-2">
         <div class="mod has-flxs-hero-4">
           <div class="mod-header" style="background-color: rgba( 255,255,255,.6)">
-            <p class="mod-header-title"><strong>.has-flxs-hero-4</strong></p>
+            <p class="mod-header-title"><strong>.has-flxs-hero-4</strong>$flxs-hero-4: url('../art/gear-bknd.svg') ; </p>
           </div>
           <div class="mod-content" style="height: 220px;"> </div>
         </div>
@@ -854,7 +854,7 @@
       <div class="column is-1-4">
         <div class="mod has-bkd-pattern-1">
           <div class="mod-header" style="background-color: rgba( 255,255,255,.6)">
-            <p class="mod-header-title"><strong>.has-bkd-pattern-1</strong></p>
+            <p class="mod-header-title"><strong>.has-bkd-pattern-1</strong>$bkd-pattern-1: url('../art/radiate.svg');</p>
           </div>
           <div class="mod-content" style="height: 220px;"> </div>
         </div>
@@ -862,7 +862,7 @@
       <div class="column is-1-4">
         <div class="mod has-bkd-pattern-2">
           <div class="mod-header" style="background-color: rgba( 255,255,255,.6)">
-            <p class="mod-header-title"><strong>.has-bkd-pattern-2</strong></p>
+            <p class="mod-header-title"><strong>.has-bkd-pattern-2</strong>$bkd-pattern-2: url('../art/dot-space-2.svg');</p>
           </div>
           <div class="mod-content" style="height: 220px;"> </div>
         </div>
@@ -870,7 +870,7 @@
       <div class="column is-1-4">
         <div class="mod has-bkd-pattern-3">
           <div class="mod-header" style="background-color: rgba( 255,255,255,.6)">
-            <p class="mod-header-title"><strong>.has-bkd-pattern-3</strong></p>
+            <p class="mod-header-title"><strong>.has-bkd-pattern-3</strong>$bkd-pattern-3: url('../art/dot-space-3.svg');</p>
           </div>
           <div class="mod-content" style="height: 220px;"> </div>
         </div>
@@ -878,7 +878,7 @@
       <div class="column is-1-4">
         <div class="mod has-bkd-pattern-4">
           <div class="mod-header" style="background-color: rgba( 255,255,255,.6)">
-            <p class="mod-header-title"><strong>.has-bkd-pattern-4</strong></p>
+            <p class="mod-header-title"><strong>.has-bkd-pattern-4</strong>$bkd-pattern-4: url('../art/dot-space-4.svg');</p>
           </div>
           <div class="mod-content" style="height: 220px;"> </div>
         </div>

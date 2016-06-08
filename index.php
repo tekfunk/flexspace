@@ -15,7 +15,7 @@
     </div>
   </div>
 </section>
-<section id="about" class="hero is-large has-flxs-hero-3">
+<section id="about" class="hero is-large has-flxs-hero-1">
   <div class="hero-body">
     <div class="container">
       <div class="column is-2-3 is-offset-1-6">
@@ -34,6 +34,7 @@
               <p>Flexspace will keep up with the constant change of best practices in designing and developing for the www as well as experiment with new and different ways of doing things.</p>
             </div>
           </div>
+          <div class="columns"><i class="icon ics-codepen"></i></div>
         </div>
       </div>
     </div>

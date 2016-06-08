@@ -8,7 +8,7 @@
       <div class="block"> <a class="button is-fullwidth is-primary is-inverted" href="/copy.php">copy</a> <a class="button is-primary" href="/copy.php#content">content</a> <a class="button is-primary" href="/copy.php#badges">badges</a> <a class="button is-primary" href="/copy.php#burst">burst</a> <a class="button is-primary" href="/copy.php#messages">messages</a> <a class="button is-primary" href="/copy.php#notifications">notifications</a> <a class="button is-primary" href="/copy.php#code">code</a> </div>
     </div>
     <div class="column is-1-8">
-      <div class="block"> <a class="button is-fullwidth is-primary is-inverted" href="/grid.php">grid</a> <a class="button is-primary is-active" href="/grid.php#columns">columns</a><a class="button is-primary" href="/grid.php#sizing">sizing</a><a class="button is-primary is-disabled" href="/grid.php#mozaic">mozaic</a><a class="button is-primary" href="/grid.php#tables">tables</a> </div>
+      <div class="block"> <a class="button is-fullwidth is-primary is-inverted" href="/grid.php">grid</a> <a class="button is-primary is-active" href="/grid.php#columns">columns</a><a class="button is-primary" href="/grid.php#sizing">sizing</a><a class="button is-primary" href="/grid.php#isotope">isotope</a><a class="button is-primary" href="/grid.php#tables">tables</a> </div>
     </div>
     <div class="column is-1-8">
       <div class="block"> <a class="button is-fullwidth is-primary is-inverted" href="/modules.php">modules</a><a class="button is-primary" href="/modules.php#box">box</a> <a class="button is-primary" href="/modules.php#media">media</a> <a class="button is-primary" href="/modules.php#mod">mod</a><a class="button is-primary is-disabled" href="/modules.php#gallery">gallery</a> <a class="button is-primary is-disabled" href="/modules.php#modal">modal</a></div>
@@ -30,5 +30,9 @@
 <script src="../js/highlight.pack.js"></script> 
 <script>hljs.initHighlightingOnLoad();</script> 
 <script src="../js/clipboard.min.js"></script> 
+<script src="../js/jquery-1.12.4.min.js"></script> 
+<script src="../js/isotope.js"></script>
+<script src="../js/imagesloaded.js"></script>
+
 <script src="../js/flexspace.js"></script>
 </body></html>
