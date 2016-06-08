@@ -2,6 +2,7 @@
   background: $white;
   color: $text-strong;
   margin-bottom: 20px;
+  width: 100%;
   td,
   th {
     border: 1px solid $border;
@@ -14,7 +15,7 @@
       text-align: center;
       white-space: nowrap;
       width: 1%;
-      .fa {
+      .ics {
         @include ics(21px, 24px);
       }
       &.is-link {

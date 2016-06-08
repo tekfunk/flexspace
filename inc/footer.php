@@ -14,13 +14,13 @@
       <div class="block"> <a class="button is-fullwidth is-primary is-inverted" href="/modules.php">modules</a><a class="button is-primary" href="/modules.php#box">box</a> <a class="button is-primary" href="/modules.php#media">media</a> <a class="button is-primary" href="/modules.php#mod">mod</a><a class="button is-primary is-disabled" href="/modules.php#gallery">gallery</a> <a class="button is-primary is-disabled" href="/modules.php#modal">modal</a></div>
     </div>
     <div class="column is-1-8">
-      <div class="block"> <a class="button is-fullwidth is-primary is-inverted" href="/ui.php">ui</a> <a class="button is-primary" href="/ui.php#button">button</a><a class="button is-primary" href="/ui.php#nav">nav</a><a class="button is-primary is-disabled" href="/ui.php#tabs">tabs</a><a class="button is-primary is-disabled" href="/ui.php#panel">panel</a><a class="button is-primary is-disabled" href="/ui.php#menu">menu</a><a  class="button is-primary is-disabled" href="/ui.php#form">form</a><a class="button is-primary is-disabled" href="/ui.php#pagination">pagination</a><a class="button is-primary is-disabled" href="/ui.php#progress">progress</a><a class="button is-primary is-disabled" href="/ui.php#tooltip">tooltip</a></div>
+      <div class="block"> <a class="button is-fullwidth is-primary is-inverted" href="/ui.php">ui</a> <a class="button is-primary" href="/ui.php#button">button</a><a class="button is-primary" href="/ui.php#nav">nav</a><a class="button is-primary is-disabled" href="/ui.php#tabs">tabs</a><a class="button is-primary is-disabled" href="/ui.php#panel">panel</a><a class="button is-primary is-disabled" href="/ui.php#menu">menu</a><a  class="button is-primary is-disabled" href="/ui.php#form">form</a><a class="button is-primary is-disabled" href="/ui.php#pagination">pagination</a></div>
     </div>
     <div class="column is-1-8">
       <div class="block"> <a class="button is-fullwidth is-primary is-inverted" href="/art.php">art</a> <a class="button is-primary" href="/art.php#icons">icons</a> <a class="button is-primary" href="/art.php#backgrounds">backgrounds</a></div>
     </div>
     <div class="column is-1-8">
-      <div class="block"> <a class="button is-fullwidth is-primary is-inverted" href="/animations.php">animations</a> <a class="button is-primary" href="/animations.php#animate">animate.css</a> <a class="button is-primary" href="/animations.php#hover">hover.css</a> </div>
+      <div class="block"> <a class="button is-fullwidth is-primary is-inverted" href="/animations.php">animations</a><a class="button is-primary" href="/ui.php#loaders">loaders</a><a class="button is-primary" href="/ui.php#progress">progress</a><a class="button is-primary" href="/animations.php#animate">animate.css</a> <a class="button is-primary" href="/animations.php#hover">hover.css</a> </div>
     </div>
     <div class="column is-1-8">
       <div class="block"> <a class="button is-fullwidth is-primary is-inverted" href="/variables.php">variables</a> <a class="button is-primary" href="/variables.php#Palette">palette</a> <a class="button is-primary" href="/variables.php#Type">type</a> <a class="button is-primary" href="/variables.php#Layout">layout</a> <a class="button is-primary" href="/variables.php#Groups">groups</a> </div>
@@ -29,10 +29,9 @@
 </footer>
 <script src="../js/highlight.pack.js"></script> 
 <script>hljs.initHighlightingOnLoad();</script> 
-<script src="../js/clipboard.min.js"></script> 
-<script src="../js/jquery-1.12.4.min.js"></script> 
+<script src="../js/clipboard.js"></script> 
+<script src="../js/jquery.js"></script> 
 <script src="../js/isotope.js"></script>
 <script src="../js/imagesloaded.js"></script>
-
 <script src="../js/flexspace.js"></script>
 </body></html>

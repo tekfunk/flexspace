@@ -18,7 +18,7 @@
 <section class="section" id="content">
   <div class="container">
     <h1>Content</h1>
-    <hr>    <div class="notification content">  <p>Use <strong>.content</strong> as a container for bodies of text styled like this.</p></div>
+    <hr>    <div class="notification is-primary content">  <p>Use <strong>.content</strong> as a container for bodies of text styled like this.</p></div>
 <div class="notification content">
       <h1>&lt;h1&gt;Hello World&lt;/h1&gt;</h1>
       <p>&lt;p&gt;Lorem ipsum dolor sit amet, <em>em -consectetur adipiscing elit</em>. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.&lt;/p&gt;</p>
@@ -252,12 +252,12 @@
     <h1>Code</h1>
     <hr>
     <div class="columns">
-      <div class="column is-1-2">
+      <div class="column is-1-2"><div class="notification is-black">
         <pre><code class="html">&lt;pre&gt;
     &lt;code id=&quot;xxx&quot; class=&quot;html&quot;&gt;&lt;/code&gt;
   &lt;/pre&gt;
-</code></pre>
-<div class="notification content"><p>For displaying color coded text. Uses <a href="https://highlightjs.org" target="_blank">highlight.js</a> to figure out the syntax, <a href="https://clipboardjs.com" target="_blank">clipboard.js</a> for copying the text without Flash, and the <a href="http://madmalik.github.io/mononoki/" target="_blank">Mononoki font.</a></p></div>
+</code></pre></div>
+<div class="notification is-primary content"><p>For displaying color coded text. Uses <a href="https://highlightjs.org" target="_blank">highlight.js</a> to figure out the syntax, <a href="https://clipboardjs.com" target="_blank">clipboard.js</a> for copying the text without Flash, and the <a href="http://madmalik.github.io/mononoki/" target="_blank">Mononoki font.</a></p></div>
       </div>
       <div class="column">
         <div class="box">

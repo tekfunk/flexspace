@@ -10,11 +10,43 @@
     </div>
     <div class="hero-foot">
       <div class="container">
-        <div class="block has-text-centered"> 
-       <a class="button is-primary" href="#animate">animate.css</a> <a class="button is-primary" href="#hover">hover.css</a> 
-       </div>
+        <div class="block has-text-centered"> <a class="button is-primary" href="#loaders">loaders</a><a class="button is-primary" href="#progress">progress</a> <a class="button is-primary" href="#animate">animate.css</a> <a class="button is-primary" href="#hover">hover.css</a> </div>
       </div>
     </div>
+  </div>
+</section>
+<section class="section" id="loaders">
+  <div class="container">
+    <h1>Loaders</h1>
+    <hr>
+    <div class="columns is-stacked">
+      <div class="column is-1-2">
+        <div class="notification is-black">
+          <div class="circle-load"></div>
+          <h3>Loading...</h3>
+        </div>
+        <div class="notification is-primary">
+          <p>#hero-load is a fullwindow loader that uses jQuery to fade out once everything is loaded.</p>
+
+        </div>
+      </div>
+      <div class="column is-1-2">
+        <div class="box">
+          <pre><code id="g2" class="html hljs xml">&lt;div id=&quot;hero-load&quot;&gt;<br />	&lt;div class=&quot;circle-load&quot;&gt;&lt;/div&gt;
+	&lt;h3&gt;Loading...&lt;/h3&gt;	<br />&lt;/div&gt;
+
+$(document).ready(function(){ $(&quot;#hero-load&quot;).delay(100).fadeOut('fast'); });</code>
+</pre>
+          <a class="button icon-clipboard" data-clipboard-target="#g2"></a> </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section" id="progress">
+  <div class="container">
+    <h1>Progress Bars</h1>
+    <hr>
+      <div class="content">Coming Soon.</div>
   </div>
 </section>
 <section class="section" id="animate">
@@ -253,14 +285,13 @@
   </div>
 </section>
 <section class="section" id="hover">
-	  <div class="container">
-    <h1><a href="http://ianlunn.github.io/Hover/" target="_blank">hover.css</a></h1>
-    <h3>by Ian Lunn</h3>
-    <hr>
-
+<div class="container">
+<h1><a href="http://ianlunn.github.io/Hover/" target="_blank">hover.css</a></h1>
+<h3>by Ian Lunn</h3>
+<hr>
 <div id="effects" class="effects">
 <div class="container">
-    <h2>2D Transitions</h2>
+  <h2>2D Transitions</h2>
   <div class="columns is-stacked">
     <div class="column is-1-5"><a href="#" class="button hvr-grow">Grow</a></div>
     <div class="column is-1-5"><a href="#" class="button hvr-shrink">Shrink</a></div>
@@ -290,8 +321,8 @@
     <div class="column is-1-5"><a href="#" class="button hvr-buzz">Buzz</a></div>
     <div class="column is-1-5"><a href="#" class="button hvr-buzz-out">Buzz Out</a></div>
   </div>
-     <h2>Background Transitions</h2>
- <div class="columns is-stacked">
+  <h2>Background Transitions</h2>
+  <div class="columns is-stacked">
     <div class="column is-1-5"><a href="#" class="button hvr-fade">Fade</a></div>
     <div class="column is-1-5"><a href="#" class="button hvr-back-pulse">Back Pulse</a></div>
     <div class="column is-1-5"><a href="#" class="button hvr-sweep-to-right">Sweep To Right</a></div>
@@ -311,8 +342,8 @@
     <div class="column is-1-5"><a href="#" class="button hvr-shutter-in-vertical">Shutter In Vertical</a></div>
     <div class="column is-1-5"><a href="#" class="button hvr-shutter-out-vertical">Shutter Out Vertical</a></div>
   </div>
-     <h2>Border Transitions</h2>
- <div class="columns is-stacked">
+  <h2>Border Transitions</h2>
+  <div class="columns is-stacked">
     <div class="column is-1-5"><a href="#" class="button hvr-border-fade">Border Fade</a></div>
     <div class="column is-1-5"><a href="#" class="button hvr-hollow">Hollow</a></div>
     <div class="column is-1-5"><a href="#" class="button hvr-trim">Trim</a></div>
@@ -331,8 +362,8 @@
     <div class="column is-1-5"><a href="#" class="button hvr-overline-from-center">Overline From Center</a></div>
     <div class="column is-1-5"><a href="#" class="button hvr-overline-from-right">Overline From Right</a></div>
   </div>
-     <h2>Shadow and Glow Transitions</h2>
- <div class="columns is-stacked">
+  <h2>Shadow and Glow Transitions</h2>
+  <div class="columns is-stacked">
     <div class="column is-1-5"><a href="#" class="button hvr-shadow">Shadow</a></div>
     <div class="column is-1-5"><a href="#" class="button hvr-grow-shadow">Grow Shadow</a></div>
     <div class="column is-1-5"><a href="#" class="button hvr-float-shadow">Float Shadow</a></div>
@@ -341,7 +372,7 @@
     <div class="column is-1-5"><a href="#" class="button hvr-box-shadow-outset">Box Shadow Outset</a></div>
     <div class="column is-1-5"><a href="#" class="button hvr-box-shadow-inset">Box Shadow Inset</a></div>
   </div>
-    <h2>Speech Bubbles</h2>
+  <h2>Speech Bubbles</h2>
   <div class="columns is-stacked">
     <div class="column is-1-5"><a href="#" class="button hvr-bubble-top">Bubble Top</a></div>
     <div class="column is-1-5"><a href="#" class="button hvr-bubble-right">Bubble Right</a></div>
@@ -352,8 +383,8 @@
     <div class="column is-1-5"><a href="#" class="button hvr-bubble-float-bottom">Bubble Float Bottom</a></div>
     <div class="column is-1-5"><a href="#" class="button hvr-bubble-float-left">Bubble Float Left</a></div>
   </div>
-     <h2>Curls</h2>
- <div class="columns is-stacked">
+  <h2>Curls</h2>
+  <div class="columns is-stacked">
     <div class="column is-1-5"><a href="#" class="button hvr-curl-top-left">Curl Top Left</a></div>
     <div class="column is-1-5"><a href="#" class="button hvr-curl-top-right">Curl Top Right</a></div>
     <div class="column is-1-5"><a href="#" class="button hvr-curl-bottom-right">Curl Bottom Right</a></div>

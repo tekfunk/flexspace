@@ -43,6 +43,10 @@ new Clipboard('.button');
 
 
 
+$(document).ready(function(){
+
+		$("#hero-load").delay(100).fadeOut('fast'); 
+	});
 
 
 

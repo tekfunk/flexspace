@@ -28,5 +28,8 @@
       background: $color;
       color: $color-invert;
     }
+     //  &.is-#{$name} a{
+    //     color: $color-invert;
+    //   }
   }
 }

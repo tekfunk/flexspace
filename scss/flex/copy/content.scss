@@ -3,11 +3,12 @@
 
   // Inline
   a {
+	font-weight: 500;
     border-bottom: 1px solid $border;
 
-    &:visited {
-      color: $link-visited;
-    }
+     //&:visited {
+       //color: $link-visited;
+    // }
 
     &:hover {
       border-bottom-color: $link;

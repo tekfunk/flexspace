@@ -161,3 +161,85 @@
 }
 
 .has-border { border: 1px solid $grey; padding: 5px;}
+
+#helpers .container {margin-bottom: 20px;}
+.header .continer { min-height: 0; }
+.highlight { background-color: transparent; }
+
+#icons .ics {margin-right: 0;}
+.fade-9 {opacity: .1}
+.fade-7 {opacity: .3}
+.fade-5 {opacity: .5}
+.fade-3 {opacity: .8}
+.fade-2 {opacity: .9}
+.fade-1 {opacity: .95}
+
+.code-blu { background-color: #152335; color: #f0f0f0; width: 100%; text-align: center; font-size: 12px; font-weight: bold; padding: .5em;}
+.code-blk { background-color: #2a2a2a; color: #f0f0f0; width: 100%; text-align: center; font-size: 12px; font-weight: bold; padding: .5em;}
+.code-prp { background-color: #321536; color: #f0f0f0; width: 100%; text-align: center; font-size: 12px; font-weight: bold; padding: .5em;}
+.code-org { background-color: #74361f; color: #f0f0f0; width: 100%; text-align: center; font-size: 12px; font-weight: bold; padding: .5em;}
+.code-red { background-color: #36151a; color: #f0f0f0; width: 100%; text-align: center; font-size: 12px; font-weight: bold; padding: .5em;}
+
+.button .icon:last-child {margin: 0;}
+.to-edges { justify-content: space-between; }
+.items-centered { justify-content: space-around; }
+
+.purple { background-color: #321536; }
+.red { background-color: #36151a; }
+.orange { background-color: #74361f; }
+
+#page-nav { position: fixed;
+width: 100%;
+bottom: 0;
+z-index: 999;
+text-align: center;
+background-color: #2957a6;
+border-top: 1px solid #eaeaea;
+padding-top: 1em;
+color: #f0f0f0;
+ }
+
+#page-nav a{ color: #f0f0f0; font-size: .7em; font-weight: bold; letter-spacing: .05;}
+
+h1 { color:#2957a6;}
+
+#icons i { font-size: 2.3em;}
+#icons .box { padding: 10px; text-align: center;}
+#animate .column h1 { text-align: center;font-size:1.3em;
+text-align: center;
+background-color: #eaeaea;
+padding: .75em .25em;
+border: 1px solid ;}
+
+#icons .columns.is-stacked {display: flex;}
+
+h3 a{ font-weight: bold; }
+.logo { padding: 1em;}
+
+
+
+
+h2 {color: #2957a6}
+
+.footer { background-color: #2957a6}
+.blue { background-color: #2957a6}
+
+
+.is-red { color: $red; }
+.is-brick { color: $brick; }
+.is-orange { color: $orange; }
+.is-maize { color: $maize; }
+.is-yellow { color: $yellow; }
+.is-olive { color: $olive; }
+.is-green { color: $green; }
+.is-teal { color: $teal; }
+.is-blue { color: $blue; }
+.is-cobalt { color: $cobalt; }
+.is-violet { color: $violet; }
+.is-sepia { color: $sepia; }
+.is-umber { color: $umber; }
+
+.content .is-primary a { color:#ffffff;}
+
+
+

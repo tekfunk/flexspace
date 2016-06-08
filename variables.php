@@ -24,7 +24,7 @@
   <div class="container">
     <h1>Palette</h1>
     <hr>
-    <div class="notification content">
+    <div class="notification is-primary content">
       <p>The palette is broken up into 3 parts.  The first part is your main palette where you can choose primary, secondary, accent, pastel to match the site's branding.  The next 2 are greyscale and a rainbow that you can also customize.</p>
     </div>
     <h4>Site</h4>
@@ -289,7 +289,7 @@
         </div>
       </div>
     </div>
-    <div class="notification content">
+    <div class="notification is-primary content">
       <p>Various Colors get mapped to different UI and layout elements. SCSS computes inverted colors for the core palette. These can be overwritten with whatever color you choose.</p>
     </div>
     <h4>UI</h4>
@@ -607,7 +607,7 @@
   <div class="container">
     <h1>Type</h1>
     <hr>
-    <div class="notification content">
+    <div class="notification is-primary content">
       <p>Map your fonts, sizes, and weights with these.</p>
     </div>
     <div class="columns">
@@ -674,7 +674,7 @@
         </table>
       </div>
     </div>
-    <div class="notification content">
+    <div class="notification is-primary content">
       <p>Here are additional type related mappings.</p>
     </div>
     <div class="columns">

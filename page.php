@@ -21,7 +21,7 @@
     <hr>
     <div class="columns">
       <div class="column is-1-2">
-        <div class="notification">
+        <div class="notification is-primary">
           <p>Basic page structure.</p>
         </div>
       </div>
@@ -44,7 +44,7 @@
   <div class="container">
     <h1>Container</h1>
     <hr>
-    <p>Inside &lt;header&gt;&lt;/header&gt;, &lt;section&gt;&lt;/section&gt;, &lt;footer&gt;&lt;/footer&gt;.</p>
+ <div class="notification is-primary">    <p>Inside &lt;header&gt;&lt;/header&gt;, &lt;section&gt;&lt;/section&gt;, &lt;footer&gt;&lt;/footer&gt;.</p></div>
   </div>
 </section>
 <section class="hero">
@@ -72,7 +72,7 @@
   <div class="container">
     <div class="columns">
       <div class="column is-1-2">
-        <div class="notification content">
+        <div class="notification is-primary">
           <p>Fullwidth featured content section.</p>
           <p>Colors can be assigned with <strong>.is-white, .is-black, .is-light, .is-dark, .is-primary, .is-accent, .is-success, .is-alert, & .is-secondary.</strong> </p>
           <p>A subtle gradient can be applied with <strong>.is-bold</strong>.</p>
@@ -100,7 +100,7 @@
   <div class="container">
     <div class="columns">
       <div class="column is-1-2">
-        <div class="content">
+        <div class="notification is-primary">
           <p>Sizes can be <strong>.is-medium</strong>, <strong>.is-large</strong>, and <strong>.is-fullheight</strong>.</p>
           <p>Can have a background by adding <strong>.has-bkd-pattern-</strong>#</p>
         </div>
@@ -135,7 +135,7 @@
   <div class="container">
     <div class="columns">
       <div class="column is-1-2">
-        <div class="content">
+        <div class="notification is-primary">
           <p>Add a background image with <strong>.has-bkd-image-</strong>#</p>
           <p>Hero sections can be broken up with a <strong>.hero-head</strong>(Top-Aligned), <strong>.hero-body</strong>(Center-Aligned), <strong>.hero-footer</strong>(Bottom-Aligned). </p>
           <p>All 3 parts can have separate colors can be assigned with <strong>.is-white, .is-black, .is-light, .is-dark, .is-primary, .is-accent, .is-success, .is-alert, & .is-secondary.</strong></p>
