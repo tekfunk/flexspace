@@ -10,7 +10,73 @@
     </div>
     <div class="hero-foot">
       <div class="container">
-        <div class="block has-text-centered"> <a class="button is-primary" href="#icons">icons</a> <a class="button is-primary" href="#backgrounds">backgrounds</a> </div>
+        <div class="block has-text-centered"> <a class="button is-primary" href="#palette">palette</a><a class="button is-primary" href="#icons">icons</a> <a class="button is-primary" href="#backgrounds">backgrounds</a> </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section" id="palette">
+  <div class="container">
+    <h1>Palette</h1>
+    <hr>
+    <div class="notification content">
+      <p>These are the colors that get mapped out to buttons, hero, notifications, etc. They can be changed in <strong>variables.scss</strong></p>
+    </div>
+    <div class="columns is-gapless is-stacked">
+      <div class="column is-1-4">
+        <div class="mod">
+          <div class="notification is-primary">is-primary </div>
+        </div>
+      </div>
+      <div class="column is-1-4">
+        <div class="mod">
+          <div class="notification is-secondary">is-secondary </div>
+        </div>
+      </div>
+      <div class="column is-1-4">
+        <div class="mod">
+          <div class="notification is-accent">is-accent </div>
+        </div>
+      </div>
+      <div class="column is-1-4">
+        <div class="mod">
+          <div class="notification is-pastel">is-pastel </div>
+        </div>
+      </div>
+      <div class="column is-1-3">
+        <div class="mod">
+          <div class="notification is-red">is-red </div>
+        </div>
+      </div>
+      <div class="column is-1-3">
+        <div class="mod">
+          <div class="notification is-alert">is-alert </div>
+        </div>
+      </div>
+      <div class="column is-1-3">
+        <div class="mod">
+          <div class="notification is-success">is-success </div>
+        </div>
+      </div>
+      <div class="column is-1-4">
+        <div class="mod">
+          <div class="notification is-white">is-white </div>
+        </div>
+      </div>
+      <div class="column is-1-4">
+        <div class="mod">
+          <div class="notification is-light">is-light </div>
+        </div>
+      </div>
+      <div class="column is-1-4">
+        <div class="mod">
+          <div class="notification is-dark">is-dark </div>
+        </div>
+      </div>
+      <div class="column is-1-4">
+        <div class="mod">
+          <div class="notification is-black">is-black </div>
+        </div>
       </div>
     </div>
   </div>

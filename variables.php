@@ -11,22 +11,18 @@
     <div class="hero-foot">
       <div class="container">
         <div class="block has-text-centered"> 
-	        <a class="button is-primary" href="#Palette">palette</a> 
+	        <a class="button is-primary" href="#Colors">colors</a> 
 	        <a class="button is-primary" href="#Type">type</a> 
 	        <a class="button is-primary" href="#Layout">layout</a> 
-	        <a class="button is-primary" href="#Groups">groups</a> 
 	    </div>
       </div>
     </div>
   </div>
 </section>
-<section class="section" id="Palette">
+<section class="section" id="Colors">
   <div class="container">
-    <h1>Palette</h1>
+    <h1>Colors</h1>
     <hr>
-    <div class="notification is-primary content">
-      <p>The palette is broken up into 3 parts.  The first part is your main palette where you can choose primary, secondary, accent, pastel to match the site's branding.  The next 2 are greyscale and a rainbow that you can also customize.</p>
-    </div>
     <h4>Site</h4>
     <div class="columns is-gapless">
       <div class="column is-2-5">
@@ -786,36 +782,6 @@
             <tr>
               <td>$speed</td>
               <td>86ms</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="section" id="Groups">
-  <div class="container">
-    <h1>Groups</h1>
-    <hr>
-    <div class="columns">
-      <div class="column">
-        <table class="table is-bordered is-striped is-narrow">
-          <tbody>
-            <tr>
-              <td>$colors</td>
-              <td> (white: ($white, $black),<br />
-                black: ($black, $white),<br />
-                light: ($light, $light-invert),<br />
-                dark: ($dark, $dark-invert),<br />
-                primary: ($primary, $primary-invert),<br />
-                accent: ($accent, $accent-invert),<br />
-                success: ($success, $success-invert),<br />
-                alert: ($alert, $alert-invert),<br />
-                secondary: ($secondary, $secondary-invert)) </td>
-            </tr>
-            <tr>
-              <td>$sizes</td>
-              <td>$size-1 $size-2 $size-3 $size-4 $size-5 $size-6</td>
             </tr>
           </tbody>
         </table>

@@ -103,6 +103,8 @@ $secondary-invert: findColorInvert($secondary) !default;
 $accent-invert: findColorInvert($accent) !default;
 $success-invert: findColorInvert($success) !default;
 $alert-invert: findColorInvert($alert) !default;
+$red-invert: findColorInvert($red) !default;
+$pastel-invert: findColorInvert($pastel) !default;
 $light-invert: $dark !default;
 $dark-invert: $light !default;
 // General colors
@@ -148,5 +150,5 @@ $size-large: $size-3 !default;
 $size-huge: $size-1 !default;
 // 4. Lists and maps
 
-$colors: (white: ($white, $black), black: ($black, $white), light: ($light, $light-invert), dark: ($dark, $dark-invert), primary: ($primary, $primary-invert), accent: ($accent, $accent-invert), success: ($success, $success-invert), alert: ($alert, $alert-invert), secondary: ($secondary, $secondary-invert)) !default;
+$colors: (white: ($white, $black), black: ($black, $white), red: ($red, $red-invert), light: ($light, $light-invert), dark: ($dark, $dark-invert), primary: ($primary, $primary-invert), accent: ($accent, $accent-invert), success: ($success, $success-invert), alert: ($alert, $alert-invert), pastel: ($pastel, $pastel-invert), secondary: ($secondary, $secondary-invert)) !default;
 $sizes: $size-1 $size-2 $size-3 $size-4 $size-5 $size-6 !default;
