@@ -84,12 +84,12 @@
           <div class="notification is-dark"> <a class="button is-inverted">Inverted</a> <a class="button is-primary is-inverted">Inverted</a> <a class="button is-accent is-inverted">Inverted</a> <a class="button is-success is-inverted">Inverted</a> <a class="button is-secondary is-inverted">Inverted</a> </div>
         </div>
         <div class="block"> <a class="button is-outlined">Outlined</a> <a class="button is-primary is-outlined">Outlined</a> <a class="button is-accent is-outlined">Outlined</a> <a class="button is-success is-outlined">Outlined</a> <a class="button is-secondary is-outlined">Outlined</a> </div>
-        <div class="block"> <a class="button is-loading">Loading</a> <a class="button is-primary is-loading">Loading</a> <a class="button is-accent is-loading">Loading</a> <a class="button is-success is-loading">Loading</a> <a class="button is-alert is-loading">Loading</a> <a class="button is-secondary is-loading">Loading</a> </div>
+       
         <div class="block"> <a class="button is-disabled">Disabled</a> <a class="button is-primary is-disabled">Disabled</a> <a class="button is-accent is-disabled">Disabled</a> <a class="button is-success is-disabled">Disabled</a> <a class="button is-alert is-disabled">Disabled</a> <a class="button is-secondary is-disabled">Disabled</a> </div>
         <div class="content">
           <div class="notification is-primary">
             <p>These variations are avaiable for buttons:</p>
-            <p><strong>.is-inverted</strong> <strong>.is-outlined</strong> <strong>.is-loading</strong> <strong>.is-disabled</strong></p>
+            <p><strong>.is-inverted</strong> <strong>.is-outlined</strong> <strong>.is-disabled</strong></p>
           </div>
         </div>
       </div>
@@ -98,7 +98,6 @@
           <pre>
     <code id="ui-3" class="html">&lt;a class=&quot;button is-inverted&quot;&gt;Inverted&lt;/a&gt;
 &lt;a class=&quot;button is-outlined&quot;&gt;Outlined&lt;/a&gt;
-&lt;a class=&quot;button is-loading&quot;&gt;Loading&lt;/a&gt;
 &lt;a class=&quot;button is-disabled&quot;&gt;Disabled&lt;/a&gt;</code>
   </pre>
           <a class="button icon-clipboard" data-clipboard-target="#ui-3"></a> </div>

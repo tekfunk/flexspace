@@ -1,52 +1,49 @@
 new Clipboard('.button');
 
-( function( $ ) {
-	var body, masthead, menuToggle, siteNavigation, socialNavigation, siteHeaderMenu, resizeTimer;
-
-	var $container = $('#isotope-list').imagesLoaded().always(function(instance) {
-		console.log('all images loaded');
-	}).done(function(instance) {
-		console.log('all images successfully loaded');
-		$container.isotope({
-			itemSelector: '.item',
-			masonry:{
-				gutter: 0,
-			columnWidth: 100,}
-		});
-	}).fail(function() {
-		console.log('all images loaded, at least one is broken');
-	}).progress(function(instance, image) {
-		var result = image.isLoaded ? 'loaded' : 'broken';
-		var $item = $(image.img).parent();
-		$item.removeClass('is-loading');
-		console.log('image is ' + result + ' for ' + image.img.src);
-	});
-	//Add the class selected to the item that is clicked, and remove from the others
-	var $optionSets = $('#filters'),
-		$optionLinks = $optionSets.find('a');
-		$optionLinks.click(function() {
-		var $this = $(this);
-		// don't proceed if already selected
-		if ($this.hasClass('selected')) {
-			return false;
-		}
-		var $optionSet = $this.parents('#filters');
-		$optionSets.find('.selected').removeClass('selected');
-		$this.addClass('selected');
-		//When an item is clicked, sort the items.
-		var selector = $(this).attr('data-filter');
-		$container.isotope({
-			filter: selector
-		});
-		return false;
-	});
-
-
-
 $(document).ready(function(){
 
-		$("#hero-load").delay(100).fadeOut('fast'); 
+		$(".loading").delay(100).fadeOut('fast'); 
 	});
+
+  // smartresize for responsive isotope
+(function($,sr){
+ 
+  var debounce = function (func, threshold, execAsap) {
+      var timeout;
+ 
+      return function debounced () {
+          var obj = this, args = arguments;
+          function delayed () {
+              if (!execAsap)
+                  func.apply(obj, args);
+              timeout = null; 
+          };
+ 
+          if (timeout)
+              clearTimeout(timeout);
+          else if (execAsap)
+              func.apply(obj, args);
+ 
+          timeout = setTimeout(delayed, threshold || 100); 
+      };
+  }
+	// smartresize 
+	jQuery.fn[sr] = function(fn){  return fn ? this.bind('resize', debounce(fn)) : this.trigger(sr); };
+ 
+})(jQuery,'smartresize');
+
+
+
+	
+var $container = $('#isotope-list')
+// initialize Isotope
+$container.isotope({
+  // options...
+  //resizable: false, // disable normal resizing
+  // set columnWidth to a percentage of container width
+  masonry: { columnWidth: $container.width() / 100, gutter: 0}
+});
+
 
 
 
@@ -64,9 +61,14 @@ $(document).ready(function(){
 
 
   });
+
+
+$(window).smartresize(function(){
+  $container.isotope({
+    // update columnWidth to a percentage of container width
+    masonry: { columnWidth: $container.width() / 100 }
+  });
 });
-
-
 
 
 } )( jQuery );

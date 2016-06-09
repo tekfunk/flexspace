@@ -1,7 +1,6 @@
 <?php include('inc/head.php'); ?>
-<div id="hero-load">
-  <div class="circle-load"></div>
-  <h3>Loading...</h3>
+<div class="loading is-primary">
+  <div class="loading-circles"></div>
 </div>
 <section id="home" class="hero is-fullheight has-flxs-hero-2">
   <div class="hero-head is-white">
@@ -50,7 +49,6 @@
               </div>
               <div class="column">
                 <p><a href="http://daneden.github.io/animate.css/" target="_blank">animate.css</a></p>
-                <p><a href="http://ianlunn.github.io/Hover/" target="_blank">hover.css</a></p>
                 <p><a href="http://madmalik.github.io/mononoki/" target="_blank">mononoki.otf</a></p>
 	            <p><a href="https://icomoon.io/app" target="_blank">icomoon.io</a></p>
               </div>

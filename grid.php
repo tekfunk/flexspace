@@ -21,31 +21,31 @@
     <hr>
     <div class="columns">
       <div class="column">
-        <div class="notification is-primary">1</div>
+        <div class="notification is-secondary">1</div>
       </div>
       <div class="column">
         <div class="notification is-secondary">2</div>
       </div>
       <div class="column">
-        <div class="notification is-success">3</div>
+        <div class="notification is-secondary">3</div>
       </div>
     </div>
     <code class="code-blk">class="columns is-stacked"</code>
     <div class="columns is-stacked">
       <div class="column  is-1-4">
-        <div class="notification is-alert">1</div>
+        <div class="notification is-accent">1</div>
       </div>
       <div class="column is-1-2">
         <div class="notification is-accent">2</div>
       </div>
       <div class="column">
-        <div class="notification is-primary">3</div>
+        <div class="notification is-accent">3</div>
       </div>
       <div class="column is-2-3">
-        <div class="notification is-secondary">4</div>
+        <div class="notification is-accent">4</div>
       </div>
       <div class="column">
-        <div class="notification is-success">5</div>
+        <div class="notification is-accent">5</div>
       </div>
     </div>
     <hr />
@@ -81,18 +81,18 @@
       </div>
       <div class="columns">
         <div class="column is-1-2">
-        <div class="notification is-accent">.is-1-2</div>
+        <div class="notification is-alert">.is-1-2</div>
         </div>
         <div class="column is-1-4 is-offset-1-8">
-        <div class="notification is-primary">.is-1-4 .is-offset-1-8</div>
+        <div class="notification is-alert">.is-1-4 .is-offset-1-8</div>
         </div>
       </div>
       <div class="columns">
         <div class="column is-9-10">
-        <div class="notification is-secondary">.is-9-10</div>
+        <div class="notification is-alert">.is-9-10</div>
         </div>
         <div class="column is-1-10">
-        <div class="notification is-success">.is-1-10</div>
+        <div class="notification is-alert">.is-1-10</div>
         </div>
       </div>
       <div class="columns">
@@ -100,7 +100,7 @@
         <div class="notification is-alert">.is-7-12</div>
         </div>
         <div class="column is-5-12">
-        <div class="notification is-accent">.is-5-12</div>
+        <div class="notification is-alert">.is-5-12</div>
         </div>
       </div>
       <div class="columns">
@@ -124,10 +124,10 @@
       </div>
       <div class="columns">
         <div class="column is-narrow">
-        <div class="notification is-primary">.is-narrow</div>
+        <div class="notification is-success">.is-narrow</div>
         </div>
         <div class="column">
-        <div class="notification is-secondary">.column</div>
+        <div class="notification is-success">.column</div>
         </div>
       </div>
       <div class="columns">
@@ -135,7 +135,7 @@
         <div class="notification is-success">.is-narrow-desktop</div>
         </div>
         <div class="column">
-        <div class="notification is-alert">.column</div>
+        <div class="notification is-success">.column</div>
         </div>
       </div>
       <div class="columns is-gapless is-stacked">
@@ -143,19 +143,19 @@
         <div class="notification is-accent">.is-1-8</div>
         </div>
         <div class="column is-7-8">
-         <div class="notification is-primary">.is-7-8</div>
+         <div class="notification is-secondary">.is-7-8</div>
         </div>
         <div class="column is-5-6">
-        <div class="notification is-secondary">.is-5-6</div>
+        <div class="notification is-success">.is-5-6</div>
         </div>
         <div class="column is-1-6">
-        <div class="notification is-success">.is-1-6</div>
+        <div class="notification is-alert">.is-1-6</div>
         </div>
         <div class="column is-1-5">
-         <div class="notification is-alert">.is-1-5</div>
+         <div class="notification is-accent">.is-1-5</div>
         </div>
         <div class="column is-4-5">
-        <div class="notification is-accent">.is-4-5</div>
+        <div class="notification is-secondary">.is-4-5</div>
         </div>
       </div>
       <div class="columns">
@@ -178,10 +178,10 @@
       <code class="code-blk">class="columns is-mobile"</code>
       <div class="columns is-mobile">
         <div class="column is-1-3">
-         <div class="notification is-primary">.is-1-3</div>
+         <div class="notification is-alert">.is-1-3</div>
         </div>
         <div class="column is-2-3">
-         <div class="notification is-secondary">.is-2-3</div>
+         <div class="notification is-alert">.is-2-3</div>
         </div>
       </div>
       <div class="columns">
@@ -189,16 +189,16 @@
          <div class="notification is-success">.is-11-12</div>
         </div>
         <div class="column is-1-12">
-         <div class="notification is-alert">.is-1-12</div>
+         <div class="notification is-success">.is-1-12</div>
         </div>
       </div>
       <code class="code-blk">class="columns is-desktop"</code>
       <div class="columns is-desktop">
         <div class="column is-1-4">
-         <div class="notification is-accent">.is-1-4</div>
+         <div class="notification is-secondary">.is-1-4</div>
         </div>
         <div class="column is-3-4">
-         <div class="notification is-primary">.is-3-4</div>
+         <div class="notification is-secondary">.is-3-4</div>
         </div>
       </div>
       <div class="columns">
@@ -223,7 +223,7 @@
           <div class="notification is-secondary"> is-3-4-mobile is-1-2-tablet is-1-4-desktop</div>
         </div>
         <div class="column">
-          <div class="notification is-success">.column</div>
+          <div class="notification is-secondary">.column</div>
         </div>
       </div>
       <div class="columns is-stacked">
@@ -231,13 +231,13 @@
          <div class="notification is-alert">.is-5-8</div>
         </div>
         <div class="column is-3-8">
-         <div class="notification is-accent">.is-3-8</div>
+         <div class="notification is-alert">.is-3-8</div>
         </div>
         <div class="column is-7-10">
-         <div class="notification is-primary">.is-7-10</div>
+         <div class="notification is-alert">.is-7-10</div>
         </div>
         <div class="column is-3-10">
-         <div class="notification is-secondary">.is-3-10</div>
+         <div class="notification is-alert">.is-3-10</div>
         </div>
       </div>
     </div>

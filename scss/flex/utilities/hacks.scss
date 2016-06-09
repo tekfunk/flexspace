@@ -126,18 +126,6 @@
 }
 
 
-.loader {
-  animation: spin-around 500ms infinite linear;
-  border: 2px solid $border;
-  border-radius: 290486px;
-  border-right-color: transparent;
-  border-top-color: transparent;
-  content: "";
-  display: block;
-  height: 16px;
-  position: relative;
-  width: 16px;
-}
 
 .number {
   background: $background;
@@ -146,11 +134,6 @@
   font-size: $size-medium;
   vertical-align: top;
 }
-
-      
-
-
-
 
 .unselectable {
   -webkit-touch-callout: none;
