@@ -3957,7 +3957,7 @@ a.box:active {
       width: 58.333333%; }
     .item.is-1-2-mobile {
       flex: none;
-      width: 49%; }
+      width: 50%; }
     .item.is-5-12-mobile {
       flex: none;
       width: 41.666667%; }
@@ -4014,7 +4014,7 @@ a.box:active {
     .item.is-offset-7-12-mobile {
       margin-left: 58.333333%; }
     .item.is-offset-1-2-mobile {
-      margin-left: 49%; }
+      margin-left: 50%; }
     .item.is-offset-5-12-mobile {
       margin-left: 41.666667%; }
     .item.is-offset-2-5-mobile {
@@ -4078,7 +4078,7 @@ a.box:active {
       width: 58.333333%; }
     .item.is-1-2, .item.is-1-2-tablet {
       flex: none;
-      width: 49%; }
+      width: 50%; }
     .item.is-5-12, .item.is-5-12-tablet {
       flex: none;
       width: 41.666667%; }
@@ -4199,7 +4199,7 @@ a.box:active {
       width: 58.333333%; }
     .item.is-1-2-desktop {
       flex: none;
-      width: 49%; }
+      width: 50%; }
     .item.is-5-12-desktop {
       flex: none;
       width: 41.666667%; }

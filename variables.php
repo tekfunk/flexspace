@@ -285,7 +285,7 @@
         </div>
       </div>
     </div>
-    <div class="notification is-primary content">
+    <div class="box content is-light">
       <p>Various Colors get mapped to different UI and layout elements. SCSS computes inverted colors for the core palette. These can be overwritten with whatever color you choose.</p>
     </div>
     <h4>UI</h4>
@@ -603,7 +603,7 @@
   <div class="container">
     <h1>Type</h1>
     <hr>
-    <div class="notification is-primary content">
+    <div class="box content is-light">
       <p>Map your fonts, sizes, and weights with these.</p>
     </div>
     <div class="columns">
@@ -670,7 +670,7 @@
         </table>
       </div>
     </div>
-    <div class="notification is-primary content">
+    <div class="box content is-light">
       <p>Here are additional type related mappings.</p>
     </div>
     <div class="columns">

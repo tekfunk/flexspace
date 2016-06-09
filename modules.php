@@ -24,7 +24,7 @@
         <div class="box">
           <p>Box </p>
         </div>
-        <div class="notification content is-primary">
+        <div class="box content is-light">
           <p>Box is a simple content container with padding and colors. Corners can be adjusted with <strong>$box-radius</strong> variable.</p>
         </div>
       </div>
@@ -59,7 +59,7 @@
             </nav>
           </div>
         </article>
-        <div class="notification content is-primary">
+        <div class="box content is-light">
           <p>Media is a simple media container.</p>
         </div>
       </div>
@@ -143,11 +143,11 @@
             <i class="ics icon-tags"></i> <a>Featured</a>, <a>Web Dev.</a><br>
           </div>
         </div>
-        <div class="notification content is-primary">
+        <div class="box content is-light">
           <p>Mod is a versitile content container aimed at providing a lot of information in a compact space. It features a tabbed content area with tooltip style rollovers on the buttons. </p>
           <p>It uses jQuery to switch the tabs and needs a unique id(#) for the tabs wrapper (.mod-tabbed) for the buttons to work.  In Wordpress for example I use <code>the_ID();</code></p>
           <p>Check out more examples @codepen.</p>
-          <div class="block"> <a class="button is-primary is-inverted" href="http://codepen.io/tekfunk/pen/LZVvxR" target="_blank"><i class="ics icon-codepen"></i>Audio Mod</a> </div>
+          <div class="block"> <a class="button is-primary" href="http://codepen.io/tekfunk/pen/LZVvxR" target="_blank"><i class="ics icon-codepen"></i>Audio Mod</a> </div>
         </div>
       </div>
       <div class="column">

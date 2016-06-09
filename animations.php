@@ -55,10 +55,10 @@
     </div>
     <div class="columns is-stacked">
       <div class="column is-1-2">
-        <div class="notification is-primary">
+        <div class="box content is-light">
           <p>Here are some loading animations available. Working on having all of these single div.</p>
         </div>
-        <div class="notification is-primary">
+        <div class="box content is-light">
           <p>Use .loading for a fullwindow loader that uses jQuery to fade out once everything is loaded. You can assign the standard colors to it. Inside of it, choose your animation.</p>
         </div>
       </div>
@@ -81,15 +81,16 @@ $(document).ready(function(){ $(&quot;.loading&quot;).delay(100).fadeOut('fast')
   <div class="container">
     <h1>Progress Bars</h1>
     <hr>
-    <div class="content">Coming Soon.</div>
+    <div class="box content is-light">Coming Soon.</div>
   </div>
 </section>
 <section class="section" id="animate">
   <div class="container">
     <h1><a href="http://daneden.github.io/animate.css/" target="_blank">animate.css</a></h1>
-    <h3>by Daniel Eden</h3>
+    <h3>by Daniel Eden</h3><hr>
+    <div class="box content is-light">
     <h4><strong>.animated</strong> auto animates <strong>.hoover</strong> animates on hover <strong>.infinite</strong> loops the animation</h4>
-    <hr>
+    </div> 
     <div class="columns is-stacked">
       <div class="column is-1-5">
         <h1 class="hoover bounce">bounce</h1>

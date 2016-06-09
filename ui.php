@@ -22,9 +22,9 @@
     <div class="columns">
       <div class="column">
         <div class="media block to-edges"> <a class="button">Button</a> <a class="button is-white">White</a> <a class="button is-light">Light</a> <a class="button is-dark">Dark</a> <a class="button is-black">Black</a> <a class="button is-link">Link</a> </div>
-        <div class="media block to-edges"> <a class="button is-primary">Primary</a> <a class="button is-secondary">Secondary</a> <a class="button is-accent">Accent</a> <a class="button is-success">Success</a> <a class="button is-alert">Alert</a> </div>
+        <div class="media block to-edges"> <a class="button is-primary">Primary</a> <a class="button is-red">Red</a> <a class="button is-accent">Accent</a> <a class="button is-success">Success</a> <a class="button is-alert">Alert</a> </div>
         <div class="content">
-          <div class="notification is-primary">
+          <div class="box content is-light">
             <p>To create a button, add <strong>.button</strong>.</p>
             <p>Colors can be assigned with <strong>.is-white</strong>(etc) from the choices in the code box. </p>
             <p>Corners can be adjusted with <strong>$box-radius</strong> variable.</p>
@@ -41,7 +41,7 @@
 &lt;a class=&quot;button is-black&quot;&gt;Black&lt;/a&gt;
 &lt;a class=&quot;button is-link&quot;&gt;Link&lt;/a&gt;
 &lt;a class=&quot;button is-primary&quot;&gt;Primary&lt;/a&gt;
-&lt;a class=&quot;button is-secondary&quot;&gt;Secondary&lt;/a&gt;
+&lt;a class=&quot;button is-red&quot;&gt;Red&lt;/a&gt;
 &lt;a class=&quot;button is-accent&quot;&gt;Accent&lt;/a&gt;
 &lt;a class=&quot;button is-success&quot;&gt;Success&lt;/a&gt;
 &lt;a class=&quot;button is-alert&quot;&gt;Alert&lt;/a&gt;
@@ -56,7 +56,7 @@
         <div class="media block to-edges"> <a class="button"><i class="ics icon-rollthe"></i>Throw Dice</a> <a class="button is-primary"><i class="ics icon-headphones"></i>Listen</a> <a class="button is-secondary is-outlined"><i class="ics icon-lightbulb"></i>Get Ideas</a> <a class="button is-success"><i class="ics icon-circlecheck"></i>OK</a> </div>
         <div class="media block to-edges"> <a class="button is-small">Small</a> <a class="button">Normal</a> <a class="button is-medium">Medium</a> <a class="button is-large">Large</a> </div>
         <div class="content">
-          <div class="notification is-primary">
+          <div class="box content is-light">
             <p><a href="art.php">Available icons</a> can be added with <strong>&lt;i class=&quot;ics icon-$name&quot;&gt;&lt;/i&gt;</strong></p>
             <p>Other Sizes can be assigned with <strong>.is-small</strong>, .<strong>is-medium</strong>, .<strong>is-large</strong>.</p>
           </div>
@@ -87,7 +87,7 @@
        
         <div class="block"> <a class="button is-disabled">Disabled</a> <a class="button is-primary is-disabled">Disabled</a> <a class="button is-accent is-disabled">Disabled</a> <a class="button is-success is-disabled">Disabled</a> <a class="button is-alert is-disabled">Disabled</a> <a class="button is-secondary is-disabled">Disabled</a> </div>
         <div class="content">
-          <div class="notification is-primary">
+          <div class="box content is-light">
             <p>These variations are avaiable for buttons:</p>
             <p><strong>.is-inverted</strong> <strong>.is-outlined</strong> <strong>.is-disabled</strong></p>
           </div>
@@ -113,7 +113,7 @@
           <p class="control has-addons"><a class="button"><span>Left</span></a> <a class="button"> <span>Center</span></a> <a class="button"> <span>Right</span></a></p>
         </div>
         <div class="content">
-          <div class="notification is-primary">
+          <div class="box content is-light">
             <p>If you want to group buttons, use <strong>.is-grouped</strong> on <strong>.control</strong>.</p>
             <p>If you want to use buttons as addons, use <strong>.has-addons</strong> on <strong>.control</strong>.</p>
           </div>
@@ -165,7 +165,7 @@
  <hr>
 <div class="columns">
   <div class="column is-1-2">
-     <div class="notification is-primary content">
+     <div class="box content is-light content">
       <p> Nav can have 3 parts, <strong>.nav-left, .nav-center, & .nav-right</strong></p>
       <p>Use <strong>.nav-toggle</strong> for the hamburger menu on mobile</p>
       <p>Use <strong>.nav-menu</strong> for menu that is collapsable on mobile (you can combine it with <strong>.nav-right</strong>)</p>

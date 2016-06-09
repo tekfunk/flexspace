@@ -10,7 +10,7 @@
     </div>
     <div class="hero-foot">
       <div class="container">
-        <div class="block has-text-centered"> <a class="button is-primary" href="#palette">palette</a><a class="button is-primary" href="#icons">icons</a> <a class="button is-primary" href="#backgrounds">backgrounds</a> </div>
+        <div class="block has-text-centered"> <a class="button is-primary" href="#palette">palette</a><a class="button is-primary is-disabled" href="#logos">logos</a><a class="button is-primary" href="#icons">icons</a> <a class="button is-primary" href="#backgrounds">backgrounds</a> </div>
       </div>
     </div>
   </div>
@@ -19,7 +19,7 @@
   <div class="container">
     <h1>Palette</h1>
     <hr>
-    <div class="notification content">
+    <div class="box content is-light">
       <p>These are the colors that get mapped out to buttons, hero, notifications, etc. They can be changed in <strong>variables.scss</strong></p>
     </div>
     <div class="columns is-gapless is-stacked">
@@ -35,12 +35,12 @@
       </div>
       <div class="column is-1-4">
         <div class="mod">
-          <div class="notification is-accent">is-accent </div>
+          <div class="notification is-pastel">is-pastel </div>
         </div>
       </div>
       <div class="column is-1-4">
         <div class="mod">
-          <div class="notification is-pastel">is-pastel </div>
+          <div class="notification is-accent">is-accent </div>
         </div>
       </div>
       <div class="column is-1-3">
@@ -81,11 +81,18 @@
     </div>
   </div>
 </section>
+<section class="section" id="logos">
+  <div class="container">
+    <h1>Logos</h1>
+    <hr>
+    <div class="box content is-light">Coming Soon.</div>
+  </div>
+</section>
 <section class="section" id="icons">
   <div class="container">
     <h1>Icons</h1>
     <hr>
-    <div class="notification content">
+    <div class="box content is-light">
       <p>Icons are font based and built using <a href="https://icomoon.io/app">icomoon. </a>Use <strong>&lt;i class=&quot;ics icon-$name&quot;&gt;&lt;/i&gt;</strong></p>
       <p>Currently it's a custom set I put together for casadereyes.net, but I will be updating soon with more (like more standard social icons). </p>
     </div>
@@ -807,7 +814,7 @@
   <div class="container">
     <h1>Backgrounds</h1>
     <hr>
-    <div class="notification content">
+    <div class="box content is-light">
       <p>In variables.scss you can assign background images and patterns to use. SVG, JPG, PNG, & GIF all work.  With the exception of has-bkd-pattern, they are all centered and set to cover the div.</p>
     </div>
     <h3>Hero</h3>
