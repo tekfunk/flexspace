@@ -10,7 +10,7 @@
     </div>
     <div class="hero-foot">
       <div class="container">
-        <div class="block has-text-centered"> <a class="button is-primary" href="#layout">layout</a><a class="button is-primary" href="#container">container</a> <a class="button is-primary" href="#hero">hero</a>  <a class="button is-primary" href="#images">images</a> <a class="button is-primary" href="#helpers">helpers</a> <a class="button is-primary" href="#display">display</a> </div>
+        <div class="block has-text-centered"> <a class="button is-primary" href="#layout">layout</a><a class="button is-primary" href="#container">container</a> <a class="button is-primary" href="#sizes">sizes</a> <a class="button is-primary" href="#hero">hero</a> <a class="button is-primary" href="#helpers">helpers</a> <a class="button is-primary" href="#display">display</a> </div>
       </div>
     </div>
   </div>
@@ -22,7 +22,7 @@
     <div class="columns">
       <div class="column is-1-2">
         <div class="box content is-light">
-          <p>Basic page structure.</p>
+          <p>Basic page structure. This will be an HTML template.</p>
         </div>
       </div>
       <div class="column is-1-2">
@@ -41,18 +41,111 @@
   </div>
 </section>
 <section class="section" id="container">
+<div class="container">
+	  <h1>Container</h1>
+</div>
+  <hr>
   <div class="container">
-    <h1>Container</h1>
-    <hr>
- <div class="box content is-light">    <p>Inside &lt;header&gt;&lt;/header&gt;, &lt;section&gt;&lt;/section&gt;, &lt;footer&gt;&lt;/footer&gt;.</p></div>
+    <div class="box is-alert" style="margin-bottom: 20px;">.container</div>
+  </div>
+  <div class="container is-fluid" style="margin-bottom: 20px;">
+    <div class="box is-success">.container.is-fluid</div>
+  </div>
+  <div class="container">
+    <div class="columns">
+      <div class="column is-1-2">
+        <div class="box content is-light">
+          <p>Use <code class="code-blk">.container</code> inside &lt;header&gt;&lt;/header&gt;, &lt;section&gt;&lt;/section&gt;, &lt;footer&gt;&lt;/footer&gt; to wrap and center content. <code class="code-blk">.is-fluid</code> has 20px left and right margins. </p>
+        </div>
+      </div>
+      <div class="column is-1-2">
+        <div class="box">
+          <pre><code id="g1" class="html hljs xml">  &lt;div class=&quot;container&quot;&gt;<br />    &lt;div class=&quot;box is-alert&quot;&gt;.container&lt;/div&gt;<br />  &lt;/div&gt;<br />  &lt;div class=&quot;container is-fluid&quot;&gt;<br />    &lt;div class=&quot;box is-success&quot;&gt;.container.is-fluid&lt;/div&gt;<br />  &lt;/div&gt;</code>
+</pre>
+          <a class="button icon-clipboard" data-clipboard-target="#g1"></a> </div>
+      </div>
+
+    </div>
   </div>
 </section>
-<section class="hero">
+<section class="section" id="sizes">
   <div class="container">
-    <div class="notification has-border">&lt;div class="container"&gt;&lt;/div&gt;</div>
-  </div>
-  <div class="container is-fluid style="margin-bottom: 5px;"">
-    <div class="notification has-border">&lt;div class="container is-fluid"&gt;&lt;/div&gt;</div>
+    <h1>Sizes</h1>
+    <hr>
+    <h3>Squares</h3>
+    <div class="columns">
+      <div class="column is-1-2">
+        <div class="columns to-edges">
+          <div class="column is-1-4">
+            <div class="square is-16x16 box is-accent">16</div>
+            <div class="square is-32x32 box is-accent">32</div>
+            <div class="square is-48x48 box is-accent">48</div>
+            <div class="square is-64x64 box is-accent">64</div>
+          </div>
+          <div class="column is-1-4">
+            <div class="square is-96x96 box is-accent">96</div>
+            <div class="square is-128x128 box is-accent">128</div>
+          </div>
+          <div class="column is-1-2">
+            <div class="square is-256x256 box is-accent" style="float: right;">256</div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-1-2">
+        <div class="box">
+          <pre><code id="g1" class="html hljs xml">&lt;div class=&quot;square is-16x16 box is-accent&quot;&gt;16&lt;/div&gt;<br />&lt;div class=&quot;square is-32x32 box is-accent&quot;&gt;32&lt;/div&gt;<br />&lt;div class=&quot;square is-48x48 box is-accent&quot;&gt;48&lt;/div&gt;<br />&lt;div class=&quot;square is-64x64 box is-accent&quot;&gt;64&lt;/div&gt;<br />&lt;div class=&quot;square is-96x96 box is-accent&quot;&gt;96&lt;/div&gt;<br />&lt;div class=&quot;square is-128x128 box is-accent&quot;&gt;128&lt;/div&gt;<br />&lt;div class=&quot;square is-256x256 box is-accent&quot;&gt;256&lt;/div&gt;&gt;</code>
+</pre>
+          <a class="button icon-clipboard" data-clipboard-target="#g1"></a> </div>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column is-1-2">
+        <div class="box content is-light">
+          <p>Use <code class="code-blk">.square</code> to make a square, and <code class="code-blk">.is-16x16</code> to set a size</p>
+          <p>This is useful for avatars and thumbnails.</a></p>
+        </div>
+      </div>
+    </div>
+    <h3>Ratios</h3>
+    <div class="columns align-center">
+      <div class="column">
+        <div class="ratio is-1by2 box is-accent">1by2</div>
+      </div>
+      <div class="column">
+        <div class="ratio is-3by4 box is-accent">3by4</div>
+      </div>
+      <div class="column">
+        <div class="ratio is-1by1 box is-accent">1by1</div>
+      </div>
+      <div class="column">
+        <div class="ratio is-4by3 box is-accent">4by3</div>
+      </div>
+    </div>
+     <div class="columns align-center">
+      <div class="column">
+        <div class="ratio is-3by2 box is-accent">3by2</div>
+      </div>
+      <div class="column">
+        <div class="ratio is-16by9 box is-accent">16by9</div>
+      </div>
+      <div class="column">
+        <div class="ratio is-2by1 box is-accent">2by1</div>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column is-1-2">
+        <div class="box content is-light">
+          <p>Use <code class="code-blk">.ratio</code> to make a box with height based on a ratio like <code class="code-blk">.is-1by2</code> </p>
+          <p>This is useful for images.</a></p>
+        </div>
+      </div>
+      <div class="column is-1-2">
+        <div class="box">
+          <pre><code id="g1" class="html hljs xml">&lt;div class=&quot;ratio is-1by2 box is-accent&quot;&gt;is-1by2&lt;/div&gt;<br />&lt;div class=&quot;ratio is-3by4 box is-accent&quot;&gt;is-3by4&lt;/div&gt;<br />&lt;div class=&quot;ratio is-1by1 box is-accent&quot;&gt;is-1by1&lt;/div&gt;<br />&lt;div class=&quot;ratio is-4by3 box is-accent&quot;&gt;is-4by3&lt;/div&gt;<br />&lt;div class=&quot;ratio is-3by2 box is-accent&quot;&gt;is-3by2&lt;/div&gt;<br />&lt;div class=&quot;ratio is-16by9 box is-accent&quot;&gt;is-16by9&lt;/div&gt;<br />&lt;div class=&quot;ratio is-2by1 box is-accent&quot;&gt;is-2by1&lt;/div&gt;</code>
+</pre>
+          <a class="button icon-clipboard" data-clipboard-target="#g1"></a> </div>
+      </div>
+    </div>
   </div>
 </section>
 <section class="section">
@@ -148,139 +241,6 @@
           <a class="button icon-clipboard" data-clipboard-target="#hero-3"></a> </div>
       </div>
     </div>
-  </div>
-</section>
-<section class="section" id="images">
-  <div class="container">
-    <h1>Images</h1>
-    <hr>
-    <h3>Squares</h3>
-    <div class="columns">
-      <div class="column">
-        <div class="mod">
-          <div class="mod-image">
-            <figure class="image is-16x16 is-center"><img src="art/dragotar.svg"></figure>
-          </div>
-          <div class="mod-content">
-            <figure><code>&lt;figure class=&quot;image is-16x16&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure>
-          </div>
-        </div>
-      </div>
-      <div class="column">
-        <div class="mod">
-          <div class="mod-image">
-            <figure class="image is-24x24"><img src="art/dragotar.svg"></figure>
-          </div>
-          <div class="mod-content">
-            <figure><code>&lt;figure class=&quot;image is-16x16&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure>
-          </div>
-        </div>
-      </div>
-      <div class="column">
-        <div class="mod">
-          <div class="mod-image">
-            <figure class="image is-32x32"><img src="art/dragotar.svg"></figure>
-          </div>
-          <div class="mod-content">
-            <figure><code>&lt;figure class=&quot;image is-32x32&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure>
-          </div>
-        </div>
-      </div>
-      <div class="column">
-        <div class="mod">
-          <div class="mod-image">
-            <figure class="image is-48x48"><img src="art/dragotar.svg"></figure>
-          </div>
-          <div class="mod-content">
-            <figure><code>&lt;figure class=&quot;image is-48x48&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure>
-          </div>
-        </div>
-      </div>
-      <div class="column">
-        <div class="mod">
-          <div class="mod-image">
-            <figure class="image is-64x64"><img src="art/dragotar.svg"></figure>
-          </div>
-          <div class="mod-content">
-            <figure><code>&lt;figure class=&quot;image is-64x64&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure>
-          </div>
-        </div>
-      </div>
-      <div class="column">
-        <div class="mod">
-          <div class="mod-image">
-            <figure class="image is-128x128"><img src="art/dragotar.svg"></figure>
-          </div>
-          <div class="mod-content">
-            <figure><code>&lt;figure class=&quot;image is-128x128&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure>
-          </div>
-        </div>
-      </div>
-    </div>
-    <h3>Ratios</h3>
-    <div class="columns">
-      <div class="column">
-        <div class="mod">
-          <div class="mod-image">
-            <figure class="image is-square"><img src="images/DSCN0703_1x1.jpg"></figure>
-          </div>
-          <div class="mod-content">
-            <figure><code>image is-square</code></figure>
-          </div>
-        </div>
-      </div>
-      <div class="column">
-        <div class="mod">
-          <div class="mod-image">
-            <figure class="image is-1by1"><img src="images/DSCN0703_1x1.jpg"></figure>
-          </div>
-          <div class="mod-content">
-            <figure><code>&lt;figure class=&quot;image is-1by1&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure>
-          </div>
-        </div>
-      </div>
-      <div class="column">
-        <div class="mod">
-          <div class="mod-image">
-            <figure class="image is-4by3"><img src="images/DSCN0703_4x3.jpg"></figure>
-          </div>
-          <div class="mod-content">
-            <figure><code>&lt;figure class=&quot;image is-4by3&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure>
-          </div>
-        </div>
-      </div>
-      <div class="column">
-        <div class="mod">
-          <div class="mod-image">
-            <figure class="image is-3by2"><img src="images/DSCN0703_3x2.jpg"></figure>
-          </div>
-          <div class="mod-content">
-            <figure><code>&lt;figure class=&quot;image is-3by2&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure>
-          </div>
-        </div>
-      </div>
-      <div class="column">
-        <div class="mod">
-          <div class="mod-image">
-            <figure class="image is-16by9"><img src="images/DSCN0703_16x9.jpg"></figure>
-          </div>
-          <div class="mod-content">
-            <figure><code>&lt;figure class=&quot;image is-6by9&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure>
-          </div>
-        </div>
-      </div>
-      <div class="column is-2">
-        <div class="mod">
-          <div class="mod-image">
-            <figure class="image is-2by1"><img src="images/DSCN0703_2x1.jpg"></figure>
-          </div>
-          <div class="mod-content">
-            <figure><code>&lt;figure class=&quot;image is-2by1&quot;&gt;&lt;img src&gt;&lt;/figure&gt;</code></figure>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="content"></div>
   </div>
 </section>
 <section class="section" id="helpers">

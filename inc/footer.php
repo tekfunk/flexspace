@@ -2,7 +2,7 @@
   <h1><a href="/index.php"><img src="../art/flexspace-logo-lrg-white.svg" width="120"></a></h1>
   <div class="columns">
     <div class="column is-1-8">
-      <div class="block"> <a class="button is-fullwidth is-primary is-inverted" href="/page.php">page</a> <a class="button is-primary" href="/page.php#layout">layout</a><a class="button is-primary" href="/page.php#container">container</a> <a class="button is-primary" href="/page.php#hero">hero</a> <a class="button is-primary" href="/page.php#images">images</a> <a class="button is-primary" href="/page.php#helpers">helpers</a> <a class="button is-primary" href="/page.php#display">display</a> </div>
+      <div class="block"> <a class="button is-fullwidth is-primary is-inverted" href="/page.php">page</a> <a class="button is-primary" href="/page.php#layout">layout</a><a class="button is-primary" href="/page.php#container">container</a> <a class="button is-primary" href="/page.php#sizes">sizes</a><a class="button is-primary" href="/page.php#hero">hero</a>  <a class="button is-primary" href="/page.php#helpers">helpers</a> <a class="button is-primary" href="/page.php#display">display</a> </div>
     </div>
     <div class="column is-1-8">
       <div class="block"> <a class="button is-fullwidth is-primary is-inverted" href="/copy.php">copy</a> <a class="button is-primary" href="/copy.php#content">content</a> <a class="button is-primary" href="/copy.php#badges">badges</a> <a class="button is-primary" href="/copy.php#burst">burst</a> <a class="button is-primary" href="/copy.php#messages">messages</a> <a class="button is-primary" href="/copy.php#notifications">notifications</a> <a class="button is-primary" href="/copy.php#code">code</a> </div>

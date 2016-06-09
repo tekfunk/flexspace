@@ -25,7 +25,7 @@
             <article class="tile is-child notification is-accent">
               <p>Middle tile</p>
               <p>With an image</p>
-              <figure class="image is-4by3"><img src="http://placehold.it/640x480"></figure>
+              <figure class="ratio is-4by3"><img src="http://placehold.it/640x480"></figure>
             </article>
           </div>
         </div>
@@ -190,7 +190,7 @@
             <article class="tile is-child box">
               <p>Middle box</p>
               <p>With an image</p>
-              <figure class="image is-4by3"><img src="http://placehold.it/640x480"></figure>
+              <figure class="ratio is-4by3"><img src="http://placehold.it/640x480"></figure>
             </article>
           </div>
         </div>
@@ -260,7 +260,7 @@
             <article class="tile is-child box">
               <p>Middle box</p>
               <p>With an image</p>
-              <figure class="image is-4by3"><img src="http://placehold.it/640x480"></figure>
+              <figure class="ratio is-4by3"><img src="http://placehold.it/640x480"></figure>
             </article>
           </div>
         </div>

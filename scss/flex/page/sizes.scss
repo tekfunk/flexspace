@@ -1,6 +1,6 @@
-$dimensions: 16 24 32 48 64 96 128;
 
-.image {
+
+.ratio {
   display: block;
   position: relative;
 
@@ -9,7 +9,8 @@ $dimensions: 16 24 32 48 64 96 128;
   }
 
   // Ratio
-  &.is-square,
+  &.is-1by2,
+  &.is-3by4,
   &.is-1by1,
   &.is-4by3,
   &.is-3by2,
@@ -23,7 +24,14 @@ $dimensions: 16 24 32 48 64 96 128;
     }
   }
 
-  &.is-square,
+  &.is-1by2 {
+    padding-top: 200%;
+  }
+
+  &.is-3by4 {
+    padding-top: 150%;
+  }
+
   &.is-1by1 {
     padding-top: 100%;
   }
@@ -42,6 +50,18 @@ $dimensions: 16 24 32 48 64 96 128;
 
   &.is-2by1 {
     padding-top: 50%;
+  }
+
+}
+
+$dimensions: 16 24 32 48 64 96 128 256;
+
+.square {
+  display: block;
+  position: relative;
+
+  img {
+    display: block;
   }
 
   // Sizes

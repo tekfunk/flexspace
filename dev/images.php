@@ -7,7 +7,7 @@
     </div>
 
     <div class="example">
-      <figure class="image is-128x128">
+      <figure class="ratio is-128x128">
         <img src="http://placehold.it/128x128">
       </figure>
     </div>
@@ -24,37 +24,37 @@
       <tbody>
         <tr>
           <td><code>image is-16x16</code></td>
-          <td><figure class="image is-16x16"><img src="http://placehold.it/16x16"></figure></td>
+          <td><figure class="ratio is-16x16"><img src="http://placehold.it/16x16"></figure></td>
           <td>16x16px</td>
         </tr>
         <tr>
           <td><code>image is-24x24</code></td>
-          <td><figure class="image is-24x24"><img src="http://placehold.it/24x24"></figure></td>
+          <td><figure class="ratio is-24x24"><img src="http://placehold.it/24x24"></figure></td>
           <td>24x24px</td>
         </tr>
         <tr>
           <td><code>image is-32x32</code></td>
-          <td><figure class="image is-32x32"><img src="http://placehold.it/32x32"></figure></td>
+          <td><figure class="ratio is-32x32"><img src="http://placehold.it/32x32"></figure></td>
           <td>32x32px</td>
         </tr>
         <tr>
           <td><code>image is-48x48</code></td>
-          <td><figure class="image is-48x48"><img src="http://placehold.it/48x48"></figure></td>
+          <td><figure class="ratio is-48x48"><img src="http://placehold.it/48x48"></figure></td>
           <td>48x48px</td>
         </tr>
         <tr>
           <td><code>image is-64x64</code></td>
-          <td><figure class="image is-64x64"><img src="http://placehold.it/64x64"></figure></td>
+          <td><figure class="ratio is-64x64"><img src="http://placehold.it/64x64"></figure></td>
           <td>64x64px</td>
         </tr>
         <tr>
           <td><code>image is-96x96</code></td>
-          <td><figure class="image is-96x96"><img src="http://placehold.it/96x96"></figure></td>
+          <td><figure class="ratio is-96x96"><img src="http://placehold.it/96x96"></figure></td>
           <td>96x96px</td>
         </tr>
         <tr>
           <td><code>image is-128x128</code></td>
-          <td><figure class="image is-128x128"><img src="http://placehold.it/128x128"></figure></td>
+          <td><figure class="ratio is-128x128"><img src="http://placehold.it/128x128"></figure></td>
           <td>128x128px</td>
         </tr>
       </tbody>
@@ -67,7 +67,7 @@
     </div>
 
     <div class="example">
-      <figure class="image is-128x128">
+      <figure class="ratio is-128x128">
         <img src="http://placehold.it/256x256">
       </figure>
     </div>
@@ -85,32 +85,32 @@
       <tbody>
         <tr>
           <td><code>image is-square</code></td>
-          <td><figure class="image is-square"><img src="http://placehold.it/480x480"></figure></td>
+          <td><figure class="ratio is-square"><img src="http://placehold.it/480x480"></figure></td>
           <td>Square (or 1by1)</td>
         </tr>
         <tr>
           <td><code>image is-1by1</code></td>
-          <td><figure class="image is-1by1"><img src="http://placehold.it/480x480"></figure></td>
+          <td><figure class="ratio is-1by1"><img src="http://placehold.it/480x480"></figure></td>
           <td>1 by 1</td>
         </tr>
         <tr>
           <td><code>image is-4by3</code></td>
-          <td><figure class="image is-4by3"><img src="http://placehold.it/640x480"></figure></td>
+          <td><figure class="ratio is-4by3"><img src="http://placehold.it/640x480"></figure></td>
           <td>4 by 3</td>
         </tr>
         <tr>
           <td><code>image is-3by2</code></td>
-          <td><figure class="image is-3by2"><img src="http://placehold.it/480x320"></figure></td>
+          <td><figure class="ratio is-3by2"><img src="http://placehold.it/480x320"></figure></td>
           <td>3 by 2</td>
         </tr>
         <tr>
           <td><code>image is-16by9</code></td>
-          <td><figure class="image is-16by9"><img src="http://placehold.it/640x360"></figure></td>
+          <td><figure class="ratio is-16by9"><img src="http://placehold.it/640x360"></figure></td>
           <td>16 by 9</td>
         </tr>
         <tr>
           <td><code>image is-2by1</code></td>
-          <td><figure class="image is-2by1"><img src="http://placehold.it/640x320"></figure></td>
+          <td><figure class="ratio is-2by1"><img src="http://placehold.it/640x320"></figure></td>
           <td>2 by 1</td>
         </tr>
       </tbody>

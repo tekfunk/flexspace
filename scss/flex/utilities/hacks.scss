@@ -164,8 +164,9 @@
 .code-red { background-color: #36151a; color: #f0f0f0; width: 100%; text-align: center; font-size: 12px; font-weight: bold; padding: .5em;}
 
 .button .icon:last-child {margin: 0;}
-.to-edges { justify-content: space-between; }
+.to-edges { flex-direction: row; flex-wrap: nowrap; justify-content: space-between; }
 .items-centered { justify-content: space-around; }
+.align-center{align-items:center;}
 
 .purple { background-color: #321536; }
 .red { background-color: #36151a; }
@@ -225,4 +226,13 @@ h2 {color: #2957a6}
 .content .is-primary a { color:#ffffff;}
 
 
+//** FOR flexspace.casadereyes.net
 
+.square.box,  {
+	padding: 0;
+}
+.ratio.box,  {
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+}

@@ -2978,17 +2978,18 @@ a.box:active {
     right: 8px;
     top: 8px; }
 
-.image {
+.ratio {
   display: block;
   position: relative; }
-  .image img {
+  .ratio img {
     display: block; }
-  .image.is-square img,
-  .image.is-1by1 img,
-  .image.is-4by3 img,
-  .image.is-3by2 img,
-  .image.is-16by9 img,
-  .image.is-2by1 img {
+  .ratio.is-1by2 img,
+  .ratio.is-3by4 img,
+  .ratio.is-1by1 img,
+  .ratio.is-4by3 img,
+  .ratio.is-3by2 img,
+  .ratio.is-16by9 img,
+  .ratio.is-2by1 img {
     bottom: 0;
     left: 0;
     position: absolute;
@@ -2996,38 +2997,50 @@ a.box:active {
     top: 0;
     height: 100%;
     width: 100%; }
-  .image.is-square,
-  .image.is-1by1 {
+  .ratio.is-1by2 {
+    padding-top: 200%; }
+  .ratio.is-3by4 {
+    padding-top: 150%; }
+  .ratio.is-1by1 {
     padding-top: 100%; }
-  .image.is-4by3 {
+  .ratio.is-4by3 {
     padding-top: 75%; }
-  .image.is-3by2 {
+  .ratio.is-3by2 {
     padding-top: 66.6666%; }
-  .image.is-16by9 {
+  .ratio.is-16by9 {
     padding-top: 56.25%; }
-  .image.is-2by1 {
+  .ratio.is-2by1 {
     padding-top: 50%; }
-  .image.is-16x16 {
+
+.square {
+  display: block;
+  position: relative; }
+  .square img {
+    display: block; }
+  .square.is-16x16 {
     height: 16px;
     width: 16px; }
-  .image.is-24x24 {
+  .square.is-24x24 {
     height: 24px;
     width: 24px; }
-  .image.is-32x32 {
+  .square.is-32x32 {
     height: 32px;
     width: 32px; }
-  .image.is-48x48 {
+  .square.is-48x48 {
     height: 48px;
     width: 48px; }
-  .image.is-64x64 {
+  .square.is-64x64 {
     height: 64px;
     width: 64px; }
-  .image.is-96x96 {
+  .square.is-96x96 {
     height: 96px;
     width: 96px; }
-  .image.is-128x128 {
+  .square.is-128x128 {
     height: 128px;
     width: 128px; }
+  .square.is-256x256 {
+    height: 256px;
+    width: 256px; }
 
 .notification {
   background: #ffffff;
@@ -5647,10 +5660,15 @@ a.panel-block:hover {
   margin: 0; }
 
 .to-edges {
+  flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: space-between; }
 
 .items-centered {
   justify-content: space-around; }
+
+.align-center {
+  align-items: center; }
 
 .purple {
   background-color: #321536; }
@@ -5755,6 +5773,14 @@ h2 {
 
 .content .is-primary a {
   color: #ffffff; }
+
+.square.box {
+  padding: 0; }
+
+.ratio.box {
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0; }
 
 .badge {
   align-items: center;

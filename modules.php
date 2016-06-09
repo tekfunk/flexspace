@@ -47,7 +47,7 @@
       <div class="column is-1-2">
         <article class="media box">
           <figure class="media-left structure-item" title="media-left">
-            <p class="image is-64x64"> <img src="../images/twenty-fourteen.jpg"> </p>
+            <p class="square is-64x64"> <img src="../images/twenty-fourteen.jpg"> </p>
           </figure>
           <div class="media-content structure-item is-structure-right" title="media-content">
             <div class="content">
@@ -65,7 +65,7 @@
       </div>
       <div class="column is-1-2">
         <div class="box">
-          <pre><code id="mod-media" class="language-html" data-lang="html">&lt;article class=&quot;media&quot;&gt;<br />  &lt;figure class=&quot;media-left structure-item&quot; title=&quot;media-left&quot;&gt;<br />    &lt;p class=&quot;image is-64x64&quot;&gt; &lt;img src=&quot;&quot;&gt; &lt;/p&gt;<br />  &lt;/figure&gt;<br />  &lt;div class=&quot;media-content structure-item is-structure-right&quot; title=&quot;media-content&quot;&gt;
+          <pre><code id="mod-media" class="language-html" data-lang="html">&lt;article class=&quot;media&quot;&gt;<br />  &lt;figure class=&quot;media-left structure-item&quot; title=&quot;media-left&quot;&gt;<br />    &lt;p class=&quot;square is-64x64&quot;&gt; &lt;img src=&quot;&quot;&gt; &lt;/p&gt;<br />  &lt;/figure&gt;<br />  &lt;div class=&quot;media-content structure-item is-structure-right&quot; title=&quot;media-content&quot;&gt;
     &lt;div class=&quot;content&quot;&gt;<br />      &lt;p&gt;&lt;strong&gt;&lt;/strong&gt; &lt;small&gt;&lt;/small&gt;&lt;br&gt; &lt;small&gt;&lt;/small&gt;&lt;/p&gt;<br />    &lt;/div&gt;<br />    &lt;nav class=&quot;level&quot;&gt;<br />      &lt;div class=&quot;level-left&quot;&gt; 
         &lt;a class=&quot;level-item&quot;&gt;&lt;span class=&quot;icon is-small&quot;&gt;&lt;i class=&quot;ics icon-headphones&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/a&gt;        
         &lt;a class=&quot;level-item&quot;&gt;&lt;span class=&quot;icon is-small&quot;&gt;&lt;i class=&quot;ics icon-link&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/a&gt; 
@@ -93,7 +93,7 @@
           <div class="mod-tabbed" id="post-3061">
             <div id="mod-tab-1" class="mod-tabs is-active">
               <div class="mod-image">
-                <div class="image is-6by9"><img width="1200" height="600" src="http://media.casadereyes.net/2016/05/flexspace-splash.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Flexspace Splash"></div>
+                <div class="ratio is-6by9"><img width="1200" height="600" src="http://media.casadereyes.net/2016/05/flexspace-splash.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Flexspace Splash"></div>
               </div>
             </div>
             <div id="mod-tab-2" class="mod-tabs">
