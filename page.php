@@ -76,17 +76,17 @@
     <div class="columns">
       <div class="column is-1-2">
         <div class="columns to-edges">
-          <div class="column is-1-4">
+          <div class="column is-1-8">
             <div class="square is-16x16 box is-accent">16</div>
             <div class="square is-32x32 box is-accent">32</div>
             <div class="square is-48x48 box is-accent">48</div>
             <div class="square is-64x64 box is-accent">64</div>
           </div>
-          <div class="column is-1-4">
+          <div class="column is-1-5">
             <div class="square is-96x96 box is-accent">96</div>
             <div class="square is-128x128 box is-accent">128</div>
           </div>
-          <div class="column is-1-2">
+          <div class="column is-3-5">
             <div class="square is-256x256 box is-accent" style="float: right;">256</div>
           </div>
         </div>

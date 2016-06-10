@@ -10,7 +10,7 @@
     </div>
     <div class="hero-foot">
       <div class="container">
-        <div class="block has-text-centered"> <a class="button is-primary is-active" href="#columns">columns</a> <a class="button is-primary" href="#sizing">sizing</a> <a class="button is-primary" href="#isotope">isotope</a> <a class="button is-primary" href="#tables">tables</a> </div>
+        <div class="block has-text-centered"> <a class="button is-primary is-active" href="#columns">columns</a> <a class="button is-primary" href="#sizing">sizing</a> <a class="button is-primary" href="#flexbox">flexbox</a> <a class="button is-primary" href="#isotope">isotope</a> <a class="button is-primary" href="#tables">tables</a> </div>
       </div>
     </div>
   </div>
@@ -76,31 +76,31 @@
     <div class="container" id="da-grid">
       <div class="columns">
         <div class="column is-full">
-        <div class="notification is-alert">.is-full</div>
+          <div class="notification is-alert">.is-full</div>
         </div>
       </div>
       <div class="columns">
         <div class="column is-1-2">
-        <div class="notification is-alert">.is-1-2</div>
+          <div class="notification is-alert">.is-1-2</div>
         </div>
         <div class="column is-1-4 is-offset-1-8">
-        <div class="notification is-alert">.is-1-4 .is-offset-1-8</div>
+          <div class="notification is-alert">.is-1-4 .is-offset-1-8</div>
         </div>
       </div>
       <div class="columns">
         <div class="column is-9-10">
-        <div class="notification is-alert">.is-9-10</div>
+          <div class="notification is-alert">.is-9-10</div>
         </div>
         <div class="column is-1-10">
-        <div class="notification is-alert">.is-1-10</div>
+          <div class="notification is-alert">.is-1-10</div>
         </div>
       </div>
       <div class="columns">
         <div class="column is-7-12">
-        <div class="notification is-alert">.is-7-12</div>
+          <div class="notification is-alert">.is-7-12</div>
         </div>
         <div class="column is-5-12">
-        <div class="notification is-alert">.is-5-12</div>
+          <div class="notification is-alert">.is-5-12</div>
         </div>
       </div>
       <div class="columns">
@@ -124,38 +124,38 @@
       </div>
       <div class="columns">
         <div class="column is-narrow">
-        <div class="notification is-success">.is-narrow</div>
+          <div class="notification is-success">.is-narrow</div>
         </div>
         <div class="column">
-        <div class="notification is-success">.column</div>
+          <div class="notification is-success">.column</div>
         </div>
       </div>
       <div class="columns">
         <div class="column is-narrow-desktop">
-        <div class="notification is-success">.is-narrow-desktop</div>
+          <div class="notification is-success">.is-narrow-desktop</div>
         </div>
         <div class="column">
-        <div class="notification is-success">.column</div>
+          <div class="notification is-success">.column</div>
         </div>
       </div>
       <div class="columns is-gapless is-stacked">
         <div class="column is-1-8">
-        <div class="notification is-accent">.is-1-8</div>
+          <div class="notification is-accent">.is-1-8</div>
         </div>
         <div class="column is-7-8">
-         <div class="notification is-secondary">.is-7-8</div>
+          <div class="notification is-secondary">.is-7-8</div>
         </div>
         <div class="column is-5-6">
-        <div class="notification is-success">.is-5-6</div>
+          <div class="notification is-success">.is-5-6</div>
         </div>
         <div class="column is-1-6">
-        <div class="notification is-alert">.is-1-6</div>
+          <div class="notification is-alert">.is-1-6</div>
         </div>
         <div class="column is-1-5">
-         <div class="notification is-accent">.is-1-5</div>
+          <div class="notification is-accent">.is-1-5</div>
         </div>
         <div class="column is-4-5">
-        <div class="notification is-secondary">.is-4-5</div>
+          <div class="notification is-secondary">.is-4-5</div>
         </div>
       </div>
       <div class="columns">
@@ -178,27 +178,27 @@
       <code class="code-blk">class="columns is-mobile"</code>
       <div class="columns is-mobile">
         <div class="column is-1-3">
-         <div class="notification is-alert">.is-1-3</div>
+          <div class="notification is-alert">.is-1-3</div>
         </div>
         <div class="column is-2-3">
-         <div class="notification is-alert">.is-2-3</div>
+          <div class="notification is-alert">.is-2-3</div>
         </div>
       </div>
       <div class="columns">
         <div class="column is-11-12">
-         <div class="notification is-success">.is-11-12</div>
+          <div class="notification is-success">.is-11-12</div>
         </div>
         <div class="column is-1-12">
-         <div class="notification is-success">.is-1-12</div>
+          <div class="notification is-success">.is-1-12</div>
         </div>
       </div>
       <code class="code-blk">class="columns is-desktop"</code>
       <div class="columns is-desktop">
         <div class="column is-1-4">
-         <div class="notification is-secondary">.is-1-4</div>
+          <div class="notification is-secondary">.is-1-4</div>
         </div>
         <div class="column is-3-4">
-         <div class="notification is-secondary">.is-3-4</div>
+          <div class="notification is-secondary">.is-3-4</div>
         </div>
       </div>
       <div class="columns">
@@ -228,16 +228,16 @@
       </div>
       <div class="columns is-stacked">
         <div class="column is-5-8">
-         <div class="notification is-alert">.is-5-8</div>
+          <div class="notification is-alert">.is-5-8</div>
         </div>
         <div class="column is-3-8">
-         <div class="notification is-alert">.is-3-8</div>
+          <div class="notification is-alert">.is-3-8</div>
         </div>
         <div class="column is-7-10">
-         <div class="notification is-alert">.is-7-10</div>
+          <div class="notification is-alert">.is-7-10</div>
         </div>
         <div class="column is-3-10">
-         <div class="notification is-alert">.is-3-10</div>
+          <div class="notification is-alert">.is-3-10</div>
         </div>
       </div>
     </div>
@@ -266,6 +266,155 @@
           <a class="button icon-clipboard" data-clipboard-target="#g5"></a> </div>
       </div>
     </div>
+  </div>
+</section>
+<section class="section" id="flexbox">
+  <div class="container">
+    <h1>Flexbox</h1>
+    <hr>
+    <h3>Parent</h3>
+    <div class="box content is-light">
+      <p>I have added flexbox container parameters as a classes so adjusting on the fly is simple. To adjust a parameter, simply add the class corresponding with the parameter. Many containers can serve as a flex parent, I'll add the list soon. To see what these parameters do in realtime, play with the dropdowns. More improvements on this interface to come.</p>
+    </div>
+    <div id="flex-demo" class="columns align-items-center">
+      <div class="column is-1-10 box is-accent">
+        <div class="ratio is-1by1">
+          <h1>1 </h1><p>is-1-10 is-1by1</p>
+        </div>
+      </div>
+      <div class="column is-1-6 box is-secondary">
+        <div class="ratio is-3by2">
+          <h1>2</h1><p>is-1-6 is-3by2</p>
+        </div>
+      </div>
+      <div class="column is-1-8 box is-accent">
+        <div class="ratio is-16by9">
+          <h1>3</h1><p>is-1-8 is-16by9</p>
+        </div>
+      </div>
+      <div class="column is-1-10 box is-secondary">
+        <div class="ratio is-1by1">
+          <h1>4</h1><p>is-1-10 is-1by1</p>
+        </div>
+      </div>
+      <div class="column is-1-10 box is-accent">
+        <div class="ratio is-4by3">
+          <h1>5</h1><p>is-1-10 is-4by3</p>
+        </div>
+      </div>
+      <div class="column is-1-5 box is-secondary">
+        <div class="ratio is-2by1">
+          <h1>6</h1><p>is-1-5 is-2by1</p>
+        </div>
+      </div>
+      <div class="column is-1-4 box is-accent">
+        <div class="ratio is-4by3">
+          <h1>7</h1><p>is-1-4 is-4by3</p>
+        </div>
+      </div>
+      <div class="column is-1-10 box is-secondary">
+        <div class="ratio is-2by1">
+          <h1>8</h1><p>is-1-10 is-2by1</p>
+        </div>
+      </div>
+      <div class="column is-1-8 box is-accent">
+        <div class="ratio is-16by9">
+          <h1>9</h1><p>is-1-8 is-16by9</p>
+        </div>
+      </div>
+      <div class="column is-1-10 box is-secondary">
+        <div class="ratio is-1by1">
+          <h1>10</h1><p>is-1-10 is-1by1</p>
+        </div>
+      </div>
+      <div class="column is-1-10 box is-accent">
+        <div class="ratio is-4by3">
+          <h1>11</h1><p>is-1-10 is-4by3</p>
+        </div>
+      </div>
+      <div class="column is-1-5 box is-secondary">
+        <div class="ratio is-2by1">
+          <h1>12</h1><p>is-1-5 is-2by1</p>
+        </div>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column">
+        <div class="box content is-light">
+          <div class="media block flex-wrap-wrap justify-content-space-between">
+            <p class="control has-addons"> 
+	        <a class="button is-disabled">flex-direction</a> 
+            <span class="select">
+              <select name="flex-direction" id="flex-direction" value="">
+                <option value="flex-direction-row">row</option>
+                <option value="flex-direction-row-reverse">row-reverse</option>
+                <option value="flex-direction-column">column</option>
+                <option value="flex-direction-column-reverse">column-reverse</option>
+              </select>
+              </span> </p>
+            <p class="control has-addons">
+	        <a class="button is-disabled">flex-wrap</a> 
+	            <span class="select">
+              <select name="flex-wrap" id="flex-wrap" value="">
+                <option value="flex-wrap-nowrap">nowrap</option>
+                <option value="flex-wrap-wrap">wrap</option>
+                <option value="flex-wrap-wrap-reverse">wrap-reverse</option>
+              </select>
+              </span> </p>
+            <p class="control has-addons">
+	        <a class="button is-disabled">justify-content</a> 
+	            <span class="select">
+              <select name="justify-content" id="justify-content" value="">
+                 <option value="justify-content-stretch">stretch</option>
+                <option value="justify-content-flex-start">flex-start</option>
+                <option value="justify-content-flex-end">flex-end</option>
+                <option value="justify-content-center">center</option>
+                <option value="justify-content-space-between">space-between</option>
+                <option value="justify-content-space-around">space-around</option>
+              </select>
+              </span> </p>
+            <p class="control has-addons">
+	        <a class="button is-disabled">align-items</a> 
+	            <span class="select">
+              <select name="align-items" id="align-items" value="">
+                <option value="align-items-center">center</option>
+                 <option value="align-items-stretch">stretch</option>
+               <option value="align-items-flex-start">flex-start</option>
+                <option value="align-items-flex-end">flex-end</option>
+                <option value="align-items-baseline">baseline</option>
+              </select>
+              </span> </p>
+            <p class="control has-addons">
+	        <a class="button is-disabled">align-content</a> 
+	            <span class="select">
+              <select name="align-content" id="align-content" value="" label="Align Content">
+                <option value="align-content-stretch">stretch</option>
+                <option value="align-content-flex-start">flex-start</option>
+                <option value="align-content-flex-end">flex-end</option>
+                <option value="align-content-center">center</option>
+                <option value="align-content-space-between">space-between</option>
+                <option value="align-content-space-around">space-around</option>
+              </select>
+              </span> </p>
+            <a id="reload-flex"class="button is-secondary"><i class="ics icon-reload"></i>Clear</a> </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="box content is-light">
+          <div class="flex-direction"></div>
+          <div class="flex-wrap"></div>
+          <div class="justify-content"></div>
+          <div class="align-items"></div>
+          <div class="align-content"></div>
+          <div class="flex-classes"></div>
+        </div>
+      </div>
+    </div>
+        <h3>Children</h3>
+    <div class="box content is-light">
+      <p>Coming Soon.</p>
+    </div>
+
   </div>
 </section>
 <section class="section" id="isotope">
@@ -313,7 +462,8 @@
     <div class="columns">
       <div class="column is-1-2">
         <div class="box content is-light">
-          <p>For a masonry layout capable of filtering and sorting isotope.js is available.</p><p>Use <strong>#isotope-list</strong> as your container, and <strong>.item</strong> for each mod.  .item can be sized with the same classes as columns. They will be as tall as the content within them.</p>
+          <p>For a masonry layout capable of filtering and sorting isotope.js is available.</p>
+          <p>Use <strong>#isotope-list</strong> as your container, and <strong>.item</strong> for each mod.  .item can be sized with the same classes as columns. They will be as tall as the content within them.</p>
         </div>
       </div>
       <div class="column is-1-2">
