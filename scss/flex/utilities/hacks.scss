@@ -239,8 +239,9 @@ h2 {color: #2957a6}
 
 #flex-demo {
 	width: 100%;
-	height: 50vh;
+	min-height: 40vh;
 	overflow: scroll;
+	    resize: both;
 }
 #flex-demo h1{
 	color: #ffffff;
@@ -250,8 +251,9 @@ h2 {color: #2957a6}
 	font-weight: bold;
 }
 
-#flex-demo .box{
-	margin: 0;
+.display-none {
+	display:none;
 }
 
+.show-me {display: flex;}
 

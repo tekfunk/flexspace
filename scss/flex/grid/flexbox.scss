@@ -1,3 +1,6 @@
+.flex-display {
+	display:flex;
+}
 //parent
 .flex-direction-row {
   flex-direction: row;
@@ -53,41 +56,34 @@
 .align-items-stretch {
   align-items: stretch;
 }
-.align-content-flex-start {
-  align-content: flex-start;
-}
-.align-content-flex-end {
-  align-content: flex-end;
-}
-.align-content-center {
-  align-content: center;
-}
-.align-content-space-between {
-  align-content: space-between;
-}
-.align-content-space-around {
-  align-content: space-around;
-}
-.align-content-stretch {
-  align-content: stretch;
+
+$params: ( flex-start, flex-end, center, space-between, space-around, stretch );
+@each $param in $params {
+    .#{align-content}-#{$param} {
+        align-content: $param;
+    }
 }
 
-/* //children
-.item {
-  order: <integer>;
+@for $i from 1 through 3 {
+  .#{order}-#{$i} {
+    order: $i;                 
+    }
 }
-.item {
-  flex-grow: <number>; // default 0 
+
+$params: ( auto, flex-start, flex-end, center, baseline, stretch );
+@each $param in $params {
+    .#{align-self}-#{$param} {
+        align-self: $param;
+    }
 }
-.item {
-  flex-shrink: <number>; // default 1 
+
+.flex-grow {
+  flex: 1;
 }
-.item {
-  flex-basis: <length> | auto; // default auto 
+.flex-shrink {
+  flex: 0;
 }
-.item {
-  flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
+.flex-none {
+  flex: none;
 }
-.item {
-  align-self: auto | flex-start | flex-end | center | baseline | stretch;
-}*/
+

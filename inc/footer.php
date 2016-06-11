@@ -34,5 +34,7 @@
 <script src="../js/isotope.js"></script>
 <script src="../js/imagesloaded.js"></script>
 <script src="../js/smartresize.js"></script>
+<script src="../js/svg.min.js"></script>
 <script src="../js/flexspace.js"></script>
+<script src="../js/flexview.js"></script>
 </body></html>
