@@ -1594,7 +1594,7 @@
     <div class="columns">
        <div class="column">
         <div class="box">
-          <pre><code id="g2" class="html hljs xml">&lt;div class=&quot;columns<span class="code-gapless"></span><span class="code-stacked"></span><span class="code-mobile"></span><span class="code-desktop"></span><span class="flex-direction"></span><span class="flex-wrap"></span><span class="justify-content"></span><span class="align-items"></span><span class="align-content"></span>&quot;&gt;  
+          <pre><code id="flx2" class="html hljs xml">&lt;div class=&quot;columns<span class="code-gapless"></span><span class="code-stacked"></span><span class="code-mobile"></span><span class="code-desktop"></span><span class="flex-direction"></span><span class="flex-wrap"></span><span class="justify-content"></span><span class="align-items"></span><span class="align-content"></span>&quot;&gt;  
   &lt;div class=&quot;column<span class="flv-col-1"></span>&quot;&gt;1&lt;/div&gt;    
   &lt;div class=&quot;column<span class="flv-col-2"></span>&quot;&gt;2&lt;/div&gt;
   &lt;div class=&quot;column<span class="flv-col-3"></span>&quot;&gt;3&lt;/div&gt;
@@ -1615,7 +1615,7 @@
   &lt;div class=&quot;column<span class="flv-col-18"></span>&quot;&gt;18&lt;/div&gt;<br />&lt;/div&gt;	  
 </code>
 </pre>
-          <a class="button icon-clipboard" data-clipboard-target="#g2"></a> </div>
+          <a class="button icon-clipboard" data-clipboard-target="#flx2"></a> </div>
       </div>
     </div>
   </div>

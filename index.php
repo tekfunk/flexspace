@@ -27,7 +27,7 @@
           <div class="column">
             <h1 style="font-weight: 500; color: #2957a6;">About <img src="../art/flexspace-logo-lrg.svg" width="200" style="margin-bottom: -10px;"></h1>
             <p>After trying a number of different frameworks and never finding exactly what I wanted, I decided the best thing to do was create and maintain my own.</p>
-            <p>The core will be SCSS and built in a way so that parts (even whole libraries) can get easily added or removed. You will be able to develop with as many animation and effect libraries as you want, but when the site is done get a final css file that will only include the code you need. For the jobs that CSS can't handle, there will be JavaScript functions available.</p>
+            <p>The core is be SCSS and built in a way so that parts (even whole libraries) can get easily added or removed. For the jobs that CSS can't handle, jQuery is implemented.</p>
             <p>This modular approach will allow Flexspace to be...</p>
             <h1 style="font-weight: 500; color: #2957a6;">Flexable</h1>
             <p>Flexspace will be able to serve as a html/css/js design core for any number of backends. A WordPress template are already in the works.</p>

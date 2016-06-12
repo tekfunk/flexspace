@@ -148,10 +148,6 @@
     <div class="nav-left">
       <div class="logo"><a href="/index.php"><img src="../art/flexspace-logo-sm.svg" width="80"></a></div>
     </div>
-    <div class="nav-center">
-	    <a><i class="ics icon-beaker"></i></a>
-	</div>
-    <span class="nav-toggle"> <span></span> <span></span> <span></span> </span>
     <div class="nav-right nav-menu"> 
 	    	<a class="nav-item is-tab is-active">page</a> 
 	    	<a class="nav-item is-tab">grid</a> 

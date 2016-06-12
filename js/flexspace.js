@@ -1,5 +1,7 @@
-(function($) {
 
+
+(function($) {
+new Clipboard('.button');
 // Isotope	
 var $container = $('#isotope-list')
 $container.isotope({

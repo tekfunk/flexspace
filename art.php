@@ -10,7 +10,7 @@
     </div>
     <div class="hero-foot">
       <div class="container">
-        <div class="block has-text-centered"> <a class="button is-primary" href="#palette">palette</a><a class="button is-primary is-disabled" href="#logos">logos</a><a class="button is-primary" href="#icons">icons</a> <a class="button is-primary" href="#backgrounds">backgrounds</a> </div>
+        <div class="block has-text-centered"> <a class="button is-primary" href="#palette">palette</a><a class="button is-primary is-disabled" href="#gradients">gradients</a><a class="button is-primary is-disabled" href="#logos">logos</a><a class="button is-primary" href="#icons">icons</a> <a class="button is-primary" href="#backgrounds">backgrounds</a> </div>
       </div>
     </div>
   </div>
@@ -20,7 +20,7 @@
     <h1>Palette</h1>
     <hr>
     <div class="box content is-light">
-      <p>These are the colors that get mapped out to buttons, hero, notifications, etc. They can be changed in <strong>variables.scss</strong></p>
+      <p>These are the colors that get mapped <code>.button, .hero, .box, .notification, .message, .burst, .badge, .loaders, .progress</code>. They can be changed in <strong>variables.scss</strong></p>
     </div>
     <div class="columns is-gapless is-stacked">
       <div class="column is-1-4">
@@ -79,6 +79,13 @@
         </div>
       </div>
     </div>
+  </div>
+</section>
+<section class="section" id="gradients">
+  <div class="container">
+    <h1>Gradients</h1>
+    <hr>
+    <div class="box content is-light">Coming Soon.</div>
   </div>
 </section>
 <section class="section" id="logos">
