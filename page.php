@@ -55,7 +55,7 @@
     <div class="columns">
       <div class="column is-1-2">
         <div class="box content is-light">
-          <p>Use <code class="code-blk">.container</code> inside &lt;header&gt;&lt;/header&gt;, &lt;section&gt;&lt;/section&gt;, &lt;footer&gt;&lt;/footer&gt; to wrap and center content. <code class="code-blk">.is-fluid</code> has 20px left and right margins. </p>
+          <p>Use <code>.container</code> inside &lt;header&gt;&lt;/header&gt;, &lt;section&gt;&lt;/section&gt;, &lt;footer&gt;&lt;/footer&gt; to wrap and center content. <code>.is-fluid</code> has 20px left and right margins. </p>
         </div>
       </div>
       <div class="column is-1-2">
@@ -101,7 +101,7 @@
     <div class="columns">
       <div class="column is-1-2">
         <div class="box content is-light">
-          <p>Use <code class="code-blk">.square</code> to make a square, and <code class="code-blk">.is-16x16</code> to set a size</p>
+          <p>Use <code>.square</code> to make a square, and <code>.is-16x16</code> to set a size</p>
           <p>This is useful for avatars and thumbnails.</a></p>
         </div>
       </div>
@@ -135,7 +135,7 @@
     <div class="columns">
       <div class="column is-1-2">
         <div class="box content is-light">
-          <p>Use <code class="code-blk">.ratio</code> to make a box with height based on a ratio like <code class="code-blk">.is-1by2</code> </p>
+          <p>Use <code>.ratio</code> to make a box with height based on a ratio like <code>.is-1by2</code> </p>
           <p>This is useful for images.</a></p>
         </div>
       </div>
@@ -167,8 +167,8 @@
       <div class="column is-1-2">
         <div class="box content is-light">
           <p>Fullwidth featured content section.</p>
-          <p>Colors can be assigned with <strong>.is-white, .is-black, .is-light, .is-dark, .is-primary, .is-accent, .is-success, .is-alert, & .is-secondary.</strong> </p>
-          <p>A subtle gradient can be applied with <strong>.is-bold</strong>.</p>
+          <p>Colors can be assigned with <code>.is-white, .is-black, .is-light, .is-dark, .is-primary, .is-accent, .is-success, .is-alert, & .is-secondary.</code> </p>
+          <p>A subtle gradient can be applied with <code>.is-bold</code>.</p>
         </div>
       </div>
       <div class="column is-1-2">
@@ -194,8 +194,8 @@
     <div class="columns">
       <div class="column is-1-2">
         <div class="box content is-light">
-          <p>Sizes can be <strong>.is-medium</strong>, <strong>.is-large</strong>, and <strong>.is-fullheight</strong>.</p>
-          <p>Can have a background by adding <strong>.has-bkd-pattern-</strong>#</p>
+          <p>Sizes can be <code>.is-medium</code>, <code>.is-large</code>, and <code>.is-fullheight</code>.</p>
+          <p>Can have a background by adding <code>.has-bkd-pattern-</code>#</p>
         </div>
       </div>
       <div class="column is-1-2">
@@ -229,9 +229,9 @@
     <div class="columns">
       <div class="column is-1-2">
         <div class="box content is-light">
-          <p>Add a background image with <strong>.has-bkd-image-</strong>#</p>
-          <p>Hero sections can be broken up with a <strong>.hero-head</strong>(Top-Aligned), <strong>.hero-body</strong>(Center-Aligned), <strong>.hero-footer</strong>(Bottom-Aligned). </p>
-          <p>All 3 parts can have separate colors can be assigned with <strong>.is-white, .is-black, .is-light, .is-dark, .is-primary, .is-accent, .is-success, .is-alert, & .is-secondary.</strong></p>
+          <p>Add a background image with <code>.has-bkd-image-</code>#</p>
+          <p>Hero sections can be broken up with a <code>.hero-head</code>(Top-Aligned), <code>.hero-body</code>(Center-Aligned), <code>.hero-footer</code>(Bottom-Aligned). </p>
+          <p>All 3 parts can have separate colors can be assigned with <code>.is-white, .is-black, .is-light, .is-dark, .is-primary, .is-accent, .is-success, .is-alert, & .is-secondary.</code></p>
         </div>
       </div>
       <div class="column is-1-2">

@@ -18,12 +18,12 @@
 <section class="section" id="content">
   <div class="container">
     <h1>Content</h1>
-    <hr>    <div class="box content is-light">  <p>Use <strong>.content</strong> as a container for bodies of text styled like this.</p></div>
+    <hr>    <div class="box content is-light">  <p>Use <code>.content</code> as a container for bodies of text styled like this.</p></div>
 <div class="notification content">
       <h1>&lt;h1&gt;Hello World&lt;/h1&gt;</h1>
       <p>&lt;p&gt;Lorem ipsum dolor sit amet, <em>em -consectetur adipiscing elit</em>. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.&lt;/p&gt;</p>
       <h2 class="has-text-centered">&lt;h2 class="has-text-centered"&gt;Second level&lt;/h2&gt;</h2>
-      <p class="has-text-centered">&lt;p class="has-text-centered"&gt;Curabitur accumsan turpis pharetra <strong>strong - augue tincidunt</strong> blandit. Quisque condimentum maximus mi, sit amet commodo arcu rutrum id. Proin pretium urna vel cursus venenatis. Suspendisse potenti. Etiam mattis sem rhoncus lacus dapibus facilisis. Donec at dignissim dui. Ut et neque nisl.&lt;/p&gt;</p>
+      <p class="has-text-centered">&lt;p class="has-text-centered"&gt;Curabitur accumsan turpis pharetra <code>code - augue tincidunt</code> blandit. Quisque condimentum maximus mi, sit amet commodo arcu rutrum id. Proin pretium urna vel cursus venenatis. Suspendisse potenti. Etiam mattis sem rhoncus lacus dapibus facilisis. Donec at dignissim dui. Ut et neque nisl.&lt;/p&gt;</p>
       <ul>
         &lt;ul&gt;
         <li>&lt;li&gt;In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>

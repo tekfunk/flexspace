@@ -5562,7 +5562,7 @@ h2 {
 
 #flex-demo {
   width: 100%;
-  min-height: 30vh;
+  min-height: 40vh;
   overflow: scroll;
   resize: both; }
 
@@ -5578,6 +5578,13 @@ h2 {
 
 .show-me {
   display: flex; }
+
+div[id^="flxb-"] {
+  margin: 0; }
+
+.content > p > code {
+  background-color: #4a4a4a;
+  color: #eaeaea; }
 
 .badge {
   align-items: center;

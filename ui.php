@@ -25,9 +25,9 @@
         <div class="media block to-edges"> <a class="button is-primary">Primary</a> <a class="button is-red">Red</a> <a class="button is-accent">Accent</a> <a class="button is-success">Success</a> <a class="button is-alert">Alert</a> </div>
         <div class="content">
           <div class="box content is-light">
-            <p>To create a button, add <strong>.button</strong>.</p>
-            <p>Colors can be assigned with <strong>.is-white</strong>(etc) from the choices in the code box. </p>
-            <p>Corners can be adjusted with <strong>$box-radius</strong> variable.</p>
+            <p>To create a button, add <code>.button</code>.</p>
+            <p>Colors can be assigned with <code>.is-white</code>(etc) from the choices in the code box. </p>
+            <p>Corners can be adjusted with <code>$box-radius</code> variable.</p>
           </div>
         </div>
       </div>
@@ -57,8 +57,8 @@
         <div class="media block to-edges"> <a class="button is-small">Small</a> <a class="button">Normal</a> <a class="button is-medium">Medium</a> <a class="button is-large">Large</a> </div>
         <div class="content">
           <div class="box content is-light">
-            <p><a href="art.php">Available icons</a> can be added with <strong>&lt;i class=&quot;ics icon-$name&quot;&gt;&lt;/i&gt;</strong></p>
-            <p>Other Sizes can be assigned with <strong>.is-small</strong>, .<strong>is-medium</strong>, .<strong>is-large</strong>.</p>
+            <p><a href="art.php">Available icons</a> can be added with <code>&lt;i class=&quot;ics icon-$name&quot;&gt;&lt;/i&gt;</code></p>
+            <p>Other Sizes can be assigned with <code>.is-small</code>, .<code>is-medium</code>, .<code>is-large</code>.</p>
           </div>
         </div>
       </div>
@@ -89,7 +89,7 @@
         <div class="content">
           <div class="box content is-light">
             <p>These variations are avaiable for buttons:</p>
-            <p><strong>.is-inverted</strong> <strong>.is-outlined</strong> <strong>.is-disabled</strong></p>
+            <p><code>.is-inverted</code> <code>.is-outlined</code> <code>.is-disabled</code></p>
           </div>
         </div>
       </div>
@@ -114,8 +114,8 @@
         </div>
         <div class="content">
           <div class="box content is-light">
-            <p>If you want to group buttons, use <strong>.is-grouped</strong> on <strong>.control</strong>.</p>
-            <p>If you want to use buttons as addons, use <strong>.has-addons</strong> on <strong>.control</strong>.</p>
+            <p>If you want to group buttons, use <code>.is-grouped</code> on <code>.control</code>.</p>
+            <p>If you want to use buttons as addons, use <code>.has-addons</code> on <code>.control</code>.</p>
           </div>
         </div>
       </div>
@@ -162,13 +162,13 @@
 <div class="columns">
   <div class="column is-1-2">
      <div class="box content is-light content">
-      <p> Nav can have 3 parts, <strong>.nav-left, .nav-center, & .nav-right</strong></p>
-      <p>Use <strong>.nav-toggle</strong> for the hamburger menu on mobile</p>
-      <p>Use <strong>.nav-menu</strong> for menu that is collapsable on mobile (you can combine it with <strong>.nav-right</strong>)</p>
-      <p>For a <strong>shadow</strong> use <strong>.has-shadow</strong>.</p>
-      <p><strong>.nav-item</strong> can be <strong>active</strong> by using <strong>.is-active</strong>.</p>
-      <p><strong>.nav-item</strong> can be a <strong>tab</strong> by using <strong>.is-tab</strong>.</p>
-      
+      <p>Use<code>.nav-left, & .nav-right</code> for different sides.</p>
+       <p>Use<code>.nav-item</code> for logos, buttons, icons, tabs.</p>
+      <p><code>.nav-item</code> can be a <code>tab</code> by using <code>.is-tab</code>.</p>
+
+      <p><code>.nav-item</code> can be <code>active</code> by using <code>.is-active</code>.</p>
+            <p>For a <code>shadow</code> use <code>.has-shadow</code>.</p>
+
     </div>
     </div>
     <div class="column is-1-2">
@@ -176,7 +176,7 @@
         <pre>
     <code id="ui-5" class="html">&lt;nav class=&quot;nav has-shadow&quot;&gt;<br />  &lt;div class=&quot;container&quot;&gt;<br />    &lt;div class=&quot;nav-left&quot;&gt;<br />    	&lt;div class=&quot;logo&quot;&gt;&lt;a href=&quot;&quot;&gt;&lt;img src=&quot;&quot; width=&quot;80&quot;&gt;&lt;/a&gt;&lt;/div&gt;<br />    &lt;/div&gt;<br />    &lt;div class=&quot;nav-center&quot;&gt;
 		&lt;a&gt;&lt;i class=&quot;ics icon-beaker&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-	&lt;/div&gt;<br />    &lt;span class=&quot;nav-toggle&quot;&gt; &lt;span&gt;&lt;/span&gt; &lt;span&gt;&lt;/span&gt; &lt;span&gt;&lt;/span&gt; &lt;/span&gt;<br />    &lt;div class=&quot;nav-right nav-menu&quot;&gt; 
+	&lt;/div&gt;<br />    &lt;div class=&quot;nav-right nav-menu&quot;&gt; 
 		&lt;a class=&quot;nav-item is-tab is-active&quot;&gt;Card&lt;/a&gt; 
 		&lt;a class=&quot;nav-item&quot; href=&quot;/page.php&quot;&gt;page&lt;/a&gt;
 		&lt;a class=&quot;nav-item&quot; href=&quot;/grid.php&quot;&gt;grid&lt;/a&gt;

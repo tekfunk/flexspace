@@ -26,9 +26,9 @@
           <p><code>.columns</code> is a flex container, and has adjustible parameters with <code>.flex-direction-row</code>, etc.<code>.column</code> sizes are set with <code>.is-1-2</code>,etc and can be placed with <code>.is-offset-1-2</code>, etc</p>
           <p>To explore these options, use the preview tool below.  It will even produce usable template code.</p>
           <p>By default columns display on tablet and desktop sizes.</p>
-          <p> To have columns display on a mobile device as well, use <strong>.columns .is-mobile</strong></p>
-          <p>If you only want columns on desktop, use <strong>.columns .is-desktop</strong> </p>
-          <p>To choose a column size for a specific device, use <strong>.column .is-1-2-desktop  is-3-4-mobile is-1-2-tablet is-1-4-desktop</strong> </p>
+          <p> To have columns display on a mobile device as well, use <code>.columns .is-mobile</code></p>
+          <p>If you only want columns on desktop, use <code>.columns .is-desktop</code> </p>
+          <p>To choose a column size for a specific device, use <code>.column .is-1-2-desktop  is-3-4-mobile is-1-2-tablet is-1-4-desktop</code> </p>
         </div>
       </div>
       <div class="column">
@@ -63,10 +63,10 @@
       </div>
     </div>
     <div id="flex-container" class="box content is-light">
+	  <button class="button is-accent" type="button" style="width:80px;">Container</button>	         
       <div class="media block flex-wrap-wrap justify-content-space-between">
-<button class="button is-accent" type="button" style="width:80px;">
-  Container 
-</button>	         <p class="control has-addons"> <a class="button">flex-direction</a> <span class="select">
+	  <p class="control has-addons"> 
+		  <a class="button">flex-direction</a> <span class="select">
           <select name="flex-direction" id="flex-direction" value="">
             <option value="flex-direction-row">row</option>
             <option value="flex-direction-row-reverse">row-reverse</option>
@@ -134,18 +134,16 @@
         </div>
       </div>
     </div>
-          <div id="flex-items" class="box content is-light">
-	          
-	          <div class="media">
-	          <div class="block">
-<button class="button is-accent" type="button" style="width:80px;margin-right: 20px;">
-  Items 
-</button>
-
-</div>
-	            <div class="block">
+    <div id="flex-items" class="box content is-light">
+	    <div class="columns">
+	    <div class="column is-narrow">
+		<button class="button is-accent" type="button" style="margin-right: 20px;">Items</button>
+	    </div>
+	    <div class="column">
           <div id="flxb-1" class="block flex-wrap-wrap justify-content-space-around show-me">
-            <p class="control has-addons"> <a class="button is-alert" style="margin-right: 20px;">1</a> <a class="button is-alert">Size</a><span class="select">
+	        <a class="button is-alert" style="margin-right: 20px;">1</a> 
+            <p class="control has-addons"> 
+            <a class="button is-alert">Size</a><span class="select">
               <select name="fcol-1" id="fcol-1">
                 <option value="" selected></option>
                 <option value="is-full">full</option>
@@ -175,7 +173,10 @@
                 <option value="is-narrow-desktop">narrow-desktop</option>
                 <option value="is-narrow">narrow</option>
               </select>
-              </span><a class="button is-alert">Offset</a><span class="select">
+              </span>
+            </p> 
+            <p class="control has-addons">               
+              <a class="button is-alert">Offset</a><span class="select">
               <select name="fcoloff-1" id="fcoloff-1">
                 <option value="" selected></option>
                 <option value="is-offset-1-2">1-2</option>
@@ -202,15 +203,21 @@
                 <option value="is-offset-9-10">9-10</option>
                 <option value="is-offset-11-12">11-12</option>
               </select>
-              </span><a class="button is-alert">Flex</a><span class="select">
-              <select name="flx-1" id="flx-1">
+              </span>
+              </p> 
+			  <p class="control has-addons">               
+				<a class="button is-alert">Flex</a><span class="select">
+				<select name="flx-1" id="flx-1">
                 <option value="" selected></option>
                 <option value="flex-grow">grow</option>
                 <option value="flex-shrink">shrink</option>
                 <option value="flex-none">none</option>
               </select>
-              </span><a class="button is-alert">Align</a><span class="select">
-              <select name="alignself-1" id="alignself-1">
+              </span>
+              </p> 
+			  <p class="control has-addons">               
+				<a class="button is-alert">Align</a><span class="select">
+				<select name="alignself-1" id="alignself-1">
                 <option value="" selected></option>
                 <option value="align-self-auto">auto</option>
                 <option value="align-self-flex-start">flex-start</option>
@@ -1531,10 +1538,8 @@
               </span> </p>
           </div>
         </div>
-  </div>
-	          </div>
-    
-    
+	    </div>
+    </div>
     <div id="flex-demo" class="columns" style="background-color: #f0f0f0;">
       <div id="flv-col-1" class="column">
         <div class="notification is-alert">1</div>
@@ -1628,7 +1633,7 @@
       <div class="column is-1-2">
         <div class="box content is-light">
           <p>For a masonry layout capable of filtering and sorting isotope.js is available.</p>
-          <p>Use <strong>#isotope-list</strong> as your container, and <strong>.item</strong> for each mod.  .item can be sized with the same classes as columns. They will be as tall as the content within them.</p>
+          <p>Use <code>#isotope-list</code> as your container, and <code>.item</code> for each mod.  .item can be sized with the same classes as columns. They will be as tall as the content within them.</p>
         </div>
       </div>
       <div class="column is-1-2">
@@ -1693,7 +1698,7 @@
   <div class="container">
     <h1>Tables</h1>
     <hr>
-    <code class="code-blk">class="table is-bordered"</code>
+    <code>class="table is-bordered"</code>
     <div class="columns">
       <div class="column">
         <table class="table is-bordered">
@@ -1712,7 +1717,7 @@
         </table>
       </div>
     </div>
-    <code class="code-blk">class="table is-striped"</code>
+    <code>class="table is-striped"</code>
     <div class="columns">
       <div class="column">
         <table class="table is-striped">
@@ -1739,7 +1744,7 @@
         </table>
       </div>
     </div>
-    <code class="code-blk">class="table is-narrow"</code>
+    <code>class="table is-narrow"</code>
     <div class="columns">
       <div class="column">
         <table class="table is-narrow">
@@ -1766,7 +1771,7 @@
         </table>
       </div>
     </div>
-    <code class="code-blk">class="table is-bordered is-striped is-narrow"</code>
+    <code>class="table is-bordered is-striped is-narrow"</code>
     <div class="columns">
       <div class="column">
         <table class="table is-bordered is-striped is-narrow">
