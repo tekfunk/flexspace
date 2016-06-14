@@ -165,7 +165,7 @@
           <li><a>Twenty Thirteen</a></li>
         </ul>
       </li>
-      <li class="nav-item"><a class="button is-primary"><span class="icon"><i class="ics icon-question"></i></span></a></li>
+      <li class="nav-item"><a><div class="button is-primary"><span class="icon"><i class="ics icon-question"></i></span></div></a></li>
     </ul>
   </div>
 </nav>
@@ -189,7 +189,7 @@
       <div class="box">
         <pre>
     <code id="ui-5" class="html">&lt;&lt;nav class=&quot;nav has-shadow&quot;&gt;<br />  &lt;div class=&quot;container&quot;&gt;<br />    &lt;div class=&quot;nav-left&quot;&gt;<br />      &lt;a&gt;&lt;img width=&quot;120&quot; height=&quot;60&quot; src=&quot;http://media.casadereyes.net/xfr/casa-logo.png&quot;&gt;&lt;/a&gt;
-	&lt;/div&gt;<br />    &lt;ul class=&quot;nav-right nav-menu&quot;&gt;<br />      &lt;li class=&quot;nav-item is-primary&quot;&gt;&lt;a&gt;Portfolio&lt;/a&gt;&lt;/li&gt;<br />      &lt;li class=&quot;nav-item is-primary&quot;&gt;&lt;a&gt;Lab&lt;/a&gt;&lt;/li&gt;<br />      &lt;li class=&quot;nav-item is-primary&quot;&gt;&lt;a&gt;Photos&lt;/a&gt;<br />        &lt;ul&gt;<br />          &lt;li&gt;&lt;a&gt;Travel&lt;/a&gt;&lt;/li&gt;<br />          &lt;li&gt;&lt;a&gt;Abstract&lt;/a&gt;&lt;/li&gt;<br />          &lt;li&gt;&lt;a&gt;Etc&lt;/a&gt;&lt;/li&gt;<br />        &lt;/ul&gt;<br />      &lt;/li&gt;<br />      &lt;li class=&quot;nav-item is-primary&quot;&gt;&lt;a&gt;Mixes&lt;/a&gt;<br />        &lt;ul&gt;<br />          &lt;li&gt;&lt;a&gt;Twenty Fifteen&lt;/a&gt;&lt;/li&gt;<br />          &lt;li&gt;&lt;a&gt;Twenty Fourteen&lt;/a&gt;&lt;/li&gt;<br />          &lt;li&gt;&lt;a&gt;Twenty Thirteen&lt;/a&gt;&lt;/li&gt;<br />        &lt;/ul&gt;<br />      &lt;/li&gt;<br />      &lt;li class=&quot;nav-item&quot;&gt;&lt;a class=&quot;button is-primary&quot;&gt;&lt;span class=&quot;icon&quot;&gt;&lt;i class=&quot;ics icon-question&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+	&lt;/div&gt;<br />    &lt;ul class=&quot;nav-right nav-menu&quot;&gt;<br />      &lt;li class=&quot;nav-item is-primary&quot;&gt;&lt;a&gt;Portfolio&lt;/a&gt;&lt;/li&gt;<br />      &lt;li class=&quot;nav-item is-primary&quot;&gt;&lt;a&gt;Lab&lt;/a&gt;&lt;/li&gt;<br />      &lt;li class=&quot;nav-item is-primary&quot;&gt;&lt;a&gt;Photos&lt;/a&gt;<br />        &lt;ul&gt;<br />          &lt;li&gt;&lt;a&gt;Travel&lt;/a&gt;&lt;/li&gt;<br />          &lt;li&gt;&lt;a&gt;Abstract&lt;/a&gt;&lt;/li&gt;<br />          &lt;li&gt;&lt;a&gt;Etc&lt;/a&gt;&lt;/li&gt;<br />        &lt;/ul&gt;<br />      &lt;/li&gt;<br />      &lt;li class=&quot;nav-item is-primary&quot;&gt;&lt;a&gt;Mixes&lt;/a&gt;<br />        &lt;ul&gt;<br />          &lt;li&gt;&lt;a&gt;Twenty Fifteen&lt;/a&gt;&lt;/li&gt;<br />          &lt;li&gt;&lt;a&gt;Twenty Fourteen&lt;/a&gt;&lt;/li&gt;<br />          &lt;li&gt;&lt;a&gt;Twenty Thirteen&lt;/a&gt;&lt;/li&gt;<br />        &lt;/ul&gt;<br />      &lt;/li&gt;<br />      &lt;li class=&quot;nav-item&quot;&gt;&lt;a&gt;&lt;div class=&quot;button is-primary&quot;&gt;&lt;span class=&quot;icon&quot;&gt;&lt;i class=&quot;ics icon-question&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;&lt;/a&gt;&lt;/li&gt;
 	&lt;/ul&gt;<br />  &lt;/div&gt;<br />&lt;/nav&gt;&gt;</code>
   </pre>
         <a class="button icon-clipboard" data-clipboard-target="#ui-5"></a> </div>

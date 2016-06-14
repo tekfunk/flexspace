@@ -12,6 +12,6 @@
 	    <span class="nav-item"><a href="/art.php">art</a></span> 
 	    <span class="nav-item"><a href="/animations.php">animations</a></span> 
 	    <span class="nav-item"><a href="/variables.php">variables</a></span> 
-	    <span class="nav-item"><a class="button is-primary" href="/index.php#about"> <span class="icon"> <i class="ics icon-question"></i> </span> </a> </span> </div>
+	    <span class="nav-item"><a href="/index.php#about"><div class="button is-primary"> <span class="icon"> <i class="ics icon-question"></i> </span></div></a></span> </div>
   </nav>
 </header>

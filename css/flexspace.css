@@ -4774,6 +4774,9 @@ a.box:active {
   display: flex;
   justify-content: center;
   position: relative; }
+  .nav-item a {
+    display: block;
+    padding: 10px; }
   .nav-item img {
     max-height: 24px; }
   .nav-item .button + .button {

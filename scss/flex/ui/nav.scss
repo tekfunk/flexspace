@@ -92,7 +92,9 @@
   justify-content: center;
   position: relative;
   
- 
+  	a {		 display: block;
+	     padding: 10px;
+};
    img {
     max-height: 24px;
   }
