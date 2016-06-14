@@ -146,27 +146,26 @@
 <nav class="nav has-shadow">
   <div class="container">
     <div class="nav-left">
-      <a href="http://casadereyes.net/" class="custom-logo-link" rel="home" itemprop="url"><img width="120" height="60" src="http://media.casadereyes.net/xfr/casa-logo.png" class="custom-logo" alt="Casa de Reyes Logo" itemprop="logo"></a>
+      <a><img width="120" height="60" src="http://media.casadereyes.net/xfr/casa-logo.png"></a>
     </div>
-    <ul id="menu-main-menu" class="nav-right nav-menu">
-      <li id="menu-item-3067" class="nav-item is-primary menu-item-type-custom menu-item-object-custom menu-item-3067"><a>Portfolio</a></li>
-      <li id="menu-item-3063" class="nav-item is-primary menu-item-type-taxonomy menu-item-object-category menu-item-3063"><a>Lab</a></li>
-      <li id="menu-item-3040" class="nav-item is-primary menu-item-type-custom menu-item-object-custom current-nav-item menu-item-3040"><a>Photos</a>
+    <ul class="nav-right nav-menu">
+      <li class="nav-item is-primary"><a>Portfolio</a></li>
+      <li class="nav-item is-primary"><a>Lab</a></li>
+      <li class="nav-item is-primary"><a>Photos</a>
         <ul>
           <li><a>Travel</a></li>
           <li><a>Abstract</a></li>
           <li><a>Etc</a></li>
         </ul>
       </li>
-      <li id="menu-item-3040" class="nav-item is-primary menu-item-type-custom menu-item-object-custom current-nav-item menu-item-3040"><a>Mixes</a>
+      <li class="nav-item is-primary"><a>Mixes</a>
         <ul>
           <li><a>Twenty Fifteen</a></li>
           <li><a>Twenty Fourteen</a></li>
           <li><a>Twenty Thirteen</a></li>
         </ul>
       </li>
-      <li><span class="nav-item is-tab"><a class="button is-primary"><span class="icon"><i class="ics icon-question"></i></span></a></span></li>
-
+      <li class="nav-item"><a class="button is-primary"><span class="icon"><i class="ics icon-question"></i></span></a></li>
     </ul>
   </div>
 </nav>
@@ -176,28 +175,22 @@
   <div class="column is-1-2">
      <div class="box content is-light content">
       <p>Use<code>.nav-left, & .nav-right</code> for different sides.</p>
-       <p>Use<code>.nav-item</code> for logos, buttons, icons, tabs.</p>
+       <p>Use<code>.nav-item</code> for links, logos, buttons, icons, tabs. <code>.nav-item</code> can also have colors assigned. </p>
+       <p>Links can be nested inside &lt;ul&gt;&lt;li&gt;&lt;ul&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt; to make dropdown links.</p>
       <p><code>.nav-item</code> can be a <code>tab</code> by using <code>.is-tab</code>.</p>
 
       <p><code>.nav-item</code> can be <code>active</code> by using <code>.is-active</code>.</p>
             <p>For a <code>shadow</code> use <code>.has-shadow</code>.</p>
+            <p>&nbsp;</p>
 
-    </div>
+     </div>
     </div>
     <div class="column is-1-2">
       <div class="box">
         <pre>
-    <code id="ui-5" class="html">&lt;nav class=&quot;nav has-shadow&quot;&gt;<br />  &lt;div class=&quot;container&quot;&gt;<br />    &lt;div class=&quot;nav-left&quot;&gt;<br />    	&lt;div class=&quot;logo&quot;&gt;&lt;a href=&quot;&quot;&gt;&lt;img src=&quot;&quot; width=&quot;80&quot;&gt;&lt;/a&gt;&lt;/div&gt;<br />    &lt;/div&gt;<br />    &lt;div class=&quot;nav-center&quot;&gt;
-		&lt;a&gt;&lt;i class=&quot;ics icon-beaker&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-	&lt;/div&gt;<br />    &lt;div class=&quot;nav-right nav-menu&quot;&gt; 
-		&lt;a class=&quot;nav-item is-tab is-active&quot;&gt;Card&lt;/a&gt; 
-		&lt;a class=&quot;nav-item&quot; href=&quot;/page.php&quot;&gt;page&lt;/a&gt;
-		&lt;a class=&quot;nav-item&quot; href=&quot;/grid.php&quot;&gt;grid&lt;/a&gt;
-		&lt;a class=&quot;nav-item&quot; href=&quot;/modules.php&quot;&gt;modules&lt;/a&gt;
-		&lt;a class=&quot;nav-item&quot; href=&quot;/ui.php&quot;&gt;ui&lt;/a&gt;
-		&lt;a class=&quot;nav-item button is-primary&quot; href=&quot;/index.php#about&quot;&gt; 
-&lt;span class=&quot;icon&quot;&gt; &lt;i class=&quot;ics icon-question&quot;&gt;&lt;/i&gt; &lt;/span&gt; &lt;/a&gt;
-	&lt;/div&gt;<br />  &lt;/div&gt;<br />&lt;/nav&gt;</code>
+    <code id="ui-5" class="html">&lt;&lt;nav class=&quot;nav has-shadow&quot;&gt;<br />  &lt;div class=&quot;container&quot;&gt;<br />    &lt;div class=&quot;nav-left&quot;&gt;<br />      &lt;a&gt;&lt;img width=&quot;120&quot; height=&quot;60&quot; src=&quot;http://media.casadereyes.net/xfr/casa-logo.png&quot;&gt;&lt;/a&gt;
+	&lt;/div&gt;<br />    &lt;ul class=&quot;nav-right nav-menu&quot;&gt;<br />      &lt;li class=&quot;nav-item is-primary&quot;&gt;&lt;a&gt;Portfolio&lt;/a&gt;&lt;/li&gt;<br />      &lt;li class=&quot;nav-item is-primary&quot;&gt;&lt;a&gt;Lab&lt;/a&gt;&lt;/li&gt;<br />      &lt;li class=&quot;nav-item is-primary&quot;&gt;&lt;a&gt;Photos&lt;/a&gt;<br />        &lt;ul&gt;<br />          &lt;li&gt;&lt;a&gt;Travel&lt;/a&gt;&lt;/li&gt;<br />          &lt;li&gt;&lt;a&gt;Abstract&lt;/a&gt;&lt;/li&gt;<br />          &lt;li&gt;&lt;a&gt;Etc&lt;/a&gt;&lt;/li&gt;<br />        &lt;/ul&gt;<br />      &lt;/li&gt;<br />      &lt;li class=&quot;nav-item is-primary&quot;&gt;&lt;a&gt;Mixes&lt;/a&gt;<br />        &lt;ul&gt;<br />          &lt;li&gt;&lt;a&gt;Twenty Fifteen&lt;/a&gt;&lt;/li&gt;<br />          &lt;li&gt;&lt;a&gt;Twenty Fourteen&lt;/a&gt;&lt;/li&gt;<br />          &lt;li&gt;&lt;a&gt;Twenty Thirteen&lt;/a&gt;&lt;/li&gt;<br />        &lt;/ul&gt;<br />      &lt;/li&gt;<br />      &lt;li class=&quot;nav-item&quot;&gt;&lt;a class=&quot;button is-primary&quot;&gt;&lt;span class=&quot;icon&quot;&gt;&lt;i class=&quot;ics icon-question&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;<br />  &lt;/div&gt;<br />&lt;/nav&gt;&gt;</code>
   </pre>
         <a class="button icon-clipboard" data-clipboard-target="#ui-5"></a> </div>
     </div>

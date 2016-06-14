@@ -90,13 +90,8 @@
   align-items: center;
   display: flex;
   justify-content: center;
-  padding: 10px;
   position: relative;
   
-  a {
-	font-weight: bold;
-    flex-grow: 1;
-  }
  
    img {
     max-height: 24px;
@@ -121,21 +116,13 @@
     $color-invert: nth($pair, 2);
     
     &.is-#{$name} {
+      background: transparent;
       border-color: transparent;
-      color: $color-invert;
+      color: $color;
 
-	  & a {
-		  color: $color;
-	  }
-	  
-	  & a:hover {
-      	color: $color-invert;
-	  }
 
       &:hover,
       &:focus {
-      	background: $color;
-        border-color: transparent;
         color: $color-invert;
       }
 
@@ -178,8 +165,6 @@ li.nav-item  {
   }
   & > ul li {
     text-align: right;
-    display: block;
-    padding: .5em 1em 1em 0;
   }
 }
 
@@ -189,6 +174,18 @@ li.nav-item  {
     $color-invert: nth($pair, 2);
     
     li.nav-item.is-#{$name} {
+	    & > a { 
+		 color: $color;
+		 display: block;
+	     padding: 10px;
+ 	}
+	    & > a:hover { 
+	  	background: $color;
+		    color: $color-invert;
+	    }
+	    
+
+	    
     	&:hover ul {
 	  	background: $color;
   		}
@@ -197,13 +194,14 @@ li.nav-item  {
 	  	background: $color;
 	  	color: $color-invert;
 	  		& a {
-	  		color: $color-invert;
-			}
-			&:hover {
-			background: $color-invert;
-			}
+	  		    padding: .5em 1em 1em 0;
+	  			color: $color-invert;
+			 display: block;
+	}
 	  		& a:hover {
+		  	border: $color 1px solid;;
 	  		color: $color;
+	  		background: $color-invert;
 			}
 		}
 	}
