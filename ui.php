@@ -146,15 +146,28 @@
 <nav class="nav has-shadow">
   <div class="container">
     <div class="nav-left">
-      <div class="logo"><a href="/index.php"><img src="../art/flexspace-logo-sm.svg" width="80"></a></div>
+      <a href="http://casadereyes.net/" class="custom-logo-link" rel="home" itemprop="url"><img width="120" height="60" src="http://media.casadereyes.net/xfr/casa-logo.png" class="custom-logo" alt="Casa de Reyes Logo" itemprop="logo"></a>
     </div>
-    <div class="nav-right nav-menu"> 
-	    	<a class="nav-item is-tab is-active">page</a> 
-	    	<a class="nav-item is-tab">grid</a> 
-	    	<a class="nav-item is-tab">modules</a>
-	    	<a class="nav-item is-tab">ui</a>
-	    	<span class="nav-item is-tab"><a class="button is-primary" href="/index.php#about"><span class="icon"><i class="ics icon-question"></i></span></a></span> 
-	 </div>
+    <ul id="menu-main-menu" class="nav-right nav-menu">
+      <li id="menu-item-3067" class="nav-item is-primary menu-item-type-custom menu-item-object-custom menu-item-3067"><a>Portfolio</a></li>
+      <li id="menu-item-3063" class="nav-item is-primary menu-item-type-taxonomy menu-item-object-category menu-item-3063"><a>Lab</a></li>
+      <li id="menu-item-3040" class="nav-item is-primary menu-item-type-custom menu-item-object-custom current-nav-item menu-item-3040"><a>Photos</a>
+        <ul>
+          <li><a>Travel</a></li>
+          <li><a>Abstract</a></li>
+          <li><a>Etc</a></li>
+        </ul>
+      </li>
+      <li id="menu-item-3040" class="nav-item is-primary menu-item-type-custom menu-item-object-custom current-nav-item menu-item-3040"><a>Mixes</a>
+        <ul>
+          <li><a>Twenty Fifteen</a></li>
+          <li><a>Twenty Fourteen</a></li>
+          <li><a>Twenty Thirteen</a></li>
+        </ul>
+      </li>
+      <li><span class="nav-item is-tab"><a class="button is-primary"><span class="icon"><i class="ics icon-question"></i></span></a></span></li>
+
+    </ul>
   </div>
 </nav>
 <div class="container">

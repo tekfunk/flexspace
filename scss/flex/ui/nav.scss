@@ -1,132 +1,7 @@
-// Components
-
-.nav-toggle {
-  @extend .hamburger;
-
-  // Responsiveness
-  @include tablet {
-    display: none;
-  }
-}
-
-.nav-item {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-
-  a {
-    flex-grow: 1;
-  }
-
-  img {
-    max-height: 24px;
-  }
-
-  .button + .button {
-    margin-left: 10px;
-  }
-
-  .badge {
-    &:first-child {
-      margin-right: 5px;
-    }
-
-    &:last-child {
-      margin-left: 5px;
-    }
-  }
-
-  // Responsiveness
-  @include mobile {
-    justify-content: flex-start;
-  }
-}
-
-.nav-item a,
-a.nav-item {
-  color: $text;
-
-  &:hover {
-    color: $link-hover;
-  }
-
-  // Modifiers
-  &.is-active {
-    color: $link-active;
-  }
-
-  &.is-tab {
-    border-bottom: 1px solid transparent;
-    border-top: 1px solid transparent;
-    padding-left: 12px;
-    padding-right: 12px;
-
-    &:hover {
-      border-bottom: 1px solid $link;
-      border-top: 1px solid transparent;
-    }
-
-    &.is-active {
-      border-bottom: 3px solid $link;
-      border-top: 3px solid transparent;
-      color: $link;
-    }
-  }
-}
-
-// Containers
-
-.nav-menu {
-  // Responsiveness
-  @include mobile {
-    background: $white;
-    box-shadow: 0 4px 7px rgba($black, 0.1);
-    left: 0;
-    display: none;
-    right: 0;
-    top: 100%;
-    position: absolute;
-
-    .nav-item {
-      border-top: 1px solid rgba($border, 0.5);
-      padding: 10px;
-    }
-
-    &.is-active {
-      display: block;
-    }
-  }
-}
-
-.nav-left {
-  align-items: stretch;
-  display: flex;
-  flex: 1;
-  justify-content: flex-start;
-  overflow: hidden;
-  overflow-x: auto;
-  white-space: nowrap;
-}
-
-.nav-center {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-
-.nav-right {
-  // Responsiveness
-  @include tablet {
-    align-items: stretch;
-    display: flex;
-    flex: 1;
-    justify-content: flex-end;
-  }
-}
+@import "../utilities/mixins";
+@import "../utilities/variables";
 
 // Main container
-
 .nav {
   align-items: stretch;
   background: $white;
@@ -174,3 +49,186 @@ a.nav-item {
     box-shadow: 0 2px 3px rgba($black, 0.1);
   }
 }
+
+.nav-left {
+  align-items: stretch;
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  overflow: hidden;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.nav-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-right {
+  // Responsiveness
+  @include tablet {
+    align-items: stretch;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+  }
+}
+
+
+.nav-toggle {
+  @extend .hamburger;
+
+  // Responsiveness
+  @include tablet {
+    display: none;
+  }
+}
+
+.nav-item {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+  
+  a {
+	font-weight: bold;
+    flex-grow: 1;
+  }
+ 
+   img {
+    max-height: 24px;
+  }
+
+  .button + .button {
+    margin-left: 10px;
+  }
+
+  .badge {
+    &:first-child {
+      margin-right: 5px;
+    }
+
+    &:last-child {
+      margin-left: 5px;
+    }
+  }
+  // Colors
+  @each $name, $pair in $colors {
+    $color: nth($pair, 1);
+    $color-invert: nth($pair, 2);
+    
+    &.is-#{$name} {
+      border-color: transparent;
+      color: $color-invert;
+
+	  & a {
+		  color: $color;
+	  }
+	  
+	  & a:hover {
+      	color: $color-invert;
+	  }
+
+      &:hover,
+      &:focus {
+      	background: $color;
+        border-color: transparent;
+        color: $color-invert;
+      }
+
+      &:active {
+        border-color: transparent;
+      }
+
+    }
+  }
+  @include mobile {
+    justify-content: flex-start;
+  }
+}
+
+// Dropdown
+.nav-item li,
+li.nav-item  {
+  &:hover ul {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+  }
+  & > ul {
+    padding: 0;
+    position: absolute;
+    top: 48px;
+    right: 0;
+    width: 150px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transiton: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    -ms-transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
+    -transition: opacity 0.2s;
+  }
+  & > ul li {
+    text-align: right;
+    display: block;
+    padding: .5em 1em 1em 0;
+  }
+}
+
+
+  @each $name, $pair in $colors {
+    $color: nth($pair, 1);
+    $color-invert: nth($pair, 2);
+    
+    li.nav-item.is-#{$name} {
+    	&:hover ul {
+	  	background: $color;
+  		}
+
+	  	& > ul li {
+	  	background: $color;
+	  	color: $color-invert;
+	  		& a {
+	  		color: $color-invert;
+			}
+			&:hover {
+			background: $color-invert;
+			}
+	  		& a:hover {
+	  		color: $color;
+			}
+		}
+	}
+	}
+
+
+
+.nav-menu {
+  @include mobile {
+    background: $white;
+    box-shadow: 0 4px 7px rgba($black, 0.1);
+    left: 0;
+    display: none;
+    right: 0;
+    top: 100%;
+    position: absolute;
+
+    .nav-item {
+      border-top: 1px solid rgba($border, 0.5);
+      padding: 10px;
+    }
+
+    &.is-active {
+      display: block;
+    }
+  }
+}
+
