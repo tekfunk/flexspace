@@ -2,10 +2,10 @@
 .toggle-btn  {
   z-index: 1000;
   background: #FFF;
-  opacity: .6;
+//  opacity: .6;
   border-radius: 2px;
   padding-left: 4px;
-  height: 24px;
+//  height: 24px;
 }
 
 .toggle-btn-close {
@@ -44,6 +44,11 @@ disable-scroll {
   z-index: 1001;
   opacity: 0;
   overflow: scroll;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
 
   -webkit-transition: opacity 200ms linear, bottom 0 linear 200ms;
   -moz-transition: opacity 200ms linear, bottom 0 linear 200ms;
@@ -60,6 +65,9 @@ disable-scroll {
       color: $color-invert;
     }
        &.is-#{$name} a{
+         color: $color-invert;
+       }
+       &.is-#{$name} i{
          color: $color-invert;
        }
   }
