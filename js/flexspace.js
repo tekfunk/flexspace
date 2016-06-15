@@ -1,7 +1,8 @@
-
-
 (function($) {
+	
+// Code Clipboard		
 new Clipboard('.button');
+
 // Isotope	
 var $container = $('#isotope-list')
 $container.isotope({
@@ -27,5 +28,21 @@ $('.mod-footer a').on('click', function(){
     $('#'+post_id).children().filter('#'+tab_id).addClass('is-active');
 });
 
+// Toggle - Full Window Toggle for mobile menus, more info, etc.
+// Check for click to toggle window.
+$("[class^=toggle-btn-]").on('click', function(event) {
+	event.preventDefault();
+	$('html').toggleClass('disable-scroll');
+	$('body').toggleClass('toggle-window-open');
+});
+// Check for ESC key to close.
+$(document).keyup(function(event) {
+	if (event.keyCode == 27) {
+		if ($('body').hasClass('main-nav-open')) {
+			$('html').removeClass('disable-scroll');
+			$('body').removeClass('main-nav-open');
+		} 			
+	}
+});
 
 } )( jQuery );

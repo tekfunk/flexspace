@@ -79,7 +79,7 @@
 </section>
 <section class="section" id="mod">
   <div class="container">
-    <h1>Mod</h1>
+    <h1>Mod<div class="badge is-secondary is-small" style="margin:12px 0 0 8px;">jQuery</div></h1>
     <hr>
     <div class="columns">
       <div class="column is-1-2">

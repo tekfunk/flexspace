@@ -1,0 +1,75 @@
+/* Toggle */
+.toggle-btn  {
+  z-index: 1000;
+  background: #FFF;
+  opacity: .6;
+  border-radius: 2px;
+  padding-left: 4px;
+  height: 24px;
+}
+
+.toggle-btn-close {
+  z-index: 1001;		
+}
+
+.on-left  {
+  top: 1em;
+  left: 1em;
+}
+
+.on-right  {
+  top: 1em;
+  right: 1em;
+}
+
+.on-win-edge{
+position: fixed;
+}
+
+.on-div-edge {
+position: absolute;
+}
+
+disable-scroll {
+  overflow: hidden; 
+}
+
+.toggle-window  {
+  top: 0;
+  bottom: 110%;
+  left: 0;
+  right: 0;
+  padding: 1em;
+  width: 100%;
+  z-index: 1001;
+  opacity: 0;
+  overflow: scroll;
+
+  -webkit-transition: opacity 200ms linear, bottom 0 linear 200ms;
+  -moz-transition: opacity 200ms linear, bottom 0 linear 200ms;
+  -o-transition: opacity 200ms linear, bottom 0 linear 200ms;
+  transition: opacity 200ms linear, bottom 0 linear 200ms; 
+  
+    // Colors
+  @each $name, $pair in $colors {
+    $color: nth($pair, 1);
+    $color-invert: nth($pair, 2);
+
+    &.is-#{$name} {
+      background: $color;
+      color: $color-invert;
+    }
+       &.is-#{$name} a{
+         color: $color-invert;
+       }
+  }
+}
+  
+.toggle-window-open #toggle-window {
+  bottom: 0;
+  opacity: 1;
+  -webkit-transition: opacity 200ms linear, bottom 0 linear;
+  -moz-transition: opacity 200ms linear, bottom 0 linear;
+  -o-transition: opacity 200ms linear, bottom 0 linear;
+  transition: opacity 200ms linear, bottom 0 linear; 
+ }

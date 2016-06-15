@@ -10,7 +10,7 @@
     </div>
     <div class="hero-foot">
       <div class="container">
-        <div class="block has-text-centered"> <a class="button is-primary" href="#button">button</a> <a class="button is-primary" href="#nav">nav</a> <a class="button is-primary is-disabled" href="#tabs">tabs</a> <a class="button is-primary is-disabled" href="#panel">panel</a> <a class="button is-primary is-disabled" href="#menu">menu</a> <a  class="button is-primary is-disabled" href="#form">form</a> <a class="button is-primary is-disabled" href="#pagination">pagination</a> </div>
+        <div class="block has-text-centered"> <a class="button is-primary" href="#button">button</a> <a class="button is-primary" href="#nav">nav</a><a class="button is-primary" href="#toggle">toggle</a> <a class="button is-primary is-disabled" href="#tabs">tabs</a> <a class="button is-primary is-disabled" href="#panel">panel</a> <a class="button is-primary is-disabled" href="#menu">menu</a> <a  class="button is-primary is-disabled" href="#form">form</a> <a class="button is-primary is-disabled" href="#pagination">pagination</a> </div>
       </div>
     </div>
   </div>
@@ -188,14 +188,54 @@
     <div class="column is-1-2">
       <div class="box">
         <pre>
-    <code id="ui-5" class="html">&lt;&lt;nav class=&quot;nav has-shadow&quot;&gt;<br />  &lt;div class=&quot;container&quot;&gt;<br />    &lt;div class=&quot;nav-left&quot;&gt;<br />      &lt;a&gt;&lt;img width=&quot;120&quot; height=&quot;60&quot; src=&quot;http://media.casadereyes.net/xfr/casa-logo.png&quot;&gt;&lt;/a&gt;
+    <code id="ui-5" class="html">&lt;nav class=&quot;nav has-shadow&quot;&gt;<br />  &lt;div class=&quot;container&quot;&gt;<br />    &lt;div class=&quot;nav-left&quot;&gt;<br />      &lt;a&gt;&lt;img width=&quot;120&quot; height=&quot;60&quot; src=&quot;http://media.casadereyes.net/xfr/casa-logo.png&quot;&gt;&lt;/a&gt;
 	&lt;/div&gt;<br />    &lt;ul class=&quot;nav-right nav-menu&quot;&gt;<br />      &lt;li class=&quot;nav-item is-primary&quot;&gt;&lt;a&gt;Portfolio&lt;/a&gt;&lt;/li&gt;<br />      &lt;li class=&quot;nav-item is-primary&quot;&gt;&lt;a&gt;Lab&lt;/a&gt;&lt;/li&gt;<br />      &lt;li class=&quot;nav-item is-primary&quot;&gt;&lt;a&gt;Photos&lt;/a&gt;<br />        &lt;ul&gt;<br />          &lt;li&gt;&lt;a&gt;Travel&lt;/a&gt;&lt;/li&gt;<br />          &lt;li&gt;&lt;a&gt;Abstract&lt;/a&gt;&lt;/li&gt;<br />          &lt;li&gt;&lt;a&gt;Etc&lt;/a&gt;&lt;/li&gt;<br />        &lt;/ul&gt;<br />      &lt;/li&gt;<br />      &lt;li class=&quot;nav-item is-primary&quot;&gt;&lt;a&gt;Mixes&lt;/a&gt;<br />        &lt;ul&gt;<br />          &lt;li&gt;&lt;a&gt;Twenty Fifteen&lt;/a&gt;&lt;/li&gt;<br />          &lt;li&gt;&lt;a&gt;Twenty Fourteen&lt;/a&gt;&lt;/li&gt;<br />          &lt;li&gt;&lt;a&gt;Twenty Thirteen&lt;/a&gt;&lt;/li&gt;<br />        &lt;/ul&gt;<br />      &lt;/li&gt;<br />      &lt;li class=&quot;nav-item&quot;&gt;&lt;a&gt;&lt;div class=&quot;button is-primary&quot;&gt;&lt;span class=&quot;icon&quot;&gt;&lt;i class=&quot;ics icon-question&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;&lt;/a&gt;&lt;/li&gt;
-	&lt;/ul&gt;<br />  &lt;/div&gt;<br />&lt;/nav&gt;&gt;</code>
+	&lt;/ul&gt;<br />  &lt;/div&gt;<br />&lt;/nav&gt;</code>
   </pre>
         <a class="button icon-clipboard" data-clipboard-target="#ui-5"></a> </div>
     </div>
   </div>
 </div>
+</section>
+<section class="section" id="toggle">
+  <div class="container">
+    <h1>Toggle<div class="badge is-secondary is-small" style="margin:12px 0 0 8px;">jQuery</div></h1>
+    <hr>
+    <div class="notification is-primary" style="height: 80px;">	
+	    <a href class="toggle-btn on-left on-div-edge"><i class="ics icon-list"></i></a>
+	<div id="toggle-window" class="toggle-window is-dark on-div-edge">					
+		<a href class="toggle-btn-close on-left on-div-edge"><i class="ics icon-ex"></i></a>
+		<h1>Toggled!</h1>
+	</div>
+</div>
+ <hr>
+<div class="columns">
+  <div class="column is-1-2">
+     <div class="box content is-light content">
+      <p>Toggle is a hidden content window that opens with a click. It can be used for such things as a mobile device menu.</p>
+      <p>There are 3 elements, the open button <code>.toggle-btn</code>, the close button <code>.toggle-btn-close</code>, and the content window <code>.toggle-window</code>.</p>
+      <p>Use <code>.on-win-edge</code> to have the button aligned to the browser window, and <code>.on-div-edge</code> to align to it's parent div. Use the same classes on the content window to either have it cover the whole page or just it's parent div.</p>
+      <p>Use <code>.on-left</code> and <code>.on-right</code> to align the buttons. They will always appear at the top of the window or div.</p>     
+      <p>Use <code>.is-primary</code>, etc to assign colors to <code>.toggle-window</code>.</p>
+      
+      
+  
+
+     </div>
+    </div>
+    <div class="column is-1-2">
+      <div class="box">
+        <pre>
+    <code id="ui-6" class="html">&lt;a href class=&quot;toggle-btn on-left on-div-edge&quot;&gt;&lt;i class=&quot;ics icon-list&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;div id=&quot;toggle-window&quot; class=&quot;toggle-window is-dark on-div-edge&quot;&gt;				
+  &lt;a href class=&quot;toggle-btn-close on-left on-div-edge&quot;&gt;&lt;i class=&quot;ics icon-ex&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/div&gt;</code>
+  </pre>
+        <a class="button icon-clipboard" data-clipboard-target="#ui-6"></a> </div>
+    </div>
+  </div>
+
+  </div>
 </section>
 <section class="section" id="panel">
   <div class="container">
