@@ -46,7 +46,7 @@
 <br />&lt;/div&gt;	  
 </code>
 </pre>
-          <a class="button icon-clipboard" data-clipboard-target="#g2"></a> </div>
+          <a class="button ics-clipboard" data-clipboard-target="#g2"></a> </div>
       </div>
     </div>
   </div>
@@ -1609,7 +1609,7 @@
   &lt;div class=&quot;column<span class="flv-col-18"></span>&quot;&gt;18&lt;/div&gt;<br />&lt;/div&gt;	  
 </code>
 </pre>
-          <a class="button icon-clipboard" data-clipboard-target="#flx2"></a> </div>
+          <a class="button ics-clipboard" data-clipboard-target="#flx2"></a> </div>
       </div>
     </div>
   </div>
@@ -1640,7 +1640,7 @@
 	&lt;div class=&quot;item is-1-4&quot;&gt;&lt;div class=&quot;notification is-accent&quot;&gt;15&lt;/div&gt;&lt;/div&gt;
 &lt;/div&gt;</code>
 </pre>
-          <a class="button icon-clipboard" data-clipboard-target="#g6"></a> </div>
+          <a class="button ics-clipboard" data-clipboard-target="#g6"></a> </div>
       </div>
     </div>
     <div id="isotope-list" style="margin-bottom: 20px;">

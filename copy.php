@@ -86,7 +86,7 @@
 &lt;button class=&quot;button is-primary&quot; type=&quot;button&quot;&gt;<br />  Messages &lt;span class=&quot;badge&quot;&gt;4&lt;/span&gt;<br />&lt;/button&gt;</code>
 </pre>
           <br>
-          <a class="button icon-clipboard" data-clipboard-target="#shapes-tags"></a> </div>
+          <a class="button ics-clipboard" data-clipboard-target="#shapes-tags"></a> </div>
       </div>
     </div>
   </div>
@@ -172,7 +172,7 @@
 &lt;div class=&quot;burst&quot;&gt;&lt;div class=&quot;burst-12 is-light&quot;&gt;&lt;p&gt;light&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;<span class="nt"><span class="hljs-tag"></span></span>
 <span class="nt"><span class="hljs-tag"></span></span></code></pre>
       <br>
-      <a class="button icon-clipboard" data-clipboard-target="#shapes-burst"></a> </div>
+      <a class="button ics-clipboard" data-clipboard-target="#shapes-burst"></a> </div>
   </div>
 </section>
 <section class="section" id="messages">
@@ -200,7 +200,7 @@
    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"message-body"</span><span class="nt">&gt;</span><span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/article&gt;</span><span class="nt"></span></code></pre>
           <br>
-          <a class="button icon-clipboard" data-clipboard-target="#col-sizes"></a> </div>
+          <a class="button ics-clipboard" data-clipboard-target="#col-sizes"></a> </div>
       </div>
     </div>
   </div>
@@ -242,7 +242,7 @@
 </code>
 </pre>
           <br>
-          <a class="button icon-clipboard" data-clipboard-target="#col-sizes"></a> </div>
+          <a class="button ics-clipboard" data-clipboard-target="#col-sizes"></a> </div>
       </div>
     </div>
   </div>
@@ -265,7 +265,7 @@
     &lt;code id=&quot;xxx&quot; class=&quot;html&quot;&gt;&lt;/code&gt;
 &lt;/pre&gt;</code></pre>
           <br>
-          <a class="button icon-clipboard" data-clipboard-target="#mod-code"></a> </div>
+          <a class="button ics-clipboard" data-clipboard-target="#mod-code"></a> </div>
       </div>
     </div>
   </div>

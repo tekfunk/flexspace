@@ -1,15 +1,23 @@
 /* Toggle */
 .toggle-btn  {
-  z-index: 1000;
-  background: #FFF;
-//  opacity: .6;
+  background: rgba(255,255,255,.5);
   border-radius: 2px;
-  padding-left: 4px;
-//  height: 24px;
+  padding: 4px 4px 2px 4px;
 }
 
 .toggle-btn-close {
-  z-index: 1001;		
+  background: rgba(255,255,255,.5);
+  border-radius: 2px;
+  padding: 4px 4px 2px 4px;
+}
+
+div[class^="toggle-btn"] { cursor: pointer;}
+
+
+.toggle-btn i,
+.toggle-btn-close i {
+	font-size: 1.4em;
+	color: $primary;
 }
 
 .on-left  {
@@ -36,12 +44,11 @@ disable-scroll {
 
 .toggle-window  {
   top: 0;
-  bottom: 110%;
+  bottom: 0;
   left: 0;
   right: 0;
   padding: 1em;
   width: 100%;
-  z-index: 1001;
   opacity: 0;
   overflow: scroll;
   display: flex;
