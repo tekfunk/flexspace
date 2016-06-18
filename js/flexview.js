@@ -1,8 +1,9 @@
 (function($) {
-// Flexspace Liveview
+// Flexview, a small app to preview columns and flexbox in flexspace.css.
 
-// Flexbox
+// Parent .columns
 
+// Flexspace CSS 'modifiers'
 $('#is-gapless').change(function() {
    if($(this).is(":checked")) {
 	$('#flex-demo').addClass(' is-gapless');
@@ -40,6 +41,7 @@ $('#is-desktop').change(function() {
 	$( '.code-desktop' ).html('');
 });
 
+// Flexspace flexbox 'modifiers'
 $('#flex-direction').change(function () {
 	var flx_class = ' '+$(this).val().toLowerCase();	
 	$("#flex-demo").removeClass (function (index, css) {
@@ -81,6 +83,9 @@ $('#align-content').change(function () {
 	$( '.align-content' ).html( flx_class );
 });
 
+// Children .column
+
+// Column Select
 $("[id^=flv-col-]").on('click', function(){
      var matches = this.id.match(/\d+$/);
      var colnum = parseInt(matches[0]);
@@ -90,7 +95,7 @@ $("[id^=flv-col-]").on('click', function(){
 	$('#flxb-'+colnum ).addClass('show-me');
 	
 });
-// Column Flex
+// Column Align
   $("[id^=alignself-]").change(function() {
       	var matches = this.id.match(/\d+$/);
        	var colnum = parseInt(matches[0]);

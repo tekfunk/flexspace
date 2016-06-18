@@ -58,79 +58,7 @@
     <div class="columns">
       <div class="column">
         <div class="box content is-light">
-          <p>Choose your options to see the realtime view. Click on boxes to edit each item. Code will be written in the Columns section code box below.</p>
-        </div>
-      </div>
-    </div>
-    <div id="flex-container" class="box content is-light">
-	  <button class="button is-accent" type="button" style="width:80px;">Container</button>	         
-      <div class="media block flex-wrap-wrap justify-content-space-between">
-	  <p class="control has-addons"> 
-		  <a class="button">flex-direction</a> <span class="select">
-          <select name="flex-direction" id="flex-direction" value="">
-            <option value="flex-direction-row">row</option>
-            <option value="flex-direction-row-reverse">row-reverse</option>
-            <option value="flex-direction-column">column</option>
-            <option value="flex-direction-column-reverse">column-reverse</option>
-          </select>
-          </span> </p>
-        <p class="control has-addons"> <a class="button">flex-wrap</a> <span class="select">
-          <select name="flex-wrap" id="flex-wrap" value="">
-            <option value="flex-wrap-nowrap">nowrap</option>
-            <option value="flex-wrap-wrap">wrap</option>
-            <option value="flex-wrap-wrap-reverse">wrap-reverse</option>
-          </select>
-          </span> </p>
-        <p class="control has-addons"> <a class="button">justify-content</a> <span class="select">
-          <select name="justify-content" id="justify-content" value="">
-            <option value="justify-content-stretch">stretch</option>
-            <option value="justify-content-flex-start">flex-start</option>
-            <option value="justify-content-flex-end">flex-end</option>
-            <option value="justify-content-center">center</option>
-            <option value="justify-content-space-between">space-between</option>
-            <option value="justify-content-space-around">space-around</option>
-          </select>
-          </span> </p>
-        <p class="control has-addons"> <a class="button">align-items</a> <span class="select">
-          <select name="align-items" id="align-items" value="">
-            <option value="align-items-stretch">stretch</option>
-            <option value="align-items-center">center</option>
-            <option value="align-items-flex-start">flex-start</option>
-            <option value="align-items-flex-end">flex-end</option>
-            <option value="align-items-baseline">baseline</option>
-          </select>
-          </span> </p>
-        <p class="control has-addons"> <a class="button">align-content</a> <span class="select">
-          <select name="align-content" id="align-content" value="" label="Align Content">
-            <option value="align-content-stretch">stretch</option>
-            <option value="align-content-flex-start">flex-start</option>
-            <option value="align-content-flex-end">flex-end</option>
-            <option value="align-content-center">center</option>
-            <option value="align-content-space-between">space-between</option>
-            <option value="align-content-space-around">space-around</option>
-          </select>
-          </span> </p>
-        <div class="block">
-          <p class="control button">
-            <label class="checkbox">
-              <input type="checkbox" name="is-gapless" id="is-gapless">
-              is-gapless </label>
-          </p>
-          <p class="control button">
-            <label class="checkbox">
-              <input type="checkbox" name="is-stacked" id="is-stacked">
-              is-stacked </label>
-          </p>
-          <p class="control button">
-            <label class="checkbox">
-              <input type="checkbox" name="is-mobile" id="is-mobile">
-              is-mobile </label>
-          </p>
-          <p class="control button">
-            <label class="checkbox">
-              <input type="checkbox" name="is-desktop" id="is-desktop">
-              is-desktop </label>
-          </p>
+          <p>Flexview is a layout tool for previewing the different options you have for creating grids in flexspace.css. Click on a box in the demo window to to edit each item's size and placement.  These options are fractions and are calculated from the container's size. Use the container options below the demo window to adjust wrap, alignment, etc.The code box below will automatically be updated.</p>
         </div>
       </div>
     </div>
@@ -140,12 +68,10 @@
 		<button class="button is-accent" type="button" style="margin-right: 20px;">Items</button>
 	    </div>
 	    <div class="column">
-          <div id="flxb-1" class="block flex-wrap-wrap justify-content-space-around show-me">
-	        <a class="button is-alert" style="margin-right: 20px;">1</a> 
-            <p class="control has-addons"> 
-            <a class="button is-alert">Size</a><span class="select">
-              <select name="fcol-1" id="fcol-1">
-                <option value="" selected></option>
+          <div id="flxb-1" class="block flex-wrap-wrap justify-content-space-between show-me">
+            <p class="control has-addons"> <a class="button is-alert">1</a> <span class="select">
+              <select name="fcol-1" id="fcol-1" value="">
+                <option value="" selected>Size</option>
                 <option value="is-full">full</option>
                 <option value="is-1-2">1-2</option>
                 <option value="is-1-3">1-3</option>
@@ -173,12 +99,9 @@
                 <option value="is-narrow-desktop">narrow-desktop</option>
                 <option value="is-narrow">narrow</option>
               </select>
-              </span>
-            </p> 
-            <p class="control has-addons">               
-              <a class="button is-alert">Offset</a><span class="select">
+              </span> <span class="select">
               <select name="fcoloff-1" id="fcoloff-1">
-                <option value="" selected></option>
+                <option value="" selected>Offset</option>
                 <option value="is-offset-1-2">1-2</option>
                 <option value="is-offset-1-3">1-3</option>
                 <option value="is-offset-1-4">1-4</option>
@@ -203,22 +126,16 @@
                 <option value="is-offset-9-10">9-10</option>
                 <option value="is-offset-11-12">11-12</option>
               </select>
-              </span>
-              </p> 
-			  <p class="control has-addons">               
-				<a class="button is-alert">Flex</a><span class="select">
-				<select name="flx-1" id="flx-1">
-                <option value="" selected></option>
+              </span><span class="select">
+              <select name="flx-1" id="flx-1">
+                <option value="" selected>Flex</option>
                 <option value="flex-grow">grow</option>
                 <option value="flex-shrink">shrink</option>
                 <option value="flex-none">none</option>
               </select>
-              </span>
-              </p> 
-			  <p class="control has-addons">               
-				<a class="button is-alert">Align</a><span class="select">
-				<select name="alignself-1" id="alignself-1">
-                <option value="" selected></option>
+              </span><span class="select">
+              <select name="alignself-1" id="alignself-1">
+                <option value="" selected>Align</option>
                 <option value="align-self-auto">auto</option>
                 <option value="align-self-flex-start">flex-start</option>
                 <option value="align-self-flex-end">flex-end</option>
@@ -1596,7 +1513,79 @@
         <div class="notification is-red">18</div>
       </div>
     </div>
-    <div class="columns">
+    <div id="flex-container" class="box content is-light">
+	  <button class="button is-accent" type="button" style="width:80px;">Container</button>	         
+      <div class="media block flex-wrap-wrap justify-content-space-between">
+	  <p class="control has-addons"> 
+		  <a class="button">flex-direction</a> <span class="select">
+          <select name="flex-direction" id="flex-direction" value="">
+            <option value="flex-direction-row">row</option>
+            <option value="flex-direction-row-reverse">row-reverse</option>
+            <option value="flex-direction-column">column</option>
+            <option value="flex-direction-column-reverse">column-reverse</option>
+          </select>
+          </span> </p>
+        <p class="control has-addons"> <a class="button">flex-wrap</a> <span class="select">
+          <select name="flex-wrap" id="flex-wrap" value="">
+            <option value="flex-wrap-nowrap">nowrap</option>
+            <option value="flex-wrap-wrap">wrap</option>
+            <option value="flex-wrap-wrap-reverse">wrap-reverse</option>
+          </select>
+          </span> </p>
+        <p class="control has-addons"> <a class="button">justify-content</a> <span class="select">
+          <select name="justify-content" id="justify-content" value="">
+            <option value="justify-content-stretch">stretch</option>
+            <option value="justify-content-flex-start">flex-start</option>
+            <option value="justify-content-flex-end">flex-end</option>
+            <option value="justify-content-center">center</option>
+            <option value="justify-content-space-between">space-between</option>
+            <option value="justify-content-space-around">space-around</option>
+          </select>
+          </span> </p>
+        <p class="control has-addons"> <a class="button">align-items</a> <span class="select">
+          <select name="align-items" id="align-items" value="">
+            <option value="align-items-stretch">stretch</option>
+            <option value="align-items-center">center</option>
+            <option value="align-items-flex-start">flex-start</option>
+            <option value="align-items-flex-end">flex-end</option>
+            <option value="align-items-baseline">baseline</option>
+          </select>
+          </span> </p>
+        <p class="control has-addons"> <a class="button">align-content</a> <span class="select">
+          <select name="align-content" id="align-content" value="" label="Align Content">
+            <option value="align-content-stretch">stretch</option>
+            <option value="align-content-flex-start">flex-start</option>
+            <option value="align-content-flex-end">flex-end</option>
+            <option value="align-content-center">center</option>
+            <option value="align-content-space-between">space-between</option>
+            <option value="align-content-space-around">space-around</option>
+          </select>
+          </span> </p>
+        <div class="block">
+          <p class="control button">
+            <label class="checkbox">
+              <input type="checkbox" name="is-gapless" id="is-gapless">
+              is-gapless </label>
+          </p>
+          <p class="control button">
+            <label class="checkbox">
+              <input type="checkbox" name="is-stacked" id="is-stacked">
+              is-stacked </label>
+          </p>
+          <p class="control button">
+            <label class="checkbox">
+              <input type="checkbox" name="is-mobile" id="is-mobile">
+              is-mobile </label>
+          </p>
+          <p class="control button">
+            <label class="checkbox">
+              <input type="checkbox" name="is-desktop" id="is-desktop">
+              is-desktop </label>
+          </p>
+        </div>
+      </div>
+    </div>
+   <div id="flex-code" class="columns">
        <div class="column">
         <div class="box">
           <pre><code id="flx2" class="html hljs xml">&lt;div class=&quot;columns<span class="code-gapless"></span><span class="code-stacked"></span><span class="code-mobile"></span><span class="code-desktop"></span><span class="flex-direction"></span><span class="flex-wrap"></span><span class="justify-content"></span><span class="align-items"></span><span class="align-content"></span>&quot;&gt;  
