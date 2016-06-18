@@ -34,7 +34,7 @@
 	&lt;footer class=&quot;footer&quot;&gt;&lt;/footer&gt;
 &lt;/body&gt;<br />&lt;/html&gt;</code>
 </pre>
-          <a class="button icon-clipboard" data-clipboard-target="#basic-layout"> </a> </div>
+          <a class="button ics-clipboard" data-clipboard-target="#basic-layout"> </a> </div>
       </div>
     </div>
   </div>
@@ -62,7 +62,7 @@
         <div class="box">
           <pre><code id="g1" class="html hljs xml">  &lt;div class=&quot;container&quot;&gt;<br />    &lt;div class=&quot;box is-alert&quot;&gt;.container&lt;/div&gt;<br />  &lt;/div&gt;<br />  &lt;div class=&quot;container is-fluid&quot;&gt;<br />    &lt;div class=&quot;box is-success&quot;&gt;.container.is-fluid&lt;/div&gt;<br />  &lt;/div&gt;</code>
 </pre>
-          <a class="button icon-clipboard" data-clipboard-target="#g1"></a> </div>
+          <a class="button ics-clipboard" data-clipboard-target="#g1"></a> </div>
       </div>
 
     </div>
@@ -95,7 +95,7 @@
         <div class="box">
           <pre><code id="g1" class="html hljs xml">&lt;div class=&quot;square is-16x16 box is-accent&quot;&gt;16&lt;/div&gt;<br />&lt;div class=&quot;square is-32x32 box is-accent&quot;&gt;32&lt;/div&gt;<br />&lt;div class=&quot;square is-48x48 box is-accent&quot;&gt;48&lt;/div&gt;<br />&lt;div class=&quot;square is-64x64 box is-accent&quot;&gt;64&lt;/div&gt;<br />&lt;div class=&quot;square is-96x96 box is-accent&quot;&gt;96&lt;/div&gt;<br />&lt;div class=&quot;square is-128x128 box is-accent&quot;&gt;128&lt;/div&gt;<br />&lt;div class=&quot;square is-256x256 box is-accent&quot;&gt;256&lt;/div&gt;&gt;</code>
 </pre>
-          <a class="button icon-clipboard" data-clipboard-target="#g1"></a> </div>
+          <a class="button ics-clipboard" data-clipboard-target="#g1"></a> </div>
       </div>
     </div>
     <div class="columns">
@@ -143,7 +143,7 @@
         <div class="box">
           <pre><code id="g1" class="html hljs xml">&lt;div class=&quot;ratio is-1by2 box is-accent&quot;&gt;is-1by2&lt;/div&gt;<br />&lt;div class=&quot;ratio is-3by4 box is-accent&quot;&gt;is-3by4&lt;/div&gt;<br />&lt;div class=&quot;ratio is-1by1 box is-accent&quot;&gt;is-1by1&lt;/div&gt;<br />&lt;div class=&quot;ratio is-4by3 box is-accent&quot;&gt;is-4by3&lt;/div&gt;<br />&lt;div class=&quot;ratio is-3by2 box is-accent&quot;&gt;is-3by2&lt;/div&gt;<br />&lt;div class=&quot;ratio is-16by9 box is-accent&quot;&gt;is-16by9&lt;/div&gt;<br />&lt;div class=&quot;ratio is-2by1 box is-accent&quot;&gt;is-2by1&lt;/div&gt;</code>
 </pre>
-          <a class="button icon-clipboard" data-clipboard-target="#g1"></a> </div>
+          <a class="button ics-clipboard" data-clipboard-target="#g1"></a> </div>
       </div>
     </div>
   </div>
@@ -175,7 +175,7 @@
         <div class="box">
           <pre><code id="hero-1" class="html">&lt;section class=&quot;hero is-accent is-bold&quot;&gt;<br />  &lt;div class=&quot;hero-body has-text-centered&quot;&gt;<br />    &lt;div class=&quot;container&quot;&gt;<br />      &lt;h1&gt;Hero with bold accent color.&lt;/h1&gt;<br />    &lt;/div&gt;<br />  &lt;/div&gt;<br />&lt;/section&gt;</code></pre>
           <br>
-          <a class="button icon-clipboard" data-clipboard-target="#hero-1"></a> </div>
+          <a class="button ics-clipboard" data-clipboard-target="#hero-1"></a> </div>
       </div>
     </div>
   </div>
@@ -202,7 +202,7 @@
         <div class="box">
           <pre><code id="hero-2" class="html">&lt;section class=&quot;hero is-medium has-bkd-pattern-3&quot;&gt;<br />  &lt;div class=&quot;hero-body has-text-centered&quot;&gt;<br />    &lt;div class=&quot;container&quot;&gt;<br />      &lt;h1 class=&quot;box&quot;&gt;Medium hero with background pattern&lt;/h1&gt;<br />    &lt;/div&gt;<br />  &lt;/div&gt;<br />&lt;/section&gt;</code></pre>
           <br>
-          <a class="button icon-clipboard" data-clipboard-target="#hero-2"></a> </div>
+          <a class="button ics-clipboard" data-clipboard-target="#hero-2"></a> </div>
       </div>
     </div>
   </div>
@@ -238,7 +238,7 @@
         <div class="box">
           <pre><code id="hero-3" class="html">&lt;section class=&quot;hero is-fullheight has-bkd-image-1&quot;&gt;<br />  &lt;div class=&quot;hero-head is-white fade-3&quot;&gt;<br />    &lt;div class=&quot;container&quot;&gt;<br />      &lt;h1&gt;Hero head with white color.&lt;/h1&gt;<br />    &lt;/div&gt;<br />  &lt;/div&gt;<br />  &lt;div class=&quot;hero-body is-black fade-3&quot;&gt;<br />    &lt;div class=&quot;container&quot;&gt;<br />      &lt;h1 class=&quot;hero-title&quot;&gt;Fullscreen Image Hero with head, body, and foot.&lt;/h1&gt;<br />    &lt;/div&gt;<br />  &lt;/div&gt;<br />  &lt;div class=&quot;hero-foot is-accent fade-1&quot;&gt;<br />    &lt;div class=&quot;container&quot;&gt;<br />      &lt;h1&gt;Hero foot with accent color.&lt;/h1&gt;<br />    &lt;/div&gt;<br />  &lt;/div&gt;<br />&lt;/section&gt;</code></pre>
           <br>
-          <a class="button icon-clipboard" data-clipboard-target="#hero-3"></a> </div>
+          <a class="button ics-clipboard" data-clipboard-target="#hero-3"></a> </div>
       </div>
     </div>
   </div>

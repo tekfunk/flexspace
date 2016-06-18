@@ -72,7 +72,7 @@
 
 $(document).ready(function(){ $(&quot;.loading&quot;).delay(100).fadeOut('fast'); });</code>
 </pre>
-          <a class="button icon-clipboard" data-clipboard-target="#g2"></a> </div>
+          <a class="button ics-clipboard" data-clipboard-target="#g2"></a> </div>
       </div>
     </div>
   </div>

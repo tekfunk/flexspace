@@ -10,7 +10,7 @@
     </div>
     <div class="hero-foot">
       <div class="container">
-        <div class="block has-text-centered"> <a class="button is-primary" href="#palette">palette</a><a class="button is-primary is-disabled" href="#gradients">gradients</a><a class="button is-primary is-disabled" href="#logos">logos</a><a class="button is-primary" href="#icons">icons</a> <a class="button is-primary" href="#backgrounds">backgrounds</a> </div>
+        <div class="block has-text-centered"> <a class="button is-primary" href="#palette">palette</a><a class="button is-primary" href="#icons">icons</a> <a class="button is-primary is-disabled" href="#logos">logos</a><a class="button is-primary" href="#backgrounds">backgrounds</a> </div>
       </div>
     </div>
   </div>
@@ -20,7 +20,7 @@
     <h1>Palette</h1>
     <hr>
     <div class="box content is-light">
-      <p>These are the colors that get mapped <code>.button, .hero, .box, .notification, .message, .burst, .badge, .loaders, .progress</code>. They can be changed in <strong>variables.scss</strong></p>
+      <p>These are the colors that get mapped to such classes as<strong>.button, .hero, .box, .notification, .message, .burst, .badge, .loaders, .progress</strong>. They can be changed in <strong>variables.scss</strong>.  Use like this: <code>&lt;div class=&quot;box is-primary&quot;&gt;&lt;/div&gt;</code>. </p>
     </div>
     <div class="columns is-gapless is-stacked">
       <div class="column is-1-4">
@@ -81,11 +81,163 @@
     </div>
   </div>
 </section>
-<section class="section" id="gradients">
+<section class="section" id="icons">
   <div class="container">
-    <h1>Gradients</h1>
+    <h1>Icons</h1>
     <hr>
-    <div class="box content is-light">Coming Soon.</div>
+    <div class="box content is-light">
+      <p>Icons are font based and built using <a href="https://icomoon.io/app">icomoon. </a>Use <code>&lt;i class=&quot;ics-&quot;&gt;&lt;/i&gt;</code> adding the icon name after <code>ics-</code>.</p>
+      <p>Currently it's a custom set I put together for casadereyes.net, but I will be updating soon with more (like more standard social icons). </p>
+    </div>
+    <div class="columns is-stacked">
+       <div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">news</div><div class="message-body"><i class="ics-news"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">webpage</div><div class="message-body"><i class="ics-webpage"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">menu</div><div class="message-body"><i class="ics-menu"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">list</div><div class="message-body"><i class="ics-list"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">justify</div><div class="message-body"><i class="ics-justify"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">jleft</div><div class="message-body"><i class="ics-jleft"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">jcenter</div><div class="message-body"><i class="ics-jcenter"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">jright</div><div class="message-body"><i class="ics-jright"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">tlist</div><div class="message-body"><i class="ics-tlist"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">table</div><div class="message-body"><i class="ics-table"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">tablelrg</div><div class="message-body"><i class="ics-tablelrg"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">fastback</div><div class="message-body"><i class="ics-fastback"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">stepback</div><div class="message-body"><i class="ics-stepback"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">rewind</div><div class="message-body"><i class="ics-rewind"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">play</div><div class="message-body"><i class="ics-play"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">foward</div><div class="message-body"><i class="ics-foward"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">stepfoward</div><div class="message-body"><i class="ics-stepfoward"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">fastfoward</div><div class="message-body"><i class="ics-fastfoward"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">stop</div><div class="message-body"><i class="ics-stop"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">eject</div><div class="message-body"><i class="ics-eject"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">expand</div><div class="message-body"><i class="ics-expand"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">move</div><div class="message-body"><i class="ics-move"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">chevup</div><div class="message-body"><i class="ics-chevup"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">chevright</div><div class="message-body"><i class="ics-chevright"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">chevdown</div><div class="message-body"><i class="ics-chevdown"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">chevleft</div><div class="message-body"><i class="ics-chevleft"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">cirlecup</div><div class="message-body"><i class="ics-cirlecup"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">circleright</div><div class="message-body"><i class="ics-circleright"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">circledown</div><div class="message-body"><i class="ics-circledown"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">circleleft</div><div class="message-body"><i class="ics-circleleft"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">circlex</div><div class="message-body"><i class="ics-circlex"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">circlecheck</div><div class="message-body"><i class="ics-circlecheck"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">ban</div><div class="message-body"><i class="ics-ban"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">circledot</div><div class="message-body"><i class="ics-circledot"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">circleplay</div><div class="message-body"><i class="ics-circleplay"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">compass</div><div class="message-body"><i class="ics-compass"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">zoomin</div><div class="message-body"><i class="ics-zoomin"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">zoomout</div><div class="message-body"><i class="ics-zoomout"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">ex</div><div class="message-body"><i class="ics-ex"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">check</div><div class="message-body"><i class="ics-check"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">sync</div><div class="message-body"><i class="ics-sync"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">reload</div><div class="message-body"><i class="ics-reload"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">gears</div><div class="message-body"><i class="ics-gears"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">wrench</div><div class="message-body"><i class="ics-wrench"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">exclaim</div><div class="message-body"><i class="ics-exclaim"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">info</div><div class="message-body"><i class="ics-info"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">question</div><div class="message-body"><i class="ics-question"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">lifevest</div><div class="message-body"><i class="ics-lifevest"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">chevupl</div><div class="message-body"><i class="ics-chevupl"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">chevrightl</div><div class="message-body"><i class="ics-chevrightl"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">chevdownl</div><div class="message-body"><i class="ics-chevdownl"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">chevleftl</div><div class="message-body"><i class="ics-chevleftl"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">crosshairs</div><div class="message-body"><i class="ics-crosshairs"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">external</div><div class="message-body"><i class="ics-external"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">edit</div><div class="message-body"><i class="ics-edit"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">share</div><div class="message-body"><i class="ics-share"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">checkbox</div><div class="message-body"><i class="ics-checkbox"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">login</div><div class="message-body"><i class="ics-login"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">logout</div><div class="message-body"><i class="ics-logout"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">users</div><div class="message-body"><i class="ics-users"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">vcard</div><div class="message-body"><i class="ics-vcard"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">print</div><div class="message-body"><i class="ics-print"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">download</div><div class="message-body"><i class="ics-download"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">briefcase</div><div class="message-body"><i class="ics-briefcase"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">home</div><div class="message-body"><i class="ics-home"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">link</div><div class="message-body"><i class="ics-link"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">pencil</div><div class="message-body"><i class="ics-pencil"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">ballpen</div><div class="message-body"><i class="ics-ballpen"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">brush</div><div class="message-body"><i class="ics-brush"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">tackright</div><div class="message-body"><i class="ics-tackright"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">tackleft</div><div class="message-body"><i class="ics-tackleft"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">book</div><div class="message-body"><i class="ics-book"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">bookmark</div><div class="message-body"><i class="ics-bookmark"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">tags</div><div class="message-body"><i class="ics-tags"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">tag</div><div class="message-body"><i class="ics-tag"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">clock</div><div class="message-body"><i class="ics-clock"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">caldot</div><div class="message-body"><i class="ics-caldot"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">calgrid</div><div class="message-body"><i class="ics-calgrid"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">calblank</div><div class="message-body"><i class="ics-calblank"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">doc-pdf</div><div class="message-body"><i class="ics-doc-pdf"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">doc</div><div class="message-body"><i class="ics-doc"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">clipboard</div><div class="message-body"><i class="ics-clipboard"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">envelope</div><div class="message-body"><i class="ics-envelope"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">comments</div><div class="message-body"><i class="ics-comments"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">locked</div><div class="message-body"><i class="ics-locked"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">unlocked</div><div class="message-body"><i class="ics-unlocked"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">key</div><div class="message-body"><i class="ics-key"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">iso</div><div class="message-body"><i class="ics-iso"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">camera</div><div class="message-body"><i class="ics-camera"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">picture</div><div class="message-body"><i class="ics-picture"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">gallery</div><div class="message-body"><i class="ics-gallery"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">aperture</div><div class="message-body"><i class="ics-aperture"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">video</div><div class="message-body"><i class="ics-video"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">globe</div><div class="message-body"><i class="ics-globe"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">location</div><div class="message-body"><i class="ics-location"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">signpost</div><div class="message-body"><i class="ics-signpost"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">highway</div><div class="message-body"><i class="ics-highway"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">paperplane</div><div class="message-body"><i class="ics-paperplane"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">airplane</div><div class="message-body"><i class="ics-airplane"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">rocket</div><div class="message-body"><i class="ics-rocket"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">beaker</div><div class="message-body"><i class="ics-beaker"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">lightbulb</div><div class="message-body"><i class="ics-lightbulb"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">sticker</div><div class="message-body"><i class="ics-sticker"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">sun</div><div class="message-body"><i class="ics-sun"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">extinguish</div><div class="message-body"><i class="ics-extinguish"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">bomb</div><div class="message-body"><i class="ics-bomb"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">dashboard</div><div class="message-body"><i class="ics-dashboard"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">sliders</div><div class="message-body"><i class="ics-sliders"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">playlist</div><div class="message-body"><i class="ics-playlist"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">tape</div><div class="message-body"><i class="ics-tape"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">headphones</div><div class="message-body"><i class="ics-headphones"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">Speaker</div><div class="message-body"><i class="ics-Speaker"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">monitor</div><div class="message-body"><i class="ics-monitor"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">piano</div><div class="message-body"><i class="ics-piano"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">vinyl</div><div class="message-body"><i class="ics-vinyl"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">turntable</div><div class="message-body"><i class="ics-turntable"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">levels-6</div><div class="message-body"><i class="ics-levels-6"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">levels-4</div><div class="message-body"><i class="ics-levels-4"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">jack</div><div class="message-body"><i class="ics-jack"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">waves</div><div class="message-body"><i class="ics-waves"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">stereo</div><div class="message-body"><i class="ics-stereo"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">keyboard</div><div class="message-body"><i class="ics-keyboard"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">macbook</div><div class="message-body"><i class="ics-macbook"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">ipad</div><div class="message-body"><i class="ics-ipad"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">iphone</div><div class="message-body"><i class="ics-iphone"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">gift</div><div class="message-body"><i class="ics-gift"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">wineglass</div><div class="message-body"><i class="ics-wineglass"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">ticketz</div><div class="message-body"><i class="ics-ticketz"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">crown</div><div class="message-body"><i class="ics-crown"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">bones</div><div class="message-body"><i class="ics-bones"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">roulette</div><div class="message-body"><i class="ics-roulette"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">aces-hi</div><div class="message-body"><i class="ics-aces-hi"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">spades</div><div class="message-body"><i class="ics-spades"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">diamonds</div><div class="message-body"><i class="ics-diamonds"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">clubs</div><div class="message-body"><i class="ics-clubs"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">hearts</div><div class="message-body"><i class="ics-hearts"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">infinity</div><div class="message-body"><i class="ics-infinity"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">tumblr-c</div><div class="message-body"><i class="ics-tumblr-c"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">soundcloud-c</div><div class="message-body"><i class="ics-soundcloud-c"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">rss-c</div><div class="message-body"><i class="ics-rss-c"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">email-c</div><div class="message-body"><i class="ics-email-c"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">codepen-c</div><div class="message-body"><i class="ics-codepen-c"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">mixcloud-c</div><div class="message-body"><i class="ics-mixcloud-c"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">github-c</div><div class="message-body"><i class="ics-github-c"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">soundcloud</div><div class="message-body"><i class="ics-soundcloud"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">mixcloud</div><div class="message-body"><i class="ics-mixcloud"></i></div></div></div>
+		<div class="column is-1-3-mobile is-1-10"><div class="message is-light"><div class="message-header">codepen</div><div class="message-body"><i class="ics-codepen"></i></div></div></div>
+    </div>
   </div>
 </section>
 <section class="section" id="logos">
@@ -95,741 +247,20 @@
     <div class="box content is-light">Coming Soon.</div>
   </div>
 </section>
-<section class="section" id="icons">
-  <div class="container">
-    <h1>Icons</h1>
-    <hr>
-    <div class="box content is-light">
-      <p>Icons are font based and built using <a href="https://icomoon.io/app">icomoon. </a>Use <strong>&lt;i class=&quot;ics icon-$name&quot;&gt;&lt;/i&gt;</strong></p>
-      <p>Currently it's a custom set I put together for casadereyes.net, but I will be updating soon with more (like more standard social icons). </p>
-    </div>
-    <div class="columns is-stacked">
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-menu"></i>
-          <p>icon-menu</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-list"></i>
-          <p> icon-list</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-justify"></i>
-          <p> icon-justify</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-jleft"></i>
-          <p> icon-jleft</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-jcenter"></i>
-          <p> icon-jcenter</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-jright"></i>
-          <p> icon-jright</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-tlist"></i>
-          <p> icon-tlist</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-table"></i>
-          <p> icon-table</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-tablelrg"></i>
-          <p> icon-tablelrg</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-fastback"></i>
-          <p> icon-fastback</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-stepback"></i>
-          <p> icon-stepback</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-rewind"></i>
-          <p> icon-rewind</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-play"></i>
-          <p> icon-play</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-foward"></i>
-          <p> icon-foward</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-stepfoward"></i>
-          <p> icon-stepfoward</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-fastfoward"></i>
-          <p> icon-fastfoward</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-stop"></i>
-          <p> icon-stop</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-eject"></i>
-          <p> icon-eject</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-expand"></i>
-          <p> icon-expand</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-move"></i>
-          <p> icon-move</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-chevup"></i>
-          <p> icon-chevup</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-chevright"></i>
-          <p> icon-chevright</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-chevdown"></i>
-          <p> icon-chevdown</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-chevleft"></i>
-          <p> icon-chevleft</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-cirlecup"></i>
-          <p> icon-cirlecup</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-circleright"></i>
-          <p> icon-circleright</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-circledown"></i>
-          <p> icon-circledown</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-circleleft"></i>
-          <p> icon-circleleft</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-circlex"></i>
-          <p> icon-circlex</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-circlecheck"></i>
-          <p> icon-circlecheck</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-ban"></i>
-          <p> icon-ban</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-circledot"></i>
-          <p> icon-circledot</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-circleplay"></i>
-          <p> icon-circleplay</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-compass"></i>
-          <p> icon-compass</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-zoomin"></i>
-          <p> icon-zoomin</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-zoomout"></i>
-          <p> icon-zoomout</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-ex"></i>
-          <p> icon-ex</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-check"></i>
-          <p> icon-check</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-sync"></i>
-          <p> icon-sync</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-reload"></i>
-          <p> icon-reload</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-gears"></i>
-          <p> icon-gears</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-wrench"></i>
-          <p> icon-wrench</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-info"></i>
-          <p> icon-info</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-question"></i>
-          <p> icon-question</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-external"></i>
-          <p> icon-external</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-edit"></i>
-          <p> icon-edit</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-share"></i>
-          <p> icon-share</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-checkbox"></i>
-          <p> icon-checkbox</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-exclaim"></i>
-          <p> icon-exclaim</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-print"></i>
-          <p> icon-print</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-download"></i>
-          <p> icon-download</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-crosshairs"></i>
-          <p> icon-crosshairs</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-home"></i>
-          <p> icon-home</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-link"></i>
-          <p> icon-link</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-book"></i>
-          <p> icon-book</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-bookmark"></i>
-          <p> icon-bookmark</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-tags"></i>
-          <p> icon-tags</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-tag"></i>
-          <p>icon-tag 
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-tackright"></i>
-          <p> icon-tackright</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-clock"></i>
-          <p> icon-clock</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-calgrid"></i>
-          <p> icon-calgrid</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-calblank"></i>
-          <p> icon-calblank</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-keyboard"></i>
-          <p> icon-keyboard</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-contact"></i>
-          <p> icon-contact</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-envelope"></i>
-          <p> icon-envelope</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-comments"></i>
-          <p> icon-comments</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-pencil"></i>
-          <p> icon-pencil</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-locked"></i>
-          <p> icon-locked</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-unlocked"></i>
-          <p> icon-unlocked</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-camera"></i>
-          <p> icon-camera</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-picture"></i>
-          <p> icon-picture</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-gallery"></i>
-          <p> icon-gallery</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-video"></i>
-          <p> icon-video</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-headphones"></i>
-          <p> icon-headphones</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-highway"></i>
-          <p> icon-highway</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-airplane"></i>
-          <p> icon-airplane</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-beaker"></i>
-          <p> icon-beaker</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-brush"></i>
-          <p> icon-brush</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-lightbulb"></i>
-          <p> icon-lightbulb</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-extinguish"></i>
-          <p> icon-extinguish</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-globe"></i>
-          <p> icon-globe</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-sun"></i>
-          <p> icon-sun</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-location"></i>
-          <p> icon-location</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-lifevest"></i>
-          <p> icon-lifevest</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-rocket"></i>
-          <p> icon-rocket</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-sticker"></i>
-          <p> icon-sticker</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-bomb"></i>
-          <p> icon-bomb</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-Jack"></i>
-          <p> icon-Jack</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-Speaker"></i>
-          <p> icon-Speaker</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-monitor"></i>
-          <p> icon-monitor</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-vcard tile"></i>
-          <p> icon-vcard</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-sliders"></i>
-          <p> icon-sliders</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-Levels"></i>
-          <p> icon-Levels</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-Levels_4"></i>
-          <p> icon-Levels_4</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-Vinyl"></i>
-          <p> icon-Vinyl</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-turntable"></i>
-          <p> icon-turntable</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-webpage"></i>
-          <p> icon-webpage</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-chevupl"></i>
-          <p> icon-chevupl</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-chevrightl"></i>
-          <p> icon-chevrightl</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-chevdownl"></i>
-          <p> icon-chevdownl</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-chevleftl"></i>
-          <p> icon-chevleftl</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-dashboard"></i>
-          <p> icon-dashboard</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-briefcase"></i>
-          <p> icon-briefcase</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-tackleft"></i>
-          <p> icon-tackleft</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-caldot"></i>
-          <p> icon-caldot</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-paperplane"></i>
-          <p> icon-paperplane</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-users"></i>
-          <p> icon-users</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-login"></i>
-          <p> icon-login</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-logout"></i>
-          <p> icon-logout</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-key"></i>
-          <p> icon-key</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-tape"></i>
-          <p> icon-tape</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-piano"></i>
-          <p> icon-piano</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-waves"></i>
-          <p> icon-waves</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-stereo"></i>
-          <p> icon-stereo</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-signpost"></i>
-          <p> icon-signpost</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-gift"></i>
-          <p> icon-gift</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-tumblr-o"></i>
-          <p> icon-tumblr-o</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-rss-o"></i>
-          <p> icon-rss-o</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-mixcloud-o"></i>
-          <p> icon-mixcloud-o</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-soundcloud-o"></i>
-          <p> icon-soundcloud-o</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-email-o"></i>
-          <p> icon-email-o</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-soundcloud"></i>
-          <p> icon-soundcloud</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-news"></i>
-          <p> icon-news</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-aperture"></i>
-          <p> icon-aperture</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-iso"></i>
-          <p> icon-iso</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-ballpen"></i>
-          <p> icon-ballpen</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-wineglass"></i>
-          <p> icon-wineglass</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-ticketz"></i>
-          <p> icon-ticketz</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-macbook"></i>
-          <p> icon-macbook</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-ipad"></i>
-          <p> icon-ipad</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-iphone"></i>
-          <p> icon-iphone</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-infinity"></i>
-          <p> icon-infinity</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-rollthe"></i>
-          <p> icon-rollthe</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-aceshi"></i>
-          <p> icon-aceshi</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-spades"></i>
-          <p> icon-spades</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-diamonds"></i>
-          <p> icon-diamonds</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-clubs"></i>
-          <p> icon-clubs</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-hearts"></i>
-          <p> icon-hearts</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-roulette"></i>
-          <p> icon-roulette</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-crown"></i>
-          <p> icon-crown</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-pdf-doc"></i>
-          <p> icon-pdf-doc</p>
-        </div>
-      </div>
-      <div class="column is-1-3-mobile is-1-10">
-        <div class="box"> <i class="ics icon-clipboard"></i>
-          <p> icon-clipboard</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 <section class="section" id="backgrounds">
   <div class="container">
     <h1>Backgrounds</h1>
     <hr>
     <div class="box content is-light">
       <p>In variables.scss you can assign background images and patterns to use. SVG, JPG, PNG, & GIF all work.  With the exception of has-bkd-pattern, they are all centered and set to cover the div.</p>
+      <p>Use like this: <code>&lt;section class=&quot;section has-flxs-hero-1&quot;&gt;&lt;/section&gt;</code>.</p>
     </div>
     <h3>Hero</h3>
     <div class="columns is-stacked to-edges">
       <div class="column is-1-2">
         <div class="mod has-flxs-hero-1">
           <div class="mod-header" style="background-color: rgba( 255,255,255,.6)">
-            <p class="mod-header-title"><strong>.has-flxs-hero-1</strong> $flxs-hero-1: url('../art/blue-hero-03.svg') ;</p>
+            <p class="mod-header-title"><strong>.has-flxs-hero-1</strong></p>
           </div>
           <div class="mod-content" style="height: 220px;"> </div>
         </div>
@@ -837,7 +268,7 @@
       <div class="column is-1-2">
         <div class="mod has-flxs-hero-2">
           <div class="mod-header" style="background-color: rgba( 255,255,255,.6)">
-            <p class="mod-header-title"><strong>.has-flxs-hero-2</strong>$flxs-hero-2: url('../art/blue-hero-02.svg') ;</p>
+            <p class="mod-header-title"><strong>.has-flxs-hero-2</strong></p>
           </div>
           <div class="mod-content" style="height: 220px;"> </div>
         </div>
@@ -845,7 +276,7 @@
       <div class="column is-1-2">
         <div class="mod has-flxs-hero-3">
           <div class="mod-header" style="background-color: rgba( 255,255,255,.6)">
-            <p class="mod-header-title"><strong>.has-flxs-hero-3</strong>$flxs-hero-3: url('../art/gear-lined.svg') ;</p>
+            <p class="mod-header-title"><strong>.has-flxs-hero-3</strong></p>
           </div>
           <div class="mod-content" style="height: 220px;"> </div>
         </div>
@@ -853,7 +284,7 @@
       <div class="column is-1-2">
         <div class="mod has-flxs-hero-4">
           <div class="mod-header" style="background-color: rgba( 255,255,255,.6)">
-            <p class="mod-header-title"><strong>.has-flxs-hero-4</strong>$flxs-hero-4: url('../art/gear-bknd.svg') ; </p>
+            <p class="mod-header-title"><strong>.has-flxs-hero-4</strong> </p>
           </div>
           <div class="mod-content" style="height: 220px;"> </div>
         </div>
@@ -934,7 +365,7 @@
       <div class="column is-1-4">
         <div class="mod has-bkd-pattern-1">
           <div class="mod-header" style="background-color: rgba( 255,255,255,.6)">
-            <p class="mod-header-title"><strong>.has-bkd-pattern-1</strong>$bkd-pattern-1: url('../art/radiate.svg');</p>
+            <p class="mod-header-title"><strong>.has-bkd-pattern-1</strong></p>
           </div>
           <div class="mod-content" style="height: 220px;"> </div>
         </div>
@@ -942,7 +373,7 @@
       <div class="column is-1-4">
         <div class="mod has-bkd-pattern-2">
           <div class="mod-header" style="background-color: rgba( 255,255,255,.6)">
-            <p class="mod-header-title"><strong>.has-bkd-pattern-2</strong>$bkd-pattern-2: url('../art/dot-space-2.svg');</p>
+            <p class="mod-header-title"><strong>.has-bkd-pattern-2</strong></p>
           </div>
           <div class="mod-content" style="height: 220px;"> </div>
         </div>
@@ -950,7 +381,7 @@
       <div class="column is-1-4">
         <div class="mod has-bkd-pattern-3">
           <div class="mod-header" style="background-color: rgba( 255,255,255,.6)">
-            <p class="mod-header-title"><strong>.has-bkd-pattern-3</strong>$bkd-pattern-3: url('../art/dot-space-3.svg');</p>
+            <p class="mod-header-title"><strong>.has-bkd-pattern-3</strong></p>
           </div>
           <div class="mod-content" style="height: 220px;"> </div>
         </div>
@@ -958,7 +389,7 @@
       <div class="column is-1-4">
         <div class="mod has-bkd-pattern-4">
           <div class="mod-header" style="background-color: rgba( 255,255,255,.6)">
-            <p class="mod-header-title"><strong>.has-bkd-pattern-4</strong>$bkd-pattern-4: url('../art/dot-space-4.svg');</p>
+            <p class="mod-header-title"><strong>.has-bkd-pattern-4</strong></p>
           </div>
           <div class="mod-content" style="height: 220px;"> </div>
         </div>

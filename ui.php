@@ -25,16 +25,16 @@
         <div class="media block to-edges"> <a class="button is-primary">Primary</a> <a class="button is-red">Red</a> <a class="button is-accent">Accent</a> <a class="button is-success">Success</a> <a class="button is-alert">Alert</a> </div>
         <div class="content">
           <div class="box content is-light">
-            <p>To create a button, add <code>.button</code>.</p>
-            <p>Colors can be assigned with <code>.is-white</code>(etc) from the choices in the code box. </p>
-            <p>Corners can be adjusted with <code>$box-radius</code> variable.</p>
+            <p>To create a button, use <code>&lt;a class=&quot;button&quot;&gt;&lt;/a&gt;</code>.</p>
+            <p>Colors can be assigned with <strong>.is-white</strong>, etc. from the choices in the code box. </p>
+            <p>Corners can be adjusted with <strong>$box-radius</strong> variable.</p>
           </div>
         </div>
       </div>
       <div class="column">
         <div class="box">
           <pre>
-<code id="ui-1" class="html">&lt;a class=&quot;a&quot;&gt;Button&lt;/a&gt;
+<code id="ui-1" class="html">&lt;a class=&quot;button&quot;&gt;Button&lt;/a&gt;
 &lt;a class=&quot;button is-white&quot;&gt;White&lt;/a&gt;
 &lt;a class=&quot;button is-light&quot;&gt;Light&lt;/a&gt;
 &lt;a class=&quot;button is-dark&quot;&gt;Dark&lt;/a&gt;
@@ -47,34 +47,31 @@
 &lt;a class=&quot;button is-alert&quot;&gt;Alert&lt;/a&gt;
 </code>
 </pre>
-          <a class="button icon-clipboard" data-clipboard-target="#ui-1"></a> </div>
+          <a class="button ics-clipboard" data-clipboard-target="#ui-1"></a> </div>
       </div>
     </div>
     <hr>
     <div class="columns">
       <div class="column">
-        <div class="media block to-edges"> <a class="button"><i class="ics icon-rollthe"></i>Throw Dice</a> <a class="button is-primary"><i class="ics icon-headphones"></i>Listen</a> <a class="button is-secondary is-outlined"><i class="ics icon-lightbulb"></i>Get Ideas</a> <a class="button is-success"><i class="ics icon-circlecheck"></i>OK</a> </div>
+        <div class="media block to-edges"> <a class="button"><i class="ics-bones"></i><span>Throw Dice</span></a> <a class="button is-primary"><i class="ics-headphones"></i><span>Listen</span></a> <a class="button is-secondary is-outlined"><i class="ics-lightbulb"></i>Get Ideas</a> <a class="button is-success"><i class="ics-circlecheck"></i><span>OK</span></a> </div>
         <div class="media block to-edges"> <a class="button is-small">Small</a> <a class="button">Normal</a> <a class="button is-medium">Medium</a> <a class="button is-large">Large</a> </div>
         <div class="content">
           <div class="box content is-light">
-            <p><a href="art.php">Available icons</a> can be added with <code>&lt;i class=&quot;ics icon-$name&quot;&gt;&lt;/i&gt;</code></p>
-            <p>Other Sizes can be assigned with <code>.is-small</code>, .<code>is-medium</code>, .<code>is-large</code>.</p>
+            <p><a href="art.php">Available icons</a> can be added with <code>&lt;i class=&quot;ics-name&quot;&gt;&lt;/i&gt;</code></p>
+            <p>Other Sizes can be assigned with <strong>.is-small</strong>, .<strong>is-medium</strong>, .<strong>is-large</strong>.</p>
           </div>
         </div>
       </div>
       <div class="column">
         <div class="box">
           <pre>
-<code id="ui-2" class="html">&lt;a class=&quot;button&quot;&gt;
-  &lt;i class=&quot;ics icon-rollthe&quot;&gt;&lt;/i&gt;
-  Throw Dice
-&lt;/a&gt; <br />&lt;a class=&quot;button is-primary&quot;&gt;&lt;i class=&quot;ics icon-headphones&quot;&gt;&lt;/i&gt;Listen&lt;/a&gt; <br />&lt;a class=&quot;button is-secondary is-outlined&quot;&gt;&lt;i class=&quot;ics icon-lightbulb&quot;&gt;&lt;/i&gt;Get Ideas&lt;/a&gt; <br />&lt;a class=&quot;button is-success&quot;&gt;&lt;i class=&quot;ics icon-circlecheck&quot;&gt;&lt;/i&gt;OK&lt;/a&gt; 
+<code id="ui-2" class="html">&lt;a class=&quot;button&quot;&gt;&lt;i class=&quot;ics-bones&quot;&gt;&lt;/i&gt&lt;span&gt;Throw Dice&lt;/span&gt;&lt;/a&gt; <br />&lt;a class=&quot;button is-primary&quot;&gt;&lt;i class=&quot;ics-headphones&quot;&gt;&lt;/i&gt;&lt;span&gt;Listen&lt;/span&gt;&lt;/a&gt; <br />&lt;a class=&quot;button is-secondary is-outlined&quot;&gt;&lt;i class=&quot;ics-lightbulb&quot;&gt;&lt;/i&gt;&lt;span&gt;Get Ideas&lt;/span&gt;&lt;/a&gt; <br />&lt;a class=&quot;button is-success&quot;&gt;&lt;i class=&quot;ics-circlecheck&quot;&gt;&lt;/i&gt;OK&lt;/a&gt; 
 &lt;a class=&quot;button is-small&quot;&gt;Small&lt;/a&gt;
 &lt;a class=&quot;button is-medium&quot;&gt;Medium&lt;/a&gt;
 &lt;a class=&quot;button is-large&quot;&gt;Large&lt;/a&gt;
 </code>
 </pre>
-          <a class="button icon-clipboard" data-clipboard-target="#ui-2"></a> </div>
+          <a class="button ics-clipboard" data-clipboard-target="#ui-2"></a> </div>
       </div>
     </div>
     <hr>
@@ -89,7 +86,7 @@
         <div class="content">
           <div class="box content is-light">
             <p>These variations are avaiable for buttons:</p>
-            <p><code>.is-inverted</code> <code>.is-outlined</code> <code>.is-disabled</code></p>
+            <p><strong>.is-inverted</strong> <strong>.is-outlined</strong> <strong>.is-disabled</strong></p>
           </div>
         </div>
       </div>
@@ -100,7 +97,7 @@
 &lt;a class=&quot;button is-outlined&quot;&gt;Outlined&lt;/a&gt;
 &lt;a class=&quot;button is-disabled&quot;&gt;Disabled&lt;/a&gt;</code>
   </pre>
-          <a class="button icon-clipboard" data-clipboard-target="#ui-3"></a> </div>
+          <a class="button ics-clipboard" data-clipboard-target="#ui-3"></a> </div>
       </div>
     </div>
     <hr>
@@ -114,8 +111,8 @@
         </div>
         <div class="content">
           <div class="box content is-light">
-            <p>If you want to group buttons, use <code>.is-grouped</code> on <code>.control</code>.</p>
-            <p>If you want to use buttons as addons, use <code>.has-addons</code> on <code>.control</code>.</p>
+            <p>If you want to group buttons, use <strong>.is-grouped</strong> on <strong>.control</strong>.</p>
+            <p>If you want to use buttons as addons, use <strong>.has-addons</strong> on <strong>.control</strong>.</p>
           </div>
         </div>
       </div>
@@ -133,7 +130,7 @@
   &lt;a class=&quot;button&quot;&gt; &lt;span&gt;Right&lt;/span&gt;&lt;/a&gt;
 &lt;/p&gt;</code>
   </pre>
-          <a class="button icon-clipboard" data-clipboard-target="#ui-4"></a> </div>
+          <a class="button ics-clipboard" data-clipboard-target="#ui-4"></a> </div>
       </div>
     </div>
   </div>
@@ -165,7 +162,7 @@
           <li><a>Twenty Thirteen</a></li>
         </ul>
       </li>
-      <li class="nav-item"><a><div class="button is-primary"><span class="icon"><i class="ics icon-question"></i></span></div></a></li>
+      <li class="nav-item"><a><div class="button is-primary"><i class="ics-question"></i></div></a></li>
     </ul>
   </div>
 </nav>
@@ -174,13 +171,13 @@
 <div class="columns">
   <div class="column is-1-2">
      <div class="box content is-light content">
-      <p>Use<code>.nav-left, & .nav-right</code> for different sides.</p>
-       <p>Use<code>.nav-item</code> for links, logos, buttons, icons, tabs. <code>.nav-item</code> can also have colors assigned. </p>
-       <p>Links can be nested inside &lt;ul&gt;&lt;li&gt;&lt;ul&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt; to make dropdown links.</p>
-      <p><code>.nav-item</code> can be a <code>tab</code> by using <code>.is-tab</code>.</p>
+      <p>Use<strong>.nav-left, & .nav-right</strong> for different sides.</p>
+       <p>Use<strong>.nav-item</strong> for links, logos, buttons, icons, tabs. <strong>.nav-item</strong> can also have colors assigned. </p>
+       <p>Links can be nested inside <code>&lt;ul&gt;&lt;li&gt;&lt;ul&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</code> to make dropdown links.</p>
+      <p><strong>.nav-item</strong> can be a <strong>tab</strong> by using <strong>.is-tab</strong>.</p>
 
-      <p><code>.nav-item</code> can be <code>active</code> by using <code>.is-active</code>.</p>
-            <p>For a <code>shadow</code> use <code>.has-shadow</code>.</p>
+      <p><strong>.nav-item</strong> can be <strong>active</strong> by using <strong>.is-active</strong>.</p>
+            <p>For a <strong>shadow</strong> use <strong>.has-shadow</strong>.</p>
             <p>&nbsp;</p>
 
      </div>
@@ -189,10 +186,10 @@
       <div class="box">
         <pre>
     <code id="ui-5" class="html">&lt;nav class=&quot;nav has-shadow&quot;&gt;<br />  &lt;div class=&quot;container&quot;&gt;<br />    &lt;div class=&quot;nav-left&quot;&gt;<br />      &lt;a&gt;&lt;img width=&quot;120&quot; height=&quot;60&quot; src=&quot;http://media.casadereyes.net/xfr/casa-logo.png&quot;&gt;&lt;/a&gt;
-	&lt;/div&gt;<br />    &lt;ul class=&quot;nav-right nav-menu&quot;&gt;<br />      &lt;li class=&quot;nav-item is-primary&quot;&gt;&lt;a&gt;Portfolio&lt;/a&gt;&lt;/li&gt;<br />      &lt;li class=&quot;nav-item is-primary&quot;&gt;&lt;a&gt;Lab&lt;/a&gt;&lt;/li&gt;<br />      &lt;li class=&quot;nav-item is-primary&quot;&gt;&lt;a&gt;Photos&lt;/a&gt;<br />        &lt;ul&gt;<br />          &lt;li&gt;&lt;a&gt;Travel&lt;/a&gt;&lt;/li&gt;<br />          &lt;li&gt;&lt;a&gt;Abstract&lt;/a&gt;&lt;/li&gt;<br />          &lt;li&gt;&lt;a&gt;Etc&lt;/a&gt;&lt;/li&gt;<br />        &lt;/ul&gt;<br />      &lt;/li&gt;<br />      &lt;li class=&quot;nav-item is-primary&quot;&gt;&lt;a&gt;Mixes&lt;/a&gt;<br />        &lt;ul&gt;<br />          &lt;li&gt;&lt;a&gt;Twenty Fifteen&lt;/a&gt;&lt;/li&gt;<br />          &lt;li&gt;&lt;a&gt;Twenty Fourteen&lt;/a&gt;&lt;/li&gt;<br />          &lt;li&gt;&lt;a&gt;Twenty Thirteen&lt;/a&gt;&lt;/li&gt;<br />        &lt;/ul&gt;<br />      &lt;/li&gt;<br />      &lt;li class=&quot;nav-item&quot;&gt;&lt;a&gt;&lt;div class=&quot;button is-primary&quot;&gt;&lt;span class=&quot;icon&quot;&gt;&lt;i class=&quot;ics icon-question&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;&lt;/a&gt;&lt;/li&gt;
+	&lt;/div&gt;<br />    &lt;ul class=&quot;nav-right nav-menu&quot;&gt;<br />      &lt;li class=&quot;nav-item is-primary&quot;&gt;&lt;a&gt;Portfolio&lt;/a&gt;&lt;/li&gt;<br />      &lt;li class=&quot;nav-item is-primary&quot;&gt;&lt;a&gt;Lab&lt;/a&gt;&lt;/li&gt;<br />      &lt;li class=&quot;nav-item is-primary&quot;&gt;&lt;a&gt;Photos&lt;/a&gt;<br />        &lt;ul&gt;<br />          &lt;li&gt;&lt;a&gt;Travel&lt;/a&gt;&lt;/li&gt;<br />          &lt;li&gt;&lt;a&gt;Abstract&lt;/a&gt;&lt;/li&gt;<br />          &lt;li&gt;&lt;a&gt;Etc&lt;/a&gt;&lt;/li&gt;<br />        &lt;/ul&gt;<br />      &lt;/li&gt;<br />      &lt;li class=&quot;nav-item is-primary&quot;&gt;&lt;a&gt;Mixes&lt;/a&gt;<br />        &lt;ul&gt;<br />          &lt;li&gt;&lt;a&gt;Twenty Fifteen&lt;/a&gt;&lt;/li&gt;<br />          &lt;li&gt;&lt;a&gt;Twenty Fourteen&lt;/a&gt;&lt;/li&gt;<br />          &lt;li&gt;&lt;a&gt;Twenty Thirteen&lt;/a&gt;&lt;/li&gt;<br />        &lt;/ul&gt;<br />      &lt;/li&gt;<br />      &lt;li class=&quot;nav-item&quot;&gt;&lt;a&gt;&lt;div class=&quot;button is-primary&quot;&gt;&lt;span class=&quot;icon&quot;&gt;&lt;i class=&quot;ics-question&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;&lt;/a&gt;&lt;/li&gt;
 	&lt;/ul&gt;<br />  &lt;/div&gt;<br />&lt;/nav&gt;</code>
   </pre>
-        <a class="button icon-clipboard" data-clipboard-target="#ui-5"></a> </div>
+        <a class="button ics-clipboard" data-clipboard-target="#ui-5"></a> </div>
     </div>
   </div>
 </div>
@@ -201,11 +198,10 @@
   <div class="container">
     <h1>Toggle<div class="badge is-secondary is-small" style="margin:12px 0 0 8px;">jQuery</div></h1>
     <hr>
-    <div class="notification is-primary" style="height: 80px;">	
-	    <a href class="toggle-btn on-left on-div-edge"><i class="ics icon-list"></i></a>
+    <div class="notification is-primary" style="height: 120px;">	
+	    <a class="toggle-btn on-left on-div-edge"><i class="ics-list"></i></a>
 	<div id="toggle-window" class="toggle-window is-dark on-div-edge">					
-		<a href class="toggle-btn-close on-left on-div-edge"><i class="ics icon-ex"></i></a>
-		<h1>Toggled!</h1>
+		<a class="toggle-btn-close on-left on-div-edge"><i class="ics-ex"></i></a>
 	</div>
 </div>
  <hr>
@@ -213,25 +209,21 @@
   <div class="column is-1-2">
      <div class="box content is-light content">
       <p>Toggle is a hidden content window that opens with a click. It can be used for such things as a mobile device menu.</p>
-      <p>There are 3 elements, the open button <code>.toggle-btn</code>, the close button <code>.toggle-btn-close</code>, and the content window <code>.toggle-window</code>.</p>
-      <p>Use <code>.on-win-edge</code> to have the button aligned to the browser window, and <code>.on-div-edge</code> to align to it's parent div. Use the same classes on the content window to either have it cover the whole page or just it's parent div.</p>
-      <p>Use <code>.on-left</code> and <code>.on-right</code> to align the buttons. They will always appear at the top of the window or div.</p>     
-      <p>Use <code>.is-primary</code>, etc to assign colors to <code>.toggle-window</code>.</p>
-      
-      
-  
-
+      <p>There are 3 elements, the open button <strong>.toggle-btn</strong>, the close button <strong>.toggle-btn-close</strong>, and the content window <strong>.toggle-window</strong>.</p>
+      <p>Use <strong>.on-win-edge</strong> to have the button aligned to the browser window, and <strong>.on-div-edge</strong> to align to it's parent div. Use the same classes on the content window to either have it cover the whole page or just it's parent div.</p>
+      <p>Use <strong>.on-left</strong> and <strong>.on-right</strong> to align the buttons. They will always appear at the top of the window or div.</p>     
+      <p>Use <strong>.is-primary</strong>, etc to assign colors to <strong>.toggle-window</strong>.</p>
      </div>
     </div>
     <div class="column is-1-2">
       <div class="box">
         <pre>
-    <code id="ui-6" class="html">&lt;a href class=&quot;toggle-btn on-left on-div-edge&quot;&gt;&lt;i class=&quot;ics icon-list&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+    <code id="ui-6" class="html">&lt;a class=&quot;toggle-btn on-left on-div-edge&quot;&gt;&lt;i class=&quot;ics-list&quot;&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;div id=&quot;toggle-window&quot; class=&quot;toggle-window is-dark on-div-edge&quot;&gt;				
-  &lt;a href class=&quot;toggle-btn-close on-left on-div-edge&quot;&gt;&lt;i class=&quot;ics icon-ex&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+  &lt;a class=&quot;toggle-btn-close on-left on-div-edge&quot;&gt;&lt;i class=&quot;ics-ex&quot;&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;/div&gt;</code>
   </pre>
-        <a class="button icon-clipboard" data-clipboard-target="#ui-6"></a> </div>
+        <a class="button ics-clipboard" data-clipboard-target="#ui-6"></a> </div>
     </div>
   </div>
 
