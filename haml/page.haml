@@ -26,9 +26,35 @@
           .box
             %pre
               %code#basic-layout.html 
-                :escaped 
-                  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-                  <html>                  ! I feel #{"<strong>"}                
+                &= '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">'
+                = '<br>'
+                &= '<html>'
+                = '<br>'
+                &= '<head>'
+                = '<br>  '
+                &= '<meta name="viewport" content="width=device-width, initial-scale=1">'
+                = '<br>  '
+                &= '<title>flexspace</title>'
+                = '<br>  '
+                &= '<link rel="stylesheet" href="/css/flexspace.css" type="text/css" >'
+                = '<br>'
+                &= '</head>'
+                = '<br>'
+                &= '<body>'
+                = '<br>  '
+                &= '	<header class="header"></header>'
+                = '<br>  '
+                &= '	<section class="hero"></section>'
+                = '<br>  '
+                &= '	<section class="section"></section>'
+                = '<br>  '
+                &= '	<footer class="footer"></footer>'
+                = '<br>'
+                &= '</body>'
+                = '<br>'
+                &= '</html>'
+                = '<br>'
+            %br
             %a.button.ics-clipboard{"data-clipboard-target" => "#basic-layout"} 
 %section#container.section
   .container
@@ -51,18 +77,20 @@
         .column.is-1-2
           .box
             %pre
-              %code#g1.html.hljs.xml
-                \&lt;div class=&quot;container&quot;&gt;
-                %br/
-                \&lt;div class=&quot;box is-alert&quot;&gt;.container&lt;/div&gt;
-                %br/
-                \&lt;/div&gt;
-                %br/
-                \&lt;div class=&quot;container is-fluid&quot;&gt;
-                %br/
-                \&lt;div class=&quot;box is-success&quot;&gt;.container.is-fluid&lt;/div&gt;
-                %br/
-                \&lt;/div&gt;
+              %code#g1.html
+                &= '<div class="container">'
+                = '<br>  '
+                &= '<div class="box is-alert">.container</div>'
+                = '<br>'
+                &= '</div>'
+                = '<br>'
+                = '<br>'
+                &= '<div class="container is-fluid">'
+                = '<br>  '
+                &= '<div class="box is-success">.container.is-fluid</div>'
+                = '<br>'
+                &= '</div>'            
+            %br
             %a.button.ics-clipboard{"data-clipboard-target" => "#g1"}
 %section#sizes.section
   .container
@@ -85,21 +113,22 @@
         .column.is-1-2
           .box
             %pre
-              %code#g1.html.hljs.xml
-                \&lt;div class=&quot;square is-16x16 box is-accent&quot;&gt;16&lt;/div&gt;
-                %br>/
-                \&lt;div class=&quot;square is-32x32 box is-accent&quot;&gt;32&lt;/div&gt;
-                %br>/
-                \&lt;div class=&quot;square is-48x48 box is-accent&quot;&gt;48&lt;/div&gt;
-                %br>/
-                \&lt;div class=&quot;square is-64x64 box is-accent&quot;&gt;64&lt;/div&gt;
-                %br>/
-                \&lt;div class=&quot;square is-96x96 box is-accent&quot;&gt;96&lt;/div&gt;
-                %br>/
-                \&lt;div class=&quot;square is-128x128 box is-accent&quot;&gt;128&lt;/div&gt;
-                %br>/
-                \&lt;div class=&quot;square is-256x256 box is-accent&quot;&gt;256&lt;/div&gt;&gt;
-            %a.button.ics-clipboard{"data-clipboard-target" => "#g1"}
+              %code#sq.html
+                &= '<div class="square is-16x16 box is-accent">16</div>'
+                = '<br>'
+                &= '<div class="square is-32x32 box is-accent">32</div>'
+                = '<br>'
+                &= '<div class="square is-48x48 box is-accent">48</div>'
+                = '<br>'
+                &= '<div class="square is-64x64 box is-accent">64</div>'
+                = '<br>'
+                &= '<div class="square is-96x96 box is-accent">96</div>'
+                = '<br>'
+                &= '<div class="square is-128x128 box is-accent">128</div>'
+                = '<br>'
+                &= '<div class="square is-256x256 box is-accent">256</div>'
+            %br
+            %a.button.ics-clipboard{"data-clipboard-target" => "#sq"}
       .columns
         .column.is-1-2
           .box.content.is-light
@@ -141,20 +170,21 @@
         .column.is-1-2
           .box
             %pre
-              %code#g1.html.hljs.xml
-                \&lt;div class=&quot;ratio is-1by2 box is-accent&quot;&gt;is-1by2&lt;/div&gt;
-                %br>/
-                \&lt;div class=&quot;ratio is-3by4 box is-accent&quot;&gt;is-3by4&lt;/div&gt;
-                %br>/
-                \&lt;div class=&quot;ratio is-1by1 box is-accent&quot;&gt;is-1by1&lt;/div&gt;
-                %br>/
-                \&lt;div class=&quot;ratio is-4by3 box is-accent&quot;&gt;is-4by3&lt;/div&gt;
-                %br>/
-                \&lt;div class=&quot;ratio is-3by2 box is-accent&quot;&gt;is-3by2&lt;/div&gt;
-                %br>/
-                \&lt;div class=&quot;ratio is-16by9 box is-accent&quot;&gt;is-16by9&lt;/div&gt;
-                %br>/
-                \&lt;div class=&quot;ratio is-2by1 box is-accent&quot;&gt;is-2by1&lt;/div&gt;
+              %code#g1.html
+                &= '<div class="ratio is-1by2 box is-accent">is-1by2</div>'
+                = '<br>'
+                &= '<div class="ratio is-3by4 box is-accent">is-3by4</div>'
+                = '<br>'
+                &= '<div class="ratio is-1by1 box is-accent">is-1by1</div>'
+                = '<br>'
+                &= '<div class="ratio is-4by3 box is-accent">is-4by3</div>'
+                = '<br>'
+                &= '<div class="ratio is-3by2 box is-accent">is-3by2</div>'
+                = '<br>'
+                &= '<div class="ratio is-16by9 box is-accent">is-16by9</div>'
+                = '<br>'
+                &= '<div class="ratio is-2by1 box is-accent">is-2by1</div>'
+            %br
             %a.button.ics-clipboard{"data-clipboard-target" => "#g1"}
 %section.section
   #hero.container
@@ -175,25 +205,24 @@
             %code .is-white, .is-black, .is-light, .is-dark, .is-primary, .is-accent, .is-success, .is-alert, & .is-secondary.
           %p
             A subtle gradient can be applied with
-            = succeed "." do
-              %code .is-bold
+            %code .is-bold
       .column.is-1-2
         .box
           %pre
             %code#hero-1.html
-              \&lt;section class=&quot;hero is-accent is-bold&quot;&gt;
-              %br/
-              \&lt;div class=&quot;hero-body has-text-centered&quot;&gt;
-              %br/
-              \&lt;div class=&quot;container&quot;&gt;
-              %br/
-              \&lt;h1&gt;Hero with bold accent color.&lt;/h1&gt;
-              %br/
-              \&lt;/div&gt;
-              %br/
-              \&lt;/div&gt;
-              %br>/
-              \&lt;/section&gt;
+              &= '<section class="hero is-accent is-bold">'
+              = '<br>  '
+              &= '  <div class="hero-body has-text-centered">'
+              = '<br>    '
+              &= '    <div class="container">'
+              = '<br>      '
+              &= '      <h1>Hero with bold accent color.</h1>'
+              = '<br>   '
+              &= '    </div>'
+              = '<br>  '
+              &= '    </div>'
+              = '<br>'
+              &= '</section>'
           %br
             %a.button.ics-clipboard{"data-clipboard-target" => "#hero-1"}
 %section.hero.is-medium.has-border.has-bkd-pattern-3{:style => "margin-bottom: 5px;"}
@@ -223,19 +252,19 @@
         .box
           %pre
             %code#hero-2.html
-              \&lt;section class=&quot;hero is-medium has-bkd-pattern-3&quot;&gt;
-              %br/
-              \&lt;div class=&quot;hero-body has-text-centered&quot;&gt;
-              %br/
-              \&lt;div class=&quot;container&quot;&gt;
-              %br/
-              \&lt;h1 class=&quot;box&quot;&gt;Medium hero with background pattern&lt;/h1&gt;
-              %br/
-              \&lt;/div&gt;
-              %br/
-              \&lt;/div&gt;
-              %br>/
-              \&lt;/section&gt;
+              &= '<section class="hero is-medium has-bkd-pattern-1">'
+              = '<br>  '
+              &= '<div class="hero-body has-text-centered">'
+              = '<br>   '
+              &= '<div class="container">'
+              = '<br>     '
+              &= '<h1 class="box">Medium hero with background pattern</h1>'
+              = '<br>   '
+              &= '</div>'
+              = '<br>  '
+              &= '</div>'
+              = '<br>'
+              &= '</section>'
           %br
             %a.button.ics-clipboard{"data-clipboard-target" => "#hero-2"}
 %section.hero.is-fullheight.has-bkd-image-1{:style => "margin-bottom: 5px;"}
@@ -255,8 +284,7 @@
         .box.content.is-light
           %p
             Add a background image with
-            = succeed "#" do
-              %code .has-bkd-image-
+            %code .has-bkd-image-
           %p
             Hero sections can be broken up with a
             = succeed "(Top-Aligned)," do
@@ -272,39 +300,39 @@
         .box
           %pre
             %code#hero-3.html
-              \&lt;section class=&quot;hero is-fullheight has-bkd-image-1&quot;&gt;
-              %br/
-              \&lt;div class=&quot;hero-head is-white fade-3&quot;&gt;
-              %br/
-              \&lt;div class=&quot;container&quot;&gt;
-              %br/
-              \&lt;h1&gt;Hero head with white color.&lt;/h1&gt;
-              %br/
-              \&lt;/div&gt;
-              %br/
-              \&lt;/div&gt;
-              %br/
-              \&lt;div class=&quot;hero-body is-black fade-3&quot;&gt;
-              %br/
-              \&lt;div class=&quot;container&quot;&gt;
-              %br/
-              \&lt;h1 class=&quot;hero-title&quot;&gt;Fullscreen Image Hero with head, body, and foot.&lt;/h1&gt;
-              %br/
-              \&lt;/div&gt;
-              %br/
-              \&lt;/div&gt;
-              %br/
-              \&lt;div class=&quot;hero-foot is-accent fade-1&quot;&gt;
-              %br/
-              \&lt;div class=&quot;container&quot;&gt;
-              %br/
-              \&lt;h1&gt;Hero foot with accent color.&lt;/h1&gt;
-              %br/
-              \&lt;/div&gt;
-              %br/
-              \&lt;/div&gt;
-              %br>/
-              \&lt;/section&gt;
+              &= '<section class="hero is-fullheight has-bkd-image-1">'
+              = '<br>  '
+              &= '<div class="hero-head is-white fade-3">'
+              = '<br>   '
+              &= '<div class="container">'
+              = '<br>     '
+              &= '<h1>Hero head with white color.</h1>'
+              = '<br>   '
+              &= '</div>'
+              = '<br>  '
+              &= '</div>'
+              = '<br>  '
+              &= '<div class="hero-body is-black fade-3">'
+              = '<br>   '
+              &= '<div class="container">'
+              = '<br>     '
+              &= '<h1 class="hero-title">Fullscreen Image Hero with head, body, and foot.</h1>'
+              = '<br>   '
+              &= '</div>'
+              = '<br>  '
+              &= '</div>'
+              = '<br>  '
+              &= '<div class="hero-foot is-accent fade-1">'
+              = '<br>   '
+              &= '<div class="container">'
+              = '<br>     '
+              &= '<h1>Hero foot with accent color.</h1>'
+              = '<br>   '
+              &= '</div>'
+              = '<br>  '
+              &= '</div>'
+              = '<br>'
+              &= '</section>'
           %br
             %a.button.ics-clipboard{"data-clipboard-target" => "#hero-3"}
 %section#helpers.section

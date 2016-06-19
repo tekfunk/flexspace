@@ -74,7 +74,7 @@
         %p Cras in nibh lacinia, venenatis nisi et, auctor urna. Donec pulvinar lacus sed diam dignissim, ut eleifend eros accumsan. Phasellus non tortor eros. Ut sed rutrum lacus. Etiam purus nunc, scelerisque quis enim vitae, malesuada ultrices turpis. Nunc vitae maximus purus, nec consectetur dui. Suspendisse euismod, elit vel rutrum commodo, ipsum tortor maximus dui, sed varius sapien odio vitae est. Etiam at cursus metus.
 %section#badges.section
   .container
-    %h1 Badges
+    %h1 Badge
     %hr
       .columns
         .column.is-6
@@ -89,77 +89,39 @@
             %span.badge.is-dark.is-small Small
             %span.badge.is-primary.is-medium Medium
             %span.badge.is-accent.is-large Large
-          %a{:href => "#"}
-            Inbox
-            %span.badge 42
           %button.button.is-primary{:type => "button"}
             Messages
             %span.badge 42
         .column.is-6
           .box
             %pre
-              %code#shapes-tags.language-html{"data-lang" => "html"}
-                %span.nt &lt;span
-                %span.na class=
-                %span.s "badge is-dark"
-                = succeed "Dark" do
-                  %span.nt &gt;
-                %span.nt &lt;/span&gt;
-                %span.nt &lt;span
-                %span.na class=
-                %span.s "badge is-primary"
-                = succeed "Primary" do
-                  %span.nt &gt;
-                %span.nt &lt;/span&gt;
-                %span.nt &lt;span
-                %span.na class=
-                %span.s "badge is-accent"
-                = succeed "Accent" do
-                  %span.nt &gt;
-                %span.nt &lt;/span&gt;
-                %span.nt &lt;span
-                %span.na class=
-                %span.s "badge is-success"
-                = succeed "Success" do
-                  %span.nt &gt;
-                %span.nt &lt;/span&gt;
-                %span.nt &lt;span
-                %span.na class=
-                %span.s "badge is-alert"
-                = succeed "Alert" do
-                  %span.nt &gt;
-                %span.nt &lt;/span&gt;
-                %span.nt &lt;span
-                %span.na class=
-                %span.s "badge is-secondary"
-                = succeed "Secondary" do
-                  %span.nt &gt;
-                %span.nt &lt;/span&gt;
-                %span.nt &lt;span
-                %span.na class=
-                %span.s &quot;badge is-dark is-small&quot;
-                = succeed "Small" do
-                  %span.nt &gt;
-                %span.nt
-                  \&lt;/span&gt;
-                %span.nt &lt;span
-                %span.na class=
-                %span.s &quot;badge is-primary is-medium&quot;
-                = succeed "Medium" do
-                  %span.nt &gt;
-                %span.nt &lt;/span&gt;
-                %span.nt &lt;span
-                %span.na class=
-                %span.s &quot;badge is-accent is-large&quot;
-                = succeed "Large" do
-                  %span.nt &gt;
-                %span.nt &lt;/span&gt;
-                \&lt;a href=&quot;#&quot;&gt;Inbox &lt;span class=&quot;badge&quot;&gt;42&lt;/span&gt;&lt;/a&gt;
-                \&lt;button class=&quot;button is-primary&quot; type=&quot;button&quot;&gt;
-                %br/
-                Messages &lt;span class=&quot;badge&quot;&gt;4&lt;/span&gt;
-                %br>/
-                \&lt;/button&gt;
+              %code#shapes-tags.html
+                &= '<span class="badge is-dark">Dark</span>'
+                = '<br>'
+                &= '<span class="badge is-primary">Primary</span>'
+                = '<br>'
+                &= '<span class="badge is-accent">Accent</span>'
+                = '<br>'
+                &= '<span class="badge is-success">Success</span>'
+                = '<br>'
+                &= '<span class="badge is-alert">Alert</span>'
+                = '<br>'
+                &= '<span class="badge is-secondary">Secondary</span>'
+                = '<br>'
+                = '<br>'
+                &= '<span class="badge is-dark is-small">Small</span>'
+                = '<br>'
+                &= '<span class="badge is-primary is-medium">Medium</span>'
+                = '<br>'
+                &= '<span class="badge is-accent is-large">Large</span>'
+                = '<br>'
+                = '<br>'
+                &= '<button class="button is-primary" type="button"> Messages'
+                = '<br>'                  
+                &= '  <span class="badge">42</span>'
+                = '<br>'
+                &= '</button>'
+
             %br
               %a.button.ics-clipboard{"data-clipboard-target" => "#shapes-tags"}
 %section#burst.section
@@ -167,15 +129,15 @@
     %h1 Burst
     %hr
       .columns
-        .column
+        .column.is-1-8.is-1-4-mobile
           .burst
             .burst-12.is-red
               %p Red
-        .column
+        .column.is-1-4-mobile
           .burst
             .burst-12.is-primary
               %p primary
-        .column
+        .column.is-1-4-mobile
           .burst
             .burst-12.is-accent
               %p accent
@@ -205,41 +167,30 @@
               %p light
       .box
         %pre
-          %code#shapes-burst.html.hljs.xml
-            \&lt;div class=&quot;burst&quot;&gt;&lt;div class=&quot;burst-12 is-red&quot;&gt;&lt;p&gt;Red&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
-            %span.nt
-              %span.hljs-tag
-            \&lt;div class=&quot;burst&quot;&gt;&lt;div class=&quot;burst-12 is-primary&quot;&gt;&lt;p&gt;Primary&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
-            %span.nt
-              %span.hljs-tag
-            \&lt;div class=&quot;burst&quot;&gt;&lt;div class=&quot;burst-12 is-accent&quot;&gt;&lt;p&gt;Accent&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
-            %span.nt
-              %span.hljs-tag
-            \&lt;div class=&quot;burst&quot;&gt;&lt;div class=&quot;burst-12 is-success&quot;&gt;&lt;p&gt;Success&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
-            %span.nt
-              %span.hljs-tag
-            \&lt;div class=&quot;burst&quot;&gt;&lt;div class=&quot;burst-12 is-alert&quot;&gt;&lt;p&gt;Alert&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
-            %span.nt
-              %span.hljs-tag
-            \&lt;div class=&quot;burst&quot;&gt;&lt;div class=&quot;burst-12 is-secondary&quot;&gt;&lt;p&gt;Secondary&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
-            %span.nt
-              %span.hljs-tag
-            \&lt;div class=&quot;burst&quot;&gt;&lt;div class=&quot;burst-12 is-dark&quot;&gt;&lt;p&gt;Dark&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
-            %span.nt
-              %span.hljs-tag
-            \&lt;div class=&quot;burst&quot;&gt;&lt;div class=&quot;burst-12 is-black&quot;&gt;&lt;p&gt;black&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
-            %span.nt
-              %span.hljs-tag
-            \&lt;div class=&quot;burst&quot;&gt;&lt;div class=&quot;burst-12 is-light&quot;&gt;&lt;p&gt;light&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
-            %span.nt
-              %span.hljs-tag
-            %span.nt
-              %span.hljs-tag
+          %code#shapes-burst.html
+            &= '<div class="burst"><div class="burst-12 is-red"><p>Red</p></div></div>'
+            = '<br>'
+            &= '<div class="burst"><div class="burst-12 is-primary"><p>Primary</p></div></div>'
+            = '<br>'
+            &= '<div class="burst"><div class="burst-12 is-accent"><p>Accent</p></div></div>'
+            = '<br>'
+            &= '<div class="burst"><div class="burst-12 is-success"><p>Success</p></div></div>'
+            = '<br>'
+            &= '<div class="burst"><div class="burst-12 is-alert"><p>Alert</p></div></div>'
+            = '<br>'
+            &= '<div class="burst"><div class="burst-12 is-secondary"><p>Secondary</p></div></div>'
+            = '<br>'
+            &= '<div class="burst"><div class="burst-12 is-dark"><p>Dark</p></div></div>'
+            = '<br>'
+            &= '<div class="burst"><div class="burst-12 is-black"><p>black</p></div></div>'
+            = '<br>'
+            &= '<div class="burst"><div class="burst-12 is-light"><p>light</p></div></div>'
+            = '<br>'
         %br
           %a.button.ics-clipboard{"data-clipboard-target" => "#shapes-burst"}
 %section#messages.section
   .container
-    %h1 Messages
+    %h1 Message
     %hr
       .columns
         .column.is-1-2
@@ -251,86 +202,55 @@
         .column.is-1-2
           .box
             %pre
-              %code.language-html{"data-lang" => "html"}
-                %span.nt &lt;article
-                %span.na class=
-                %span.s "message"
-                %span.nt &gt;
-                %span.nt &lt;div
-                %span.na class=
-                %span.s "message-header"
-                %span.nt &gt;
-                %span.nt &lt;/div&gt;
-                %span.nt &lt;div
-                %span.na class=
-                %span.s "message-body"
-                %span.nt &gt;
-                %span.nt &lt;/div&gt;
-                %span.nt &lt;/article&gt;
-                %span.nt &lt;article
-                %span.na class=
-                %span.s "message is-primary"
-                %span.nt &gt;
-                %span.nt &lt;div
-                %span.na class=
-                %span.s "message-body"
-                %span.nt &gt;
-                %span.nt &lt;/div&gt;
-                %span.nt &lt;/article&gt;
-                %span.nt
+              %code#mess-code.html
+                &= '<article class="message">'
+                = '<br>  '
+                &= '<div class="message-header">Hello World</div>'
+                = '<br>  '
+                &= '<div class="message-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque risus mi, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum felis venenatis efficitur. Aenean ac eleifend lacus, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.</div>'
+                = '<br>'
+                &= '</article>'
+                = '<br>'
+                = '<br>'
+                &= '<article class="message">'
+                = '<br>  '
+                &= '<div class="message-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque risus mi, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum felis venenatis efficitur. Aenean ac eleifend lacus, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.</div>'
+                = '<br>'
+                &= '</article>'
             %br
-              %a.button.ics-clipboard{"data-clipboard-target" => "#col-sizes"}
+              %a.button.ics-clipboard{"data-clipboard-target" => "#mess-code"}
 %section#notifications.section
   .container
-    %h1 Notifications
+    %h1 Notification
     %hr
       .columns
         .column
-          .notification.is-primary accent lorem ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit
-          .notification.is-success Success lorem ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit
-          .notification.is-secondary secondary lorem ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit
+          .notification.is-primary Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eleifend at velit et sodales. Praesent pretium tellus at lacinia condimentum.
+          .notification.is-success Praesent quis massa ex. Vestibulum erat neque, ultricies et accumsan a, ultrices ut orci. 
+          .notification.is-secondary Nullam sed placerat erat. Mauris non leo placerat, consequat arcu eu, mollis leo. Fusce nec feugiat quam, nec elementum nibh.        
         .column
           .box
             %pre
-              %code.language-html{"data-lang" => "html"}
-                %span.nt &lt;div
-                %span.na class=
-                %span.s "notification"
-                %span.nt &gt;
-                %span.nt &lt;button
-                %span.na class=
-                %span.s "delete"
-                %span.nt &gt;&lt;/button&gt;
-                Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit lorem ipsum dolor sit amet,
-                consectetur adipiscing elit
-                %span.nt &lt;/div&gt;
-                %span.nt &lt;div
-                %span.na class=
-                %span.s "notification is-primary"
-                %span.nt &gt;
-                %span.nt &lt;button
-                %span.na class=
-                %span.s "delete"
-                %span.nt &gt;&lt;/button&gt;
-                Primar lorem ipsum dolor sit amet, consectetur
-                adipiscing elit lorem ipsum dolor sit amet,
-                consectetur adipiscing elit
-                %span.nt &lt;/div&gt;
-                %span.nt &lt;div
-                %span.na class=
-                %span.s "notification is-accent"
-                %span.nt &gt;
-                %span.nt &lt;button
-                %span.na class=
-                %span.s "delete"
-                %span.nt &gt;&lt;/button&gt;
-                accent lorem ipsum dolor sit amet, consectetur
-                adipiscing elit lorem ipsum dolor sit amet,
-                consectetur adipiscing elit
-                %span.nt &lt;/div&gt;
+              %code#note-code.html
+                &= '<div class="notification is-primary">'
+                = '<br>  '
+                &= '  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eleifend at velit et sodales. Praesent pretium tellus at lacinia condimentum.'
+                = '<br>'
+                &= '</div>'
+                = '<br>'
+                &= '<div class="notification is-success">'
+                = '<br>  '
+                &= '  Praesent quis massa ex. Vestibulum erat neque, ultricies et accumsan a, ultrices ut orci.'
+                = '<br>'
+                &= '</div>'
+                = '<br>'
+                &= '<div class="notification is-secondary">'
+                = '<br>  '
+                &= '  Nullam sed placerat erat. Mauris non leo placerat, consequat arcu eu, mollis leo. Fusce nec feugiat quam, nec elementum nibh.'
+                = '<br>'
+                &= '</div>'
             %br
-              %a.button.ics-clipboard{"data-clipboard-target" => "#col-sizes"}
+              %a.button.ics-clipboard{"data-clipboard-target" => "#note-code"}
 %section#code.section
   .container
     %h1 Code
@@ -356,9 +276,10 @@
           .box
             %pre
               %code#mod-code.html
-                :preserve
-                  &lt;pre&gt;
-                      &lt;code id=&quot;xxx&quot; class=&quot;html&quot;&gt;&lt;/code&gt;
-                  &lt;/pre&gt;            %br
+                &= '<pre>'
+                = '<br>    '
+                &= '<code id="xxx" class="html"></code>'
+                = '<br>'
+                &= '</pre>'
               %a.button.ics-clipboard{"data-clipboard-target" => "#mod-code"}
 = Haml::Engine.new(File.read("/Users/slee/Sites/flexspace/haml/footer.haml")).render
