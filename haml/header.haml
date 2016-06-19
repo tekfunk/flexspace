@@ -1,0 +1,59 @@
+!!! Strict
+%html
+  %head
+    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}/
+    %title flexspace
+    %link{:href => "../css/flexspace.css", :rel => "stylesheet", :type => "text/css"}/
+  %body
+  %header
+  %nav.nav
+    .nav-left
+      .logo
+        %a{:href => "/index.html"}
+          %img{:src => "../art/flexspace-logo-sm.svg", :width => "80"}/
+    %span.nav-item.nav-toggle
+      %a.toggle-btn.on-right.on-win-edge{:href => ""}
+        %i.ics-list
+      #toggle-window.toggle-window.is-primary.on-win-edge
+        %a.toggle-btn-close.on-right.on-win-edge{:href => ""}
+          %i.ics-ex
+        .logo{:style => "width:100%;"}
+          %a{:href => "/index.html"}
+            %img{:src => "../art/flexspace-logo-lrg-white.svg", :width => "280"}/
+        .block{:style => "width:30%;padding:4px;"}
+          %a.button.is-fullwidth.is-primary.is-inverted{:href => "/page.html"} page
+        .block{:style => "width:30%;padding:4px;"}
+          %a.button.is-fullwidth.is-primary.is-inverted{:href => "/copy.html"} copy
+        .block{:style => "width:30%;padding:4px;"}
+          %a.button.is-fullwidth.is-primary.is-inverted{:href => "/grid.html"} grid
+        .block{:style => "width:30%;padding:4px;"}
+          %a.button.is-fullwidth.is-primary.is-inverted{:href => "/modules.html"} modules
+        .block{:style => "width:30%;padding:4px;"}
+          %a.button.is-fullwidth.is-primary.is-inverted{:href => "/ui.html"} ui
+        .block{:style => "width:30%;padding:4px;"}
+          %a.button.is-fullwidth.is-primary.is-inverted{:href => "/art.html"} art
+        .block{:style => "width:30%;padding:4px;"}
+          %a.button.is-fullwidth.is-primary.is-inverted{:href => "/animations.html"} animations
+        .block{:style => "width:30%;padding:4px;"}
+          %a.button.is-fullwidth.is-primary.is-inverted{:href => "/variables.html"} variables
+    .nav-right.nav-menu
+      %span.nav-item
+        %a{:href => "page.html"} page
+      %span.nav-item
+        %a{:href => "copy.html"} copy
+      %span.nav-item
+        %a{:href => "grid.html"} grid
+      %span.nav-item
+        %a{:href => "modules.html"} modules
+      %span.nav-item
+        %a{:href => "ui.html"} ui
+      %span.nav-item
+        %a{:href => "art.html"} art
+      %span.nav-item
+        %a{:href => "animations.html"} animations
+      %span.nav-item
+        %a{:href => "variables.html"} variables
+      %span.nav-item
+        %a{:href => "index.php#about"}
+          .button.is-primary
+            %i.ics-question

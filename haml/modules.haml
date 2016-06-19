@@ -1,0 +1,254 @@
+= Haml::Engine.new(File.read("/Users/slee/Sites/flexspace/haml/header.haml")).render
+%section.hero.is-primary
+  .has-flxs-head-3
+    .hero-body
+      .container.has-text-centered
+        %h1.title Modules
+        .subtitle Multimedia containers.
+    .hero-foot
+      .container
+        .block.has-text-centered
+          %a.button.is-primary{:href => "#box"} box
+          %a.button.is-primary{:href => "#media"} media
+          %a.button.is-primary{:href => "#mod"} mod
+          %a.button.is-primary.is-disabled{:href => "#gallery"} gallery
+          %a.button.is-primary.is-disabled{:href => "#modal"} modal
+%section#box.section
+  .container
+    %h1 Box
+    %hr
+      .columns
+        .column.is-6
+          .box
+            %p Box
+          .box.content.is-light
+            %p
+              Box is a simple content container with padding and colors. Corners can be adjusted with
+              %strong $box-radius
+              variable.
+        .column.is-6
+          .box
+            %pre
+              %code#mod-box.html.hljs.xml
+                %span.hljs-tag &lt;div
+                = succeed "=" do
+                  %span.hljs-attr class
+                %span.hljs-string "box"
+                %span.hljs-tag &gt;
+                %span.nt &lt;p
+                %span.s
+                = succeed "&amp;lt;/p&amp;gt;" do
+                  %span.nt &gt;
+                %span.nt &lt;/div&gt;
+            %br
+              %a.button.ics-clipboard{"data-clipboard-target" => "#mod-box"}
+%section#media.section
+  .container
+    %h1 Media
+    %hr
+      .columns
+        .column.is-1-2
+          %article.media.box
+            %figure.media-left.structure-item{:title => "media-left"}
+              %p.square.is-64x64
+                %img{:src => "../images/twenty-fourteen.jpg"}             .media-content.structure-item.is-structure-right{:title => "media-content"}
+              .content
+                %p
+                  %strong Twenty Fourteen
+                  %small Mixed by Slee
+                  %br
+                    %small
+                      Featuring :
+                      %em A Case Of Funk
+                      (Loco Dice Remix) by
+                      = succeed "," do
+                        %strong Nightmares On Wax
+                      %em Energia
+                      (Pele & Shawnecy Dub Remix)	by
+                      = succeed "," do
+                        %strong Mindhacker
+                      + more.
+              %nav.level
+                .level-left
+                  %a.level-item
+                    %span.icon.is-small
+                      %i.ics-headphones
+                  %a.level-item
+                    %span.icon.is-small
+                      %i.ics-link
+                  %a.level-item
+                    %span.icon.is-small
+                      %i.ics-download
+          .box.content.is-light
+            %p Media is a simple media container.
+        .column.is-1-2
+          .box
+            %pre
+              %code#mod-media.language-html{"data-lang" => "html"}
+                \&lt;article class=&quot;media&quot;&gt;
+                %br/
+                \&lt;figure class=&quot;media-left structure-item&quot; title=&quot;media-left&quot;&gt;
+                %br/
+                \&lt;p class=&quot;square is-64x64&quot;&gt; &lt;img src=&quot;&quot;&gt; &lt;/p&gt;
+                %br/
+                \&lt;/figure&gt;
+                %br/
+                \&lt;div class=&quot;media-content structure-item is-structure-right&quot; title=&quot;media-content&quot;&gt;
+                \&lt;div class=&quot;content&quot;&gt;
+                %br/
+                \&lt;p&gt;&lt;strong&gt;&lt;/strong&gt; &lt;small&gt;&lt;/small&gt;&lt;br&gt; &lt;small&gt;&lt;/small&gt;&lt;/p&gt;
+                %br/
+                \&lt;/div&gt;
+                %br/
+                \&lt;nav class=&quot;level&quot;&gt;
+                %br/
+                \&lt;div class=&quot;level-left&quot;&gt;
+                \&lt;a class=&quot;level-item&quot;&gt;&lt;span class=&quot;icon is-small&quot;&gt;&lt;i class=&quot;ics-headphones&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/a&gt;
+                \&lt;a class=&quot;level-item&quot;&gt;&lt;span class=&quot;icon is-small&quot;&gt;&lt;i class=&quot;ics-link&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/a&gt;
+                \&lt;a class=&quot;level-item&quot;&gt;&lt;span class=&quot;icon is-small&quot;&gt;&lt;i class=&quot;ics-download&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/a&gt;
+                \&lt;/div&gt;
+                %br/
+                \&lt;/nav&gt;
+                %br/
+                \&lt;/div&gt;
+                %br>/
+                \&lt;/article
+                %span.nt &gt;
+            %br
+              %a.button.ics-clipboard{"data-clipboard-target" => "#mod-media"}
+%section#mod.section
+  .container
+    %h1
+      Mod
+      .badge.is-secondary.is-small{:style => "margin:12px 0 0 8px;"} jQuery
+    %hr
+      .columns
+        .column.is-1-2
+          .mod{:style => "margin-bottom: 20px;"}
+            .mod-header
+              .mod-header-title
+                %h2
+                  %i.ics-wrench
+                  Flexspace
+              .mod-header-icon
+                %a.post-edit-link
+                  %i.ics-edit
+            #post-3061.mod-tabbed
+              #mod-tab-1.mod-tabs.is-active
+                .mod-image
+                  .ratio.is-6by9
+                    %img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image{:alt => "Flexspace Splash", :height => "600", :src => "http://media.casadereyes.net/2016/05/flexspace-splash.jpg", :width => "1200"}/
+              #mod-tab-2.mod-tabs
+                .mod-info
+                  %i.ics-users
+                  %h4 Client/Employer
+                  %p Open Source
+                .mod-info
+                  %i.ics-wrench
+                  %h4 Project
+                  %p Build and maintain a HTML/SCSS/JS framework and a demo/documentation site.
+                .mod-info
+                  %i.ics-gears
+                  %h4 Tools
+                  %p Adobe CS, PHP, HTML, SCSS, Javascript
+                .mod-info
+                  %i.ics-link
+                  %h4 Links
+                  %p
+                    %a{:target => "_blank"} http://flexspace.casadereyes.net
+              #mod-tab-3.mod-tabs
+                .mod-info
+                  %i.ics-users
+                  %h4 Mod Tab 3
+                  %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              #mod-tab-4.mod-tabs
+                .mod-info
+                  %i.ics-users
+                  %h4 Mod Tab 4
+                  %p Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            .mod-footer
+              %a.mod-footer-item.is-active{"data-post" => "post-3061", "data-tab" => "mod-tab-1"}
+                %i.ics-home
+                .tooltip Mod Home.
+              %a.mod-footer-item{"data-post" => "post-3061", "data-tab" => "mod-tab-2"}
+                %i.ics-info
+                .tooltip Quick Info.
+              %a.mod-footer-item{"data-post" => "post-3061", "data-tab" => "mod-tab-3"}
+                %i.ics-webpage
+                .tooltip Get the Details.
+              %a.mod-footer-item{"data-post" => "post-3061", "data-tab" => "mod-tab-4"}
+                %i.ics-external
+                .tooltip Visit the Site.
+            .mod-content
+              .mod-date Jun 2016
+              %p
+                %a Flexspace
+                is a HTML5/SCSS/JS front-end development framework I am building.
+              %hr
+                %i.ics-tags
+                = succeed "," do
+                  %a Featured
+                %a Web Dev.
+                %br
+          .box.content.is-light
+            %p Mod is a versitile content container aimed at providing a lot of information in a compact space. It features a tabbed content area with tooltip style rollovers on the buttons.
+            %p
+              It uses jQuery to switch the tabs and needs a unique id(#) for the tabs wrapper (.mod-tabbed) for the buttons to work.  In Wordpress for example I use
+              %code the_ID();
+            %p Check out more examples @codepen.
+            .block
+              %a.button.is-primary{:href => "http://codepen.io/tekfunk/pen/LZVvxR", :target => "_blank"}
+                %i.ics-codepen>
+                Audio Mod
+        .column
+          .box
+            %pre
+              %code#mod-mod.html{"data-lang" => "html"}
+                %span.nt
+                %span.nt
+                  \&lt;div class=&quot;mod&quot;&gt;
+                  \&lt;div class=&quot;mod-header&quot;&gt;
+                  \&lt;div class=&quot;mod-header-title&quot;&gt;&lt;h2&gt;&lt;i class=&quot;ics-wrench&quot;&gt;&lt;/i&gt; Flexspace &lt;/h2&gt;&lt;/div&gt;&lt;div class=&quot;mod-header-icon&quot;&gt;&lt;a class=&quot;post-edit-link&quot;&gt;&lt;i class=&quot;ics-edit&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/div&gt;
+                  \&lt;/div&gt;
+                  \&lt;div class=&quot;mod-tabbed&quot; id=&quot;post-3061&quot;&gt;
+                  \&lt;div id=&quot;mod-tab-1&quot; class=&quot;mod-tabs is-active&quot;&gt;
+                  \&lt;div class=&quot;mod-image&quot;&gt;&lt;div class=&quot;image is-6by9&quot;&gt;&lt;img width=&quot;1200&quot; height=&quot;600&quot; src=&quot;http://media.casadereyes.net/2016/05/flexspace-splash.jpg&quot; class=&quot;attachment-post-thumbnail size-post-thumbnail wp-post-image&quot; alt=&quot;Flexspace Splash&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+                  \&lt;/div&gt;
+                  \&lt;div id=&quot;mod-tab-2&quot; class=&quot;mod-tabs&quot;&gt;
+                  \&lt;div class=&quot;mod-info&quot;&gt;&lt;i class=&quot;ics-users&quot;&gt;&lt;/i&gt;&lt;h4&gt;Client/Employer&lt;/h4&gt;&lt;p&gt;Open Source&lt;/p&gt;&lt;/div&gt;
+                  \&lt;div class=&quot;mod-info&quot;&gt;&lt;i class=&quot;ics-wrench&quot;&gt;&lt;/i&gt;&lt;h4&gt;Project&lt;/h4&gt;&lt;p&gt;Build and maintain a HTML/SCSS/JS framework and a demo/documentation site.&lt;/p&gt;&lt;/div&gt;
+                  \&lt;div class=&quot;mod-info&quot;&gt;&lt;i class=&quot;ics-gears&quot;&gt;&lt;/i&gt;&lt;h4&gt;Tools&lt;/h4&gt;&lt;p&gt;Adobe CS, PHP, HTML, SCSS, Javascript&lt;/p&gt;&lt;/div&gt;
+                  \&lt;div class=&quot;mod-info&quot;&gt;&lt;i class=&quot;ics-link&quot;&gt;&lt;/i&gt;&lt;h4&gt;Links&lt;/h4&gt;&lt;p&gt;&lt;a target=&quot;_blank&quot;&gt;http://flexspace.casadereyes.net&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+                  \&lt;/div&gt;
+                  \&lt;div id=&quot;mod-tab-3&quot; class=&quot;mod-tabs&quot;&gt;
+                  \&lt;div class=&quot;mod-info&quot;&gt;&lt;i class=&quot;ics-users&quot;&gt;&lt;/i&gt;&lt;h4&gt;Mod Tab 3&lt;/h4&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;&lt;/div&gt;
+                  \&lt;/div&gt;
+                  \&lt;div id=&quot;mod-tab-4&quot; class=&quot;mod-tabs&quot;&gt;
+                  \&lt;div class=&quot;mod-info&quot;&gt;&lt;i class=&quot;ics-users&quot;&gt;&lt;/i&gt;&lt;h4&gt;Mod Tab 4&lt;/h4&gt;&lt;p&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&lt;/div&gt;
+                  \&lt;/div&gt;
+                  \&lt;/div&gt;
+                  \&lt;div class=&quot;mod-footer&quot;&gt;
+                  \&lt;a class=&quot;mod-footer-item is-active&quot; data-post=&quot;post-3061&quot; data-tab=&quot;mod-tab-1&quot;&gt; &lt;i class=&quot;ics-home&quot;&gt;&lt;/i&gt;&lt;div class=&quot;tooltip&quot;&gt;Mod Home.&lt;/div&gt;&lt;/a&gt;
+                  \&lt;a class=&quot;mod-footer-item&quot; data-post=&quot;post-3061&quot; data-tab=&quot;mod-tab-2&quot;&gt;&lt;i class=&quot;ics-info&quot;&gt;&lt;/i&gt;&lt;div class=&quot;tooltip&quot;&gt;Quick Info.&lt;/div&gt;&lt;/a&gt;
+                  \&lt;a class=&quot;mod-footer-item&quot; data-post=&quot;post-3061&quot; data-tab=&quot;mod-tab-3&quot;&gt;&lt;i class=&quot;ics-webpage&quot;&gt;&lt;/i&gt;&lt;div class=&quot;tooltip&quot;&gt;Get the Details.&lt;/div&gt;&lt;/a&gt;
+                  \&lt;a class=&quot;mod-footer-item&quot; data-post=&quot;post-3061&quot; data-tab=&quot;mod-tab-4&quot;&gt;&lt;i class=&quot;ics-external&quot;&gt;&lt;/i&gt;&lt;div class=&quot;tooltip&quot;&gt;Visit the Site.&lt;/div&gt;&lt;/a&gt;
+                  \&lt;/div&gt;
+                  \&lt;div class=&quot;mod-content&quot;&gt;
+                  \&lt;div class=&quot;mod-date&quot;&gt; Jun 2016 &lt;/div&gt;&lt;p&gt;&lt;a&gt;Flexspace&lt;/a&gt; is a HTML5/SCSS/JS front-end development framework I am building. &lt;/p&gt;
+                  \&lt;hr&gt;
+                  \&lt;i class=&quot;ics-tags&quot;&gt;&lt;/i&gt; &lt;a&gt;Featured&lt;/a&gt;, &lt;a&gt;Web Dev.&lt;/a&gt;&lt;br&gt;
+                  \&lt;/div&gt;
+                  \&lt;/div&gt;
+            %br
+              %a.button.ics-clipboard{"data-clipboard-target" => "#mod-mod"}
+%section#gallery.section
+  .container
+    %h1 Gallery
+    %hr
+      %p Coming Soon
+      .columns %section#modal.section
+  .container
+    %h1 Modal
+    %hr
+      .content Coming Soon
+= Haml::Engine.new(File.read("/Users/slee/Sites/flexspace/haml/footer.haml")).render

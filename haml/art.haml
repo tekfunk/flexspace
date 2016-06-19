@@ -1,0 +1,931 @@
+= Haml::Engine.new(File.read("/Users/slee/Sites/flexspace/haml/header.haml")).render
+%section.hero.is-primary
+  .has-flxs-head-1
+    .hero-body
+      .container.has-text-centered
+        %h1.title Art
+        .subtitle Drawings, Pictures, Patterns
+    .hero-foot
+      .container
+        .block.has-text-centered
+          %a.button.is-primary{:href => "#palette"} palette
+          %a.button.is-primary{:href => "#icons"} icons
+          %a.button.is-primary.is-disabled{:href => "#logos"} logos
+          %a.button.is-primary{:href => "#backgrounds"} backgrounds
+%section#palette.section
+  .container
+    %h1 Palette
+    %hr
+      .box.content.is-light
+        %p
+          These are the colors that get mapped to such classes as
+          %strong> .button, .hero, .box, .notification, .message, .burst, .badge, .loaders, .progress
+          \. They can be changed in
+          = succeed "." do
+            %strong variables.scss
+          = succeed "." do
+            %code <div class="box is-primary"></div>
+      .columns.is-gapless.is-stacked
+        .column.is-1-4
+          .mod
+            .notification.is-primary is-primary
+        .column.is-1-4
+          .mod
+            .notification.is-secondary is-secondary
+        .column.is-1-4
+          .mod
+            .notification.is-pastel is-pastel
+        .column.is-1-4
+          .mod
+            .notification.is-accent is-accent
+        .column.is-1-3
+          .mod
+            .notification.is-red is-red
+        .column.is-1-3
+          .mod
+            .notification.is-alert is-alert
+        .column.is-1-3
+          .mod
+            .notification.is-success is-success
+        .column.is-1-4
+          .mod
+            .notification.is-white is-white
+        .column.is-1-4
+          .mod
+            .notification.is-light is-light
+        .column.is-1-4
+          .mod
+            .notification.is-dark is-dark
+        .column.is-1-4
+          .mod
+            .notification.is-black is-black
+  %section#icons.section
+    .container
+      %h1 Icons
+      %hr
+        .box.content.is-light
+          %p
+            Icons are font based and built using
+            = succeed "Use" do
+              %a{:href => "https://icomoon.io/app"} icomoon.
+            %code i class=ics-/i
+            adding the icon name after
+            = succeed "." do
+              %code ics-
+          %p Currently it's a custom set I put together for casadereyes.net, but I will be updating soon with more (like more standard social icons).
+        .columns.is-stacked
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header news
+              .message-body
+                %i.ics-news
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header webpage
+              .message-body
+                %i.ics-webpage
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header menu
+              .message-body
+                %i.ics-menu
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header list
+              .message-body
+                %i.ics-list
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header justify
+              .message-body
+                %i.ics-justify
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header jleft
+              .message-body
+                %i.ics-jleft
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header jcenter
+              .message-body
+                %i.ics-jcenter
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header jright
+              .message-body
+                %i.ics-jright
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header tlist
+              .message-body
+                %i.ics-tlist
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header table
+              .message-body
+                %i.ics-table
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header tablelrg
+              .message-body
+                %i.ics-tablelrg
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header fastback
+              .message-body
+                %i.ics-fastback
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header stepback
+              .message-body
+                %i.ics-stepback
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header rewind
+              .message-body
+                %i.ics-rewind
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header play
+              .message-body
+                %i.ics-play
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header foward
+              .message-body
+                %i.ics-foward
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header stepfoward
+              .message-body
+                %i.ics-stepfoward
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header fastfoward
+              .message-body
+                %i.ics-fastfoward
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header stop
+              .message-body
+                %i.ics-stop
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header eject
+              .message-body
+                %i.ics-eject
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header expand
+              .message-body
+                %i.ics-expand
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header move
+              .message-body
+                %i.ics-move
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header chevup
+              .message-body
+                %i.ics-chevup
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header chevright
+              .message-body
+                %i.ics-chevright
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header chevdown
+              .message-body
+                %i.ics-chevdown
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header chevleft
+              .message-body
+                %i.ics-chevleft
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header cirlecup
+              .message-body
+                %i.ics-cirlecup
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header circleright
+              .message-body
+                %i.ics-circleright
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header circledown
+              .message-body
+                %i.ics-circledown
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header circleleft
+              .message-body
+                %i.ics-circleleft
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header circlex
+              .message-body
+                %i.ics-circlex
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header circlecheck
+              .message-body
+                %i.ics-circlecheck
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header ban
+              .message-body
+                %i.ics-ban
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header circledot
+              .message-body
+                %i.ics-circledot
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header circleplay
+              .message-body
+                %i.ics-circleplay
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header compass
+              .message-body
+                %i.ics-compass
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header zoomin
+              .message-body
+                %i.ics-zoomin
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header zoomout
+              .message-body
+                %i.ics-zoomout
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header ex
+              .message-body
+                %i.ics-ex
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header check
+              .message-body
+                %i.ics-check
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header sync
+              .message-body
+                %i.ics-sync
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header reload
+              .message-body
+                %i.ics-reload
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header gears
+              .message-body
+                %i.ics-gears
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header wrench
+              .message-body
+                %i.ics-wrench
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header exclaim
+              .message-body
+                %i.ics-exclaim
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header info
+              .message-body
+                %i.ics-info
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header question
+              .message-body
+                %i.ics-question
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header lifevest
+              .message-body
+                %i.ics-lifevest
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header chevupl
+              .message-body
+                %i.ics-chevupl
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header chevrightl
+              .message-body
+                %i.ics-chevrightl
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header chevdownl
+              .message-body
+                %i.ics-chevdownl
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header chevleftl
+              .message-body
+                %i.ics-chevleftl
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header crosshairs
+              .message-body
+                %i.ics-crosshairs
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header external
+              .message-body
+                %i.ics-external
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header edit
+              .message-body
+                %i.ics-edit
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header share
+              .message-body
+                %i.ics-share
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header checkbox
+              .message-body
+                %i.ics-checkbox
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header login
+              .message-body
+                %i.ics-login
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header logout
+              .message-body
+                %i.ics-logout
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header users
+              .message-body
+                %i.ics-users
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header vcard
+              .message-body
+                %i.ics-vcard
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header print
+              .message-body
+                %i.ics-print
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header download
+              .message-body
+                %i.ics-download
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header briefcase
+              .message-body
+                %i.ics-briefcase
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header home
+              .message-body
+                %i.ics-home
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header link
+              .message-body
+                %i.ics-link
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header pencil
+              .message-body
+                %i.ics-pencil
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header ballpen
+              .message-body
+                %i.ics-ballpen
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header brush
+              .message-body
+                %i.ics-brush
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header tackright
+              .message-body
+                %i.ics-tackright
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header tackleft
+              .message-body
+                %i.ics-tackleft
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header book
+              .message-body
+                %i.ics-book
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header bookmark
+              .message-body
+                %i.ics-bookmark
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header tags
+              .message-body
+                %i.ics-tags
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header tag
+              .message-body
+                %i.ics-tag
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header clock
+              .message-body
+                %i.ics-clock
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header caldot
+              .message-body
+                %i.ics-caldot
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header calgrid
+              .message-body
+                %i.ics-calgrid
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header calblank
+              .message-body
+                %i.ics-calblank
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header doc-pdf
+              .message-body
+                %i.ics-doc-pdf
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header doc
+              .message-body
+                %i.ics-doc
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header clipboard
+              .message-body
+                %i.ics-clipboard
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header envelope
+              .message-body
+                %i.ics-envelope
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header comments
+              .message-body
+                %i.ics-comments
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header locked
+              .message-body
+                %i.ics-locked
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header unlocked
+              .message-body
+                %i.ics-unlocked
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header key
+              .message-body
+                %i.ics-key
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header iso
+              .message-body
+                %i.ics-iso
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header camera
+              .message-body
+                %i.ics-camera
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header picture
+              .message-body
+                %i.ics-picture
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header gallery
+              .message-body
+                %i.ics-gallery
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header aperture
+              .message-body
+                %i.ics-aperture
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header video
+              .message-body
+                %i.ics-video
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header globe
+              .message-body
+                %i.ics-globe
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header location
+              .message-body
+                %i.ics-location
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header signpost
+              .message-body
+                %i.ics-signpost
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header highway
+              .message-body
+                %i.ics-highway
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header paperplane
+              .message-body
+                %i.ics-paperplane
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header airplane
+              .message-body
+                %i.ics-airplane
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header rocket
+              .message-body
+                %i.ics-rocket
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header beaker
+              .message-body
+                %i.ics-beaker
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header lightbulb
+              .message-body
+                %i.ics-lightbulb
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header sticker
+              .message-body
+                %i.ics-sticker
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header sun
+              .message-body
+                %i.ics-sun
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header extinguish
+              .message-body
+                %i.ics-extinguish
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header bomb
+              .message-body
+                %i.ics-bomb
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header dashboard
+              .message-body
+                %i.ics-dashboard
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header sliders
+              .message-body
+                %i.ics-sliders
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header playlist
+              .message-body
+                %i.ics-playlist
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header tape
+              .message-body
+                %i.ics-tape
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header headphones
+              .message-body
+                %i.ics-headphones
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header Speaker
+              .message-body
+                %i.ics-Speaker
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header monitor
+              .message-body
+                %i.ics-monitor
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header piano
+              .message-body
+                %i.ics-piano
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header vinyl
+              .message-body
+                %i.ics-vinyl
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header turntable
+              .message-body
+                %i.ics-turntable
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header levels-6
+              .message-body
+                %i.ics-levels-6
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header levels-4
+              .message-body
+                %i.ics-levels-4
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header jack
+              .message-body
+                %i.ics-jack
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header waves
+              .message-body
+                %i.ics-waves
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header stereo
+              .message-body
+                %i.ics-stereo
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header keyboard
+              .message-body
+                %i.ics-keyboard
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header macbook
+              .message-body
+                %i.ics-macbook
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header ipad
+              .message-body
+                %i.ics-ipad
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header iphone
+              .message-body
+                %i.ics-iphone
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header gift
+              .message-body
+                %i.ics-gift
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header wineglass
+              .message-body
+                %i.ics-wineglass
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header ticketz
+              .message-body
+                %i.ics-ticketz
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header crown
+              .message-body
+                %i.ics-crown
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header bones
+              .message-body
+                %i.ics-bones
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header roulette
+              .message-body
+                %i.ics-roulette
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header aces-hi
+              .message-body
+                %i.ics-aces-hi
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header spades
+              .message-body
+                %i.ics-spades
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header diamonds
+              .message-body
+                %i.ics-diamonds
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header clubs
+              .message-body
+                %i.ics-clubs
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header hearts
+              .message-body
+                %i.ics-hearts
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header infinity
+              .message-body
+                %i.ics-infinity
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header tumblr-c
+              .message-body
+                %i.ics-tumblr-c
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header soundcloud-c
+              .message-body
+                %i.ics-soundcloud-c
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header rss-c
+              .message-body
+                %i.ics-rss-c
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header email-c
+              .message-body
+                %i.ics-email-c
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header codepen-c
+              .message-body
+                %i.ics-codepen-c
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header mixcloud-c
+              .message-body
+                %i.ics-mixcloud-c
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header github-c
+              .message-body
+                %i.ics-github-c
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header soundcloud
+              .message-body
+                %i.ics-soundcloud
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header mixcloud
+              .message-body
+                %i.ics-mixcloud
+          .column.is-1-3-mobile.is-1-10
+            .message.is-light
+              .message-header codepen
+              .message-body
+                %i.ics-codepen
+    %section#logos.section
+      .container
+        %h1 Logos
+        %hr
+          .box.content.is-light Coming Soon.
+      %section#backgrounds.section
+        .container
+          %h1 Backgrounds
+          %hr
+            .box.content.is-light
+              %p In variables.scss you can assign background images and patterns to use. SVG, JPG, PNG,  GIF all work.  With the exception of has-bkd-pattern, they are all centered and set to cover the div.
+              %p
+                Use like this:
+                = succeed "." do
+                  %code section class=section has-flxs-hero-1/section
+            %h3 Hero
+            .columns.is-stacked.to-edges
+              .column.is-1-2
+                .mod.has-flxs-hero-1
+                  .mod-header{:style => "background-color: rgba( 255,255,255,.6)"}
+                    %p.mod-header-title
+                      %strong .has-flxs-hero-1
+                  .mod-content{:style => "height: 220px;"}
+              .column.is-1-2
+                .mod.has-flxs-hero-2
+                  .mod-header{:style => "background-color: rgba( 255,255,255,.6)"}
+                    %p.mod-header-title
+                      %strong .has-flxs-hero-2
+                  .mod-content{:style => "height: 220px;"}
+              .column.is-1-2
+                .mod.has-flxs-hero-3
+                  .mod-header{:style => "background-color: rgba( 255,255,255,.6)"}
+                    %p.mod-header-title
+                      %strong .has-flxs-hero-3
+                  .mod-content{:style => "height: 220px;"}
+              .column.is-1-2
+                .mod.has-flxs-hero-4
+                  .mod-header{:style => "background-color: rgba( 255,255,255,.6)"}
+                    %p.mod-header-title
+                      %strong .has-flxs-hero-4
+                  .mod-content{:style => "height: 220px;"}
+            %h3 Images
+            .columns.is-stacked
+              .column.is-1-2
+                .mod.has-bkd-image-1
+                  .mod-header{:style => "background-color: rgba( 255,255,255,.6)"}
+                    %p.mod-header-title
+                      %strong .has-bkd-image-1
+                  .mod-content{:style => "height: 220px;"}
+              .column.is-1-2
+                .mod.has-bkd-image-2
+                  .mod-header{:style => "background-color: rgba( 255,255,255,.6)"}
+                    %p.mod-header-title
+                      %strong .has-bkd-image-2
+                  .mod-content{:style => "height: 220px;"}
+              .column.is-1-2
+                .mod.has-bkd-image-3
+                  .mod-header{:style => "background-color: rgba( 255,255,255,.6)"}
+                    %p.mod-header-title
+                      %strong .has-bkd-image-3
+                  .mod-content{:style => "height: 220px;"}
+              .column.is-1-2
+                .mod.has-bkd-image-4
+                  .mod-header{:style => "background-color: rgba( 255,255,255,.6)"}
+                    %p.mod-header-title
+                      %strong .has-bkd-image-4
+                  .mod-content{:style => "height: 220px;"}
+            %h3 Headers
+            .columns.is-stacked
+              .column.is-1-2
+                .mod.has-flxs-head-1
+                  .mod-header{:style => "background-color: rgba( 255,255,255,.6)"}
+                    %p.mod-header-title
+                      %strong .has-flxs-head-1
+                  .mod-content{:style => "height: 160px;"}
+              .column.is-1-2
+                .mod.has-flxs-head-2
+                  .mod-header{:style => "background-color: rgba( 255,255,255,.6)"}
+                    %p.mod-header-title
+                      %strong .has-flxs-head-2
+                  .mod-content{:style => "height: 160px;"}
+              .column.is-1-2
+                .mod.has-flxs-head-3
+                  .mod-header{:style => "background-color: rgba( 255,255,255,.6)"}
+                    %p.mod-header-title
+                      %strong .has-flxs-head-3
+                  .mod-content{:style => "height: 160px;"}
+              .column.is-1-2
+                .mod.has-flxs-head-4
+                  .mod-header{:style => "background-color: rgba( 255,255,255,.6)"}
+                    %p.mod-header-title
+                      %strong .has-flxs-head-4
+                  .mod-content{:style => "height: 160px;"}
+            %h3 Patterns
+            .columns.is-stacked
+              .column.is-1-4
+                .mod.has-bkd-pattern-1
+                  .mod-header{:style => "background-color: rgba( 255,255,255,.6)"}
+                    %p.mod-header-title
+                      %strong .has-bkd-pattern-1
+                  .mod-content{:style => "height: 220px;"}
+              .column.is-1-4
+                .mod.has-bkd-pattern-2
+                  .mod-header{:style => "background-color: rgba( 255,255,255,.6)"}
+                    %p.mod-header-title
+                      %strong .has-bkd-pattern-2
+                  .mod-content{:style => "height: 220px;"}
+              .column.is-1-4
+                .mod.has-bkd-pattern-3
+                  .mod-header{:style => "background-color: rgba( 255,255,255,.6)"}
+                    %p.mod-header-title
+                      %strong .has-bkd-pattern-3
+                  .mod-content{:style => "height: 220px;"}
+              .column.is-1-4
+                .mod.has-bkd-pattern-4
+                  .mod-header{:style => "background-color: rgba( 255,255,255,.6)"}
+                    %p.mod-header-title
+                      %strong .has-bkd-pattern-4
+                  .mod-content{:style => "height: 220px;"}
+= Haml::Engine.new(File.read("/Users/slee/Sites/flexspace/haml/footer.haml")).render

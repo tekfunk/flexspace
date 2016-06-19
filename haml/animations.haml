@@ -1,0 +1,240 @@
+= Haml::Engine.new(File.read("/Users/slee/Sites/flexspace/haml/header.haml")).render
+%section.hero.is-primary
+  .has-flxs-head-2
+    .hero-body
+      .container.has-text-centered
+        %h1.title Animations
+        .subtitle Just add class css animations.
+    .hero-foot
+      .container
+        .block.has-text-centered
+          %a.button.is-primary{:href => "#loaders"} loaders
+          %a.button.is-primary{:href => "#progress"} progress
+          %a.button.is-primary{:href => "#animate"} animate.css
+%section#loaders.section
+  .container
+    %h1 Loaders
+    %hr
+      .columns
+        .column.is-1-6{:style => "display:flex; align-items: stretch;"}
+          .notification.is-secondary{:style => "display: flex; justify-content: center; align-items: center; flex-grow: 1;"}
+            .loading-ring
+        .column.is-1-6{:style => "display:flex; align-items: stretch;"}
+          .notification.is-success{:style => "display: flex; justify-content: center; align-items: center; flex-grow: 1;"}
+            .loading-circles
+        .column.is-1-6{:style => "display:flex; align-items: stretch;"}
+          .notification.is-accent{:style => "display: flex; justify-content: center; align-items: center; flex-grow: 1;"}
+            .loading-fill
+        .column.is-1-6{:style => "display:flex; align-items: stretch;"}
+          .notification.is-secondary{:style => "display: flex; justify-content: center; align-items: center; flex-grow: 1;"}
+            .loading-discs
+        .column.is-1-6{:style => "display:flex; align-items: stretch;"}
+          .notification.is-success{:style => "display: flex; justify-content: center; align-items: center; flex-grow: 1;"}
+            .loading-clock
+        .column.is-1-6{:style => "display:flex; align-items: stretch;"}
+          .notification.is-accent{:style => "display: flex; justify-content: center; align-items: center; flex-grow: 1;"}
+            .loading-start.cylinder
+              .hand
+      .columns.is-stacked
+        .column.is-1-2
+          .box.content.is-light
+            %p Here are some loading animations available. Working on having all of these single div.
+          .box.content.is-light
+            %p Use .loading for a fullwindow loader that uses jQuery to fade out once everything is loaded. You can assign the standard colors to it. Inside of it, choose your animation.
+        .column.is-1-2
+          .box
+            %pre
+              %code#g2.html.hljs.xml
+                \&lt;div class=&quot;loading-ring&quot;&gt;&lt;/div&gt;
+                %br>/
+                \&lt;div class=&quot;loading-circles&quot;&gt;&lt;/div&gt;
+                %br>/
+                \&lt;div class=&quot;loading-fill&quot;&gt;&lt;/div&gt;
+                %br>/
+                \&lt;div class=&quot;loading-discs&quot;&gt;&lt;/div&gt;
+                %br>/
+                \&lt;div class=&quot;loading-clock&quot;&gt;&lt;/div&gt;
+                %br>/
+                \&lt;div class=&quot;loading-start cylinder&quot;&gt;
+                %br/
+                \&lt;div class=&quot;hand&quot;&gt;&lt;/div&gt;
+                %br>/
+                \&lt;/div&gt;
+                
+                \&lt;div class=&quot;loading&quot;&gt;
+                \&lt;div class=&quot;loading-ring&quot;&gt;&lt;/div&gt;
+                \&lt;/div&gt;
+                
+                $(document).ready(function(){ $(&quot;.loading&quot;).delay(100).fadeOut('fast'); });
+            %a.button.ics-clipboard{"data-clipboard-target" => "#g2"}
+%section#progress.section
+  .container
+    %h1 Progress Bars
+    %hr
+      .box.content.is-light Coming Soon.
+%section#animate.section
+  .container
+    %h1
+      %a{:href => "http://daneden.github.io/animate.css/", :target => "_blank"} animate.css
+    %h3 by Daniel Eden
+    %hr
+      .box.content.is-light
+        %h4
+          %strong .animated
+          auto animates
+          %strong .hoover
+          animates on hover
+          %strong .infinite
+          loops the animation
+      .columns.is-stacked
+        .column.is-1-5
+          %h1.hoover.bounce bounce
+        .column.is-1-5
+          %h1.hoover.flash flash
+        .column.is-1-5
+          %h1.hoover.pulse pulse
+        .column.is-1-5
+          %h1.hoover.rubberBand rubberBand
+        .column.is-1-5
+          %h1.hoover.shake shake
+        .column.is-1-5
+          %h1.hoover.headShake headShake
+        .column.is-1-5
+          %h1.hoover.swing swing
+        .column.is-1-5
+          %h1.hoover.tada tada
+        .column.is-1-5
+          %h1.hoover.wobble wobble
+        .column.is-1-5
+          %h1.hoover.jello jello
+        .column.is-1-5
+          %h1.hoover.bounceIn bounceIn
+        .column.is-1-5
+          %h1.hoover.bounceInDown bounceInDown
+        .column.is-1-5
+          %h1.hoover.bounceInLeft bounceInLeft
+        .column.is-1-5
+          %h1.hoover.bounceInRight bounceInRight
+        .column.is-1-5
+          %h1.hoover.bounceInUp bounceInUp
+        .column.is-1-5
+          %h1.hoover.bounceOut bounceOut
+        .column.is-1-5
+          %h1.hoover.bounceOutDown bounceOutDown
+        .column.is-1-5
+          %h1.hoover.bounceOutLeft bounceOutLeft
+        .column.is-1-5
+          %h1.hoover.bounceOutRight bounceOutRight
+        .column.is-1-5
+          %h1.hoover.bounceOutUp bounceOutUp
+        .column.is-1-5
+          %h1.hoover.fadeIn fadeIn
+        .column.is-1-5
+          %h1.hoover.fadeInDown fadeInDown
+        .column.is-1-5
+          %h1.hoover.fadeInDownBig fadeInDownBig
+        .column.is-1-5
+          %h1.hoover.fadeInLeft fadeInLeft
+        .column.is-1-5
+          %h1.hoover.fadeInLeftBig fadeInLeftBig
+        .column.is-1-5
+          %h1.hoover.fadeInRight fadeInRight
+        .column.is-1-5
+          %h1.hoover.fadeInRightBig fadeInRightBig
+        .column.is-1-5
+          %h1.hoover.fadeInUp fadeInUp
+        .column.is-1-5
+          %h1.hoover.fadeInUpBig fadeInUpBig
+        .column.is-1-5
+          %h1.hoover.fadeOut fadeOut
+        .column.is-1-5
+          %h1.hoover.fadeOutDown fadeOutDown
+        .column.is-1-5
+          %h1.hoover.fadeOutDownBig fadeOutDownBig
+        .column.is-1-5
+          %h1.hoover.fadeOutLeft fadeOutLeft
+        .column.is-1-5
+          %h1.hoover.fadeOutLeftBig fadeOutLeftBig
+        .column.is-1-5
+          %h1.hoover.fadeOutRight fadeOutRight
+        .column.is-1-5
+          %h1.hoover.fadeOutRightBig fadeOutRightBig
+        .column.is-1-5
+          %h1.hoover.fadeOutUp fadeOutUp
+        .column.is-1-5
+          %h1.hoover.fadeOutUpBig fadeOutUpBig
+        .column.is-1-5
+          %h1.hoover.flipInX flipInX
+        .column.is-1-5
+          %h1.hoover.flipInY flipInY
+        .column.is-1-5
+          %h1.hoover.flipOutX flipOutX
+        .column.is-1-5
+          %h1.hoover.flipOutY flipOutY
+        .column.is-1-5
+          %h1.hoover.lightSpeedIn lightSpeedIn
+        .column.is-1-5
+          %h1.hoover.lightSpeedOut lightSpeedOut
+        .column.is-1-5
+          %h1.hoover.rotateIn rotateIn
+        .column.is-1-5
+          %h1.hoover.rotateInDownLeft rotateInDownLeft
+        .column.is-1-5
+          %h1.hoover.rotateInDownRight rotateInDownRight
+        .column.is-1-5
+          %h1.hoover.rotateInUpLeft rotateInUpLeft
+        .column.is-1-5
+          %h1.hoover.rotateInUpRight rotateInUpRight
+        .column.is-1-5
+          %h1.hoover.rotateOut rotateOut
+        .column.is-1-5
+          %h1.hoover.rotateOutDownLeft rotateOutDownLeft
+        .column.is-1-5
+          %h1.hoover.rotateOutDownRight rotateOutDownRight
+        .column.is-1-5
+          %h1.hoover.rotateOutUpLeft rotateOutUpLeft
+        .column.is-1-5
+          %h1.hoover.rotateOutUpRight rotateOutUpRight
+        .column.is-1-5
+          %h1.hoover.hinge hinge
+        .column.is-1-5
+          %h1.hoover.rollIn rollIn
+        .column.is-1-5
+          %h1.hoover.rollOut rollOut
+        .column.is-1-5
+          %h1.hoover.zoomIn zoomIn
+        .column.is-1-5
+          %h1.hoover.zoomInDown zoomInDown
+        .column.is-1-5
+          %h1.hoover.zoomInLeft zoomInLeft
+        .column.is-1-5
+          %h1.hoover.zoomInRight zoomInRight
+        .column.is-1-5
+          %h1.hoover.zoomInUp zoomInUp
+        .column.is-1-5
+          %h1.hoover.zoomOut zoomOut
+        .column.is-1-5
+          %h1.hoover.zoomOutDown zoomOutDown
+        .column.is-1-5
+          %h1.hoover.zoomOutLeft zoomOutLeft
+        .column.is-1-5
+          %h1.hoover.zoomOutRight zoomOutRight
+        .column.is-1-5
+          %h1.hoover.zoomOutUp zoomOutUp
+        .column.is-1-5
+          %h1.hoover.slideInDown slideInDown
+        .column.is-1-5
+          %h1.hoover.slideInLeft slideInLeft
+        .column.is-1-5
+          %h1.hoover.slideInRight slideInRight
+        .column.is-1-5
+          %h1.hoover.slideInUp slideInUp
+        .column.is-1-5
+          %h1.hoover.slideOutDown slideOutDown
+        .column.is-1-5
+          %h1.hoover.slideOutLeft slideOutLeft
+        .column.is-1-5
+          %h1.hoover.slideOutRight slideOutRight
+        .column.is-1-5
+          %h1.hoover.slideOutUp slideOutUp
+= Haml::Engine.new(File.read("/Users/slee/Sites/flexspace/haml/footer.haml")).render

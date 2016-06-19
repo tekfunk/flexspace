@@ -1,0 +1,1731 @@
+= Haml::Engine.new(File.read("/Users/slee/Sites/flexspace/haml/header.haml")).render
+%section.hero.is-primary
+  .has-flxs-head-2
+    .hero-body
+      .container.has-text-centered
+        %h1.title Grid
+        .subtitle When you need a little help from Descartes.
+    .hero-foot
+      .container
+        .block.has-text-centered
+          %a.button.is-primary.is-active{:href => "#columns"} columns
+          %a.button.is-primary{:href => "#flexview"} flexview
+          %a.button.is-primary{:href => "#isotope"} isotope
+          %a.button.is-primary{:href => "#tables"} tables
+%section#columns.section
+  .container
+    %h1 Columns
+    %hr
+      .columns
+        .column
+          .box.content.is-light
+            %p
+              Use
+              %code .columns
+              to wrap multiple
+              = succeed "." do
+                %code .column
+            %p
+              %code .columns
+              is a flex container, and has adjustible parameters with
+              = succeed "," do
+                %code .flex-direction-row
+              etc.
+              %code .column
+              sizes are set with
+              = succeed ",etc" do
+                %code .is-1-2
+              and can be placed with
+              = succeed "," do
+                %code .is-offset-1-2
+              etc
+            %p To explore these options, use the preview tool below.  It will even produce usable template code.
+            %p By default columns display on tablet and desktop sizes.
+            %p
+              To have columns display on a mobile device as well, use
+              %code .columns .is-mobile
+            %p
+              If you only want columns on desktop, use
+              %code .columns .is-desktop
+            %p
+              To choose a column size for a specific device, use
+              %code .column .is-1-2-desktop  is-3-4-mobile is-1-2-tablet is-1-4-desktop
+        .column
+          .box
+            %pre
+              %code#g2.html.hljs.xml
+                \&lt;div class=&quot;columns
+                %span.flex-direction
+                %span.flex-wrap
+                %span.justify-content
+                %span.align-items
+                = succeed "&amp;quot;&amp;gt;" do
+                  %span.align-content
+                \&lt;div class=&quot;column
+                %span.flv-col-1>
+                \&quot;&gt;&lt;/div&gt;
+                \&lt;div class=&quot;column
+                %span.flv-col-2>
+                \&quot;&gt;&lt;/div&gt;
+                \&lt;div class=&quot;column
+                %span.flv-col-3>
+                \&quot;&gt;&lt;/div&gt;
+                \&lt;div class=&quot;column
+                %span.flv-col-4>
+                \&quot;&gt;&lt;/div&gt;
+                \&lt;div class=&quot;column
+                %span.flv-col-5>
+                \&quot;&gt;&lt;/div&gt;
+                \&lt;div class=&quot;column
+                %span.flv-col-6>
+                \&quot;&gt;&lt;/div&gt;
+                \&lt;div class=&quot;column
+                %span.flv-col-7>
+                \&quot;&gt;&lt;/div&gt;
+                \&lt;div class=&quot;column
+                %span.flv-col-8>
+                \&quot;&gt;&lt;/div&gt;
+                \&lt;div class=&quot;column
+                %span.flv-col-9>
+                \&quot;&gt;&lt;/div&gt;
+                %br>/
+                \&lt;/div&gt;
+            %a.button.ics-clipboard{"data-clipboard-target" => "#g2"}
+%section#flexview.section
+  .container
+    %h1 Flexview
+    %hr
+      .columns
+        .column
+          .box.content.is-light
+            %p Flexview is a layout tool for previewing the different options you have for creating grids in flexspace.css. Click on a box in the demo window to to edit each item's size and placement.  These options are fractions and are calculated from the container's size. Use the container options below the demo window to adjust wrap, alignment, etc.The code box below will automatically be updated.
+      #flex-items.box.content.is-light
+        .columns
+          .column.is-narrow
+            %button.button.is-accent{:style => "margin-right: 20px;", :type => "button"} Items
+          .column
+            #flxb-1.block.flex-wrap-wrap.justify-content-space-between.show-me
+              %p.control.has-addons
+                %a.button.is-alert 1
+                %span.select
+                  %select#fcol-1{:name => "fcol-1", :value => ""}
+                    %option{:selected => "", :value => ""} Size
+                    %option{:value => "is-full"} full
+                    %option{:value => "is-1-2"} 1-2
+                    %option{:value => "is-1-3"} 1-3
+                    %option{:value => "is-1-4"} 1-4
+                    %option{:value => "is-1-5"} 1-5
+                    %option{:value => "is-1-6"} 1-6
+                    %option{:value => "is-1-8"} 1-8
+                    %option{:value => "is-1-10"} 1-10
+                    %option{:value => "is-1-12"} 1-12
+                    %option{:value => "is-2-3"} 2-3
+                    %option{:value => "is-2-5"} 2-5
+                    %option{:value => "is-3-4"} 3-4
+                    %option{:value => "is-3-5"} 3-5
+                    %option{:value => "is-3-8"} 3-8
+                    %option{:value => "is-3-10"} 3-10
+                    %option{:value => "is-4-5"} 4-5
+                    %option{:value => "is-5-6"} 5-6
+                    %option{:value => "is-5-8"} 5-8
+                    %option{:value => "is-5-12"} 5-12
+                    %option{:value => "is-7-8"} 7-8
+                    %option{:value => "is-7-10"} 7-10
+                    %option{:value => "is-7-12"} 7-12
+                    %option{:value => "is-9-10"} 9-10
+                    %option{:value => "is-11-12"} 11-12
+                    %option{:value => "is-narrow-desktop"} narrow-desktop
+                    %option{:value => "is-narrow"} narrow
+                %span.select
+                  %select#fcoloff-1{:name => "fcoloff-1"}
+                    %option{:selected => "", :value => ""} Offset
+                    %option{:value => "is-offset-1-2"} 1-2
+                    %option{:value => "is-offset-1-3"} 1-3
+                    %option{:value => "is-offset-1-4"} 1-4
+                    %option{:value => "is-offset-1-5"} 1-5
+                    %option{:value => "is-offset-1-6"} 1-6
+                    %option{:value => "is-offset-1-8"} 1-8
+                    %option{:value => "is-offset-1-10"} 1-10
+                    %option{:value => "is-offset-1-12"} 1-12
+                    %option{:value => "is-offset-2-3"} 2-3
+                    %option{:value => "is-offset-2-5"} 2-5
+                    %option{:value => "is-offset-3-4"} 3-4
+                    %option{:value => "is-offset-3-5"} 3-5
+                    %option{:value => "is-offset-3-8"} 3-8
+                    %option{:value => "is-offset-3-10"} 3-10
+                    %option{:value => "is-offset-4-5"} 4-5
+                    %option{:value => "is-offset-5-6"} 5-6
+                    %option{:value => "is-offset-5-8"} 5-8
+                    %option{:value => "is-offset-5-12"} 5-12
+                    %option{:value => "is-offset-7-8"} 7-8
+                    %option{:value => "is-offset-7-10"} 7-10
+                    %option{:value => "is-offset-7-12"} 7-12
+                    %option{:value => "is-offset-9-10"} 9-10
+                    %option{:value => "is-offset-11-12"} 11-12
+                %span.select
+                  %select#flx-1{:name => "flx-1"}
+                    %option{:selected => "", :value => ""} Flex
+                    %option{:value => "flex-grow"} grow
+                    %option{:value => "flex-shrink"} shrink
+                    %option{:value => "flex-none"} none
+                %span.select
+                  %select#alignself-1{:name => "alignself-1"}
+                    %option{:selected => "", :value => ""} Align
+                    %option{:value => "align-self-auto"} auto
+                    %option{:value => "align-self-flex-start"} flex-start
+                    %option{:value => "align-self-flex-end"} flex-end
+                    %option{:value => "align-self-center"} center
+                    %option{:value => "align-self-baseline"} baseline
+                    %option{:value => "align-self-stretch"} stretch
+            #flxb-2.block.flex-wrap-wrap.justify-content-space-between.display-none
+              %p.control.has-addons
+                %a.button.is-secondary 2
+                %span.select
+                  %select#fcol-2{:name => "fcol-2", :value => ""}
+                    %option{:selected => "", :value => ""} Size
+                    %option{:value => "is-full"} full
+                    %option{:value => "is-1-2"} 1-2
+                    %option{:value => "is-1-3"} 1-3
+                    %option{:value => "is-1-4"} 1-4
+                    %option{:value => "is-1-5"} 1-5
+                    %option{:value => "is-1-6"} 1-6
+                    %option{:value => "is-1-8"} 1-8
+                    %option{:value => "is-1-10"} 1-10
+                    %option{:value => "is-1-12"} 1-12
+                    %option{:value => "is-2-3"} 2-3
+                    %option{:value => "is-2-5"} 2-5
+                    %option{:value => "is-3-4"} 3-4
+                    %option{:value => "is-3-5"} 3-5
+                    %option{:value => "is-3-8"} 3-8
+                    %option{:value => "is-3-10"} 3-10
+                    %option{:value => "is-4-5"} 4-5
+                    %option{:value => "is-5-6"} 5-6
+                    %option{:value => "is-5-8"} 5-8
+                    %option{:value => "is-5-12"} 5-12
+                    %option{:value => "is-7-8"} 7-8
+                    %option{:value => "is-7-10"} 7-10
+                    %option{:value => "is-7-12"} 7-12
+                    %option{:value => "is-9-10"} 9-10
+                    %option{:value => "is-11-12"} 11-12
+                    %option{:value => "is-narrow-desktop"} narrow-desktop
+                    %option{:value => "is-narrow"} narrow
+                %span.select
+                  %select#fcoloff-2{:name => "fcoloff-2"}
+                    %option{:selected => "", :value => ""} Offset
+                    %option{:value => "is-offset-1-2"} 1-2
+                    %option{:value => "is-offset-1-3"} 1-3
+                    %option{:value => "is-offset-1-4"} 1-4
+                    %option{:value => "is-offset-1-5"} 1-5
+                    %option{:value => "is-offset-1-6"} 1-6
+                    %option{:value => "is-offset-1-8"} 1-8
+                    %option{:value => "is-offset-1-10"} 1-10
+                    %option{:value => "is-offset-1-12"} 1-12
+                    %option{:value => "is-offset-2-3"} 2-3
+                    %option{:value => "is-offset-2-5"} 2-5
+                    %option{:value => "is-offset-3-4"} 3-4
+                    %option{:value => "is-offset-3-5"} 3-5
+                    %option{:value => "is-offset-3-8"} 3-8
+                    %option{:value => "is-offset-3-10"} 3-10
+                    %option{:value => "is-offset-4-5"} 4-5
+                    %option{:value => "is-offset-5-6"} 5-6
+                    %option{:value => "is-offset-5-8"} 5-8
+                    %option{:value => "is-offset-5-12"} 5-12
+                    %option{:value => "is-offset-7-8"} 7-8
+                    %option{:value => "is-offset-7-10"} 7-10
+                    %option{:value => "is-offset-7-12"} 7-12
+                    %option{:value => "is-offset-9-10"} 9-10
+                    %option{:value => "is-offset-11-12"} 11-12
+                %span.select
+                  %select#flx-2{:name => "flx-2"}
+                    %option{:selected => "", :value => ""} Flex
+                    %option{:value => "flex-grow"} grow
+                    %option{:value => "flex-shrink"} shrink
+                    %option{:value => "flex-none"} none
+                %span.select
+                  %select#alignself-2{:name => "alignself-2"}
+                    %option{:selected => "", :value => ""} Align
+                    %option{:value => "align-self-auto"} auto
+                    %option{:value => "align-self-flex-start"} flex-start
+                    %option{:value => "align-self-flex-end"} flex-end
+                    %option{:value => "align-self-center"} center
+                    %option{:value => "align-self-baseline"} baseline
+                    %option{:value => "align-self-stretch"} stretch
+            #flxb-3.block.flex-wrap-wrap.justify-content-space-between.display-none
+              %p.control.has-addons
+                %a.button.is-accent 3
+                %span.select
+                  %select#fcol-3{:name => "fcol-3", :value => ""}
+                    %option{:selected => "", :value => ""} Size
+                    %option{:value => "is-full"} full
+                    %option{:value => "is-1-2"} 1-2
+                    %option{:value => "is-1-3"} 1-3
+                    %option{:value => "is-1-4"} 1-4
+                    %option{:value => "is-1-5"} 1-5
+                    %option{:value => "is-1-6"} 1-6
+                    %option{:value => "is-1-8"} 1-8
+                    %option{:value => "is-1-10"} 1-10
+                    %option{:value => "is-1-12"} 1-12
+                    %option{:value => "is-2-3"} 2-3
+                    %option{:value => "is-2-5"} 2-5
+                    %option{:value => "is-3-4"} 3-4
+                    %option{:value => "is-3-5"} 3-5
+                    %option{:value => "is-3-8"} 3-8
+                    %option{:value => "is-3-10"} 3-10
+                    %option{:value => "is-4-5"} 4-5
+                    %option{:value => "is-5-6"} 5-6
+                    %option{:value => "is-5-8"} 5-8
+                    %option{:value => "is-5-12"} 5-12
+                    %option{:value => "is-7-8"} 7-8
+                    %option{:value => "is-7-10"} 7-10
+                    %option{:value => "is-7-12"} 7-12
+                    %option{:value => "is-9-10"} 9-10
+                    %option{:value => "is-11-12"} 11-12
+                    %option{:value => "is-narrow-desktop"} narrow-desktop
+                    %option{:value => "is-narrow"} narrow
+                %span.select
+                  %select#fcoloff-3{:name => "fcoloff-3"}
+                    %option{:selected => "", :value => ""} Offset
+                    %option{:value => "is-offset-1-2"} 1-2
+                    %option{:value => "is-offset-1-3"} 1-3
+                    %option{:value => "is-offset-1-4"} 1-4
+                    %option{:value => "is-offset-1-5"} 1-5
+                    %option{:value => "is-offset-1-6"} 1-6
+                    %option{:value => "is-offset-1-8"} 1-8
+                    %option{:value => "is-offset-1-10"} 1-10
+                    %option{:value => "is-offset-1-12"} 1-12
+                    %option{:value => "is-offset-2-3"} 2-3
+                    %option{:value => "is-offset-2-5"} 2-5
+                    %option{:value => "is-offset-3-4"} 3-4
+                    %option{:value => "is-offset-3-5"} 3-5
+                    %option{:value => "is-offset-3-8"} 3-8
+                    %option{:value => "is-offset-3-10"} 3-10
+                    %option{:value => "is-offset-4-5"} 4-5
+                    %option{:value => "is-offset-5-6"} 5-6
+                    %option{:value => "is-offset-5-8"} 5-8
+                    %option{:value => "is-offset-5-12"} 5-12
+                    %option{:value => "is-offset-7-8"} 7-8
+                    %option{:value => "is-offset-7-10"} 7-10
+                    %option{:value => "is-offset-7-12"} 7-12
+                    %option{:value => "is-offset-9-10"} 9-10
+                    %option{:value => "is-offset-11-12"} 11-12
+                %span.select
+                  %select#flx-3{:name => "flx-3"}
+                    %option{:selected => "", :value => ""} Flex
+                    %option{:value => "flex-grow"} grow
+                    %option{:value => "flex-shrink"} shrink
+                    %option{:value => "flex-none"} none
+                %span.select
+                  %select#alignself-3{:name => "alignself-3"}
+                    %option{:selected => "", :value => ""} Align
+                    %option{:value => "align-self-auto"} auto
+                    %option{:value => "align-self-flex-start"} flex-start
+                    %option{:value => "align-self-flex-end"} flex-end
+                    %option{:value => "align-self-center"} center
+                    %option{:value => "align-self-baseline"} baseline
+                    %option{:value => "align-self-stretch"} stretch
+            #flxb-4.block.flex-wrap-wrap.justify-content-space-between.display-none
+              %p.control.has-addons
+                %a.button.is-success 4
+                %span.select
+                  %select#fcol-4{:name => "fcol-4", :value => ""}
+                    %option{:selected => "", :value => ""} Size
+                    %option{:value => "is-full"} full
+                    %option{:value => "is-1-2"} 1-2
+                    %option{:value => "is-1-3"} 1-3
+                    %option{:value => "is-1-4"} 1-4
+                    %option{:value => "is-1-5"} 1-5
+                    %option{:value => "is-1-6"} 1-6
+                    %option{:value => "is-1-8"} 1-8
+                    %option{:value => "is-1-10"} 1-10
+                    %option{:value => "is-1-12"} 1-12
+                    %option{:value => "is-2-3"} 2-3
+                    %option{:value => "is-2-5"} 2-5
+                    %option{:value => "is-3-4"} 3-4
+                    %option{:value => "is-3-5"} 3-5
+                    %option{:value => "is-3-8"} 3-8
+                    %option{:value => "is-3-10"} 3-10
+                    %option{:value => "is-4-5"} 4-5
+                    %option{:value => "is-5-6"} 5-6
+                    %option{:value => "is-5-8"} 5-8
+                    %option{:value => "is-5-12"} 5-12
+                    %option{:value => "is-7-8"} 7-8
+                    %option{:value => "is-7-10"} 7-10
+                    %option{:value => "is-7-12"} 7-12
+                    %option{:value => "is-9-10"} 9-10
+                    %option{:value => "is-11-12"} 11-12
+                    %option{:value => "is-narrow-desktop"} narrow-desktop
+                    %option{:value => "is-narrow"} narrow
+                %span.select
+                  %select#fcoloff-4{:name => "fcoloff-4"}
+                    %option{:selected => "", :value => ""} Offset
+                    %option{:value => "is-offset-1-2"} 1-2
+                    %option{:value => "is-offset-1-3"} 1-3
+                    %option{:value => "is-offset-1-4"} 1-4
+                    %option{:value => "is-offset-1-5"} 1-5
+                    %option{:value => "is-offset-1-6"} 1-6
+                    %option{:value => "is-offset-1-8"} 1-8
+                    %option{:value => "is-offset-1-10"} 1-10
+                    %option{:value => "is-offset-1-12"} 1-12
+                    %option{:value => "is-offset-2-3"} 2-3
+                    %option{:value => "is-offset-2-5"} 2-5
+                    %option{:value => "is-offset-3-4"} 3-4
+                    %option{:value => "is-offset-3-5"} 3-5
+                    %option{:value => "is-offset-3-8"} 3-8
+                    %option{:value => "is-offset-3-10"} 3-10
+                    %option{:value => "is-offset-4-5"} 4-5
+                    %option{:value => "is-offset-5-6"} 5-6
+                    %option{:value => "is-offset-5-8"} 5-8
+                    %option{:value => "is-offset-5-12"} 5-12
+                    %option{:value => "is-offset-7-8"} 7-8
+                    %option{:value => "is-offset-7-10"} 7-10
+                    %option{:value => "is-offset-7-12"} 7-12
+                    %option{:value => "is-offset-9-10"} 9-10
+                    %option{:value => "is-offset-11-12"} 11-12
+                %span.select
+                  %select#flx-4{:name => "flx-4"}
+                    %option{:selected => "", :value => ""} Flex
+                    %option{:value => "flex-grow"} grow
+                    %option{:value => "flex-shrink"} shrink
+                    %option{:value => "flex-none"} none
+                %span.select
+                  %select#alignself-5{:name => "alignself-4"}
+                    %option{:selected => "", :value => ""} Align
+                    %option{:value => "align-self-auto"} auto
+                    %option{:value => "align-self-flex-start"} flex-start
+                    %option{:value => "align-self-flex-end"} flex-end
+                    %option{:value => "align-self-center"} center
+                    %option{:value => "align-self-baseline"} baseline
+                    %option{:value => "align-self-stretch"} stretch
+            #flxb-5.block.flex-wrap-wrap.justify-content-space-between.display-none
+              %p.control.has-addons
+                %a.button.is-primary 5
+                %span.select
+                  %select#fcol-5{:name => "fcol-5", :value => ""}
+                    %option{:selected => "", :value => ""} Size
+                    %option{:value => "is-full"} full
+                    %option{:value => "is-1-2"} 1-2
+                    %option{:value => "is-1-3"} 1-3
+                    %option{:value => "is-1-4"} 1-4
+                    %option{:value => "is-1-5"} 1-5
+                    %option{:value => "is-1-6"} 1-6
+                    %option{:value => "is-1-8"} 1-8
+                    %option{:value => "is-1-10"} 1-10
+                    %option{:value => "is-1-12"} 1-12
+                    %option{:value => "is-2-3"} 2-3
+                    %option{:value => "is-2-5"} 2-5
+                    %option{:value => "is-3-4"} 3-4
+                    %option{:value => "is-3-5"} 3-5
+                    %option{:value => "is-3-8"} 3-8
+                    %option{:value => "is-3-10"} 3-10
+                    %option{:value => "is-4-5"} 4-5
+                    %option{:value => "is-5-6"} 5-6
+                    %option{:value => "is-5-8"} 5-8
+                    %option{:value => "is-5-12"} 5-12
+                    %option{:value => "is-7-8"} 7-8
+                    %option{:value => "is-7-10"} 7-10
+                    %option{:value => "is-7-12"} 7-12
+                    %option{:value => "is-9-10"} 9-10
+                    %option{:value => "is-11-12"} 11-12
+                    %option{:value => "is-narrow-desktop"} narrow-desktop
+                    %option{:value => "is-narrow"} narrow
+                %span.select
+                  %select#fcoloff-5{:name => "fcoloff-5"}
+                    %option{:selected => "", :value => ""} Offset
+                    %option{:value => "is-offset-1-2"} 1-2
+                    %option{:value => "is-offset-1-3"} 1-3
+                    %option{:value => "is-offset-1-4"} 1-4
+                    %option{:value => "is-offset-1-5"} 1-5
+                    %option{:value => "is-offset-1-6"} 1-6
+                    %option{:value => "is-offset-1-8"} 1-8
+                    %option{:value => "is-offset-1-10"} 1-10
+                    %option{:value => "is-offset-1-12"} 1-12
+                    %option{:value => "is-offset-2-3"} 2-3
+                    %option{:value => "is-offset-2-5"} 2-5
+                    %option{:value => "is-offset-3-4"} 3-4
+                    %option{:value => "is-offset-3-5"} 3-5
+                    %option{:value => "is-offset-3-8"} 3-8
+                    %option{:value => "is-offset-3-10"} 3-10
+                    %option{:value => "is-offset-4-5"} 4-5
+                    %option{:value => "is-offset-5-6"} 5-6
+                    %option{:value => "is-offset-5-8"} 5-8
+                    %option{:value => "is-offset-5-12"} 5-12
+                    %option{:value => "is-offset-7-8"} 7-8
+                    %option{:value => "is-offset-7-10"} 7-10
+                    %option{:value => "is-offset-7-12"} 7-12
+                    %option{:value => "is-offset-9-10"} 9-10
+                    %option{:value => "is-offset-11-12"} 11-12
+                %span.select
+                  %select#flx-5{:name => "flx-5"}
+                    %option{:selected => "", :value => ""} Flex
+                    %option{:value => "flex-grow"} grow
+                    %option{:value => "flex-shrink"} shrink
+                    %option{:value => "flex-none"} none
+                %span.select
+                  %select#alignself-5{:name => "alignself-5"}
+                    %option{:selected => "", :value => ""} Align
+                    %option{:value => "align-self-auto"} auto
+                    %option{:value => "align-self-flex-start"} flex-start
+                    %option{:value => "align-self-flex-end"} flex-end
+                    %option{:value => "align-self-center"} center
+                    %option{:value => "align-self-baseline"} baseline
+                    %option{:value => "align-self-stretch"} stretch
+            #flxb-6.block.flex-wrap-wrap.justify-content-space-between.display-none
+              %p.control.has-addons
+                %a.button.is-red 6
+                %span.select
+                  %select#fcol-6{:name => "fcol-6", :value => ""}
+                    %option{:selected => "", :value => ""} Size
+                    %option{:value => "is-full"} full
+                    %option{:value => "is-1-2"} 1-2
+                    %option{:value => "is-1-3"} 1-3
+                    %option{:value => "is-1-4"} 1-4
+                    %option{:value => "is-1-5"} 1-5
+                    %option{:value => "is-1-6"} 1-6
+                    %option{:value => "is-1-8"} 1-8
+                    %option{:value => "is-1-10"} 1-10
+                    %option{:value => "is-1-12"} 1-12
+                    %option{:value => "is-2-3"} 2-3
+                    %option{:value => "is-2-5"} 2-5
+                    %option{:value => "is-3-4"} 3-4
+                    %option{:value => "is-3-5"} 3-5
+                    %option{:value => "is-3-8"} 3-8
+                    %option{:value => "is-3-10"} 3-10
+                    %option{:value => "is-4-5"} 4-5
+                    %option{:value => "is-5-6"} 5-6
+                    %option{:value => "is-5-8"} 5-8
+                    %option{:value => "is-5-12"} 5-12
+                    %option{:value => "is-7-8"} 7-8
+                    %option{:value => "is-7-10"} 7-10
+                    %option{:value => "is-7-12"} 7-12
+                    %option{:value => "is-9-10"} 9-10
+                    %option{:value => "is-11-12"} 11-12
+                    %option{:value => "is-narrow-desktop"} narrow-desktop
+                    %option{:value => "is-narrow"} narrow
+                %span.select
+                  %select#fcoloff-6{:name => "fcoloff-6"}
+                    %option{:selected => "", :value => ""} Offset
+                    %option{:value => "is-offset-1-2"} 1-2
+                    %option{:value => "is-offset-1-3"} 1-3
+                    %option{:value => "is-offset-1-4"} 1-4
+                    %option{:value => "is-offset-1-5"} 1-5
+                    %option{:value => "is-offset-1-6"} 1-6
+                    %option{:value => "is-offset-1-8"} 1-8
+                    %option{:value => "is-offset-1-10"} 1-10
+                    %option{:value => "is-offset-1-12"} 1-12
+                    %option{:value => "is-offset-2-3"} 2-3
+                    %option{:value => "is-offset-2-5"} 2-5
+                    %option{:value => "is-offset-3-4"} 3-4
+                    %option{:value => "is-offset-3-5"} 3-5
+                    %option{:value => "is-offset-3-8"} 3-8
+                    %option{:value => "is-offset-3-10"} 3-10
+                    %option{:value => "is-offset-4-5"} 4-5
+                    %option{:value => "is-offset-5-6"} 5-6
+                    %option{:value => "is-offset-5-8"} 5-8
+                    %option{:value => "is-offset-5-12"} 5-12
+                    %option{:value => "is-offset-7-8"} 7-8
+                    %option{:value => "is-offset-7-10"} 7-10
+                    %option{:value => "is-offset-7-12"} 7-12
+                    %option{:value => "is-offset-9-10"} 9-10
+                    %option{:value => "is-offset-11-12"} 11-12
+                %span.select
+                  %select#flx-6{:name => "flx-6"}
+                    %option{:selected => "", :value => ""} Flex
+                    %option{:value => "flex-grow"} grow
+                    %option{:value => "flex-shrink"} shrink
+                    %option{:value => "flex-none"} none
+                %span.select
+                  %select#alignself-6{:name => "alignself-6"}
+                    %option{:selected => "", :value => ""} Align
+                    %option{:value => "align-self-auto"} auto
+                    %option{:value => "align-self-flex-start"} flex-start
+                    %option{:value => "align-self-flex-end"} flex-end
+                    %option{:value => "align-self-center"} center
+                    %option{:value => "align-self-baseline"} baseline
+                    %option{:value => "align-self-stretch"} stretch
+            #flxb-7.block.flex-wrap-wrap.justify-content-space-between.display-none
+              %p.control.has-addons
+                %a.button.is-alert 7
+                %span.select
+                  %select#fcol-7{:name => "fcol-7", :value => ""}
+                    %option{:selected => "", :value => ""} Size
+                    %option{:value => "is-full"} full
+                    %option{:value => "is-1-2"} 1-2
+                    %option{:value => "is-1-3"} 1-3
+                    %option{:value => "is-1-4"} 1-4
+                    %option{:value => "is-1-5"} 1-5
+                    %option{:value => "is-1-6"} 1-6
+                    %option{:value => "is-1-8"} 1-8
+                    %option{:value => "is-1-10"} 1-10
+                    %option{:value => "is-1-12"} 1-12
+                    %option{:value => "is-2-3"} 2-3
+                    %option{:value => "is-2-5"} 2-5
+                    %option{:value => "is-3-4"} 3-4
+                    %option{:value => "is-3-5"} 3-5
+                    %option{:value => "is-3-8"} 3-8
+                    %option{:value => "is-3-10"} 3-10
+                    %option{:value => "is-4-5"} 4-5
+                    %option{:value => "is-5-6"} 5-6
+                    %option{:value => "is-5-8"} 5-8
+                    %option{:value => "is-5-12"} 5-12
+                    %option{:value => "is-7-8"} 7-8
+                    %option{:value => "is-7-10"} 7-10
+                    %option{:value => "is-7-12"} 7-12
+                    %option{:value => "is-9-10"} 9-10
+                    %option{:value => "is-11-12"} 11-12
+                    %option{:value => "is-narrow-desktop"} narrow-desktop
+                    %option{:value => "is-narrow"} narrow
+                %span.select
+                  %select#fcoloff-7{:name => "fcoloff-7"}
+                    %option{:selected => "", :value => ""} Offset
+                    %option{:value => "is-offset-1-2"} 1-2
+                    %option{:value => "is-offset-1-3"} 1-3
+                    %option{:value => "is-offset-1-4"} 1-4
+                    %option{:value => "is-offset-1-5"} 1-5
+                    %option{:value => "is-offset-1-6"} 1-6
+                    %option{:value => "is-offset-1-8"} 1-8
+                    %option{:value => "is-offset-1-10"} 1-10
+                    %option{:value => "is-offset-1-12"} 1-12
+                    %option{:value => "is-offset-2-3"} 2-3
+                    %option{:value => "is-offset-2-5"} 2-5
+                    %option{:value => "is-offset-3-4"} 3-4
+                    %option{:value => "is-offset-3-5"} 3-5
+                    %option{:value => "is-offset-3-8"} 3-8
+                    %option{:value => "is-offset-3-10"} 3-10
+                    %option{:value => "is-offset-4-5"} 4-5
+                    %option{:value => "is-offset-5-6"} 5-6
+                    %option{:value => "is-offset-5-8"} 5-8
+                    %option{:value => "is-offset-5-12"} 5-12
+                    %option{:value => "is-offset-7-8"} 7-8
+                    %option{:value => "is-offset-7-10"} 7-10
+                    %option{:value => "is-offset-7-12"} 7-12
+                    %option{:value => "is-offset-9-10"} 9-10
+                    %option{:value => "is-offset-11-12"} 11-12
+                %span.select
+                  %select#flx-7{:name => "flx-7"}
+                    %option{:selected => "", :value => ""} Flex
+                    %option{:value => "flex-grow"} grow
+                    %option{:value => "flex-shrink"} shrink
+                    %option{:value => "flex-none"} none
+                %span.select
+                  %select#alignself-7{:name => "alignself-7"}
+                    %option{:selected => "", :value => ""} Align
+                    %option{:value => "align-self-auto"} auto
+                    %option{:value => "align-self-flex-start"} flex-start
+                    %option{:value => "align-self-flex-end"} flex-end
+                    %option{:value => "align-self-center"} center
+                    %option{:value => "align-self-baseline"} baseline
+                    %option{:value => "align-self-stretch"} stretch
+            #flxb-8.block.flex-wrap-wrap.justify-content-space-between.display-none
+              %p.control.has-addons
+                %a.button.is-secondary 8
+                %span.select
+                  %select#fcol-8{:name => "fcol-8", :value => ""}
+                    %option{:selected => "", :value => ""} Size
+                    %option{:value => "is-full"} full
+                    %option{:value => "is-1-2"} 1-2
+                    %option{:value => "is-1-3"} 1-3
+                    %option{:value => "is-1-4"} 1-4
+                    %option{:value => "is-1-5"} 1-5
+                    %option{:value => "is-1-6"} 1-6
+                    %option{:value => "is-1-8"} 1-8
+                    %option{:value => "is-1-10"} 1-10
+                    %option{:value => "is-1-12"} 1-12
+                    %option{:value => "is-2-3"} 2-3
+                    %option{:value => "is-2-5"} 2-5
+                    %option{:value => "is-3-4"} 3-4
+                    %option{:value => "is-3-5"} 3-5
+                    %option{:value => "is-3-8"} 3-8
+                    %option{:value => "is-3-10"} 3-10
+                    %option{:value => "is-4-5"} 4-5
+                    %option{:value => "is-5-6"} 5-6
+                    %option{:value => "is-5-8"} 5-8
+                    %option{:value => "is-5-12"} 5-12
+                    %option{:value => "is-7-8"} 7-8
+                    %option{:value => "is-7-10"} 7-10
+                    %option{:value => "is-7-12"} 7-12
+                    %option{:value => "is-9-10"} 9-10
+                    %option{:value => "is-11-12"} 11-12
+                    %option{:value => "is-narrow-desktop"} narrow-desktop
+                    %option{:value => "is-narrow"} narrow
+                %span.select
+                  %select#fcoloff-8{:name => "fcoloff-8"}
+                    %option{:selected => "", :value => ""} Offset
+                    %option{:value => "is-offset-1-2"} 1-2
+                    %option{:value => "is-offset-1-3"} 1-3
+                    %option{:value => "is-offset-1-4"} 1-4
+                    %option{:value => "is-offset-1-5"} 1-5
+                    %option{:value => "is-offset-1-6"} 1-6
+                    %option{:value => "is-offset-1-8"} 1-8
+                    %option{:value => "is-offset-1-10"} 1-10
+                    %option{:value => "is-offset-1-12"} 1-12
+                    %option{:value => "is-offset-2-3"} 2-3
+                    %option{:value => "is-offset-2-5"} 2-5
+                    %option{:value => "is-offset-3-4"} 3-4
+                    %option{:value => "is-offset-3-5"} 3-5
+                    %option{:value => "is-offset-3-8"} 3-8
+                    %option{:value => "is-offset-3-10"} 3-10
+                    %option{:value => "is-offset-4-5"} 4-5
+                    %option{:value => "is-offset-5-6"} 5-6
+                    %option{:value => "is-offset-5-8"} 5-8
+                    %option{:value => "is-offset-5-12"} 5-12
+                    %option{:value => "is-offset-7-8"} 7-8
+                    %option{:value => "is-offset-7-10"} 7-10
+                    %option{:value => "is-offset-7-12"} 7-12
+                    %option{:value => "is-offset-9-10"} 9-10
+                    %option{:value => "is-offset-11-12"} 11-12
+                %span.select
+                  %select#flx-8{:name => "flx-8"}
+                    %option{:selected => "", :value => ""} Flex
+                    %option{:value => "flex-grow"} grow
+                    %option{:value => "flex-shrink"} shrink
+                    %option{:value => "flex-none"} none
+                %span.select
+                  %select#alignself-8{:name => "alignself-8"}
+                    %option{:selected => "", :value => ""} Align
+                    %option{:value => "align-self-auto"} auto
+                    %option{:value => "align-self-flex-start"} flex-start
+                    %option{:value => "align-self-flex-end"} flex-end
+                    %option{:value => "align-self-center"} center
+                    %option{:value => "align-self-baseline"} baseline
+                    %option{:value => "align-self-stretch"} stretch
+            #flxb-9.block.flex-wrap-wrap.justify-content-space-between.display-none
+              %p.control.has-addons
+                %a.button.is-accent 9
+                %span.select
+                  %select#fcol-9{:name => "fcol-9", :value => ""}
+                    %option{:selected => "", :value => ""} Size
+                    %option{:value => "is-full"} full
+                    %option{:value => "is-1-2"} 1-2
+                    %option{:value => "is-1-3"} 1-3
+                    %option{:value => "is-1-4"} 1-4
+                    %option{:value => "is-1-5"} 1-5
+                    %option{:value => "is-1-6"} 1-6
+                    %option{:value => "is-1-8"} 1-8
+                    %option{:value => "is-1-10"} 1-10
+                    %option{:value => "is-1-12"} 1-12
+                    %option{:value => "is-2-3"} 2-3
+                    %option{:value => "is-2-5"} 2-5
+                    %option{:value => "is-3-4"} 3-4
+                    %option{:value => "is-3-5"} 3-5
+                    %option{:value => "is-3-8"} 3-8
+                    %option{:value => "is-3-10"} 3-10
+                    %option{:value => "is-4-5"} 4-5
+                    %option{:value => "is-5-6"} 5-6
+                    %option{:value => "is-5-8"} 5-8
+                    %option{:value => "is-5-12"} 5-12
+                    %option{:value => "is-7-8"} 7-8
+                    %option{:value => "is-7-10"} 7-10
+                    %option{:value => "is-7-12"} 7-12
+                    %option{:value => "is-9-10"} 9-10
+                    %option{:value => "is-11-12"} 11-12
+                    %option{:value => "is-narrow-desktop"} narrow-desktop
+                    %option{:value => "is-narrow"} narrow
+                %span.select
+                  %select#fcoloff-9{:name => "fcoloff-9"}
+                    %option{:selected => "", :value => ""} Offset
+                    %option{:value => "is-offset-1-2"} 1-2
+                    %option{:value => "is-offset-1-3"} 1-3
+                    %option{:value => "is-offset-1-4"} 1-4
+                    %option{:value => "is-offset-1-5"} 1-5
+                    %option{:value => "is-offset-1-6"} 1-6
+                    %option{:value => "is-offset-1-8"} 1-8
+                    %option{:value => "is-offset-1-10"} 1-10
+                    %option{:value => "is-offset-1-12"} 1-12
+                    %option{:value => "is-offset-2-3"} 2-3
+                    %option{:value => "is-offset-2-5"} 2-5
+                    %option{:value => "is-offset-3-4"} 3-4
+                    %option{:value => "is-offset-3-5"} 3-5
+                    %option{:value => "is-offset-3-8"} 3-8
+                    %option{:value => "is-offset-3-10"} 3-10
+                    %option{:value => "is-offset-4-5"} 4-5
+                    %option{:value => "is-offset-5-6"} 5-6
+                    %option{:value => "is-offset-5-8"} 5-8
+                    %option{:value => "is-offset-5-12"} 5-12
+                    %option{:value => "is-offset-7-8"} 7-8
+                    %option{:value => "is-offset-7-10"} 7-10
+                    %option{:value => "is-offset-7-12"} 7-12
+                    %option{:value => "is-offset-9-10"} 9-10
+                    %option{:value => "is-offset-11-12"} 11-12
+                %span.select
+                  %select#flx-9{:name => "flx-9"}
+                    %option{:selected => "", :value => ""} Flex
+                    %option{:value => "flex-grow"} grow
+                    %option{:value => "flex-shrink"} shrink
+                    %option{:value => "flex-none"} none
+                %span.select
+                  %select#alignself-9{:name => "alignself-9"}
+                    %option{:selected => "", :value => ""} Align
+                    %option{:value => "align-self-auto"} auto
+                    %option{:value => "align-self-flex-start"} flex-start
+                    %option{:value => "align-self-flex-end"} flex-end
+                    %option{:value => "align-self-center"} center
+                    %option{:value => "align-self-baseline"} baseline
+                    %option{:value => "align-self-stretch"} stretch
+            #flxb-10.block.flex-wrap-wrap.justify-content-space-between.display-none
+              %p.control.has-addons
+                %a.button.is-success 10
+                %span.select
+                  %select#fcol-10{:name => "fcol-10", :value => ""}
+                    %option{:selected => "", :value => ""} Size
+                    %option{:value => "is-full"} full
+                    %option{:value => "is-1-2"} 1-2
+                    %option{:value => "is-1-3"} 1-3
+                    %option{:value => "is-1-4"} 1-4
+                    %option{:value => "is-1-5"} 1-5
+                    %option{:value => "is-1-6"} 1-6
+                    %option{:value => "is-1-8"} 1-8
+                    %option{:value => "is-1-10"} 1-10
+                    %option{:value => "is-1-12"} 1-12
+                    %option{:value => "is-2-3"} 2-3
+                    %option{:value => "is-2-5"} 2-5
+                    %option{:value => "is-3-4"} 3-4
+                    %option{:value => "is-3-5"} 3-5
+                    %option{:value => "is-3-8"} 3-8
+                    %option{:value => "is-3-10"} 3-10
+                    %option{:value => "is-4-5"} 4-5
+                    %option{:value => "is-5-6"} 5-6
+                    %option{:value => "is-5-8"} 5-8
+                    %option{:value => "is-5-12"} 5-12
+                    %option{:value => "is-7-8"} 7-8
+                    %option{:value => "is-7-10"} 7-10
+                    %option{:value => "is-7-12"} 7-12
+                    %option{:value => "is-9-10"} 9-10
+                    %option{:value => "is-11-12"} 11-12
+                    %option{:value => "is-narrow-desktop"} narrow-desktop
+                    %option{:value => "is-narrow"} narrow
+                %span.select
+                  %select#fcoloff-10{:name => "fcoloff-10"}
+                    %option{:selected => "", :value => ""} Offset
+                    %option{:value => "is-offset-1-2"} 1-2
+                    %option{:value => "is-offset-1-3"} 1-3
+                    %option{:value => "is-offset-1-4"} 1-4
+                    %option{:value => "is-offset-1-5"} 1-5
+                    %option{:value => "is-offset-1-6"} 1-6
+                    %option{:value => "is-offset-1-8"} 1-8
+                    %option{:value => "is-offset-1-10"} 1-10
+                    %option{:value => "is-offset-1-12"} 1-12
+                    %option{:value => "is-offset-2-3"} 2-3
+                    %option{:value => "is-offset-2-5"} 2-5
+                    %option{:value => "is-offset-3-4"} 3-4
+                    %option{:value => "is-offset-3-5"} 3-5
+                    %option{:value => "is-offset-3-8"} 3-8
+                    %option{:value => "is-offset-3-10"} 3-10
+                    %option{:value => "is-offset-4-5"} 4-5
+                    %option{:value => "is-offset-5-6"} 5-6
+                    %option{:value => "is-offset-5-8"} 5-8
+                    %option{:value => "is-offset-5-12"} 5-12
+                    %option{:value => "is-offset-7-8"} 7-8
+                    %option{:value => "is-offset-7-10"} 7-10
+                    %option{:value => "is-offset-7-12"} 7-12
+                    %option{:value => "is-offset-9-10"} 9-10
+                    %option{:value => "is-offset-11-12"} 11-12
+                %span.select
+                  %select#flx-10{:name => "flx-10"}
+                    %option{:selected => "", :value => ""} Flex
+                    %option{:value => "flex-grow"} grow
+                    %option{:value => "flex-shrink"} shrink
+                    %option{:value => "flex-none"} none
+                %span.select
+                  %select#alignself-10{:name => "alignself-10"}
+                    %option{:selected => "", :value => ""} Align
+                    %option{:value => "align-self-auto"} auto
+                    %option{:value => "align-self-flex-start"} flex-start
+                    %option{:value => "align-self-flex-end"} flex-end
+                    %option{:value => "align-self-center"} center
+                    %option{:value => "align-self-baseline"} baseline
+                    %option{:value => "align-self-stretch"} stretch
+            #flxb-11.block.flex-wrap-wrap.justify-content-space-between.display-none
+              %p.control.has-addons
+                %a.button.is-primary 11
+                %span.select
+                  %select#fcol-11{:name => "fcol-11", :value => ""}
+                    %option{:selected => "", :value => ""} Size
+                    %option{:value => "is-full"} full
+                    %option{:value => "is-1-2"} 1-2
+                    %option{:value => "is-1-3"} 1-3
+                    %option{:value => "is-1-4"} 1-4
+                    %option{:value => "is-1-5"} 1-5
+                    %option{:value => "is-1-6"} 1-6
+                    %option{:value => "is-1-8"} 1-8
+                    %option{:value => "is-1-10"} 1-10
+                    %option{:value => "is-1-12"} 1-12
+                    %option{:value => "is-2-3"} 2-3
+                    %option{:value => "is-2-5"} 2-5
+                    %option{:value => "is-3-4"} 3-4
+                    %option{:value => "is-3-5"} 3-5
+                    %option{:value => "is-3-8"} 3-8
+                    %option{:value => "is-3-10"} 3-10
+                    %option{:value => "is-4-5"} 4-5
+                    %option{:value => "is-5-6"} 5-6
+                    %option{:value => "is-5-8"} 5-8
+                    %option{:value => "is-5-12"} 5-12
+                    %option{:value => "is-7-8"} 7-8
+                    %option{:value => "is-7-10"} 7-10
+                    %option{:value => "is-7-12"} 7-12
+                    %option{:value => "is-9-10"} 9-10
+                    %option{:value => "is-11-12"} 11-12
+                    %option{:value => "is-narrow-desktop"} narrow-desktop
+                    %option{:value => "is-narrow"} narrow
+                %span.select
+                  %select#fcoloff-11{:name => "fcoloff-11"}
+                    %option{:selected => "", :value => ""} Offset
+                    %option{:value => "is-offset-1-2"} 1-2
+                    %option{:value => "is-offset-1-3"} 1-3
+                    %option{:value => "is-offset-1-4"} 1-4
+                    %option{:value => "is-offset-1-5"} 1-5
+                    %option{:value => "is-offset-1-6"} 1-6
+                    %option{:value => "is-offset-1-8"} 1-8
+                    %option{:value => "is-offset-1-10"} 1-10
+                    %option{:value => "is-offset-1-12"} 1-12
+                    %option{:value => "is-offset-2-3"} 2-3
+                    %option{:value => "is-offset-2-5"} 2-5
+                    %option{:value => "is-offset-3-4"} 3-4
+                    %option{:value => "is-offset-3-5"} 3-5
+                    %option{:value => "is-offset-3-8"} 3-8
+                    %option{:value => "is-offset-3-10"} 3-10
+                    %option{:value => "is-offset-4-5"} 4-5
+                    %option{:value => "is-offset-5-6"} 5-6
+                    %option{:value => "is-offset-5-8"} 5-8
+                    %option{:value => "is-offset-5-12"} 5-12
+                    %option{:value => "is-offset-7-8"} 7-8
+                    %option{:value => "is-offset-7-10"} 7-10
+                    %option{:value => "is-offset-7-12"} 7-12
+                    %option{:value => "is-offset-9-10"} 9-10
+                    %option{:value => "is-offset-11-12"} 11-12
+                %span.select
+                  %select#flx-11{:name => "flx-11"}
+                    %option{:selected => "", :value => ""} Flex
+                    %option{:value => "flex-grow"} grow
+                    %option{:value => "flex-shrink"} shrink
+                    %option{:value => "flex-none"} none
+                %span.select
+                  %select#alignself-11{:name => "alignself-11"}
+                    %option{:selected => "", :value => ""} Align
+                    %option{:value => "align-self-auto"} auto
+                    %option{:value => "align-self-flex-start"} flex-start
+                    %option{:value => "align-self-flex-end"} flex-end
+                    %option{:value => "align-self-center"} center
+                    %option{:value => "align-self-baseline"} baseline
+                    %option{:value => "align-self-stretch"} stretch
+            #flxb-12.block.flex-wrap-wrap.justify-content-space-between.display-none
+              %p.control.has-addons
+                %a.button.is-red 12
+                %span.select
+                  %select#fcol-12{:name => "fcol-12", :value => ""}
+                    %option{:selected => "", :value => ""} Size
+                    %option{:value => "is-full"} full
+                    %option{:value => "is-1-2"} 1-2
+                    %option{:value => "is-1-3"} 1-3
+                    %option{:value => "is-1-4"} 1-4
+                    %option{:value => "is-1-5"} 1-5
+                    %option{:value => "is-1-6"} 1-6
+                    %option{:value => "is-1-8"} 1-8
+                    %option{:value => "is-1-10"} 1-10
+                    %option{:value => "is-1-12"} 1-12
+                    %option{:value => "is-2-3"} 2-3
+                    %option{:value => "is-2-5"} 2-5
+                    %option{:value => "is-3-4"} 3-4
+                    %option{:value => "is-3-5"} 3-5
+                    %option{:value => "is-3-8"} 3-8
+                    %option{:value => "is-3-10"} 3-10
+                    %option{:value => "is-4-5"} 4-5
+                    %option{:value => "is-5-6"} 5-6
+                    %option{:value => "is-5-8"} 5-8
+                    %option{:value => "is-5-12"} 5-12
+                    %option{:value => "is-7-8"} 7-8
+                    %option{:value => "is-7-10"} 7-10
+                    %option{:value => "is-7-12"} 7-12
+                    %option{:value => "is-9-10"} 9-10
+                    %option{:value => "is-11-12"} 11-12
+                    %option{:value => "is-narrow-desktop"} narrow-desktop
+                    %option{:value => "is-narrow"} narrow
+                %span.select
+                  %select#fcoloff-12{:name => "fcoloff-12"}
+                    %option{:selected => "", :value => ""} Offset
+                    %option{:value => "is-offset-1-2"} 1-2
+                    %option{:value => "is-offset-1-3"} 1-3
+                    %option{:value => "is-offset-1-4"} 1-4
+                    %option{:value => "is-offset-1-5"} 1-5
+                    %option{:value => "is-offset-1-6"} 1-6
+                    %option{:value => "is-offset-1-8"} 1-8
+                    %option{:value => "is-offset-1-10"} 1-10
+                    %option{:value => "is-offset-1-12"} 1-12
+                    %option{:value => "is-offset-2-3"} 2-3
+                    %option{:value => "is-offset-2-5"} 2-5
+                    %option{:value => "is-offset-3-4"} 3-4
+                    %option{:value => "is-offset-3-5"} 3-5
+                    %option{:value => "is-offset-3-8"} 3-8
+                    %option{:value => "is-offset-3-10"} 3-10
+                    %option{:value => "is-offset-4-5"} 4-5
+                    %option{:value => "is-offset-5-6"} 5-6
+                    %option{:value => "is-offset-5-8"} 5-8
+                    %option{:value => "is-offset-5-12"} 5-12
+                    %option{:value => "is-offset-7-8"} 7-8
+                    %option{:value => "is-offset-7-10"} 7-10
+                    %option{:value => "is-offset-7-12"} 7-12
+                    %option{:value => "is-offset-9-10"} 9-10
+                    %option{:value => "is-offset-11-12"} 11-12
+                %span.select
+                  %select#flx-12{:name => "flx-12"}
+                    %option{:selected => "", :value => ""} Flex
+                    %option{:value => "flex-grow"} grow
+                    %option{:value => "flex-shrink"} shrink
+                    %option{:value => "flex-none"} none
+                %span.select
+                  %select#alignself-12{:name => "alignself-12"}
+                    %option{:selected => "", :value => ""} Align
+                    %option{:value => "align-self-auto"} auto
+                    %option{:value => "align-self-flex-start"} flex-start
+                    %option{:value => "align-self-flex-end"} flex-end
+                    %option{:value => "align-self-center"} center
+                    %option{:value => "align-self-baseline"} baseline
+                    %option{:value => "align-self-stretch"} stretch
+            #flxb-13.block.flex-wrap-wrap.justify-content-space-between.display-none
+              %p.control.has-addons
+                %a.button.is-alert 13
+                %span.select
+                  %select#fcol-13{:name => "fcol-13", :value => ""}
+                    %option{:selected => "", :value => ""} Size
+                    %option{:value => "is-full"} full
+                    %option{:value => "is-1-2"} 1-2
+                    %option{:value => "is-1-3"} 1-3
+                    %option{:value => "is-1-4"} 1-4
+                    %option{:value => "is-1-5"} 1-5
+                    %option{:value => "is-1-6"} 1-6
+                    %option{:value => "is-1-8"} 1-8
+                    %option{:value => "is-1-10"} 1-10
+                    %option{:value => "is-1-12"} 1-12
+                    %option{:value => "is-2-3"} 2-3
+                    %option{:value => "is-2-5"} 2-5
+                    %option{:value => "is-3-4"} 3-4
+                    %option{:value => "is-3-5"} 3-5
+                    %option{:value => "is-3-8"} 3-8
+                    %option{:value => "is-3-10"} 3-10
+                    %option{:value => "is-4-5"} 4-5
+                    %option{:value => "is-5-6"} 5-6
+                    %option{:value => "is-5-8"} 5-8
+                    %option{:value => "is-5-12"} 5-12
+                    %option{:value => "is-7-8"} 7-8
+                    %option{:value => "is-7-10"} 7-10
+                    %option{:value => "is-7-12"} 7-12
+                    %option{:value => "is-9-10"} 9-10
+                    %option{:value => "is-11-12"} 11-12
+                    %option{:value => "is-narrow-desktop"} narrow-desktop
+                    %option{:value => "is-narrow"} narrow
+                %span.select
+                  %select#fcoloff-13{:name => "fcoloff-13"}
+                    %option{:selected => "", :value => ""} Offset
+                    %option{:value => "is-offset-1-2"} 1-2
+                    %option{:value => "is-offset-1-3"} 1-3
+                    %option{:value => "is-offset-1-4"} 1-4
+                    %option{:value => "is-offset-1-5"} 1-5
+                    %option{:value => "is-offset-1-6"} 1-6
+                    %option{:value => "is-offset-1-8"} 1-8
+                    %option{:value => "is-offset-1-10"} 1-10
+                    %option{:value => "is-offset-1-12"} 1-12
+                    %option{:value => "is-offset-2-3"} 2-3
+                    %option{:value => "is-offset-2-5"} 2-5
+                    %option{:value => "is-offset-3-4"} 3-4
+                    %option{:value => "is-offset-3-5"} 3-5
+                    %option{:value => "is-offset-3-8"} 3-8
+                    %option{:value => "is-offset-3-10"} 3-10
+                    %option{:value => "is-offset-4-5"} 4-5
+                    %option{:value => "is-offset-5-6"} 5-6
+                    %option{:value => "is-offset-5-8"} 5-8
+                    %option{:value => "is-offset-5-12"} 5-12
+                    %option{:value => "is-offset-7-8"} 7-8
+                    %option{:value => "is-offset-7-10"} 7-10
+                    %option{:value => "is-offset-7-12"} 7-12
+                    %option{:value => "is-offset-9-10"} 9-10
+                    %option{:value => "is-offset-11-12"} 11-12
+                %span.select
+                  %select#flx-13{:name => "flx-13"}
+                    %option{:selected => "", :value => ""} Flex
+                    %option{:value => "flex-grow"} grow
+                    %option{:value => "flex-shrink"} shrink
+                    %option{:value => "flex-none"} none
+                %span.select
+                  %select#alignself-13{:name => "alignself-13"}
+                    %option{:selected => "", :value => ""} Align
+                    %option{:value => "align-self-auto"} auto
+                    %option{:value => "align-self-flex-start"} flex-start
+                    %option{:value => "align-self-flex-end"} flex-end
+                    %option{:value => "align-self-center"} center
+                    %option{:value => "align-self-baseline"} baseline
+                    %option{:value => "align-self-stretch"} stretch
+            #flxb-14.block.flex-wrap-wrap.justify-content-space-between.display-none
+              %p.control.has-addons
+                %a.button.is-secondary 14
+                %span.select
+                  %select#fcol-14{:name => "fcol-14", :value => ""}
+                    %option{:selected => "", :value => ""} Size
+                    %option{:value => "is-full"} full
+                    %option{:value => "is-1-2"} 1-2
+                    %option{:value => "is-1-3"} 1-3
+                    %option{:value => "is-1-4"} 1-4
+                    %option{:value => "is-1-5"} 1-5
+                    %option{:value => "is-1-6"} 1-6
+                    %option{:value => "is-1-8"} 1-8
+                    %option{:value => "is-1-10"} 1-10
+                    %option{:value => "is-1-12"} 1-12
+                    %option{:value => "is-2-3"} 2-3
+                    %option{:value => "is-2-5"} 2-5
+                    %option{:value => "is-3-4"} 3-4
+                    %option{:value => "is-3-5"} 3-5
+                    %option{:value => "is-3-8"} 3-8
+                    %option{:value => "is-3-10"} 3-10
+                    %option{:value => "is-4-5"} 4-5
+                    %option{:value => "is-5-6"} 5-6
+                    %option{:value => "is-5-8"} 5-8
+                    %option{:value => "is-5-12"} 5-12
+                    %option{:value => "is-7-8"} 7-8
+                    %option{:value => "is-7-10"} 7-10
+                    %option{:value => "is-7-12"} 7-12
+                    %option{:value => "is-9-10"} 9-10
+                    %option{:value => "is-11-12"} 11-12
+                    %option{:value => "is-narrow-desktop"} narrow-desktop
+                    %option{:value => "is-narrow"} narrow
+                %span.select
+                  %select#fcoloff-14{:name => "fcoloff-14"}
+                    %option{:selected => "", :value => ""} Offset
+                    %option{:value => "is-offset-1-2"} 1-2
+                    %option{:value => "is-offset-1-3"} 1-3
+                    %option{:value => "is-offset-1-4"} 1-4
+                    %option{:value => "is-offset-1-5"} 1-5
+                    %option{:value => "is-offset-1-6"} 1-6
+                    %option{:value => "is-offset-1-8"} 1-8
+                    %option{:value => "is-offset-1-10"} 1-10
+                    %option{:value => "is-offset-1-12"} 1-12
+                    %option{:value => "is-offset-2-3"} 2-3
+                    %option{:value => "is-offset-2-5"} 2-5
+                    %option{:value => "is-offset-3-4"} 3-4
+                    %option{:value => "is-offset-3-5"} 3-5
+                    %option{:value => "is-offset-3-8"} 3-8
+                    %option{:value => "is-offset-3-10"} 3-10
+                    %option{:value => "is-offset-4-5"} 4-5
+                    %option{:value => "is-offset-5-6"} 5-6
+                    %option{:value => "is-offset-5-8"} 5-8
+                    %option{:value => "is-offset-5-12"} 5-12
+                    %option{:value => "is-offset-7-8"} 7-8
+                    %option{:value => "is-offset-7-10"} 7-10
+                    %option{:value => "is-offset-7-12"} 7-12
+                    %option{:value => "is-offset-9-10"} 9-10
+                    %option{:value => "is-offset-11-12"} 11-12
+                %span.select
+                  %select#flx-14{:name => "flx-14"}
+                    %option{:selected => "", :value => ""} Flex
+                    %option{:value => "flex-grow"} grow
+                    %option{:value => "flex-shrink"} shrink
+                    %option{:value => "flex-none"} none
+                %span.select
+                  %select#alignself-14{:name => "alignself-14"}
+                    %option{:selected => "", :value => ""} Align
+                    %option{:value => "align-self-auto"} auto
+                    %option{:value => "align-self-flex-start"} flex-start
+                    %option{:value => "align-self-flex-end"} flex-end
+                    %option{:value => "align-self-center"} center
+                    %option{:value => "align-self-baseline"} baseline
+                    %option{:value => "align-self-stretch"} stretch
+            #flxb-15.block.flex-wrap-wrap.justify-content-space-between.display-none
+              %p.control.has-addons
+                %a.button.is-accent 15
+                %span.select
+                  %select#fcol-15{:name => "fcol-15", :value => ""}
+                    %option{:selected => "", :value => ""} Size
+                    %option{:value => "is-full"} full
+                    %option{:value => "is-1-2"} 1-2
+                    %option{:value => "is-1-3"} 1-3
+                    %option{:value => "is-1-4"} 1-4
+                    %option{:value => "is-1-5"} 1-5
+                    %option{:value => "is-1-6"} 1-6
+                    %option{:value => "is-1-8"} 1-8
+                    %option{:value => "is-1-10"} 1-10
+                    %option{:value => "is-1-12"} 1-12
+                    %option{:value => "is-2-3"} 2-3
+                    %option{:value => "is-2-5"} 2-5
+                    %option{:value => "is-3-4"} 3-4
+                    %option{:value => "is-3-5"} 3-5
+                    %option{:value => "is-3-8"} 3-8
+                    %option{:value => "is-3-10"} 3-10
+                    %option{:value => "is-4-5"} 4-5
+                    %option{:value => "is-5-6"} 5-6
+                    %option{:value => "is-5-8"} 5-8
+                    %option{:value => "is-5-12"} 5-12
+                    %option{:value => "is-7-8"} 7-8
+                    %option{:value => "is-7-10"} 7-10
+                    %option{:value => "is-7-12"} 7-12
+                    %option{:value => "is-9-10"} 9-10
+                    %option{:value => "is-11-12"} 11-12
+                    %option{:value => "is-narrow-desktop"} narrow-desktop
+                    %option{:value => "is-narrow"} narrow
+                %span.select
+                  %select#fcoloff-15{:name => "fcoloff-15"}
+                    %option{:selected => "", :value => ""} Offset
+                    %option{:value => "is-offset-1-2"} 1-2
+                    %option{:value => "is-offset-1-3"} 1-3
+                    %option{:value => "is-offset-1-4"} 1-4
+                    %option{:value => "is-offset-1-5"} 1-5
+                    %option{:value => "is-offset-1-6"} 1-6
+                    %option{:value => "is-offset-1-8"} 1-8
+                    %option{:value => "is-offset-1-10"} 1-10
+                    %option{:value => "is-offset-1-12"} 1-12
+                    %option{:value => "is-offset-2-3"} 2-3
+                    %option{:value => "is-offset-2-5"} 2-5
+                    %option{:value => "is-offset-3-4"} 3-4
+                    %option{:value => "is-offset-3-5"} 3-5
+                    %option{:value => "is-offset-3-8"} 3-8
+                    %option{:value => "is-offset-3-10"} 3-10
+                    %option{:value => "is-offset-4-5"} 4-5
+                    %option{:value => "is-offset-5-6"} 5-6
+                    %option{:value => "is-offset-5-8"} 5-8
+                    %option{:value => "is-offset-5-12"} 5-12
+                    %option{:value => "is-offset-7-8"} 7-8
+                    %option{:value => "is-offset-7-10"} 7-10
+                    %option{:value => "is-offset-7-12"} 7-12
+                    %option{:value => "is-offset-9-10"} 9-10
+                    %option{:value => "is-offset-11-12"} 11-12
+                %span.select
+                  %select#flx-15{:name => "flx-15"}
+                    %option{:selected => "", :value => ""} Flex
+                    %option{:value => "flex-grow"} grow
+                    %option{:value => "flex-shrink"} shrink
+                    %option{:value => "flex-none"} none
+                %span.select
+                  %select#alignself-15{:name => "alignself-15"}
+                    %option{:selected => "", :value => ""} Align
+                    %option{:value => "align-self-auto"} auto
+                    %option{:value => "align-self-flex-start"} flex-start
+                    %option{:value => "align-self-flex-end"} flex-end
+                    %option{:value => "align-self-center"} center
+                    %option{:value => "align-self-baseline"} baseline
+                    %option{:value => "align-self-stretch"} stretch
+            #flxb-16.block.flex-wrap-wrap.justify-content-space-between.display-none
+              %p.control.has-addons
+                %a.button.is-success 16
+                %span.select
+                  %select#fcol-16{:name => "fcol-16", :value => ""}
+                    %option{:selected => "", :value => ""} Size
+                    %option{:value => "is-full"} full
+                    %option{:value => "is-1-2"} 1-2
+                    %option{:value => "is-1-3"} 1-3
+                    %option{:value => "is-1-4"} 1-4
+                    %option{:value => "is-1-5"} 1-5
+                    %option{:value => "is-1-6"} 1-6
+                    %option{:value => "is-1-8"} 1-8
+                    %option{:value => "is-1-10"} 1-10
+                    %option{:value => "is-1-12"} 1-12
+                    %option{:value => "is-2-3"} 2-3
+                    %option{:value => "is-2-5"} 2-5
+                    %option{:value => "is-3-4"} 3-4
+                    %option{:value => "is-3-5"} 3-5
+                    %option{:value => "is-3-8"} 3-8
+                    %option{:value => "is-3-10"} 3-10
+                    %option{:value => "is-4-5"} 4-5
+                    %option{:value => "is-5-6"} 5-6
+                    %option{:value => "is-5-8"} 5-8
+                    %option{:value => "is-5-12"} 5-12
+                    %option{:value => "is-7-8"} 7-8
+                    %option{:value => "is-7-10"} 7-10
+                    %option{:value => "is-7-12"} 7-12
+                    %option{:value => "is-9-10"} 9-10
+                    %option{:value => "is-11-12"} 11-12
+                    %option{:value => "is-narrow-desktop"} narrow-desktop
+                    %option{:value => "is-narrow"} narrow
+                %span.select
+                  %select#fcoloff-16{:name => "fcoloff-16"}
+                    %option{:selected => "", :value => ""} Offset
+                    %option{:value => "is-offset-1-2"} 1-2
+                    %option{:value => "is-offset-1-3"} 1-3
+                    %option{:value => "is-offset-1-4"} 1-4
+                    %option{:value => "is-offset-1-5"} 1-5
+                    %option{:value => "is-offset-1-6"} 1-6
+                    %option{:value => "is-offset-1-8"} 1-8
+                    %option{:value => "is-offset-1-10"} 1-10
+                    %option{:value => "is-offset-1-12"} 1-12
+                    %option{:value => "is-offset-2-3"} 2-3
+                    %option{:value => "is-offset-2-5"} 2-5
+                    %option{:value => "is-offset-3-4"} 3-4
+                    %option{:value => "is-offset-3-5"} 3-5
+                    %option{:value => "is-offset-3-8"} 3-8
+                    %option{:value => "is-offset-3-10"} 3-10
+                    %option{:value => "is-offset-4-5"} 4-5
+                    %option{:value => "is-offset-5-6"} 5-6
+                    %option{:value => "is-offset-5-8"} 5-8
+                    %option{:value => "is-offset-5-12"} 5-12
+                    %option{:value => "is-offset-7-8"} 7-8
+                    %option{:value => "is-offset-7-10"} 7-10
+                    %option{:value => "is-offset-7-12"} 7-12
+                    %option{:value => "is-offset-9-10"} 9-10
+                    %option{:value => "is-offset-11-12"} 11-12
+                %span.select
+                  %select#flx-16{:name => "flx-16"}
+                    %option{:selected => "", :value => ""} Flex
+                    %option{:value => "flex-grow"} grow
+                    %option{:value => "flex-shrink"} shrink
+                    %option{:value => "flex-none"} none
+                %span.select
+                  %select#alignself-16{:name => "alignself-16"}
+                    %option{:selected => "", :value => ""} Align
+                    %option{:value => "align-self-auto"} auto
+                    %option{:value => "align-self-flex-start"} flex-start
+                    %option{:value => "align-self-flex-end"} flex-end
+                    %option{:value => "align-self-center"} center
+                    %option{:value => "align-self-baseline"} baseline
+                    %option{:value => "align-self-stretch"} stretch
+            #flxb-17.block.flex-wrap-wrap.justify-content-space-between.display-none
+              %p.control.has-addons
+                %a.button.is-primary 17
+                %span.select
+                  %select#fcol-17{:name => "fcol-17", :value => ""}
+                    %option{:selected => "", :value => ""} Size
+                    %option{:value => "is-full"} full
+                    %option{:value => "is-1-2"} 1-2
+                    %option{:value => "is-1-3"} 1-3
+                    %option{:value => "is-1-4"} 1-4
+                    %option{:value => "is-1-5"} 1-5
+                    %option{:value => "is-1-6"} 1-6
+                    %option{:value => "is-1-8"} 1-8
+                    %option{:value => "is-1-10"} 1-10
+                    %option{:value => "is-1-12"} 1-12
+                    %option{:value => "is-2-3"} 2-3
+                    %option{:value => "is-2-5"} 2-5
+                    %option{:value => "is-3-4"} 3-4
+                    %option{:value => "is-3-5"} 3-5
+                    %option{:value => "is-3-8"} 3-8
+                    %option{:value => "is-3-10"} 3-10
+                    %option{:value => "is-4-5"} 4-5
+                    %option{:value => "is-5-6"} 5-6
+                    %option{:value => "is-5-8"} 5-8
+                    %option{:value => "is-5-12"} 5-12
+                    %option{:value => "is-7-8"} 7-8
+                    %option{:value => "is-7-10"} 7-10
+                    %option{:value => "is-7-12"} 7-12
+                    %option{:value => "is-9-10"} 9-10
+                    %option{:value => "is-11-12"} 11-12
+                    %option{:value => "is-narrow-desktop"} narrow-desktop
+                    %option{:value => "is-narrow"} narrow
+                %span.select
+                  %select#fcoloff-17{:name => "fcoloff-17"}
+                    %option{:selected => "", :value => ""} Offset
+                    %option{:value => "is-offset-1-2"} 1-2
+                    %option{:value => "is-offset-1-3"} 1-3
+                    %option{:value => "is-offset-1-4"} 1-4
+                    %option{:value => "is-offset-1-5"} 1-5
+                    %option{:value => "is-offset-1-6"} 1-6
+                    %option{:value => "is-offset-1-8"} 1-8
+                    %option{:value => "is-offset-1-10"} 1-10
+                    %option{:value => "is-offset-1-12"} 1-12
+                    %option{:value => "is-offset-2-3"} 2-3
+                    %option{:value => "is-offset-2-5"} 2-5
+                    %option{:value => "is-offset-3-4"} 3-4
+                    %option{:value => "is-offset-3-5"} 3-5
+                    %option{:value => "is-offset-3-8"} 3-8
+                    %option{:value => "is-offset-3-10"} 3-10
+                    %option{:value => "is-offset-4-5"} 4-5
+                    %option{:value => "is-offset-5-6"} 5-6
+                    %option{:value => "is-offset-5-8"} 5-8
+                    %option{:value => "is-offset-5-12"} 5-12
+                    %option{:value => "is-offset-7-8"} 7-8
+                    %option{:value => "is-offset-7-10"} 7-10
+                    %option{:value => "is-offset-7-12"} 7-12
+                    %option{:value => "is-offset-9-10"} 9-10
+                    %option{:value => "is-offset-11-12"} 11-12
+                %span.select
+                  %select#flx-17{:name => "flx-17"}
+                    %option{:selected => "", :value => ""} Flex
+                    %option{:value => "flex-grow"} grow
+                    %option{:value => "flex-shrink"} shrink
+                    %option{:value => "flex-none"} none
+                %span.select
+                  %select#alignself-17{:name => "alignself-17"}
+                    %option{:selected => "", :value => ""} Align
+                    %option{:value => "align-self-auto"} auto
+                    %option{:value => "align-self-flex-start"} flex-start
+                    %option{:value => "align-self-flex-end"} flex-end
+                    %option{:value => "align-self-center"} center
+                    %option{:value => "align-self-baseline"} baseline
+                    %option{:value => "align-self-stretch"} stretch
+            #flxb-18.block.flex-wrap-wrap.justify-content-space-between.display-none
+              %p.control.has-addons
+                %a.button.is-red 18
+                %span.select
+                  %select#fcol-18{:name => "fcol-18", :value => ""}
+                    %option{:selected => "", :value => ""} Size
+                    %option{:value => "is-full"} full
+                    %option{:value => "is-1-2"} 1-2
+                    %option{:value => "is-1-3"} 1-3
+                    %option{:value => "is-1-4"} 1-4
+                    %option{:value => "is-1-5"} 1-5
+                    %option{:value => "is-1-6"} 1-6
+                    %option{:value => "is-1-8"} 1-8
+                    %option{:value => "is-1-10"} 1-10
+                    %option{:value => "is-1-12"} 1-12
+                    %option{:value => "is-2-3"} 2-3
+                    %option{:value => "is-2-5"} 2-5
+                    %option{:value => "is-3-4"} 3-4
+                    %option{:value => "is-3-5"} 3-5
+                    %option{:value => "is-3-8"} 3-8
+                    %option{:value => "is-3-10"} 3-10
+                    %option{:value => "is-4-5"} 4-5
+                    %option{:value => "is-5-6"} 5-6
+                    %option{:value => "is-5-8"} 5-8
+                    %option{:value => "is-5-12"} 5-12
+                    %option{:value => "is-7-8"} 7-8
+                    %option{:value => "is-7-10"} 7-10
+                    %option{:value => "is-7-12"} 7-12
+                    %option{:value => "is-9-10"} 9-10
+                    %option{:value => "is-11-12"} 11-12
+                    %option{:value => "is-narrow-desktop"} narrow-desktop
+                    %option{:value => "is-narrow"} narrow
+                %span.select
+                  %select#fcoloff-18{:name => "fcoloff-18"}
+                    %option{:selected => "", :value => ""} Offset
+                    %option{:value => "is-offset-1-2"} 1-2
+                    %option{:value => "is-offset-1-3"} 1-3
+                    %option{:value => "is-offset-1-4"} 1-4
+                    %option{:value => "is-offset-1-5"} 1-5
+                    %option{:value => "is-offset-1-6"} 1-6
+                    %option{:value => "is-offset-1-8"} 1-8
+                    %option{:value => "is-offset-1-10"} 1-10
+                    %option{:value => "is-offset-1-12"} 1-12
+                    %option{:value => "is-offset-2-3"} 2-3
+                    %option{:value => "is-offset-2-5"} 2-5
+                    %option{:value => "is-offset-3-4"} 3-4
+                    %option{:value => "is-offset-3-5"} 3-5
+                    %option{:value => "is-offset-3-8"} 3-8
+                    %option{:value => "is-offset-3-10"} 3-10
+                    %option{:value => "is-offset-4-5"} 4-5
+                    %option{:value => "is-offset-5-6"} 5-6
+                    %option{:value => "is-offset-5-8"} 5-8
+                    %option{:value => "is-offset-5-12"} 5-12
+                    %option{:value => "is-offset-7-8"} 7-8
+                    %option{:value => "is-offset-7-10"} 7-10
+                    %option{:value => "is-offset-7-12"} 7-12
+                    %option{:value => "is-offset-9-10"} 9-10
+                    %option{:value => "is-offset-11-12"} 11-12
+                %span.select
+                  %select#flx-18{:name => "flx-18"}
+                    %option{:selected => "", :value => ""} Flex
+                    %option{:value => "flex-grow"} grow
+                    %option{:value => "flex-shrink"} shrink
+                    %option{:value => "flex-none"} none
+                %span.select
+                  %select#alignself-18{:name => "alignself-18"}
+                    %option{:selected => "", :value => ""} Align
+                    %option{:value => "align-self-auto"} auto
+                    %option{:value => "align-self-flex-start"} flex-start
+                    %option{:value => "align-self-flex-end"} flex-end
+                    %option{:value => "align-self-center"} center
+                    %option{:value => "align-self-baseline"} baseline
+                    %option{:value => "align-self-stretch"} stretch
+      #flex-demo.columns{:style => "background-color: #f0f0f0;"}
+        #flv-col-1.column
+          .notification.is-alert 1
+        #flv-col-2.column
+          .notification.is-secondary 2
+        #flv-col-3.column
+          .notification.is-accent 3
+        #flv-col-4.column
+          .notification.is-success 4
+        #flv-col-5.column
+          .notification.is-primary 5
+        #flv-col-6.column
+          .notification.is-red 6
+        #flv-col-7.column
+          .notification.is-alert 7
+        #flv-col-8.column
+          .notification.is-secondary 8
+        #flv-col-9.column
+          .notification.is-accent 9
+        #flv-col-10.column
+          .notification.is-success 10
+        #flv-col-11.column
+          .notification.is-primary 11
+        #flv-col-12.column
+          .notification.is-red 12
+        #flv-col-13.column
+          .notification.is-alert 13
+        #flv-col-14.column
+          .notification.is-secondary 14
+        #flv-col-15.column
+          .notification.is-accent 15
+        #flv-col-16.column
+          .notification.is-success 16
+        #flv-col-17.column
+          .notification.is-primary 17
+        #flv-col-18.column
+          .notification.is-red 18
+      #flex-container.box.content.is-light
+        %button.button.is-accent{:style => "width:80px;", :type => "button"} Container
+        .media.block.flex-wrap-wrap.justify-content-space-between
+          %p.control.has-addons
+            %a.button flex-direction
+            %span.select
+              %select#flex-direction{:name => "flex-direction", :value => ""}
+                %option{:value => "flex-direction-row"} row
+                %option{:value => "flex-direction-row-reverse"} row-reverse
+                %option{:value => "flex-direction-column"} column
+                %option{:value => "flex-direction-column-reverse"} column-reverse
+          %p.control.has-addons
+            %a.button flex-wrap
+            %span.select
+              %select#flex-wrap{:name => "flex-wrap", :value => ""}
+                %option{:value => "flex-wrap-nowrap"} nowrap
+                %option{:value => "flex-wrap-wrap"} wrap
+                %option{:value => "flex-wrap-wrap-reverse"} wrap-reverse
+          %p.control.has-addons
+            %a.button justify-content
+            %span.select
+              %select#justify-content{:name => "justify-content", :value => ""}
+                %option{:value => "justify-content-stretch"} stretch
+                %option{:value => "justify-content-flex-start"} flex-start
+                %option{:value => "justify-content-flex-end"} flex-end
+                %option{:value => "justify-content-center"} center
+                %option{:value => "justify-content-space-between"} space-between
+                %option{:value => "justify-content-space-around"} space-around
+          %p.control.has-addons
+            %a.button align-items
+            %span.select
+              %select#align-items{:name => "align-items", :value => ""}
+                %option{:value => "align-items-stretch"} stretch
+                %option{:value => "align-items-center"} center
+                %option{:value => "align-items-flex-start"} flex-start
+                %option{:value => "align-items-flex-end"} flex-end
+                %option{:value => "align-items-baseline"} baseline
+          %p.control.has-addons
+            %a.button align-content
+            %span.select
+              %select#align-content{:label => "Align Content", :name => "align-content", :value => ""}
+                %option{:value => "align-content-stretch"} stretch
+                %option{:value => "align-content-flex-start"} flex-start
+                %option{:value => "align-content-flex-end"} flex-end
+                %option{:value => "align-content-center"} center
+                %option{:value => "align-content-space-between"} space-between
+                %option{:value => "align-content-space-around"} space-around
+          .block
+            %p.control.button
+              %label.checkbox
+                %input#is-gapless{:name => "is-gapless", :type => "checkbox"}
+                  is-gapless
+            %p.control.button
+              %label.checkbox
+                %input#is-stacked{:name => "is-stacked", :type => "checkbox"}
+                  is-stacked
+            %p.control.button
+              %label.checkbox
+                %input#is-mobile{:name => "is-mobile", :type => "checkbox"}
+                  is-mobile
+            %p.control.button
+              %label.checkbox
+                %input#is-desktop{:name => "is-desktop", :type => "checkbox"}
+                  is-desktop
+      #flex-code.columns
+        .column
+          .box
+            %pre
+              %code#flx2.html.hljs.xml
+                \&lt;div class=&quot;columns
+                %span.code-gapless
+                %span.code-stacked
+                %span.code-mobile
+                %span.code-desktop
+                %span.flex-direction
+                %span.flex-wrap
+                %span.justify-content
+                %span.align-items
+                = succeed "&amp;quot;&amp;gt;" do
+                  %span.align-content
+                \&lt;div class=&quot;column
+                %span.flv-col-1>
+                \&quot;&gt;1&lt;/div&gt;
+                \&lt;div class=&quot;column
+                %span.flv-col-2>
+                \&quot;&gt;2&lt;/div&gt;
+                \&lt;div class=&quot;column
+                %span.flv-col-3>
+                \&quot;&gt;3&lt;/div&gt;
+                \&lt;div class=&quot;column
+                %span.flv-col-4>
+                \&quot;&gt;4&lt;/div&gt;
+                \&lt;div class=&quot;column
+                %span.flv-col-5>
+                \&quot;&gt;5&lt;/div&gt;
+                \&lt;div class=&quot;column
+                %span.flv-col-6>
+                \&quot;&gt;6&lt;/div&gt;
+                \&lt;div class=&quot;column
+                %span.flv-col-7>
+                \&quot;&gt;7&lt;/div&gt;
+                \&lt;div class=&quot;column
+                %span.flv-col-8>
+                \&quot;&gt;8&lt;/div&gt;
+                \&lt;div class=&quot;column
+                %span.flv-col-9>
+                \&quot;&gt;9&lt;/div&gt;
+                \&lt;div class=&quot;column
+                %span.flv-col-10>
+                \&quot;&gt;10&lt;/div&gt;
+                \&lt;div class=&quot;column
+                %span.flv-col-11>
+                \&quot;&gt;11&lt;/div&gt;
+                \&lt;div class=&quot;column
+                %span.flv-col-12>
+                \&quot;&gt;12&lt;/div&gt;
+                \&lt;div class=&quot;column
+                %span.flv-col-13>
+                \&quot;&gt;13&lt;/div&gt;
+                \&lt;div class=&quot;column
+                %span.flv-col-14>
+                \&quot;&gt;14&lt;/div&gt;
+                \&lt;div class=&quot;column
+                %span.flv-col-15>
+                \&quot;&gt;15&lt;/div&gt;
+                \&lt;div class=&quot;column
+                %span.flv-col-16>
+                \&quot;&gt;16&lt;/div&gt;
+                \&lt;div class=&quot;column
+                %span.flv-col-17>
+                \&quot;&gt;17&lt;/div&gt;
+                \&lt;div class=&quot;column
+                %span.flv-col-18>
+                \&quot;&gt;18&lt;/div&gt;
+                %br>/
+                \&lt;/div&gt;
+            %a.button.ics-clipboard{"data-clipboard-target" => "#flx2"}
+%section#isotope.section
+  .container
+    %h1 Isotope
+    %hr
+      .columns
+        .column.is-1-2
+          .box.content.is-light
+            %p For a masonry layout capable of filtering and sorting isotope.js is available.
+            %p
+              Use
+              %code #isotope-list
+              as your container, and
+              %code .item
+              for each mod.  .item can be sized with the same classes as columns. They will be as tall as the content within them.
+        .column.is-1-2
+          .box
+            %pre
+              %code#g6.html.hljs.xml
+                \&lt;div id=&quot;isotope-list&quot;&gt;
+                %br/
+                \&lt;div class=&quot;item is-1-2&quot;&gt;&lt;div class=&quot;notification is-alert&quot;&gt;1&lt;/div&gt;&lt;/div&gt;
+                %br/
+                \&lt;div class=&quot;item is-1-4&quot;&gt;&lt;div class=&quot;box content is-light&quot;&gt;2&lt;/div&gt;&lt;/div&gt;
+                \&lt;div class=&quot;item is-1-4&quot;&gt;&lt;div class=&quot;notification is-accent&quot;&gt;3&lt;/div&gt;&lt;/div&gt;
+                %br/
+                \&lt;div class=&quot;item is-1-4&quot;&gt;&lt;div class=&quot;notification is-dark&quot;&gt;4&lt;/div&gt;&lt;/div&gt;
+                %br/
+                \&lt;div class=&quot;item is-1-4&quot;&gt;&lt;div class=&quot;notification is-light&quot;&gt;5&lt;/div&gt;&lt;/div&gt;
+                %br/
+                \&lt;div class=&quot;item is-1-4&quot;&gt;&lt;div class=&quot;notification is-success&quot;&gt;6&lt;/div&gt;&lt;/div&gt;
+                \&lt;div class=&quot;item is-1-2&quot;&gt;&lt;div class=&quot;notification is-secondary&quot;&gt;7&lt;/div&gt;&lt;/div&gt;
+                \&lt;div class=&quot;item is-1-2&quot;&gt;&lt;div class=&quot;notification is-alert&quot;&gt;8&lt;/div&gt;&lt;/div&gt;
+                \&lt;div class=&quot;item is-1-4&quot;&gt;&lt;div class=&quot;box content is-light&quot;&gt;9&lt;/div&gt;&lt;/div&gt;
+                \&lt;div class=&quot;item is-1-4&quot;&gt;&lt;div class=&quot;notification is-accent&quot;&gt;10&lt;/div&gt;&lt;/div&gt;
+                \&lt;div class=&quot;item is-1-4&quot;&gt;&lt;div class=&quot;notification is-light&quot;&gt;11&lt;/div&gt;&lt;/div&gt;
+                \&lt;div class=&quot;item is-1-4&quot;&gt;&lt;div class=&quot;notification is-success&quot;&gt;12&lt;/div&gt;&lt;/div&gt;
+                \&lt;div class=&quot;item is-1-4&quot;&gt;&lt;div class=&quot;notification is-dark&quot;&gt;13&lt;/div&gt;&lt;/div&gt;
+                \&lt;div class=&quot;item is-1-4&quot;&gt;&lt;div class=&quot;notification is-secondary&quot;&gt;14&lt;/div&gt;&lt;/div&gt;
+                \&lt;div class=&quot;item is-1-4&quot;&gt;&lt;div class=&quot;notification is-accent&quot;&gt;15&lt;/div&gt;&lt;/div&gt;
+                \&lt;/div&gt;
+            %a.button.ics-clipboard{"data-clipboard-target" => "#g6"}
+      #isotope-list{:style => "margin-bottom: 20px;"}
+        .item.is-1-2
+          .notification.is-alert{:style => "height:400px;"} 1
+        .item.is-1-4
+          .notification.is-success{:style => "height:200px;"} 2
+        .item.is-1-4
+          .notification.is-accent{:style => "height:400px;"} 3
+        .item.is-1-4
+          .notification.is-secondary{:style => "height:200px;"} 4
+        .item.is-1-5
+          .notification.is-red{:style => "height:200px;"} 5
+        .item.is-1-5
+          .notification.is-accent{:style => "height:200px;"} 6
+        .item.is-1-5
+          .notification.is-dark{:style => "height:200px;"} 7
+        .item.is-1-5
+          .notification.is-success{:style => "height:200px;"} 8
+        .item.is-1-5
+          .notification.is-red{:style => "height:200px;"} 9
+        .item.is-1-2
+          .notification.is-secondary{:style => "height:200px;"} 10
+        .item.is-1-2
+          .notification.is-alert{:style => "height:100px;"} 11
+        .item.is-1-2
+          .notification.is-dark{:style => "height:100px;"} 12
+%section#tables.section
+  .container
+    %h1 Tables
+    %hr
+      %code class="table is-bordered"
+      .columns
+        .column
+          %table.table.is-bordered
+            %thead
+              %tr
+                %th One
+                %th Two
+            %tbody
+              %tr
+                %td Three
+                %td Four
+      %code class="table is-striped"
+      .columns
+        .column
+          %table.table.is-striped
+            %thead
+              %tr
+                %th One
+                %th Two
+            %tbody
+              %tr
+                %td Three
+                %td Four
+              %tr
+                %td Five
+                %td Six
+              %tr
+                %td Seven
+                %td Eight
+      %code class="table is-narrow"
+      .columns
+        .column
+          %table.table.is-narrow
+            %thead
+              %tr
+                %th One
+                %th Two
+            %tbody
+              %tr
+                %td Three
+                %td Four
+              %tr
+                %td Five
+                %td Six
+              %tr
+                %td Seven
+                %td Eight
+      %code class="table is-bordered is-striped is-narrow"
+      .columns
+        .column
+          %table.table.is-bordered.is-striped.is-narrow
+            %thead
+              %tr
+                %th One
+                %th Two
+            %tbody
+              %tr
+                %td Three
+                %td Four
+              %tr
+                %td Five
+                %td Six
+              %tr
+                %td Seven
+                %td Eight
+= Haml::Engine.new(File.read("/Users/slee/Sites/flexspace/haml/footer.haml")).render

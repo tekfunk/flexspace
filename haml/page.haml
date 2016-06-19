@@ -1,0 +1,359 @@
+= Haml::Engine.new(File.read("/Users/slee/Sites/flexspace/haml/header.haml")).render
+%section.hero.is-primary
+  .has-flxs-head-1
+    .hero-body
+      .container.has-text-centered
+        %h1.title Page
+        .subtitle Basic page elements.
+    .hero-foot
+      .container
+        .block.has-text-centered
+          %a.button.is-primary{:href => "#layout"} layout
+          %a.button.is-primary{:href => "#container"} container
+          %a.button.is-primary{:href => "#sizes"} sizes
+          %a.button.is-primary{:href => "#hero"} hero
+          %a.button.is-primary{:href => "#helpers"} helpers
+          %a.button.is-primary{:href => "#display"} display
+%section#layout.section
+  .container
+    %h1 Layout
+    %hr
+      .columns
+        .column.is-1-2
+          .box.content.is-light
+            %p Basic page structure. This will be an HTML template.
+        .column.is-1-2
+          .box
+            %pre
+              %code#basic-layout.html
+                \&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
+                %br>/
+                \&lt;html&gt;
+                %br>/
+                \&lt;head&gt;
+                %br>/
+                \&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+                %br>/
+                \&lt;title&gt;flexspace&lt;/title&gt;
+                %br>/
+                \&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/flexspace.css&quot; type=&quot;text/css&quot; &gt;
+                %br>/
+                \&lt;/head&gt;
+                %br>/
+                \&lt;body&gt;
+                \&lt;header class=&quot;header&quot;&gt;&lt;/header&gt;
+                \&lt;section class=&quot;hero&quot;&gt;&lt;/section&gt;
+                \&lt;section class=&quot;section&quot;&gt;&lt;/section&gt;
+                \&lt;footer class=&quot;footer&quot;&gt;&lt;/footer&gt;
+                \&lt;/body&gt;
+                %br>/
+                \&lt;/html&gt;
+            %a.button.ics-clipboard{"data-clipboard-target" => "#basic-layout"} %section#container.section
+  .container
+    %h1 Container
+  %hr
+    .container
+      .box.is-alert{:style => "margin-bottom: 20px;"} .container
+    .container.is-fluid{:style => "margin-bottom: 20px;"}
+      .box.is-success .container.is-fluid
+    .container
+      .columns
+        .column.is-1-2
+          .box.content.is-light
+            %p
+              Use
+              %code .container
+              inside &lt;header&gt;&lt;/header&gt;, &lt;section&gt;&lt;/section&gt;, &lt;footer&gt;&lt;/footer&gt; to wrap and center content.
+              %code .is-fluid
+              has 20px left and right margins.
+        .column.is-1-2
+          .box
+            %pre
+              %code#g1.html.hljs.xml
+                \&lt;div class=&quot;container&quot;&gt;
+                %br/
+                \&lt;div class=&quot;box is-alert&quot;&gt;.container&lt;/div&gt;
+                %br/
+                \&lt;/div&gt;
+                %br/
+                \&lt;div class=&quot;container is-fluid&quot;&gt;
+                %br/
+                \&lt;div class=&quot;box is-success&quot;&gt;.container.is-fluid&lt;/div&gt;
+                %br/
+                \&lt;/div&gt;
+            %a.button.ics-clipboard{"data-clipboard-target" => "#g1"}
+%section#sizes.section
+  .container
+    %h1 Sizes
+    %hr
+      %h3 Squares
+      .columns
+        .column.is-1-2
+          .columns.to-edges
+            .column.is-1-8
+              .square.is-16x16.box.is-accent 16
+              .square.is-32x32.box.is-accent 32
+              .square.is-48x48.box.is-accent 48
+              .square.is-64x64.box.is-accent 64
+            .column.is-1-5
+              .square.is-96x96.box.is-accent 96
+              .square.is-128x128.box.is-accent 128
+            .column.is-3-5
+              .square.is-256x256.box.is-accent{:style => "float: right;"} 256
+        .column.is-1-2
+          .box
+            %pre
+              %code#g1.html.hljs.xml
+                \&lt;div class=&quot;square is-16x16 box is-accent&quot;&gt;16&lt;/div&gt;
+                %br>/
+                \&lt;div class=&quot;square is-32x32 box is-accent&quot;&gt;32&lt;/div&gt;
+                %br>/
+                \&lt;div class=&quot;square is-48x48 box is-accent&quot;&gt;48&lt;/div&gt;
+                %br>/
+                \&lt;div class=&quot;square is-64x64 box is-accent&quot;&gt;64&lt;/div&gt;
+                %br>/
+                \&lt;div class=&quot;square is-96x96 box is-accent&quot;&gt;96&lt;/div&gt;
+                %br>/
+                \&lt;div class=&quot;square is-128x128 box is-accent&quot;&gt;128&lt;/div&gt;
+                %br>/
+                \&lt;div class=&quot;square is-256x256 box is-accent&quot;&gt;256&lt;/div&gt;&gt;
+            %a.button.ics-clipboard{"data-clipboard-target" => "#g1"}
+      .columns
+        .column.is-1-2
+          .box.content.is-light
+            %p
+              Use
+              %code .square
+              to make a square, and
+              %code .is-16x16
+              to set a size
+            %p
+              This is useful for avatars and thumbnails.
+      %h3 Ratios
+      .columns.align-center
+        .column
+          .ratio.is-1by2.box.is-accent 1by2
+        .column
+          .ratio.is-3by4.box.is-accent 3by4
+        .column
+          .ratio.is-1by1.box.is-accent 1by1
+        .column
+          .ratio.is-4by3.box.is-accent 4by3
+      .columns.align-center
+        .column
+          .ratio.is-3by2.box.is-accent 3by2
+        .column
+          .ratio.is-16by9.box.is-accent 16by9
+        .column
+          .ratio.is-2by1.box.is-accent 2by1
+      .columns
+        .column.is-1-2
+          .box.content.is-light
+            %p
+              Use
+              %code .ratio
+              to make a box with height based on a ratio like
+              %code .is-1by2
+            %p
+              This is useful for images.
+        .column.is-1-2
+          .box
+            %pre
+              %code#g1.html.hljs.xml
+                \&lt;div class=&quot;ratio is-1by2 box is-accent&quot;&gt;is-1by2&lt;/div&gt;
+                %br>/
+                \&lt;div class=&quot;ratio is-3by4 box is-accent&quot;&gt;is-3by4&lt;/div&gt;
+                %br>/
+                \&lt;div class=&quot;ratio is-1by1 box is-accent&quot;&gt;is-1by1&lt;/div&gt;
+                %br>/
+                \&lt;div class=&quot;ratio is-4by3 box is-accent&quot;&gt;is-4by3&lt;/div&gt;
+                %br>/
+                \&lt;div class=&quot;ratio is-3by2 box is-accent&quot;&gt;is-3by2&lt;/div&gt;
+                %br>/
+                \&lt;div class=&quot;ratio is-16by9 box is-accent&quot;&gt;is-16by9&lt;/div&gt;
+                %br>/
+                \&lt;div class=&quot;ratio is-2by1 box is-accent&quot;&gt;is-2by1&lt;/div&gt;
+            %a.button.ics-clipboard{"data-clipboard-target" => "#g1"}
+%section.section
+  #hero.container
+    %h1 Hero
+    %hr
+%section.hero.is-accent.is-bold{:style => "margin-bottom: 5px;"}
+  .hero-body.has-text-centered
+    .container
+      %h1 Hero with bold accent color.
+%section.section
+  .container
+    .columns
+      .column.is-1-2
+        .box.content.is-light
+          %p Fullwidth featured content section.
+          %p
+            Colors can be assigned with
+            %code .is-white, .is-black, .is-light, .is-dark, .is-primary, .is-accent, .is-success, .is-alert, & .is-secondary.
+          %p
+            A subtle gradient can be applied with
+            = succeed "." do
+              %code .is-bold
+      .column.is-1-2
+        .box
+          %pre
+            %code#hero-1.html
+              \&lt;section class=&quot;hero is-accent is-bold&quot;&gt;
+              %br/
+              \&lt;div class=&quot;hero-body has-text-centered&quot;&gt;
+              %br/
+              \&lt;div class=&quot;container&quot;&gt;
+              %br/
+              \&lt;h1&gt;Hero with bold accent color.&lt;/h1&gt;
+              %br/
+              \&lt;/div&gt;
+              %br/
+              \&lt;/div&gt;
+              %br>/
+              \&lt;/section&gt;
+          %br
+            %a.button.ics-clipboard{"data-clipboard-target" => "#hero-1"}
+%section.hero.is-medium.has-border.has-bkd-pattern-3{:style => "margin-bottom: 5px;"}
+  .hero-head
+  .hero-body.has-text-centered
+    .container
+      %h1.box Medium hero with background pattern
+  .hero-footer %section.section
+  .container
+    .columns
+      .column.is-1-2
+        .box.content.is-light
+          %p
+            Sizes can be
+            = succeed "," do
+              %code .is-medium
+            = succeed "," do
+              %code .is-large
+            and
+            = succeed "." do
+              %code .is-fullheight
+          %p
+            Can have a background by adding
+            = succeed "#" do
+              %code .has-bkd-pattern-
+      .column.is-1-2
+        .box
+          %pre
+            %code#hero-2.html
+              \&lt;section class=&quot;hero is-medium has-bkd-pattern-3&quot;&gt;
+              %br/
+              \&lt;div class=&quot;hero-body has-text-centered&quot;&gt;
+              %br/
+              \&lt;div class=&quot;container&quot;&gt;
+              %br/
+              \&lt;h1 class=&quot;box&quot;&gt;Medium hero with background pattern&lt;/h1&gt;
+              %br/
+              \&lt;/div&gt;
+              %br/
+              \&lt;/div&gt;
+              %br>/
+              \&lt;/section&gt;
+          %br
+            %a.button.ics-clipboard{"data-clipboard-target" => "#hero-2"}
+%section.hero.is-fullheight.has-bkd-image-1{:style => "margin-bottom: 5px;"}
+  .hero-head.is-white.fade-3
+    .container
+      %h1 Hero head with white color.
+  .hero-body.is-black.fade-3
+    .container
+      %h1.hero-title Fullscreen Image Hero with head, body, and foot.
+  .hero-foot.is-accent.fade-1
+    .container
+      %h1 Hero foot with accent color.
+%section.section
+  .container
+    .columns
+      .column.is-1-2
+        .box.content.is-light
+          %p
+            Add a background image with
+            = succeed "#" do
+              %code .has-bkd-image-
+          %p
+            Hero sections can be broken up with a
+            = succeed "(Top-Aligned)," do
+              %code .hero-head
+            = succeed "(Center-Aligned)," do
+              %code .hero-body
+            = succeed "(Bottom-Aligned)." do
+              %code .hero-footer
+          %p
+            All 3 parts can have separate colors can be assigned with
+            %code .is-white, .is-black, .is-light, .is-dark, .is-primary, .is-accent, .is-success, .is-alert, & .is-secondary.
+      .column.is-1-2
+        .box
+          %pre
+            %code#hero-3.html
+              \&lt;section class=&quot;hero is-fullheight has-bkd-image-1&quot;&gt;
+              %br/
+              \&lt;div class=&quot;hero-head is-white fade-3&quot;&gt;
+              %br/
+              \&lt;div class=&quot;container&quot;&gt;
+              %br/
+              \&lt;h1&gt;Hero head with white color.&lt;/h1&gt;
+              %br/
+              \&lt;/div&gt;
+              %br/
+              \&lt;/div&gt;
+              %br/
+              \&lt;div class=&quot;hero-body is-black fade-3&quot;&gt;
+              %br/
+              \&lt;div class=&quot;container&quot;&gt;
+              %br/
+              \&lt;h1 class=&quot;hero-title&quot;&gt;Fullscreen Image Hero with head, body, and foot.&lt;/h1&gt;
+              %br/
+              \&lt;/div&gt;
+              %br/
+              \&lt;/div&gt;
+              %br/
+              \&lt;div class=&quot;hero-foot is-accent fade-1&quot;&gt;
+              %br/
+              \&lt;div class=&quot;container&quot;&gt;
+              %br/
+              \&lt;h1&gt;Hero foot with accent color.&lt;/h1&gt;
+              %br/
+              \&lt;/div&gt;
+              %br/
+              \&lt;/div&gt;
+              %br>/
+              \&lt;/section&gt;
+          %br
+            %a.button.ics-clipboard{"data-clipboard-target" => "#hero-3"}
+%section#helpers.section
+  .container
+    %h1 Helpers
+    %hr
+  .container.has-border.is-clearfix
+    %p &lt;div class="is-clearfix"&gt;&lt;/div&gt;
+    .content.has-border.is-pulled-left &lt;div class="is-pulled-left"&gt;&lt;/div&gt;
+    .content.has-border.is-pulled-right &lt;div class="is-pulled-right"&gt;&lt;/div&gt;
+  .container.has-border.is-clearfix{:style => "height:100px; background-color:#5542C3"}
+    .container.is-overlay
+      %p &lt;div class="is-overlay""&gt;&lt;/div&gt;
+  .container
+    .columns
+      .column.is-6
+        .container.has-border.is-disabled
+          %p &lt;div class="is-disabled"&gt;&lt;/div&gt;
+          %p
+            %a.button.is-outlined.is-disabled Try to click
+      .column.is-6
+        .container.has-border
+          %p &lt;div class="is-unselectable"&gt;&lt;/div&gt;
+          %p.is-unselectable Just try and select this text
+    .container.has-border.is-marginless
+      %p &lt;div class="is-marginless"&gt;&lt;/div&gt;
+    .container.has-border
+      %p &lt;div class="has-border"&gt;&lt;/div&gt;
+%section#display.section
+  .container
+    %h1 Display
+    %hr
+      %p Coming Soon
+= Haml::Engine.new(File.read("/Users/slee/Sites/flexspace/haml/footer.haml")).render
