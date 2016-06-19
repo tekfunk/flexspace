@@ -44,32 +44,55 @@
         .column.is-1-2
           .box
             %pre
-              %code#g2.html.hljs.xml
+              %code#g2.html.javascript
+                &= '<div class="loading is-secondary">'
+                = '<br>  '
                 &= '<div class="loading-ring"></div>'
-                = "<br> "
-                &= "<div class='loading-ring'></div>"
-                = "<br>  "
-                \&lt;div class=&quot;loading-circles&quot;&gt;&lt;/div&gt;
-                %br>/
-                \&lt;div class=&quot;loading-fill&quot;&gt;&lt;/div&gt;
-                %br>/
-                \&lt;div class=&quot;loading-discs&quot;&gt;&lt;/div&gt;
-                %br>/
-                \&lt;div class=&quot;loading-clock&quot;&gt;&lt;/div&gt;
-                %br>/
-                \&lt;div class=&quot;loading-start cylinder&quot;&gt;
-                %br>/
-                \  &lt;div class=&quot;hand&quot;&gt;&lt;/div&gt;
-                %br>/
-                \&lt;/div&gt;
-                %br>/
-                %br>/
-                \&lt;div class=&quot;loading&quot;&gt;
-                \  &lt;div class=&quot;loading-ring&quot;&gt;&lt;/div&gt;
-                \&lt;/div&gt;
-                %br>/
-                
-                $(document).ready(function(){ $(&quot;.loading&quot;).delay(100).fadeOut('fast'); });
+                = '<br>'
+                &= '</div>'
+                = '<br>'
+                = '<br>'
+                &= '<div class="loading is-success">'
+                = '<br>  '
+                &= '<div class="loading-circles"></div>'
+                = '<br>'
+                &= '</div>'
+                = '<br>'
+                = '<br>'
+                &= '<div class="loading is-accent">'
+                = '<br>  '
+                &= '<div class="loading-fill"></div>'
+                = '<br>'
+                &= '</div>'
+                = '<br>'
+                = '<br>'
+                &= '<div class="loading is-secondary">'
+                = '<br>  '
+                &= '<div class="loading-discs"></div>'
+                = '<br>'
+                &= '</div>'
+                = '<br>'
+                = '<br>'
+                &= '<div class="loading is-success">'
+                = '<br>  '
+                &= '<div class="loading-clock"></div>'
+                = '<br>'
+                &= '</div>'
+                = '<br>'
+                = '<br>'
+                &= '<div class="loading is-accent">'
+                = '<br>  '
+                &= '<div class="loading-start cylinder">'
+                = '<br>     '
+                &= '<div class="hand"></div>'
+                = '<br>  '
+                &= '</div>'
+                = '<br>'
+                &= '</div>'
+                = '<br>'
+                = '<br>'
+                &= '$(document).ready(function(){ $(".loading").delay(100).fadeOut("fast"); });'            
+            %br
             %a.button.ics-clipboard{"data-clipboard-target" => "#g2"}
 %section#progress.section
   .container

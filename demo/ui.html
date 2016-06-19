@@ -117,7 +117,6 @@
 <section class='section' id='button'>
 <div class='container'>
 <h1>Button</h1>
-&lt;a class=&quot;button&quot;&gt;Button&lt;/a&gt;
 <hr>
 <div class='columns'>
 <div class='column'>
@@ -157,7 +156,13 @@ variable.
 </div>
 <div class='column'>
 <div class='box'>
-<pre><code class='html' id='ui-1'>&lt;a class=&quot;button&quot;&gt;Button&lt;/a&gt;&#x000A;&lt;a class=&quot;button is-white&quot;&gt;White&lt;/a&gt;&#x000A;&lt;a class=&quot;button is-light&quot;&gt;Light&lt;/a&gt;&#x000A;&lt;a class=&quot;button is-dark&quot;&gt;Dark&lt;/a&gt;&#x000A;&lt;a class=&quot;button is-black&quot;&gt;Black&lt;/a&gt;&#x000A;&lt;a class=&quot;button is-link&quot;&gt;Link&lt;/a&gt;&#x000A;&lt;a class=&quot;button is-primary&quot;&gt;Primary&lt;/a&gt;&#x000A;&lt;a class=&quot;button is-red&quot;&gt;Red&lt;/a&gt;&#x000A;&lt;a class=&quot;button is-accent&quot;&gt;Accent&lt;/a&gt;&#x000A;&lt;a class=&quot;button is-success&quot;&gt;Success&lt;/a&gt;&#x000A;&lt;a class=&quot;button is-alert&quot;&gt;Alert&lt;/a&gt;</code></pre>
+<pre><code class='html' id='mod-box'>&lt;div class=&quot;box&quot;&gt;<br> &lt;p&gt;&lt;/p&gt;<br>&lt;/div&gt;</code></pre>
+<br>
+<a class='button ics-clipboard' data-clipboard-target='#mod-box'></a>
+</br>
+</div>
+<div class='box'>
+<pre><code class='html' id='ui-1'>&lt;a class=&quot;button&quot;&gt;<br>   &lt;i class=&quot;ics-bones&quot;&gt;&lt;/i&gt;&lt;span&gt;Throw Dice&lt;/span&gt;&lt;/a&gt;<br>&lt;/a&gt;<br><br>&lt;a class=&quot;button is-primary&quot;&gt;&lt;i class=&quot;ics-headphones&quot;&gt;&lt;/i&gt;&lt;span&gt;Listen&lt;/span&gt;&lt;/a&gt;<br>&lt;a class=&quot;button is-secondary is-outlined&quot;&gt;&lt;i class=&quot;ics-lightbulb&quot;&gt;&lt;/i&gt;&lt;span&gt;Get Ideas&lt;/span&gt;&lt;/a&gt;<br>&lt;a class=&quot;button is-success&quot;&gt;&lt;i class=&quot;ics-circlecheck&quot;&gt;&lt;/i&gt;OK&lt;/a&gt;<br>&lt;a class=&quot;button is-small&quot;&gt;Small&lt;/a&gt;<br>&lt;a class=&quot;button is-medium&quot;&gt;Medium&lt;/a&gt;<br>&lt;a class=&quot;button is-large&quot;&gt;Large&lt;/a&gt;<br></code></pre>
 <a class='button ics-clipboard' data-clipboard-target='#ui-1'></a>
 </div>
 </div>
@@ -204,16 +209,7 @@ Other Sizes can be assigned with
 </div>
 <div class='column'>
 <div class='box'>
-<pre><code class='html' id='ui-2'>&lt;a class=&quot;button&quot;&gt;&lt;i class=&quot;ics-bones&quot;&gt;&lt;/i&gt&lt;span&gt;Throw Dice&lt;/span&gt;&lt;/a&gt;
-<br>&amp;lt;a
-class=&quot;button is-primary&quot;&gt;&lt;i class=&quot;ics-headphones&quot;&gt;&lt;/i&gt;&lt;span&gt;Listen&lt;/span&gt;&lt;/a&gt;
-<br>&amp;lt;a
-class=&quot;button is-secondary is-outlined&quot;&gt;&lt;i class=&quot;ics-lightbulb&quot;&gt;&lt;/i&gt;&lt;span&gt;Get Ideas&lt;/span&gt;&lt;/a&gt;
-<br>&amp;lt;a
-class=&quot;button is-success&quot;&gt;&lt;i class=&quot;ics-circlecheck&quot;&gt;&lt;/i&gt;OK&lt;/a&gt;
-&lt;a class=&quot;button is-small&quot;&gt;Small&lt;/a&gt;
-&lt;a class=&quot;button is-medium&quot;&gt;Medium&lt;/a&gt;
-&lt;a class=&quot;button is-large&quot;&gt;Large&lt;/a&gt;</code></pre>
+<pre><code class='html' id='ui-2'>&lt;a class=&quot;button is-primary&quot;&gt;<br>   &lt;i class=&quot;ics-bones&quot;&gt;&lt;/i&gt;&lt;span&gt;Throw Dice&lt;/span&gt;<br>&lt;/a&gt;<br><br>&lt;a class=&quot;button is-secondary is-outlined&quot;&gt;<br>   &lt;i class=&quot;ics-headphones&quot;&gt;&lt;/i&gt;&lt;span&gt;Listen&lt;/span&gt;<br>&lt;/a&gt;<br><br>&lt;a class=&quot;button is-secondary is-outlined&quot;&gt;<br>   &lt;i class=&quot;ics-lightbulb&quot;&gt;&lt;/i&gt;&lt;span&gt;Get Ideas&lt;/span&gt;<br>&lt;/a&gt;<br><br>&lt;a class=&quot;button is-success&quot;&gt;<br>   &lt;i class=&quot;ics-circlecheck&quot;&gt;&lt;/i&gt;OK&lt;/a&gt;<br>&lt;/a&gt;<br><br>&lt;a class=&quot;button is-small&quot;&gt;Small&lt;/a&gt;<br>&lt;a class=&quot;button&quot;&gt;Normal&lt;/a&gt;<br>&lt;a class=&quot;button is-medium&quot;&gt;Medium&lt;/a&gt;<br>&lt;a class=&quot;button is-large&quot;&gt;Large&lt;/a&gt;<br></code></pre>
 <a class='button ics-clipboard' data-clipboard-target='#ui-2'></a>
 </div>
 </div>
@@ -258,7 +254,8 @@ class=&quot;button is-success&quot;&gt;&lt;i class=&quot;ics-circlecheck&quot;&g
 </div>
 <div class='column'>
 <div class='box'>
-<pre><code class='html' id='ui-3'>&lt;a class=&quot;button is-inverted&quot;&gt;Inverted&lt;/a&gt;&#x000A;&lt;a class=&quot;button is-outlined&quot;&gt;Outlined&lt;/a&gt;&#x000A;&lt;a class=&quot;button is-disabled&quot;&gt;Disabled&lt;/a&gt;                %a.button.ics-clipboard{"data-clipboard-target" => "#ui-3"}</code></pre>
+<pre><code class='html' id='ui-3'>&lt;a class=&quot;button is-inverted&quot;&gt;Inverted&lt;/a&gt;<br>&lt;a class=&quot;button is-outlined&quot;&gt;Outlined&lt;/a&gt;<br>&lt;a class=&quot;button is-disabled&quot;&gt;Disabled&lt;/a&gt;<br></code></pre>
+<a class='button ics-clipboard' data-clipboard-target='#ui-3'></a>
 </div>
 </div>
 </div>
@@ -304,7 +301,8 @@ on
 </div>
 <div class='column'>
 <div class='box'>
-<pre><code class='html' id='ui-4'>&lt;p class=&quot;control is-grouped&quot;&gt;&#x000A;  &lt;a class=&quot;button is-primary&quot;&gt;Primary&lt;/a&gt; &#x000A;  &lt;a class=&quot;button&quot;&gt;Generic&lt;/a&gt; &#x000A;  &lt;a class=&quot;button is-secondary&quot;&gt;Secondary&lt;/a&gt;&#x000A;&lt;/p&gt;&#x000A;&lt;p class=&quot;control has-addons&quot;&gt;&#x000A;  &lt;a class=&quot;button&quot;&gt;&lt;span&gt;Left&lt;/span&gt;&lt;/a&gt; &#x000A;  &lt;a class=&quot;button&quot;&gt; &lt;span&gt;Center&lt;/span&gt;&lt;/a&gt; &#x000A;  &lt;a class=&quot;button&quot;&gt; &lt;span&gt;Right&lt;/span&gt;&lt;/a&gt;&#x000A;&lt;/p&gt;                  %a.button.ics-clipboard{"data-clipboard-target" => "#ui-4"}</code></pre>
+<pre><code class='html' id='ui-4'>&lt;p class=&quot;control is-grouped&quot;&gt;<br>   &lt;a class=&quot;button is-primary&quot;&gt;Primary&lt;/a&gt;<br>   &lt;a class=&quot;button&quot;&gt;Generic&lt;/a&gt;<br>   &lt;a class=&quot;button is-secondary&quot;&gt;Secondary&lt;/a&gt;<br>&lt;/p&gt;<br><br>&lt;p class=&quot;control has-addons&quot;&gt;<br>   &lt;a class=&quot;button&quot;&gt;&lt;span&gt;Left&lt;/span&gt;&lt;/a&gt;<br>   &lt;a class=&quot;button&quot;&gt; &lt;span&gt;Center&lt;/span&gt;&lt;/a&gt;<br>   &lt;a class=&quot;button&quot;&gt; &lt;span&gt;Right&lt;/span&gt;&lt;/a&gt;<br>&lt;/p&gt;</code></pre>
+<a class='button ics-clipboard' data-clipboard-target='#ui-4'></a>
 </div>
 </div>
 </div>
@@ -418,53 +416,7 @@ use
 </div>
 <div class='column is-1-2'>
 <div class='box'>
-<pre><code class='html' id='ui-5'>&lt;nav class=&quot;nav has-shadow&quot;&gt;
-<br>
-&lt;div class=&quot;container&quot;&gt;
-<br>
-&lt;div class=&quot;nav-left&quot;&gt;
-<br>
-&lt;a&gt;&lt;img width=&quot;120&quot; height=&quot;60&quot; src=&quot;http://media.casadereyes.net/xfr/casa-logo.png&quot;&gt;&lt;/a&gt;
-&lt;/div&gt;
-<br>
-&lt;ul class=&quot;nav-right nav-menu&quot;&gt;
-<br>
-&lt;li class=&quot;nav-item is-primary&quot;&gt;&lt;a&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
-<br>
-&lt;li class=&quot;nav-item is-primary&quot;&gt;&lt;a&gt;Lab&lt;/a&gt;&lt;/li&gt;
-<br>
-&lt;li class=&quot;nav-item is-primary&quot;&gt;&lt;a&gt;Photos&lt;/a&gt;
-<br>
-&lt;ul&gt;
-<br>
-&lt;li&gt;&lt;a&gt;Travel&lt;/a&gt;&lt;/li&gt;
-<br>
-&lt;li&gt;&lt;a&gt;Abstract&lt;/a&gt;&lt;/li&gt;
-<br>
-&lt;li&gt;&lt;a&gt;Etc&lt;/a&gt;&lt;/li&gt;
-<br>
-&lt;/ul&gt;
-<br>
-&lt;/li&gt;
-<br>
-&lt;li class=&quot;nav-item is-primary&quot;&gt;&lt;a&gt;Mixes&lt;/a&gt;
-<br>
-&lt;ul&gt;
-<br>
-&lt;li&gt;&lt;a&gt;Twenty Fifteen&lt;/a&gt;&lt;/li&gt;
-<br>
-&lt;li&gt;&lt;a&gt;Twenty Fourteen&lt;/a&gt;&lt;/li&gt;
-<br>
-&lt;li&gt;&lt;a&gt;Twenty Thirteen&lt;/a&gt;&lt;/li&gt;
-<br>
-&lt;/ul&gt;
-<br>
-&lt;/li&gt;
-<br>
-&lt;li class=&quot;nav-item&quot;&gt;&lt;a&gt;&lt;div class=&quot;button is-primary&quot;&gt;&lt;span class=&quot;icon&quot;&gt;&lt;i class=&quot;ics-question&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-<br>
-&lt;/div&gt;<br>&lt;/nav&gt;</code></pre>
+<pre><code class='html' id='ui-5'>&lt;nav class=&quot;nav has-shadow&quot;&gt;<br> &lt;div class=&quot;container&quot;&gt;<br>   &lt;div class=&quot;nav-left&quot;&gt;<br>      &lt;a&gt;&lt;img width=&quot;120&quot; height=&quot;60&quot; src=&quot;http://media.casadereyes.net/xfr/casa-logo.png&quot;&gt;&lt;/a&gt;<br>   &lt;/div&gt;<br>    &lt;ul class=&quot;nav-right nav-menu&quot;&gt;<br>      &lt;li class=&quot;nav-item is-primary&quot;&gt;&lt;a&gt;Portfolio&lt;/a&gt;&lt;/li&gt;<br>      &lt;li class=&quot;nav-item is-primary&quot;&gt;&lt;a&gt;Lab&lt;/a&gt;&lt;/li&gt;<br>      &lt;li class=&quot;nav-item is-primary&quot;&gt;&lt;a&gt;Photos&lt;/a&gt;<br>        &lt;ul&gt;<br>          &lt;li&gt;&lt;a&gt;Travel&lt;/a&gt;&lt;/li&gt;<br>          &lt;li&gt;&lt;a&gt;Abstract&lt;/a&gt;&lt;/li&gt;<br>          &lt;li&gt;&lt;a&gt;Etc&lt;/a&gt;&lt;/li&gt;<br>        &lt;/ul&gt;<br>      &lt;/li&gt;<br>      &lt;li class=&quot;nav-item is-primary&quot;&gt;&lt;a&gt;Mixes&lt;/a&gt;<br>        &lt;ul&gt;<br>          &lt;li&gt;&lt;a&gt;Twenty Fifteen&lt;/a&gt;&lt;/li&gt;<br>          &lt;li&gt;&lt;a&gt;Twenty Fourteen&lt;/a&gt;&lt;/li&gt;<br>          &lt;li&gt;&lt;a&gt;Twenty Thirteen&lt;/a&gt;&lt;/li&gt;<br>        &lt;/ul&gt;<br>      &lt;/li&gt;<br>      &lt;li class=&quot;nav-item&quot;&gt;&lt;a&gt;&lt;div class=&quot;button is-primary&quot;&gt;&lt;span class=&quot;icon&quot;&gt;&lt;i class=&quot;ics-question&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;&lt;/a&gt;&lt;/li&gt;<br>     &lt;/ul&gt;<br>  &lt;/div&gt;<br>&lt;/nav&gt;</code></pre>
 <a class='button ics-clipboard' data-clipboard-target='#ui-5'></a>
 </div>
 </div>
@@ -526,7 +478,8 @@ etc to assign colors to
 </div>
 <div class='column is-1-2'>
 <div class='box'>
-<pre><code class='html' id='ui-6'>&lt;a class=&quot;toggle-btn on-left on-div-edge&quot;&gt;&lt;i class=&quot;ics-list&quot;&gt;&lt;/i&gt;&lt;/a&gt;&#x000A;&lt;div id=&quot;toggle-window&quot; class=&quot;toggle-window is-dark on-div-edge&quot;&gt;				&#x000A;  &lt;a class=&quot;toggle-btn-close on-left on-div-edge&quot;&gt;&lt;i class=&quot;ics-ex&quot;&gt;&lt;/i&gt;&lt;/a&gt;&#x000A;&lt;/div&gt;              %a.button.ics-clipboard{"data-clipboard-target" => "#ui-6"}</code></pre>
+<pre><code class='html' id='ui-6'>&lt;a class=&quot;toggle-btn on-left on-div-edge&quot;&gt;<br> &lt;i class=&quot;ics-list&quot;&gt;&lt;/i&gt;<br>&lt;/a&gt;<br>&lt;div id=&quot;toggle-window&quot; class=&quot;toggle-window is-dark on-div-edge&quot;&gt;<br> &lt;a class=&quot;toggle-btn-close on-left on-div-edge&quot;&gt;&lt;i class=&quot;ics-ex&quot;&gt;&lt;/i&gt;&lt;/a&gt;<br>&lt;/div&gt;</code></pre>
+<a class='button ics-clipboard' data-clipboard-target='#ui-6'></a>
 </div>
 </div>
 </div>
@@ -570,7 +523,105 @@ etc to assign colors to
 <div class='container'>
 <h1>Pagination</h1>
 <hr>
-<div class='content'>Coming Soon.= Haml::Engine.new(File.read("/Users/slee/Sites/flexspace/haml/footer.haml")).render</div>
+<div class='content'>Coming Soon.</div>
 </hr>
 </div>
 </section>
+<footer class='footer'>
+  <h1>
+    <a href='index.html'>
+      <img src='../art/flexspace-logo-lrg-white.svg' width='120'>
+    </a>
+  </h1>
+  <div class='columns'>
+    <div class='column is-1-8 is-1-2-mobile'>
+      <div class='block'>
+        <a class='button is-fullwidth is-primary is-inverted' href='page.html'>page</a>
+        <a class='button is-primary' href='page.html#layout'>layout</a>
+        <a class='button is-primary' href='page.html#container'>container</a>
+        <a class='button is-primary' href='page.html#sizes'>sizes</a>
+        <a class='button is-primary' href='page.html#hero'>hero</a>
+        <a class='button is-primary' href='page.html#helpers'>helpers</a>
+        <a class='button is-primary' href='page.html#display'>display</a>
+      </div>
+    </div>
+    <div class='column is-1-8 is-1-2-mobile'>
+      <div class='block'>
+        <a class='button is-fullwidth is-primary is-inverted' href='copy.html'>copy</a>
+        <a class='button is-primary' href='copy.html#content'>content</a>
+        <a class='button is-primary' href='copy.html#badges'>badges</a>
+        <a class='button is-primary' href='copy.html#burst'>burst</a>
+        <a class='button is-primary' href='copy.html#messages'>messages</a>
+        <a class='button is-primary' href='copy.html#notifications'>notifications</a>
+        <a class='button is-primary' href='copy.html#code'>code</a>
+      </div>
+    </div>
+    <div class='column is-1-8 is-1-2-mobile'>
+      <div class='block'>
+        <a class='button is-fullwidth is-primary is-inverted' href='grid.html'>grid</a>
+        <a class='button is-primary is-active' href='grid.html#columns'>columns</a>
+        <a class='button is-primary' href='grid.html#sizing'>sizing</a>
+        <a class='button is-primary is-disabled' href='grid.html#flex'>flex</a>
+        <a class='button is-primary' href='grid.html#isotope'>isotope</a>
+        <a class='button is-primary' href='grid.html#tables'>tables</a>
+      </div>
+    </div>
+    <div class='column is-1-8 is-1-2-mobile'>
+      <div class='block'>
+        <a class='button is-fullwidth is-primary is-inverted' href='modules.html'>modules</a>
+        <a class='button is-primary' href='modules.html#box'>box</a>
+        <a class='button is-primary' href='modules.html#media'>media</a>
+        <a class='button is-primary' href='modules.html#mod'>mod</a>
+        <a class='button is-primary is-disabled' href='modules.html#gallery'>gallery</a>
+        <a class='button is-primary is-disabled' href='modules.html#modal'>modal</a>
+      </div>
+    </div>
+    <div class='column is-1-8 is-1-2-mobile'>
+      <div class='block'>
+        <a class='button is-fullwidth is-primary is-inverted' href='ui.html'>ui</a>
+        <a class='button is-primary' href='ui.html#button'>button</a>
+        <a class='button is-primary' href='ui.html#nav'>nav</a>
+        <a class='button is-primary is-disabled' href='ui.html#tabs'>tabs</a>
+        <a class='button is-primary is-disabled' href='ui.html#panel'>panel</a>
+        <a class='button is-primary is-disabled' href='ui.html#menu'>menu</a>
+        <a class='button is-primary is-disabled' href='ui.html#form'>form</a>
+        <a class='button is-primary is-disabled' href='ui.html#pagination'>pagination</a>
+      </div>
+    </div>
+    <div class='column is-1-8 is-1-2-mobile'>
+      <div class='block'>
+        <a class='button is-fullwidth is-primary is-inverted' href='art.html'>art</a>
+        <a class='button is-primary' href='art.html#palette'>palette</a>
+        <a class='button is-primary' href='art.html#icons'>icons</a>
+        <a class='button is-primary is-disabled' href='art.html#logos'>logos</a>
+        <a class='button is-primary' href='art.html#backgrounds'>backgrounds</a>
+      </div>
+    </div>
+    <div class='column is-1-8 is-1-2-mobile'>
+      <div class='block'>
+        <a class='button is-fullwidth is-primary is-inverted' href='animations.html'>animations</a>
+        <a class='button is-primary' href='ui.html#loaders'>loaders</a>
+        <a class='button is-primary' href='ui.html#progress'>progress</a>
+        <a class='button is-primary' href='animations.html#animate'>animate.css</a>
+      </div>
+    </div>
+    <div class='column is-1-8 is-1-2-mobile'>
+      <div class='block'>
+        <a class='button is-fullwidth is-primary is-inverted' href='variables.html'>variables</a>
+        <a class='button is-primary' href='variables.html#Colors'>colors</a>
+        <a class='button is-primary' href='variables.html#Type'>type</a>
+        <a class='button is-primary' href='variables.html#Layout'>layout</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src='../js/jquery.js'></script>
+<script src='../js/highlight.js'></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src='../js/clipboard.js'></script>
+<script src='../js/isotope.js'></script>
+<script src='../js/imagesloaded.js'></script>
+<script src='../js/smartresize.js'></script>
+<script src='../js/flexspace.js'></script>
+<script src='../js/flexview.js'></script>
+
