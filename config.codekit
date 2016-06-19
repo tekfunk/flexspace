@@ -2,61 +2,6 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19127",
 "files": {
-	"\/art\/DSCN0703_16x9.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 612082,
-		"inputAbbreviatedPath": "\/art\/DSCN0703_16x9.jpg",
-		"outputAbbreviatedPath": "\/art\/DSCN0703_16x9.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/art\/DSCN0703_1x1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 580326,
-		"inputAbbreviatedPath": "\/art\/DSCN0703_1x1.jpg",
-		"outputAbbreviatedPath": "\/art\/DSCN0703_1x1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/art\/DSCN0703_2x1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 485641,
-		"inputAbbreviatedPath": "\/art\/DSCN0703_2x1.jpg",
-		"outputAbbreviatedPath": "\/art\/DSCN0703_2x1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/art\/DSCN0703_3x2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 641286,
-		"inputAbbreviatedPath": "\/art\/DSCN0703_3x2.jpg",
-		"outputAbbreviatedPath": "\/art\/DSCN0703_3x2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/art\/DSCN0703_4x3.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 708614,
-		"inputAbbreviatedPath": "\/art\/DSCN0703_4x3.jpg",
-		"outputAbbreviatedPath": "\/art\/DSCN0703_4x3.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/art\/img-4998.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -157,6 +102,15 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/demo\/art.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/demo\/code.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/demo\/code.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

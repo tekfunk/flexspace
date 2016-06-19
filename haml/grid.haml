@@ -53,43 +53,28 @@
         .column
           .box
             %pre
-              %code#g2.html.hljs.xml
-                \&lt;div class=&quot;columns
-                %span.flex-direction
-                %span.flex-wrap
-                %span.justify-content
-                %span.align-items
-                = succeed "&amp;quot;&amp;gt;" do
-                  %span.align-content
-                \&lt;div class=&quot;column
-                %span.flv-col-1>
-                \&quot;&gt;&lt;/div&gt;
-                \&lt;div class=&quot;column
-                %span.flv-col-2>
-                \&quot;&gt;&lt;/div&gt;
-                \&lt;div class=&quot;column
-                %span.flv-col-3>
-                \&quot;&gt;&lt;/div&gt;
-                \&lt;div class=&quot;column
-                %span.flv-col-4>
-                \&quot;&gt;&lt;/div&gt;
-                \&lt;div class=&quot;column
-                %span.flv-col-5>
-                \&quot;&gt;&lt;/div&gt;
-                \&lt;div class=&quot;column
-                %span.flv-col-6>
-                \&quot;&gt;&lt;/div&gt;
-                \&lt;div class=&quot;column
-                %span.flv-col-7>
-                \&quot;&gt;&lt;/div&gt;
-                \&lt;div class=&quot;column
-                %span.flv-col-8>
-                \&quot;&gt;&lt;/div&gt;
-                \&lt;div class=&quot;column
-                %span.flv-col-9>
-                \&quot;&gt;&lt;/div&gt;
-                %br>/
-                \&lt;/div&gt;
+              %code#g2.html
+                &= '<div class="columns">'  
+                = '<br>  '
+                &= '<div class="column"></div>'    
+                = '<br>  '
+                &= '  <div class="column"></div>'
+                = '<br>  '
+                &= '  <div class="column"></div>'
+                = '<br>  '
+                &= '  <div class="column"></div>'    
+                = '<br>  '
+                &= '  <div class="column"></div>'    
+                = '<br>  '
+                &= '  <div class="column"></div>'  
+                = '<br>  '
+                &= '  <div class="column"></div>'
+                = '<br>  '
+                &= '  <div class="column"></div>' 
+                = '<br>  '
+                &= '  <div class="column"></div>'
+                = '<br>'
+                &= '</div>'	  
             %a.button.ics-clipboard{"data-clipboard-target" => "#g2"}
 %section#flexview.section
   .container
@@ -1610,28 +1595,40 @@
           .box
             %pre
               %code#g6.html.hljs.xml
-                \&lt;div id=&quot;isotope-list&quot;&gt;
-                %br/
-                \&lt;div class=&quot;item is-1-2&quot;&gt;&lt;div class=&quot;notification is-alert&quot;&gt;1&lt;/div&gt;&lt;/div&gt;
-                %br/
-                \&lt;div class=&quot;item is-1-4&quot;&gt;&lt;div class=&quot;box content is-light&quot;&gt;2&lt;/div&gt;&lt;/div&gt;
-                \&lt;div class=&quot;item is-1-4&quot;&gt;&lt;div class=&quot;notification is-accent&quot;&gt;3&lt;/div&gt;&lt;/div&gt;
-                %br/
-                \&lt;div class=&quot;item is-1-4&quot;&gt;&lt;div class=&quot;notification is-dark&quot;&gt;4&lt;/div&gt;&lt;/div&gt;
-                %br/
-                \&lt;div class=&quot;item is-1-4&quot;&gt;&lt;div class=&quot;notification is-light&quot;&gt;5&lt;/div&gt;&lt;/div&gt;
-                %br/
-                \&lt;div class=&quot;item is-1-4&quot;&gt;&lt;div class=&quot;notification is-success&quot;&gt;6&lt;/div&gt;&lt;/div&gt;
-                \&lt;div class=&quot;item is-1-2&quot;&gt;&lt;div class=&quot;notification is-secondary&quot;&gt;7&lt;/div&gt;&lt;/div&gt;
-                \&lt;div class=&quot;item is-1-2&quot;&gt;&lt;div class=&quot;notification is-alert&quot;&gt;8&lt;/div&gt;&lt;/div&gt;
-                \&lt;div class=&quot;item is-1-4&quot;&gt;&lt;div class=&quot;box content is-light&quot;&gt;9&lt;/div&gt;&lt;/div&gt;
-                \&lt;div class=&quot;item is-1-4&quot;&gt;&lt;div class=&quot;notification is-accent&quot;&gt;10&lt;/div&gt;&lt;/div&gt;
-                \&lt;div class=&quot;item is-1-4&quot;&gt;&lt;div class=&quot;notification is-light&quot;&gt;11&lt;/div&gt;&lt;/div&gt;
-                \&lt;div class=&quot;item is-1-4&quot;&gt;&lt;div class=&quot;notification is-success&quot;&gt;12&lt;/div&gt;&lt;/div&gt;
-                \&lt;div class=&quot;item is-1-4&quot;&gt;&lt;div class=&quot;notification is-dark&quot;&gt;13&lt;/div&gt;&lt;/div&gt;
-                \&lt;div class=&quot;item is-1-4&quot;&gt;&lt;div class=&quot;notification is-secondary&quot;&gt;14&lt;/div&gt;&lt;/div&gt;
-                \&lt;div class=&quot;item is-1-4&quot;&gt;&lt;div class=&quot;notification is-accent&quot;&gt;15&lt;/div&gt;&lt;/div&gt;
-                \&lt;/div&gt;
+                &= '<div id="isotope-list">'
+                = '<br>   '
+                &= '<div class="item is-1-2"><div class="notification is-alert">1</div></div>'
+                = '<br>   '
+                &= '<div class="item is-1-4"><div class="box content is-light">2</div></div>'
+                = '<br>   '
+                &= '<div class="item is-1-4"><div class="notification is-accent">3</div></div>'
+                = '<br>   '
+                &= '<div class="item is-1-4"><div class="notification is-dark">4</div></div>'
+                = '<br>   '
+                &= '<div class="item is-1-4"><div class="notification is-light">5</div></div>'
+                = '<br>   '
+                &= '<div class="item is-1-4"><div class="notification is-success">6</div></div>'
+                = '<br>   '
+                &= '<div class="item is-1-2"><div class="notification is-secondary">7</div></div>'
+                = '<br>   '
+                &= '<div class="item is-1-2"><div class="notification is-alert">8</div></div>'
+                = '<br>   '
+                &= '<div class="item is-1-4"><div class="box content is-light">9</div></div>'
+                = '<br>   '
+                &= '<div class="item is-1-4"><div class="notification is-accent">10</div></div>'
+                = '<br>   '
+                &= '<div class="item is-1-4"><div class="notification is-light">11</div></div>'
+                = '<br>   '
+                &= '<div class="item is-1-4"><div class="notification is-success">12</div></div>'
+                = '<br>   '
+                &= '<div class="item is-1-4"><div class="notification is-dark">13</div></div>'
+                = '<br>   '
+                &= '<div class="item is-1-4"><div class="notification is-secondary">14</div></div>'
+                = '<br>   '
+                &= '<div class="item is-1-4"><div class="notification is-accent">15</div></div>'
+                = '<br>'
+                &= '</div>'
+            %br                
             %a.button.ics-clipboard{"data-clipboard-target" => "#g6"}
       #isotope-list{:style => "margin-bottom: 20px;"}
         .item.is-1-2

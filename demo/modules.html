@@ -130,14 +130,7 @@ variable.
 </div>
 <div class='column is-6'>
 <div class='box'>
-<pre><code class='html hljs xml' id='mod-box'><span class='hljs-tag'>&lt;div</span>
-<span class='hljs-attr'>class</span>=
-<span class='hljs-string'>"box"</span>
-<span class='hljs-tag'>&gt;</span>
-<span class='nt'>&lt;p</span>
-<span class='s'></span>
-<span class='nt'>&gt;</span>&amp;lt;/p&amp;gt;
-<span class='nt'>&lt;/div&gt;</span></code></pre>
+<pre><code class='html hljs xml' id='mod-box'>&lt;div class=&quot;box&quot;&gt;<br> &lt;p&gt;&lt;/p&gt;<br>&lt;/div&gt;</code></pre>
 <br>
 <a class='button ics-clipboard' data-clipboard-target='#mod-box'></a>
 </br>
@@ -156,7 +149,8 @@ variable.
 <article class='media box'>
 <figure class='media-left structure-item' title='media-left'>
 <p class='square is-64x64'>
-<img src='../art/twenty-fourteen.jpg'>.media-content.structure-item.is-structure-right{:title => "media-content"}</img>
+<img src='../art/twenty-fourteen.jpg'>
+<div class='media-content structure-item is-structure-right' title='media-content'></div>
 </p>
 <div class='content'>
 <p>
@@ -203,33 +197,7 @@ Featuring :
 </div>
 <div class='column is-1-2'>
 <div class='box'>
-<pre><code class='language-html' data-lang='html' id='mod-media'>&lt;article class=&quot;media&quot;&gt;
-<br>
-&lt;figure class=&quot;media-left structure-item&quot; title=&quot;media-left&quot;&gt;
-<br>
-&lt;p class=&quot;square is-64x64&quot;&gt; &lt;img src=&quot;&quot;&gt; &lt;/p&gt;
-<br>
-&lt;/figure&gt;
-<br>
-&lt;div class=&quot;media-content structure-item is-structure-right&quot; title=&quot;media-content&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-<br>
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt; &lt;small&gt;&lt;/small&gt;&lt;br&gt; &lt;small&gt;&lt;/small&gt;&lt;/p&gt;
-<br>
-&lt;/div&gt;
-<br>
-&lt;nav class=&quot;level&quot;&gt;
-<br>
-&lt;div class=&quot;level-left&quot;&gt;
-&lt;a class=&quot;level-item&quot;&gt;&lt;span class=&quot;icon is-small&quot;&gt;&lt;i class=&quot;ics-headphones&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/a&gt;
-&lt;a class=&quot;level-item&quot;&gt;&lt;span class=&quot;icon is-small&quot;&gt;&lt;i class=&quot;ics-link&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/a&gt;
-&lt;a class=&quot;level-item&quot;&gt;&lt;span class=&quot;icon is-small&quot;&gt;&lt;i class=&quot;ics-download&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/a&gt;
-&lt;/div&gt;
-<br>
-&lt;/nav&gt;
-<br>
-&lt;/div&gt;<br>&lt;/article
-<span class='nt'>&gt;</span></code></pre>
+<pre><code class='language-html' data-lang='html' id='mod-media'>&lt;article class=&quot;media&quot;&gt;<br>&lt;figure class=&quot;media-left structure-item&quot; title=&quot;media-left&quot;&gt;<br>    &lt;p class=&quot;square is-64x64&quot;&gt; &lt;img src=&quot;&quot;&gt; &lt;/p&gt;<br>  &lt;/figure&gt;<br>  &lt;div class=&quot;media-content structure-item is-structure-right&quot; title=&quot;media-content&quot;&gt;<br>    &lt;div class=&quot;content&quot;&gt;<br>      &lt;p&gt;&lt;strong&gt;&lt;/strong&gt; &lt;small&gt;&lt;/small&gt;&lt;br&gt; &lt;small&gt;&lt;/small&gt;&lt;/p&gt;<br>    &lt;/div&gt;<br>    &lt;nav class=&quot;level&quot;&gt;<br>      &lt;div class=&quot;level-left&quot;&gt;<br>        &lt;a class=&quot;level-item&quot;&gt;&lt;span class=&quot;icon is-small&quot;&gt;&lt;i class=&quot;ics-headphones&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/a&gt;<br>        &lt;a class=&quot;level-item&quot;&gt;&lt;span class=&quot;icon is-small&quot;&gt;&lt;i class=&quot;ics-link&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/a&gt;<br>        &lt;a class=&quot;level-item&quot;&gt;&lt;span class=&quot;icon is-small&quot;&gt;&lt;i class=&quot;ics-download&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/a&gt;<br>       &lt;/div&gt;<br>     &lt;/nav&gt;<br>  &lt;/div&gt;<br>&lt;/article&gt;</code></pre>
 <br>
 <a class='button ics-clipboard' data-clipboard-target='#mod-media'></a>
 </br>
@@ -356,42 +324,7 @@ It uses jQuery to switch the tabs and needs a unique id(#) for the tabs wrapper 
 </div>
 <div class='column'>
 <div class='box'>
-<pre><code class='html' data-lang='html' id='mod-mod'><span class='nt'></span>
-<span class='nt'>
-&lt;div class=&quot;mod&quot;&gt;
-&lt;div class=&quot;mod-header&quot;&gt;
-&lt;div class=&quot;mod-header-title&quot;&gt;&lt;h2&gt;&lt;i class=&quot;ics-wrench&quot;&gt;&lt;/i&gt; Flexspace &lt;/h2&gt;&lt;/div&gt;&lt;div class=&quot;mod-header-icon&quot;&gt;&lt;a class=&quot;post-edit-link&quot;&gt;&lt;i class=&quot;ics-edit&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;mod-tabbed&quot; id=&quot;post-3061&quot;&gt;
-&lt;div id=&quot;mod-tab-1&quot; class=&quot;mod-tabs is-active&quot;&gt;
-&lt;div class=&quot;mod-image&quot;&gt;&lt;div class=&quot;image is-6by9&quot;&gt;&lt;img width=&quot;1200&quot; height=&quot;600&quot; src=&quot;http://media.casadereyes.net/2016/05/flexspace-splash.jpg&quot; class=&quot;attachment-post-thumbnail size-post-thumbnail wp-post-image&quot; alt=&quot;Flexspace Splash&quot;&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;mod-tab-2&quot; class=&quot;mod-tabs&quot;&gt;
-&lt;div class=&quot;mod-info&quot;&gt;&lt;i class=&quot;ics-users&quot;&gt;&lt;/i&gt;&lt;h4&gt;Client/Employer&lt;/h4&gt;&lt;p&gt;Open Source&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&quot;mod-info&quot;&gt;&lt;i class=&quot;ics-wrench&quot;&gt;&lt;/i&gt;&lt;h4&gt;Project&lt;/h4&gt;&lt;p&gt;Build and maintain a HTML/SCSS/JS framework and a demo/documentation site.&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&quot;mod-info&quot;&gt;&lt;i class=&quot;ics-gears&quot;&gt;&lt;/i&gt;&lt;h4&gt;Tools&lt;/h4&gt;&lt;p&gt;Adobe CS, PHP, HTML, SCSS, Javascript&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&quot;mod-info&quot;&gt;&lt;i class=&quot;ics-link&quot;&gt;&lt;/i&gt;&lt;h4&gt;Links&lt;/h4&gt;&lt;p&gt;&lt;a target=&quot;_blank&quot;&gt;http://flexspace.casadereyes.net&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;mod-tab-3&quot; class=&quot;mod-tabs&quot;&gt;
-&lt;div class=&quot;mod-info&quot;&gt;&lt;i class=&quot;ics-users&quot;&gt;&lt;/i&gt;&lt;h4&gt;Mod Tab 3&lt;/h4&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;mod-tab-4&quot; class=&quot;mod-tabs&quot;&gt;
-&lt;div class=&quot;mod-info&quot;&gt;&lt;i class=&quot;ics-users&quot;&gt;&lt;/i&gt;&lt;h4&gt;Mod Tab 4&lt;/h4&gt;&lt;p&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;mod-footer&quot;&gt;
-&lt;a class=&quot;mod-footer-item is-active&quot; data-post=&quot;post-3061&quot; data-tab=&quot;mod-tab-1&quot;&gt; &lt;i class=&quot;ics-home&quot;&gt;&lt;/i&gt;&lt;div class=&quot;tooltip&quot;&gt;Mod Home.&lt;/div&gt;&lt;/a&gt;
-&lt;a class=&quot;mod-footer-item&quot; data-post=&quot;post-3061&quot; data-tab=&quot;mod-tab-2&quot;&gt;&lt;i class=&quot;ics-info&quot;&gt;&lt;/i&gt;&lt;div class=&quot;tooltip&quot;&gt;Quick Info.&lt;/div&gt;&lt;/a&gt;
-&lt;a class=&quot;mod-footer-item&quot; data-post=&quot;post-3061&quot; data-tab=&quot;mod-tab-3&quot;&gt;&lt;i class=&quot;ics-webpage&quot;&gt;&lt;/i&gt;&lt;div class=&quot;tooltip&quot;&gt;Get the Details.&lt;/div&gt;&lt;/a&gt;
-&lt;a class=&quot;mod-footer-item&quot; data-post=&quot;post-3061&quot; data-tab=&quot;mod-tab-4&quot;&gt;&lt;i class=&quot;ics-external&quot;&gt;&lt;/i&gt;&lt;div class=&quot;tooltip&quot;&gt;Visit the Site.&lt;/div&gt;&lt;/a&gt;
-&lt;/div&gt;
-&lt;div class=&quot;mod-content&quot;&gt;
-&lt;div class=&quot;mod-date&quot;&gt; Jun 2016 &lt;/div&gt;&lt;p&gt;&lt;a&gt;Flexspace&lt;/a&gt; is a HTML5/SCSS/JS front-end development framework I am building. &lt;/p&gt;
-&lt;hr&gt;
-&lt;i class=&quot;ics-tags&quot;&gt;&lt;/i&gt; &lt;a&gt;Featured&lt;/a&gt;, &lt;a&gt;Web Dev.&lt;/a&gt;&lt;br&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</span></code></pre>
+<pre><code class='html' data-lang='html' id='mod-mod'>&lt;div class=&quot;mod&quot;&gt;<br>  &lt;div class=&quot;mod-header&quot;&gt;<br>      &lt;div class=&quot;mod-header-title&quot;&gt;&lt;h2&gt;&lt;i class=&quot;ics-wrench&quot;&gt;&lt;/i&gt; Flexspace &lt;/h2&gt;&lt;/div&gt;&lt;div class=&quot;mod-header-icon&quot;&gt;&lt;a class=&quot;post-edit-link&quot;&gt;&lt;i class=&quot;ics-edit&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/div&gt;<br>  &lt;/div&gt;<br>  &lt;div class=&quot;mod-tabbed&quot; id=&quot;post-3061&quot;&gt;<br>    &lt;div id=&quot;mod-tab-1&quot; class=&quot;mod-tabs is-active&quot;&gt;<br>      &lt;div class=&quot;mod-image&quot;&gt;&lt;div class=&quot;image is-6by9&quot;&gt;&lt;img width=&quot;1200&quot; height=&quot;600&quot; src=&quot;http://media.casadereyes.net/2016/05/flexspace-splash.jpg&quot; class=&quot;attachment-post-thumbnail size-post-thumbnail wp-post-image&quot; alt=&quot;Flexspace Splash&quot;&gt;&lt;/div&gt;&lt;/div&gt;<br>    &lt;/div&gt;<br>    &lt;div id=&quot;mod-tab-2&quot; class=&quot;mod-tabs&quot;&gt;<br>      &lt;div class=&quot;mod-info&quot;&gt;&lt;i class=&quot;ics-users&quot;&gt;&lt;/i&gt;&lt;h4&gt;Client/Employer&lt;/h4&gt;&lt;p&gt;Open Source&lt;/p&gt;&lt;/div&gt;<br>      &lt;div class=&quot;mod-info&quot;&gt;&lt;i class=&quot;ics-wrench&quot;&gt;&lt;/i&gt;&lt;h4&gt;Project&lt;/h4&gt;&lt;p&gt;Build and maintain a HTML/SCSS/JS framework and a demo/documentation site.&lt;/p&gt;&lt;/div&gt;<br>      &lt;div class=&quot;mod-info&quot;&gt;&lt;i class=&quot;ics-gears&quot;&gt;&lt;/i&gt;&lt;h4&gt;Tools&lt;/h4&gt;&lt;p&gt;Adobe CS, PHP, HTML, SCSS, Javascript&lt;/p&gt;&lt;/div&gt;<br>      &lt;div class=&quot;mod-info&quot;&gt;&lt;i class=&quot;ics-link&quot;&gt;&lt;/i&gt;&lt;h4&gt;Links&lt;/h4&gt;&lt;p&gt;&lt;a target=&quot;_blank&quot;&gt;http://flexspace.casadereyes.net&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;<br>    &lt;/div&gt;<br>    &lt;div id=&quot;mod-tab-3&quot; class=&quot;mod-tabs&quot;&gt;<br>      &lt;div class=&quot;mod-info&quot;&gt;&lt;i class=&quot;ics-users&quot;&gt;&lt;/i&gt;&lt;h4&gt;Mod Tab 3&lt;/h4&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;&lt;/div&gt;<br>    &lt;/div&gt;<br>    &lt;div id=&quot;mod-tab-4&quot; class=&quot;mod-tabs&quot;&gt;<br>      &lt;div class=&quot;mod-info&quot;&gt;&lt;i class=&quot;ics-users&quot;&gt;&lt;/i&gt;&lt;h4&gt;Mod Tab 4&lt;/h4&gt;&lt;p&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&lt;/div&gt;<br>    &lt;/div&gt;<br>  &lt;/div&gt;<br>  &lt;div class=&quot;mod-footer&quot;&gt;<br>    &lt;a class=&quot;mod-footer-item is-active&quot; data-post=&quot;post-3061&quot; data-tab=&quot;mod-tab-1&quot;&gt; &lt;i class=&quot;ics-home&quot;&gt;&lt;/i&gt;&lt;div class=&quot;tooltip&quot;&gt;Mod Home.&lt;/div&gt;&lt;/a&gt;<br>    &lt;a class=&quot;mod-footer-item&quot; data-post=&quot;post-3061&quot; data-tab=&quot;mod-tab-2&quot;&gt;&lt;i class=&quot;ics-info&quot;&gt;&lt;/i&gt;&lt;div class=&quot;tooltip&quot;&gt;Quick Info.&lt;/div&gt;&lt;/a&gt;<br>    &lt;a class=&quot;mod-footer-item&quot; data-post=&quot;post-3061&quot; data-tab=&quot;mod-tab-3&quot;&gt;&lt;i class=&quot;ics-webpage&quot;&gt;&lt;/i&gt;&lt;div class=&quot;tooltip&quot;&gt;Get the Details.&lt;/div&gt;&lt;/a&gt;<br>    &lt;a class=&quot;mod-footer-item&quot; data-post=&quot;post-3061&quot; data-tab=&quot;mod-tab-4&quot;&gt;&lt;i class=&quot;ics-external&quot;&gt;&lt;/i&gt;&lt;div class=&quot;tooltip&quot;&gt;Visit the Site.&lt;/div&gt;&lt;/a&gt;<br>  &lt;/div&gt;<br>  &lt;div class=&quot;mod-content&quot;&gt;<br>    &lt;div class=&quot;mod-date&quot;&gt; Jun 2016 &lt;/div&gt;&lt;p&gt;&lt;a&gt;Flexspace&lt;/a&gt; is a HTML5/SCSS/JS front-end development framework I am building. &lt;/p&gt;<br>    &lt;hr&gt;<br>    &lt;i class=&quot;ics-tags&quot;&gt;&lt;/i&gt; &lt;a&gt;Featured&lt;/a&gt;, &lt;a&gt;Web Dev.&lt;/a&gt;&lt;br&gt;<br>  &lt;/div&gt;<br>&lt;/div&gt;</code></pre>
 <br>
 <a class='button ics-clipboard' data-clipboard-target='#mod-mod'></a>
 </br>
@@ -405,10 +338,11 @@ It uses jQuery to switch the tabs and needs a unique id(#) for the tabs wrapper 
 <div class='container'>
 <h1>Gallery</h1>
 <hr>
-<p>Coming Soon</p>
-<div class='columns'>%section#modal.section</div>
+<div class='content'>Coming Soon</div>
 </hr>
 </div>
+</section>
+<section class='section' id='modal'>
 <div class='container'>
 <h1>Modal</h1>
 <hr>
