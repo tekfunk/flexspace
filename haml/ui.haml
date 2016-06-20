@@ -1,0 +1,487 @@
+= Haml::Engine.new(File.read("/Users/slee/Sites/flexspace/haml/header.haml")).render
+%section.hero.is-primary
+  .has-flxs-head-4
+    .hero-body
+      .container.has-text-centered
+        %h1.title UI
+        .subtitle Point & Hover & Click
+    .hero-foot
+      .container
+        .block.has-text-centered
+          %a.button.is-primary{:href => "#button"} button
+          %a.button.is-primary{:href => "#nav"} nav
+          %a.button.is-primary{:href => "#toggle"} toggle
+          %a.button.is-primary.is-disabled{:href => "#tabs"} tabs
+          %a.button.is-primary.is-disabled{:href => "#panel"} panel
+          %a.button.is-primary.is-disabled{:href => "#menu"} menu
+          %a.button.is-primary.is-disabled{:href => "#form"} form
+          %a.button.is-primary.is-disabled{:href => "#pagination"} pagination
+%section#button.section
+  .container
+    %h1 Button
+    %hr
+      .columns
+        .column
+          .media.block.to-edges
+            %a.button Button
+            %a.button.is-white White
+            %a.button.is-light Light
+            %a.button.is-dark Dark
+            %a.button.is-black Black
+            %a.button.is-link Link
+          .media.block.to-edges
+            %a.button.is-primary Primary
+            %a.button.is-red Red
+            %a.button.is-accent Accent
+            %a.button.is-success Success
+            %a.button.is-alert Alert
+          .content
+            .box.content.is-light
+              %p
+                To create a button, use
+                = succeed "." do
+                  %code
+                    &= '<a class="button"></a>' 
+              %p
+                Colors can be assigned with
+                = succeed "," do
+                  %strong .is-white
+                etc. from the choices in the code box.
+              %p
+                Corners can be adjusted with
+                %strong $box-radius
+                variable.
+        .column
+          .box
+            %pre
+              %code#mod-box.html
+                &= '<div class="box">'
+                = '<br> '
+                &= '<p></p>'
+                = '<br>'
+                &= '</div>'
+            %br
+              %a.button.ics-clipboard{"data-clipboard-target" => "#mod-box"}
+          .box
+            %pre
+              %code#ui-1.html
+                &= '<a class="button">' 
+                = '<br>   '
+                &= '<i class="ics-bones"></i><span>Throw Dice</span></a>' 
+                = '<br>'
+                &= '</a>' 
+                = '<br>'
+                = '<br>'
+                &= '<a class="button is-primary"><i class="ics-headphones"></i><span>Listen</span></a>'
+                = '<br>'
+                &= '<a class="button is-secondary is-outlined"><i class="ics-lightbulb"></i><span>Get Ideas</span></a>'
+                = '<br>'
+                &= '<a class="button is-success"><i class="ics-circlecheck"></i>OK</a>'
+                = '<br>'
+                &= '<a class="button is-small">Small</a>'
+                = '<br>'
+                &= '<a class="button is-medium">Medium</a>'
+                = '<br>'
+                &= '<a class="button is-large">Large</a>'
+                = '<br>'
+            %br
+            %a.button.ics-clipboard{"data-clipboard-target" => "#ui-1"}
+      %hr
+        .columns
+          .column
+            .media.block.to-edges
+              %a.button
+                %i.ics-bones
+                %span Throw Dice
+              %a.button.is-primary
+                %i.ics-headphones
+                %span Listen
+              %a.button.is-secondary.is-outlined
+                %i.ics-lightbulb>
+                Get Ideas
+              %a.button.is-success
+                %i.ics-circlecheck
+                %span OK
+            .media.block.to-edges
+              %a.button.is-small Small
+              %a.button Normal
+              %a.button.is-medium Medium
+              %a.button.is-large Large
+            .content
+              .box.content.is-light
+                %p
+                  %a{:href => "art.php"} Available icons
+                  can be added with
+                  %code 
+                    &= '<i class="ics-name"></i>'
+                %p
+                  Other Sizes can be assigned with
+                  = succeed "," do
+                    %strong .is-small
+                  \.
+                  %strong> is-medium
+                  , .
+                  %strong> is-large
+                  \.
+          .column
+            .box
+              %pre
+                %code#ui-2.html
+                  &= '<a class="button is-primary">' 
+                  = '<br>   '
+                  &= '<i class="ics-bones"></i><span>Throw Dice</span>' 
+                  = '<br>'
+                  &= '</a>' 
+                  = '<br>'
+                  = '<br>'
+                  &= '<a class="button is-secondary is-outlined">' 
+                  = '<br>   '
+                  &= '<i class="ics-headphones"></i><span>Listen</span>' 
+                  = '<br>'
+                  &= '</a>' 
+                  = '<br>'
+                  = '<br>'
+                  &= '<a class="button is-secondary is-outlined">' 
+                  = '<br>   '
+                  &= '<i class="ics-lightbulb"></i><span>Get Ideas</span>' 
+                  = '<br>'
+                  &= '</a>' 
+                  = '<br>'
+                  = '<br>'
+                  &= '<a class="button is-success">' 
+                  = '<br>   '
+                  &= '<i class="ics-circlecheck"></i>OK</a>' 
+                  = '<br>'
+                  &= '</a>' 
+                  = '<br>'
+                  = '<br>'
+                  &= '<a class="button is-small">Small</a>'
+                  = '<br>'
+                  &= '<a class="button">Normal</a>'
+                  = '<br>'
+                  &= '<a class="button is-medium">Medium</a>'
+                  = '<br>'
+                  &= '<a class="button is-large">Large</a>'
+                  = '<br>'
+              %br
+              %a.button.ics-clipboard{"data-clipboard-target" => "#ui-2"}
+        %hr
+          .columns
+            .column
+              .block
+                .notification.is-dark
+                  %a.button.is-inverted Inverted
+                  %a.button.is-primary.is-inverted Inverted
+                  %a.button.is-accent.is-inverted Inverted
+                  %a.button.is-success.is-inverted Inverted
+                  %a.button.is-secondary.is-inverted Inverted
+              .block
+                %a.button.is-outlined Outlined
+                %a.button.is-primary.is-outlined Outlined
+                %a.button.is-accent.is-outlined Outlined
+                %a.button.is-success.is-outlined Outlined
+                %a.button.is-secondary.is-outlined Outlined
+              .block
+                %a.button.is-disabled Disabled
+                %a.button.is-primary.is-disabled Disabled
+                %a.button.is-accent.is-disabled Disabled
+                %a.button.is-success.is-disabled Disabled
+                %a.button.is-alert.is-disabled Disabled
+                %a.button.is-secondary.is-disabled Disabled
+              .content
+                .box.content.is-light
+                  %p These variations are avaiable for buttons:
+                  %p
+                    %strong .is-inverted
+                    %strong .is-outlined
+                    %strong .is-disabled
+            .column
+              .box
+                %pre
+                  %code#ui-3.html
+                    &= '<a class="button is-inverted">Inverted</a>'
+                    = '<br>'
+                    &= '<a class="button is-outlined">Outlined</a>'
+                    = '<br>'
+                    &= '<a class="button is-disabled">Disabled</a>'
+                    = '<br>'  
+                %br
+                %a.button.ics-clipboard{"data-clipboard-target" => "#ui-3"}
+          %hr
+            .columns
+              .column
+                .block
+                  %p.control.is-grouped
+                    %a.button.is-primary Primary
+                    %a.button Generic
+                    %a.button.is-secondary Secondary
+                .block
+                  %p.control.has-addons
+                    %a.button
+                      %span Left
+                    %a.button
+                      %span Center
+                    %a.button
+                      %span Right
+                .content
+                  .box.content.is-light
+                    %p
+                      If you want to group buttons, use
+                      %strong .is-grouped
+                      on
+                      = succeed "." do
+                        %strong .control
+                    %p
+                      If you want to use buttons as addons, use
+                      %strong .has-addons
+                      on
+                      = succeed "." do
+                        %strong .control
+              .column
+                .box
+                  %pre
+                    %code#ui-4.html
+                      &= '<p class="control is-grouped">'
+                      = '<br>   '
+                      &= '<a class="button is-primary">Primary</a>' 
+                      = '<br>   '
+                      &= '<a class="button">Generic</a>'
+                      = '<br>   '
+                      &= '<a class="button is-secondary">Secondary</a>'
+                      = '<br>'
+                      &= '</p>'
+                      = '<br>'
+                      = '<br>'
+                      &= '<p class="control has-addons">'
+                      = '<br>   '
+                      &= '<a class="button"><span>Left</span></a>'
+                      = '<br>   '
+                      &= '<a class="button"> <span>Center</span></a>' 
+                      = '<br>   '
+                      &= '<a class="button"> <span>Right</span></a>'
+                      = '<br>'
+                      &= '</p>'
+                  %br
+                  %a.button.ics-clipboard{"data-clipboard-target" => "#ui-4"}
+%section#nav.section
+  .container
+    %h1 Nav
+    %hr
+  %nav.nav.has-shadow
+    .container
+      .nav-left
+        %a
+          %img{:height => "60", :src => "http://media.casadereyes.net/xfr/casa-logo.png", :width => "120"}/
+      %ul.nav-right.nav-menu
+        %li.nav-item.is-primary
+          %a Portfolio
+        %li.nav-item.is-primary
+          %a Lab
+        %li.nav-item.is-primary
+          %a Photos
+          %ul
+            %li
+              %a Travel
+            %li
+              %a Abstract
+            %li
+              %a Etc
+        %li.nav-item.is-primary
+          %a Mixes
+          %ul
+            %li
+              %a Twenty Fifteen
+            %li
+              %a Twenty Fourteen
+            %li
+              %a Twenty Thirteen
+        %li.nav-item
+          %a
+            .button.is-primary
+              %i.ics-question
+  .container
+    %hr
+      .columns
+        .column.is-1-2
+          .box.content.is-light.content
+            %p
+              Use
+              %strong .nav-left, & .nav-right
+              for different sides.
+            %p
+              Use
+              %strong .nav-item
+              for links, logos, buttons, icons, tabs.
+              %strong .nav-item
+              can also have colors assigned.
+            %p
+              Links can be nested inside
+              %code &lt;ul&gt;&lt;li&gt;&lt;ul&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;
+              to make dropdown links.
+            %p
+              %strong .nav-item
+              can be a
+              %strong tab
+              by using
+              = succeed "." do
+                %strong .is-tab
+            %p
+              %strong .nav-item
+              can be
+              %strong active
+              by using
+              = succeed "." do
+                %strong .is-active
+            %p
+              For a
+              %strong shadow
+              use
+              = succeed "." do
+                %strong .has-shadow
+            %p &nbsp;
+        .column.is-1-2
+          .box
+            %pre
+              %code#ui-5.html
+                &= '<nav class="nav has-shadow">'
+                = '<br> '
+                &= '<div class="container">'
+                = '<br>   '
+                &= '<div class="nav-left">'
+                = '<br>      '
+                &= '<a><img width="120" height="60" src="http://media.casadereyes.net/xfr/casa-logo.png"></a>'
+                = '<br>   '
+                &= '</div>'
+                = '<br>    '
+                &= '<ul class="nav-right nav-menu">'
+                = '<br>      '
+                &= '<li class="nav-item is-primary"><a>Portfolio</a></li>'
+                = '<br>      '
+                &= '<li class="nav-item is-primary"><a>Lab</a></li>'
+                = '<br>      '
+                &= '<li class="nav-item is-primary"><a>Photos</a>'
+                = '<br>        '
+                &= '<ul>'
+                = '<br>          '
+                &= '<li><a>Travel</a></li>'
+                = '<br>          '
+                &= '<li><a>Abstract</a></li>'
+                = '<br>          '
+                &= '<li><a>Etc</a></li>'
+                = '<br>        '
+                &= '</ul>'
+                = '<br>      '
+                &= '</li>'
+                = '<br>      '
+                &= '<li class="nav-item is-primary"><a>Mixes</a>'
+                = '<br>        '
+                &= '<ul>'
+                = '<br>          '
+                &= '<li><a>Twenty Fifteen</a></li>'
+                = '<br>          '
+                &= '<li><a>Twenty Fourteen</a></li>'
+                = '<br>          '
+                &= '<li><a>Twenty Thirteen</a></li>'
+                = '<br>        '
+                &= '</ul>'
+                = '<br>      '
+                &= '</li>'
+                = '<br>      '
+                &= '<li class="nav-item"><a><div class="button is-primary"><span class="icon"><i class="ics-question"></i></span></div></a></li>'
+                = '<br>     '
+                &= '</ul>'
+                = '<br>  '
+                &= '</div>'
+                = '<br>'
+                &= '</nav>'
+            %br
+            %a.button.ics-clipboard{"data-clipboard-target" => "#ui-5"}
+%section#toggle.section
+  .container
+    %h1
+      Toggle
+      .badge.is-secondary.is-small{:style => "margin:12px 0 0 8px;"} jQuery
+    %hr
+      .notification.is-primary{:style => "height: 120px;"}
+        %a.toggle-btn.on-left.on-div-edge
+          %i.ics-list
+        #toggle-window.toggle-window.is-dark.on-div-edge
+          %a.toggle-btn-close.on-left.on-div-edge
+            %i.ics-ex
+      %hr
+        .columns
+          .column.is-1-2
+            .box.content.is-light.content
+              %p Toggle is a hidden content window that opens with a click. It can be used for such things as a mobile device menu.
+              %p
+                There are 3 elements, the open button
+                = succeed "," do
+                  %strong .toggle-btn
+                the close button
+                = succeed "," do
+                  %strong .toggle-btn-close
+                and the content window
+                = succeed "." do
+                  %strong .toggle-window
+              %p
+                Use
+                %strong .on-win-edge
+                to have the button aligned to the browser window, and
+                %strong .on-div-edge
+                to align to it's parent div. Use the same classes on the content window to either have it cover the whole page or just it's parent div.
+              %p
+                Use
+                %strong .on-left
+                and
+                %strong .on-right
+                to align the buttons. They will always appear at the top of the window or div.
+              %p
+                Use
+                = succeed "," do
+                  %strong .is-primary
+                etc to assign colors to
+                = succeed "." do
+                  %strong .toggle-window
+          .column.is-1-2
+            .box
+              %pre
+                %code#ui-6.html
+                  &= '<a class="toggle-btn on-left on-div-edge">'
+                  = '<br> '
+                  &= '<i class="ics-list"></i>'
+                  = '<br>'
+                  &= '</a>'
+                  = '<br>'
+                  &= '<div id="toggle-window" class="toggle-window is-dark on-div-edge">'				
+                  = '<br> '
+                  &= '<a class="toggle-btn-close on-left on-div-edge"><i class="ics-ex"></i></a>'
+                  = '<br>'
+                  &= '</div>'
+              %br
+              %a.button.ics-clipboard{"data-clipboard-target" => "#ui-6"}
+%section#panel.section
+  .container
+    %h1 Panel
+    %hr
+      .content Coming Soon.
+%section#menu.section
+  .container
+    %h1 Menu
+    %hr
+      .content Coming Soon.
+%section#form.section
+  .container
+    %h1 Form
+    %hr
+      .content Coming Soon.
+%section#tabs.section
+  .container
+    %h1 Tabs
+    %hr
+      .content Coming Soon.
+%section#pagination.section
+  .container
+    %h1 Pagination
+    %hr
+      .content Coming Soon.
+= Haml::Engine.new(File.read("/Users/slee/Sites/flexspace/haml/footer.haml")).render

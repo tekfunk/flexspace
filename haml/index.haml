@@ -1,0 +1,66 @@
+= Haml::Engine.new(File.read("/Users/slee/Sites/flexspace/haml/header.haml")).render
+.loading.is-primary
+  .loading-circles
+%section#home.hero.is-fullheight.has-flxs-hero-2
+  .hero-head.is-white
+    !!! XML
+  .hero-body
+    .container.has-text-centered
+      %h1.title.animated.fadeInDownBig
+        %img{:src => "../art/flexspace-logo-lrg-white.svg", :width => "400"}/
+        %h2.subtitle.animated.fadeInUpBig{:style => "color: #ffffff;"} Yet another website framework.
+  .hero-foot
+    .container.has-text-centered
+      .column.animated.zoomIn
+        %a.button.is-primary.is-inverted{:href => "/page.php"} page
+        %a.button.is-primary.is-inverted{:href => "/copy.php"} copy
+        %a.button.is-primary.is-inverted{:href => "/grid.php"} grid
+        %a.button.is-primary.is-inverted{:href => "/modules.php"} modules
+        %a.button.is-primary.is-inverted{:href => "/ui.php"} ui
+        %a.button.is-primary.is-inverted{:href => "/art.php"} art
+        %a.button.is-primary.is-inverted{:href => "/animations.php"} animations
+        %a.button.is-primary.is-inverted{:href => "/variables.php"} variables
+%section#about.hero.has-flxs-hero-1
+  .hero-body
+    .container
+      .content
+        .columns
+          .column
+            %h1{:style => "font-weight: 500; color: #2957a6;"}
+            About
+            %img{:src => "../art/flexspace-logo-lrg.svg", :style => "margin-bottom: -10px;", :width => "200"}/
+            %p After trying a number of different frameworks and never finding exactly what I wanted, I decided the best thing to do was create and maintain my own.
+            %p The core is be SCSS and built in a way so that parts (even whole libraries) can get easily added or removed. For the jobs that CSS can't handle, jQuery is implemented.
+            %p This modular approach will allow Flexspace to be...
+            %h1{:style => "font-weight: 500; color: #2957a6;"} Flexable
+            %p Flexspace will be able to serve as a html/css/js design core for any number of backends. A WordPress template are already in the works.
+            %h1{:style => "font-weight: 500; color: #2957a6;"} Extendable
+            %p Flexspace will keep up with the constant change of best practices in designing and developing for the www as well as experiment with new and different ways of doing things.
+          .column
+            %h1{:style => "font-weight: 500; color: #2957a6;"} Status
+            %p I'm thinking of this as a soft launch.  The framework is functional but not complete or optimized. The full source will be available on Github, but until then you can use the < 
+            %a{:href => "http://flexspace.casadereyes.net/css/flexspace.css"}css < 
+            from my current build and see examples at <
+            %a{:href => "http://codepen.io/collection/neMeLG/"} codepen.
+            %h1{:style => "font-weight: 500; color: #2957a6;"} Externals
+            %p Sometimes someone has already done it and is willing to share, so I use various scripts, libraries, art  tools. 
+            .columns
+              .column
+                %p
+                %a{:href => "https://zenorocha.github.io/clipboard.js", :target => "_blank"} clipboard.js
+                %p
+                %a{:href => "https://highlightjs.org", :target => "_blank"} highlight.js
+                %p
+                %a{:href => "http://imagesloaded.desandro.com", :target => "_blank"} imagesLoaded
+                %p
+                %a{:href => "http://isotope.metafizzy.co", :target => "_blank"} Isotope
+                %p
+                %a{:href => "https://jquery.org", :target => "_blank"} jQuery
+              .column
+                %p
+                %a{:href => "http://daneden.github.io/animate.css/", :target => "_blank"} animate.css
+                %p
+                %a{:href => "http://madmalik.github.io/mononoki/", :target => "_blank"} mononoki.otf
+                %p
+                %a{:href => "https://icomoon.io/app", :target => "_blank"} icomoon.io
+= Haml::Engine.new(File.read("/Users/slee/Sites/flexspace/haml/footer.haml")).render

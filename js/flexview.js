@@ -2,44 +2,48 @@
 // Flexview, a small app to preview columns and flexbox in flexspace.css.
 
 // Parent .columns
-
 // Flexspace CSS 'modifiers'
-$('#is-gapless').change(function() {
-   if($(this).is(":checked")) {
-	$('#flex-demo').addClass(' is-gapless');
-	$( '.code-gapless' ).html(' is-gapless');
-      return;
-   }
-	$('#flex-demo').removeClass(' is-gapless');
-	$( '.code-gapless' ).html('');
+var flxcss = {
+  "is-gapless": "code-gapless",
+  "is-stacked": "code-stacked",
+  "is-mobile": "code-mobile",
+  "is-desktop": "code-desktop"
+};
+$.each( flxcss, function( key, value ) {
+  $('#' + key ).change(function() {
+     if($(this).is(":checked")) {
+	  $('#flex-demo').addClass(' ' + key );
+	  $( '.' + value ).html(' ' + key );
+       return;
+     }
+  	$('#flex-demo').removeClass(' ' + key );
+	  $( '.' + value  ).html('');
+  });
 });
-$('#is-stacked').change(function() {
-   if($(this).is(":checked")) {
-	$('#flex-demo').addClass(' is-stacked');
-	$( '.code-stacked' ).html(' is-stacked');
-      return;
-   }
-	$('#flex-demo').removeClass(' is-stacked');
-	$( '.code-stacked' ).html('');
+
+// Flexspace flexbox 'modifiers'   
+// Working on Variable in match()   
+/*
+var flxbx = {
+  0 : "flex-direction",
+  1 : "flex-wrap",
+  2 : "justify-content",
+  3 : "align-items",
+  4 : "align-content"
+};
+$.each( flxbx, function( key, value ) {
+  $('#' + value  ).change(function () {
+	  var flx_class = ' '+$(this).val().toLowerCase();	
+	  $("#flex-demo").removeClass (function (index, css) {
+        match(new RegExp(value, 'i'));
+    	  return (css.match (/(^|\s)flex-direction-\S+/g) || []).join(' ');
+	  });
+    $('#flex-demo').addClass(flx_class);
+	  $( '.' + value   ).html( flx_class );
+  });
 });
-$('#is-mobile').change(function() {
-   if($(this).is(":checked")) {
-	$('#flex-demo').addClass(' is-mobile');
-	$( '.code-mobile' ).html(' is-mobile');
-      return;
-   }
-	$('#flex-demo').removeClass(' is-mobile');
-	$( '.code-mobile' ).html('');
-});
-$('#is-desktop').change(function() {
-   if($(this).is(":checked")) {
-	$('#flex-demo').addClass(' is-desktop');
-	$( '.code-desktop' ).html(' is-desktop');
-      return;
-   }
-	$('#flex-demo').removeClass(' is-desktop');
-	$( '.code-desktop' ).html('');
-});
+*/
+
 
 // Flexspace flexbox 'modifiers'
 $('#flex-direction').change(function () {

@@ -1,0 +1,285 @@
+= Haml::Engine.new(File.read("/Users/slee/Sites/flexspace/haml/header.haml")).render
+%section.hero.is-primary
+  .has-flxs-head-4
+    .hero-body
+      .container.has-text-centered
+        %h1.title Copy
+        .subtitle Getting your message across.
+    .hero-foot
+      .container
+        .block.has-text-centered
+          %a.button.is-primary{:href => "#content"} content
+          %a.button.is-primary{:href => "#badges"} badges
+          %a.button.is-primary{:href => "#burst"} burst
+          %a.button.is-primary{:href => "#messages"} messages
+          %a.button.is-primary{:href => "#notifications"} notifications
+          %a.button.is-primary{:href => "#code"} code
+%section#content.section
+  .container
+    %h1 Content
+    %hr
+      .box.content.is-light
+        %p
+          Use
+          %code .content
+          as a container for bodies of text styled like this.
+      .notification.content
+        %h1 &lt;h1&gt;Hello World&lt;/h1&gt;
+        %p
+          \&lt;p&gt;Lorem ipsum dolor sit amet,
+          = succeed "." do
+            %em em -consectetur adipiscing elit
+          Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.&lt;/p&gt;
+        %h2.has-text-centered &lt;h2 class="has-text-centered"&gt;Second level&lt;/h2&gt;
+        %p.has-text-centered
+          \&lt;p class="has-text-centered"&gt;Curabitur accumsan turpis pharetra
+          %code code - augue tincidunt
+          blandit. Quisque condimentum maximus mi, sit amet commodo arcu rutrum id. Proin pretium urna vel cursus venenatis. Suspendisse potenti. Etiam mattis sem rhoncus lacus dapibus facilisis. Donec at dignissim dui. Ut et neque nisl.&lt;/p&gt;
+        %ul
+          \&lt;ul&gt;
+          %li &lt;li&gt;In fermentum leo eu lectus mollis, quis dictum mi aliquet.
+          %li &lt;li&gt;Morbi eu nulla lobortis, lobortis est in, fringilla felis.
+          %li &lt;li&gt;Aliquam nec felis in sapien venenatis viverra fermentum nec lectus.
+          %li &lt;li&gt;Ut non enim metus.
+          \&lt;/ul&gt;
+        %h3 h3 - Third level
+        %p.has-text-right
+          \&lt;p class="has-text-right"&gt;Quisque ante lacus, malesuada ac auctor vitae, congue
+          = succeed "." do
+            %a{:href => "#"} a - non ante
+          Phasellus lacus ex, semper ac tortor nec, fringilla condimentum orci. Fusce eu rutrum tellus. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque. Maecenas eleifend sollicitudin dui, faucibus sollicitudin augue cursus non. Ut finibus eleifend arcu ut vehicula. Mauris eu est maximus est porta condimentum in eu justo. Nulla id iaculis sapien.&lt;/p&gt;
+        %ol
+          ol
+          %li li - Donec blandit a lorem id convallis.
+          %li Cras gravida arcu at diam gravida gravida.
+          %li Integer in volutpat libero.
+          %li Donec a diam tellus.
+          %li Aenean nec tortor orci.
+          %li Quisque aliquam cursus urna, non bibendum massa viverra eget.
+          %li Vivamus maximus ultricies pulvinar.
+        %blockquote blockquote - Ut venenatis, nisl scelerisque sollicitudin fermentum, quam libero hendrerit ipsum, ut blandit est tellus sit amet turpis.
+        %p
+          Quisque at semper enim, eu hendrerit odio. Etiam auctor nisl et
+          %em justo sodales
+          elementum. Maecenas ultrices lacus quis neque consectetur, et lobortis nisi molestie.
+        %p Sed sagittis enim ac tortor maximus rutrum. Nulla facilisi. Donec mattis vulputate risus in luctus. Maecenas vestibulum interdum commodo.
+        %p Suspendisse egestas sapien non felis placerat elementum. Morbi tortor nisl, suscipit sed mi sit amet, mollis malesuada nulla. Nulla facilisi. Nullam ac erat ante.
+        %h4 h4 - Fourth level
+        %p Nulla efficitur eleifend nisi, sit amet bibendum sapien fringilla ac. Mauris euismod metus a tellus laoreet, at elementum ex efficitur.
+        %p Maecenas eleifend sollicitudin dui, faucibus sollicitudin augue cursus non. Ut finibus eleifend arcu ut vehicula. Mauris eu est maximus est porta condimentum in eu justo. Nulla id iaculis sapien.
+        %p Phasellus porttitor enim id metus volutpat ultricies. Ut nisi nunc, blandit sed dapibus at, vestibulum in felis. Etiam iaculis lorem ac nibh bibendum rhoncus. Nam interdum efficitur ligula sit amet ullamcorper. Etiam tristique, leo vitae porta faucibus, mi lacus laoreet metus, at cursus leo est vel tellus. Sed ac posuere est. Nunc ultricies nunc neque, vitae ultricies ex sodales quis. Aliquam eu nibh in libero accumsan pulvinar. Nullam nec nisl placerat, pretium metus vel, euismod ipsum. Proin tempor cursus nisl vel condimentum. Nam pharetra varius metus non pellentesque.
+        %h5 h5 - Fifth level
+        %p Aliquam sagittis rhoncus vulputate. Cras non luctus sem, sed tincidunt ligula. Vestibulum at nunc elit. Praesent aliquet ligula mi, in luctus elit volutpat porta. Phasellus molestie diam vel nisi sodales, a eleifend augue laoreet. Sed nec eleifend justo. Nam et sollicitudin odio.
+        %h6 h6 - Sixth level
+        %p Cras in nibh lacinia, venenatis nisi et, auctor urna. Donec pulvinar lacus sed diam dignissim, ut eleifend eros accumsan. Phasellus non tortor eros. Ut sed rutrum lacus. Etiam purus nunc, scelerisque quis enim vitae, malesuada ultrices turpis. Nunc vitae maximus purus, nec consectetur dui. Suspendisse euismod, elit vel rutrum commodo, ipsum tortor maximus dui, sed varius sapien odio vitae est. Etiam at cursus metus.
+%section#badges.section
+  .container
+    %h1 Badge
+    %hr
+      .columns
+        .column.is-6
+          .block
+            %span.badge.is-dark Dark
+            %span.badge.is-primary Primary
+            %span.badge.is-accent Accent
+            %span.badge.is-success Success
+            %span.badge.is-alert Alert
+            %span.badge.is-secondary Secondary
+          .block
+            %span.badge.is-dark.is-small Small
+            %span.badge.is-primary.is-medium Medium
+            %span.badge.is-accent.is-large Large
+          %button.button.is-primary{:type => "button"}
+            Messages
+            %span.badge 42
+        .column.is-6
+          .box
+            %pre
+              %code#shapes-tags.html
+                &= '<span class="badge is-dark">Dark</span>'
+                = '<br>'
+                &= '<span class="badge is-primary">Primary</span>'
+                = '<br>'
+                &= '<span class="badge is-accent">Accent</span>'
+                = '<br>'
+                &= '<span class="badge is-success">Success</span>'
+                = '<br>'
+                &= '<span class="badge is-alert">Alert</span>'
+                = '<br>'
+                &= '<span class="badge is-secondary">Secondary</span>'
+                = '<br>'
+                = '<br>'
+                &= '<span class="badge is-dark is-small">Small</span>'
+                = '<br>'
+                &= '<span class="badge is-primary is-medium">Medium</span>'
+                = '<br>'
+                &= '<span class="badge is-accent is-large">Large</span>'
+                = '<br>'
+                = '<br>'
+                &= '<button class="button is-primary" type="button"> Messages'
+                = '<br>'                  
+                &= '  <span class="badge">42</span>'
+                = '<br>'
+                &= '</button>'
+
+            %br
+              %a.button.ics-clipboard{"data-clipboard-target" => "#shapes-tags"}
+%section#burst.section
+  .container
+    %h1 Burst
+    %hr
+      .columns
+        .column.is-1-8.is-1-4-mobile
+          .burst
+            .burst-12.is-red
+              %p Red
+        .column.is-1-4-mobile
+          .burst
+            .burst-12.is-primary
+              %p primary
+        .column.is-1-4-mobile
+          .burst
+            .burst-12.is-accent
+              %p accent
+        .column
+          .burst
+            .burst-12.is-success
+              %p success
+        .column
+          .burst
+            .burst-12.is-alert
+              %p alert
+        .column
+          .burst
+            .burst-12.is-secondary
+              %p secondary
+        .column
+          .burst
+            .burst-12.is-dark
+              %p Dark
+        .column
+          .burst
+            .burst-12.is-black
+              %p black
+        .column
+          .burst
+            .burst-12.is-light
+              %p light
+      .box
+        %pre
+          %code#shapes-burst.html
+            &= '<div class="burst"><div class="burst-12 is-red"><p>Red</p></div></div>'
+            = '<br>'
+            &= '<div class="burst"><div class="burst-12 is-primary"><p>Primary</p></div></div>'
+            = '<br>'
+            &= '<div class="burst"><div class="burst-12 is-accent"><p>Accent</p></div></div>'
+            = '<br>'
+            &= '<div class="burst"><div class="burst-12 is-success"><p>Success</p></div></div>'
+            = '<br>'
+            &= '<div class="burst"><div class="burst-12 is-alert"><p>Alert</p></div></div>'
+            = '<br>'
+            &= '<div class="burst"><div class="burst-12 is-secondary"><p>Secondary</p></div></div>'
+            = '<br>'
+            &= '<div class="burst"><div class="burst-12 is-dark"><p>Dark</p></div></div>'
+            = '<br>'
+            &= '<div class="burst"><div class="burst-12 is-black"><p>black</p></div></div>'
+            = '<br>'
+            &= '<div class="burst"><div class="burst-12 is-light"><p>light</p></div></div>'
+            = '<br>'
+        %br
+          %a.button.ics-clipboard{"data-clipboard-target" => "#shapes-burst"}
+%section#messages.section
+  .container
+    %h1 Message
+    %hr
+      .columns
+        .column.is-1-2
+          %article.message
+            .message-header Hello World
+            .message-body Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque risus mi, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum felis venenatis efficitur. Aenean ac eleifend lacus, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
+          %article.message
+            .message-body Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque risus mi, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum felis venenatis efficitur. Aenean ac eleifend lacus, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
+        .column.is-1-2
+          .box
+            %pre
+              %code#mess-code.html
+                &= '<article class="message">'
+                = '<br>  '
+                &= '<div class="message-header">Hello World</div>'
+                = '<br>  '
+                &= '<div class="message-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque risus mi, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum felis venenatis efficitur. Aenean ac eleifend lacus, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.</div>'
+                = '<br>'
+                &= '</article>'
+                = '<br>'
+                = '<br>'
+                &= '<article class="message">'
+                = '<br>  '
+                &= '<div class="message-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque risus mi, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum felis venenatis efficitur. Aenean ac eleifend lacus, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.</div>'
+                = '<br>'
+                &= '</article>'
+            %br
+              %a.button.ics-clipboard{"data-clipboard-target" => "#mess-code"}
+%section#notifications.section
+  .container
+    %h1 Notification
+    %hr
+      .columns
+        .column
+          .notification.is-primary Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eleifend at velit et sodales. Praesent pretium tellus at lacinia condimentum.
+          .notification.is-success Praesent quis massa ex. Vestibulum erat neque, ultricies et accumsan a, ultrices ut orci. 
+          .notification.is-secondary Nullam sed placerat erat. Mauris non leo placerat, consequat arcu eu, mollis leo. Fusce nec feugiat quam, nec elementum nibh.        
+        .column
+          .box
+            %pre
+              %code#note-code.html
+                &= '<div class="notification is-primary">'
+                = '<br>  '
+                &= '  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eleifend at velit et sodales. Praesent pretium tellus at lacinia condimentum.'
+                = '<br>'
+                &= '</div>'
+                = '<br>'
+                &= '<div class="notification is-success">'
+                = '<br>  '
+                &= '  Praesent quis massa ex. Vestibulum erat neque, ultricies et accumsan a, ultrices ut orci.'
+                = '<br>'
+                &= '</div>'
+                = '<br>'
+                &= '<div class="notification is-secondary">'
+                = '<br>  '
+                &= '  Nullam sed placerat erat. Mauris non leo placerat, consequat arcu eu, mollis leo. Fusce nec feugiat quam, nec elementum nibh.'
+                = '<br>'
+                &= '</div>'
+            %br
+              %a.button.ics-clipboard{"data-clipboard-target" => "#note-code"}
+%section#code.section
+  .container
+    %h1 Code
+    %hr
+      .columns
+        .column.is-1-2
+          .notification.is-black
+            %pre
+              %code.html
+                :preserve
+                  &lt;pre&gt;
+                      &lt;code id=&quot;xxx&quot; class=&quot;html&quot;&gt;&lt;/code&gt;
+                    &lt;/pre&gt;
+          .box.content.is-light
+            %p
+              For displaying color coded text. Uses
+              %a{:href => "https://highlightjs.org", :target => "_blank"} highlight.js
+              to figure out the syntax,
+              %a{:href => "https://clipboardjs.com", :target => "_blank"} clipboard.js
+              for copying the text without Flash, and the
+              %a{:href => "http://madmalik.github.io/mononoki/", :target => "_blank"} Mononoki font.
+        .column
+          .box
+            %pre
+              %code#mod-code.html
+                &= '<pre>'
+                = '<br>    '
+                &= '<code id="xxx" class="html"></code>'
+                = '<br>'
+                &= '</pre>'
+              %a.button.ics-clipboard{"data-clipboard-target" => "#mod-code"}
+= Haml::Engine.new(File.read("/Users/slee/Sites/flexspace/haml/footer.haml")).render

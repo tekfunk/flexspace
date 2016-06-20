@@ -44,7 +44,7 @@ disable-scroll {
 
 .toggle-window  {
   top: 0;
-  bottom: 0;
+bottom: 95vh;
   left: 0;
   right: 0;
   padding: 1em;
@@ -79,10 +79,16 @@ disable-scroll {
        }
   }
 }
-  
+
+#toggle-window {  
+//  display: none;
+
+}
+
 .toggle-window-open #toggle-window {
   bottom: 0;
   opacity: 1;
+  display: flex;
   -webkit-transition: opacity 200ms linear, bottom 0 linear;
   -moz-transition: opacity 200ms linear, bottom 0 linear;
   -o-transition: opacity 200ms linear, bottom 0 linear;
