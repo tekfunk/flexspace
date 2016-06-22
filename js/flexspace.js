@@ -3,17 +3,7 @@
 // Code Clipboard		
 new Clipboard('.button');
 
-// Isotope	
-var $container = $('#isotope-list')
-$container.isotope({
-	resizable: false,
-	masonry: { columnWidth: $container.width() / 100 }
-});
-$(window).smartresize(function(){
-  $container.isotope({
-    masonry: { columnWidth: $container.width() / 100 }
-  });
-});
+
 $(document).ready(function(){
 	$('.loading').delay(100).fadeOut('fast'); 
 });

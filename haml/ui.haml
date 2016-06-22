@@ -1,4 +1,6 @@
 = Haml::Engine.new(File.read("/Users/slee/Sites/flexspace/haml/header.haml")).render
+.loading.is-primary
+  .loading-circles
 %section.hero.is-primary
   .has-flxs-head-4
     .hero-body
@@ -54,35 +56,29 @@
         .column
           .box
             %pre
-              %code#mod-box.html
-                &= '<div class="box">'
-                = '<br> '
-                &= '<p></p>'
-                = '<br>'
-                &= '</div>'
-            %br
-              %a.button.ics-clipboard{"data-clipboard-target" => "#mod-box"}
-          .box
-            %pre
               %code#ui-1.html
-                &= '<a class="button">' 
-                = '<br>   '
-                &= '<i class="ics-bones"></i><span>Throw Dice</span></a>' 
+                &= '<a class="button">Button</a>'
                 = '<br>'
-                &= '</a>' 
+                &= '<a class="button is-white">White</a>'
+                = '<br>'
+                &= '<a class="button is-light">Light</a>'
+                = '<br>'
+                &= '<a class="button is-dark">Dark</a>'
+                = '<br>'
+                &= '<a class="button is-black">Black</a>'
+                = '<br>'
+                &= '<a class="button is-link">Link</a>'
                 = '<br>'
                 = '<br>'
-                &= '<a class="button is-primary"><i class="ics-headphones"></i><span>Listen</span></a>'
+                &= '<a class="button is-primary">Primary</a>'
                 = '<br>'
-                &= '<a class="button is-secondary is-outlined"><i class="ics-lightbulb"></i><span>Get Ideas</span></a>'
+                &= '<a class="button is-red">Red</a>'
                 = '<br>'
-                &= '<a class="button is-success"><i class="ics-circlecheck"></i>OK</a>'
+                &= '<a class="button is-accent">Accent</a>'
                 = '<br>'
-                &= '<a class="button is-small">Small</a>'
+                &= '<a class="button is-success">Success</a>'
                 = '<br>'
-                &= '<a class="button is-medium">Medium</a>'
-                = '<br>'
-                &= '<a class="button is-large">Large</a>'
+                &= '<a class="button is-alert">Alert</a>'
                 = '<br>'
             %br
             %a.button.ics-clipboard{"data-clipboard-target" => "#ui-1"}
@@ -127,14 +123,14 @@
             .box
               %pre
                 %code#ui-2.html
-                  &= '<a class="button is-primary">' 
+                  &= '<a class="button">' 
                   = '<br>   '
                   &= '<i class="ics-bones"></i><span>Throw Dice</span>' 
                   = '<br>'
                   &= '</a>' 
                   = '<br>'
                   = '<br>'
-                  &= '<a class="button is-secondary is-outlined">' 
+                  &= '<a class="button is-primary">' 
                   = '<br>   '
                   &= '<i class="ics-headphones"></i><span>Listen</span>' 
                   = '<br>'
