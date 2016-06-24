@@ -11,7 +11,7 @@
  /**     &:visited {
 	      color: $text;
       } **/
-      &:not(.icon) {
+      &:not(i) {
         border-bottom: 1px solid $border;
 
         &:hover {

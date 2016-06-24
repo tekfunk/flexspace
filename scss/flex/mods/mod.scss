@@ -1,7 +1,3 @@
-
-
-
-
 .mod-header {
   align-items: stretch;
   box-shadow: 0 1px 2px rgba($black, 0.1);
@@ -22,6 +18,11 @@
   margin-bottom: .25em;
 }
 
+.mod-header-title > h2 > i {
+  font-size: .9em;
+  margin-right: .25em;
+}
+
 .mod-header-title h4 {
   font-size: 1em;
   font-weight: 500;
@@ -30,13 +31,6 @@
   margin-bottom: .25em;
 }
 
-.mod-header-icon {
-  align-items: center;
-  cursor: pointer;
-  justify-content: center;
-  width: 40px;
-  padding-top: 10px;
-}
 
 .mod-image {
   display: block;
@@ -74,7 +68,7 @@
   float: left;
   margin-right: .9em;
   text-transform: uppercase;
-  background-image: url("http://media.casadereyes.net/xfr/calblank.svg");
+  background-image: url("../art/calblank.svg");
   background-size: cover;
 }
 
@@ -174,13 +168,13 @@ margin-bottom: .25em;
 }
 
 .mod-footer-item:hover {
-  background-color: #2957a6;
-  color: #FFF;
+  background-color: $primary;
+  color: $primary-invert;
 }
 
 .mod-footer-item.is-active {
-  background-color: #2957a6;
-  color: #FFF;
+  background-color: $primary;
+  color: $primary-invert;
 }
 
 /* MOD FOOTER TOOLTIP */
@@ -236,7 +230,7 @@ margin-bottom: .25em;
 .mod-footer-item .tooltip:after {
   border-left: solid transparent 10px;
   border-right: solid transparent 10px;
-  border-top: solid #2957a6 10px;
+  border-top: solid $primary 10px;
   bottom: -10px;
   content: " ";
   height: 0;

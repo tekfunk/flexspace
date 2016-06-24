@@ -117,7 +117,7 @@ color: #f0f0f0;
 
 #page-nav a{ color: #f0f0f0; font-size: .7em; font-weight: bold; letter-spacing: .05;}
 
-h1 { color:#2957a6;}
+h1 { color: $primary;}
 
 #animate .column h1 { text-align: center;font-size:1.3em;
 text-align: center;
@@ -132,11 +132,9 @@ h3 a{ font-weight: bold; }
 
 
 
-h2 {color: #2957a6}
+h2 {color: $primary}
 
-.footer { background-color: #2957a6}
-.blue { background-color: #2957a6}
-
+.footer { background-color: $primary }
 
 .is-red { color: $red; }
 .is-brick { color: $brick; }
