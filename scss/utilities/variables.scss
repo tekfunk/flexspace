@@ -1,0 +1,133 @@
+//Colors
+
+$primary: #2957a6 !default;
+$secondary: #fbb041 !default;
+$accent: #49425a !default;
+$danger: #ed0a3f !default;
+$alert: #fce473 !default;
+$success: #008080 !default;
+$pastel: #f9f9ef !default;
+$paper: #fcfcfc !default;
+$text: #3a3a3a !default;
+
+//Greyscale
+
+$light: #fafbfa !default;
+$dark: #2a2a2a !default;
+$black: #1a1a1a !default;
+$grey-darker: #2a2a2a !default;
+$grey-dark: #3a3a3a !default;
+$grey: #aeb1b5 !default;
+$grey-light: #d3d6db !default;
+$grey-lighter: #fafbfa !default;
+$white: #ffffff !default;
+
+//Type
+
+$font-headline: "DINPro", sans-serif !default;
+$font-button: "DINPro", sans-serif !default;
+$font-text: "DINPro", sans-serif !default;
+$font-code: "Mononoki", "Source Code Pro", monospace !default;
+$size-xlrg: 48px !default;
+$size-lrg: 40px !default;
+$size-big: 28px !default;
+$size-med: 24px !default;
+$size-title: 18px !default;
+$size-text: 14px !default;
+$size-small: 11px !default;
+$weight-normal: 400 !default;
+$weight-bold: 700 !default;
+$weight-title-normal: 400 !default;
+$weight-title-bold: 500 !default;
+
+//Layout
+
+$phone: 481px !default;
+$tablet: 769px !default;
+$desktop: 980px !default;
+$widescreen: 1180px !default;
+$column-gap: 20px !default;
+$nav-height: 50px !default;
+
+// Miscellaneous
+
+$easing: ease-out !default;
+$speed: 86ms !default;
+$btn-radius: 2px !default;
+$box-radius: 0px !default;
+$radius: 2px !default;
+
+// Backgrounds and images
+
+$flxs-hero-1: url('../art/blue-hero-03.svg') ;
+$flxs-hero-2: url('../art/blue-hero-02.svg') ;
+$flxs-hero-3: url('../art/gear-lined.svg') ;
+$flxs-hero-4: url('../art/gear-bknd.svg') ;
+
+$bkd-image-1: url('../art/img-4998.jpg');
+$bkd-image-2: url('../art/IMG_7001.jpg');
+$bkd-image-3: url('../art/IMG_2051.jpg');
+$bkd-image-4: url('../art/IMG_8952.jpg');
+
+$flxs-head-1: url('../art/blue-dot-01.svg') ;
+$flxs-head-2: url('../art/blue-dot-02.svg') ;
+$flxs-head-3: url('../art/blue-dot-03.svg') ;
+$flxs-head-4: url('../art/blue-dot-04.svg') ;
+
+$bkd-pattern-1: url('../art/radiate.svg');
+$bkd-pattern-2: url('../art/dot-space-2.svg');
+$bkd-pattern-3: url('../art/dot-space-3.svg');
+$bkd-pattern-4: url('../art/dot-space-4.svg');
+
+// Inverted colors
+
+$primary-invert: findColorInvert($primary) !default;
+$secondary-invert: findColorInvert($secondary) !default;
+$accent-invert: findColorInvert($accent) !default;
+$success-invert: findColorInvert($success) !default;
+$alert-invert: findColorInvert($alert) !default;
+$danger-invert: findColorInvert($danger) !default;
+$pastel-invert: findColorInvert($pastel) !default;
+$light-invert: $dark !default;
+$dark-invert: $light !default;
+
+// Link colors
+
+$link: $primary !default;
+$link-invert: $primary-invert !default;
+$link-visited: $grey-darker !default;
+$link-hover: $dark !default;
+$link-hover-background: $primary !default;
+$link-hover-border: $primary !default;
+$link-active: $grey-darker !default;
+$link-active-border: $accent !default;
+
+// Text colors
+
+$text-invert: findColorInvert($text) !default;
+$text-light: $grey !default;
+$text-strong: $grey-darker !default;
+
+// Background & border colors
+
+$body-background: $grey-lighter !default;
+$background: $grey-lighter !default;
+$border: $grey-light !default;
+$border-hover: $grey !default;
+
+// Control colors
+
+$control: $text-strong !default;
+$control-background: $text-invert !default;
+$control-border: $border !default;
+$control-hover: $grey-dark !default;
+$control-hover-border: $border-hover !default;
+$control-active: $link !default;
+$control-active-background: $link !default;
+$control-active-background-invert: $link-invert !default;
+$control-active-border: $link !default;
+
+// Lists
+
+$colors: (white: ($white, $black), black: ($black, $white), light: ($light, $light-invert), dark: ($dark, $dark-invert), primary: ($primary, $primary-invert), secondary: ($secondary, $secondary-invert), accent: ($accent, $accent-invert), pastel: ($pastel, $pastel-invert), danger: ($danger, $danger-invert), success: ($success, $success-invert), alert: ($alert, $alert-invert)) !default;
+$sizes: $size-small $size-text $size-title $size-med $size-big $size-lrg $size-xlrg !default;

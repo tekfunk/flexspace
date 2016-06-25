@@ -11,13 +11,10 @@
       .container
         .block.has-text-centered
           %a.button.is-primary{:href => "#button"} button
+          %a.button.is-primary{:href => "#form"} form
           %a.button.is-primary{:href => "#nav"} nav
           %a.button.is-primary{:href => "#toggle"} toggle
-          %a.button.is-primary.is-disabled{:href => "#tabs"} tabs
-          %a.button.is-primary.is-disabled{:href => "#panel"} panel
           %a.button.is-primary.is-disabled{:href => "#menu"} menu
-          %a.button.is-primary.is-disabled{:href => "#form"} form
-          %a.button.is-primary.is-disabled{:href => "#pagination"} pagination
 %section#button.section
   .container
     %h1 Button
@@ -33,7 +30,7 @@
             %a.button.is-link Link
           .media.block.to-edges
             %a.button.is-primary Primary
-            %a.button.is-red Red
+            %a.button.is-danger Red
             %a.button.is-accent Accent
             %a.button.is-success Success
             %a.button.is-alert Alert
@@ -72,7 +69,7 @@
                 = '<br>'
                 &= '<a class="button is-primary">Primary</a>'
                 = '<br>'
-                &= '<a class="button is-red">Red</a>'
+                &= '<a class="button is-danger">Red</a>'
                 = '<br>'
                 &= '<a class="button is-accent">Accent</a>'
                 = '<br>'
@@ -259,6 +256,43 @@
                       &= '</p>'
                   %br
                   %a.button.ics-clipboard{"data-clipboard-target" => "#ui-4"}
+%section#form.section
+  .container
+    %h1 Form
+    %hr
+    .columns
+      .column.is-1-2
+        %form{:action => "#"}
+          %div
+            %label{:for => "name"} Name:
+            %input#name.input{:name => "name", :placeholder => "John Smith", :type => "text"}/
+          %fieldset.control
+            %legend Gender
+            %label.label{:for => "radio-choice-1"} Male
+            %input#radio-choice-1.radio{:name => "radio-choice", :type => "radio", :value => "choice-1"}/
+            %label.label{:for => "radio-choice-2"} Female
+            %input#radio-choice-2.radio{:name => "radio-choice", :type => "radio", :value => "choice-2"}/
+          .select-wrapper
+            %label{:for => "select-choice"} Age:
+            .styled-select{:for => "select-choice"}
+              %span.select
+                %select#select-choice.select{:name => "select-choice"}
+                  %option{:value => "Choice 1"} Choice 1
+                  %option{:value => "Choice 2"} Choice 2
+                  %option{:value => "Choice 3"} Choice 3
+          .clr
+            %label{:for => "textarea"} Favorite Quote:
+            %br/
+            %textarea#textarea.textarea{:cols => "40", :name => "textarea", :rows => "8"}
+          %div
+            %input#checkbox.checkbox{:name => "checkbox", :type => "checkbox"}/
+            %label{:for => "checkbox"} I agree to Terms & Conditions
+          %br/
+          %br/
+          %div
+            %input.input{:type => "submit", :value => "Submit"}/
+            .clr
+      .column.is-1-2      
 %section#nav.section
   .container
     %h1 Nav
@@ -455,29 +489,9 @@
                   &= '</div>'
               %br
               %a.button.ics-clipboard{"data-clipboard-target" => "#ui-6"}
-%section#panel.section
-  .container
-    %h1 Panel
-    %hr
-      .content Coming Soon.
 %section#menu.section
   .container
     %h1 Menu
-    %hr
-      .content Coming Soon.
-%section#form.section
-  .container
-    %h1 Form
-    %hr
-      .content Coming Soon.
-%section#tabs.section
-  .container
-    %h1 Tabs
-    %hr
-      .content Coming Soon.
-%section#pagination.section
-  .container
-    %h1 Pagination
     %hr
       .content Coming Soon.
 = Haml::Engine.new(File.read("/Users/slee/Sites/flexspace/haml/footer.haml")).render
