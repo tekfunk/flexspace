@@ -7,6 +7,15 @@
   position: relative;
   text-align: center;
   z-index: 2;
+  
+  &.is-fixed {
+    position: fixed;
+    top:0;
+    width: 100%;
+    -webkit-box-shadow: inset 0px 1px 1px 1px rgba(0,0,0,0.2);
+    -moz-box-shadow: inset 0px 1px 1px 1px rgba(0,0,0,0.2);
+    box-shadow: inset 0px 1px 1px 1px rgba(0,0,0,0.2);  
+  }
 
   & > .container {
     align-items: stretch;
