@@ -40,6 +40,14 @@ $weight-bold: 700 !default;
 $weight-title-normal: 400 !default;
 $weight-title-bold: 500 !default;
 
+//Animation
+
+$easing: ease-out !default;
+$speed: 86ms !default;
+$fast: .1s !default;
+$medium: .3s !default;
+$slow: .5s !default;
+
 //Layout
 
 $phone: 481px !default;
@@ -49,10 +57,8 @@ $widescreen: 1180px !default;
 $column-gap: 20px !default;
 $nav-height: 50px !default;
 
-// Miscellaneous
+// Shape
 
-$easing: ease-out !default;
-$speed: 86ms !default;
 $btn-radius: 2px !default;
 $box-radius: 0px !default;
 $radius: 2px !default;

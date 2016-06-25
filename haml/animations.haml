@@ -100,6 +100,25 @@
                 &= '</script>'
             %br
             %a.button.ics-clipboard{"data-clipboard-target" => "#g2"}
+%section#transitions.section
+  .container
+    %h1
+      Transitions 
+      .badge.is-accent.is-alert.is-small{:style => "margin:12px 0 0 8px;"} In Progress
+    %hr
+      .columns
+        .column.is-1-4
+          %a.button.is-primary.is-large.btn-out
+            Out
+        .column.is-1-4
+          %a.button.is-accent.is-large.btn-in
+            In
+        .column.is-1-4
+          %a.button.is-secondary.is-large.btn-out-hrz
+            Out Horz
+        .column.is-1-4
+          %a.button.is-success.is-large.in-hrz
+            In Horz
 %section#progress.section
   .container
     %h1 Progress Bars
