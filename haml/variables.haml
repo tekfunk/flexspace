@@ -13,373 +13,328 @@
           %a.button.is-primary{:href => "#Colors"} colors
           %a.button.is-primary{:href => "#Type"} type
           %a.button.is-primary{:href => "#Layout"} layout
+          %a.button.is-primary{:href => "#Backgrounds"} backgrounds
+          %a.button.is-primary{:href => "#Mappings"} mappings
 %section#Colors.section
   .container
     %h1 Colors
     %hr
-      %h4 Site
-      .columns.is-gapless
-        .column.is-2-5
-          .mod
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title
-                %strong $primary
-            .mod-content{:style => "background-color: #2957a6"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title #2957a6
-        .column.is-1-5
-          .mod
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title
-                %strong $secondary
-            .mod-content{:style => "background-color: #fbb041"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title #fbb041
-        .column.is-1-5
-          .mod
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title
-                %strong $accent
-            .mod-content{:style => "background-color: #49425a"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title #49425a
-        .column.is-1-5
-          .mod
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title
-                %strong $pastel
-            .mod-content{:style => "background-color: #f9f9ef"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title #f9f9ef
-      %h4 Greyscale
-      .columns.is-gapless
-        .column.is-1-8
-          .mod
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title
-                %strong $black
-            .mod-content{:style => "background-color: #2a2a2a"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title #1a1a1a
-        .column.is-1-8
-          .mod
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title
-                %strong $grey-darker
-            .mod-content{:style => "background-color: #2a2a2a"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title #2a2a2a
-        .column.is-1-8
-          .mod
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title
-                %strong $grey-dark
-            .mod-content{:style => "background-color: #3a3a3a"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title #3a3a3a
-        .column.is-2-8
-          .mod
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title
-                %strong $grey
-            .mod-content{:style => "background-color: #aeb1b5"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title #aeb1b5
-        .column.is-1-8
-          .mod
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title
-                %strong $grey-light
-            .mod-content{:style => "background-color: #d3d6db"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title #d3d6db
-        .column.is-1-8
-          .mod
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title
-                %strong $grey-lighter
-            .mod-content{:style => "background-color: #f5f7fa"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title #f5f7fa
-        .column.is-1-8
-          .mod
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title
-                %strong $white
-            .mod-content{:style => "background-color: #ffffff"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title #ffffff
-      %h4 Crayons
-      .columns.is-gapless.is-stacked
-        .column.is-1-12
-          .mod
-            .mod-header
-              %p.mod-header-title
-                %strong $red
-            .mod-content{:style => "background-color: #ed0a3f"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title #ed0a3f
-        .column.is-1-12
-          .mod
-            .mod-header
-              %p.mod-header-title
-                %strong $brick
-            .mod-content{:style => "background-color: #C62D42"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title #C62D42
-        .column.is-1-12
-          .mod
-            .mod-header
-              %p.mod-header-title
-                %strong $orange
-            .mod-content{:style => "background-color: #FF8833"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title #FF8833
-        .column.is-1-12
-          .mod
-            .mod-header
-              %p.mod-header-title
-                %strong $maize
-            .mod-content{:style => "background-color: #F2C649"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title #F2C649
-        .column.is-1-12
-          .mod
-            .mod-header
-              %p.mod-header-title
-                %strong $yellow
-            .mod-content{:style => "background-color: #fce473"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title #fce473
-        .column.is-1-12
-          .mod
-            .mod-header
-              %p.mod-header-title
-                %strong $olive
-            .mod-content{:style => "background-color: #B5B35C"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title #B5B35C
-        .column.is-1-12
-          .mod
-            .mod-header
-              %p.mod-header-title
-                %strong $green
-            .mod-content{:style => "background-color: #3AA655"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title #3AA655
-        .column.is-1-12
-          .mod
-            .mod-header
-              %p.mod-header-title
-                %strong $teal
-            .mod-content{:style => "background-color: #008080"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title #008080
-        .column.is-1-12
-          .mod
-            .mod-header
-              %p.mod-header-title
-                %strong $blue
-            .mod-content{:style => "background-color: #0066FF"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title #0066FF
-        .column.is-1-12
-          .mod
-            .mod-header
-              %p.mod-header-title
-                %strong $cobalt
-            .mod-content{:style => "background-color: #8C90C8"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title #8C90C8
-        .column.is-1-12
-          .mod
-            .mod-header
-              %p.mod-header-title
-                %strong $violet
-            .mod-content{:style => "background-color: #8359a3"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title #8359a3
-        .column.is-1-12
-          .mod
-            .mod-header
-              %p.mod-header-title
-                %strong $sepia
-            .mod-content{:style => "background-color: #9E5B40"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title #9E5B40
       .box.content.is-light
-        %p Various Colors get mapped to different UI and layout elements. SCSS computes inverted colors for the core palette. These can be overwritten with whatever color you choose.
-      %h4 UI
-      .columns.is-gapless.is-stacked
-        .column.is-1-6
-          .mod
-            .mod-header
-              %p.mod-header-title
-                %strong $success
-            .mod-content{:style => "background-color: #3AA655"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title $green
-        .column.is-1-6
-          .mod
-            .mod-header
-              %p.mod-header-title
-                %strong $alert
-            .mod-content{:style => "background-color: #fce473"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title $yellow
-      .columns.is-gapless.is-stacked
-        .column.is-1-6
-          .mod
-            .mod-header
-              %p.mod-header-title
-                %strong $link
-            .mod-content{:style => "background-color: #2957a6"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title $primary
-        .column.is-1-6
-          .mod
-            .mod-header
-              %p.mod-header-title
-                %strong $link-invert
-            .mod-content{:style => "background-color: #fce473"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title $primary-invert
-        .column.is-1-8
-          .mod
-            .mod-header
-              %p.mod-header-title
-                %strong $link-visited
-            .mod-content{:style => "background-color: #49425a"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title $accent
-        .column.is-1-8
-          .mod
-            .mod-header
-              %p.mod-header-title
-                %strong $link-hover
-            .mod-content{:style => "background-color: #2a2a2a"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title $grey-darker
-        .column.is-1-8
-          .mod
-            .mod-header
-              %p.mod-header-title
-                %strong $link-hover-background
-            .mod-content{:style => "background-color: #f5f7fa"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title $grey-lighter
-        .column.is-1-8
-          .mod
-            .mod-header
-              %p.mod-header-title
-                %strong $link-hover-border
-            .mod-content{:style => "background-color: #2a2a2a"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title $grey-darker
-        .column.is-1-8
-          .mod
-            .mod-header
-              %p.mod-header-title
-                %strong $link-active
-            .mod-content{:style => "background-color: #2a2a2a"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title $grey-darker
-        .column.is-1-6
-          .mod
-            .mod-header
-              %p.mod-header-title
-                %strong $link-active-border
-            .mod-content{:style => "background-color: #2a2a2a"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title $grey-darker
-      .columns.is-gapless.is-stacked
-        .column.is-1-6
-          .mod
-            .mod-header
-              %p.mod-header-title
-                %strong $text
-            .mod-content{:style => "background-color: #3a3a3a"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title $grey-dark
-        .column.is-1-6
-          .mod
-            .mod-header
-              %p.mod-header-title
-                %strong $text-invert
-            .mod-content{:style => "background-color: #cacaca"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title findColorInvert($text)
-        .column.is-1-6
-          .mod
-            .mod-header
-              %p.mod-header-title
-                %strong $text-light
-            .mod-content{:style => "background-color: #aeb1b5"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title $grey
-        .column.is-1-6
-          .mod
-            .mod-header
-              %p.mod-header-title
-                %strong $text-strong
-            .mod-content{:style => "background-color: #2a2a2a"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title $grey-darker
-      .columns.is-gapless.is-stacked
-        .column.is-1-6
-          .mod
-            .mod-header
-              %p.mod-header-title
-                %strong $light
-            .mod-content{:style => "background-color: #f5f7fa"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title $grey-lighter
-        .column.is-1-6
-          .mod
-            .mod-header
-              %p.mod-header-title
-                %strong $dark
-            .mod-content{:style => "background-color: #3a3a3a"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title $grey-dark
-        .column.is-1-6
-          .mod
-            .mod-header
-              %p.mod-header-title
-                %strong $body-background
-            .mod-content{:style => "background-color: #f5f7fa"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title $grey-lighter
-        .column.is-1-6
-          .mod
-            .mod-header
-              %p.mod-header-title
-                %strong $background
-            .mod-content{:style => "background-color: #f5f7fa"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title $grey-lighter
-        .column.is-1-6
-          .mod
-            .mod-header
-              %p.mod-header-title
-                %strong $border
-            .mod-content{:style => "background-color: #d3d6db"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title $grey-light
-        .column.is-1-6
-          .mod
-            .mod-header
-              %p.mod-header-title
-                %strong $border-hover
-            .mod-content{:style => "background-color: #aeb1b5"}
-            .mod-header{:style => "text-align: center;"}
-              %p.mod-header-title $grey
+        %p Adjustable color palette.
       .columns
         .column.is-1-2
           %table.table.is-bordered.is-striped.is-narrow
             %tbody
               %tr
-                %td $primary-invert
+                %th Variable
+                %th Value
+                %th Preview
+              %tr
+                %td{:style => "width: 35%;"} $primary
+                %td #2957a6
+                %td{:style => "width: 20%;background-color: #2957a6"} 
+              %tr
+                %td $secondary
+                %td #fbb041
+                %td{:style => "background-color: #fbb041"} 
+              %tr
+                %td $accent
+                %td #49425a
+                %td{:style => "background-color: #49425a"} 
+              %tr
+                %td $danger
+                %td #ed0a3f
+                %td{:style => "background-color: #ed0a3f"} 
+              %tr
+                %td $alert
+                %td #fce473
+                %td{:style => "background-color: #fce473"} 
+              %tr
+                %td $success
+                %td #008080
+                %td{:style => "background-color: #008080"} 
+              %tr
+                %td $pastel
+                %td #f9f9ef
+                %td{:style => "background-color: #f9f9ef"} 
+              %tr
+                %td $paper
+                %td #fcfcfc
+                %td{:style => "background-color: #fcfcfc"} 
+              %tr
+                %td $text
+                %td #3a3a3a
+                %td{:style => "background-color: #3a3a3a"} 
+  
+        .column.is-1-2
+          %table.table.is-bordered.is-striped.is-narrow
+            %tbody
+              %tr
+                %th Variable
+                %th Value
+                %th Preview
+              %tr
+                %td{:style => "width: 35%;"}  $light
+                %td #fafbfa
+                %td{:style => "width: 20%;background-color: #fafbfa"} 
+              %tr
+                %td $dark
+                %td #2a2a2a
+                %td{:style => "background-color: #2a2a2a"} 
+              %tr
+                %td $white
+                %td #ffffff
+                %td{:style => "background-color: #ffffff"} 
+              %tr
+                %td $grey-lighter
+                %td #fafbfa
+                %td{:style => "background-color: #fafbfa"} 
+              %tr
+                %td $grey-light
+                %td #d3d6db
+                %td{:style => "background-color: #d3d6db"} 
+              %tr
+                %td $grey
+                %td #aeb1b5
+                %td{:style => "background-color: #aeb1b5"} 
+              %tr
+                %td $grey-dark
+                %td #3a3a3a
+                %td{:style => "background-color: #3a3a3a"} 
+              %tr
+                %td $grey-darker
+                %td #2a2a2a
+                %td{:style => "background-color: #2a2a2a"} 
+              %tr
+                %td $black
+                %td #1a1a1a
+                %td{:style => "background-color: #1a1a1a"} 
+%section#Type.section
+  .container
+    %h1 Type
+    %hr
+      .box.content.is-light
+        %p Fonts, sizes, and weights.
+      .columns
+        .column.is-1-2
+          %table.table.is-bordered.is-striped.is-narrow
+            %tbody
+              %tr
+                %th Variable
+                %th Value
+                %th Preview
+              %tr
+                %td $font-headline
+                %td "DINPro", sans-serif !default;
+                %td 
+                  %h1 DINPro
+              %tr
+                %td $font-button
+                %td "DINPro", sans-serif !default;
+                %td.button DINPro
+              %tr
+                %td $font-text
+                %td "DINPro", sans-serif !default;
+                %td.content DINPro
+              %tr
+                %td $font-code
+                %td "Mononoki", monospace !default;
+                %td.code{:style => "font-family:'Mononoki', monospace;"} Mononoki
+              %tr
+                %td $weight-normal
+                %td 400;
+                %td{:style => "font-size: 18px;font-weight: 400;"} 400
+              %tr
+                %td $weight-bold
+                %td 700;
+                %td{:style => "font-size: 18px;font-weight: 700;"} 700
+              %tr
+                %td $weight-title-normal
+                %td 300;
+                %td{:style => "font-size: 18px;font-weight: 300;"} 300
+              %tr
+                %td $weight-title-bold
+                %td 500;
+                %td{:style => "font-size: 18px;font-weight: 500;"} 500
+        .column.is-1-2
+          %table.table.is-bordered.is-striped.is-narrow
+            %tbody
+              %tr
+                %th Variable
+                %th Value
+                %th Preview
+              %tr
+                %td $size-xlrg
+                %td 48px;
+                %td{:style => "font-size: 48px;"} 48px
+              %tr
+                %td $size-lrg
+                %td 40px;
+                %td{:style => "font-size: 40px;"} 40px
+              %tr
+                %td $size-big
+                %td 28px;
+                %td{:style => "font-size: 28px;"} 28px
+              %tr
+                %td $size-med
+                %td 24px;
+                %td{:style => "font-size: 24px;"} 24px
+              %tr
+                %td $size-title
+                %td 18px;
+                %td{:style => "font-size: 18px;"} 18px
+              %tr
+                %td $size-text
+                %td 14px;
+                %td{:style => "font-size: 14px;"} 14px
+              %tr
+                %td $size-small
+                %td 11px;
+                %td{:style => "font-size: 11px;"} 11px
+%section#Layout.section
+  .container
+    %h1 Layout
+    %hr
+      .box.content.is-light
+        %p 
+      .columns
+        .column
+          %table.table.is-bordered.is-striped.is-narrow
+            %tbody
+              %tr
+                %th Variable
+                %th Value
+              %tr
+                %td $phone
+                %td 481px
+              %tr
+                %td $tablet
+                %td 769px
+              %tr
+                %td $desktop
+                %td 980px
+              %tr
+                %td $widescreen
+                %td 1180px
+              %tr
+                %td $column-gap
+                %td 20px
+              %tr
+                %td $nav-height
+                %td 50px
+        .column
+          %table.table.is-bordered.is-striped.is-narrow
+            %tbody
+              %tr
+                %th Variable
+                %th Value
+              %tr
+                %td $easing
+                %td ease-out
+              %tr
+                %td $radius
+                %td 3px
+              %tr
+                %td $speed
+                %td 86ms
+%section#Backgrounds.section
+  .container
+    %h1 Backgrounds
+    %hr
+      .columns
+        .column.is-1-2
+          %table.table.is-bordered.is-striped.is-narrow
+            %tbody
+              %tr
+                %th Variable
+                %th Value
+                %th Preview
+              %tr
+                %td{:style => "width: 20%;"} $flxs-hero-1
+                %td url('../art/blue-hero-03.svg') ;
+                %td.has-flxs-hero-1{:style => "height: 60px;"}        
+              %tr
+                %td{:style => "width: 20%;"} $flxs-hero-2
+                %td url('../art/blue-hero-02.svg') ;
+                %td.has-flxs-hero-2{:style => "height: 60px;"}        
+              %tr
+                %td{:style => "width: 20%;"} $flxs-hero-3
+                %td url('../art/gear-lined.svg') ;
+                %td.has-flxs-hero-3{:style => "height: 60px;"}        
+              %tr
+                %td{:style => "width: 20%;"} $flxs-hero-4
+                %td url('../art/gear-bknd.svg') ;
+                %td.has-flxs-hero-4{:style => "height: 60px;"}        
+              %tr
+                %td{:style => "width: 20%;"} $bkd-image-1
+                %td url('../art/img-4998.jpg') ;
+                %td.has-bkd-image-1{:style => "height: 60px;"}        
+              %tr
+                %td{:style => "width: 20%;"} $bkd-image-2
+                %td url('../art/IMG_7001.jpg') ;
+                %td.has-bkd-image-2{:style => "height: 60px;"}        
+              %tr
+                %td{:style => "width: 20%;"} $bkd-image-3
+                %td url('../art/IMG_2051.jpg') ;
+                %td.has-bkd-image-3{:style => "height: 60px;"}        
+              %tr
+                %td{:style => "width: 20%;"} $bkd-image-4
+                %td url('../art/IMG_8952.jpg') ;
+                %td.has-bkd-image-4{:style => "height: 60px;"}        
+        .column.is-1-2
+          %table.table.is-bordered.is-striped.is-narrow
+            %tbody
+              %tr
+                %th Variable
+                %th Value
+                %th Preview
+              %tr
+                %td{:style => "width: 20%;"} $flxs-head-1
+                %td url('../art/blue-dot-01.svg') ;
+                %td.has-flxs-head-1{:style => "height: 60px;"}
+              %tr
+                %td{:style => "width: 20%;"} $flxs-head-2
+                %td url('../art/blue-dot-02.svg') ;
+                %td.has-flxs-head-2{:style => "height: 60px;"}
+              %tr
+                %td{:style => "width: 20%;"} $flxs-head-3
+                %td url('../art/blue-dot-03.svg') ;
+                %td.has-flxs-head-3{:style => "height: 60px;"}
+              %tr
+                %td{:style => "width: 20%;"} $flxs-head-4
+                %td url('../art/blue-dot-04.svg') ;
+                %td.has-flxs-head-4{:style => "height: 60px;"}
+              %tr
+                %td{:style => "width: 20%;"} $bkd-pattern-1
+                %td url('../art/radiate.svg') ;
+                %td.has-bkd-pattern-1{:style => "height: 60px;"}
+              %tr
+                %td{:style => "width: 20%;"} $bkd-pattern-2
+                %td url('../art/dot-space-2.svg') ;
+                %td.has-bkd-pattern-2{:style => "height: 60px;"}
+              %tr
+                %td{:style => "width: 20%;"} $bkd-pattern-3
+                %td url('../art/dot-space-3.svg') ;
+                %td.has-bkd-pattern-3{:style => "height: 60px;"}
+              %tr
+                %td{:style => "width: 20%;"} $bkd-pattern-4
+                %td url('../art/dot-space-4.svg') ;
+                %td.has-bkd-pattern-4{:style => "height: 60px;"}
+%section#Mappings.section
+  .container
+    %h1 Mappings
+    %hr
+      .box.content.is-light
+        %p 
+      .columns
+        .column.is-1-3
+          %table.table.is-bordered.is-striped.is-narrow
+            %tbody
+              %tr
+                %th Variable
+                %th Value
+              %tr
+                %td{:style => "width: 50%;"}  $primary-invert
                 %td findColorInvert($primary)
               %tr
                 %td $accent-invert
@@ -399,11 +354,77 @@
               %tr
                 %td $dark-invert
                 %td $light
-        .column.is-1-2
+              %tr
+                %td $text-invert
+                %td findColorInvert($text)
+              %tr
+                %td $text-light
+                %td $grey
+              %tr
+                %td $text-strong
+                %td $grey-darker 
+              %tr
+                %td $code
+                %td $red
+              %tr
+                %td $code-background
+                %td $background
+              %tr
+                %td $pre
+                %td $text
+              %tr
+                %td $pre-background
+                %td $background
+        .column.is-1-3
           %table.table.is-bordered.is-striped.is-narrow
             %tbody
               %tr
-                %td $control
+                %th Variable
+                %th Value
+              %tr
+                %td{:style => "width: 50%;"} $link
+                %td $primary
+              %tr
+                %td $link-invert
+                %td $primary-invert
+              %tr
+                %td $link-visited
+                %td $grey-darker
+              %tr
+                %td $link-hover
+                %td $dark
+              %tr
+                %td $link-hover-background
+                %td $primary
+              %tr
+                %td $link-hover-border
+                %td $primary
+              %tr
+                %td $link-active
+                %td $grey-darker
+              %tr
+                %td $link-active-border
+                %td $accent 
+              %tr
+                %td $body-background
+                %td $grey-lighter 
+              %tr
+                %td $background
+                %td $grey-lighter
+              %tr
+                %td $border
+                %td $grey-light
+              %tr
+                %td $border-hover
+                %td $grey
+        .column.is-1-3
+          %table.table.is-bordered.is-striped.is-narrow
+            %tbody
+              %tr
+                %th Variable
+                %th Value
+              %tr
+                %td{:style => "width: 50%;"} $control
                 %td $text-strong
               %tr
                 %td $control-background
@@ -429,136 +450,4 @@
               %tr
                 %td $control-active-border
                 %td $link
-%section#Type.section
-  .container
-    %h1 Type
-    %hr
-      .box.content.is-light
-        %p Map your fonts, sizes, and weights with these.
-      .columns
-        .column
-          %table.table.is-bordered.is-striped.is-narrow
-            %tbody
-              %tr
-                %td $font-headline
-                %td &quot;SimianText-Orangutan&quot;, sans-serif !default;
-              %tr
-                %td $family-sans-serif
-                %td &quot;DINPro&quot;, sans-serif !default;
-              %tr
-                %td $family-monospace
-                %td "Source Code Pro", "Monaco", "Inconsolata", monospace
-              %tr
-                %td $size-1
-                %td 48px
-              %tr
-                %td $size-2
-                %td 40px
-              %tr
-                %td $size-3
-                %td 28px
-              %tr
-                %td $size-4
-                %td 24px
-              %tr
-                %td $size-5
-                %td 18px
-              %tr
-                %td $size-6
-                %td 14px
-              %tr
-                %td $size-7
-                %td 11px
-              %tr
-                %td $weight-normal
-                %td 400
-              %tr
-                %td $weight-bold
-                %td 700
-              %tr
-                %td $weight-title-normal
-                %td 300
-              %tr
-                %td $weight-title-bold
-                %td 500
-      .box.content.is-light
-        %p Here are additional type related mappings.
-      .columns
-        .column
-          %table.table.is-bordered.is-striped.is-narrow
-            %tbody
-              %tr
-                %td $family-primary
-                %td $family-sans-serif
-              %tr
-                %td $family-code
-                %td $family-monospace
-              %tr
-                %td $size-small
-                %td $size-7
-              %tr
-                %td $size-normal
-                %td $size-6
-              %tr
-                %td $size-medium
-                %td $size-5
-              %tr
-                %td $size-large
-                %td $size-3
-              %tr
-                %td $size-huge
-                %td $size-1
-        .column
-          %table.table.is-bordered.is-striped.is-narrow
-            %tbody
-              %tr
-                %td $code
-                %td $red
-              %tr
-                %td $code-background
-                %td $background
-              %tr
-                %td $pre
-                %td $text
-              %tr
-                %td $pre-background
-                %td $background
-%section#Layout.section
-  .container
-    %h1 Layout
-    %hr
-      .columns
-        .column
-          %table.table.is-bordered.is-striped.is-narrow
-            %tbody
-              %tr
-                %td $phone
-                %td 481px
-              %tr
-                %td $tablet
-                %td 769px
-              %tr
-                %td $desktop
-                %td 980px
-              %tr
-                %td $widescreen
-                %td 1180px
-              %tr
-                %td $column-gap
-                %td 20px
-              %tr
-                %td $nav-height
-                %td 50px
-        .column
-          %table.table.is-bordered.is-striped.is-narrow
-            %tbody
-              %tr
-                %td $easing
-                %td ease-out
-              %tr
-                %td $radius
-                %td 3px
-              %tr
-                %td $speed
-                %td 86ms
 = Haml::Engine.new(File.read("/Users/slee/Sites/flexspace/haml/footer.haml")).render

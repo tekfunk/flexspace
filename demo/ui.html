@@ -7,7 +7,7 @@
   </head>
   <body></body>
   <header></header>
-  <nav class='nav'>
+  <nav class='nav is-fixed'>
     <div class='nav-left'>
       <div class='logo'>
         <a href='/index.html'>
@@ -105,13 +105,10 @@
 <div class='container'>
 <div class='block has-text-centered'>
 <a class='button is-primary' href='#button'>button</a>
+<a class='button is-primary' href='#form'>form</a>
 <a class='button is-primary' href='#nav'>nav</a>
 <a class='button is-primary' href='#toggle'>toggle</a>
-<a class='button is-primary is-disabled' href='#tabs'>tabs</a>
-<a class='button is-primary is-disabled' href='#panel'>panel</a>
 <a class='button is-primary is-disabled' href='#menu'>menu</a>
-<a class='button is-primary is-disabled' href='#form'>form</a>
-<a class='button is-primary is-disabled' href='#pagination'>pagination</a>
 </div>
 </div>
 </div>
@@ -133,7 +130,7 @@
 </div>
 <div class='media block to-edges'>
 <a class='button is-primary'>Primary</a>
-<a class='button is-red'>Red</a>
+<a class='button is-danger'>Red</a>
 <a class='button is-accent'>Accent</a>
 <a class='button is-success'>Success</a>
 <a class='button is-alert'>Alert</a>
@@ -159,7 +156,7 @@ variable.
 </div>
 <div class='column'>
 <div class='box'>
-<pre><code class='html' id='ui-1'>&lt;a class=&quot;button&quot;&gt;Button&lt;/a&gt;<br>&lt;a class=&quot;button is-white&quot;&gt;White&lt;/a&gt;<br>&lt;a class=&quot;button is-light&quot;&gt;Light&lt;/a&gt;<br>&lt;a class=&quot;button is-dark&quot;&gt;Dark&lt;/a&gt;<br>&lt;a class=&quot;button is-black&quot;&gt;Black&lt;/a&gt;<br>&lt;a class=&quot;button is-link&quot;&gt;Link&lt;/a&gt;<br><br>&lt;a class=&quot;button is-primary&quot;&gt;Primary&lt;/a&gt;<br>&lt;a class=&quot;button is-red&quot;&gt;Red&lt;/a&gt;<br>&lt;a class=&quot;button is-accent&quot;&gt;Accent&lt;/a&gt;<br>&lt;a class=&quot;button is-success&quot;&gt;Success&lt;/a&gt;<br>&lt;a class=&quot;button is-alert&quot;&gt;Alert&lt;/a&gt;<br></code></pre>
+<pre><code class='html' id='ui-1'>&lt;a class=&quot;button&quot;&gt;Button&lt;/a&gt;<br>&lt;a class=&quot;button is-white&quot;&gt;White&lt;/a&gt;<br>&lt;a class=&quot;button is-light&quot;&gt;Light&lt;/a&gt;<br>&lt;a class=&quot;button is-dark&quot;&gt;Dark&lt;/a&gt;<br>&lt;a class=&quot;button is-black&quot;&gt;Black&lt;/a&gt;<br>&lt;a class=&quot;button is-link&quot;&gt;Link&lt;/a&gt;<br><br>&lt;a class=&quot;button is-primary&quot;&gt;Primary&lt;/a&gt;<br>&lt;a class=&quot;button is-danger&quot;&gt;Red&lt;/a&gt;<br>&lt;a class=&quot;button is-accent&quot;&gt;Accent&lt;/a&gt;<br>&lt;a class=&quot;button is-success&quot;&gt;Success&lt;/a&gt;<br>&lt;a class=&quot;button is-alert&quot;&gt;Alert&lt;/a&gt;<br></code></pre>
 <br>
 <a class='button ics-clipboard' data-clipboard-target='#ui-1'></a>
 </div>
@@ -313,6 +310,60 @@ on
 </hr>
 </div>
 </section>
+<section class='section' id='form'>
+<div class='container'>
+<h1>
+Form
+<div class='badge is-alert is-small' style='margin:12px 0 0 8px;'>In Progress</div>
+</h1>
+<hr>
+<div class='columns'>
+<div class='column is-1-2'>
+<form action='#'>
+<div>
+<label for='name'>Name:</label>
+<input class='input' id='name' name='name' placeholder='John Smith' type='text'>
+</div>
+<fieldset class='control'>
+<legend>Gender</legend>
+<label class='label' for='radio-choice-1'>Male</label>
+<input class='radio' id='radio-choice-1' name='radio-choice' type='radio' value='choice-1'>
+<label class='label' for='radio-choice-2'>Female</label>
+<input class='radio' id='radio-choice-2' name='radio-choice' type='radio' value='choice-2'>
+</fieldset>
+<div class='select-wrapper'>
+<label for='select-choice'>Age:</label>
+<div class='styled-select' for='select-choice'>
+<span class='select'>
+<select class='select' id='select-choice' name='select-choice'>
+<option value='Choice 1'>Choice 1</option>
+<option value='Choice 2'>Choice 2</option>
+<option value='Choice 3'>Choice 3</option>
+</select>
+</span>
+</div>
+</div>
+<div class='clr'>
+<label for='textarea'>Favorite Quote:</label>
+<br>
+<textarea class='textarea' cols='40' id='textarea' name='textarea' rows='8'></textarea>
+</div>
+<div>
+<input class='checkbox' id='checkbox' name='checkbox' type='checkbox'>
+<label for='checkbox'>I agree to Terms & Conditions</label>
+</div>
+<br>
+<br>
+<div>
+<input class='input' type='submit' value='Submit'>
+<div class='clr'></div>
+</div>
+</form>
+</div>
+<div class='column is-1-2'></div>
+</div>
+</div>
+</section>
 <section class='section' id='nav'>
 <div class='container'>
 <h1>Nav</h1>
@@ -412,7 +463,11 @@ For a
 use
 <strong>.has-shadow</strong>.
 </p>
-<p>&nbsp;</p>
+<p>
+Use
+<code>&lt;nav class="nav is-fixed"&gt;&lt;/nav&gt;</code>
+to fix the nav to the top of the window.
+</p>
 </div>
 </div>
 <div class='column is-1-2'>
@@ -490,41 +545,9 @@ etc to assign colors to
 </hr>
 </div>
 </section>
-<section class='section' id='panel'>
-<div class='container'>
-<h1>Panel</h1>
-<hr>
-<div class='content'>Coming Soon.</div>
-</hr>
-</div>
-</section>
 <section class='section' id='menu'>
 <div class='container'>
 <h1>Menu</h1>
-<hr>
-<div class='content'>Coming Soon.</div>
-</hr>
-</div>
-</section>
-<section class='section' id='form'>
-<div class='container'>
-<h1>Form</h1>
-<hr>
-<div class='content'>Coming Soon.</div>
-</hr>
-</div>
-</section>
-<section class='section' id='tabs'>
-<div class='container'>
-<h1>Tabs</h1>
-<hr>
-<div class='content'>Coming Soon.</div>
-</hr>
-</div>
-</section>
-<section class='section' id='pagination'>
-<div class='container'>
-<h1>Pagination</h1>
 <hr>
 <div class='content'>Coming Soon.</div>
 </hr>
