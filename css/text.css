@@ -1,0 +1,59 @@
+@keyframes fd-in-down {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -2000px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fd-in-down {
+  animation-name: fd-in-down;
+}
+
+@keyframes fd-in-right {
+  from {
+    opacity: 0;
+    transform: translate3d(2000px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fd-in-right {
+  animation-name: fd-in-right;
+}
+
+@keyframes fd-in-up {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 2000px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fd-in-up {
+  animation-name: fd-in-up;
+}
+
+@keyframes fd-in-left {
+  from {
+    opacity: 0;
+    transform: translate3d(-2000px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fd-in-left {
+  animation-name: fd-in-left;
+}

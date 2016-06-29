@@ -11,6 +11,7 @@
       .container
         .block.has-text-centered
           %a.button.is-primary{:href => "#loaders"} loaders
+          %a.button.is-primary{:href => "#text"} text
           %a.button.is-primary{:href => "#hover"} hover
           %a.button.is-primary{:href => "#transitions"} transitions
           %a.button.is-primary{:href => "#progress"} progress
@@ -101,6 +102,51 @@
                 &= '</script>'
             %br
             %a.button.ics-clipboard{"data-clipboard-target" => "#g2"}
+%section#text.section
+  .container
+    %h1
+      Text
+      .badge.is-accent.is-alert.is-small{:style => "margin:12px 0 0 8px;"} In Progress
+    %hr
+      .box.content.is-light 
+        %p
+          These animations are best used on headline text. Use
+          %code .anime .fd-in-down
+          to animate a div. Click on a box to see the animation. ( Currently this only works once per page load. )
+      .columns
+        .column.is-1-8
+          %div.message.is-primary.fd-in-down
+            .message-header
+              Fade In
+            .message-body
+              %h1 Down
+              %code 
+                &= '.fd-in-down'
+        .column.is-1-8
+          %div.message.is-primary.fd-in-right
+            .message-header
+              Fade In
+            .message-body
+              %h1 Right
+              %code 
+                &= '.fd-in-right'
+        .column.is-1-8
+          %div.message.is-primary.fd-in-up
+            .message-header
+              Fade In
+            .message-body
+              %h1 Up
+              %code 
+                &= '.fd-in-up'
+        .column.is-1-8
+          %div.message.is-primary.fd-in-left
+            .message-header
+              Fade In
+            .message-body
+              %h1 Left
+              %code 
+                &= '.fd-in-left'
+      #debug.columns
 %section#hover.section
   .container
     %h1

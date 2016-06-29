@@ -35,20 +35,4 @@ $(document).keyup(function(event) {
 	}
 });
 
-$('.fd-in-down').on('click', function(event) {
-  $(this).addClass('anime');
-});
-$('.fd-in-right').on('click', function(event) {
-  $(this).addClass('anime');
-});
-$('.fd-in-up').on('click', function(event) {
-  $(this).addClass('anime');
-});
-$('.fd-in-left').on('click', function(event) {
-  $(this).addClass('anime');
-});
-
-
-
-
 } )( jQuery );

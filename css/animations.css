@@ -2,6 +2,7 @@
   animation-duration: 1s;
   animation-fill-mode: both;
 }
+
 .anime-slow {
   animation-duration: 3s;
   animation-fill-mode: both;
@@ -11,12 +12,10 @@
   animation-iteration-count: infinite;
 }
 
-
 @keyframes spin-around {
   from {
     transform: rotate(0deg);
   }
-
   to {
     transform: rotate(359deg);
   }
