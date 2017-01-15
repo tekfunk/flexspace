@@ -153,6 +153,13 @@ margin-bottom: .25em;
   flex: 1;
   justify-content: center;
   padding: 10px;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  -webkit-transform: translateZ(0);
+  /* webkit flicker fix */
+  -webkit-font-smoothing: antialiased;
+  /* webkit text rendering fix */
   &:not(:last-child) {
     border-right: 1px solid $border;
   }
@@ -163,6 +170,7 @@ margin-bottom: .25em;
       }
 
 }
+
 .mod-footer-item.is-disabled {
   color: #c0c0c0;
 }
@@ -179,13 +187,8 @@ margin-bottom: .25em;
 
 /* MOD FOOTER TOOLTIP */
 
-.mod-footer-item {
-  position: relative;
-  text-align: center;
-  -webkit-transform: translateZ(0);
-  /* webkit flicker fix */
-  -webkit-font-smoothing: antialiased;
-  /* webkit text rendering fix */
+.mod-footer-item > [class^="ics-"] { 
+  margin-right: .25em; 
 }
 
 .mod-footer-item .tooltip {
@@ -194,7 +197,7 @@ margin-bottom: .25em;
   bottom: 100%;
   color: #fff;
   display: block;
-  left: 1em;
+  left: -25%; 
   margin-bottom: 15px;
   opacity: 0;
   padding: 20px;
