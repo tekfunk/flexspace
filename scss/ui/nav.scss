@@ -149,8 +149,7 @@ li.nav-item  {
   & > ul {
     padding: 0;
     position: absolute;
-    //top: 32px;CASA
-    top: 43px;//flex
+    top: $nav-height;
     right: 0;
     width: 150px;
     -webkit-box-shadow: none;
