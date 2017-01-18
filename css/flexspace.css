@@ -1106,7 +1106,7 @@ h6 {
   min-height: 32px;
   position: relative;
   text-align: center;
-  z-index: 2; }
+  z-index: 3; }
   .header:after {
     clear: both;
     content: " ";
